@@ -32,19 +32,19 @@ The result: A living database that enables AI applications impossible for any si
 
 ## How It Works
 
-### 🏗️ **Data Collection Network**
+### **Data Collection Network**
 - **Miners** compete to discover and submit property data from diverse sources
 - **Field-level rewards** encourage comprehensive data collection across 100+ property attributes  
 - **Discovery bonuses** reward miners who find new properties or rare data fields first
 - **Multi-dimensional scoring** based on data quality, rarity, and validation confidence
 
-### 🛡️ **Anti-Gaming Consensus**
+### **Anti-Gaming Consensus**
 - **Blind validation** prevents miners from seeing others' submissions during consensus
 - **Field-level consensus** requires multiple miners to agree on each data point independently
 - **Confidence scoring** tracks reliability of each field with dynamic reward adjustments
 - **Property existence validation** prevents fake property submissions through random validator checks
 
-### ⚡ **Real-Time Intelligence**
+### **Real-Time Intelligence**
 - **Delta detection** rewards miners for identifying ownership changes, sales, and market updates
 - **Maintenance mode** keeps 150M+ US properties continuously updated with low latency
 - **Specialized mining strategies** emerge naturally through economic incentives
@@ -53,27 +53,27 @@ The result: A living database that enables AI applications impossible for any si
 
 Our reward system enables diverse specialization approaches:
 
-- **🌊 Volume Miners**: Scrape Zillow/Redfin APIs for basic property attributes across large geographic areas
-- **🎯 Specialist Miners**: Focus on county assessor offices for tax records, ownership data, and legal information  
-- **⚡ Delta Hunters**: Monitor MLS feeds, sale records, and public filings for real-time property changes
-- **💎 Rare Field Miners**: Target hard-to-find data like permits, liens, HOA information, and off-market intelligence
-- **🔍 Validator-Miners**: Hybrid strategy earning rewards from both data collection and consensus validation
-- **🏛️ Maintenance Miners**: Specialize in keeping existing records current with high-confidence updates
+- **Volume Miners**: Scrape Zillow/Redfin APIs for basic property attributes across large geographic areas
+- **Specialist Miners**: Focus on county assessor offices for tax records, ownership data, and legal information  
+- **Delta Hunters**: Monitor MLS feeds, sale records, and public filings for real-time property changes
+- **Rare Field Miners**: Target hard-to-find data like permits, liens, HOA information, and off-market intelligence
+- **Validator-Miners**: Hybrid strategy earning rewards from both data collection and consensus validation
+- **Maintenance Miners**: Specialize in keeping existing records current with high-confidence updates
 
 ## Key Features
 
-### 🚀 **Built for Scale**
+### **Built for Scale**
 - **National Coverage**: Designed to handle 150M+ US properties from day one
 - **Field-Level Granularity**: Miners can specialize on specific data types without needing complete property profiles
 - **Real-Time Updates**: Sub-minute latency for critical property changes like sales and ownership transfers
 
-### 💰 **Sophisticated Economics** 
+### **Sophisticated Economics** 
 - **Multi-dimensional rewards**: Discovery bonuses, confidence scoring, field-tier multipliers, and validation incentives
 - **Exponential decay**: Rewards drop significantly after consensus, preventing duplicate work
 - **Quality over quantity**: High-confidence rare data earns more than low-confidence common data
 - **Economic anti-gaming**: Consensus mechanisms make collusion unprofitable and detectable
 
-### 🔓 **Developer-Friendly Access**
+### **Developer-Friendly Access**
 - **Affordable pricing**: Accessible to startups without enterprise sales processes
 - **Modern infrastructure**: Sub-200ms response times with automatic scaling  
 - **Transparent validation**: Open source consensus rules and reward mechanisms
@@ -135,12 +135,12 @@ By training machine learning models on our comprehensive dataset - including own
 
 Unlike existing solutions, RESI:
 
-- **🚀 Removes barriers**: No enterprise sales process, documentation requirements, or minimum commitments
-- **🎯 Offers field-level precision** instead of expensive property-level data packages
-- **⚡ Provides real-time updates** through distributed monitoring vs. batch processing
-- **🤖 Enables AI innovation** with compute-to-data training without raw data exposure
-- **💡 Rewards data discovery** through specialized mining vs. maintenance-only models
-- **🌐 Scales intelligently** with field-level confidence and temporal decay algorithms
+- **Removes barriers**: No enterprise sales process, documentation requirements, or minimum commitments
+- **Offers field-level precision** instead of expensive property-level data packages
+- **Provides real-time updates** through distributed monitoring vs. batch processing
+- **Enables AI innovation** with compute-to-data training without raw data exposure
+- **Rewards data discovery** through specialized mining vs. maintenance-only models
+- **Scales intelligently** with field-level confidence and temporal decay algorithms
 
 ## Roadmap
 
