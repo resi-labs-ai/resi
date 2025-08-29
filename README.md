@@ -19,9 +19,9 @@
 
 Real estate data is the lifeblood of a $45 trillion industry, yet it's trapped behind three critical barriers:
 
-**1. Prohibitive Pricing**: Base-level access to comprehensive real estate databases with high costs $250K+ per year per customer.
+**1. Prohibitive Pricing**: Base-level access to comprehensive real estate databases come with unjustifiable costs to the tune of $250K+ per year per customer.
 
-**2. Data Fragmentation**: Critical property information is scattered across thousands of county assessors, MLS systems, and proprietary databases, requiring separate expensive contracts for each source.
+**2. Data Fragmentation**: Critical property information is scattered across thousands of county assessors, MLS systems, and tens of proprietary databases, requiring separate expensive contracts for each source.
 
 **3. Restrictive Terms**: Data providers use licensing terms that prevent AI companies like ChatGPT, Claude, and Grok from training on this data, protecting monopolistic moats while stifling innovation.
 
@@ -31,13 +31,14 @@ The result? Small businesses, researchers, and developers are completely priced 
 
 **RESI creates the first open, real-time, national real estate database powered by decentralized intelligence.**
 
-*Our manifesto: If closed-source data monopolies are the problem, then open-source decentralization is the solution. By creating an ecosystem that continuously learns from miner scraping and user data inputs, products on RESI will ultimately build collective super intelligence in real estate that drastically outperforms all closed systems.*
+*The Thesis: By creating an ecosystem that continuously learns from miner scraping, user data inputs, and behavior, products on RESI will ultimately build collective real estate super intelligence that drastically outperforms all closed systems.*
 
-We're opening Pandora's box on real estate data by enabling miners to collect from any accessible source - Zillow, county assessors, MLS feeds, and thousands of public records - then making it accessible through modern APIs with field-level confidence tracking and temporal decay algorithms.
+We're opening Pandora's box on real estate data by enabling miners to collect from any accessible source - Zillow, county assessors, thousands of public records, and even consumer behavior - then making it accessible through modern APIs with field-level confidence tracking and temporal decay algorithms.
 
 This creates a **real-time national database** that serves as the foundational infrastructure for highly profitable and scalable real estate solutions across all sectors. Unlike corporate data silos that price out innovation, our decentralized approach enables AI applications impossible for any single company to build.
 
-**The Vision**: Starting with 150M+ US properties, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
+**The Vision**: Start with 150M+ properties in the USA, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
+
 
 ## Decentralized Data Collection Architecture
 
@@ -64,9 +65,10 @@ This creates a **real-time national database** that serves as the foundational i
 - **Maintenance mode** keeps 150M+ US properties continuously updated with low latency
 - **Specialized mining strategies** emerge naturally through economic incentives
 
-## Miner Strategies & Emission Allocation
 
-Our reward system enables diverse specialization approaches with targeted emission percentages:
+## Miner Strategies & Emission Allocation 
+
+Our reward system enables diverse specialization approaches with targeted emission percentages; subject to changes:
 
 - **Volume Miners (30% of emissions)**: Scrape Zillow/Redfin APIs for basic property attributes across large geographic areas
 - **Specialist Miners (20% of emissions)**: Focus on county assessor offices for tax records, ownership data, and legal information  
@@ -78,23 +80,6 @@ Our reward system enables diverse specialization approaches with targeted emissi
 
 *Note: Miners declare their specialization strategy, and certain roles like maintenance mining may require whitelisted UIDs to maintain quality standards and prevent dilution of specialized services.*
 
-## Key Features
-
-### Built for Scale
-- **National Coverage**: Designed to handle 150M+ US properties from day one
-- **Field-Level Granularity**: Miners can specialize on specific data types without needing complete property profiles
-- **Real-Time Updates**: Sub-minute latency for critical property changes like sales and ownership transfers
-
-### Sophisticated Economics 
-- **Multi-dimensional rewards**: Discovery bonuses, confidence scoring, field-tier multipliers, and validation incentives
-- **Exponential decay**: Rewards drop significantly after consensus, preventing duplicate work
-- **Quality over quantity**: High-confidence rare data earns more than low-confidence common data
-- **Economic anti-gaming**: Consensus mechanisms make collusion unprofitable and detectable
-
-### Developer-Friendly Access
-- **Affordable pricing**: Accessible to startups without enterprise sales processes
-- **Modern infrastructure**: Sub-200ms response times with automatic scaling  
-- **Transparent validation**: Open source consensus rules and reward mechanisms
 
 ## Get Started
 
@@ -144,6 +129,26 @@ curl "https://api.resilabs.ai/v1/property?address=123%20Main%20St%20Beverly%20Hi
   -H "Authorization: Bearer <your_api_key>"
 ```
 
+
+## Key Features
+
+### Built for Scale
+- **National Coverage**: Designed to handle 150M+ US properties from day one
+- **Field-Level Granularity**: Miners can specialize on specific data types without needing complete property profiles
+- **Real-Time Updates**: Sub-minute latency for critical property changes like sales and ownership transfers
+
+### Sophisticated Economics 
+- **Multi-dimensional rewards**: Discovery bonuses, confidence scoring, field-tier multipliers, and validation incentives
+- **Exponential decay**: Rewards drop significantly after consensus, preventing duplicate work
+- **Quality over quantity**: High-confidence rare data earns more than low-confidence common data
+- **Economic anti-gaming**: Consensus mechanisms make collusion unprofitable and detectable
+
+### Developer-Friendly Access
+- **Affordable pricing**: Accessible to startups without enterprise sales processes
+- **Modern infrastructure**: Sub-200ms response times with automatic scaling  
+- **Transparent validation**: Open source consensus rules and reward mechanisms
+
+
 ## Platform Applications Built on RESI Data
 
 ### Seller Intent Prediction
@@ -159,6 +164,7 @@ By training machine learning models on our comprehensive dataset - including own
 
 This showcases how open real estate data enables innovation impossible within corporate data silos.
 
+
 ## Competitive Advantage
 
 Unlike existing solutions, RESI:
@@ -169,6 +175,7 @@ Unlike existing solutions, RESI:
 - **Enables AI training** on comprehensive datasets previously locked behind corporate walls
 - **Rewards data discovery** through specialized mining vs. maintenance-only models
 - **Scales intelligently** with field-level confidence and temporal decay algorithms
+
 
 ## Roadmap
 
@@ -190,6 +197,7 @@ Unlike existing solutions, RESI:
 - **Enterprise partnerships**: White-label solutions for large organizations
 - **Training marketplace**: Miners offer specialized AI training services using RESI data
 
+
 ## Team
 
 ### Core Team
@@ -198,10 +206,12 @@ Unlike existing solutions, RESI:
 
 *We're actively recruiting core developers who live and breathe Bittensor. Join us in building the infrastructure for the next generation of PropTech innovation.*
 
+
 ## Community & Support
 
 - **X/Twitter**: [Follow @resilabsai](https://twitter.com/resilabsai) for real-time updates and community discussions
 - **GitHub**: [Open source code](https://github.com/resi-labs-ai) and documentation
+
 
 ## Codebase Access *(Coming Soon)*
 
@@ -209,7 +219,7 @@ Unlike existing solutions, RESI:
 - **Miner Resources**: [Setup guides and optimization tips](https://docs.resilabs.ai/miners)
 - **Validator Resources**: [Consensus rules and best practices](https://docs.resilabs.ai/validators) 
 
-Get started with real estate intelligence:
+Get started with RESI API; Coming Soon:
 
 ```javascript
 // Limited preview through web demo at demo.resilabs.ai
@@ -225,8 +235,6 @@ const response = await fetch('https://api.resilabs.ai/v1/property/12345', {
 const property = await response.json();
 console.log(property);
 ```
-
-**[Join Waitlist for API Access →](https://resilabs.ai/waitlist)**
 
 ---
 
