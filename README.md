@@ -31,7 +31,7 @@ The result? Small businesses, researchers, and developers are completely priced 
 
 **RESI creates the first open, real-time, national real estate database powered by decentralized intelligence.**
 
-*Our manifesto: If closed-source data monopolies are the problem, then open-source decentralization is the solution. By creating an ecosystem for miner scraping and user data inputs, products on RESI will drastically outperform all closed systems.*
+*Our manifesto: If closed-source data monopolies are the problem, then open-source decentralization is the solution. By creating an ecosystem that continuously learns from miner scraping and user data inputs, products on RESI will ultimately build collective super intelligence in real estate that drastically outperforms all closed systems.*
 
 We're opening Pandora's box on real estate data by enabling miners to collect from any accessible source - Zillow, county assessors, MLS feeds, and thousands of public records - then making it accessible through modern APIs with field-level confidence tracking and temporal decay algorithms.
 
@@ -58,7 +58,7 @@ This creates a **real-time national database** that serves as the foundational i
 - **Property existence validation** prevents fake property submissions through random validator checks
 
 ### Real-Time Intelligence
-*Living database that updates as the market moves*
+*A living database that updates as the market moves*
 
 - **Delta detection** rewards miners for identifying ownership changes, sales, and market updates
 - **Maintenance mode** keeps 150M+ US properties continuously updated with low latency
