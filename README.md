@@ -15,14 +15,11 @@
 
 ---
 
-## The Problem: $250K+ Price Barriers, Data Fragmentation, and Restrictive Terms Lock Out Innovation
+## The Problem: Price Barriers, Data Fragmentation, and Restrictive Terms Lock Out Innovation
 
 Real estate data is the lifeblood of a $45 trillion industry, yet it's trapped behind three critical barriers:
 
-**1. Prohibitive Pricing**: Base-level access to comprehensive real estate databases costs $250K+ per year per customer:
-- Attom Data: $250K minimum + $0.05 per record
-- CoreLogic: $500K+ enterprise licensing  
-- Zillow: No bulk access, restrictive API rate limits
+**1. Prohibitive Pricing**: Base-level access to comprehensive real estate databases with high costs $250K+ per year per customer.
 
 **2. Data Fragmentation**: Critical property information is scattered across thousands of county assessors, MLS systems, and proprietary databases, requiring separate expensive contracts for each source.
 
@@ -34,13 +31,13 @@ The result? Small businesses, researchers, and developers are completely priced 
 
 **RESI creates the first open, real-time, national real estate database powered by decentralized intelligence.**
 
-*Our manifesto: If closed-source data monopolies are the problem, then open-source decentralization is the solution.*
+*Our manifesto: If closed-source data monopolies are the problem, then open-source decentralization is the solution. By creating an ecosystem for miner scraping and user data inputs, products on RESI will drastically outperform all closed systems.*
 
 We're opening Pandora's box on real estate data by enabling miners to collect from any accessible source - Zillow, county assessors, MLS feeds, and thousands of public records - then making it accessible through modern APIs with field-level confidence tracking and temporal decay algorithms.
 
 This creates a **real-time national database** that serves as the foundational infrastructure for highly profitable and scalable real estate solutions across all sectors. Unlike corporate data silos that price out innovation, our decentralized approach enables AI applications impossible for any single company to build.
 
-**The Vision**: Starting with 150M+ US properties, we're building infrastructure to scale globally - creating the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
+**The Vision**: Starting with 150M+ US properties, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
 
 ## Decentralized Data Collection Architecture
 
@@ -74,9 +71,10 @@ Our reward system enables diverse specialization approaches with targeted emissi
 - **Volume Miners (30% of emissions)**: Scrape Zillow/Redfin APIs for basic property attributes across large geographic areas
 - **Specialist Miners (20% of emissions)**: Focus on county assessor offices for tax records, ownership data, and legal information  
 - **Delta Hunters (15% of emissions)**: Monitor MLS feeds, sale records, and public filings for real-time property changes
-- **Rare Field Miners (10% of emissions)**: Target hard-to-find data like permits, liens, HOA information, and off-market intelligence
 - **Maintenance Miners (12.5% of emissions)**: Specialize in keeping existing records current with high-confidence updates
 - **Maintenance Validators (12.5% of emissions)**: Validate maintenance updates and ensure data quality standards
+- **Rare Field Miners (10% of emissions)**: Target hard-to-find data like permits, liens, HOA information, and off-market intelligence
+
 
 *Note: Miners declare their specialization strategy, and certain roles like maintenance mining may require whitelisted UIDs to maintain quality standards and prevent dilution of specialized services.*
 
@@ -153,7 +151,7 @@ curl "https://api.resilabs.ai/v1/property?address=123%20Main%20St%20Beverly%20Hi
 
 By training machine learning models on our comprehensive dataset - including ownership patterns, financial indicators, life events, and market conditions - we can identify selling signals invisible to traditional approaches. This enables real estate investors to approach prospects with personalized, data-driven insights.
 
-### Additional Applications Enabled by Open Data
+### Additional Applications Enabled by Open Data on RESI
 - **Market Analysis Tools**: Investment opportunity scoring and trend analysis
 - **CRM Enhancement**: Data enrichment for real estate professionals
 - **Legal Services**: Due diligence tools for attorneys and title companies  
@@ -174,14 +172,14 @@ Unlike existing solutions, RESI:
 
 ## Roadmap
 
-### Phase 1: Data Foundation
+### Phase 1: Data Foundation - API Launch
 - **National property database**: 150M+ US residential properties with core attributes
 - **Multi-source aggregation**: Platform enables miners to collect from any accessible data source
 - **Basic consensus mechanisms**: Field-level validation with anti-gaming protections
 - **Developer evaluation**: Limited preview access through web interface
 
-### Phase 2: Platform Applications
-- **Flagship AI products**: Launch seller intent prediction and market analysis tools
+### Phase 2: Platform Applications - Predict dot Casa Launch (v2)
+- **Flagship AI products**: Launch seller intent prediction, market analysis tools, Agent enabled CRM.
 - **API ecosystem**: Enable third-party developers to build on RESI data
 - **Compute-to-data services**: Train models without accessing raw datasets
 - **Customer revenue**: Transition from TAO emissions to sustainable business model
@@ -191,16 +189,6 @@ Unlike existing solutions, RESI:
 - **International markets**: Global property data collection networks
 - **Enterprise partnerships**: White-label solutions for large organizations
 - **Training marketplace**: Miners offer specialized AI training services using RESI data
-
-## Economics & Sustainability
-
-**Initial Funding**: Bittensor TAO emissions ($100K+ monthly) fund early miner rewards and infrastructure development. Raising a seed round in September/October 2024 - more details coming soon.
-
-**Revenue Model**: Affordable API access and compute-to-data AI training services generate revenue to fuel alpha buybacks and community incentives, transitioning from TAO emissions to sustainable business model
-
-**Customer Focus**: Real estate investors, PropTech startups, market researchers, and financial institutions drive demand for comprehensive property intelligence
-
-**Value Creation**: Open dataset enables innovation ecosystem while premium applications provide sustainable business model
 
 ## Team
 
