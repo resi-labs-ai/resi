@@ -64,19 +64,19 @@ class DataSource(IntEnum):
     REDDIT = 1
     X = 2
     YOUTUBE = 3
-    UNKNOWN_4 = 4
-    UNKNOWN_5 = 5
+    RAPID_ZILLOW = 4  # Zillow real estate data via RapidAPI
+    UNKNOWN_5 = 5     # Future: Could be RAPID_REDFIN, MLS_DIRECT, etc.
     UNKNOWN_6 = 6
     UNKNOWN_7 = 7
 
     @property
     def weight(self):
         weights = {
-            DataSource.REDDIT: 0.55,
-            DataSource.X: 0.35,
-            DataSource.YOUTUBE: 0.1,
-            DataSource.UNKNOWN_4: 0,
-            DataSource.UNKNOWN_5: 0,
+            DataSource.REDDIT: 0.0,         # Disabled for real estate focus
+            DataSource.X: 0.0,              # Disabled for real estate focus  
+            DataSource.YOUTUBE: 0.0,        # Disabled for real estate focus
+            DataSource.RAPID_ZILLOW: 1.0,   # Full weight for Zillow real estate data
+            DataSource.UNKNOWN_5: 0,        # Future real estate sources
             DataSource.UNKNOWN_6: 0,
             DataSource.UNKNOWN_7: 0
         }

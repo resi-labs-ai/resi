@@ -1,5 +1,5 @@
 # The MIT License (MIT)
-# Copyright © 2023 Data Universe
+# Copyright © 2025 Resi Labs
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 # documentation files (the “Software”), to deal in the Software without restriction, including without limitation
@@ -62,16 +62,16 @@ with codecs.open(
     version_string = version_match.group(1)
 
 setup(
-    name="bittensor_data_universe",
+    name="bittensor_resi",
     version=version_string,
-    description="Data Universe is a Bittensor subnet for collecting and storing large amounts of data from across a wide-range of sources, for use by other Subnets.",
+    description="RESI (Real Estate Super Intelligence) is a Bittensor subnet for collecting and storing real estate data from Zillow and other property sources.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/macrocosm-os/data-universe",
-    author="Data Universe Team",
+    url="https://github.com/resi-labs-ai/resi",
+    author="ResiLabs Team",
     packages=find_packages(),
     include_package_data=True,
-    author_email="hello@macrocosmos.ai",
+    author_email="support@resilabs.ai",
     license="MIT",
     python_requires=">=3.10",
     install_requires=requirements,

@@ -48,8 +48,8 @@ class ValidatorAPI:
     def _create_app(self) -> FastAPI:
         """Create and configure FastAPI application"""
         app = FastAPI(
-            title="Data Universe Validator API",
-            description="API for on-demand data queries from the Data Universe network",
+            title="RESI Validator API",
+            description="API for on-demand real estate data queries from the RESI network",
             version="1.0.0",
             docs_url=None,  # Disable default docs routes
             redoc_url=None,  # Disable default redoc route

@@ -9,6 +9,7 @@ from scraping.x.apidojo_scraper import ApiDojoTwitterScraper
 from scraping.x.quacker_url_scraper import QuackerUrlScraper
 from scraping.youtube.youtube_custom_scraper import YouTubeTranscriptScraper
 from scraping.youtube.invideoiq_transcript_scraper import YouTubeChannelTranscriptScraper
+from scraping.zillow.rapid_zillow_scraper import ZillowRapidAPIScraper
 
 
 DEFAULT_FACTORIES = {
@@ -20,7 +21,8 @@ DEFAULT_FACTORIES = {
     ScraperId.X_APIDOJO: ApiDojoTwitterScraper,
     ScraperId.X_QUACKER: QuackerUrlScraper,
     ScraperId.YOUTUBE_CUSTOM_TRANSCRIPT: YouTubeTranscriptScraper,
-    ScraperId.YOUTUBE_APIFY_TRANSCRIPT : YouTubeChannelTranscriptScraper
+    ScraperId.YOUTUBE_APIFY_TRANSCRIPT : YouTubeChannelTranscriptScraper,
+    ScraperId.RAPID_ZILLOW: ZillowRapidAPIScraper
 }
 
 

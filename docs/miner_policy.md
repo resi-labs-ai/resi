@@ -1,17 +1,18 @@
-# Macrocosmos Miner Data Compliance Policy
-
+# ResiLabs Miner Data Compliance Policy
 
 *Version 1.0, March 2025*
 
 ---
 
 ## Introduction
-As a miner on Macrocosmos Subnets, you play a crucial role in handling various types of data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data, and the expectations regarding prohibited content and acceptable use of Macrocosmos subnet code.
-We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in Macrocosmos seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
-Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. Macrocosmos is available to provide informal guidance if required (see contact information below).
+As a miner on ResiLabs Subnets, you play a crucial role in handling real estate data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data while scraping property information, and the expectations regarding prohibited content and acceptable use of ResiLabs subnet code.
+
+We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in ResiLabs seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
+
+Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. ResiLabs is available to provide informal guidance if required (see contact information below).
 
 ## 1. Your Responsibilities Under UK GDPR
-While Macrocosmos does not directly collect or process data, and seeks to avoid incentivising any collection or interaction with personal data, as a miner, you may be subject to GDPR obligations if your activities result in the inadvertent or accidental collection of personal data. We recommend that you put in place appropriate policies and procedures to accommodate this eventuality and set out below a summary of key responsibilities:
+While ResiLabs does not directly collect or process data, and seeks to avoid incentivising any collection or interaction with personal data, as a miner collecting real estate data, you may be subject to GDPR obligations if your property data scraping activities result in the inadvertent or accidental collection of personal data. We recommend that you put in place appropriate policies and procedures to accommodate this eventuality and set out below a summary of key responsibilities:
 1. Lawful Basis for Processing
     - You must ensure there is a lawful basis for collecting and processing any personal data (e.g., consent, legitimate interests, or legal obligation).
 2. Transparency
@@ -29,26 +30,34 @@ While Macrocosmos does not directly collect or process data, and seeks to avoid 
     - Notify the appropriate data protection authority (e.g., ICO) within 72 hours of becoming aware of a personal data breach.
 
 ## 2. Prohibited Content
-As a miner, you are strictly prohibited from collecting, processing, or transmitting the following types of content:
+As a real estate data miner, you are strictly prohibited from collecting, processing, or transmitting the following types of content:
 1. Illegal Content
     - Child abuse material or exploitation.
     - Hate speech, extremist propaganda, or content inciting violence.
     - Content related to human trafficking or modern slavery.
 2. Copyrighted Material
     - Content protected by copyright unless you have explicit permission or a valid license to use it.
+    - Proprietary real estate databases or MLS data without proper licensing.
 3. Explicit or Harmful Content
     - Pornographic or explicit imagery.
     - Content promoting self-harm, suicide, or drug abuse.
+4. Prohibited Real Estate Data
+    - Personal financial information of property owners or buyers.
+    - Private contact information beyond what is publicly available.
+    - Confidential transaction details not in public records.
 
-3. Acceptable Use Expectations
-Macrocosmos expects all miners to:
-Comply with platform-specific terms of service and relevant laws, including GDPR.
-Use Macrocosmos subnets for ethical and lawful purposes only.
-Regularly review and update your data collection and processing practices to ensure compliance with legal and ethical standards.
-Immediately cease processing any flagged or prohibited material and report concerns to the appropriate authorities where required.
+## 3. Acceptable Use Expectations
+ResiLabs expects all real estate data miners to:
+- Comply with platform-specific terms of service and relevant laws, including GDPR.
+- Use ResiLabs subnets for ethical and lawful real estate data collection purposes only.
+- Respect the terms of service of data sources (e.g., Zillow, RapidAPI).
+- Focus on publicly available property information and avoid private or confidential data.
+- Regularly review and update your data collection and processing practices to ensure compliance with legal and ethical standards.
+- Immediately cease processing any flagged or prohibited material and report concerns to the appropriate authorities where required.
+- Ensure real estate data collection serves legitimate business and research purposes.
 
-4. Commitment to Support
-Macrocosmos is committed to supporting miners in understanding and meeting their GDPR obligations. To help you navigate these requirements and ensure compliance, we provide the following guidance and resources:
+## 4. Commitment to Support
+ResiLabs is committed to supporting real estate data miners in understanding and meeting their GDPR obligations. To help you navigate these requirements and ensure compliance while collecting property data, we provide the following guidance and resources:
 
 ## **GDPR Guidance and Resources**
 1. Overview of GDPR Requirements
@@ -81,10 +90,13 @@ Macrocosmos is committed to supporting miners in understanding and meeting their
     - Practical answers to common GDPR compliance questions:
     - [GDPR FAQs from the European Data Protection Board](https://edpb.europa.eu/our-work-tools/our-documents/faqs_en)
 
-## **Support from Macrocosmos**
+## **Support from ResiLabs**
 1. Regular Updates and Communication
-    - Macrocosmos will provide updates on GDPR-related requirements and best practices through periodic communications.
+    - ResiLabs will provide updates on GDPR-related requirements and best practices for real estate data collection through periodic communications.
 2. Consultation Support
-    - If miners have specific questions or require clarification on GDPR obligations, Macrocosmos offers a support channel to address these concerns: compliance@macrocosmos.com
+    - If miners have specific questions or require clarification on GDPR obligations related to real estate data mining, ResiLabs offers a support channel to address these concerns: compliance@ResiLabs.ai
 3. Training Materials
-    - Macrocosmos may share training materials and resources from time to time to help miners enhance their understanding of GDPR compliance.
+    - ResiLabs may share training materials and resources from time to time to help miners enhance their understanding of GDPR compliance in the context of real estate data collection.
+4. Real Estate Data Best Practices
+    - Guidance on ethical collection of property data while respecting privacy and data protection laws.
+    - Updates on industry-specific compliance requirements for real estate data handling.

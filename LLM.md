@@ -4,14 +4,14 @@ This file provides guidance to LLM agents when working with code in this reposit
 
 ## Project Overview
 
-Data Universe is a Bittensor Subnet 13 for data scraping and sentiment analysis. It collects real-time data from social media sources (X/Twitter, Reddit, YouTube) and stores it in a distributed network of miners. Validators query miners and score them based on data quality, freshness, and diversity.
+RESI (Real Estate Super Intelligence) is Bittensor Subnet 46 for real estate data scraping and analysis. Built upon the proven architecture of Subnet 13 (Data Universe), it collects real-time property data primarily from Zillow via RapidAPI and stores it in a distributed network of miners. Validators query miners and score them based on data quality, freshness, and diversity to build the world's largest open real estate database.
 
 ### Core Architecture
 
 **Miners** (`neurons/miner.py`):
-- Scrape data from configured sources using the scraping system
-- Store data locally in SQLite databases via `SqliteMinerStorage`
-- Upload data to HuggingFace or S3 for public access
+- Scrape real estate data from Zillow via RapidAPI using the scraping system
+- Store property data locally in SQLite databases via `SqliteMinerStorage`
+- Upload data to S3 for public access
 - Serve data to validators through protocol requests
 
 **Validators** (`neurons/validator.py`):
@@ -21,7 +21,7 @@ Data Universe is a Bittensor Subnet 13 for data scraping and sentiment analysis.
 - Maintain a complete view of network data distribution
 
 **Data Model** (`common/data.py`):
-- `DataEntity`: Individual pieces of scraped data (tweets, posts, etc.)
+- `DataEntity`: Individual pieces of scraped data (property listings, assessor records, etc.)
 - `DataEntityBucket`: Logical grouping by source, time, and label
 - `DataEntityBucketId`: Unique identifier (DataSource + TimeBucket + DataLabel)
 - `CompressedMinerIndex`: Summary of miner's data for efficient querying
@@ -41,10 +41,10 @@ pip install -r requirements.txt
 ### Running Nodes
 ```bash
 # Run miner
-python neurons/miner.py --netuid 13 --subtensor.network <network> --wallet.name <wallet> --wallet.hotkey <hotkey>
+python neurons/miner.py --netuid 46 --subtensor.network <network> --wallet.name <wallet> --wallet.hotkey <hotkey>
 
 # Run validator  
-python neurons/validator.py --netuid 13 --subtensor.network <network> --wallet.name <wallet> --wallet.hotkey <hotkey>
+python neurons/validator.py --netuid 46 --subtensor.network <network> --wallet.name <wallet> --wallet.hotkey <hotkey>
 ```
 
 ### Testing
@@ -72,12 +72,13 @@ python -m pytest tests/storage/miner/test_sqlite_miner_storage.py
 
 ## Scraping System
 
-The scraping system is modular and configurable:
+The scraping system is modular and configurable for real estate data collection:
 
 - `ScraperCoordinator` (`scraping/coordinator.py`): Orchestrates multiple scrapers
 - `ScraperProvider` (`scraping/provider.py`): Factory for creating scrapers
-- Source-specific scrapers in `scraping/reddit/`, `scraping/x/`, `scraping/youtube/`
-- Configuration via JSON files in `scraping/config/`
+- Source-specific scrapers in `scraping/zillow/` for RapidAPI Zillow data collection
+- Configuration via JSON files in `scraping/config/` for property data sources
+- Primary data source: Zillow via RapidAPI for comprehensive property information
 
 ## Storage Systems
 
@@ -87,28 +88,26 @@ The scraping system is modular and configurable:
 
 **Validator Storage**:
 - Memory-based storage for miner indexes
-- S3 integration for large-scale data access
+- S3 integration for large-scale property data access
 
 ## Data Upload and Access
 
-**HuggingFace Integration**:
-- Dual uploader for metadata and datasets
-- Encoding system for privacy and data integrity
-
-**S3 Storage**:
-- Partitioned storage by miner hotkey
-- Efficient validator access to all miner data
+**S3 Storage (Primary)**:
+- Partitioned storage by miner hotkey for property data
+- Efficient validator access to all miner property datasets
 - Blockchain-based authentication
 
 ## Configuration
 
-- Miner configuration via command-line args and scraping config JSON
-- Validator configuration for scoring, timeouts, and data validation
-- Dynamic desirability updates from external systems
+- Miner configuration via command-line args and scraping config JSON for property data sources
+- Validator configuration for scoring, timeouts, and property data validation
+- Dynamic desirability updates for real estate market trends
+- RapidAPI key configuration required for Zillow data access
 
 ## Important Notes
 
-- Data older than 30 days is not scored
-- Miners are rewarded based on data value, freshness, and diversity
-- All data is anonymized before public upload
-- The system supports both organic (validator-initiated) and on-demand scraping
+- Property data older than 30 days is not scored
+- Miners are rewarded based on property data value, freshness, and diversity
+- All property data is anonymized before public upload
+- The system supports both organic (validator-initiated) and on-demand property scraping
+- Primary focus on US residential properties with plans for commercial and international expansion

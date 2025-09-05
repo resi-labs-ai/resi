@@ -16,4 +16,5 @@ VALID_SOURCES: dict[str, str] = {
     "reddit": "r/",
     "x": "#",
     "youtube": "",
+    "rapid_zillow": "zip:",
 }

@@ -1,8 +1,8 @@
 # Miner
 
-Miners scrape data from various DataSources and get rewarded based on how much valuable data they have (see the [Incentive Mechanism](../README.md#incentive-mechanism) for the full details). The incentive mechanism does not require a Miner to scrape from all DataSources, allowing Miners to specialize and choose exactly what kinds of data they want to scrape. However, Miners are scored, in part, based on the total amount of data they have, so Miners should make sure they are scraping sufficient amounts of data.
+Miners scrape real estate data from Zillow via RapidAPI and get rewarded based on how much valuable property data they have (see the [Incentive Mechanism](../README.md#incentive-mechanism) for the full details). The incentive mechanism focuses on property data quality, freshness, and coverage across different geographic areas and property types. Miners are scored based on the total amount of unique, valuable property data they collect.
 
-The Miner stores all scraped data in a local database.
+The Miner stores all scraped property data in a local database.
 
 # System Requirements
 
@@ -11,13 +11,45 @@ Miners do not require a GPU and should be able to run on a low-tier machine, as 
 # Getting Started
 
 ## Prerequisites
-1. As of Dec 17th 2023, we support Twitter and Reddit scraping via Apify. You can [setup your Apify API token here](apify.md), or build your own custom scraper (recommended). We also support Reddit scraping via a [personal reddit account](reddit.md) which is completely free. To support YouTube Scraping via a [official youtube api](youtube.md) which is completely free. 
 
+### Getting Your RapidAPI Zillow Key (Required)
+
+Miners need a RapidAPI key for Zillow to access real estate data. This is the primary data source that validators will verify against.
+
+**Step 1: Create a RapidAPI Account**
+1. Go to [RapidAPI.com](https://rapidapi.com/) and sign up for a free account
+2. Verify your email address
+
+**Step 2: Subscribe to Zillow API**
+1. Navigate to the [Zillow API on RapidAPI](https://rapidapi.com/apimaker/api/zillow-com1/)
+2. Click "Subscribe to Test" or "Pricing" to view available plans
+3. Choose a plan that fits your mining needs:
+   - **Basic Plan**: Usually includes 1,000+ requests/month (good for testing)
+   - **Pro Plans**: Higher request limits for serious mining operations
+4. Complete the subscription process
+
+**Step 3: Get Your API Key**
+1. After subscribing, you'll see your RapidAPI key in the "X-RapidAPI-Key" header
+2. Copy this key - you'll need it for your `.env` file
+
+**Step 4: Configure Your Environment**
+Add these to your `.env` file:
+```
+RAPIDAPI_KEY=YOUR_ACTUAL_API_KEY_HERE
+RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
+```
+
+**Important Notes:**
+- Keep your API key secure and never commit it to version control
+- Monitor your API usage to avoid overage charges
+- Higher-tier plans provide better mining opportunities with more requests
+
+For detailed setup instructions see the [RapidAPI documentation](rapidapi.md).
 
 2. Clone the repo
 
 ```shell
-git clone https://github.com/RusticLuftig/data-universe.git
+git clone https://github.com/resi-labs-ai/resi.git
 ```
 
 3. Setup your python [virtual environment](https://docs.python.org/3/library/venv.html) or [Conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
@@ -38,14 +70,14 @@ For this guide, we'll use [pm2](https://pm2.keymetrics.io/) to manage the Miner 
 
 ### Online
 
-From the data-universe folder, run:
+From the resi folder, run:
 ```shell
 pm2 start python -- ./neurons/miner.py --wallet.name your-wallet --wallet.hotkey your-hotkey
 ```
 
 ### Offline
 
-From the data-universe folder, run:
+From the resi folder, run:
 ```shell
 pm2 start python -- ./neurons/miner.py --offline
 ```
@@ -63,17 +95,18 @@ You can view the full set of flags by running
 python ./neurons/miner.py -h
 ```
 
-## Configuring 
+## Configuring Property Data Collection
 
-The frequency and types of data your Miner will scrape is configured in the [scraping_config.json](https://github.com/RusticLuftig/data-universe/blob/main/scraping/config/scraping_config.json) file. This file defines which scrapers your Miner will use. To customize your Miner, you either edit `scraping_config.json` or create your own file and pass its filepath via the `--neuron.scraping_config_file` flag. 
+The frequency and types of property data your Miner will scrape is configured in the [scraping_config.json](https://github.com/resi-labs-ai/resi/blob/main/scraping/config/scraping_config.json) file. This file defines which property data scrapers your Miner will use. To customize your Miner, you either edit `scraping_config.json` or create your own file and pass its filepath via the `--neuron.scraping_config_file` flag.
 
-By default `scraping_config.json` is setup use both the apify actor and the personal reddit account for scraping reddit.
+By default `scraping_config.json` is set up to use the Zillow RapidAPI scraper for collecting property data.
 
-If you do not want to use Apify you should remove the sections where the `scraper_id` is set to either `Reddit.lite` or `X.microworlds` or `X.apidojo`.
+The configuration focuses on:
+- **Geographic Coverage**: Different zip codes and metropolitan areas
+- **Property Types**: Residential properties, condos, townhomes, etc.
+- **Data Freshness**: Recently listed, sold, or updated properties
 
-If you do not want to use a personal Reddit account you should remove the sections where the `scraper_id` is set to either `Reddit.custom`.
-
-If either of them is in the configuration but not setup properly in your `.env` file then your miner will log errors but still scrape using any configured scrapers that are properly setup.
+If the Zillow RapidAPI configuration is not set up properly in your `.env` file, your miner will log errors and cannot collect property data.
 
 For each scraper, you can define:
 
@@ -83,27 +116,29 @@ For each scraper, you can define:
     2. `max_age_hint_minutes`: provides a hint to the scraper of the maximum age of data you'd like to collect for the chosen label. Not all scrapers provide date/time filters so this is a hint, not a rule.
     3. `max_data_entities`: defines the maximum number of items to scrape for this set of labels, each time the scraper runs. This gives you full control over the maximum cost of scraping data from paid sources (e.g. Apify)
 
-Let's walk through an example to explain how all these properties fit together.
+Let's walk through an example real estate scraping configuration:
 ```json
 {
     "scraper_configs": [
         {
-            "scraper_id": "X.apidojo",
-            "cadence_seconds": 300,
+            "scraper_id": "Zillow.rapid",
+            "cadence_seconds": 1800,
             "labels_to_scrape": [
                 {
                     "label_choices": [
-                        "#bittensor",
+                        "90210",
+                        "10001",
+                        "94102"
                     ],
-                    "max_age_hint_minutes": 1440,
-                    "max_data_entities": 100
+                    "max_age_hint_minutes": 2880,
+                    "max_data_entities": 50
                 },
                 {
                     "label_choices": [
-                        "#decentralizedfinance",
-                        "#btc"
+                        "33101",
+                        "60601"
                     ],
-                    "max_data_entities": 50
+                    "max_data_entities": 30
                 }
             ]
         }
@@ -111,9 +146,11 @@ Let's walk through an example to explain how all these properties fit together.
 }
 ```
 
-In this example, we configure the Miner to scrape using a single scraper, the "X.microworlds" scraper. The scraper will run every 5 minutes (300 seconds). When it runs, it'll run 2 scrapes:
-1. The first will be a scrape for at most 100 items with #bittensor. The data scrape will choose a random [TimeBucket](../README.md#terminology) in (now - max_age_in_minutes, now). The probability distribution used to select a TimeBucket matches the Validator's incentive for [Data Freshness](../README.md#1-data-freshness): that is, it's weighted towards newer data.
-2. The second will be a scrape for either #decentralizedfinance or #tao, chosen at random (uniformly). The scrape will scrape at most 50 items, and will use a random TimeBucket between now and the maximum data freshness threshold.
+In this example, we configure the Miner to scrape property data using the Zillow RapidAPI scraper. The scraper will run every 30 minutes (1800 seconds). When it runs, it'll perform 2 different scraping operations:
+1. The first will scrape at most 50 property listings from high-value zip codes (Beverly Hills, Manhattan, San Francisco). The scraper will focus on properties listed or updated within the last 48 hours (2880 minutes).
+2. The second will scrape at most 30 properties from other major metropolitan areas (Miami, Chicago), prioritizing the most recent listings.
+
+The scraper automatically selects random [TimeBuckets](../README.md#terminology) weighted toward newer data to match the Validator's incentive for [Data Freshness](../README.md#1-data-freshness).
 
 You can start your Miner with a different scraping config by passing the filepath to `--neuron.scraping_config_file`
 
@@ -124,6 +161,6 @@ As described in [on demand request handle](../docs/on_demand.md)
 
 As described in the [incentive mechanism](../README.md#incentive-mechanism), Miners are, in part, scored based on their data's desirability and uniqueness. We encourage Miners to tune their Miners to maximize their scores by scraping unique, desirable data.
 
-For uniqueness, you can [view the dashboard](../README.md#data-universe-dashboard) to see how much data, by DataSource and DataLabel is currently on the Subnet.
+For uniqueness, you can [view the dashboard](../README.md#resi-labs-dashboard) to see how much property data, by geographic area and property type, is currently on the Subnet.
 
-For desirability, the [DataDesirabilityLookup](https://github.com/RusticLuftig/data-universe/blob/main/rewards/data_desirability_lookup.py) defines the exact rules Validators use to compute data desirability.
+For desirability, the [DataDesirabilityLookup](https://github.com/resi-labs-ai/resi/blob/main/rewards/data_desirability_lookup.py) defines the exact rules Validators use to compute property data desirability. High-value areas, recently listed properties, and unique property types typically receive higher desirability scores.
