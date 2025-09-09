@@ -9,28 +9,33 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Get Started](#get-started) • [Documentation](#documentation) • [API Access](#api-access) • [Community](#community)
+[S3 Testing](#-immediate-action-s3-connectivity-test-required-for-all-validators--miners) • [Get Started](#get-started) • [Documentation](#documentation) • [Three-Repo Architecture](#three-repository-architecture)
 
 </div>
 
 ---
 
-# 🚨 PRE-LAUNCH NOTICE
+# 🚨 DEVELOPMENT STATUS
 
-> **⚠️ THIS CODE IS NOT LIVE YET ⚠️**
+> **⚠️ ACTIVE DEVELOPMENT IN PROGRESS ⚠️**
 > 
-> **We are launching this repository now so that miners and validators can review the API key requirements and incentive mechanisms.** 
+> **We have successfully forked Subnet 13's proven architecture and are adapting it for real estate data collection.**
 >
-> **Current Requirements:**
-> - **RapidAPI Zillow API Key** - Primary data source for initial property collection
-> - Review incentive structure and miner specialization strategies
-> - Understand data validation and consensus mechanisms
+> **✅ COMPLETED:**
+> - ✅ **S3 API Server** - Authentication system for validators and miners to access AWS S3 storage
+> - ✅ **Prospector System** - JSON-based incentive weighting that prioritizes larger metro areas
+> - ✅ **Core Architecture** - Forked and adapted Subnet 13's data collection framework
 >
-> **Launch Timeline:**
-> - We were advised by validators to not push this late into the weekend
-> - **We'll be pushing this mid next week into production due to advice from our advisors and validators**
+> **🔧 IN PROGRESS:**
+> - 🔧 **Miner & Validator Code** - Adapting core mining and validation logic for real estate data
+> - 🔧 **RapidAPI Zillow Integration** - Primary data source implementation
 >
-> This gives the community time to prepare, obtain necessary API keys, and understand the system before mainnet deployment.
+> **📋 ACTION REQUIRED FOR VALIDATORS/MINERS:**
+> Please test your S3 connectivity using our quick start guide (takes <2 minutes):
+> - **Testing Guide:** [MINER_VALIDATOR_TESTING_GUIDE.md](https://github.com/resi-labs-ai/resi-labs-api/blob/main/MINER_VALIDATOR_TESTING_GUIDE.md)
+> - **Test Script:** [test_mainnet_s3_auth.py](https://github.com/resi-labs-ai/resi-labs-api/blob/main/api-test/test_mainnet_s3_auth.py)
+>
+> This verification ensures you can receive AWS S3 access tokens once the full system launches.
 
 ---
 
@@ -40,10 +45,30 @@
 
 We extend our sincere gratitude to the Macrocosmos team, particularly [Arrmlet](https://github.com/Arrmlet) and [ewekazoo](https://github.com/ewekazoo), for creating the robust, scalable data collection and validation framework that serves as our foundation. Their pioneering work on decentralized data collection, consensus mechanisms, and anti-gaming protections has enabled us to focus on real estate specialization rather than rebuilding core infrastructure.
 
+### Three-Repository Architecture
+
+Our implementation consists of three specialized repositories:
+
+1. **[resi](https://github.com/resi-labs-ai/resi)** *(This repo)*
+   - Core miner and validator logic adapted for real estate data
+   - Property-specific validation mechanisms
+   - Real estate market-focused incentive structures
+
+2. **[resi-labs-api](https://github.com/resi-labs-ai/resi-labs-api)**
+   - S3 authentication server for miners and validators
+   - AWS access token distribution system
+   - API endpoints for data access and validation
+
+3. **[prospector](https://github.com/resi-labs-ai/prospector)**
+   - JSON-based incentive weighting system (Real Estate Dynamic Desirability)
+   - Geographic prioritization with 7,572+ US zipcode coverage
+   - Zipcode-based market prioritization weighted by market size and value
+
 **Key adaptations for real estate:**
 - Specialized data sources (Zillow, county assessors, MLS feeds, public records)
+- Geographic incentive weighting through Prospector system
 - Property-specific validation mechanisms
-- Real estate market-focused incentive structures
+- Zipcode-based market prioritization for maximum market impact
 
 ---
 
@@ -175,11 +200,22 @@ ResiLabs is committed to supporting miners in understanding and meeting their GD
 
 # Introduction
 
-Subnet 46, Resi Labs, is a data-scraping and sentiment analysis subnet owned by ResiLabs.ai. It collects and stores large amounts of data from across a wide-range of sources for use by other Subnets and businesses. Resi Labs scrapes real-time data initially from the Zillow Rapid API.
+Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
 
-Resi Labs aims to be the world's largest open-source real estate dataset, highlighting its efficiency and business use cases. Its datasets are easy to access, so businesses and other subnets can use them quickly and with low-friction.
+## Current Development Status
+- ✅ **S3 API Infrastructure** - Fully operational authentication and storage system
+- ✅ **Prospector Incentive System** - Geographic prioritization with 7,572+ US zipcode coverage
+- 🔧 **Core Mining/Validation Logic** - In active development (adapted from Subnet 13)
+- 🔧 **Zillow RapidAPI Integration** - Primary data source implementation underway
 
-Resi Labs was built on top of Data Universe's foundation which was built ground-up with a focus on decentralization and scalability. There is no centralized entity that controls the data; the data is stored across all Miners on the network, and is queryable via the Validators. At launch, Resi Labs will be able to support 150 Million USA based real estate listings across 200 miners, while only requiring ~10GB of storage on the Validator.
+## Architecture Overview
+RESI operates through a **three-repository system**:
+- **Core Logic** (this repo): Miners and validators adapted for real estate data
+- **S3 API Server**: Handles authentication and AWS storage access
+- **Prospector System**: JSON-based incentive weighting for geographic prioritization
+
+## Scale & Vision
+At launch, RESI will support **150+ Million US properties** across 200+ miners, requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
 
 # Product Roadmap
 
@@ -265,11 +301,22 @@ Fresh data is more valuable than old data, and data older than a certain thresho
 
 As of Dec 11th, 2023 data older than 30 days is not scored. This may increase in future.
 
-### 2) Data Desirability
+### 2) Data Desirability & Geographic Prioritization
 
-Resi Labs will maintain a [Dynamic Desirability List](docs/dynamic_desirability.md) that defines which types of data are desirable according to user requests from our future product that will allow for user requests. Data deemed desirable is scored more highly. Unspecified labels get the default_scale_factor of 0.3, meaning they score less than half value in comparison.
+Resi Labs maintains a [Dynamic Desirability List](docs/dynamic_desirability.md) and uses our **Gravity System** to prioritize data collection:
 
-The DataDesirabilityLookup will evolve over time, but each change will be announced ahead of time to give Miners adequate time to prepare for the update.
+**Gravity System:**
+- JSON-based incentive weighting managed in the [gravity repository](https://github.com/resi-labs-ai/gravity)
+- Currently prioritizes larger metro areas for maximum market impact
+- Dynamically adjustable to respond to market demands and user requests
+- Geographic weighting ensures miners focus on high-value property markets
+
+**Dynamic Desirability:**
+- Data deemed desirable is scored more highly based on both content and location
+- Unspecified labels get the default_scale_factor of 0.3, meaning they score less than half value in comparison
+- Metro area properties receive bonus weighting through the Gravity system
+
+The DataDesirabilityLookup and Gravity weightings will evolve over time, but each change will be announced ahead of time to give Miners adequate time to prepare for updates.
 
 ### 3) Duplication Factor
 
@@ -300,9 +347,36 @@ Resi Labs's potential is extensive, as anybody can use it to build datasets on w
 
 # Getting Started
 
-See [Miner Setup](docs/miner.md#miner_setup) to learn how to setup a Miner.
+## 🔥 IMMEDIATE ACTION: S3 Connectivity Test (Required for All Validators & Miners)
 
-See [Validator Setup](docs/validator.md#validator_setup) to learn how to setup a Validator.
+**Before the full system launches, please verify your S3 connectivity:**
+
+### Quick Test (Takes <2 Minutes)
+1. **Testing Guide:** [MINER_VALIDATOR_TESTING_GUIDE.md](https://github.com/resi-labs-ai/resi-labs-api/blob/main/MINER_VALIDATOR_TESTING_GUIDE.md)
+2. **Direct Test Script:** [test_mainnet_s3_auth.py](https://github.com/resi-labs-ai/resi-labs-api/blob/main/api-test/test_mainnet_s3_auth.py)
+
+### What This Test Does:
+- ✅ Verifies you're registered as a validator/miner on Subnet 46
+- ✅ Confirms you can receive AWS S3 access tokens from our API server
+- ✅ Tests S3 bucket connectivity and permissions
+- ✅ Ensures you're ready for full system launch
+
+### Expected Output:
+- Successful authentication with our S3 API server
+- Valid AWS access tokens issued to your registered hotkey
+- Confirmation of S3 bucket access permissions
+
+**This test is critical** - it ensures you'll be able to participate fully once miner and validator code is complete.
+
+---
+
+## Full Setup (Coming Soon)
+
+See [Miner Setup](docs/miner.md#miner_setup) to learn how to setup a Miner *(Code in development)*.
+
+See [Validator Setup](docs/validator.md#validator_setup) to learn how to setup a Validator *(Code in development)*.
+
+**📋 For Validators**: See the comprehensive [Validator Preferences Guide](./docs/validator_preferences_guide.md) to learn how to submit custom data preferences and influence network priorities through Dynamic Desirability.
 
 # Upcoming Features
 
