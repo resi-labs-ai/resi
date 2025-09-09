@@ -7577,13 +7577,7 @@
                         "zip:02876",
                         "zip:76005",
                         "zip:92878",
-                        "zip:12085",
-                        "type:houses",
-                        "type:condos",
-                        "type:apartments",
-                        "type:townhomes",
-                        "status:forsale",
-                        "status:forrent"
+                        "zip:12085"
                     ],
                     "max_data_entities": 369,
                     "max_age_hint_minutes": 10080

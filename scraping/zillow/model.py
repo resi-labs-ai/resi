@@ -118,25 +118,28 @@ class RealEstateContent(BaseModel):
     def to_data_entity(self) -> DataEntity:
         """Convert to DataEntity for Bittensor storage"""
         
-        # Create meaningful labels for data organization
-        # Use location-based labeling (zip code from address if available)
+        # Extract zipcode from address for consistent labeling
+        # Address format is typically: "123 Main St, City, State ZIP"
+        zipcode = None
         address_parts = self.address.split(", ")
-        if len(address_parts) >= 3:
-            # Extract zip code or city for labeling
-            location_part = address_parts[-2]  # Usually "City, State ZIP"
-            if location_part and len(location_part.split()) > 1:
-                zip_code = location_part.split()[-1]
-                label_value = f"zip_{zip_code}_{self.listing_status.lower()}"
-            else:
-                city = address_parts[-3] if len(address_parts) >= 3 else "unknown"
-                label_value = f"city_{city.lower().replace(' ', '_')}_{self.listing_status.lower()}"
-        else:
-            label_value = f"unknown_location_{self.listing_status.lower()}"
         
-        # Ensure label is within 140 character limit
-        if len(label_value) > 140:
-            label_value = label_value[:137] + "..."
-            
+        # Try to extract 5-digit zipcode from the last part
+        if address_parts:
+            last_part = address_parts[-1].strip()
+            # Look for 5-digit zipcode pattern
+            import re
+            zipcode_match = re.search(r'\b(\d{5})\b', last_part)
+            if zipcode_match:
+                zipcode = zipcode_match.group(1)
+        
+        # Create label using consistent format matching scraping config
+        if zipcode:
+            # Use format that matches scraping config: "zip:12345"
+            label_value = f"zip:{zipcode}"
+        else:
+            # Fallback to unknown zipcode - this should be rare with good address data
+            label_value = "zip:unknown"
+        
         label = DataLabel(value=label_value)
         
         # Create URI using Zillow's format
