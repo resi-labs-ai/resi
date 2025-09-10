@@ -10,6 +10,27 @@ Miners do not require a GPU and should be able to run on a low-tier machine, as 
 
 # Getting Started
 
+## Network Selection
+
+### Testnet (Subnet 428) - Recommended for Testing
+Testnet is perfect for:
+- Testing your setup without real TAO costs
+- Learning how the system works
+- Validating your configuration
+- Development and debugging
+
+**Key Features:**
+- **Faster S3 Uploads**: Every 5 minutes (vs 2 hours on mainnet)
+- **Auto-configured endpoints**: Automatically uses testnet S3 auth service
+- **Lower stakes**: Test environment with no financial risk
+
+### Mainnet (Subnet 46) - Production Environment
+Mainnet for production mining:
+- Real TAO rewards based on data quality
+- Production-grade requirements
+- Standard 2-hour S3 upload frequency
+- Full network participation
+
 ## Prerequisites
 
 ### Getting Your RapidAPI Zillow Key (Required)
@@ -66,23 +87,76 @@ python -m pip install -e .
 
 ## Running the Miner
 
-For this guide, we'll use [pm2](https://pm2.keymetrics.io/) to manage the Miner process, because it'll restart the Miner if it crashes. If you don't already have it, install pm2.
+### Quick Start Options
 
-### Online
-
-From the resi folder, run:
+#### Option 1: Bootstrap Script (Recommended for Testnet)
 ```shell
-pm2 start python -- ./neurons/miner.py --wallet.name your-wallet --wallet.hotkey your-hotkey
+# Automated testnet setup and start
+python bootstrap_testnet_428.py
+```
+This script handles wallet registration, subnet verification, and miner startup automatically.
+
+#### Option 2: Manual Setup
+
+**Step 1: Configure Environment**
+Update your `.env` file with your wallet information:
+```shell
+# For Testnet (Subnet 428)
+NETUID=428
+SUBTENSOR_NETWORK=test
+WALLET_NAME=your_testnet_wallet_name
+WALLET_HOTKEY=your_testnet_hotkey_name
+
+# For Mainnet (Subnet 46)
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME=your_mainnet_wallet_name
+WALLET_HOTKEY=your_mainnet_hotkey_name
 ```
 
-### Offline
-
-From the resi folder, run:
+**Step 2: Register on Network (if needed)**
 ```shell
+# Testnet registration
+btcli subnet register --netuid 428 --subtensor.network test \
+    --wallet.name your_testnet_wallet --wallet.hotkey your_testnet_hotkey
+
+# Mainnet registration
+btcli subnet register --netuid 46 --subtensor.network finney \
+    --wallet.name your_mainnet_wallet --wallet.hotkey your_mainnet_hotkey
+```
+
+**Step 3: Start Mining**
+
+For this guide, we'll use [pm2](https://pm2.keymetrics.io/) to manage the Miner process, because it'll restart the Miner if it crashes. If you don't already have it, install pm2.
+
+**Testnet Mining:**
+```shell
+# Start testnet miner (5-minute S3 uploads, auto-configured endpoints)
+pm2 start python -- ./neurons/miner.py \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name your_testnet_wallet \
+    --wallet.hotkey your_testnet_hotkey \
+    --logging.debug
+```
+
+**Mainnet Mining:**
+```shell
+# Start mainnet miner (2-hour S3 uploads, production settings)
+pm2 start python -- ./neurons/miner.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_wallet \
+    --wallet.hotkey your_mainnet_hotkey
+```
+
+**Offline Mode:**
+```shell
+# Run offline for initial data collection (no network participation)
 pm2 start python -- ./neurons/miner.py --offline
 ```
 
-Please note that your miner will not respond to validator requests in this mode and therefore if you have already registered to the subnet you should run in online mode.
+Please note that your miner will not respond to validator requests in offline mode and therefore if you have already registered to the subnet you should run in online mode.
 
 # Configuring the Miner
 
@@ -164,3 +238,120 @@ As described in the [incentive mechanism](../README.md#incentive-mechanism), Min
 For uniqueness, you can [view the dashboard](../README.md#resi-labs-dashboard) to see how much property data, by geographic area and property type, is currently on the Subnet.
 
 For desirability, the [DataDesirabilityLookup](https://github.com/resi-labs-ai/resi/blob/main/rewards/data_desirability_lookup.py) defines the exact rules Validators use to compute property data desirability. High-value areas, recently listed properties, and unique property types typically receive higher desirability scores.
+
+# Storage and Upload Configuration
+
+## Local Storage
+Your miner automatically stores all scraped data locally in a SQLite database:
+- **Default Location**: `SqliteMinerStorage.sqlite`
+- **Default Size Limit**: 250GB (configurable with `--neuron.max_database_size_gb_hint`)
+- **Custom Path**: Use `--neuron.database_name` to specify a different location
+
+## S3 Cloud Storage
+Miners automatically upload data to S3 for public dataset access:
+
+### Upload Frequency
+- **Testnet (Subnet 428)**: Every 5 minutes (optimized for testing)
+- **Mainnet (Subnet 46)**: Every 2 hours (standard production)
+- **First Upload**: 30 minutes after miner starts
+
+### S3 Authentication
+The miner automatically configures the correct S3 authentication endpoint:
+- **Testnet**: `https://s3-auth-api-testnet.resilabs.ai`
+- **Mainnet**: `https://s3-auth-api.resilabs.ai`
+
+No manual S3 configuration is required - the system detects your subnet and configures appropriately.
+
+### S3 Data Structure
+Data is organized in S3 as:
+```
+bucket-name/
+└── hotkey={your_hotkey}/
+    ├── job_id=job_001/
+    │   ├── data_20250910_120000_1500.parquet
+    │   └── data_20250910_120500_890.parquet
+    └── job_id=job_002/
+        └── data_20250910_120000_2100.parquet
+```
+
+# Monitoring and Validation
+
+## Health Check Tools
+Use the built-in validation tools to monitor your miner:
+
+### Quick Health Check
+```shell
+# Fast operational validation
+python tools/check_miner_storage.py --netuid 428  # Testnet
+python tools/check_miner_storage.py --netuid 46   # Mainnet
+```
+
+### Comprehensive Validation
+```shell
+# Full validation with S3 authentication testing
+python tools/validate_miner_storage.py --netuid 428 \
+    --wallet.name your_wallet --wallet.hotkey your_hotkey \
+    --subtensor.network test
+```
+
+## Expected Log Messages
+When your miner is working correctly, you'll see:
+
+**Testnet Configuration:**
+```
+Auto-configured testnet S3 auth URL: https://s3-auth-api-testnet.resilabs.ai
+Using testnet upload frequency: 5 minutes
+Starting S3 partitioned upload for DD data
+S3 partitioned upload completed successfully
+```
+
+**Mainnet Configuration:**
+```
+Auto-configured mainnet S3 auth URL: https://s3-auth-api.resilabs.ai
+Using mainnet upload frequency: 2 hours
+Starting S3 partitioned upload for DD data
+S3 partitioned upload completed successfully
+```
+
+## Monitoring Commands
+```shell
+# Watch miner logs in real-time
+tail -f logs/miner.log
+
+# Monitor S3 upload activity
+tail -f logs/miner.log | grep -E "(S3|upload|partitioned)"
+
+# Check database growth
+ls -lh SqliteMinerStorage.sqlite*
+
+# Verify wallet registration
+btcli wallet overview --wallet.name your_wallet --subtensor.network test  # Testnet
+btcli wallet overview --wallet.name your_wallet --subtensor.network finney # Mainnet
+```
+
+# Troubleshooting
+
+## Common Issues
+
+### Database Not Growing
+- Check RapidAPI key configuration in `.env`
+- Verify RapidAPI subscription is active
+- Monitor logs for scraping errors
+
+### S3 Upload Failures
+- Verify wallet is registered on the correct subnet
+- Check S3 auth service connectivity: `python tools/check_miner_storage.py`
+- Ensure sufficient API quota for authentication
+
+### Network Connection Issues
+- Verify subnet registration: `btcli wallet overview`
+- Check firewall settings for bittensor ports
+- Confirm subtensor network connectivity
+
+## Success Indicators
+✅ **Database Growth**: `SqliteMinerStorage.sqlite` increases in size over time
+✅ **Regular S3 Uploads**: Log messages every 5 minutes (testnet) or 2 hours (mainnet)
+✅ **Validator Responses**: Successful responses to validator queries
+✅ **No Authentication Errors**: Clean logs without S3 or API failures
+
+For detailed troubleshooting, see the validation guide: `dev-docs/0001-miner-storage-validation.md`

@@ -65,6 +65,16 @@ class Miner:
         bt.logging.info(self.config)
         self.use_uploader = self.config.use_uploader
         self.use_gravity_retrieval = self.config.gravity
+        
+        # Auto-configure S3 auth URL based on subnet
+        if self.config.netuid == 428:  # Testnet
+            if self.config.s3_auth_url == "https://sn46-s3-auth.resilabs.ai":  # Default mainnet URL
+                self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+                bt.logging.info(f"Auto-configured testnet S3 auth URL: {self.config.s3_auth_url}")
+        else:  # Mainnet or other subnets
+            if not hasattr(self.config, 's3_auth_url') or not self.config.s3_auth_url:
+                self.config.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+                bt.logging.info(f"Auto-configured mainnet S3 auth URL: {self.config.s3_auth_url}")
 
         if self.config.offline:
             bt.logging.success(
@@ -248,8 +258,15 @@ class Miner:
             except Exception:
                 bt.logging.error(traceback.format_exc())
 
-            # Upload every 2 hours
-            time_sleep_val = dt.timedelta(hours=2).total_seconds()
+            # Upload frequency based on network
+            if self.config.netuid == 428:  # Testnet
+                # Upload every 5 minutes for testnet
+                time_sleep_val = dt.timedelta(minutes=5).total_seconds()
+                bt.logging.info("Using testnet upload frequency: 5 minutes")
+            else:  # Mainnet
+                # Upload every 2 hours for mainnet
+                time_sleep_val = dt.timedelta(hours=2).total_seconds()
+                bt.logging.info("Using mainnet upload frequency: 2 hours")
             time.sleep(time_sleep_val)
 
     def run(self):

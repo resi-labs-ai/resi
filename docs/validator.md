@@ -18,6 +18,28 @@ Validators require at least 32 GB of RAM but do not require a GPU. We recommend 
 
 # Getting Started
 
+## Network Selection
+
+### Testnet (Subnet 428) - Development & Testing
+Testnet validation is ideal for:
+- Learning validator operations without real TAO costs
+- Testing configuration and setup
+- Development and debugging
+- Validating against miners with 5-minute upload frequency
+
+**Testnet Features:**
+- Lower operational costs for testing
+- Faster data refresh cycles from miners
+- Auto-configured testnet endpoints
+- Safe environment for experimentation
+
+### Mainnet (Subnet 46) - Production Environment
+Mainnet validation for production:
+- Real TAO rewards for validation work
+- Production-grade validation requirements
+- Standard miner upload cycles (2 hours)
+- Full network economic participation
+
 ## Prerequisites
 
 ### Getting Your RapidAPI Zillow Key (Required)
@@ -70,13 +92,67 @@ python -m pip install -e .
 
 5. Make sure you've [created a Wallet](https://docs.bittensor.com/getting-started/wallets) and [registered a hotkey](https://docs.bittensor.com/subnets/register-and-participate).
 
+6. (Optional) Set up Weights & Biases for monitoring:
+```shell
+wandb login
 ```
 
 This will prompt you to navigate to https://wandb.ai/authorize and copy your api key back into the terminal.
 
 ## Running the Validator
 
-### With auto-updates
+### Environment Configuration
+
+**Step 1: Configure Environment**
+Update your `.env` file based on your target network:
+
+```shell
+# For Testnet (Subnet 428)
+NETUID=428
+SUBTENSOR_NETWORK=test
+WALLET_NAME=your_testnet_validator_wallet
+WALLET_HOTKEY=your_testnet_validator_hotkey
+RAPIDAPI_KEY=your_rapidapi_key_here
+RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
+
+# For Mainnet (Subnet 46)
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME=your_mainnet_validator_wallet
+WALLET_HOTKEY=your_mainnet_validator_hotkey
+RAPIDAPI_KEY=your_rapidapi_key_here
+RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
+```
+
+**Step 2: Register Validator (if needed)**
+```shell
+# Testnet registration
+btcli subnet register --netuid 428 --subtensor.network test \
+    --wallet.name your_testnet_validator_wallet \
+    --wallet.hotkey your_testnet_validator_hotkey
+
+# Mainnet registration
+btcli subnet register --netuid 46 --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey
+```
+
+### Starting the Validator
+
+#### Testnet Validation
+```shell
+# Start testnet validator
+pm2 start python -- ./neurons/validator.py \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name your_testnet_validator_wallet \
+    --wallet.hotkey your_testnet_validator_hotkey \
+    --logging.debug
+```
+
+#### Mainnet Validation
+
+**With auto-updates (Recommended for Production)**
 
 We highly recommend running the validator with auto-updates. This will help ensure your validator is always running the latest release, helping to maintain a high vtrust.
 
@@ -87,19 +163,26 @@ Prerequisites:
 
 From the resi folder:
 ```shell
-pm2 start --name net13-vali-updater --interpreter python scripts/start_validator.py -- --pm2_name net13-vali --wallet.name cold_wallet --wallet.hotkey hotkey_wallet [other vali flags]
+pm2 start --name net46-vali-updater --interpreter python scripts/start_validator.py -- \
+    --pm2_name net46-vali \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey
 ```
 
-This will start a process called `net13-vali-updater`. This process periodically checks for a new git commit on the current branch. When one is found, it performs a `pip install` for the latest packages, and restarts the validator process (who's name is given by the `--pm2_name` flag)
+This will start a process called `net46-vali-updater`. This process periodically checks for a new git commit on the current branch. When one is found, it performs a `pip install` for the latest packages, and restarts the validator process (whose name is given by the `--pm2_name` flag).
 
+**Without auto-updates**
 
-### Without auto-updates
+If you'd prefer to manage your own validator updates:
 
-If you'd prefer to manage your own validator updates...
-
-From the resi folder:
 ```shell
-pm2 start python -- ./neurons/validator.py --wallet.name your-wallet --wallet.hotkey your-hotkey
+pm2 start python -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey
 ```
 
 # Configuring the Validator
@@ -126,6 +209,157 @@ The RapidAPI key is essential for validators to verify property data accuracy by
 
 Please see the [RapidAPI documentation](rapidapi.md) for complete setup instructions and cost management guidance.
 
+# Monitoring and Validation
+
+## Validator Health Monitoring
+
+### Check Validator Status
+```shell
+# Check validator registration and stake
+btcli wallet overview --wallet.name your_validator_wallet --subtensor.network test    # Testnet
+btcli wallet overview --wallet.name your_validator_wallet --subtensor.network finney  # Mainnet
+
+# View subnet metagraph
+btcli subnet metagraph --netuid 428 --subtensor.network test    # Testnet
+btcli subnet metagraph --netuid 46 --subtensor.network finney   # Mainnet
+```
+
+### Monitor Validator Logs
+```shell
+# Watch validator logs in real-time
+pm2 logs net46-vali --lines 100 --follow  # Mainnet with auto-updates
+pm2 logs net428-vali --lines 100 --follow # Testnet
+
+# Or direct log monitoring
+tail -f logs/validator.log
+
+# Monitor validation activity specifically
+tail -f logs/validator.log | grep -E "(validation|miner|score|weight)"
+```
+
+### Expected Validator Behavior
+
+**Testnet Validation Cycle:**
+- Miners upload data every 5 minutes
+- More frequent data refresh for validation
+- Faster iteration for testing and development
+- Lower validation costs due to test environment
+
+**Mainnet Validation Cycle:**
+- Miners upload data every 2 hours
+- Standard production validation frequency
+- Full economic validation with real rewards
+- Production-level validation costs
+
+## Performance Metrics
+
+### Key Validator Metrics to Monitor
+1. **Validation Success Rate**: Percentage of successful miner validations
+2. **RapidAPI Usage**: Monitor API quota consumption
+3. **Weight Setting**: Ensure weights are being set properly
+4. **Miner Coverage**: Number of miners successfully validated per cycle
+5. **Network Connectivity**: Connection stability to subtensor
+
+### Troubleshooting Common Issues
+
+**RapidAPI Quota Exceeded:**
+```shell
+# Check your RapidAPI dashboard for usage
+# Consider upgrading your plan for higher limits
+# Monitor validation frequency vs quota consumption
+```
+
+**Network Connection Issues:**
+```shell
+# Test subtensor connectivity
+btcli subnet list --subtensor.network test    # Testnet
+btcli subnet list --subtensor.network finney  # Mainnet
+
+# Check firewall settings for bittensor ports
+# Verify network stability and bandwidth
+```
+
+**Weight Setting Failures:**
+```shell
+# Check validator registration status
+btcli wallet overview --wallet.name your_validator
+
+# Verify sufficient stake for weight setting
+# Monitor logs for weight setting errors
+```
+
+## Success Indicators
+
+✅ **Regular Validation Cycles**: Consistent miner evaluation and scoring
+✅ **Successful Weight Setting**: Weights updated on blockchain regularly
+✅ **Stable API Usage**: RapidAPI calls within quota limits
+✅ **Network Participation**: Active participation in consensus
+✅ **Clean Logs**: No persistent errors or connection issues
+
+## Cost Management
+
+### Estimating Validation Costs
+
+**Formula**: `Number of Miners × Validation Frequency × Samples per Validation × API Cost`
+
+**Testnet Considerations:**
+- More frequent miner updates (5-minute cycles)
+- Potentially more validation opportunities
+- Lower stakes for cost optimization testing
+
+**Mainnet Considerations:**
+- Standard 2-hour miner update cycles
+- Production-level validation requirements
+- Real economic impact of validation costs
+
+### RapidAPI Plan Recommendations
+
+**Testnet Validators:**
+- Basic to Pro plans (1,000-10,000 requests/month)
+- Good for learning and development
+
+**Mainnet Validators:**
+- Pro plans (10,000+ requests/month recommended)
+- Consider higher tiers for large-scale validation
+- Budget 20-30% buffer for peak validation periods
+
+# Network-Specific Considerations
+
+## Testnet vs Mainnet Validation Differences
+
+### Data Refresh Rates
+- **Testnet**: Miners upload every 5 minutes, enabling more frequent validation
+- **Mainnet**: Standard 2-hour upload cycles, requiring patience for data updates
+
+### Validation Strategy
+- **Testnet**: Experiment with validation parameters and strategies
+- **Mainnet**: Use proven, stable validation approaches
+
+### Economic Impact
+- **Testnet**: No real economic consequences, focus on learning
+- **Mainnet**: Real TAO rewards and costs, optimize for profitability
+
+## Switching Between Networks
+
+To switch from testnet to mainnet validation:
+
+1. **Update Environment Configuration**:
+   - Change `NETUID` from 428 to 46
+   - Change `SUBTENSOR_NETWORK` from "test" to "finney"
+   - Update wallet names to mainnet wallets
+
+2. **Register New Validator** (if using different wallet):
+   ```shell
+   btcli subnet register --netuid 46 --subtensor.network finney \
+       --wallet.name your_mainnet_validator_wallet \
+       --wallet.hotkey your_mainnet_validator_hotkey
+   ```
+
+3. **Update Monitoring and Alerting**:
+   - Adjust for 2-hour validation cycles
+   - Update cost monitoring for production API usage
+   - Implement production-grade monitoring
+
 # Coming Soon
 
 We are working hard to add more features to RESI. For the Validators, we have plans to:
@@ -135,3 +369,5 @@ We are working hard to add more features to RESI. For the Validators, we have pl
 3. Implement more cost-effective validation methods while maintaining data accuracy.
 4. Add support for commercial property data validation.
 5. Expand to international property markets.
+6. Enhanced validation tools and monitoring dashboards.
+7. Automated cost optimization and quota management.
