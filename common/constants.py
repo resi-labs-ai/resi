@@ -1,4 +1,5 @@
 import datetime as dt
+import os
 from . import utils
 
 # Collection of constants for use throughout the codebase.
@@ -28,7 +29,10 @@ MAX_LABEL_LENGTH = 140
 PROTOCOL_VERSION = 4
 
 # Min evaluation period that must pass before a validator re-evaluates a miner.
-MIN_EVALUATION_PERIOD = dt.timedelta(minutes=60)
+# Can be overridden for testnet with MINER_EVAL_PERIOD_MINUTES environment variable
+_DEFAULT_EVAL_PERIOD_MINUTES = 60
+_TESTNET_EVAL_PERIOD_MINUTES = int(os.getenv('MINER_EVAL_PERIOD_MINUTES', _DEFAULT_EVAL_PERIOD_MINUTES))
+MIN_EVALUATION_PERIOD = dt.timedelta(minutes=_TESTNET_EVAL_PERIOD_MINUTES)
 
 # Miner compressed index cache freshness.
 MINER_CACHE_FRESHNESS = dt.timedelta(minutes=20)

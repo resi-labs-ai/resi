@@ -23,10 +23,10 @@
 ## 🎯 **Objectives for Tomorrow**
 
 ### Primary Goals
-1. **Multi-Miner Setup**: Run 3-5 miners simultaneously with different configurations
+1. **Multi-Miner Setup**: Run 3-4 miners simultaneously with identical starting configurations
 2. **Accelerated Validation**: Increase validator evaluation frequency for testing (5-10 minutes vs 60 minutes)
-3. **Network Dynamics**: Observe scoring, ranking, and reward distribution
-4. **Geographic Coverage Incentives**: Ensure miners are rewarded for comprehensive US zipcode coverage
+3. **Network Dynamics**: Observe how miners naturally develop different strategies for rewards
+4. **Organic Strategy Development**: Watch how incentive mechanisms drive different miner behaviors
 5. **API Validation Coverage**: Verify validators are properly sampling and validating against Zillow API
 
 ### Updated Understanding - Incentive Mechanisms
@@ -48,42 +48,30 @@
 
 ### Miner Configuration Matrix
 
-| Miner ID | Wallet | Hotkey | Zipcode Strategy | Expected Performance |
-|----------|--------|--------|------------------|---------------------|
-| **Miner 1** | `testnet_miner_1` | `hotkey_1` | **Premium Focus** (77494, 08701, 77449) | High rewards |
-| **Miner 2** | `testnet_miner_2` | `hotkey_2` | **East Coast** (NY, NJ, FL markets) | Medium-high rewards |
-| **Miner 3** | `testnet_miner_3` | `hotkey_3` | **West Coast** (CA, WA, OR markets) | Medium-high rewards |
-| **Miner 4** | `testnet_miner_4` | `hotkey_4` | **Central US** (TX, IL, CO markets) | Medium rewards |
-| **Miner 5** | `testnet_miner_5` | `hotkey_5` | **Rural/Diverse** (Mixed tier coverage) | Variable rewards |
+| Miner ID | Wallet | Hotkey | UID | Starting Strategy | Expected Behavior |
+|----------|--------|--------|-----|------------------|-------------------|
+| **Miner 1** | `428_testnet_miner` | `428_testnet_miner_hotkey` | 5 | **Existing** (Default config) | Baseline performance |
+| **Miner 2** | `testnet_miner_2` | `hotkey_2` | 7 | **Default Config** (All zipcodes available) | Will develop own strategy |
+| **Miner 3** | `testnet_miner_3` | `hotkey_3` | 8 | **Default Config** (All zipcodes available) | Will develop own strategy |
+| **Miner 4** | `testnet_miner_4` | `hotkey_4` | 9 | **Default Config** (All zipcodes available) | Will develop own strategy |
 
-### Geographic Territory Assignment
+### Natural Strategy Development
 
 **Premium Zipcodes (Weight 4.0)**: 77494, 08701, 77449, 77084, 79936, 11385, 78660, 11208, 90011, 77433
 
-**Miner 1 - Premium Focus**:
-- Target: 77494 (Katy, TX), 08701 (Lakewood, NJ), 77449 (Katy, TX)
-- Strategy: Maximum reward concentration
-- Expected: Highest individual scores
+**Expected Organic Behaviors**:
+- **Competition for Premium Zipcodes**: Miners will likely discover and compete for high-weight zipcodes
+- **Geographic Specialization**: Some miners may focus on specific regions they find profitable
+- **Volume vs Quality Trade-offs**: Miners will balance broad coverage vs deep coverage
+- **Resource Optimization**: Miners will optimize scraping frequency based on API costs vs rewards
+- **Niche Discovery**: Miners may find underserved zipcodes with good reward/competition ratios
 
-**Miner 2 - East Coast**:
-- Target: 10001 (NYC), 07086 (Weehawken, NJ), 33101 (Miami Beach, FL)
-- Strategy: High-density metro coverage
-- Expected: Consistent medium-high scores
-
-**Miner 3 - West Coast**:
-- Target: 90210 (Beverly Hills, CA), 98101 (Seattle, WA), 97201 (Portland, OR)
-- Strategy: Tech hub coverage
-- Expected: Consistent medium-high scores
-
-**Miner 4 - Central US**:
-- Target: 60601 (Chicago, IL), 75201 (Dallas, TX), 80202 (Denver, CO)
-- Strategy: Major central markets
-- Expected: Steady medium scores
-
-**Miner 5 - Rural/Diverse**:
-- Target: Mixed rural and suburban (50+ different zipcodes)
-- Strategy: Volume and diversity
-- Expected: Variable but consistent volume rewards
+**What We'll Observe**:
+- Which miners discover premium zipcodes first
+- How quickly miners adapt strategies based on validator feedback
+- Whether miners specialize or try to cover everything
+- How competition affects geographic coverage
+- Whether the incentive system drives comprehensive US coverage
 
 ---
 
@@ -92,7 +80,7 @@
 ### Phase 1: Wallet & Hotkey Setup (30 minutes)
 
 #### Step 1.1: Create Miner Wallets
-- [ ] Create 4 additional miner wallets (you already have 1)
+- [x] Create 4 additional miner wallets (you already have 1)
 ```bash
 for i in {2..5}; do
     btcli wallet new_coldkey --wallet.name "testnet_miner_$i" --no-prompt
@@ -101,7 +89,7 @@ done
 ```
 
 #### Step 1.2: Fund Wallets
-- [ ] Get testnet TAO for each wallet (via Discord faucet or transfer)
+- [x] Get testnet TAO for each wallet (via Discord faucet or transfer)
 ```bash
 for i in {2..5}; do
     echo "Fund testnet_miner_$i via Discord faucet or transfer"
@@ -110,7 +98,7 @@ done
 ```
 
 #### Step 1.3: Register Miners
-- [ ] Register all miners on testnet 428
+- [x] Register miners 2-4 on testnet 428 (UIDs 7, 8, 9) - miner 5 registration failed
 ```bash
 for i in {2..5}; do
     btcli subnet register --netuid 428 --subtensor.network test \
@@ -179,13 +167,10 @@ done
 **Primary Goal**: Increase evaluation frequency for comprehensive testing
 
 **Option A: Modified Evaluation Period (Recommended)**
-- [ ] Temporarily reduce MIN_EVALUATION_PERIOD for testing
+- [x] Added environment variable support for MIN_EVALUATION_PERIOD
 - [ ] Launch validator with accelerated evaluation cycles
 ```bash
-# Edit common/constants.py:
-# MIN_EVALUATION_PERIOD = dt.timedelta(minutes=5)  # Instead of 60 minutes
-
-# Or set via environment variable:
+# Set via environment variable (production stays at 60 minutes):
 export MINER_EVAL_PERIOD_MINUTES=5
 
 python neurons/validator.py \
@@ -372,12 +357,12 @@ chmod +x monitor_network.sh
 ## 📋 **Tomorrow's Schedule**
 
 ### Morning (9 AM - 12 PM)
-- [ ] **9:00-9:15**: Modify `MIN_EVALUATION_PERIOD` to 5 minutes for accelerated testing
-- [ ] **9:15-9:45**: Create additional wallets and hotkeys for geographic strategy miners
-- [ ] **9:45-10:30**: Register all miners on testnet 428 (stagger to avoid rate limits)
-- [ ] **10:30-11:15**: Configure distinct zipcode strategies for each miner
-- [ ] **11:15-11:30**: Launch all miners with geographic territory assignments
-- [ ] **11:30-12:00**: Start validator with accelerated evaluation cycles and API validation
+- [x] **9:00-9:15**: Modify `MIN_EVALUATION_PERIOD` to 5 minutes for accelerated testing
+- [x] **9:15-9:45**: Create additional wallets and hotkeys for geographic strategy miners
+- [x] **9:45-10:30**: Register miners 2-4 on testnet 428 (UIDs 7, 8, 9) - miner 5 failed
+- [x] **10:30-11:15**: Configure distinct zipcode strategies for each miner
+- [x] **11:15-11:30**: Launch all miners with default configurations (organic strategy development)
+- [x] **11:30-12:00**: Start validator with accelerated evaluation cycles (5 minutes) and API validation
 
 ### Afternoon (12 PM - 5 PM)  
 - [ ] **12:00-12:30**: Verify all miner-validator connections and API validation sampling
@@ -400,12 +385,34 @@ chmod +x monitor_network.sh
 
 ---
 
-**CONCLUSION**: Tomorrow's accelerated multi-miner evaluation will validate that your subnet properly incentivizes comprehensive US zipcode coverage through:
+## 🎉 **CURRENT STATUS: ORGANIC STRATEGY EXPERIMENT LAUNCHED**
 
-1. **Geographic Strategy Differentiation**: Premium vs volume-based vs regional approaches
-2. **API Validation Effectiveness**: 10 entities per miner per 5-10 minute cycle with 60%+ success rates  
-3. **Comprehensive Coverage Incentives**: Ensuring miners are rewarded for mining ALL zipcodes
-4. **Quality Assurance**: Zero-tolerance duplicate detection and external API verification
-5. **Scalable Network Dynamics**: Proving the system can handle multiple miners with accelerated evaluation
+### ✅ **Successfully Completed**
+1. **Environment Variable Support**: Added `MINER_EVAL_PERIOD_MINUTES` for production-safe testing
+2. **Multi-Miner Network**: 4 miners running (UIDs 5, 7, 8, 9) with identical starting configurations
+3. **Accelerated Validation**: Validator running with 5-minute evaluation cycles (vs 60 minutes)
+4. **Organic Strategy Setup**: All new miners start with same opportunities - no artificial territories
+5. **Network Infrastructure**: All processes running in screen sessions for monitoring
 
-This will demonstrate that your incentive mechanisms successfully drive miners to provide comprehensive, unique, and verifiable real estate data across all US geographic regions.
+### 🔬 **Active Experiment: Natural Strategy Development**
+**Hypothesis**: Given identical starting configurations and access to all US zipcodes, miners will naturally develop different strategies based on:
+- **Competition Discovery**: Finding and competing for premium zipcodes (weight 4.0)
+- **Resource Optimization**: Balancing API costs vs reward potential  
+- **Niche Specialization**: Finding underserved geographic areas
+- **Volume vs Quality**: Different approaches to coverage breadth vs depth
+
+### 📊 **What We're Observing**
+- **Miner UIDs**: 5 (baseline), 7, 8, 9 (new organic miners)
+- **Evaluation Frequency**: Every 5 minutes (accelerated from 60 minutes)
+- **Starting Condition**: All miners have access to 7,500+ US zipcodes
+- **Competition**: Real-time adaptation based on validator feedback and rewards
+
+### 🎯 **Expected Outcomes**
+This experiment will demonstrate whether your incentive mechanisms naturally drive:
+1. **Comprehensive Geographic Coverage**: Miners discovering all US regions have value
+2. **Quality Competition**: Zero-tolerance duplicates forcing unique data strategies  
+3. **Premium Discovery**: Miners finding and competing for high-weight zipcodes
+4. **Sustainable Strategies**: Long-term viable approaches vs short-term gaming
+5. **Network Effects**: How multiple miners affect overall coverage and quality
+
+**This organic approach provides much more realistic validation of your subnet's incentive design than pre-assigned territories would.**
