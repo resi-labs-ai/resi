@@ -142,7 +142,10 @@ class S3PartitionedUploader:
                         source_int = DataSource.X.value
                     elif platform == 'youtube':
                         source_int = DataSource.YOUTUBE.value
+                    elif platform == 'zillow':
+                        source_int = DataSource.ZILLOW.value
                     else:
+                        bt.logging.warning(f"Unsupported platform: {platform}")
                         continue
 
                     # Store job configuration by job_id
@@ -158,6 +161,14 @@ class S3PartitionedUploader:
                             "source": source_int,
                             "type": "keyword",
                             "value": params['keyword'],
+                            "weight": weight
+                        }
+                    elif params.get('label') is None and params.get('keyword') is None:
+                        # Handle "all data" case (e.g., all Zillow data)
+                        result[job_id] = {
+                            "source": source_int,
+                            "type": "all",
+                            "value": None,
                             "weight": weight
                         }
 
@@ -260,6 +271,28 @@ class S3PartitionedUploader:
             bt.logging.error(f"Error querying keyword data for {source}/{keyword}: {e}")
             return pd.DataFrame()
 
+    def _get_all_data(self, source: int, offset: int = 0) -> pd.DataFrame:
+        """Get all data for a specific source"""
+        query = """
+            SELECT uri, datetime, label, content
+            FROM DataEntity
+            WHERE source = ?
+            ORDER BY datetime ASC
+            LIMIT ? OFFSET ?
+        """
+        params = [source, self.chunk_size, offset]
+
+        try:
+            with self.get_db_connection() as conn:
+                df = pd.read_sql_query(query, conn, params=params, parse_dates=['datetime'])
+
+            bt.logging.debug(f"Found {len(df)} records for source {source} (offset: {offset})")
+            return df
+
+        except Exception as e:
+            bt.logging.error(f"Error querying all data for source {source}: {e}")
+            return pd.DataFrame()
+
     def _create_raw_dataframe(self, df: pd.DataFrame, source: int) -> pd.DataFrame:
         """Create raw dataframe with decoded content - NO ENCODING"""
         if df.empty:
@@ -309,8 +342,30 @@ class S3PartitionedUploader:
                     'duration_seconds': df['decoded_content'].apply(lambda x: x.get('duration_seconds', 0)),
                     'language': df['decoded_content'].apply(lambda x: x.get('language', 'en'))
                 })
+            elif source == DataSource.ZILLOW.value:
+                # Zillow data structure
+                result_df = pd.DataFrame({
+                    'uri': df['uri'],
+                    'datetime': df['datetime'],
+                    'label': df['label'],
+                    'zpid': df['decoded_content'].apply(lambda x: x.get('zpid')),
+                    'price': df['decoded_content'].apply(lambda x: x.get('price')),
+                    'address': df['decoded_content'].apply(lambda x: x.get('address')),
+                    'bedrooms': df['decoded_content'].apply(lambda x: x.get('bedrooms')),
+                    'bathrooms': df['decoded_content'].apply(lambda x: x.get('bathrooms')),
+                    'living_area': df['decoded_content'].apply(lambda x: x.get('living_area')),
+                    'home_type': df['decoded_content'].apply(lambda x: x.get('home_type')),
+                    'home_status': df['decoded_content'].apply(lambda x: x.get('home_status')),
+                    'days_on_zillow': df['decoded_content'].apply(lambda x: x.get('days_on_zillow')),
+                    'url': df['decoded_content'].apply(lambda x: x.get('url')),
+                    'zip_code': df['decoded_content'].apply(lambda x: x.get('zip_code')),
+                    'city': df['decoded_content'].apply(lambda x: x.get('city')),
+                    'state': df['decoded_content'].apply(lambda x: x.get('state')),
+                    'latitude': df['decoded_content'].apply(lambda x: x.get('latitude')),
+                    'longitude': df['decoded_content'].apply(lambda x: x.get('longitude'))
+                })
             else:
-                # X/Twitter data structure
+                # X/Twitter data structure (fallback)
                 result_df = pd.DataFrame({
                     'uri': df['uri'],
                     'datetime': df['datetime'],
@@ -397,8 +452,10 @@ class S3PartitionedUploader:
             # Get next chunk based on search type
             if search_type == "label":
                 chunk_df = self._get_label_data(source, value, offset)
-            else:  # keyword
+            elif search_type == "keyword":
                 chunk_df = self._get_keyword_data_chunk(source, value, offset)
+            else:  # search_type == "all"
+                chunk_df = self._get_all_data(source, offset)
 
             if chunk_df.empty:
                 bt.logging.info(f"No new data for job {job_id}, total processed this run: {total_processed}")

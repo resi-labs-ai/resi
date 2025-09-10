@@ -63,7 +63,14 @@ class Miner:
 
         bt.logging(config=self.config, logging_dir=self.config.full_path)
         bt.logging.info(self.config)
-        self.use_uploader = self.config.use_uploader
+        # Handle uploader configuration (fix for store_true + default=True conflict)
+        if hasattr(self.config, 'no_use_uploader') and self.config.no_use_uploader:
+            self.use_uploader = False
+            bt.logging.info("S3 uploading disabled by --no_use_uploader flag")
+        else:
+            self.use_uploader = True  # Default to enabled
+            bt.logging.info("S3 uploading enabled")
+            
         self.use_gravity_retrieval = self.config.gravity
         
         # Auto-configure S3 auth URL based on subnet
@@ -148,6 +155,7 @@ class Miner:
         self.vpermit_rao_limit = self.config.vpermit_rao_limit
 
         if self.use_uploader and not self.config.offline:
+            bt.logging.info(f"Initializing S3 uploader with auth URL: {self.config.s3_auth_url}")
             self.s3_partitioned_uploader = S3PartitionedUploader(
                 db_path=self.config.neuron.database_name,
                 subtensor=self.subtensor,
@@ -155,6 +163,9 @@ class Miner:
                 s3_auth_url=self.config.s3_auth_url,
                 state_file=self.config.miner_upload_state_file,
             )
+            bt.logging.success("S3 uploader initialized successfully")
+        else:
+            bt.logging.warning(f"S3 uploader not initialized - use_uploader: {self.use_uploader}, offline: {self.config.offline}")
 
         # Instantiate storage.
         self.storage = SqliteMinerStorage(
@@ -243,9 +254,15 @@ class Miner:
 
     def upload_s3_partitioned(self):
         """Upload DD data to S3 in partitioned format"""
-        # Wait 10 minutes before starting first upload
-        time_sleep_val = dt.timedelta(minutes=30).total_seconds()
-        time.sleep(time_sleep_val)
+        # Wait time before starting first upload (shorter for testnet)
+        if self.config.netuid == 428:  # Testnet
+            initial_wait = dt.timedelta(minutes=5).total_seconds()
+            bt.logging.info("Testnet: Waiting 5 minutes before first S3 upload")
+        else:  # Mainnet
+            initial_wait = dt.timedelta(minutes=30).total_seconds()
+            bt.logging.info("Mainnet: Waiting 30 minutes before first S3 upload")
+        
+        time.sleep(initial_wait)
 
         while not self.should_exit:
             try:
@@ -353,10 +370,15 @@ class Miner:
             )
             self.lookup_thread.start()
 
-            self.s3_partitioned_thread = threading.Thread(
-                target=self.upload_s3_partitioned, daemon=True
-            )
-            self.s3_partitioned_thread.start()
+            if self.use_uploader and hasattr(self, 's3_partitioned_uploader'):
+                bt.logging.info("Starting S3 upload thread...")
+                self.s3_partitioned_thread = threading.Thread(
+                    target=self.upload_s3_partitioned, daemon=True
+                )
+                self.s3_partitioned_thread.start()
+                bt.logging.success("S3 upload thread started successfully")
+            else:
+                bt.logging.warning("S3 upload thread not started - uploader not available")
 
             self.is_running = True
             bt.logging.debug("Started")

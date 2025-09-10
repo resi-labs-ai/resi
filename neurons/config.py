@@ -217,8 +217,15 @@ def add_args(neuron_type: NeuronType, parser):
         parser.add_argument(
             "--use_uploader",
             action="store_true",
-            help="Set this flag to true to upload your data into S3 storage",
+            help="Enable S3 data uploading (enabled by default, use --no_use_uploader to disable)",
             default=True
+        )
+        
+        parser.add_argument(
+            "--no_use_uploader",
+            action="store_true",
+            help="Disable S3 data uploading",
+            default=False
         )
 
         parser.add_argument(
