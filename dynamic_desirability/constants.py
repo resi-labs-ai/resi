@@ -1,5 +1,5 @@
 # The link to the github repo where preferences JSONs are uploaded.
-REPO_URL: str = 'https://github.com/macrocosm-os/gravity.git'
+REPO_URL: str = 'https://github.com/resi-labs-ai/prospector.git'
 BRANCH_NAME: str = 'main'
 PREFERENCES_FOLDER: str = 'validator_preferences'
 

@@ -37,7 +37,7 @@ The highest a validator can incentivize one label weight (one active validator p
 
 ### Access
 
-First, make sure you have filled out the [Gravity Write Access Request Form](https://forms.gle/ZJQMC6rwYY4ZWyfU7) to gain write access to the [Gravity Repo](https://github.com/macrocosm-os/gravity), where all validators store their preferences files. 
+First, contact the subnet operator to gain write access to the [Prospector Repo](https://github.com/resi-labs-ai/prospector), where all validators store their real estate preferences files. 
 
 <p align="center">
   <img src="/assets/access_1.png" width="400" height="220">

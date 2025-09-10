@@ -9,7 +9,7 @@ The following is a conceptual overview of Dynamic Desirability (Gravity). We rec
 
 ## Overview
 
-[Dynamic Desirability](../dynamic_desirability) takes the previous system of manually setting subnet preferences for data scraping at scale to an organic, democratic mechanism. This introduces a voting system for both the subnet owner and participating validators, where each will set their own weight preferences through an adaptable list of incentivized labels. Validators choose weights and submit them as JSONs into the desirability repository called [Gravity](https://github.com/macrocosm-os/gravity/tree/main). These weights are then committed to the chain, where they can be later read and used to create an aggregate DataDesirabilityLookup object used for scoring. 
+[Dynamic Desirability](../dynamic_desirability) takes the previous system of manually setting subnet preferences for data scraping at scale to an organic, democratic mechanism. This introduces a voting system for both the subnet owner and participating validators, where each will set their own weight preferences through an adaptable list of incentivized labels. Validators choose weights and submit them as JSONs into the desirability repository called [Prospector](https://github.com/resi-labs-ai/prospector/tree/main). These weights are then committed to the chain, where they can be later read and used to create an aggregate DataDesirabilityLookup object used for scoring. 
 
 Dynamically incentivized jobs are given label scale factors of anywhere from (`default_scale_factor` + 1) up to 5.0, depending on the volume of requests and demand for that particular label. Dynamic Desirability jobs have the following parameters: 
 
@@ -31,7 +31,7 @@ If a job does not have a `start_date` and `end_date`, it will be scored as norma
 
 Dynamic Desirability uses the Gravity repo as a part of the validator preference submission pipeline. Read-access is public and encouraged! 
 
-If you are a validator and would like to have your subreddit/hashtag preferences incentivized on SN13, please check out the [**Gravity repo**](https://github.com/macrocosm-os/gravity/tree/main) and fill out a [**request form**](https://forms.gle/BzLg4SwWgmi9xVC18) for write-access. Then, contact any Macrocosmos member on Discord notifying us of your request.
+If you are a validator and would like to have your real estate preferences incentivized on Subnet 46, please check out the [**Prospector repo**](https://github.com/resi-labs-ai/prospector/tree/main) and contact the subnet operator for write-access to submit custom preferences.
 
 
 ## Overall Process
