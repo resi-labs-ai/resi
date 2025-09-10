@@ -73,6 +73,16 @@ class NeuronType(enum.Enum):
     VALIDATOR = auto()
 
 
+def get_vpermit_rao_limit_default(netuid: int, network: str) -> int:
+    """
+    Get the appropriate vpermit_rao_limit default based on netuid and network.
+    For testnet 428, use 300. For all others, use 10,000.
+    """
+    if network == "test" and netuid == 428:
+        return 300  # Lower threshold for testnet 428
+    return 10_000  # Default for mainnet and other subnets
+
+
 def add_args(neuron_type: NeuronType, parser):
     """
     Adds relevant arguments to the parser for operation.
@@ -277,4 +287,13 @@ def create_config(neuron_type: NeuronType):
     bt.axon.add_args(parser)
     add_args(neuron_type, parser)
 
-    return bt.config(parser)
+    config = bt.config(parser)
+    
+    # Apply dynamic vpermit_rao_limit based on network and netuid
+    if not hasattr(config, 'vpermit_rao_limit') or config.vpermit_rao_limit == 10_000:
+        # Only override if using the default value
+        network = getattr(config.subtensor, 'network', 'finney')
+        netuid = getattr(config, 'netuid', 13)
+        config.vpermit_rao_limit = get_vpermit_rao_limit_default(netuid, network)
+
+    return config
