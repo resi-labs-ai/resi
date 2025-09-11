@@ -1,0 +1,14 @@
+{
+  "zillow_zip_11218": {
+    "last_offset": 42,
+    "total_records_processed": 42,
+    "last_processed_time": "2025-09-11T17:17:04.617482",
+    "processing_completed": false
+  },
+  "zillow_zip_35763": {
+    "last_offset": 72,
+    "total_records_processed": 72,
+    "last_processed_time": "2025-09-11T17:17:13.646218",
+    "processing_completed": false
+  }
+}
