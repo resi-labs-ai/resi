@@ -89,7 +89,7 @@ class ZillowRapidAPIScraper(Scraper):
         if not property_types:
             property_types = ["Houses", "Condos", "Apartments", "Townhomes"]
         if not status_types:
-            status_types = ["ForSale"]
+            status_types = ["ForSale", "ForRent"]  # Scrape both sale and rental properties
         
         async with httpx.AsyncClient(timeout=30.0) as client:
             for location in locations:

@@ -146,3 +146,71 @@ Your miner is now:
 - ✅ Uploading data every 5 minutes
 - ✅ Serving populated index to validators
 - ✅ Ready for validator evaluation and scoring
+
+## 🚨 **NEW ISSUE IDENTIFIED: Request Rate Limiting Blacklisting**
+
+### **Problem Analysis:**
+From your latest logs, the blacklisting is caused by **validator request rate limiting**, NOT S3 issues:
+
+```
+BlacklistedException: Forbidden. Key is blacklisted: Hotkey 5FKi4TiBCf76vzNqiBWZRU2kKfbWe7vfDfHT8pcYU7frDoni at 127.0.0.1 over eval period request limit for GetMinerIndex.
+```
+
+### **Root Cause:**
+- **Request Limits**: `GetMinerIndex` allows only **1 request per validator per 60-minute period** (2x limit = 2 max)
+- **Validator Behavior**: Validator `5FKi4TiBCf76vzNqiBWZRU2kKfbWe7vfDfHT8pcYU7frDoni` is making **too many requests**
+- **Evaluation Period**: 60 minutes (default, not testnet-specific)
+- **IP Address**: `127.0.0.1` indicates **local testing or validator on same machine**
+
+### **Why This Happens:**
+1. Validator requests your miner index
+2. Gets signature mismatch (separate issue)
+3. Retries multiple times quickly
+4. Exceeds 2 requests per 60-minute window
+5. Gets blacklisted for remaining evaluation period
+
+### **Solutions:**
+
+#### **Option A: Increase Testnet Evaluation Period (RECOMMENDED)**
+```bash
+export MINER_EVAL_PERIOD_MINUTES=5  # 5-minute windows for faster testing
+# Restart miner after setting this
+```
+
+#### **Option B: Fix Validator Signature Issues**
+The signature mismatches suggest the validator's requests aren't properly signed, causing retries.
+
+#### **Option C: Wait It Out**
+Blacklist clears every 60 minutes automatically.
+
+### **Immediate Action:**
+Set the environment variable for faster testnet evaluation periods and restart your miner.
+
+# 🚀 Terminal Commands (Run in Separate Terminals)
+## Terminal 1 - MINER
+
+cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+source venv/bin/activate
+source .env.testnet
+python neurons/miner.py \
+  --netuid 428 \
+  --subtensor.network test \
+  --wallet.name testnet_miner_2 \
+  --wallet.hotkey hotkey_2 \
+  --use_uploader \
+  --logging.debug \
+  --neuron.database_name SqliteMinerStorage_miner2.sqlite \
+  --miner_upload_state_file upload_utils/state_file_miner2.json
+
+## Terminal 2 - VALIDATOR
+
+cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+source venv/bin/activate
+source .env.testnet
+python neurons/validator.py \
+  --netuid 428 \
+  --subtensor.network test \
+  --wallet.name 428_testnet_validator \
+  --wallet.hotkey 428_testnet_validator_hotkey \
+  --logging.debug \
+  --max_targets 10
