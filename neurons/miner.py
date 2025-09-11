@@ -277,7 +277,7 @@ class Miner:
 
             # Upload frequency based on network
             if self.config.netuid == 428:  # Testnet
-                # Upload every 5 minutes for testnet
+                # Upload every 5 minutes for testnet (fast testing with increased rate limits)
                 time_sleep_val = dt.timedelta(minutes=5).total_seconds()
                 bt.logging.info("Using testnet upload frequency: 5 minutes")
             else:  # Mainnet

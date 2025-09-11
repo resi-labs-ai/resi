@@ -1,0 +1,8 @@
+{
+  "zillow_testnet_all": {
+    "last_offset": 0,
+    "total_records_processed": 0,
+    "last_processed_time": "2025-09-11T00:00:00.000000",
+    "processing_completed": false
+  }
+}
