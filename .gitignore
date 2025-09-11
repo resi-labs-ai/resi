@@ -181,3 +181,5 @@ s3_validation.parquet
 SqliteMinerStorage.sqlite-shm
 SqliteMinerStorage.sqlite-wal
 .env*
+
+SqliteMinerStorage*

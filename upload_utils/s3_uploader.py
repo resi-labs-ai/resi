@@ -142,7 +142,7 @@ class S3PartitionedUploader:
                         source_int = DataSource.X.value
                     elif platform == 'youtube':
                         source_int = DataSource.YOUTUBE.value
-                    elif platform == 'zillow':
+                    elif platform in ['zillow', 'rapid_zillow']:
                         source_int = DataSource.RAPID_ZILLOW.value
                     else:
                         bt.logging.warning(f"Unsupported platform: {platform}")

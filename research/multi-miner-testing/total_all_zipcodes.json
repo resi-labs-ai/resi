@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "zillow_zip_01570",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:01570",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_01702",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:01702",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_01803",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:01803",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_02067",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:02067",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_02130",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:02130",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_02780",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:02780",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_02910",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:02910",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_03103",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:03103",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_06051",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:06051",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_06110",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:06110",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_06111",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:06111",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_06355",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:06355",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_06378",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:06378",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_07016",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:07016",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_07036",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:07036",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_07086",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:07086",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_07110",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:07110",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_08205",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:08205",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_08854",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:08854",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_11232",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:11232",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_12047",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:12047",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_12054",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:12054",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_15044",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:15044",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_15215",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:15215",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_15317",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:15317",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_16505",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:16505",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_17103",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:17103",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_19380",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:19380",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_19403",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:19403",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_19422",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:19422",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_20841",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:20841",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_20850",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:20850",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_21061",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:21061",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_21136",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:21136",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_21144",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:21144",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_22046",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:22046",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_27534",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:27534",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_27610",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:27610",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_27893",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:27893",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_28202",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:28202",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29108",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29108",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29150",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29150",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29170",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29170",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29209",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29209",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29418",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29418",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29572",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29572",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29577",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29577",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_29672",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:29672",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30044",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30044",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30062",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30062",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30092",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30092",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30094",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30094",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30120",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30120",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_30297",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:30297",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_31324",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:31324",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_31407",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:31407",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_32127",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:32127",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_32778",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:32778",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33019",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33019",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33130",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33130",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33170",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33170",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33182",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33182",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33486",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33486",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33875",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33875",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33935",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33935",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_33976",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:33976",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_34103",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:34103",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_34773",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:34773",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_35005",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:35005",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_36535",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:36535",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_36869",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:36869",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_37214",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:37214",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_39047",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:39047",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_39206",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:39206",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_39560",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:39560",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_40513",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:40513",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_43054",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:43054",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_43085",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:43085",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_43213",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:43213",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_44111",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:44111",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_48122",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:48122",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_49203",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:49203",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_50613",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:50613",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_52001",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:52001",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_53215",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:53215",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_55110",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:55110",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_55337",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:55337",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_55372",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:55372",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_57702",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:57702",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_60202",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:60202",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_60613",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:60613",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_63031",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:63031",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_63129",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:63129",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_64079",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:64079",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_64133",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:64133",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_66608",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:66608",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_67042",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:67042",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_67205",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:67205",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_68025",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:68025",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_68130",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:68130",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_68522",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:68522",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_69101",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:69101",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_71202",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:71202",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_72034",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:72034",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73096",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73096",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73115",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73115",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73116",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73116",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73122",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73122",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73139",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73139",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73501",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73501",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_73703",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:73703",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_75025",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:75025",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_75056",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:75056",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_75205",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:75205",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_75407",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:75407",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_76088",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:76088",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_76903",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:76903",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77063",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77063",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77070",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77070",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77318",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77318",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77354",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77354",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77386",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77386",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77459",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77459",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77511",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77511",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_77630",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:77630",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78041",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78041",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78201",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78201",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78412",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78412",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78503",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78503",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78541",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78541",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78664",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78664",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_78736",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:78736",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80124",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80124",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80125",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80125",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80205",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80205",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80401",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80401",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80516",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80516",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_80537",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:80537",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_82604",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:82604",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_83709",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:83709",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_84020",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:84020",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_84128",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:84128",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_84129",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:84129",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_84737",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:84737",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_85303",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:85303",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_89027",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:89027",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_89121",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:89121",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_89141",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:89141",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_89801",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:89801",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_90806",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:90806",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91020",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91020",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91206",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91206",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91602",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91602",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91723",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91723",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91763",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91763",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91773",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91773",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_91784",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:91784",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_92040",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:92040",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_92103",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:92103",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_92201",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:92201",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_92399",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:92399",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_93277",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:93277",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_93711",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:93711",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_94111",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:94111",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_94597",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:94597",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_94803",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:94803",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_94960",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:94960",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_95350",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:95350",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_95351",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:95351",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_95409",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:95409",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_95648",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:95648",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_95682",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:95682",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_96007",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:96007",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_96821",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:96821",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_97204",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:97204",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_97218",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:97218",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_97303",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:97303",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_98047",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:98047",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_98503",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:98503",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_98671",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:98671",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_98901",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:98901",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  },
+  {
+    "id": "zillow_zip_unknown",
+    "weight": 1.0,
+    "params": {
+      "keyword": null,
+      "platform": "rapid_zillow",
+      "label": "zip:unknown",
+      "post_start_datetime": null,
+      "post_end_datetime": null
+    }
+  }
+]
