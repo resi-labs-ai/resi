@@ -142,12 +142,13 @@ btcli subnet register --netuid 46 --subtensor.network finney \
 #### Testnet Validation
 ```shell
 # Start testnet validator
-pm2 start python -- ./neurons/validator.py \
+pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --netuid 428 \
     --subtensor.network test \
     --wallet.name your_testnet_validator_wallet \
     --wallet.hotkey your_testnet_validator_hotkey \
-    --logging.debug
+    --logging.debug \
+    --max_targets 10
 ```
 
 #### Mainnet Validation
@@ -178,11 +179,12 @@ This will start a process called `net46-vali-updater`. This process periodically
 If you'd prefer to manage your own validator updates:
 
 ```shell
-pm2 start python -- ./neurons/validator.py \
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --netuid 46 \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
-    --wallet.hotkey your_mainnet_validator_hotkey
+    --wallet.hotkey your_mainnet_validator_hotkey \
+    --max_targets 256
 ```
 
 # Configuring the Validator
@@ -227,14 +229,72 @@ btcli subnet metagraph --netuid 46 --subtensor.network finney   # Mainnet
 ### Monitor Validator Logs
 ```shell
 # Watch validator logs in real-time
-pm2 logs net46-vali --lines 100 --follow  # Mainnet with auto-updates
-pm2 logs net428-vali --lines 100 --follow # Testnet
+pm2 logs testnet-validator --lines 100 --follow   # Testnet
+pm2 logs mainnet-validator --lines 100 --follow   # Mainnet
+pm2 logs net46-vali-updater --lines 100 --follow  # Mainnet with auto-updates
 
 # Or direct log monitoring
 tail -f logs/validator.log
 
 # Monitor validation activity specifically
-tail -f logs/validator.log | grep -E "(validation|miner|score|weight)"
+pm2 logs testnet-validator --lines 100 --follow | grep -E "(validation|miner|score|weight)"
+
+# Check PM2 process status
+pm2 status
+pm2 info testnet-validator  # or mainnet-validator
+
+# Restart validator if needed
+pm2 restart testnet-validator  # or mainnet-validator
+pm2 stop testnet-validator     # or mainnet-validator
+```
+
+## Important Flags Reference
+
+### **Required Flags:**
+- `--netuid`: 428 (testnet) or 46 (mainnet)
+- `--subtensor.network`: "test" (testnet) or "finney" (mainnet)
+- `--wallet.name`: Your validator wallet name
+- `--wallet.hotkey`: Your validator hotkey name
+
+### **Validation Control Flags:**
+- `--max_targets`: Maximum miners to validate per cycle (10 for testnet, 256 for mainnet)
+- `--neuron.disable_set_weights`: Disable weight setting (for testing)
+- `--organic_min_stake`: Minimum stake required for organic requests (default: 10000.0)
+
+### **API and Monitoring Flags:**
+- `--neuron.api_on`: Enable validator API server
+- `--neuron.api_port`: API server port (default: 8000)
+- `--wandb.off`: Disable Weights & Biases logging
+
+### **Common Optional Flags:**
+- `--logging.debug`: Enable debug logging
+- `--neuron.axon_off`: Disable serving axon (not recommended)
+- `--s3_results_path`: Custom S3 validation results path
+
+### **Example Commands by Use Case:**
+
+**Development/Testing Validator:**
+```shell
+pm2 start python --name dev-validator -- ./neurons/validator.py \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name dev_validator_wallet \
+    --wallet.hotkey dev_validator_hotkey \
+    --logging.debug \
+    --max_targets 5 \
+    --wandb.off
+```
+
+**Production Mainnet Validator:**
+```shell
+pm2 start python --name prod-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name production_validator_wallet \
+    --wallet.hotkey production_validator_hotkey \
+    --max_targets 256 \
+    --neuron.api_on \
+    --neuron.api_port 8000
 ```
 
 ### Expected Validator Behavior

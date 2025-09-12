@@ -70,18 +70,8 @@ class MockMinerAxon:
         # Filter data based on request
         filtered_data = self._filter_data(synapse)
         
-        # Convert to the format expected by validators
-        response_data = []
-        for entity in filtered_data[:synapse.limit]:
-            response_data.append({
-                'uri': entity.uri,
-                'datetime': entity.datetime.isoformat(),
-                'source': entity.source.value,
-                'label': entity.label.value if entity.label else '',
-                'content': entity.content.decode('utf-8', errors='ignore'),
-                'content_size_bytes': entity.content_size_bytes
-            })
-        
+        # Return DataEntity objects directly (as expected by OnDemandRequest)
+        response_data = filtered_data[:synapse.limit]
         synapse.data = response_data
         bt.logging.debug(f"Mock miner returning {len(response_data)} items")
         return synapse
@@ -90,20 +80,30 @@ class MockMinerAxon:
         """Filter stored data based on request parameters"""
         filtered = []
         
+        bt.logging.debug(f"Mock miner filtering {len(self.data_store)} entities for request")
+        
         for entity in self.data_store:
             # Check source match
-            if entity.source != DataSource[request.source.upper()]:
+            request_source = request.source if isinstance(request.source, DataSource) else DataSource[request.source.upper()]
+            if entity.source != request_source:
+                bt.logging.debug(f"Skipping entity due to source mismatch: {entity.source} != {request_source}")
                 continue
             
-            # Check keyword match (simple contains check)
+            # Check keyword match (simple contains check) - make this more lenient
             if request.keywords:
                 content_str = entity.content.decode('utf-8', errors='ignore').lower()
-                if not any(keyword.lower() in content_str for keyword in request.keywords):
+                # Check if ANY keyword matches OR if keyword is in URI
+                keyword_match = any(keyword.lower() in content_str for keyword in request.keywords)
+                uri_match = any(keyword.lower() in entity.uri.lower() for keyword in request.keywords)
+                if not (keyword_match or uri_match):
+                    bt.logging.debug(f"Skipping entity due to keyword mismatch: {request.keywords}")
                     continue
             
-            # Check label match
+            # Check label match - make this more lenient
             if request.usernames and entity.label:
-                if entity.label.value not in request.usernames:
+                label_value = entity.label.value if hasattr(entity.label, 'value') else str(entity.label)
+                if not any(username in label_value for username in request.usernames):
+                    bt.logging.debug(f"Skipping entity due to username mismatch: {request.usernames}")
                     continue
             
             # Check date range (simplified)
@@ -111,8 +111,10 @@ class MockMinerAxon:
                 # For simplicity, assume all data is within range
                 pass
             
+            bt.logging.debug(f"Including entity: {entity.uri}")
             filtered.append(entity)
         
+        bt.logging.debug(f"Filtered to {len(filtered)} entities")
         return filtered
     
     def start(self):

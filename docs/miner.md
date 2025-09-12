@@ -106,12 +106,16 @@ NETUID=428
 SUBTENSOR_NETWORK=test
 WALLET_NAME=your_testnet_wallet_name
 WALLET_HOTKEY=your_testnet_hotkey_name
+RAPIDAPI_KEY=your_rapidapi_key_here
+RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 
 # For Mainnet (Subnet 46)
 NETUID=46
 SUBTENSOR_NETWORK=finney
 WALLET_NAME=your_mainnet_wallet_name
 WALLET_HOTKEY=your_mainnet_hotkey_name
+RAPIDAPI_KEY=your_rapidapi_key_here
+RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 ```
 
 **Step 2: Register on Network (if needed)**
@@ -132,22 +136,28 @@ For this guide, we'll use [pm2](https://pm2.keymetrics.io/) to manage the Miner 
 **Testnet Mining:**
 ```shell
 # Start testnet miner (5-minute S3 uploads, auto-configured endpoints)
-pm2 start python -- ./neurons/miner.py \
+pm2 start python --name testnet-miner -- ./neurons/miner.py \
     --netuid 428 \
     --subtensor.network test \
     --wallet.name your_testnet_wallet \
     --wallet.hotkey your_testnet_hotkey \
-    --logging.debug
+    --use_uploader \
+    --logging.debug \
+    --neuron.database_name SqliteMinerStorage_testnet.sqlite \
+    --miner_upload_state_file upload_utils/state_file_testnet.json
 ```
 
 **Mainnet Mining:**
 ```shell
 # Start mainnet miner (2-hour S3 uploads, production settings)
-pm2 start python -- ./neurons/miner.py \
+pm2 start python --name mainnet-miner -- ./neurons/miner.py \
     --netuid 46 \
     --subtensor.network finney \
     --wallet.name your_mainnet_wallet \
-    --wallet.hotkey your_mainnet_hotkey
+    --wallet.hotkey your_mainnet_hotkey \
+    --use_uploader \
+    --neuron.database_name SqliteMinerStorage_mainnet.sqlite \
+    --miner_upload_state_file upload_utils/state_file_mainnet.json
 ```
 
 **Offline Mode:**
@@ -316,17 +326,72 @@ S3 partitioned upload completed successfully
 ## Monitoring Commands
 ```shell
 # Watch miner logs in real-time
-tail -f logs/miner.log
+pm2 logs testnet-miner --lines 100 --follow  # Testnet
+pm2 logs mainnet-miner --lines 100 --follow  # Mainnet
 
 # Monitor S3 upload activity
-tail -f logs/miner.log | grep -E "(S3|upload|partitioned)"
+pm2 logs testnet-miner --lines 100 --follow | grep -E "(S3|upload|partitioned)"
 
 # Check database growth
-ls -lh SqliteMinerStorage.sqlite*
+ls -lh SqliteMinerStorage*.sqlite
+
+# Check PM2 process status
+pm2 status
+pm2 info testnet-miner  # or mainnet-miner
 
 # Verify wallet registration
 btcli wallet overview --wallet.name your_wallet --subtensor.network test  # Testnet
 btcli wallet overview --wallet.name your_wallet --subtensor.network finney # Mainnet
+
+# Restart miner if needed
+pm2 restart testnet-miner  # or mainnet-miner
+pm2 stop testnet-miner     # or mainnet-miner
+```
+
+## Important Flags Reference
+
+### **Required Flags:**
+- `--netuid`: 428 (testnet) or 46 (mainnet)
+- `--subtensor.network`: "test" (testnet) or "finney" (mainnet)
+- `--wallet.name`: Your wallet name
+- `--wallet.hotkey`: Your hotkey name
+
+### **S3 Upload Flags:**
+- `--use_uploader`: Enable S3 uploads (default: true)
+- `--no_use_uploader`: Disable S3 uploads
+- `--neuron.database_name`: Custom database file path
+- `--miner_upload_state_file`: Custom upload state file path
+
+### **Common Optional Flags:**
+- `--logging.debug`: Enable debug logging
+- `--neuron.max_database_size_gb_hint`: Database size limit (default: 250GB)
+- `--offline`: Run in offline mode (no network participation)
+- `--neuron.scraping_config_file`: Custom scraping configuration file
+
+### **Example Commands by Use Case:**
+
+**Development/Testing:**
+```shell
+pm2 start python --name dev-miner -- ./neurons/miner.py \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name dev_wallet \
+    --wallet.hotkey dev_hotkey \
+    --use_uploader \
+    --logging.debug \
+    --neuron.database_name SqliteMinerStorage_dev.sqlite
+```
+
+**Production Mainnet:**
+```shell
+pm2 start python --name prod-miner -- ./neurons/miner.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name production_wallet \
+    --wallet.hotkey production_hotkey \
+    --use_uploader \
+    --neuron.database_name SqliteMinerStorage_prod.sqlite \
+    --neuron.max_database_size_gb_hint 500
 ```
 
 # Troubleshooting

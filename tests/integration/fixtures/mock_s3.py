@@ -266,7 +266,7 @@ class MockS3Validator:
 # Global mock S3 infrastructure
 _mock_s3_auth_server = None
 
-def get_mock_s3_auth_server(port: int = 8080) -> MockS3AuthServer:
+def get_mock_s3_auth_server(port: int = 8081) -> MockS3AuthServer:
     """Get or create global mock S3 auth server"""
     global _mock_s3_auth_server
     if _mock_s3_auth_server is None:

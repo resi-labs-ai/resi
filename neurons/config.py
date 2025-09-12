@@ -184,6 +184,13 @@ def add_args(neuron_type: NeuronType, parser):
             default=10000.0,
         )
 
+        parser.add_argument(
+            "--max_targets",
+            type=int,
+            help="Maximum number of miners to validate per cycle",
+            default=256,
+        )
+
     elif neuron_type == NeuronType.MINER:
         parser.add_argument(
             "--neuron.database_name",

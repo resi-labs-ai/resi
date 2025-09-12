@@ -65,8 +65,9 @@ class ComprehensiveTestingDemo:
             bt.logging.info(f"✅ Created {len(miner_wallets)} miner wallets and {len(validator_wallets)} validator wallets")
             
             # Set up mock S3 server
-            self.mock_s3_server = get_mock_s3_auth_server(port=8080)
-            bt.logging.info("✅ Mock S3 auth server started on port 8080")
+            self.mock_s3_server = get_mock_s3_auth_server(port=8081)
+            self.s3_auth_url = "http://localhost:8081"
+            bt.logging.info("✅ Mock S3 auth server started on port 8081")
             
             # Set up mock miner network
             self.miner_network = get_mock_miner_network(num_miners=3)
@@ -154,7 +155,7 @@ class ComprehensiveTestingDemo:
                 "signature": signature.hex()
             }
             
-            response = requests.post("http://localhost:8080/get-folder-access", json=payload, timeout=5)
+            response = requests.post(f"{self.s3_auth_url}/get-folder-access", json=payload, timeout=5)
             auth_success = response.status_code == 200
             
             bt.logging.info(f"✅ S3 authentication: {'SUCCESS' if auth_success else 'FAILED'}")
