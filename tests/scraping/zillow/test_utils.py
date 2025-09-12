@@ -122,7 +122,7 @@ class TestZillowValidationUtils(unittest.TestCase):
         result = validate_zillow_content_fields(self.test_content, self.test_entity)
         
         self.assertTrue(result.is_valid)
-        self.assertEqual(result.reason, "Zillow content fields validated successfully")
+        self.assertEqual(result.reason, "Zillow content fields validated successfully (subset validation)")
     
     def test_validate_critical_fields_zpid_mismatch(self):
         """Test validation failure when zpid doesn't match"""
@@ -243,16 +243,16 @@ class TestZillowValidationUtils(unittest.TestCase):
     
     def test_are_listing_statuses_compatible_valid_transitions(self):
         """Test valid listing status transitions"""
-        # FOR_SALE can transition to PENDING or SOLD
-        self.assertTrue(are_listing_statuses_compatible("PENDING", "FOR_SALE"))
-        self.assertTrue(are_listing_statuses_compatible("SOLD", "FOR_SALE"))
-        
-        # FOR_RENT can transition to RENTED
-        self.assertTrue(are_listing_statuses_compatible("RENTED", "FOR_RENT"))
-        
-        # PENDING can transition to SOLD or back to FOR_SALE
-        self.assertTrue(are_listing_statuses_compatible("SOLD", "PENDING"))
+        # FOR_SALE (actual) can accept PENDING or SOLD (miner) - property may have changed
         self.assertTrue(are_listing_statuses_compatible("FOR_SALE", "PENDING"))
+        self.assertTrue(are_listing_statuses_compatible("FOR_SALE", "SOLD"))
+        
+        # FOR_RENT (actual) can accept RENTED (miner) - property may have been rented
+        self.assertTrue(are_listing_statuses_compatible("FOR_RENT", "RENTED"))
+        
+        # PENDING (actual) can accept SOLD or FOR_SALE (miner) - status may have changed
+        self.assertTrue(are_listing_statuses_compatible("PENDING", "SOLD"))
+        self.assertTrue(are_listing_statuses_compatible("PENDING", "FOR_SALE"))
     
     def test_are_listing_statuses_compatible_invalid_transitions(self):
         """Test invalid listing status transitions"""
@@ -304,15 +304,20 @@ class TestZillowValidationUtils(unittest.TestCase):
     @patch('scraping.zillow.utils.bt.logging')
     def test_validation_error_handling(self, mock_logging):
         """Test error handling in validation functions"""
-        # Create a mock entity that will cause an exception
+        # Create a mock entity that will cause an exception in content validation
         mock_entity = MagicMock()
         mock_entity.content_size_bytes = 1000
         mock_entity.content.decode.side_effect = Exception("Decode error")
+        mock_entity.datetime = self.base_datetime
+        mock_entity.source = self.test_entity.source
+        mock_entity.label = self.test_entity.label
+        mock_entity.uri = self.test_entity.uri
         
         result = validate_zillow_data_entity_fields(self.test_content, mock_entity)
         
         self.assertFalse(result.is_valid)
-        self.assertIn("Validation error", result.reason)
+        # The error should be caught in the content validation step
+        self.assertIn("Content validation error", result.reason)
         mock_logging.error.assert_called()
 
 
@@ -401,7 +406,7 @@ class TestZillowValidationIntegration(unittest.TestCase):
         result = validate_zillow_data_entity_fields(validator_content, miner_entity)
         
         self.assertFalse(result.is_valid)
-        self.assertIn("Price difference too large", result.reason)
+        self.assertIn("exceeds 5.0% tolerance", result.reason)
     
     def test_realistic_miner_validator_scenario_property_sold(self):
         """Test scenario where property status changed from FOR_SALE to SOLD"""

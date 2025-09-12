@@ -396,12 +396,13 @@ def are_listing_statuses_compatible(actual_status: str, miner_status: str) -> bo
     if actual_status == miner_status:
         return True
     
-    # Define compatible status transitions
+    # Define compatible status transitions (actual_status -> allowed_miner_statuses)
     compatible_transitions = {
-        'FOR_SALE': ['PENDING', 'SOLD'],  # Property may have sold
+        'FOR_SALE': ['PENDING', 'SOLD'],  # Property may have sold or gone pending
         'FOR_RENT': ['RENTED'],           # Property may have been rented
         'PENDING': ['SOLD', 'FOR_SALE'], # Pending may complete or fall through
         'SOLD': ['FOR_SALE'],             # Rare, but deals can fall through
+        'RENTED': ['FOR_RENT'],           # Rental may have become available again
     }
     
     return miner_status in compatible_transitions.get(actual_status, [])

@@ -219,7 +219,7 @@ class TestRealEstateContent(unittest.TestCase):
         
         expected = round(465000 / 2464, 2)  # price / living_area
         self.assertEqual(price_per_sqft, expected)
-        self.assertAlmostEqual(price_per_sqft, 188.77, places=2)
+        self.assertAlmostEqual(price_per_sqft, 188.72, places=2)
     
     def test_get_price_per_sqft_missing_data(self):
         """Test price per square foot with missing data"""
