@@ -1,5 +1,5 @@
 Goals for Friday
-- run miner for testnet on seperate machine (EC2)
+- lower priority: run miner for testnet on seperate machine (EC2)
 - run validator locally
 - see how validator scores the miner
 - write up how validators can start on production in PM2

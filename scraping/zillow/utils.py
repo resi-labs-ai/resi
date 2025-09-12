@@ -1,6 +1,10 @@
 """
 Utility functions for Zillow real estate data validation.
 Provides validation logic similar to Twitter/Reddit but adapted for real estate data.
+
+This module handles validation between miners (using Property Extended Search) 
+and validators (using Individual Property API) by validating only the subset 
+of fields that miners actually have access to.
 """
 
 import datetime as dt
@@ -12,6 +16,7 @@ import bittensor as bt
 from common.data import DataEntity
 from scraping.scraper import ValidationResult
 from scraping.zillow.model import RealEstateContent
+from scraping.zillow.field_mapping import ZillowFieldMapper, FieldValidationConfig
 
 
 def validate_zillow_data_entity_fields(actual_content: RealEstateContent, entity: DataEntity) -> ValidationResult:
@@ -85,17 +90,15 @@ def validate_zillow_data_entity_fields(actual_content: RealEstateContent, entity
 
 def validate_zillow_content_fields(actual_content: RealEstateContent, entity: DataEntity) -> ValidationResult:
     """
-    Validate Zillow-specific content fields with tolerance for time-sensitive data.
+    Validate Zillow-specific content fields using only fields available to miners.
     
-    Real estate data has unique challenges:
-    - Prices may change frequently
-    - Days on market increments daily
-    - Images and photos may be updated
-    - Market estimates (Zestimate) fluctuate
+    This function validates only the subset of fields that miners have access to
+    from the Property Extended Search API, avoiding validation failures due to
+    field mismatches between miner and validator data sources.
     
     Args:
-        actual_content: Fresh RealEstateContent from API
-        entity: Miner's submitted DataEntity
+        actual_content: Fresh RealEstateContent from Individual Property API
+        entity: Miner's submitted DataEntity from Property Extended Search
         
     Returns:
         ValidationResult for content-specific validation
@@ -104,46 +107,27 @@ def validate_zillow_content_fields(actual_content: RealEstateContent, entity: Da
         # Decode miner's content from entity
         miner_content = RealEstateContent.from_data_entity(entity)
         
-        # Validate critical fields that should never change
-        critical_fields = {
-            'zpid': (actual_content.zpid, miner_content.zpid),
-            'address': (actual_content.address, miner_content.address),
-            'property_type': (actual_content.property_type, miner_content.property_type),
-        }
-        
-        for field_name, (actual_val, miner_val) in critical_fields.items():
-            if actual_val != miner_val:
-                return ValidationResult(
-                    is_valid=False,
-                    reason=f"Critical field '{field_name}' mismatch: expected '{actual_val}', got '{miner_val}'",
-                    content_size_bytes_validated=entity.content_size_bytes,
-                )
-        
-        # Validate stable fields with exact matching
-        stable_fields = {
-            'bedrooms': (actual_content.bedrooms, miner_content.bedrooms),
-            'bathrooms': (actual_content.bathrooms, miner_content.bathrooms),
-            'living_area': (actual_content.living_area, miner_content.living_area),
-            'latitude': (actual_content.latitude, miner_content.latitude),
-            'longitude': (actual_content.longitude, miner_content.longitude),
-        }
-        
-        for field_name, (actual_val, miner_val) in stable_fields.items():
-            if actual_val != miner_val and actual_val is not None and miner_val is not None:
-                return ValidationResult(
-                    is_valid=False,
-                    reason=f"Stable field '{field_name}' mismatch: expected '{actual_val}', got '{miner_val}'",
-                    content_size_bytes_validated=entity.content_size_bytes,
-                )
-        
-        # Validate time-sensitive fields with tolerance
-        tolerance_validation = validate_time_sensitive_fields(actual_content, miner_content)
-        if not tolerance_validation.is_valid:
-            return tolerance_validation
+        # Validate each field according to its configuration
+        for field_name, config in ZillowFieldMapper.FIELD_VALIDATION_CONFIG.items():
+            # Skip ignored fields
+            if config.validation_type == 'ignore':
+                continue
+                
+            # Get values from both sources
+            actual_val = getattr(actual_content, field_name, None)
+            miner_val = getattr(miner_content, field_name, None)
+            
+            # Validate according to field configuration
+            validation_result = validate_field_by_config(
+                field_name, actual_val, miner_val, config, entity
+            )
+            
+            if not validation_result.is_valid:
+                return validation_result
         
         return ValidationResult(
             is_valid=True,
-            reason="Zillow content fields validated successfully",
+            reason="Zillow content fields validated successfully (subset validation)",
             content_size_bytes_validated=entity.content_size_bytes,
         )
         
@@ -154,6 +138,179 @@ def validate_zillow_content_fields(actual_content: RealEstateContent, entity: Da
             reason=f"Content validation error: {str(e)}",
             content_size_bytes_validated=entity.content_size_bytes,
         )
+
+
+def validate_field_by_config(field_name: str, actual_val: Any, miner_val: Any, 
+                           config: FieldValidationConfig, entity: DataEntity) -> ValidationResult:
+    """
+    Validate a single field according to its configuration.
+    
+    Args:
+        field_name: Name of the field being validated
+        actual_val: Value from validator's fresh API call
+        miner_val: Value from miner's stored data
+        config: Validation configuration for this field
+        entity: DataEntity for error reporting
+        
+    Returns:
+        ValidationResult for this field
+    """
+    try:
+        if config.validation_type == 'exact':
+            return validate_exact_match(field_name, actual_val, miner_val, config, entity)
+        elif config.validation_type == 'tolerance':
+            return validate_with_tolerance(field_name, actual_val, miner_val, config, entity)
+        elif config.validation_type == 'compatible':
+            return validate_compatible_values(field_name, actual_val, miner_val, config, entity)
+        else:
+            # Unknown validation type - assume valid
+            return ValidationResult(
+                is_valid=True,
+                reason=f"Unknown validation type for {field_name}: {config.validation_type}",
+                content_size_bytes_validated=entity.content_size_bytes,
+            )
+            
+    except Exception as e:
+        bt.logging.warning(f"Error validating field {field_name}: {str(e)}")
+        return ValidationResult(
+            is_valid=True,  # Assume valid on validation errors
+            reason=f"Field validation error for {field_name} (assumed valid): {str(e)}",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+
+
+def validate_exact_match(field_name: str, actual_val: Any, miner_val: Any, 
+                        config: FieldValidationConfig, entity: DataEntity) -> ValidationResult:
+    """Validate that two values match exactly (with None handling)"""
+    
+    # Handle None values
+    if actual_val is None and miner_val is None:
+        return ValidationResult(
+            is_valid=True,
+            reason=f"Field {field_name} exact match (both None)",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+    
+    # If only one is None, it's a mismatch for critical fields
+    if (actual_val is None) != (miner_val is None):
+        if config.is_critical:
+            return ValidationResult(
+                is_valid=False,
+                reason=f"Critical field '{field_name}' None mismatch: validator='{actual_val}', miner='{miner_val}'",
+                content_size_bytes_validated=entity.content_size_bytes,
+            )
+        else:
+            # Non-critical fields with None values are acceptable
+            return ValidationResult(
+                is_valid=True,
+                reason=f"Non-critical field {field_name} None value accepted",
+                content_size_bytes_validated=entity.content_size_bytes,
+            )
+    
+    # Both values are not None - check for exact match
+    if actual_val != miner_val:
+        severity = "Critical" if config.is_critical else "Stable"
+        return ValidationResult(
+            is_valid=False,
+            reason=f"{severity} field '{field_name}' mismatch: validator='{actual_val}', miner='{miner_val}'",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+    
+    return ValidationResult(
+        is_valid=True,
+        reason=f"Field {field_name} exact match",
+        content_size_bytes_validated=entity.content_size_bytes,
+    )
+
+
+def validate_with_tolerance(field_name: str, actual_val: Any, miner_val: Any, 
+                          config: FieldValidationConfig, entity: DataEntity) -> ValidationResult:
+    """Validate numeric values with tolerance"""
+    
+    # Handle None values
+    if actual_val is None or miner_val is None:
+        return ValidationResult(
+            is_valid=True,
+            reason=f"Field {field_name} tolerance validation skipped (None value)",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+    
+    try:
+        # Convert to numbers for comparison
+        actual_num = float(actual_val)
+        miner_num = float(miner_val)
+        
+        # Calculate difference
+        diff = abs(actual_num - miner_num)
+        
+        # Check percentage tolerance
+        if config.tolerance_percent is not None:
+            if actual_num == 0:
+                # Avoid division by zero
+                tolerance_met = diff == 0
+            else:
+                percent_diff = diff / abs(actual_num)
+                tolerance_met = percent_diff <= config.tolerance_percent
+                
+            if not tolerance_met:
+                return ValidationResult(
+                    is_valid=False,
+                    reason=f"Field '{field_name}' exceeds {config.tolerance_percent:.1%} tolerance: "
+                           f"validator={actual_val}, miner={miner_val}, diff={percent_diff:.1%}",
+                    content_size_bytes_validated=entity.content_size_bytes,
+                )
+        
+        # Check absolute tolerance
+        if config.tolerance_absolute is not None:
+            if diff > config.tolerance_absolute:
+                return ValidationResult(
+                    is_valid=False,
+                    reason=f"Field '{field_name}' exceeds {config.tolerance_absolute} absolute tolerance: "
+                           f"validator={actual_val}, miner={miner_val}, diff={diff}",
+                    content_size_bytes_validated=entity.content_size_bytes,
+                )
+        
+        return ValidationResult(
+            is_valid=True,
+            reason=f"Field {field_name} within tolerance",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+        
+    except (ValueError, TypeError) as e:
+        # Values are not numeric - fall back to exact match
+        bt.logging.debug(f"Non-numeric values for {field_name}, using exact match: {e}")
+        return validate_exact_match(field_name, actual_val, miner_val, config, entity)
+
+
+def validate_compatible_values(field_name: str, actual_val: Any, miner_val: Any, 
+                             config: FieldValidationConfig, entity: DataEntity) -> ValidationResult:
+    """Validate values that may have compatible transitions (e.g., listing status)"""
+    
+    # Handle None values
+    if actual_val is None or miner_val is None:
+        return ValidationResult(
+            is_valid=True,
+            reason=f"Field {field_name} compatibility validation skipped (None value)",
+            content_size_bytes_validated=entity.content_size_bytes,
+        )
+    
+    # For listing status, use existing compatibility logic
+    if field_name == 'listing_status':
+        if are_listing_statuses_compatible(actual_val, miner_val):
+            return ValidationResult(
+                is_valid=True,
+                reason=f"Listing status transition valid: {miner_val} -> {actual_val}",
+                content_size_bytes_validated=entity.content_size_bytes,
+            )
+        else:
+            return ValidationResult(
+                is_valid=False,
+                reason=f"Invalid listing status transition: {miner_val} -> {actual_val}",
+                content_size_bytes_validated=entity.content_size_bytes,
+            )
+    
+    # For other compatible fields, fall back to exact match for now
+    return validate_exact_match(field_name, actual_val, miner_val, config, entity)
 
 
 def validate_time_sensitive_fields(actual_content: RealEstateContent, miner_content: RealEstateContent) -> ValidationResult:

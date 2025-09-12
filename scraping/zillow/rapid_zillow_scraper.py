@@ -12,6 +12,7 @@ from common.date_range import DateRange
 from scraping.scraper import ScrapeConfig, Scraper, ValidationResult
 from scraping.zillow.model import RealEstateContent
 from scraping.zillow.utils import validate_zillow_data_entity_fields
+from scraping.zillow.field_mapping import ZillowFieldMapper
 
 
 class ZillowRapidAPIScraper(Scraper):
@@ -266,7 +267,13 @@ class ZillowRapidAPIScraper(Scraper):
             )
     
     async def _fetch_property_content(self, client: httpx.AsyncClient, zpid: str) -> Optional[RealEstateContent]:
-        """Fetch fresh property data for content validation"""
+        """
+        Fetch fresh property data for content validation using only miner-available fields.
+        
+        This method fetches data from the Individual Property API but then filters it
+        to only include fields that miners would have from Property Extended Search,
+        ensuring fair validation comparison.
+        """
         try:
             params = {"zpid": zpid}
             response = await client.get(
@@ -277,10 +284,15 @@ class ZillowRapidAPIScraper(Scraper):
             
             if response.status_code == 200:
                 data = response.json()
-                # Extract property data from API response
-                property_data = data.get("property", {})
-                if property_data:
-                    return RealEstateContent.from_zillow_api(property_data)
+                # Extract full property data from API response
+                full_property_data = data.get("property", {})
+                
+                if full_property_data:
+                    # Convert full API data to miner-compatible subset
+                    miner_compatible_data = ZillowFieldMapper.create_miner_compatible_content(full_property_data)
+                    
+                    # Create RealEstateContent using only fields miners would have
+                    return RealEstateContent(**miner_compatible_data)
             
             return None
             
