@@ -1,0 +1,1576 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.38604,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/b2c33439d8971ad185388c704eda46fe-p_d.jpg",
+  "livingAreaValue": 730,
+  "streetAddress": "1074 Peachtree Walk NE #423",
+  "county": "Fulton County",
+  "monthlyHoaFee": 223,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155915330,
+      "valueIncreaseRate": 0.063162185,
+      "taxIncreaseRate": 0.36444926,
+      "taxPaid": 4272.5,
+      "value": 104360
+    },
+    {
+      "time": 1694533515330,
+      "valueIncreaseRate": 0.12983425,
+      "taxIncreaseRate": -0.10942423,
+      "taxPaid": 3131.3,
+      "value": 98160
+    },
+    {
+      "time": 1662997515330,
+      "valueIncreaseRate": 0.0013831259,
+      "taxIncreaseRate": 0.00039552638,
+      "taxPaid": 3516.04,
+      "value": 86880
+    },
+    {
+      "time": 1631461515330,
+      "valueIncreaseRate": 0.051891368,
+      "taxIncreaseRate": 0.029279545,
+      "taxPaid": 3514.65,
+      "value": 86760
+    },
+    {
+      "time": 1599925515330,
+      "valueIncreaseRate": 0.07845188,
+      "taxIncreaseRate": 0.1407672,
+      "taxPaid": 3414.67,
+      "value": 82480
+    },
+    {
+      "time": 1568303115330,
+      "valueIncreaseRate": 0.07174888,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2993.31,
+      "value": 76480
+    },
+    {
+      "time": 1536767115330,
+      "valueIncreaseRate": 0.35049206,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2993.31,
+      "value": 71360
+    },
+    {
+      "time": 1505231115330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.2895751,
+      "taxPaid": 2993.31,
+      "value": 52840
+    },
+    {
+      "time": 1473695115330,
+      "valueIncreaseRate": 0.040157482,
+      "taxIncreaseRate": 0.037983716,
+      "taxPaid": 2321.16,
+      "value": 52840
+    },
+    {
+      "time": 1442072715330,
+      "valueIncreaseRate": 0.23902439,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2236.22,
+      "value": 50800
+    },
+    {
+      "time": 1410536715330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 3.167154,
+      "taxPaid": 2236.22,
+      "value": 41000
+    },
+    {
+      "time": 1379000715330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.008883713,
+      "taxPaid": 536.63,
+      "value": 41000
+    },
+    {
+      "time": 1347464715330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 541.44,
+      "value": 41000
+    },
+    {
+      "time": 1315842315330,
+      "valueIncreaseRate": -0.21755725,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41000
+    },
+    {
+      "time": 1284306315330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 2.6078389,
+      "taxPaid": 1247.23,
+      "value": 52400
+    },
+    {
+      "time": 1252770315330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 345.7,
+      "value": 52400
+    },
+    {
+      "time": 1221234315330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 52400
+    },
+    {
+      "time": 1189611915330,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 312.86,
+      "value": 52400
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1050,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU12aauy6ymdds9_9iqqx",
+    "review_count": 0,
+    "display_name": "Trey Newton",
+    "profile_url": "https://www.zillow.com/profile/treynewtonsells/",
+    "business_name": "Keller Knapp, Inc",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "523",
+      "areacode": "678",
+      "number": "8745"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/0108e9be6a02a11fcdca16fafe566099-h_n.jpg"
+  },
+  "yearBuilt": 1996,
+  "brokerageName": "Keller Knapp, Inc",
+  "description": "This recently renovated one-bedroom, one-bath condo is conventiently located in central midtown. Modern updated kitchen features stainless-steel appliances and gorgeous quartz countertops that make cooking fashionable. Marble accent walls and wood beams create an elegant and contemporary feeling. The bedroom has a large sliding glass door that leads to a private porch with a pool view. Commuting is easy with quick access to I-75/I-85. Perfect for a professional or a college student. Close to Georgia Tech and Georgia State. Enjoy amenities such as a fitness center, club room, courtyard with a grill, pool, and private dog walk. Two resident parking stickers and gated underground parking make parking a breeze, while guests will appreciate free gated guest parking. Enjoy the midtown lifestyle you've always dreamed of - schedule a showing today!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23999999463558
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1074-peachtree-walk-ne-423-atlanta-ga-30309/132199680_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1074-peachtree-walk-ne-423-atlanta-ga-30309/132199680_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1074-peachtree-walk-ne-423-atlanta-ga-30309/132199680_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 16
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1074-peachtree-walk-ne-423-atlanta-ga-30309/132199680_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1074-peachtree-walk-ne-423-atlanta-ga-30309/132199680_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.78392,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1075 Peachtree Walk NE UNIT A508"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1075-Peachtree-Walk-NE-UNIT-A508-Atlanta-GA-30309/65468612_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1075 Peachtree Walk NE UNIT A508",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783962,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 343000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8c6ac6f7bfa332bafa52f077c1cddde2-p_c.jpg"
+        }
+      ],
+      "zpid": 65468612,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1119,
+      "longitude": -84.38611,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1119
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1075 Peachtree Walk NE UNIT A503"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1075-Peachtree-Walk-NE-UNIT-A503-Atlanta-GA-30309/2083242390_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1075 Peachtree Walk NE UNIT A503",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783962,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 302300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1075+Peachtree+Walk+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=t6CSBYq73SmbtTduBU5L6CyVOZA="
+        }
+      ],
+      "zpid": 2083242390,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1119,
+      "longitude": -84.38611,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1119
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1075 Peachtree Walk NE #A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1075-Peachtree-Walk-NE-A-Atlanta-GA-30309/2140574484_zpid/",
+      "lotAreaValue": 740.52001836547,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1075 Peachtree Walk NE #A",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783962,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 230800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 32257052,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/57c1fc89cff311b6664ec801854efb7d-p_c.jpg"
+        }
+      ],
+      "zpid": 2140574484,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 730,
+      "longitude": -84.38611,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 730
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1074 Peachtree Walk NE UNIT B323"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1074-Peachtree-Walk-NE-UNIT-B323-Atlanta-GA-30309/353539726_zpid/",
+      "lotAreaValue": 740.52,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1074 Peachtree Walk NE UNIT B323",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10328135",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78389,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 269000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 740,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c621e2fcf6be29eee834f2f694ea6c86-p_c.jpg"
+        }
+      ],
+      "zpid": 353539726,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 0,
+      "longitude": -84.385925,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 0
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1074 Peachtree Walk NE UNIT B415"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1074-Peachtree-Walk-NE-UNIT-B415-Atlanta-GA-30309/440270001_zpid/",
+      "lotAreaValue": 1132.56,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1074 Peachtree Walk NE UNIT B415",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10376973",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78389,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 345000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1132,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d124795c46314063db05d051a56de08c-p_c.jpg"
+        }
+      ],
+      "zpid": 440270001,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1119,
+      "longitude": -84.385925,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1119
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.385925,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1074 Peachtree Walk NE UNIT B404",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 0,
+      "lotSize": 740,
+      "zpid": 451025027,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1074 Peachtree Walk NE UNIT B404"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1074-Peachtree-Walk-NE-UNIT-B404-Atlanta-GA-30309/451025027_zpid/",
+      "lotAreaValue": 740.52,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10519307",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 33.78389,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1996,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 0,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/19c263bbb69d11a82f439efaf95b6107-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 250000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1074 Peachtree Walk NE UNIT B502"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1074-Peachtree-Walk-NE-UNIT-B502-Atlanta-GA-30309/2065806862_zpid/",
+      "lotAreaValue": 1132.56,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1074 Peachtree Walk NE UNIT B502",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10410917",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78389,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 392000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1132,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/06f3b6de7daac387ef1d2c6e898d4c0d-p_c.jpg"
+        }
+      ],
+      "zpid": 2065806862,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1119,
+      "longitude": -84.385925,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1119
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1074 Peachtree Walk NE UNIT B305"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1074-Peachtree-Walk-NE-UNIT-B305-Atlanta-GA-30309/2083765235_zpid/",
+      "lotAreaValue": 740.52,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1074 Peachtree Walk NE UNIT B305",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10363729",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78389,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 249900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 740,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/841a7468df00ac57e951fa25c9da4480-p_c.jpg"
+        }
+      ],
+      "zpid": 2083765235,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 730,
+      "longitude": -84.385925,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 730
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.89123149429983,
+      "date": "2025-09-03",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10594065"
+      },
+      "pricePerSquareFoot": 342,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 250000
+    },
+    {
+      "priceChangeRate": -0.069091549295775,
+      "date": "2015-11-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1448841600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 181,
+      "buyerAgent": {
+        "name": "Tristain Yankosky-O'Donnell",
+        "photo": null,
+        "profileUrl": "/profile/Tristain-ODonnell/"
+      },
+      "event": "Sold",
+      "price": 132189
+    },
+    {
+      "priceChangeRate": 0.14423851732474,
+      "date": "2015-07-15",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1436918400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 195,
+      "buyerAgent": {
+        "name": "Jared Garfield",
+        "photo": null,
+        "profileUrl": "/profile/Jared-Garfield/"
+      },
+      "event": "Sold",
+      "price": 142000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2001-08-01",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 996624000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 170,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 124100
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/b2c33439d8971ad185388c704eda46fe-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2130,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Peachtree Walk",
+    "streetAddress": "1074 Peachtree Walk NE #423",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "9 days",
+  "priceChange": null,
+  "zestimate": 248200,
+  "zpid": 65468715,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 170,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Wood beams",
+            "Modern updated kitchen",
+            "Marble accent walls",
+            "Courtyard with a grill",
+            "Stainless-steel appliances",
+            "Gorgeous quartz countertops",
+            "Private dog walk"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Wood beams",
+            "Modern updated kitchen",
+            "Marble accent walls",
+            "Courtyard with a grill",
+            "Stainless-steel appliances",
+            "Gorgeous quartz countertops",
+            "Private dog walk"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/1074-Peachtree-Walk-NE-423-Atlanta-GA-30309/65468715_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_95_35.jpg",
+    "mlsName": "GAMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": "Exclusive Right To Sell",
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Knapp, Inc"
+      }
+    ],
+    "infoString10": "The data relating to real estate for sale on this web site comes in part from the Broker Reciprocity Program of GAMLS. All real estate listings are marked with the GAMLS Broker Reciprocity thumbnail logo and detailed information about them includes the name of the listing brokers.\nThe broker providing these data believes them to be correct, but advises interested parties to confirm them before relying on them in a purchase decision.\n\nCopyright 2025 GAMLS. All rights reserved.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Knapp, Inc",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-04 09:16:32",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Trey Newton",
+    "attributionTitle": null,
+    "mlsId": "10594065",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "678-523-8745",
+    "listingAgents": [
+      {
+        "memberStateLicense": "379097",
+        "memberFullName": "Trey Newton",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "678-523-8745",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "The data relating to real estate for sale on this web site comes in part from the Broker Reciprocity Program of GAMLS. All real estate listings are marked with the GAMLS Broker Reciprocity thumbnail logo and detailed information about them includes the name of the listing brokers.\nThe broker providing these data believes them to be correct, but advises interested parties to confirm them before relying on them in a purchase decision.\n\nCopyright 2025 GAMLS. All rights reserved.\n\n",
+    "brokerPhoneNumber": "404-370-0092",
+    "lastChecked": "2025-09-12 08:22:23"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 16,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "Accessible Doors",
+      "Accessible Elevator Installed"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 260900,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Mid Rise",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1996",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "Assigned, Off Street, Side/Rear Entrance",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$2,675 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$342",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Solid Surface Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$2,675 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "740.52 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "730 sqft",
+    "commonWalls": "1 Common Wall",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$2,675 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Mid Rise",
+    "interiorFeatures": [
+      "Master On Main Level",
+      "Tile Bath",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "City Lot",
+      "Level"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Virginia Highland",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Concrete",
+      "Stucco"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$2,675 annually",
+    "appliances": [
+      "Dishwasher",
+      "Dryer",
+      "Electric Water Heater",
+      "Microwave",
+      "Oven/Range (Combo)",
+      "Refrigerator",
+      "Stainless Steel Appliance(s)",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "9 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Fitness Center",
+      "Pool",
+      "Sidewalks",
+      "Street Lights",
+      "Near Public Transport",
+      "Near Shopping"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1996,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "High Speed Internet",
+      "Phone Available",
+      "Sewer Connected",
+      "Underground Utilities",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 010600042900",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 4272,
+    "subdivisionName": "Peachtree Walk",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756857600000,
+    "roomTypes": [
+      "Den",
+      "Laundry"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Mid Rise"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$2,675 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned",
+      "Off Street",
+      "Side/Rear Entrance"
+    ],
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "730",
+    "associations": [
+      {
+        "feeFrequency": "$2,675 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "730",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Porch"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "Laundry Closet"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Facilities Fee",
+      "Insurance",
+      "Maintenance Structure",
+      "Maintenance Grounds",
+      "Swimming"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 342,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687840310
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687840310
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687840310
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 19,
+  "livingArea": 730,
+  "zestimateHighPercent": "5",
+  "mlsid": "10594065",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1043875085",
+  "country": "USA",
+  "price": 250000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:15.847492+00:00",
+    "zpid": "65468715",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

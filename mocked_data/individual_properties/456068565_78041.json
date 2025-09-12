@@ -1,0 +1,1327 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 52,
+      "display_name": "Michelle Guerra",
+      "badge_type": "Premier Agent",
+      "business_name": "MG Texas Real Estate",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "324",
+        "areacode": "956",
+        "number": "2427"
+      },
+      "zuid": "X1-ZU10a9xpmrc6e4p_1vfad",
+      "image_url": "https://photos.zillowstatic.com/fp/be82a6fa46ebccc7b997a0cdeafa7ac7-h_g.jpg"
+    }
+  ],
+  "longitude": -99.44953,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/e739cbf70882cdc205f476d55be7e817-p_d.jpg",
+  "livingAreaValue": 3055,
+  "streetAddress": "3925 Sun Valley Dr",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 2936,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU178gs02hph91l_2yr7l",
+    "review_count": 0,
+    "display_name": "Ariva Homes",
+    "profile_url": "https://www.zillow.com/profile/info143418/",
+    "business_name": "ARIVA Homes",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2024,
+  "brokerageName": "ARIVA Homes",
+  "description": "Sara II features 4 bedrooms and 2.5 Bathrooms across 1,757 Sq Ft in a 2 story design with a 1 car garage. This modern Windfield Nine home is both functional and chic, perfect for families.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3925-sun-valley-dr-laredo-tx-78041/4811459596_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3925-sun-valley-dr-laredo-tx-78041/4811459596_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.001700000022538
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0040000001899898
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0071999998763204
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.011099999770522
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.015900000929832
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.021500000730157
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3925-sun-valley-dr-laredo-tx-78041/4811459596_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3925-sun-valley-dr-laredo-tx-78041/4811459596_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3925-sun-valley-dr-laredo-tx-78041/4811459596_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.596535,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Augusta Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452750424_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Augusta Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 469000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b4499cabe2e8ccbb8d6f7726efda1cc1-p_c.jpg"
+        }
+      ],
+      "zpid": 452750424,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2446,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2446
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Christopher Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452750450_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Christopher Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 499000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d19e7dbb6f07fb940beab3d61ed8205b-p_c.jpg"
+        }
+      ],
+      "zpid": 452750450,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2576,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2576
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Carlos Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452750455_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Carlos Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 675000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/28e9634a6d6ea49d29278a2e5343014f-p_c.jpg"
+        }
+      ],
+      "zpid": 452750455,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 3226,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3226
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Delia Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452750461_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Delia Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 579990,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/23d14a730a78ff1428d8a5ee71610c82-p_c.jpg"
+        }
+      ],
+      "zpid": 452750461,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2740,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2740
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Ruth Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452786357_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Ruth Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 490000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c8abc4c02f0fc94044b7036a81c20272-p_c.jpg"
+        }
+      ],
+      "zpid": 452786357,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2550,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2550
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Cristhel Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452786359_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Cristhel Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 649990,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c373b0e51c153a3b68929ea78f32b060-p_c.jpg"
+        }
+      ],
+      "zpid": 452786359,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2830,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2830
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Franklyn Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452786360_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Franklyn Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 479000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/22b2aefe728ea97fa974e3c0b2d7c91c-p_c.jpg"
+        }
+      ],
+      "zpid": 452786360,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2812,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2812
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Alexander Plan, Winfield NINE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/winfield-nine/452786361_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Alexander Plan, Winfield NINE",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.596535,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 612000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6fd7b35ef9620e615977812f569af95c-p_c.jpg"
+        }
+      ],
+      "zpid": 452786361,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2618,
+      "longitude": -99.44953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "31550560",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2618
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-19",
+      "source": "ARIVA Homes",
+      "postingIsRental": false,
+      "time": 1755561600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ARIVA Homes",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 229,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 699000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/e739cbf70882cdc205f476d55be7e817-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/9067-Charles-Borchers-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.7,
+      "assigned": null,
+      "name": "Charles Borchers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6769-Trautmann-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.5,
+      "assigned": null,
+      "name": "Trautmann Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Laredo",
+  "providerListingID": "31550560",
+  "currency": "USD",
+  "listingProvider": {
+    "enhancedVideoURL": null,
+    "showNoContactInfoMessage": false,
+    "postingGroupName": "ARIVA Homes",
+    "isZRMSourceText": null,
+    "showLogos": null,
+    "disclaimerText": null,
+    "sourceText": "Source: ARIVA Homes",
+    "title": "Listing Provided by",
+    "logos": {},
+    "postingWebsiteURL": "https://arivahome.com/find-a-home/communities/winfield-nine/?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=551347&nhf_listing_type=community&utm_term=comm_WinfieldNINE&utm_campaign=Laredo%2FTX",
+    "agentLicenseNumber": null,
+    "postingWebsiteLinkText": "ARIVA Homes",
+    "enhancedDescriptionText": null,
+    "agentName": null
+  },
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Winfield NINE",
+    "streetAddress": "3925 Sun Valley Dr",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "24 days",
+  "priceChange": null,
+  "zestimate": 689100,
+  "zpid": 456068565,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 211,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        }
+      ]
+    }
+  ],
+  "bathrooms": 4,
+  "neighborhoodRegion": null,
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3925-Sun-Valley-Dr-Laredo-TX-78041/456068565_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "ARIVA Homes",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "ARIVA Homes"
+      }
+    ],
+    "infoString10": null,
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "ARIVA Homes",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-21 13:20:12",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": null,
+    "attributionTitle": null,
+    "mlsId": null,
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-625-2969",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-625-2969",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": null,
+    "brokerPhoneNumber": "956-625-2969",
+    "lastChecked": "2025-08-21 13:20:12"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 3,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2024",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Electric, Forced Air",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Ceiling Fan(s)",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "9,660 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "24 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$229",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": "New Construction",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "9,660 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,055 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Other",
+    "listingId": null,
+    "structureType": "House",
+    "interiorFeatures": [
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": "Asphalt,Shake",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 24,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Range",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2024,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 11464,
+    "subdivisionName": "Winfield NINE",
+    "storiesTotal": 2,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1755562567000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "2.0",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Ceiling Fan(s)"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 4,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio"
+    ],
+    "bathroomsFloat": 4,
+    "builderName": "ARIVA Homes",
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Electric",
+      "Forced Air"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": true,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 229,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-19",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691772141
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691772141
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691772141
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 9,
+  "livingArea": 3055,
+  "zestimateHighPercent": "5",
+  "mlsid": null,
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": false,
+    "is_FSBO": false,
+    "is_newHome": true,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 699000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:52.668261+00:00",
+    "zpid": "456068565",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

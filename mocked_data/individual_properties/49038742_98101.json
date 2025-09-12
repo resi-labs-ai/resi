@@ -1,0 +1,1822 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.32926,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/ff8cf2b2e8beb7bc23ea689f473bdbed-p_d.jpg",
+  "livingAreaValue": 1060,
+  "streetAddress": "1120 8th Avenue #1202",
+  "county": "King County",
+  "monthlyHoaFee": 736,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1631461590718,
+      "valueIncreaseRate": -0.038938053,
+      "taxIncreaseRate": -0.0872457,
+      "taxPaid": 4850.13,
+      "value": 543000
+    },
+    {
+      "time": 1599925590718,
+      "valueIncreaseRate": -0.14393939,
+      "taxIncreaseRate": -0.13480416,
+      "taxPaid": 5313.73,
+      "value": 565000
+    },
+    {
+      "time": 1568303190718,
+      "valueIncreaseRate": 0.11675127,
+      "taxIncreaseRate": 0.24270053,
+      "taxPaid": 6141.65,
+      "value": 660000
+    },
+    {
+      "time": 1536767190718,
+      "valueIncreaseRate": 0.13218391,
+      "taxIncreaseRate": -0.018054586,
+      "taxPaid": 4942.18,
+      "value": 591000
+    },
+    {
+      "time": 1505231190718,
+      "valueIncreaseRate": 0.13478261,
+      "taxIncreaseRate": 0.4230036,
+      "taxPaid": 5033.05,
+      "value": 522000
+    },
+    {
+      "time": 1473695190718,
+      "valueIncreaseRate": 0.09785203,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3536.92,
+      "value": 460000
+    },
+    {
+      "time": 1442072790718,
+      "valueIncreaseRate": 0.10846561,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3536.92,
+      "value": 419000
+    },
+    {
+      "time": 1410536790718,
+      "valueIncreaseRate": 0.22727273,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3536.92,
+      "value": 378000
+    },
+    {
+      "time": 1347464790718,
+      "valueIncreaseRate": 0.17557251,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 308000
+    },
+    {
+      "time": 1315842390718,
+      "valueIncreaseRate": -0.284153,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 262000
+    },
+    {
+      "time": 1284306390718,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 366000
+    },
+    {
+      "time": 1252770390718,
+      "valueIncreaseRate": 0.039772727,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 366000
+    },
+    {
+      "time": 1189611990718,
+      "valueIncreaseRate": 0.2137931,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 352000
+    },
+    {
+      "time": 1158075990718,
+      "valueIncreaseRate": 0.043165468,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 290000
+    },
+    {
+      "time": 1126539990718,
+      "valueIncreaseRate": 0.41909137,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 278000
+    },
+    {
+      "time": 1000309590718,
+      "valueIncreaseRate": 0.12975779,
+      "taxIncreaseRate": 0.062649935,
+      "taxPaid": 2253.7,
+      "value": 195900
+    },
+    {
+      "time": 968773590718,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2120.83,
+      "value": 173400
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2436,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU101yek6w3imfd_9fxlz",
+    "review_count": 83,
+    "display_name": "Simmi Kher",
+    "profile_url": "https://www.zillow.com/profile/Simmi-Kher/",
+    "business_name": "Keller Williams Eastside",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "324",
+      "areacode": "425",
+      "number": "6466"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/c2f806e4b1d8a9b97a1ad791b6be4019-h_n.jpg"
+  },
+  "yearBuilt": 1970,
+  "brokerageName": "Keller Williams Eastside",
+  "description": "Rarely available water-view condo at the base of First Hill, in sought-after building. Just steps from Downtown, Capitol Hill, world-class dining, shopping, cultural attractions & world-class medical facilities. Expansive windows frame sweeping views of Puget Sound, Lake Union & the sparkling city skyline, filling the home with abundant natural light throughout the day. Spacious 2-bedroom layout features engineered hardwood floors, stylish tile baths, generous closets, an inviting open design perfect for entertaining or unwinding. Secure parking, a fitness center, game and activity rooms, & a large community deck with BBQs add to the lifestyle. In a solid, well-managed building, this home is a daily retreat\u2014don\u2019t miss it!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1120-8th-ave-apt-1202-seattle-wa-98101/531172153_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1120-8th-ave-apt-1202-seattle-wa-98101/531172153_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1120-8th-ave-apt-1202-seattle-wa-98101/531172153_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 13
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1120-8th-ave-apt-1202-seattle-wa-98101/531172153_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1120-8th-ave-apt-1202-seattle-wa-98101/531172153_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.609287,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32926,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 402",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1315,
+      "lotSize": null,
+      "zpid": 49038713,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 402"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-402-Seattle-WA-98101/49038713_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2354155",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 47.609287,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1970,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1315,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f39216debedbba9e87343999666abfe1-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 739000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32926,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 1003",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1305,
+      "lotSize": null,
+      "zpid": 49038735,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 1003"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-1003-Seattle-WA-98101/49038735_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2426727",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.609287,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1970,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1305,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bff7af597f46c6aaa4ac31bcf9e44285-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 638000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32926,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 1004",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 795,
+      "lotSize": null,
+      "zpid": 49038736,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 1004"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-1004-Seattle-WA-98101/49038736_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2410937",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.609287,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1970,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 795,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4a67dcdfc3cac01102e05c08b450dd47-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 389000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32926,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 1203",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1408,
+      "lotSize": null,
+      "zpid": 49038743,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 1203"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-1203-Seattle-WA-98101/49038743_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2338863",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.609287,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1970,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1408,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/39f2578705d9cd338fe04852c97167f3-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 785000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 1601"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-1601-Seattle-WA-98101/49038753_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 1601",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2127169",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.609287,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 590000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c9003c7e398cd6bf8ad176899333c057-p_c.jpg"
+        }
+      ],
+      "zpid": 49038753,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1060,
+      "longitude": -122.32926,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1060
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -122.32926,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 1804",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1050,
+      "lotSize": 14370,
+      "zpid": 49038764,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 1804"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-1804-Seattle-WA-98101/49038764_zpid/",
+      "lotAreaValue": 0.3299,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2430449",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.609287,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1970,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1050,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a9caa06e930f54bd3798fa2823aba0ed-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 500000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 502"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-502-Seattle-WA-98101/49038714_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 502",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.609287,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 521000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c3a1d4f54f1a6f3fec0897bab5395e10-p_c.jpg"
+        }
+      ],
+      "zpid": 49038714,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 0,
+      "longitude": -122.329254,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 0
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1120 8th Ave APT 601"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1120-8th-Ave-APT-601-Seattle-WA-98101/49038717_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1120 8th Ave APT 601",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.609287,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 522000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ce889040523194007691b7cf3075af84-p_c.jpg"
+        }
+      ],
+      "zpid": 49038717,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 1970,
+      "longitude": -122.329254,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1970
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.046052631578947,
+      "date": "2025-09-10",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1757462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2430457"
+      },
+      "pricePerSquareFoot": 547,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 580000
+    },
+    {
+      "priceChangeRate": 0.039316239316239,
+      "date": "2021-11-24",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1637712000000,
+      "sellerAgent": {
+        "name": "Rylee Park",
+        "photo": null,
+        "profileUrl": "/profile/Ryleepark/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1855646"
+      },
+      "pricePerSquareFoot": 574,
+      "buyerAgent": {
+        "name": "Terry Kildal",
+        "photo": null,
+        "profileUrl": "/profile/tkildal/"
+      },
+      "event": "Sold",
+      "price": 608000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-27",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1635292800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1855646"
+      },
+      "pricePerSquareFoot": 552,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 585000
+    },
+    {
+      "priceChangeRate": 0.39952153110048,
+      "date": "2021-10-21",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1634774400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1855646"
+      },
+      "pricePerSquareFoot": 552,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 585000
+    },
+    {
+      "priceChangeRate": -0.016470588235294,
+      "date": "2013-08-06",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1375747200000,
+      "sellerAgent": {
+        "name": "Julie  Friedman",
+        "photo": null,
+        "profileUrl": "/profile/Julie-A-Friedman/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "521938"
+      },
+      "pricePerSquareFoot": 394,
+      "buyerAgent": {
+        "name": "Allie Howard",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISfsa7nt4wo1391000000000.jpg"
+        },
+        "profileUrl": "/profile/Allie-Howard/"
+      },
+      "event": "Sold",
+      "price": 418000
+    },
+    {
+      "priceChangeRate": -0.11087866108787,
+      "date": "2013-07-26",
+      "source": "Windermere Real Estate Company",
+      "postingIsRental": false,
+      "time": 1374796800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate Company",
+        "infoString3": null,
+        "infoString1": "521938"
+      },
+      "pricePerSquareFoot": 401,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 425000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-07-25",
+      "source": "Windermere Real Estate Company",
+      "postingIsRental": false,
+      "time": 1374710400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate Company",
+        "infoString3": null,
+        "infoString1": "521938"
+      },
+      "pricePerSquareFoot": 451,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 478000
+    },
+    {
+      "priceChangeRate": 0.16585365853659,
+      "date": "2013-05-29",
+      "source": "Windermere Real Estate Company",
+      "postingIsRental": false,
+      "time": 1369785600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate Company",
+        "infoString3": null,
+        "infoString1": "521938"
+      },
+      "pricePerSquareFoot": 451,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 478000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2006-04-24",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1145836800000,
+      "sellerAgent": {
+        "name": "Mark Ossinger",
+        "photo": null,
+        "profileUrl": "/profile/Mark-Ossinger/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "26034035"
+      },
+      "pricePerSquareFoot": 387,
+      "buyerAgent": {
+        "name": "Kari Scott",
+        "photo": null,
+        "profileUrl": "/profile/Kari-Scott/"
+      },
+      "event": "Sold",
+      "price": 410000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/ff8cf2b2e8beb7bc23ea689f473bdbed-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3141,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "First Hill",
+    "streetAddress": "1120 8th Avenue #1202",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "1 day",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 49038742,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 241,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Stylish tile baths",
+            "Generous closets",
+            "Water-view condo",
+            "Abundant natural light",
+            "Engineered hardwood floors",
+            "Inviting open design",
+            "Expansive windows"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Lake union",
+            "Stylish tile baths",
+            "Generous closets",
+            "Water-view condo",
+            "Abundant natural light",
+            "Engineered hardwood floors",
+            "Inviting open design"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "First Hill"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/1120-8th-Ave-APT-1202-Seattle-WA-98101/49038742_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Williams Eastside"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Keller Williams Eastside"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Williams Eastside",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 05:02:21",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Simmi Kher",
+    "attributionTitle": null,
+    "mlsId": "2430457",
+    "coAgentName": "Amit Kher",
+    "coAgentNumber": "425-324-6470",
+    "infoString5": "425-324-6466",
+    "listingAgents": [
+      {
+        "memberStateLicense": "22005382",
+        "memberFullName": "Simmi Kher",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "134478",
+        "memberFullName": "Amit Kher",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "425-324-6466",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "425-285-3200",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 39,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Engineered Hardwood",
+      "Carpet"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 543000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1970",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Fireplace, Radiant, Electric, Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Window Unit(s)",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$736 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$547",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Bay",
+      "City",
+      "Mountain(s)",
+      "Sound"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomThreeQuarter",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "EntryHall",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithoutEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$736 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Garbage Disposal",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=SKb1z1jNDuW"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,060 sqft",
+    "commonWalls": null,
+    "listingTerms": "Conventional",
+    "otherParking": null,
+    "associationFee": "$736 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": "Flat",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement Planked",
+      "Cement Plank"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Main Level: 1",
+      "Fireplace"
+    ],
+    "hoaFeeTotal": "$736 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Disposal",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)",
+      "Garbage Disposal",
+      "Cooking - Electric Hookup",
+      "Cooking-Electric",
+      "Dryer-Electric",
+      "Washer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": "Seneca 8",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "3 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Clubhouse",
+      "Elevator",
+      "Fitness Center",
+      "Game/Rec Rm",
+      "Lobby Entrance"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": "https://my.matterport.com/show/?m=SKb1z1jNDuW",
+    "contingency": null,
+    "yearBuilt": 1970,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "7691850310",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 4819,
+    "subdivisionName": "First Hill",
+    "storiesTotal": 21,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Insulated Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757376000000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$736 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Common Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": 4,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$736 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Bay,Sound",
+    "electric": [
+      "Company: Seattle City Light"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 1,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Window Unit(s)"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,060",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Central Vacuum",
+      "Cooking-Electric",
+      "Dryer-Electric",
+      "End Unit",
+      "Fireplace",
+      "Insulated Windows",
+      "Primary Bathroom",
+      "Washer"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": "Main",
+    "fireplaces": 1,
+    "heating": [
+      "Fireplace",
+      "Radiant",
+      "Electric",
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Common Area Maintenance",
+      "Gas",
+      "Sewer",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 547,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.94,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691600847
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.217,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691600847
+    },
+    "arm5Bucket": {
+      "rate": 6.421,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691600847
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 8,
+  "livingArea": 1060,
+  "zestimateHighPercent": null,
+  "mlsid": "2430457",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2751858773",
+  "country": "USA",
+  "price": 580000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:31.250857+00:00",
+    "zpid": "49038742",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

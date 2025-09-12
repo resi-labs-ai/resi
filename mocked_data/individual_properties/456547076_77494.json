@@ -1,0 +1,1408 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.81482,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/87f2587b59dbd0118a6485cd047401a0-p_d.jpg",
+  "livingAreaValue": 3419,
+  "streetAddress": "25918 Maple Bloom Dr",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 67,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 3109,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUr7g8ebcsde6h_32yx0",
+    "review_count": 0,
+    "display_name": "houston804",
+    "profile_url": "https://www.zillow.com/profile/houston804/",
+    "business_name": "Tri Pointe Homes",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2025,
+  "brokerageName": "Tri Pointe Homes",
+  "description": "The Goldeneye - same floorplan as my model home. 2 story entry and family room. \u00a0faces SE. \u00a0no back neighbors . backs up to the \u00a0park.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.91000002622604
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.97000002861023
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/25918-maple-bloom-dr-katy-tx-77494/4808661479_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/25918-maple-bloom-dr-katy-tx-77494/4808661479_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 9.9999997473788e-05
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.00060000002849847
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0010999999940395
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0015999999595806
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0020999999251217
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0026000000070781
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0031000000890344
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/25918-maple-bloom-dr-katy-tx-77494/4808661479_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 22
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/25918-maple-bloom-dr-katy-tx-77494/4808661479_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/25918-maple-bloom-dr-katy-tx-77494/4808661479_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.746107,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.81449,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3303 Robinson Rd",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 2712,
+      "lotSize": 11762,
+      "zpid": 27596059,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3303 Robinson Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3303-Robinson-Rd-Katy-TX-77494/27596059_zpid/",
+      "lotAreaValue": 0.27001836547291,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.746147,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1976,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2712,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.74614715576172,-95.81449127197266&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=XDggzKfJAVn20TnAq2dY64ZZA3k="
+        }
+      ],
+      "currency": "USD",
+      "price": 483300,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3303 Robinson Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3303-Robinson-Rd-Katy-TX-77494/122506116_zpid/",
+      "lotAreaValue": 5,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3303 Robinson Rd",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.746147,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 890100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 217800,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.74614715576172,-95.81449127197266&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=XDggzKfJAVn20TnAq2dY64ZZA3k="
+        }
+      ],
+      "zpid": 122506116,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1218,
+      "longitude": -95.81449,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1218
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": "BUILDER_SPEC",
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "25923 Maple Bloom Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/25923-Maple-Bloom-Dr-Katy-TX-77494/453211482_zpid/",
+      "lotAreaValue": 6407.676,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "25923 Maple Bloom Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "71226232",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.745613,
+      "homeStatus": "PENDING",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 685162,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction",
+      "lotSize": 6407,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b79a529a99be0df0598fd2f47a957b3e-p_c.jpg"
+        }
+      ],
+      "zpid": 453211482,
+      "hdpTypeDimension": "Pending",
+      "livingArea": 3175,
+      "longitude": -95.814445,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3175
+    },
+    {
+      "hdpTypeDimension": "Pending",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.813995,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "25907 Maple Bloom Dr",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3265,
+      "lotSize": 6342,
+      "zpid": 452253995,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "25907 Maple Bloom Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/25907-Maple-Bloom-Dr-Katy-TX-77494/452253995_zpid/",
+      "lotAreaValue": 6342.336,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "54584827",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "PENDING",
+      "latitude": 29.746004,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": "BUILDER_SPEC",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction",
+      "livingArea": 3265,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3aeea646a2b5daef879e081f6f4d94f8-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 731752,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.81591,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "25930 Woods Bay Dr",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 2725,
+      "lotSize": 6351,
+      "zpid": 452225511,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "25930 Woods Bay Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/25930-Woods-Bay-Dr-Katy-TX-77494/452225511_zpid/",
+      "lotAreaValue": 6351.048,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "80591685",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 29.746344,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": "BUILDER_SPEC",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction",
+      "livingArea": 2725,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fa6313f706ecea326c149c67d8d92040-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 629656,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Rear Katy Gaston Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Rear-Katy-Gaston-Rd-Katy-TX-77494/299284650_zpid/",
+      "lotAreaValue": 20.138980716253,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Rear Katy Gaston Rd",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.746931,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3225800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 877254,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.746931076049805,-95.81412506103516&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=S6SE04xC9GFJyA7KSsIltRNYVoo="
+        }
+      ],
+      "zpid": 299284650,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -95.814125,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "hdpTypeDimension": "Pending",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.81624,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "26006 Woods Bay Dr",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 2725,
+      "lotSize": 6351,
+      "zpid": 451023586,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "26006 Woods Bay Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/26006-Woods-Bay-Dr-Katy-TX-77494/451023586_zpid/",
+      "lotAreaValue": 6351.048,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "31098608",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "PENDING",
+      "latitude": 29.746048,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": "BUILDER_SPEC",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction",
+      "livingArea": 2725,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7b0024e4165af1bbe271326905389a7a-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 619631,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Pending",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.81609,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "26015 Woods Bay Dr",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3289,
+      "lotSize": 6594,
+      "zpid": 451023380,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "26015 Woods Bay Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/26015-Woods-Bay-Dr-Katy-TX-77494/451023380_zpid/",
+      "lotAreaValue": 6594.984,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "76537839",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "PENDING",
+      "latitude": 29.745535,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": "BUILDER_SPEC",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction",
+      "livingArea": 3289,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0d9d7fa57846f56df86b216e80944cd3-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 689901,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757289600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "27276908"
+      },
+      "pricePerSquareFoot": 217,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 740331
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/87f2587b59dbd0118a6485cd047401a0-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10696-Woodcreek-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "Woodcreek Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/9445-Cinco-Ranch-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Cinco Ranch J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/11780-Obra-D-Tompkins-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Obra D Tompkins High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Tompkins Reserve",
+    "streetAddress": "25918 Maple Bloom Dr",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "3 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 456547076,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 125,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Faces se"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Faces se"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 4,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/25918-Maple-Bloom-Dr-Katy-TX-77494/456547076_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Tri Pointe Homes"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Tri Pointe Homes",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 02:20:12",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Jared Turner",
+    "attributionTitle": null,
+    "mlsId": "27276908",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "281-645-5843",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Jared Turner",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "281-645-5843",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "281-645-5843",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 10,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2025",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$800 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "6,351 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "3 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$217",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Primary Bath: Separate Shower",
+          "Secondary Bath(s): Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$800 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "6,351 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,419 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": "$800 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 5,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "High Ceilings",
+      "2 Bedrooms Down",
+      "Primary Bed - 1st Floor",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Subdivided",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition,Energy Star/Reflective Roof",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 3,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Woodcreek Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "HVAC",
+      "HVAC>13 SEER",
+      "Other Energy Features"
+    ],
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": [
+      "Electric"
+    ],
+    "hoaFeeTotal": "$800 annually",
+    "appliances": [
+      "Disposal",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Cinco Ranch Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2025,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 4,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": "Tompkins High School",
+    "taxAnnualAmount": 13400,
+    "subdivisionName": "Tompkins Reserve",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757348530000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete",
+      "Curbs"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$800 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$800 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 4,
+    "buildingArea": "3,419",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck"
+    ],
+    "bathroomsFloat": 4,
+    "builderName": "Tri Pointe Homes",
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": true,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 217,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-08",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691975856
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691975856
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691975856
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 3419,
+  "zestimateHighPercent": null,
+  "mlsid": "27276908",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": false,
+    "is_FSBO": false,
+    "is_newHome": true,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 740331,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:16.507698+00:00",
+    "zpid": "456547076",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

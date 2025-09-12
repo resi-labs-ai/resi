@@ -1,0 +1,2347 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 55,
+      "display_name": "Ali Bakir",
+      "badge_type": "Premier Agent",
+      "business_name": "MorphEasy\u00ae",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "312",
+        "number": "7022"
+      },
+      "zuid": "X1-ZU112p2069q258p_94p27",
+      "image_url": "https://photos.zillowstatic.com/fp/e29233b0f9c6d160f381da79e8f90faa-h_g.jpg"
+    }
+  ],
+  "longitude": -87.616516,
+  "countyFIPS": "17031",
+  "imgSrc": "https://photos.zillowstatic.com/fp/735156a602b8987bb6c1fa8b6fd818b7-p_d.jpg",
+  "livingAreaValue": 1250,
+  "streetAddress": "400 E Randolph St APT 1229",
+  "county": "Cook County",
+  "monthlyHoaFee": 1122,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1568303290100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.017107049,
+      "taxPaid": 9168.04,
+      "value": 45632
+    },
+    {
+      "time": 1536767290100,
+      "valueIncreaseRate": 0.14633104,
+      "taxIncreaseRate": 0.051884398,
+      "taxPaid": 9013.84,
+      "value": 45632
+    },
+    {
+      "time": 1505231290100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.074796006,
+      "taxPaid": 8569.23,
+      "value": 39807
+    },
+    {
+      "time": 1473695290100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.09300469,
+      "taxPaid": 7972.89,
+      "value": 39807
+    },
+    {
+      "time": 1442072890100,
+      "valueIncreaseRate": 0.20766337,
+      "taxIncreaseRate": 0.29354534,
+      "taxPaid": 7294.47,
+      "value": 39807
+    },
+    {
+      "time": 1410536890100,
+      "valueIncreaseRate": -0.04997694,
+      "taxIncreaseRate": -0.033082586,
+      "taxPaid": 5639.13,
+      "value": 32962
+    },
+    {
+      "time": 1379000890100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.0092985155,
+      "taxPaid": 5832.07,
+      "value": 34696
+    },
+    {
+      "time": 1347464890100,
+      "valueIncreaseRate": 0.0042548263,
+      "taxIncreaseRate": 0.09620536,
+      "taxPaid": 5778.34,
+      "value": 34696
+    },
+    {
+      "time": 1315842490100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.07954428,
+      "taxPaid": 5271.22,
+      "value": 34549
+    },
+    {
+      "time": 1284306490100,
+      "valueIncreaseRate": -0.08581181,
+      "taxIncreaseRate": -0.017084423,
+      "taxPaid": 4882.82,
+      "value": 34549
+    },
+    {
+      "time": 1252770490100,
+      "valueIncreaseRate": 0.09739242,
+      "taxIncreaseRate": 0.19260523,
+      "taxPaid": 4967.69,
+      "value": 37792
+    },
+    {
+      "time": 1221234490100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.14835553,
+      "taxPaid": 4165.41,
+      "value": 34438
+    },
+    {
+      "time": 1189612090100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.010675956,
+      "taxPaid": 4891.02,
+      "value": 34438
+    },
+    {
+      "time": 1158076090100,
+      "valueIncreaseRate": 0.24446212,
+      "taxIncreaseRate": 0.09332083,
+      "taxPaid": 4943.8,
+      "value": 34438
+    },
+    {
+      "time": 1126540090100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.010191597,
+      "taxPaid": 4521.82,
+      "value": 27673
+    },
+    {
+      "time": 1095004090100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.022210913,
+      "taxPaid": 4476.2,
+      "value": 27673
+    },
+    {
+      "time": 1063381690100,
+      "valueIncreaseRate": 0.44718125,
+      "taxIncreaseRate": 0.27462617,
+      "taxPaid": 4378.94,
+      "value": 27673
+    },
+    {
+      "time": 1031845690100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.037498843,
+      "taxPaid": 3435.47,
+      "value": 19122
+    },
+    {
+      "time": 1000309690100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.06703919,
+      "taxPaid": 3311.3,
+      "value": 19122
+    },
+    {
+      "time": 968773690100,
+      "valueIncreaseRate": 0.18373159,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3103.26,
+      "value": 19122
+    },
+    {
+      "time": 937151290100,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 16154
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2037,
+  "state": "IL",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1963,
+  "brokerageName": "Berkshire Hathaway HomeServices Starck Real Estate",
+  "description": "Come and see our updated sophisticated new look. Welcome to 400 E. Randolph, Unit 1229 an outstanding truly move in two bedroom, two bath condo in one of Chicago's Premier Luxury Buildings with fantastic views from newer windows and private balcony. Entire Unit has been freshly painted and features Open concept perfect for todays modern living with updated kitchen and baths, newer stylish lighting fixtures, and true hardwood floors. Full amenity building offers resort lifestyle including glass domed indoor pool, sundeck, state of the air fitness center, racquet ball, pickleball & basketball courts, party room and much more. Prime location steps from Grant/Millenium/Maggie Daley Parks, Riverwalk, Lakefront and the loop. Additional perks include 24 hour security, shuttle bus service and assessments that include heat, a/c, gas and expanded cable. Great gem in the heart of downtown.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/400-e-randolph-st-apt-1229-chicago-il-60601/176341770_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 25
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/400-e-randolph-st-apt-1229-chicago-il-60601/176341770_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/400-e-randolph-st-apt-1229-chicago-il-60601/176341770_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 100,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 12
+          }
+        ],
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "source": {
+          "url": "https://firststreet.org/property/400-e-randolph-st-apt-1229-chicago-il-60601/176341770_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/400-e-randolph-st-apt-1229-chicago-il-60601/176341770_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 4
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 41.884716,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -87.616516,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 802",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 650,
+      "lotSize": 89297,
+      "zpid": 3869020,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 802"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-802-Chicago-IL-60601/3869020_zpid/",
+      "lotAreaValue": 2.05,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 41.884716,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": 1963,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 650,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5a76ab4164114e2c9e2736a27068e8d4-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 180330,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 803"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-803-Chicago-IL-60601/3869021_zpid/",
+      "lotAreaValue": 2.05,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 803",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 474740,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 89297,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=400+E+Randolph+St%2C+Chicago%2C+IL+60601&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=WEpWC1NiACp-zohde_Uomc9AMiM="
+        }
+      ],
+      "zpid": 3869021,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 1300,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1300
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 804"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-804-Chicago-IL-60601/3869022_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 804",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 182560,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b21da55a4de0158177ad3d2e80841312-p_c.jpg"
+        }
+      ],
+      "zpid": 3869022,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 675,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 675
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 806"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-806-Chicago-IL-60601/3869024_zpid/",
+      "lotAreaValue": 2.05,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 806",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 182880,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 89297,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/68a97b59318e4c62c5327ff5568e3369-p_c.jpg"
+        }
+      ],
+      "zpid": 3869024,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 650,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 650
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 807"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-807-Chicago-IL-60601/3869025_zpid/",
+      "lotAreaValue": 2.05,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 807",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 343170,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 89297,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6af68727fc89569b245be70f74bf601e-p_c.jpg"
+        }
+      ],
+      "zpid": 3869025,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 860,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 860
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 808"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-808-Chicago-IL-60601/3869026_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 808",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "11873979",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 305000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6187783105fb74727151a33dade944ab-p_c.jpg"
+        }
+      ],
+      "zpid": 3869026,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 825,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 825
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.616516,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 809",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1250,
+      "lotSize": null,
+      "zpid": 3869027,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 809"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-809-Chicago-IL-60601/3869027_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12005658",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 41.884716,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1963,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1250,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7abfe167a0940b3762007d5895e23160-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 570000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 810"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-810-Chicago-IL-60601/3869028_zpid/",
+      "lotAreaValue": 379,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 810",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 20,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 379,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.88471603393555,-87.61651611328125&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=4Cs660NxyqbfDBOzWq4XLgyuPBw="
+        }
+      ],
+      "zpid": 3869028,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 E Randolph St APT 811"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-E-Randolph-St-APT-811-Chicago-IL-60601/3869029_zpid/",
+      "lotAreaValue": 2.05,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "400 E Randolph St APT 811",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.884716,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 240870,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 89297,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=400+E+Randolph+St%2C+Chicago%2C+IL+60601&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=WEpWC1NiACp-zohde_Uomc9AMiM="
+        }
+      ],
+      "zpid": 3869029,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -87.616516,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.02020202020202,
+      "date": "2025-09-05",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1757030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12454819"
+      },
+      "pricePerSquareFoot": 388,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 485000
+    },
+    {
+      "priceChangeRate": 0.043203371970495,
+      "date": "2025-08-25",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1756080000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12454819"
+      },
+      "pricePerSquareFoot": 396,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 495000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-04",
+      "source": "BHHS broker feed",
+      "postingIsRental": false,
+      "time": 1751587200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "BHHS broker feed",
+        "infoString3": null,
+        "infoString1": "12335376"
+      },
+      "pricePerSquareFoot": 380,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 474500
+    },
+    {
+      "priceChangeRate": -0.010427528675704,
+      "date": "2025-04-11",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1744329600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12335376"
+      },
+      "pricePerSquareFoot": 380,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 474500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-04-11",
+      "source": "BHHS broker feed",
+      "postingIsRental": false,
+      "time": 1744329600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "BHHS broker feed",
+        "infoString3": null,
+        "infoString1": "12124132"
+      },
+      "pricePerSquareFoot": 384,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 479500
+    },
+    {
+      "priceChangeRate": -0.020429009193054,
+      "date": "2024-10-12",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1728691200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12124132"
+      },
+      "pricePerSquareFoot": 384,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 479500
+    },
+    {
+      "priceChangeRate": -0.020804160832166,
+      "date": "2024-09-09",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1725840000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12124132"
+      },
+      "pricePerSquareFoot": 392,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 489500
+    },
+    {
+      "priceChangeRate": 0.22674846625767,
+      "date": "2024-08-01",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1722470400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12124132"
+      },
+      "pricePerSquareFoot": 400,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 499900
+    },
+    {
+      "priceChangeRate": -0.05011655011655,
+      "date": "2017-01-12",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1484179200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "09395503"
+      },
+      "pricePerSquareFoot": 326,
+      "buyerAgent": {
+        "name": "Becky Toulon",
+        "photo": null,
+        "profileUrl": "/profile/myparkridgehome/"
+      },
+      "event": "Sold",
+      "price": 407500
+    },
+    {
+      "priceChangeRate": 0.13207547169811,
+      "date": "2016-11-22",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": true,
+      "time": 1479772800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09383586"
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 3000
+    },
+    {
+      "priceChangeRate": -0.044543429844098,
+      "date": "2016-11-07",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1478476800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09334746"
+      },
+      "pricePerSquareFoot": 343,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 429000
+    },
+    {
+      "priceChangeRate": -0.021786492374728,
+      "date": "2016-10-20",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1476921600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09334746"
+      },
+      "pricePerSquareFoot": 359,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 449000
+    },
+    {
+      "priceChangeRate": -0.021321961620469,
+      "date": "2016-09-27",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1474934400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09334746"
+      },
+      "pricePerSquareFoot": 367,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 459000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-09-06",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1473120000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09334746"
+      },
+      "pricePerSquareFoot": 375,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 469000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-07-07",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1467849600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09240659"
+      },
+      "pricePerSquareFoot": 375,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 469000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-05-28",
+      "source": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+      "postingIsRental": false,
+      "time": 1464393600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices KoenigRubloff Realty Group",
+        "infoString3": null,
+        "infoString1": "09240659"
+      },
+      "pricePerSquareFoot": 375,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 469000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-01-15",
+      "source": "Prudential Rubloff",
+      "postingIsRental": true,
+      "time": 1389744000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Prudential Rubloff",
+        "infoString3": null,
+        "infoString1": "08503955"
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2650
+    },
+    {
+      "priceChangeRate": -0.018518518518519,
+      "date": "2013-12-17",
+      "source": "Prudential Rubloff",
+      "postingIsRental": true,
+      "time": 1387238400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Prudential Rubloff",
+        "infoString3": null,
+        "infoString1": "08503955"
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2650
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-02-04",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1359936000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2700
+    },
+    {
+      "priceChangeRate": 0.08,
+      "date": "2013-01-24",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1358985600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2700
+    },
+    {
+      "priceChangeRate": 0.041666666666667,
+      "date": "2013-01-06",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1357430400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2012-02-23",
+      "source": "Prudential Rubloff",
+      "postingIsRental": true,
+      "time": 1329955200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Prudential Rubloff",
+        "infoString3": null,
+        "infoString1": "07980946"
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2400
+    },
+    {
+      "priceChangeRate": -0.04,
+      "date": "2011-12-01",
+      "source": "Crown Heights Realty",
+      "postingIsRental": true,
+      "time": 1322697600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Crown Heights Realty",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2400
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-11-12",
+      "source": "Crown Heights Realty",
+      "postingIsRental": true,
+      "time": 1321056000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Crown Heights Realty",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2500
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/735156a602b8987bb6c1fa8b6fd818b7-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1270-Ogden-Elementary-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Ogden Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1425-Wells-Community-Academy-High-School/",
+      "rating": 1,
+      "totalCount": null,
+      "distance": 2.8,
+      "assigned": null,
+      "name": "Wells Community Academy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Chicago",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.88,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Chicago",
+    "state": "IL",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "400 E Randolph St APT 1229",
+    "zipcode": "60601"
+  },
+  "cityId": 17426,
+  "timeOnZillow": "17 days",
+  "priceChange": -10000,
+  "zestimate": null,
+  "zpid": 3869167,
+  "countyId": 139,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1118,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Private balcony",
+            "True hardwood floors",
+            "Open concept",
+            "Updated kitchen",
+            "Newer stylish lighting fixtures"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Private balcony",
+            "True hardwood floors",
+            "Open concept",
+            "Updated kitchen",
+            "Newer windows",
+            "Stylish lighting fixtures"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "New Eastside"
+  },
+  "zipcode": "60601",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 21,
+  "url": "/homedetails/400-E-Randolph-St-APT-1229-Chicago-IL-60601/3869167_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "mlsName": "MRED as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Berkshire Hathaway HomeServices Starck Real Estate"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Berkshire Hathaway HomeServices Starck Real Estate"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Berkshire Hathaway HomeServices Starck Real Estate",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 22:07:14",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Becky Toulon",
+    "attributionTitle": "Listing courtesy of:",
+    "mlsId": "12454819",
+    "coAgentName": "Joseph Kumon",
+    "coAgentNumber": "224-725-0550",
+    "infoString5": "847-691-6135",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Becky Toulon",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "475162027",
+        "memberFullName": "Joseph Kumon",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "847-691-6135",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "brokerPhoneNumber": "847-255-3900",
+    "lastChecked": "2025-09-12 08:43:11"
+  },
+  "priceChangeDateString": "2025-09-05",
+  "photoCount": 40,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "No Disability Access"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 456320,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1963",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Steam, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Attached Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,122 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "17 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$388",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Side(s) of Property"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "204",
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "17",
+        "roomFeatures": [
+          "Flooring (Hardwood)",
+          "Bathroom (Full)"
+        ],
+        "roomDimensions": "17X12",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "168",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "14",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "12",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "12X14",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom3",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom4",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "FamilyRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "234",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "18",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "13",
+        "roomFeatures": [
+          "Kitchen (Galley)",
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "13X18",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "240",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "16",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "15",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "15X16",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,122 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Chicago",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Lake Michigan"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,250 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,122 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 17,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,122 monthly",
+    "appliances": [
+      "Range",
+      "Microwave",
+      "Dishwasher",
+      "Refrigerator",
+      "Disposal",
+      "Stainless Steel Appliance(s)"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1963,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17104000481165",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 9522,
+    "subdivisionName": null,
+    "storiesTotal": 40,
+    "storiesDecimal": null,
+    "specialListingConditions": "None",
+    "windowFeatures": null,
+    "ownership": "Co-op",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "299",
+    "associationPhone2": null,
+    "onMarketDate": 1756155460000,
+    "roomTypes": [
+      "No additional rooms"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Bike Room/Bike Trails",
+      "Door Person",
+      "Coin Laundry",
+      "Elevator(s)",
+      "Exercise Room",
+      "Storage",
+      "On Site Manager/Engineer",
+      "Indoor Pool",
+      "Security Door Lock(s)",
+      "Service Elevator(s)"
+    ],
+    "propertySubType": [
+      "Condominium",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,122 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "On Site",
+      "Leased",
+      "Attached",
+      "Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,122 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Side(s) of Property",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "299",
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "0",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "299",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Natural Gas",
+      "Steam",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Heat",
+      "Air Conditioning",
+      "Water",
+      "Gas",
+      "Insurance",
+      "Security",
+      "Doorman",
+      "Pool",
+      "Exterior Maintenance",
+      "Scavenger",
+      "Snow Removal"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 388,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-25",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.215,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685149275
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.458,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685149275
+    },
+    "arm5Bucket": {
+      "rate": 7.083,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685149275
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 40,
+  "livingArea": 1250,
+  "zestimateHighPercent": null,
+  "mlsid": "12454819",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1263130",
+  "country": "USA",
+  "price": 485000,
+  "priceChangeDate": 1757030400000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:11.080375+00:00",
+    "zpid": "3869167",
+    "zipcode": "60601",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

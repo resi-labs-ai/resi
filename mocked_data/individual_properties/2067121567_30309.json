@@ -1,0 +1,1564 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.37859,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/d7d68668a21bad535317750a94d09485-p_d.jpg",
+  "livingAreaValue": 787,
+  "streetAddress": "1055 Piedmont Ave NE UNIT 114",
+  "county": "Fulton County",
+  "monthlyHoaFee": 404,
+  "timeZone": "America/New_York",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 1491,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUz27y4o2iciyx_29gz3",
+    "review_count": 6,
+    "display_name": "Stephen Beckwith",
+    "profile_url": "https://www.zillow.com/profile/Stephen-Beckwith/",
+    "business_name": "Atlanta Fine Homes Sotheby's International",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "664",
+      "areacode": "404",
+      "number": "4565"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/23a3144c5cc4f9733bdd5ce3d473bcfb-h_n.jpg"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "Atlanta Fine Homes Sotheby's International",
+  "description": "Expand your living with the 200+ square foot terrace bringing Piedmont Park even closer than just out your back door. Smart layout with an open concept for your living space, real wood cabinets, huge peninsula/island with counter height seating, large sliding door with sidelights leading to the open terrace. Enter the bedroom and bath via a side vestibule offering more privacy and separation from the living area, custom closets and a double vanity finish things off. Atlanta's jewel of a park allows for any outdoor activity you desire - just down the hall and out the side door. Want to get away? A short distance to MARTA and a straight shot to a the airport and a flight anywhere.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1055-piedmont-ave-ne-unit-114-atlanta-ga-30309/134169379_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1055-piedmont-ave-ne-unit-114-atlanta-ga-30309/134169379_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1055-piedmont-ave-ne-unit-114-atlanta-ga-30309/134169379_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1055-piedmont-ave-ne-unit-114-atlanta-ga-30309/134169379_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1055-piedmont-ave-ne-unit-114-atlanta-ga-30309/134169379_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.783447,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82390768_zpid/",
+      "lotAreaValue": 827,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 325100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 827,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d866ae9722c38c7a27e8f2f6f61f8cb2-p_c.jpg"
+        }
+      ],
+      "zpid": 82390768,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 828,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 828
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82610625_zpid/",
+      "lotAreaValue": 740,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 296800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 740,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dd3e0cecf9bf4fb3a9421097a223339c-p_c.jpg"
+        }
+      ],
+      "zpid": 82610625,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 734,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 734
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82610774_zpid/",
+      "lotAreaValue": 788,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 316700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 788,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4bef83be65bba76c1d4c011bbe12703c-p_c.jpg"
+        }
+      ],
+      "zpid": 82610774,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 803,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 803
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82610805_zpid/",
+      "lotAreaValue": 784,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 302800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 784,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.783447265625,-84.37859344482422&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=I45YkMM_snZauBFv7YqVAcwRpmA="
+        }
+      ],
+      "zpid": 82610805,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 783,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 783
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82611692_zpid/",
+      "lotAreaValue": 1616,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 657700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1616,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.783447265625,-84.37859344482422&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=I45YkMM_snZauBFv7YqVAcwRpmA="
+        }
+      ],
+      "zpid": 82611692,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1617,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1617
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82611744_zpid/",
+      "lotAreaValue": 5762,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 295800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5762,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f404f0bf8e1c978b09aba71711a7f8aa-p_c.jpg"
+        }
+      ],
+      "zpid": 82611744,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 746,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 746
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82612066_zpid/",
+      "lotAreaValue": 1219,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 471400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1219,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/507e43963456cdaa94cf12bf70312434-p_c.jpg"
+        }
+      ],
+      "zpid": 82612066,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 783,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 783
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE UNIT 204"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-UNIT-204-Atlanta-GA-30309/82612211_zpid/",
+      "lotAreaValue": 1089,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE UNIT 204",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 439800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1089,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6de382ee750eec07b506996a3eb304d8-p_c.jpg"
+        }
+      ],
+      "zpid": 82612211,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1089,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1089
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1055 Piedmont Ave NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1055-Piedmont-Ave-NE-Atlanta-GA-30309/82612608_zpid/",
+      "lotAreaValue": 736,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1055 Piedmont Ave NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783447,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 311000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 736,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/507e43963456cdaa94cf12bf70312434-p_c.jpg"
+        }
+      ],
+      "zpid": 82612608,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 783,
+      "longitude": -84.37859,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 783
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-05",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7644257"
+      },
+      "pricePerSquareFoot": 451,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 355000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/d7d68668a21bad535317750a94d09485-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2210,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Piedmont Crest",
+    "streetAddress": "1055 Piedmont Ave NE UNIT 114",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "7 days",
+  "priceChange": null,
+  "zestimate": 350500,
+  "zpid": 2067121567,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 192,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Side vestibule",
+            "Custom closets",
+            "Real wood cabinets",
+            "Double vanity"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Side vestibule",
+            "Custom closets",
+            "Real wood cabinets",
+            "Double vanity"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/1055-Piedmont-Ave-NE-UNIT-114-Atlanta-GA-30309/2067121567_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Atlanta Fine Homes Sotheby's International"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Atlanta Fine Homes Sotheby's International",
+    "listingAttributionContact": "404-664-4565",
+    "lastUpdated": "2025-09-12 08:21:51",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Stephen Beckwith",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7644257",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-664-4565",
+    "listingAgents": [
+      {
+        "memberStateLicense": "249657",
+        "memberFullName": "Stephen Beckwith",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-664-4565",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 42,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Carpet",
+      "Hardwood",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Pillar/Post/Pier"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Heat Pump",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Heat Pump",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Parking space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$404 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "7 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$451",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Park/Greenbelt"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Double Vanity",
+          " Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Cabinets Stain",
+          " Eat-in Kitchen",
+          " Stone Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$404 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "784.08 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/1055-Piedmont-Avenue-NE-Unit-114-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "787 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": "$404 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Double Vanity",
+      "Track Lighting"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Borders US/State Park"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 7,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Virginia-Highland",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Frame"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$404 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Gas Range",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Fenced",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "7 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Clubhouse",
+      "Fitness Center",
+      "Guest Suite",
+      "Homeowners Assoc"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.propertypanorama.com/1055-Piedmont-Avenue-NE-Unit-114-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 010600093630",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 3946,
+    "subdivisionName": "Piedmont Crest",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows",
+      "Window Treatments"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757030400000,
+    "roomTypes": [
+      "Other"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$404 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Alarm",
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 70,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "787",
+    "associations": [
+      {
+        "feeFrequency": "$404 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "110 Volts",
+      "220 Volts in Laundry"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Heat Pump"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "787",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Heat Pump"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Gas",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Reserve Fund",
+      "Trash"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 451,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-05",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683870910
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683870910
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683870910
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 10,
+  "livingArea": 787,
+  "zestimateHighPercent": "5",
+  "mlsid": "7644257",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2750825470",
+  "country": "USA",
+  "price": 355000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:06.171297+00:00",
+    "zpid": "2067121567",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

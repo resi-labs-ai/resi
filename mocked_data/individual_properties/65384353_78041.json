@@ -1,0 +1,1593 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 109,
+      "display_name": "Elijahandmarisol Nora",
+      "badge_type": "Premier Agent",
+      "business_name": "Gabali Realty\u00ae",
+      "rating_average": 4.9,
+      "phone": {
+        "prefix": "319",
+        "areacode": "956",
+        "number": "2143"
+      },
+      "zuid": "X1-ZUyh255pe3ir61_540hk",
+      "image_url": "https://photos.zillowstatic.com/fp/3c10ffa7c561eb9dc3d6f0a9fbe7b013-h_g.jpg"
+    }
+  ],
+  "longitude": -99.43523,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/bafea76d37029ac3cd74782b9513aaa8-p_d.jpg",
+  "livingAreaValue": 3030,
+  "streetAddress": "411 Lake Nakuru",
+  "county": "Webb County",
+  "monthlyHoaFee": 50,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155774644,
+      "valueIncreaseRate": 0.030918932,
+      "taxIncreaseRate": -0.008975246,
+      "taxPaid": 3235.24,
+      "value": 515644
+    },
+    {
+      "time": 1694533374644,
+      "valueIncreaseRate": 0.039298434,
+      "taxIncreaseRate": 0.0007173343,
+      "taxPaid": 3264.54,
+      "value": 500179
+    },
+    {
+      "time": 1662997374644,
+      "valueIncreaseRate": 0.13039312,
+      "taxIncreaseRate": 0.05042499,
+      "taxPaid": 3262.2,
+      "value": 481266
+    },
+    {
+      "time": 1631461374644,
+      "valueIncreaseRate": 0.100018084,
+      "taxIncreaseRate": 0.08798548,
+      "taxPaid": 3105.6,
+      "value": 425751
+    },
+    {
+      "time": 1599925374644,
+      "valueIncreaseRate": 0.00049114646,
+      "taxIncreaseRate": -0.9900375,
+      "taxPaid": 2854.45,
+      "value": 387040
+    },
+    {
+      "time": 1568302974644,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 286518,
+      "value": 386850
+    },
+    {
+      "time": 1536766974644,
+      "valueIncreaseRate": 0.073778,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 386850
+    },
+    {
+      "time": 1505230974644,
+      "valueIncreaseRate": 0.11524889,
+      "taxIncreaseRate": -0.67952424,
+      "taxPaid": 2711.94,
+      "value": 360270
+    },
+    {
+      "time": 1473694974644,
+      "valueIncreaseRate": 0.033694923,
+      "taxIncreaseRate": 0.078397766,
+      "taxPaid": 8462.23,
+      "value": 323040
+    },
+    {
+      "time": 1442072574644,
+      "valueIncreaseRate": 0.021007579,
+      "taxIncreaseRate": 0,
+      "taxPaid": 7847.04,
+      "value": 312510
+    },
+    {
+      "time": 1410536574644,
+      "valueIncreaseRate": 0.06555265,
+      "taxIncreaseRate": 0,
+      "taxPaid": 7847.04,
+      "value": 306080
+    },
+    {
+      "time": 1379000574644,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 287250
+    },
+    {
+      "time": 1347464574644,
+      "valueIncreaseRate": -0.029528024,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 287250
+    },
+    {
+      "time": 1315842174644,
+      "valueIncreaseRate": -0.061808616,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 295990
+    },
+    {
+      "time": 1284306174644,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 315490
+    },
+    {
+      "time": 1252770174644,
+      "valueIncreaseRate": -0.040480535,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 315490
+    },
+    {
+      "time": 1221234174644,
+      "valueIncreaseRate": 0.05492813,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 328800
+    },
+    {
+      "time": 1189611774644,
+      "valueIncreaseRate": 0.025263159,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 311680
+    },
+    {
+      "time": 1158075774644,
+      "valueIncreaseRate": 0.08656802,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 304000
+    },
+    {
+      "time": 1126539774644,
+      "valueIncreaseRate": 5.5676055,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 279780
+    },
+    {
+      "time": 1095003774644,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42600
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2444,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyk20rkpy6hop_a3ta0",
+    "review_count": 1,
+    "display_name": "Pedro Martinez",
+    "profile_url": "https://www.zillow.com/profile/user62403959/",
+    "business_name": "Xecutive Realtors",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "324",
+      "areacode": "956",
+      "number": "9874"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/a5dc168736d8be53934bd3dab186304b-h_n.jpg"
+  },
+  "yearBuilt": 2004,
+  "brokerageName": "Xecutive Realtors",
+  "description": null,
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/411-lake-nakuru-laredo-tx-78041/4807696037_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/411-lake-nakuru-laredo-tx-78041/4807696037_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.001300000003539
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0026000000070781
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0040000001899898
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0055999998003244
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0073000001721084
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0093000000342727
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/411-lake-nakuru-laredo-tx-78041/4807696037_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 21
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/411-lake-nakuru-laredo-tx-78041/4807696037_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/411-lake-nakuru-laredo-tx-78041/4807696037_fsid"
+        },
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 0
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.560175,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "413 Lake Nakuru"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/413-Lake-Nakuru-Laredo-TX-78041/65384354_zpid/",
+      "lotAreaValue": 10497,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "413 Lake Nakuru",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559977,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 534100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10497,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=413+Lake+Nakuru%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=X41Q5XKsR8g9OEjWr-KfIkAjt4Q="
+        }
+      ],
+      "zpid": 65384354,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2835,
+      "longitude": -99.435295,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2835
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -99.43516,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "409 Lake Nakuru",
+        "zipcode": "78041"
+      },
+      "livingAreaValue": 3549,
+      "lotSize": 10759,
+      "zpid": 65384352,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": null,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "409 Lake Nakuru"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/409-Lake-Nakuru-Laredo-TX-78041/65384352_zpid/",
+      "lotAreaValue": 10759,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 27.560373,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2004,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3549,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=409+Lake+Nakuru%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=xf1QxqnrkKzC09mWr7uILeiK06c="
+        }
+      ],
+      "currency": "USD",
+      "price": 641100,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "424 Lake Morraine Loop"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/424-Lake-Morraine-Loop-Laredo-TX-78041/80111444_zpid/",
+      "lotAreaValue": 10500,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "424 Lake Morraine Loop",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.560137,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 148105,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10500,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/58e282fbe8b89f59152f0c2e49caddc7-p_c.jpg"
+        }
+      ],
+      "zpid": 80111444,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2800,
+      "longitude": -99.43479,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2800
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "424 Lake Morraine Loop"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/424-Lake-Morraine-Loop-Laredo-TX-78041/309888675_zpid/",
+      "lotAreaValue": 10497,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "424 Lake Morraine Loop",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.560137,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 148105,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10497,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=424+Lake+Morraine+Loop%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=e-y4quATOuLikLjlc_FW5pesbYE="
+        }
+      ],
+      "zpid": 309888675,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.43479,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "424 Lake Morraine Loop"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/424-Lake-Morraine-Loop-Laredo-TX-78041/336999321_zpid/",
+      "lotAreaValue": 10497,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "424 Lake Morraine Loop",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.560137,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 471200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10497,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=424+Lake+Morraine+Loop%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=e-y4quATOuLikLjlc_FW5pesbYE="
+        }
+      ],
+      "zpid": 336999321,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2850,
+      "longitude": -99.43479,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2850
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "426 Lake Morraine Loop"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/426-Lake-Morraine-Loop-Laredo-TX-78041/80119091_zpid/",
+      "lotAreaValue": 10497,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "426 Lake Morraine Loop",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559938,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 680000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10497,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c2ef50f9c44de1243400edac1d62737d-p_c.jpg"
+        }
+      ],
+      "zpid": 80119091,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4022,
+      "longitude": -99.43485,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4022
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "415 Lake Nakuru"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/415-Lake-Nakuru-Laredo-TX-78041/70978749_zpid/",
+      "lotAreaValue": 10454,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "415 Lake Nakuru",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559776,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 585600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10454,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2905eebea4df7f985a06d44111115272-p_c.jpg"
+        }
+      ],
+      "zpid": 70978749,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3190,
+      "longitude": -99.435356,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3190
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -99.43509,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "407 Lake Nakuru",
+        "zipcode": "78041"
+      },
+      "livingAreaValue": 3429,
+      "lotSize": 10541,
+      "zpid": 65384351,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": null,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "407 Lake Nakuru"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/407-Lake-Nakuru-Laredo-TX-78041/65384351_zpid/",
+      "lotAreaValue": 10541,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 27.560577,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2004,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3429,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=407+Lake+Nakuru%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=L9padCu4QYHnHlxLjBRXp9J30nY="
+        }
+      ],
+      "currency": "USD",
+      "price": 622900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-18",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1755475200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253580"
+      },
+      "pricePerSquareFoot": 192,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 582000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2018-07-06",
+      "source": "Xecutive Realtors",
+      "postingIsRental": true,
+      "time": 1530835200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Xecutive Realtors",
+        "infoString3": null,
+        "infoString1": "20181472"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2600
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2018-05-06",
+      "source": "Xecutive Realtors",
+      "postingIsRental": true,
+      "time": 1525564800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Xecutive Realtors",
+        "infoString3": null,
+        "infoString1": "20181472"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2600
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-06-22",
+      "source": "Xecutive Realtors",
+      "postingIsRental": true,
+      "time": 1498089600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Xecutive Realtors",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2600
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-05-09",
+      "source": "Xecutive Realtors",
+      "postingIsRental": true,
+      "time": 1494288000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Xecutive Realtors",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2600
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/bafea76d37029ac3cd74782b9513aaa8-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/25865-THE-COVES-Elementary-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 9.7,
+      "assigned": null,
+      "name": "Roberto J Santos Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6755-United-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.8,
+      "assigned": null,
+      "name": "United Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4037,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Lakeside",
+    "streetAddress": "411 Lake Nakuru",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "24 days",
+  "priceChange": null,
+  "zestimate": 570300,
+  "zpid": 65384353,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 435,
+  "homeInsights": null,
+  "bathrooms": 5,
+  "neighborhoodRegion": {
+    "name": "Lakeside"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/411-Lake-Nakuru-Laredo-TX-78041/65384353_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Xecutive Realtors"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Xecutive Realtors",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-18 15:58:04",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Pedro Martinez",
+    "attributionTitle": null,
+    "mlsId": "20253580",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-324-9874",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Pedro Martinez",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-324-9874",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-791-9800",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 23,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Swimming Pool"
+    ],
+    "flooring": [
+      "Tile",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 515644,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2004",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$150 quarterly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10,518 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "24 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$192",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen Island",
+          "Granite Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$150 quarterly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,518 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "3,030 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash",
+    "otherParking": null,
+    "associationFee": "$150 quarterly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Large Master Bedroom",
+      "Dining Room",
+      "Walk-In Closet(s)",
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Sprinklers In Front",
+      "Sprinklers In Rear"
+    ],
+    "roofType": "Flat,5-10 Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 24,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$150 quarterly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Refrigerator",
+      "Microwave",
+      "Cooktop",
+      "Self Cleaning Oven",
+      "Gas Water Heater"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Masonry",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "None",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "Lake Privileges"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2004,
+    "utilities": [
+      "Underground Utilities",
+      "Sewer Connected",
+      "Cable Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 4,
+    "parcelNumber": "292991",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 3235,
+    "subdivisionName": "Lakeside",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows"
+    ],
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1755560436000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$150 quarterly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Concrete",
+      "No Carport"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Alarm System",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$150 quarterly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 5,
+    "buildingArea": "3,030",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Front",
+      "Rear"
+    ],
+    "bathroomsFloat": 5,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer and Dryer Hookups"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 0,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 192,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-18",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690395638
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690395638
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690395638
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 23,
+  "livingArea": 3030,
+  "zestimateHighPercent": "5",
+  "mlsid": "20253580",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 582000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:55.218063+00:00",
+    "zpid": "65384353",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

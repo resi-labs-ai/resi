@@ -1,0 +1,1237 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.757774,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/671b3c0e91895573ab0625aef2368a86-p_d.jpg",
+  "livingAreaValue": 748,
+  "streetAddress": "400 Herron Dr #108",
+  "county": "Davidson County",
+  "monthlyHoaFee": 203,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 1197,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 2018,
+  "brokerageName": "Onward Real Estate",
+  "description": "Discover a refined take on city living in this natural-light filled condo with sweeping views of the Nashville skyline. Thoughtfully designed to feel open and welcoming, this condo offers a stylish retreat in one of the city\u2019s most vibrant communities.\n\nPicture yourself starting the day with coffee on your private balcony, gathering with friends in a bright, stylish kitchen, or winding down while the city skyline gleams in the distance. Positioned on the ground floor for effortless access, this condo blends convenience with a modern sense of urban living.\n\nResidents enjoy access to premium amenities, including a sparkling outdoor pool overlooking the Nashville skyline, outdoor cooking area equipped with gas grills, a well-appointed club house and lounge space for entertaining large groups, and a dedicated dog park for your furry friends. With popular spots like Matryoshka Coffee and Poppy & Peep just outside your door, and minutes to Nashville SC's stadium, Geodis Park and all the Wedgewood Houston hot spots, you\u2019re always steps away from something special.",
+  "climate": null,
+  "latitude": 36.13625,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr APT 409"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-APT-409-Nashville-TN-37210/444594161_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr APT 409",
+        "zipcode": "37210"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2668259",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.136307,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 295000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/12ee0b5fa85b8a7001c95dbc07ccd17b-p_c.jpg"
+        }
+      ],
+      "zpid": 444594161,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 748,
+      "longitude": -86.75775,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 748
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr #109"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-109-Nashville-TN-37201/445879229_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr #109",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2359229",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.13631,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 296400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e0d1ed55d0e59be56b847ac51c4e4e44-p_c.jpg"
+        }
+      ],
+      "zpid": 445879229,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 748,
+      "longitude": -86.75775,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 748
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "380 Herron Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/380-Herron-Dr-Nashville-TN-37210/244631761_zpid/",
+      "lotAreaValue": 3.5199954086318,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "380 Herron Dr",
+        "zipcode": "37210"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.136166,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 397400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 153331,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=380+Herron+Dr%2C+Nashville%2C+TN+37210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=RvQs7bH1jCr6DcdeJGjZ_IjT4ec="
+        }
+      ],
+      "zpid": 244631761,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -86.757805,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.75782,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr APT 106",
+        "zipcode": "37210"
+      },
+      "livingAreaValue": 748,
+      "lotSize": 871,
+      "zpid": 444604691,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr APT 106"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-APT-106-Nashville-TN-37210/444604691_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2990709",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.136147,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2018,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 748,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b00d15ba750055e6ecd8a4ff72b53170-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 295900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr #210"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-210-Nashville-TN-37201/445879208_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr #210",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2787845",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.136364,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 294900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6dba829dca311c7ee61c15d49b7272fd-p_c.jpg"
+        }
+      ],
+      "zpid": 445879208,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 748,
+      "longitude": -86.75774,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 748
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Drive 221"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-Herron-Drive-221-Nashville-TN-37210/444583250_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Drive 221",
+        "zipcode": "37210"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "1942547",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.136253,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 313400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=400+Herron+Drive+221%2C+Nashville%2C+TN+37210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=425F0s0ZgMg59DC5AuyPOWdefM0="
+        }
+      ],
+      "zpid": 444583250,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 750,
+      "longitude": -86.75759,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 750
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr #207"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-207-Nashville-TN-37201/445880883_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr #207",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2263681",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.13606,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 285100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e3869254183cad3da6b6cd8f594d8ac2-p_c.jpg"
+        }
+      ],
+      "zpid": 445880883,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 748,
+      "longitude": -86.75777,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 748
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.75759,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "400 Herron Dr APT 111",
+        "zipcode": "37210"
+      },
+      "livingAreaValue": 750,
+      "lotSize": 871,
+      "zpid": 444594128,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "400 Herron Dr APT 111"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/400-Herron-Dr-APT-111-Nashville-TN-37210/444594128_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2805555",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.136383,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2018,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 750,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9090e2d9151a86e1690c55c2e8bdee22-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 274500,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.049683227742581,
+      "date": "2025-09-11",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2944323"
+      },
+      "pricePerSquareFoot": 381,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 285000
+    },
+    {
+      "priceChangeRate": 0.46364080039043,
+      "date": "2025-07-23",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1753228800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2944323"
+      },
+      "pricePerSquareFoot": 401,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 299900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2018-06-29",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1530230400000,
+      "sellerAgent": {
+        "name": "Mark Deutschmann",
+        "photo": null,
+        "profileUrl": "/profile/Mark-Deutschmann/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1999218"
+      },
+      "pricePerSquareFoot": 274,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 204900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/671b3c0e91895573ab0625aef2368a86-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1110-John-B-Whitsitt-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "John B Whitsitt Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/5240-Cameron-College-Prep/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Cameron College Prep",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "5-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1083-Glencliff-Comp-High-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Glencliff Comp High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "Alloy",
+    "streetAddress": "400 Herron Dr #108",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "51 days",
+  "priceChange": -14900,
+  "zestimate": null,
+  "zpid": 445879205,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 112,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Private balcony",
+            "Dedicated dog park",
+            "Well-appointed club house",
+            "Bright stylish kitchen",
+            "Natural-light filled condo"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Private balcony",
+            "Dedicated dog park",
+            "Well-appointed club house",
+            "Bright stylish kitchen",
+            "Natural-light filled condo"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Woodycrest"
+  },
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/400-Herron-Dr-108-Nashville-TN-37201/445879205_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Onward Real Estate"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Onward Real Estate",
+    "listingAttributionContact": "6156692541",
+    "lastUpdated": "2025-09-11 11:15:00",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Michael William Jezewski",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2944323",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "615-669-2541",
+    "listingAgents": [
+      {
+        "memberStateLicense": "333799",
+        "memberFullName": "Michael William Jezewski",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-669-2541",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "615-656-8599",
+    "lastChecked": "2025-09-12 08:43:20"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 24,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Laminate",
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "Accessible Entrance"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": "Views",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Apartment, Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2018",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Open Parking space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$203 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "51 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$381",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "110",
+        "roomAreaSource": null,
+        "roomType": "Bedroom1",
+        "roomDescription": null,
+        "roomWidth": "11",
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "10",
+        "roomFeatures": null,
+        "roomDimensions": "10x11",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "182",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "14",
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "13",
+        "roomFeatures": null,
+        "roomDimensions": "13x14",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$203 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "871.20 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://www.zillow.com/view-imx/b01d0af3-4fa2-4f02-89fb-e6a25ae647ad?setAttribution=mls&wl=true&initialViewType=pano&utm_source=dashboard"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "748 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$203 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": [
+      "Ceiling Fan(s)",
+      "Open Floorplan",
+      "Smart Thermostat",
+      "Walk-In Closet(s)",
+      "High Speed Internet"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Views"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 51,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "John B. Whitsitt Elementary",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Aluminum Siding"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$203 monthly",
+    "appliances": [
+      "Built-In Electric Oven",
+      "Electric Range",
+      "Dishwasher",
+      "Disposal",
+      "Microwave",
+      "Refrigerator",
+      "Stainless Steel Appliance(s)"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Cameron College Preparatory",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.zillow.com/view-imx/b01d0af3-4fa2-4f02-89fb-e6a25ae647ad?setAttribution=mls&wl=true&initialViewType=pano&utm_source=dashboard",
+    "contingency": null,
+    "yearBuilt": 2018,
+    "utilities": [
+      "Water Available",
+      "Cable Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "105120B00800CO",
+    "incomeIncludes": null,
+    "highSchool": "Glencliff High School",
+    "taxAnnualAmount": 1903,
+    "subdivisionName": "Alloy",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Owner Agent",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1753228800000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Apartment",
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 0,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$203 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Asphalt"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": 1,
+    "securityFeatures": [
+      "Fire Sprinkler System",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "748",
+    "associations": [
+      {
+        "feeFrequency": "$203 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": null,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "748",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Insurance",
+      "Recreation Facilities",
+      "Sewer",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 381,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-23",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.247,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692120349
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692120349
+    },
+    "arm5Bucket": {
+      "rate": 6.776,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692120349
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 11,
+  "livingArea": 748,
+  "zestimateHighPercent": null,
+  "mlsid": "2944323",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2746829693",
+  "country": "USA",
+  "price": 285000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:40.949791+00:00",
+    "zpid": "445879205",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

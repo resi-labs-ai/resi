@@ -1,0 +1,1414 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 52,
+      "display_name": "Michelle Guerra",
+      "badge_type": "Premier Agent",
+      "business_name": "MG Texas Real Estate",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "324",
+        "areacode": "956",
+        "number": "2427"
+      },
+      "zuid": "X1-ZU10a9xpmrc6e4p_1vfad",
+      "image_url": "https://photos.zillowstatic.com/fp/be82a6fa46ebccc7b997a0cdeafa7ac7-h_g.jpg"
+    }
+  ],
+  "longitude": -99.49929,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/6efefd7f7dd99c520e7eae348e322589-p_d.jpg",
+  "livingAreaValue": null,
+  "streetAddress": "21335 N Us Highway 83",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155752001,
+      "valueIncreaseRate": 0.19524539,
+      "taxIncreaseRate": 0.19524735,
+      "taxPaid": 543.73,
+      "value": 141229
+    },
+    {
+      "time": 1694533352001,
+      "valueIncreaseRate": 0.16132487,
+      "taxIncreaseRate": 0.14641769,
+      "taxPaid": 454.91,
+      "value": 118159
+    },
+    {
+      "time": 1662997352001,
+      "valueIncreaseRate": 0.16297278,
+      "taxIncreaseRate": 0,
+      "taxPaid": 396.81,
+      "value": 101745
+    },
+    {
+      "time": 1631461352001,
+      "valueIncreaseRate": -0.78647643,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 87487
+    },
+    {
+      "time": 1599925352001,
+      "valueIncreaseRate": -0.14747925,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 409730
+    },
+    {
+      "time": 1568302952001,
+      "valueIncreaseRate": 0.17990327,
+      "taxIncreaseRate": 0,
+      "taxPaid": 36384,
+      "value": 480610
+    },
+    {
+      "time": 1536766952001,
+      "valueIncreaseRate": 4.5729923,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 407330
+    },
+    {
+      "time": 1505230952001,
+      "valueIncreaseRate": 0.023526117,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 73090
+    },
+    {
+      "time": 1473694952001,
+      "valueIncreaseRate": 0.25921354,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 71410
+    },
+    {
+      "time": 1442072552001,
+      "valueIncreaseRate": 0.0010591351,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 56710
+    },
+    {
+      "time": 1410536552001,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 56650
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 6237,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUsfx6els0sgzt_8mfo2",
+    "review_count": 0,
+    "display_name": "AdrianBecerra1",
+    "profile_url": "https://www.zillow.com/profile/AdrianBecerra1/",
+    "business_name": "LA VAQUITA REALTY LLC",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": null,
+  "brokerageName": "LA VAQUITA REALTY LLC",
+  "description": "A 14.5 acre +/- parcel along North U.S. 83 is available for sale, constituting part of a larger 142-acre property. The buyer will need a new survey before closing, with the priceadjusted accordingly based on the verified acreage. The property features around 1,000 feet of frontage road suitable for industrial use. It's important to note that theGEOand Legal Description currently apply to the entire 142 acres but will be updated once the 14 acres are divided.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/21335-n-us-highway-83-laredo-tx-78041/4811442020_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/21335-n-us-highway-83-laredo-tx-78041/4811442020_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0013999999500811
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0031000000890344
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0052000000141561
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0076999999582767
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.010599999688566
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.013899999670684
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/21335-n-us-highway-83-laredo-tx-78041/4811442020_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 13
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 22
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 25
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/21335-n-us-highway-83-laredo-tx-78041/4811442020_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/21335-n-us-highway-83-laredo-tx-78041/4811442020_fsid"
+        },
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 0
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.917177,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "22907 N Us Highway 83"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/22907-N-Us-Highway-83-Laredo-TX-78045/309887774_zpid/",
+      "lotAreaValue": 10,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "22907 N Us Highway 83",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.917173,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 384100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 435600,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.917173385620117,-99.49928283691406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=SY6f9YpKXzBf2f49PXHVwI_mbmA="
+        }
+      ],
+      "zpid": 309887774,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1092,
+      "longitude": -99.49928,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1092
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "0 N Us Highway 83"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/0-N-Us-Highway-83-Laredo-TX-78045/2080457268_zpid/",
+      "lotAreaValue": 80,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "0 N Us Highway 83",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "1868116",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.917171,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1200000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 3484800,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/cc87633344640d409c57868fd195fcf6-p_c.jpg"
+        }
+      ],
+      "zpid": 2080457268,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": null,
+      "longitude": -99.49928,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Highway 83 N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Highway-83-N-Laredo-TX-78045/80109705_zpid/",
+      "lotAreaValue": 5,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "Highway 83 N",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.917055,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 158365,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 217800,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/47b2597b6f2bf033710ce48872e26759-p_c.jpg"
+        }
+      ],
+      "zpid": 80109705,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 3246,
+      "longitude": -99.49224,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3246
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "21142 N Us Highway 83"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/21142-N-Us-Highway-83-Laredo-TX-78041/309888173_zpid/",
+      "lotAreaValue": 5.2089990817264,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "21142 N Us Highway 83",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.91569,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 528721,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 226903,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=21142+N+US+Highway+83%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Q9-lVdyUFq5W-I1GhPOig6FL7iw="
+        }
+      ],
+      "zpid": 309888173,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2900,
+      "longitude": -99.49239,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2900
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "000HWY83 N Us Highway 83"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/000HWY83-N-Us-Highway-83-Laredo-TX-78045/2056150791_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "000HWY83 N Us Highway 83",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.91748,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.91748046875,-99.49217224121094&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=BAfEMX-1tgMQ_ZvQEZMXr4L4Q2Q="
+        }
+      ],
+      "zpid": 2056150791,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.49217,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "21142 Us Hwy 83 N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/21142-Us-Hwy-83-N-Encinal-TX-78019/2081099115_zpid/",
+      "lotAreaValue": 5.2098943985308,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "21142 Us Hwy 83 N",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.91617,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 627100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 226943,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5586e0c56184e8a85f3b5e2e77e92b7d-p_c.jpg"
+        }
+      ],
+      "zpid": 2081099115,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2780,
+      "longitude": -99.491455,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2780
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "21808 Us Highway 83 N #A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/21808-Us-Highway-83-N-A-Laredo-TX-78045/200008580_zpid/",
+      "lotAreaValue": 3.3849862258953,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "21808 Us Highway 83 N #A",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.932898,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 384600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 147450,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.932897567749023,-99.50267028808594&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=fkcG3_hioU6JWkX8InLiXjiITqw="
+        }
+      ],
+      "zpid": 200008580,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 996,
+      "longitude": -99.50267,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 996
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "391 Rr 6252 E"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/391-Rr-6252-E-Laredo-TX-78045/200008576_zpid/",
+      "lotAreaValue": 71.309986225895,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "391 Rr 6252 E",
+        "zipcode": "78045"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.92485,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 894800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 3106263,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.924850463867188,-99.51602935791016&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=uN7hWsHL8m2aiF4RfyXT-sJLb6A="
+        }
+      ],
+      "zpid": 200008576,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -99.51603,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.24789915966387,
+      "date": "2025-09-04",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1756944000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253845"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1485000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-17",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1752710400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250241"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1190000
+    },
+    {
+      "priceChangeRate": -0.0083333333333333,
+      "date": "2025-01-16",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1736985600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250241"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1190000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-05-12",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1715472000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20234137"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-11-11",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1699660800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20234137"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1200000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/6efefd7f7dd99c520e7eae348e322589-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/25720-SAN-ISIDRO-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 20.7,
+      "assigned": null,
+      "name": "San Isidro Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/25762-ELIAS-HERRERA-MIDDLE/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 22.5,
+      "assigned": null,
+      "name": "Elias Herrera Middle",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6749-United-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 21.5,
+      "assigned": null,
+      "name": "United High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 1556,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "21335 N Us Highway 83",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 112899835,
+  "countyId": 328,
+  "homeType": "LOT",
+  "livingAreaUnits": null,
+  "pageViewCount": 13,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        }
+      ]
+    }
+  ],
+  "bathrooms": null,
+  "neighborhoodRegion": {
+    "name": "La Moca Ranch Colonia"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/21335-N-Us-Highway-83-Laredo-TX-78041/112899835_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "LA VAQUITA REALTY LLC"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "LA VAQUITA REALTY LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-03 16:02:55",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Adrian Becerra",
+    "attributionTitle": null,
+    "mlsId": "20253845",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-774-8304",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Adrian Becerra",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-774-8304",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-774-8304",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 6,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1670119,
+    "atAGlanceFacts": null,
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "None"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "14.50 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": null,
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": null,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 8,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": [
+      "None"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Barbed Wire",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": null,
+    "utilities": [
+      "None"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": null,
+    "parcelNumber": "238509",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 544,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756945487000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Dirt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Ranch Land"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "VacantLand",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": null,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": null,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": null,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-04",
+  "bedrooms": null,
+  "propertyTypeDimension": "Lot",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.396,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691752017
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.098,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691752017
+    },
+    "arm5Bucket": {
+      "rate": 6.055,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691752017
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": null,
+  "zestimateHighPercent": null,
+  "mlsid": "20253845",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 1485000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:32.413774+00:00",
+    "zpid": "112899835",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1490 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.781,
+  "countyFIPS": "47037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/a374eaf819c80e12a144840fe6f3baaf-p_d.jpg",
+  "livingAreaValue": 630,
+  "streetAddress": "936 1st Ave N",
+  "county": "Davidson County",
+  "monthlyHoaFee": 373,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533698429,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2421.79,
+      "value": 74425
+    },
+    {
+      "time": 1662997698429,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.01033883,
+      "taxPaid": 2421.79,
+      "value": 74425
+    },
+    {
+      "time": 1631461698430,
+      "valueIncreaseRate": 0.41897044,
+      "taxIncreaseRate": 0.10532505,
+      "taxPaid": 2447.09,
+      "value": 74425
+    },
+    {
+      "time": 1599925698430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.33787155,
+      "taxPaid": 2213.91,
+      "value": 52450
+    },
+    {
+      "time": 1568303298430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1654.8,
+      "value": 52450
+    },
+    {
+      "time": 1536767298430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -6.048891e-06,
+      "taxPaid": 1654.8,
+      "value": 52450
+    },
+    {
+      "time": 1505231298430,
+      "valueIncreaseRate": 1.0095786,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1654.81,
+      "value": 52450
+    },
+    {
+      "time": 1473695298430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.40395185,
+      "taxPaid": 1654.81,
+      "value": 26100
+    },
+    {
+      "time": 1442072898430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1178.68,
+      "value": 26100
+    },
+    {
+      "time": 1410536898430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1178.68,
+      "value": 26100
+    },
+    {
+      "time": 1379000898430,
+      "valueIncreaseRate": -0.20366132,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 26100
+    },
+    {
+      "time": 1347464898430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 32775
+    },
+    {
+      "time": 1315842498430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 32775
+    },
+    {
+      "time": 1284306498430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 32775
+    },
+    {
+      "time": 1252770498430,
+      "valueIncreaseRate": 0.16949153,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 32775
+    },
+    {
+      "time": 1221234498430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28025
+    },
+    {
+      "time": 1189612098430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28025
+    },
+    {
+      "time": 1158076098430,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1638,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1986,
+  "brokerageName": "Exit Real Estate Experts",
+  "description": "Downtown river-facing 1-bedroom, 1-bath loft condo featuring an open floor plan and unbeatable location, just steps from Riverfront Park, dining, and entertainment. Whether you\u2019re looking to live in the heart of downtown Nashville or capitalize on its NOOSTR eligibility for short-term rentals, this property offers the opportunity.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.079999998211861
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.10000000149012
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/936-1st-ave-n-nashville-tn-37201/472510047_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 42
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "femaZone": "X_SHADED",
+        "source": {
+          "url": "https://firststreet.org/property/936-1st-ave-n-nashville-tn-37201/472510047_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.40999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.77999997138977
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/936-1st-ave-n-nashville-tn-37201/472510047_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 105,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 20
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/936-1st-ave-n-nashville-tn-37201/472510047_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/936-1st-ave-n-nashville-tn-37201/472510047_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 36.174107,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "960 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 630,
+      "zpid": 108716053,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "960 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/960-1st-Ave-N-Nashville-TN-37201/108716053_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174095,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.174095153808594,-86.78099822998047&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=zKGIH4YQI9RWpBS7DBQkweHzpNk="
+        }
+      ],
+      "currency": "USD",
+      "price": 333800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "912 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 650,
+      "lotSize": 630,
+      "zpid": 108722083,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "912 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/912-1st-Ave-N-Nashville-TN-37201/108722083_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174095,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 650,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.174095153808594,-86.78099822998047&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=zKGIH4YQI9RWpBS7DBQkweHzpNk="
+        }
+      ],
+      "currency": "USD",
+      "price": 332200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78103,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "914 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 625,
+      "lotSize": 630,
+      "zpid": 108717417,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "914 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/914-1st-Ave-N-Nashville-TN-37201/108717417_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174145,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Townhouse",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 625,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f822c9777b5af7edc495874b2db53442-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 348900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78103,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "938 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 630,
+      "zpid": 108736280,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "938 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/938-1st-Ave-N-Nashville-TN-37201/108736280_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174145,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.17414474487305,-86.7810287475586&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=uqMJyE2HL3fncOw81qZucd5lbKE="
+        }
+      ],
+      "currency": "USD",
+      "price": 348200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78103,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "962 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 435,
+      "zpid": 108712923,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "962 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/962-1st-Ave-N-Nashville-TN-37201/108712923_zpid/",
+      "lotAreaValue": 435.6,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2989775",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.174152,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2be9e3ca35cbb8a14a4a258df7d39689-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 418000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78093,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "910 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1000,
+      "lotSize": 871,
+      "zpid": 108712509,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "910 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/910-1st-Ave-N-Nashville-TN-37201/108712509_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2945467",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.174065,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1000,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/59f25b3f569ae9110d8203318c7dab17-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 655000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78093,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "958 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 996,
+      "lotSize": 996,
+      "zpid": 108780048,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1.5,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "958 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/958-1st-Ave-N-Nashville-TN-37201/108780048_zpid/",
+      "lotAreaValue": 996,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174065,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 996,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.17406463623047,-86.78092956542969&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=bqQvwPBIZKku4Pon1W4Bl1E0Cko="
+        }
+      ],
+      "currency": "USD",
+      "price": 498200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "958 1st Ave N UNIT 958"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/958-1st-Ave-N-UNIT-958-Nashville-TN-37201/442586497_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "958 1st Ave N UNIT 958",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.174065,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fb22dd748215a23cba110352e24f5374-p_c.jpg"
+        }
+      ],
+      "zpid": 442586497,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 996,
+      "longitude": -86.78093,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "n1xrqf2sa2qk",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 996
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 1.785,
+      "date": "2025-09-10",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1757462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2986836"
+      },
+      "pricePerSquareFoot": 619,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 389900
+    },
+    {
+      "priceChangeRate": 0.21845082680592,
+      "date": "2015-01-23",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1421971200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 222,
+      "buyerAgent": {
+        "name": "Brad Reynolds",
+        "photo": null,
+        "profileUrl": "/profile/Brad-Reynolds/"
+      },
+      "event": "Sold",
+      "price": 140000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2006-07-03",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1151884800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 182,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 114900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/a374eaf819c80e12a144840fe6f3baaf-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2202-Jones-Paideia-Magnet/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Jones Elementary",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2201-John-Early-Paideia-Middle-Magnet/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "John Early Paideia Middle Magnet",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1158-Pearl-Cohn-Magnet-High-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "Pearl Cohn Magnet High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "Riverfront",
+    "streetAddress": "936 1st Ave N",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "2 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 108744363,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 58,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Open floor plan"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Open floor plan"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": null,
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/936-1st-Ave-N-Nashville-TN-37201/108744363_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Exit Real Estate Experts"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:38:10 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Exit Real Estate Experts",
+    "listingAttributionContact": "6159220513",
+    "lastUpdated": "2025-09-09 22:02:02",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Amina  Zukanovic",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2986836",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "615-922-0513",
+    "listingAgents": [
+      {
+        "memberStateLicense": "359694",
+        "memberFullName": "Amina  Zukanovic",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-922-0513",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:38:10 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "615-894-7070",
+    "lastChecked": "2025-09-12 08:38:10"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "Association"
+    ],
+    "flooring": [
+      "Carpet",
+      "Wood",
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 297700,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1986",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$373 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "2 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$619",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$373 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "435.60 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 3,
+    "livingArea": "630 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$373 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 2,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jones Paideia Magnet",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Frame"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$373 monthly",
+    "appliances": [
+      "Electric Oven",
+      "Electric Range",
+      "Dishwasher",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "River Front"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "John Early Paideia Magnet",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1986,
+    "utilities": [
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "082140A07200CO",
+    "incomeIncludes": null,
+    "highSchool": "Pearl Cohn Magnet High School",
+    "taxAnnualAmount": 2422,
+    "subdivisionName": "Riverfront",
+    "storiesTotal": null,
+    "storiesDecimal": 3,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757462400000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Clubhouse",
+      "Fitness Center",
+      "Laundry",
+      "Park",
+      "Pool"
+    ],
+    "propertySubType": [
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$373 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Unassigned"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "630",
+    "associations": [
+      {
+        "feeFrequency": "$373 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "630",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Recreation Facilities",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 619,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.247,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692098452
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692098452
+    },
+    "arm5Bucket": {
+      "rate": 6.776,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692098452
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 4,
+  "livingArea": 630,
+  "zestimateHighPercent": null,
+  "mlsid": "2986836",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 389900,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:19.281836+00:00",
+    "zpid": "108744363",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1830 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.39528,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/c64f3c4740b2eca2722d0e033922e618-p_d.jpg",
+  "livingAreaValue": 1300,
+  "streetAddress": "115 Biscayne Dr NW APT C3",
+  "county": "Fulton County",
+  "monthlyHoaFee": 733,
+  "timeZone": "America/New_York",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 945,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUzui9ptauvv2h_89sjt",
+    "review_count": 46,
+    "display_name": "Stacy Collins",
+    "profile_url": "https://www.zillow.com/profile/stacymarierealty/",
+    "business_name": "Century 21 Results",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "883",
+      "areacode": "770",
+      "number": "6203"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/e1d046297473ad3be514757e50b0fadc-h_n.jpg"
+  },
+  "yearBuilt": 1964,
+  "brokerageName": "Century 21 Results",
+  "description": "Incredible location!!  Enjoy city living at it's best! Minutes north of downtown Atlanta and just south of downtown Buckhead! This 3 bedroom/ 2 bath home is well maintained. Master on main. Kitchen features a stainless steel gas range and refrigerator with bright, white cabinets and plenty of counterspace. Washer and dryer is included. This home is nestled in a private retreat and features a cozy, partially covered patio with easy access to greenspace. Enjoy the neighborhood pool  and dog park and convenient access to Peachtree Battle Shopping complex, Shepard Center, Piedmont Hospital, Bobby Jones Golf course, tennis courts, pickleball courts, Beltline North Buckhead Trail, Midtown, I-75/I-85, and much more making exploring and enjoying all that Atlanta has to offer a breeze!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23999999463558
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/115-biscayne-dr-nw-apt-c3-atlanta-ga-30309/134165460_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "femaZone": "AE",
+        "source": {
+          "url": "https://firststreet.org/property/115-biscayne-dr-nw-apt-c3-atlanta-ga-30309/134165460_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.30000001192093
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.55000001192093
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.87000000476837
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.93999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.98000001907349
+          }
+        ],
+        "insuranceSeparatePolicy": "REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/115-biscayne-dr-nw-apt-c3-atlanta-ga-30309/134165460_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 19
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/115-biscayne-dr-nw-apt-c3-atlanta-ga-30309/134165460_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/115-biscayne-dr-nw-apt-c3-atlanta-ga-30309/134165460_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.815643,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.39528,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT A3",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1036,
+      "lotSize": 1036,
+      "zpid": 35901025,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT A3"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-A3-Atlanta-GA-30309/35901025_zpid/",
+      "lotAreaValue": 1036.728,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7638831",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.815643,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Townhouse",
+      "newConstructionType": null,
+      "yearBuilt": 1964,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1036,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d6eeeffc992651b2a715282723c5c952-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 275000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.39528,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT C1",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1036,
+      "lotSize": 1036,
+      "zpid": 35901035,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT C1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-C1-Atlanta-GA-30309/35901035_zpid/",
+      "lotAreaValue": 1036.728,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7596749",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.815643,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Townhouse",
+      "newConstructionType": null,
+      "yearBuilt": 1964,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1036,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6e5897fea031933109b6ae281538efda-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 255000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT C3"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-C3-Atlanta-GA-30309/35901037_zpid/",
+      "lotAreaValue": 1001.88,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT C3",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10146697",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 267000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1001,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/295183e0a4c2da28b91ccac650c02610-p_c.jpg"
+        }
+      ],
+      "zpid": 35901037,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1036,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1036
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT D6"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-D6-Atlanta-GA-30309/35901046_zpid/",
+      "lotAreaValue": 740.52,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT D6",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7093821",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 176000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 740,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fcebac18183bafbad633fd55a216f807-p_c.jpg"
+        }
+      ],
+      "zpid": 35901046,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 740,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 740
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT D7"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-D7-Atlanta-GA-30309/35901047_zpid/",
+      "lotAreaValue": 740.52,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT D7",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7574393",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 165000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 740,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dfab7417ef22cf9170c5f02cbc9705ca-p_c.jpg"
+        }
+      ],
+      "zpid": 35901047,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 740,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 740
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Biscayne Dr NW UNIT A7"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Biscayne-Dr-NW-UNIT-A7-Atlanta-GA-30309/35901063_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Biscayne Dr NW UNIT A7",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10181193",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 345000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d12af2ebd2aa8f8dd75962af2b3847d9-p_c.jpg"
+        }
+      ],
+      "zpid": 35901063,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1084,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1084
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Biscayne Dr NW APT A10"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Biscayne-Dr-NW-APT-A10-Atlanta-GA-30309/35901066_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Biscayne Dr NW APT A10",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10333714",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 244500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3050dde558cb0a968a0e9cda59a16085-p_c.jpg"
+        }
+      ],
+      "zpid": 35901066,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1300,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "4xm40je83e6r2",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1300
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Biscayne Dr NW APT E4"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Biscayne-Dr-NW-APT-E4-Atlanta-GA-30309/35901088_zpid/",
+      "lotAreaValue": 1306.8,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Biscayne Dr NW APT E4",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10404832",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 220000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1306,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/22c3c40bf47a1e8b218c163aa2c0249b-p_c.jpg"
+        }
+      ],
+      "zpid": 35901088,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1300,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1300
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Biscayne Dr NW APT A1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/100-Biscayne-Dr-NW-APT-A1-Atlanta-GA-30309/346209340_zpid/",
+      "lotAreaValue": 1036.728,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "100 Biscayne Dr NW APT A1",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7574899",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.815643,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 188145,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1036,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/aa8ad93208c80a005a8e014011fd7abb-p_c.jpg"
+        }
+      ],
+      "zpid": 346209340,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1036,
+      "longitude": -84.39528,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1036
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.034334763948498,
+      "date": "2025-09-12",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7647621"
+      },
+      "pricePerSquareFoot": 173,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 225000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-11",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2400
+    },
+    {
+      "priceChangeRate": -0.020408163265306,
+      "date": "2025-08-31",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1756598400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2400
+    },
+    {
+      "priceChangeRate": -0.03921568627451,
+      "date": "2025-08-24",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1755993600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2450
+    },
+    {
+      "priceChangeRate": -0.037735849056604,
+      "date": "2025-07-20",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1752969600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2550
+    },
+    {
+      "priceChangeRate": 0.03921568627451,
+      "date": "2025-07-13",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1752364800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2650
+    },
+    {
+      "priceChangeRate": -0.019230769230769,
+      "date": "2025-06-16",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1750032000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2550
+    },
+    {
+      "priceChangeRate": -0.037037037037037,
+      "date": "2025-06-01",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1748736000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2600
+    },
+    {
+      "priceChangeRate": 0.038461538461538,
+      "date": "2025-05-15",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1747267200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2700
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-06-26",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1687737600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-06-05",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1685923200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2600
+    },
+    {
+      "priceChangeRate": -0.0085106382978723,
+      "date": "2022-01-28",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1643328000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 179,
+      "buyerAgent": {
+        "name": "Erin O'Brien",
+        "photo": null,
+        "profileUrl": "/profile/erinobrienATL/"
+      },
+      "event": "Sold",
+      "price": 233000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-12-19",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1639872000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6969316"
+      },
+      "pricePerSquareFoot": 181,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 235000
+    },
+    {
+      "priceChangeRate": -0.040816326530612,
+      "date": "2021-12-19",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1639872000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6969316"
+      },
+      "pricePerSquareFoot": 181,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 235000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-11-11",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1636588800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6969316"
+      },
+      "pricePerSquareFoot": 188,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 245000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/c64f3c4740b2eca2722d0e033922e618-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 4.6,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2681,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Arborgate",
+    "streetAddress": "115 Biscayne Dr NW APT C3",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "11 hours",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 2067579416,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 19,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Bright white cabinets",
+            "Cozy partially covered patio",
+            "Stainless steel gas range"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Bright white cabinets",
+            "Cozy partially covered patio",
+            "Stainless steel gas range"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/115-Biscayne-Dr-NW-APT-C3-Atlanta-GA-30309/2067579416_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Century 21 Results"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Century 21 Results",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 08:26:30",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Stacy Collins",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7647621",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "770-883-6203",
+    "listingAgents": [
+      {
+        "memberStateLicense": "358077",
+        "memberFullName": "Stacy Collins",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "770-883-6203",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:26:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 42,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Laminate",
+      "Luxury Vinyl"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1964",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Forced Air",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Parking spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$733 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$173",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Neighborhood",
+      "Trees/Woods"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Shower Only"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "None"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Cabinets White",
+          " Laminate Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$733 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Courtyard",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 3,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "1,298 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,300 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$733 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Mid Rise (Up to 5 Stories)",
+    "interiorFeatures": [
+      "Entrance Foyer"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Level"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "River Eves",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick 4 Sides"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$733 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Gas Range",
+      "Gas Water Heater"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Dog Park",
+      "Homeowners Assoc",
+      "Pool"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1964,
+    "utilities": [
+      "Electricity Available",
+      "Natural Gas Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 011100160556",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 4241,
+    "subdivisionName": "Arborgate",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Wood Frames"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757635200000,
+    "roomTypes": [
+      "Master Bathroom",
+      "Master Bedroom"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$733 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Parking Lot"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 1,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,300",
+    "associations": [
+      {
+        "feeFrequency": "$733 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "None"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "1,300",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Forced Air"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 173,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.188,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691025845
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.188,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691025845
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691025845
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 1300,
+  "zestimateHighPercent": null,
+  "mlsid": "7647621",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1002268516",
+  "country": "USA",
+  "price": 225000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:47.153673+00:00",
+    "zpid": "2067579416",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,2034 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 5,
+      "display_name": "Manish Singh",
+      "badge_type": "Premier Agent",
+      "business_name": "Keller Williams Metropolitan",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "832",
+        "number": "8636"
+      },
+      "zuid": "X1-ZUwaotauu3n8cp_7galw",
+      "image_url": "https://photos.zillowstatic.com/fp/1dca33caacd6275763b38068e9327760-h_g.jpg"
+    }
+  ],
+  "longitude": -95.774925,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/3a9e6c91a60a883ce98f692779643e62-p_d.jpg",
+  "livingAreaValue": 4617,
+  "streetAddress": "6915 Monarch Lake Ln",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 100,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155937052,
+      "valueIncreaseRate": 0.26445836,
+      "taxIncreaseRate": 0.49275935,
+      "taxPaid": 14291.23,
+      "value": 875755
+    },
+    {
+      "time": 1694533537052,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.08317916,
+      "taxPaid": 9573.7,
+      "value": 692593
+    },
+    {
+      "time": 1662997537052,
+      "valueIncreaseRate": 0.100001745,
+      "taxIncreaseRate": 0.051545717,
+      "taxPaid": 10442.28,
+      "value": 629630
+    },
+    {
+      "time": 1631461537052,
+      "valueIncreaseRate": 0.0065769805,
+      "taxIncreaseRate": -0.013554394,
+      "taxPaid": 9930.41,
+      "value": 572390
+    },
+    {
+      "time": 1599925537052,
+      "valueIncreaseRate": 0.002415033,
+      "taxIncreaseRate": -0.028957026,
+      "taxPaid": 10066.86,
+      "value": 568650
+    },
+    {
+      "time": 1568303137052,
+      "valueIncreaseRate": -0.019055853,
+      "taxIncreaseRate": -0.05759484,
+      "taxPaid": 10367.06,
+      "value": 567280
+    },
+    {
+      "time": 1536767137052,
+      "valueIncreaseRate": 0.014597003,
+      "taxIncreaseRate": -0.18874696,
+      "taxPaid": 11000.64,
+      "value": 578300
+    },
+    {
+      "time": 1505231137052,
+      "valueIncreaseRate": -0.046712715,
+      "taxIncreaseRate": 0,
+      "taxPaid": 13560.06,
+      "value": 569980
+    },
+    {
+      "time": 1473695137052,
+      "valueIncreaseRate": 0.0014739628,
+      "taxIncreaseRate": 0.18276305,
+      "taxPaid": 13560.06,
+      "value": 597910
+    },
+    {
+      "time": 1442072737052,
+      "valueIncreaseRate": 0.09298111,
+      "taxIncreaseRate": 0.07144813,
+      "taxPaid": 11464.73,
+      "value": 597030
+    },
+    {
+      "time": 1410536737052,
+      "valueIncreaseRate": 0.034408316,
+      "taxIncreaseRate": 0,
+      "taxPaid": 10700.22,
+      "value": 546240
+    },
+    {
+      "time": 1379000737052,
+      "valueIncreaseRate": -0.012731828,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 528070
+    },
+    {
+      "time": 1347464737052,
+      "valueIncreaseRate": 0.10001028,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 534880
+    },
+    {
+      "time": 1315842337052,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 486250
+    },
+    {
+      "time": 1284306337052,
+      "valueIncreaseRate": 0.0043789893,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 486250
+    },
+    {
+      "time": 1252770337052,
+      "valueIncreaseRate": -0.06375943,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 484130
+    },
+    {
+      "time": 1221234337052,
+      "valueIncreaseRate": 0.12977934,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 517100
+    },
+    {
+      "time": 1189611937052,
+      "valueIncreaseRate": 6.6283336,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 457700
+    },
+    {
+      "time": 1158075937052,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 60000
+    },
+    {
+      "time": 1126539937052,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 60000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 3738,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUu25ywloa2vbd_90hcs",
+    "review_count": 0,
+    "display_name": "Mojgan Rezaie",
+    "profile_url": "https://www.zillow.com/profile/mrezaie39/",
+    "business_name": "Realty Of America, LLC",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "310",
+      "areacode": "832",
+      "number": "0633"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/e2fb0438eb5734b2f0e1b0c7e029fca3-h_n.jpg"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "Realty Of America, LLC",
+  "description": "Waterfront living in Grand Lakes! Set on a serene lake with a walking trail, this home captures sweeping water views from the family room, breakfast area, and luxe first-floor primary suite. An open layout features tile flooring, arched openings, a fireplace, and an island kitchen with abundant cabinetry and a breakfast bar. Work and play spaces abound with a private study, plus an upstairs game room and adjacent flex/office with built-ins. Two secondary bedrooms share a Jack-and-Jill bath; a third is served by a nearby full bath. The primary retreat offers a curved wall of windows and a spa-style bath with dual vanities, soaking tub, glass shower, and an oversized custom closet. Outside: a large covered patio and sparkling pool & spa with removable safety fence, all framed by an iron fence to the lake. Major updates: roof (2023) and AC (2022). Never flooded. Enjoy Grand Lakes\u2019 parks, lakes, trails and resort-style pools. Schedule your private tour today!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.91000002622604
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.97000002861023
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/6915-monarch-lake-ln-katy-tx-77494/4800888406_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_SHADED",
+        "source": {
+          "url": "https://firststreet.org/property/6915-monarch-lake-ln-katy-tx-77494/4800888406_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.34000000357628
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.46000000834465
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.55000001192093
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.62999999523163
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.68999999761581
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/6915-monarch-lake-ln-katy-tx-77494/4800888406_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 21
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 24
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/6915-monarch-lake-ln-katy-tx-77494/4800888406_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/6915-monarch-lake-ln-katy-tx-77494/4800888406_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.722881,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6919 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/6919-Monarch-Lake-Ln-Katy-TX-77494/82718211_zpid/",
+      "lotAreaValue": 0.2728650137741,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6919 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.723024,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 661200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11885,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/077505e52c5c1502c4606bcbd00b7599-p_c.jpg"
+        }
+      ],
+      "zpid": 82718211,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3247,
+      "longitude": -95.77514,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3247
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6911 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/6911-Monarch-Lake-Ln-Katy-TX-77494/82716546_zpid/",
+      "lotAreaValue": 0.25528007346189,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6911 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.722807,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 802900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11120,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=6911+Monarch+Lake+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=XAaagxyepImrFhc0lDSv5wkqlVo="
+        }
+      ],
+      "zpid": 82716546,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4734,
+      "longitude": -95.774666,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4734
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.7744,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6907 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 4293,
+      "lotSize": 11796,
+      "zpid": 82720044,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4.5,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6907 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/6907-Monarch-Lake-Ln-Katy-TX-77494/82720044_zpid/",
+      "lotAreaValue": 0.27079889807163,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.722744,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2006,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4293,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/76b833bc92e09cce665f353ad363945d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 733100,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 5.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3714 Sedalia Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3714-Sedalia-Brook-Ln-Katy-TX-77494/82730829_zpid/",
+      "lotAreaValue": 0.30096418732782,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3714 Sedalia Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.722462,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 816900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13110,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/15ff2abd5db843b4636b2212e4b740a8-p_c.jpg"
+        }
+      ],
+      "zpid": 82730829,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4751,
+      "longitude": -95.77455,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4751
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6914 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/6914-Monarch-Lake-Ln-Katy-TX-77494/82726316_zpid/",
+      "lotAreaValue": 0.26099632690542,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6914 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.723413,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 770000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11369,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/562b5e89a9eaa68eee1c364988a2df9e-p_c.jpg"
+        }
+      ],
+      "zpid": 82726316,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4129,
+      "longitude": -95.77475,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4129
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6910 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/6910-Monarch-Lake-Ln-Katy-TX-77494/82704152_zpid/",
+      "lotAreaValue": 0.25909090909091,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6910 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.723305,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 668500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11286,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2bddf43e6d4ca1ad0c5e587275db3823-p_c.jpg"
+        }
+      ],
+      "zpid": 82704152,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3772,
+      "longitude": -95.7745,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3772
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3718 Sedalia Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3718-Sedalia-Brook-Ln-Katy-TX-77494/82703827_zpid/",
+      "lotAreaValue": 0.25971074380165,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3718 Sedalia Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.722254,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 845000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11313,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c1176406dd11feb19f5baf176e0a623c-p_c.jpg"
+        }
+      ],
+      "zpid": 82703827,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4581,
+      "longitude": -95.774704,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4581
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "6918 Monarch Lake Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/6918-Monarch-Lake-Ln-Katy-TX-77494/82721867_zpid/",
+      "lotAreaValue": 10541,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "6918 Monarch Lake Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.723572,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 802700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10541,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/81e99bf71d1fcc5bee7737c4a1ddc902-p_c.jpg"
+        }
+      ],
+      "zpid": 82721867,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4250,
+      "longitude": -95.77496,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4250
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.085365853658537,
+      "date": "2025-09-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "14301722"
+      },
+      "pricePerSquareFoot": 193,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 890000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-09-01",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1693526400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "13488064"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.018518518518519,
+      "date": "2023-08-21",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1692576000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "13488064"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 5300
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-18",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1692316800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": {
+        "name": "Mojgan Rezaie",
+        "photo": null,
+        "profileUrl": "/profile/mrezaie39/"
+      },
+      "event": "Sold",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-08",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1691452800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22894774"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1691452800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "13008477"
+      },
+      "pricePerSquareFoot": 178,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 820000
+    },
+    {
+      "priceChangeRate": -0.027027027027027,
+      "date": "2023-07-31",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1690761600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22894774"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5400
+    },
+    {
+      "priceChangeRate": 0.36894824707846,
+      "date": "2023-07-31",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1690761600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "13008477"
+      },
+      "pricePerSquareFoot": 178,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 820000
+    },
+    {
+      "priceChangeRate": -0.059322033898305,
+      "date": "2023-07-11",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1689033600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22894774"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5550
+    },
+    {
+      "priceChangeRate": 0.4047619047619,
+      "date": "2023-06-23",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1687478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22894774"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 5900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-03-12",
+      "source": "Haussmann International Realty",
+      "postingIsRental": true,
+      "time": 1583971200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "15064142"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 4200
+    },
+    {
+      "priceChangeRate": -0.016420361247947,
+      "date": "2020-01-19",
+      "source": "Haussmann International Realty",
+      "postingIsRental": false,
+      "time": 1579392000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "31643827"
+      },
+      "pricePerSquareFoot": 130,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 599000
+    },
+    {
+      "priceChangeRate": -0.16,
+      "date": "2019-12-27",
+      "source": "Haussmann International Realty",
+      "postingIsRental": true,
+      "time": 1577404800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "15064142"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 4200
+    },
+    {
+      "priceChangeRate": -0.0256,
+      "date": "2019-10-22",
+      "source": "Haussmann International Realty",
+      "postingIsRental": false,
+      "time": 1571702400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "96010931"
+      },
+      "pricePerSquareFoot": 132,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 609000
+    },
+    {
+      "priceChangeRate": -0.0063593004769475,
+      "date": "2019-09-24",
+      "source": "Haussmann International Realty",
+      "postingIsRental": false,
+      "time": 1569283200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "96010931"
+      },
+      "pricePerSquareFoot": 135,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 625000
+    },
+    {
+      "priceChangeRate": -0.030816640986133,
+      "date": "2019-09-02",
+      "source": "Haussmann International Realty",
+      "postingIsRental": false,
+      "time": 1567382400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Haussmann International Realty",
+        "infoString3": null,
+        "infoString1": "96010931"
+      },
+      "pricePerSquareFoot": 136,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 629000
+    },
+    {
+      "priceChangeRate": -0.029895366218236,
+      "date": "2019-07-07",
+      "source": "REALM Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1562457600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "REALM Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "65391096"
+      },
+      "pricePerSquareFoot": 141,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-07-02",
+      "source": "REALM Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1562025600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "REALM Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "65391096"
+      },
+      "pricePerSquareFoot": 145,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 669000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-05-14",
+      "source": "REALM Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1557792000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "REALM Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "65391096"
+      },
+      "pricePerSquareFoot": 145,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 669000
+    },
+    {
+      "priceChangeRate": -0.019607843137255,
+      "date": "2019-05-02",
+      "source": "REALM Real Estate Professional",
+      "postingIsRental": true,
+      "time": 1556755200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "REALM Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "80824513"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 5000
+    },
+    {
+      "priceChangeRate": 0.016717325227964,
+      "date": "2019-05-01",
+      "source": "REALM Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1556668800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "REALM Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "65391096"
+      },
+      "pricePerSquareFoot": 145,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 669000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-11-27",
+      "source": "Champions Real Estate Group",
+      "postingIsRental": false,
+      "time": 1511740800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Champions Real Estate Group",
+        "infoString3": null,
+        "infoString1": "93005804"
+      },
+      "pricePerSquareFoot": 143,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 658000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-11-23",
+      "source": "Champions Real Estate Group",
+      "postingIsRental": true,
+      "time": 1511395200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Champions Real Estate Group",
+        "infoString3": null,
+        "infoString1": "87020944"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5100
+    },
+    {
+      "priceChangeRate": -0.072727272727273,
+      "date": "2017-11-16",
+      "source": "Champions Real Estate Group",
+      "postingIsRental": true,
+      "time": 1510790400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Champions Real Estate Group",
+        "infoString3": null,
+        "infoString1": "87020944"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5100
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-11-09",
+      "source": "Champions Real Estate Group",
+      "postingIsRental": true,
+      "time": 1510185600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Champions Real Estate Group",
+        "infoString3": null,
+        "infoString1": "87020944"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 5500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-09-14",
+      "source": "Champions Real Estate Group",
+      "postingIsRental": true,
+      "time": 1505347200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Champions Real Estate Group",
+        "infoString3": null,
+        "infoString1": "87020944"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5500
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/3a9e6c91a60a883ce98f692779643e62-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10694-Griffin-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Griffin Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10328-Beckendorff-J-High-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Beckendorff J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10324-Seven-Lakes-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Seven Lakes High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4819,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 14:00:00",
+      "endTime": "2025-09-13 16:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Grand Lakes Ph 4",
+    "streetAddress": "6915 Monarch Lake Ln",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "12 hours",
+  "priceChange": null,
+  "zestimate": 864900,
+  "zpid": 82734560,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 97,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool and spa",
+            "Serene lake",
+            "Removable safety fence",
+            "Large covered patio",
+            "Tile flooring",
+            "Arched openings",
+            "Sweeping water views"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool and spa",
+            "Serene lake",
+            "Removable safety fence",
+            "Large covered patio",
+            "Tile flooring",
+            "Arched openings",
+            "Sweeping water views"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 4,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/6915-Monarch-Lake-Ln-Katy-TX-77494/82734560_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Realty Of America, LLC"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Realty Of America, LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 20:30:14",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Mojgan Rezaie",
+    "attributionTitle": null,
+    "mlsId": "14301722",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "832-310-0633",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0732094",
+        "memberFullName": "Mojgan Rezaie",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-310-0633",
+    "agentLicenseNumber": "TREC #0732094",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "512-788-9495",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 50,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated",
+      "Pool/Spa Combo"
+    ],
+    "flooring": [
+      "Carpet",
+      "Tile",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 875755,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,200 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10,850 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$193",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Lake",
+      "Water"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Half Bath",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Jetted Tub",
+          "Primary Bath: Separate Shower",
+          "Secondary Bath(s): Double Sinks",
+          "Secondary Bath(s): Soaking Tub"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry",
+          "Walk-in Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,200 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,850 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://youtu.be/dJQ7RLMAofE"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "4,617 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$1,200 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Crown Molding",
+      "Formal Entry/Foyer",
+      "High Ceilings",
+      "En-Suite Bath",
+      "Primary Bed - 1st Floor",
+      "Sitting Area",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Subdivided",
+      "Waterfront",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Griffin Elementary School (Katy)",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Attic Vents",
+      "Thermostat"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Cement Siding"
+    ],
+    "fireplaceFeatures": [
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,200 annually",
+    "appliances": [
+      "Disposal",
+      "Double Oven",
+      "Electric Oven",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "Lake Front"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Beckendorff Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://youtu.be/dJQ7RLMAofE",
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "3532030020140914",
+    "incomeIncludes": null,
+    "highSchool": "Seven Lakes High School",
+    "taxAnnualAmount": 15929,
+    "subdivisionName": "Grand Lakes Ph 4",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757647074000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete",
+      "Curbs",
+      "Gutters"
+    ],
+    "associationAmenities": [
+      "Clubhouse",
+      "Dog Park",
+      "Park",
+      "Playground",
+      "Pool",
+      "Splash Pad",
+      "Tennis Court(s)",
+      "Trail(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,200 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Garage Door Opener",
+      "Porte-Cochere"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,200 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Lake,Water",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 4,
+    "buildingArea": "4,617",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck"
+    ],
+    "bathroomsFloat": 4,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 2,
+    "heating": [
+      "Natural Gas",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 193,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689382631
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689382631
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689382631
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 3,
+  "livingArea": 4617,
+  "zestimateHighPercent": "5",
+  "mlsid": "14301722",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 890000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:37.619882+00:00",
+    "zpid": "82734560",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

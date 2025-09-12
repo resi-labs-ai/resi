@@ -1,0 +1,1787 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.41816,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/6cb61c0e00a96eec284506131bacdca4-p_d.jpg",
+  "livingAreaValue": 5712,
+  "streetAddress": "1937 N Beverly Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155827203,
+      "valueIncreaseRate": 4.682036,
+      "taxIncreaseRate": 4.0886664,
+      "taxPaid": 33943.29,
+      "value": 2759100
+    },
+    {
+      "time": 1694533427203,
+      "valueIncreaseRate": 0.019997353,
+      "taxIncreaseRate": 0.040072534,
+      "taxPaid": 6670.37,
+      "value": 485583
+    },
+    {
+      "time": 1662997427203,
+      "valueIncreaseRate": 0.019998757,
+      "taxIncreaseRate": 0.017438056,
+      "taxPaid": 6413.37,
+      "value": 476063
+    },
+    {
+      "time": 1631461427203,
+      "valueIncreaseRate": 0.010356211,
+      "taxIncreaseRate": 0.0024730503,
+      "taxPaid": 6303.45,
+      "value": 466729
+    },
+    {
+      "time": 1599925427203,
+      "valueIncreaseRate": 0.01999607,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6287.9,
+      "value": 461945
+    },
+    {
+      "time": 1568303027203,
+      "valueIncreaseRate": 0.019997297,
+      "taxIncreaseRate": 0.07367453,
+      "taxPaid": 6287.9,
+      "value": 452889
+    },
+    {
+      "time": 1536767027203,
+      "valueIncreaseRate": 0.019997474,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5856.43,
+      "value": 444010
+    },
+    {
+      "time": 1505231027203,
+      "valueIncreaseRate": 0.019996673,
+      "taxIncreaseRate": 0.020344414,
+      "taxPaid": 5856.43,
+      "value": 435305
+    },
+    {
+      "time": 1473695027203,
+      "valueIncreaseRate": 0.015248798,
+      "taxIncreaseRate": 0.041281886,
+      "taxPaid": 5739.66,
+      "value": 426771
+    },
+    {
+      "time": 1442072627203,
+      "valueIncreaseRate": 0.019976804,
+      "taxIncreaseRate": 0.009229666,
+      "taxPaid": 5512.11,
+      "value": 420361
+    },
+    {
+      "time": 1410536627203,
+      "valueIncreaseRate": 0.024625642,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5461.7,
+      "value": 412128
+    },
+    {
+      "time": 1347464627203,
+      "valueIncreaseRate": 0.019998124,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 402223
+    },
+    {
+      "time": 1315842227203,
+      "valueIncreaseRate": 0.007527,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 394337
+    },
+    {
+      "time": 1284306227203,
+      "valueIncreaseRate": -0.0023730507,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 391391
+    },
+    {
+      "time": 1252770227203,
+      "valueIncreaseRate": 0.019995788,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 392322
+    },
+    {
+      "time": 1221234227203,
+      "valueIncreaseRate": 0.019997878,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 384631
+    },
+    {
+      "time": 1189611827203,
+      "valueIncreaseRate": 0.019997457,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 377090
+    },
+    {
+      "time": 1158075827203,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 369697
+    },
+    {
+      "time": 1126539827203,
+      "valueIncreaseRate": 0.04039477,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 369697
+    },
+    {
+      "time": 1095003827203,
+      "valueIncreaseRate": 0.018668065,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 355343
+    },
+    {
+      "time": 1063381427203,
+      "valueIncreaseRate": 0.01999456,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 348831
+    },
+    {
+      "time": 1031845427203,
+      "valueIncreaseRate": 0.040393654,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 341993
+    },
+    {
+      "time": 968773427203,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 328715
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 25179,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1959,
+  "brokerageName": "Equity Union",
+  "description": "Set on over half an acre in Beverly Hills, this exceptional 6-bd, 6-ba estate offers nearly 6,000 sq ft of thoughtfully designed living space, masterfully crafted for luxury, comfort, and style. Surrounded by lush nature, this newly built home is just moments from the scenic trails of Franklin Canyon Park, the family-friendly playgrounds of Coldwater Park, and only minutes from the world-renowned shopping and dining of Rodeo Drive. Step inside to discover a truly one-of-a-kind design with every detail expertly curated to blend timeless elegance with modern sophistication. Expansive living areas, oversized bedrooms, refined finishes, and a seamless indoor-outdoor flow create an ideal setting for both relaxed living and stylish entertaining. Private, elegant, and perfectly located this is one of Beverly Hills' finest homes. A rare opportunity not to be missed.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1937-n-beverly-dr-beverly-hills-ca-90210/601371022_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1937-n-beverly-dr-beverly-hills-ca-90210/601371022_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.37999999523163
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.46999999880791
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.5799999833107
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.60000002384186
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0026000000070781
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.015699999406934
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.028899999335408
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.042300000786781
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.055900000035763
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.069499999284744
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.08330000191927
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1937-n-beverly-dr-beverly-hills-ca-90210/601371022_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 22
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1937-n-beverly-dr-beverly-hills-ca-90210/601371022_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1937-n-beverly-dr-beverly-hills-ca-90210/601371022_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.106285,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1951 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1951-N-Beverly-Dr-Beverly-Hills-CA-90210/20533618_zpid/",
+      "lotAreaValue": 9657.252,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1951 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "24-390547",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.106506,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2340000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9657,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e2d91c50ab83c4ca27491f60f51be83f-p_c.jpg"
+        }
+      ],
+      "zpid": 20533618,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2397,
+      "longitude": -118.41813,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2397
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1931 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1931-N-Beverly-Dr-Beverly-Hills-CA-90210/20533654_zpid/",
+      "lotAreaValue": 8379,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1931 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10607,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2800500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8379,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b85e581e9fdad2ea7a4916046f056703-p_c.jpg"
+        }
+      ],
+      "zpid": 20533654,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3001,
+      "longitude": -118.41808,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3001
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1921 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1921-N-Beverly-Dr-Beverly-Hills-CA-90210/20533655_zpid/",
+      "lotAreaValue": 8586,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1921 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10586,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1783100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8586,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1921+N+Beverly+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=dpMpGW-8oi9DWZGc00AxOzQC8cI="
+        }
+      ],
+      "zpid": 20533655,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2298,
+      "longitude": -118.41806,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2298
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1936 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1936-N-Beverly-Dr-Beverly-Hills-CA-90210/20533624_zpid/",
+      "lotAreaValue": 8481,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1936 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10627,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1933300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8481,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1936+N+Beverly+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=rUcYHCXdMf4WO3KRBdyEvJYEO0w="
+        }
+      ],
+      "zpid": 20533624,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2543,
+      "longitude": -118.417625,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2543
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.41844,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1913 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 5364,
+      "lotSize": 20991,
+      "zpid": 20533653,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 7,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1913 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1913-N-Beverly-Dr-Beverly-Hills-CA-90210/20533653_zpid/",
+      "lotAreaValue": 0.4818870523416,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.105896,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1975,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 5364,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1913+N+Beverly+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=6tALB-_fzwOQe5MstSwGgmygGaw="
+        }
+      ],
+      "currency": "USD",
+      "price": 7050500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1957 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1957-N-Beverly-Dr-Beverly-Hills-CA-90210/20533617_zpid/",
+      "lotAreaValue": 8959,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1957 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10674,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1941900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8959,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1957+N+Beverly+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=aztMxRWi4WDpfteQNk8W2QA91-A="
+        }
+      ],
+      "zpid": 20533617,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2330,
+      "longitude": -118.418236,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2330
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.41766,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1944 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 4545,
+      "lotSize": 8982,
+      "zpid": 102665407,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 5,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1944 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1944-N-Beverly-Dr-Beverly-Hills-CA-90210/102665407_zpid/",
+      "lotAreaValue": 8982.072,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.10649,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1960,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4545,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/aa0ac74de6d75007aa0483c65da05574-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 4039800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1930 N Beverly Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1930-N-Beverly-Dr-Beverly-Hills-CA-90210/20533623_zpid/",
+      "lotAreaValue": 8186,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1930 N Beverly Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.106052,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2416400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8186,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1930+N+Beverly+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Zm0rUpxMSl7DAIJvQGTLd5bCSy8="
+        }
+      ],
+      "zpid": 20533623,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2498,
+      "longitude": -118.41762,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2498
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-21",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1755734400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25580403"
+      },
+      "pricePerSquareFoot": 1050,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-02",
+      "source": "Douglas Elliman",
+      "postingIsRental": false,
+      "time": 1754092800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Douglas Elliman",
+        "infoString3": "https://photos.zillowstatic.com/fp/516348e93397d0c5ef994a809e58da18-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25553799"
+      },
+      "pricePerSquareFoot": 1050,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-18",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1750204800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25553799"
+      },
+      "pricePerSquareFoot": 1050,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-13",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1749772800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25509013"
+      },
+      "pricePerSquareFoot": 1050,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": -0.076982294072363,
+      "date": "2025-04-08",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1744070400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25509013"
+      },
+      "pricePerSquareFoot": 1050,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": 1.1613976705491,
+      "date": "2025-03-10",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1741564800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25509013"
+      },
+      "pricePerSquareFoot": 1137,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6495000
+    },
+    {
+      "priceChangeRate": 0.003338898163606,
+      "date": "2023-03-28",
+      "source": "SDMLS",
+      "postingIsRental": false,
+      "time": 1679961600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "SDMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/32fa7129f16f8438799012a11d1f3534-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-239041"
+      },
+      "pricePerSquareFoot": 526,
+      "buyerAgent": {
+        "name": "Holly Purcell",
+        "photo": null,
+        "profileUrl": "/profile/HollyMPurcell/"
+      },
+      "event": "Sold",
+      "price": 3005000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-03-17",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1679011200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-239041"
+      },
+      "pricePerSquareFoot": 524,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 2995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-03-15",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1678838400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-239041"
+      },
+      "pricePerSquareFoot": 524,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 2995000
+    },
+    {
+      "priceChangeRate": -0.063769928102532,
+      "date": "2023-02-12",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1676160000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-239041"
+      },
+      "pricePerSquareFoot": 524,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-12-05",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1670198400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-105453"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-07-26",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1658793600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-105453"
+      },
+      "pricePerSquareFoot": 560,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 3199000
+    },
+    {
+      "priceChangeRate": -0.084692417739628,
+      "date": "2022-06-09",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1654732800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-105453"
+      },
+      "pricePerSquareFoot": 560,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3199000
+    },
+    {
+      "priceChangeRate": -0.079051383399209,
+      "date": "2022-04-14",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1649894400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-105453"
+      },
+      "pricePerSquareFoot": 612,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3495000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-12-08",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1638921600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21105453"
+      },
+      "pricePerSquareFoot": 664,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1633478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-08-18",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1629244800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21757852"
+      },
+      "pricePerSquareFoot": 664,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3795000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/6cb61c0e00a96eec284506131bacdca4-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.7,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 3.8,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 4.9,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 20546,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 17:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "1937 N Beverly Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "21 days",
+  "priceChange": null,
+  "zestimate": 5661000,
+  "zpid": 20533619,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1752,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Over half an acre",
+            "Truly one-of-a-kind design",
+            "Surrounded by lush nature",
+            "Refined finishes",
+            "Thoughtfully designed living space",
+            "Seamless indoor-outdoor flow",
+            "Oversized bedrooms"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Over half an acre",
+            "Truly one-of-a-kind design",
+            "Surrounded by lush nature",
+            "Refined finishes",
+            "Thoughtfully designed living space",
+            "Seamless indoor-outdoor flow",
+            "Oversized bedrooms"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/1937-N-Beverly-Dr-Beverly-Hills-CA-90210/20533619_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Equity Union"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Equity Union",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-08 06:11:12",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Brian Cohen",
+    "attributionTitle": null,
+    "mlsId": "25580403",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "323-691-6100",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 02225118",
+        "memberFullName": "Brian Cohen",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "323-691-6100",
+    "agentLicenseNumber": "DRE # 02225118",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "818-989-2000",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground",
+      "Private"
+    ],
+    "flooring": [
+      "Wood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 2759100,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1959",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "10,049 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "21 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,050",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Mountain(s)"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "10,049 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "5,712 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 6,
+    "architecturalStyle": "Architectural",
+    "listingId": null,
+    "structureType": "Attached",
+    "interiorFeatures": [
+      "Built-Ins"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 21,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Gas",
+      "Electric",
+      "Living Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Dryer",
+      "Washer",
+      "Microwave",
+      "Refrigerator",
+      "Range/Oven",
+      "Freezer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "75 x 134",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1959,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "4386024016",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 33943,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1755812499000,
+    "roomTypes": [
+      "Dining Area",
+      "Living Room",
+      "Gym",
+      "Family Room",
+      "Powder",
+      "Office",
+      "Walk-In Closet"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Driveway - Brick",
+      "Garage - 2 Car",
+      "Garage Is Attached",
+      "Private",
+      "Gated"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "5,712",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Upper Level",
+      "Laundry Room"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1050,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-21",
+  "bedrooms": 6,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691827220
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691827220
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691827220
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 137,
+  "livingArea": 5712,
+  "zestimateHighPercent": "5",
+  "mlsid": "25580403",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 5995000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:47.730365+00:00",
+    "zpid": "20533619",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

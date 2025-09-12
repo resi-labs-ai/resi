@@ -1,0 +1,2133 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 55,
+      "display_name": "Ali Bakir",
+      "badge_type": "Premier Agent",
+      "business_name": "MorphEasy\u00ae",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "312",
+        "number": "7022"
+      },
+      "zuid": "X1-ZU112p2069q258p_94p27",
+      "image_url": "https://photos.zillowstatic.com/fp/e29233b0f9c6d160f381da79e8f90faa-h_g.jpg"
+    }
+  ],
+  "longitude": -87.62102,
+  "countyFIPS": "17031",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2cfa3d3a4d53638d2ccf5536a87d8fb0-p_d.jpg",
+  "livingAreaValue": 1170,
+  "streetAddress": "222 N Columbus Dr APT 1502",
+  "county": "Cook County",
+  "monthlyHoaFee": 1175,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533661156,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.025805367,
+      "taxPaid": 7806.42,
+      "value": 36999
+    },
+    {
+      "time": 1662997661156,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.022831483,
+      "taxPaid": 7610.04,
+      "value": 36999
+    },
+    {
+      "time": 1631461661156,
+      "valueIncreaseRate": 0.019958649,
+      "taxIncreaseRate": -0.079296276,
+      "taxPaid": 7440.17,
+      "value": 36999
+    },
+    {
+      "time": 1599925661156,
+      "valueIncreaseRate": -0.08183153,
+      "taxIncreaseRate": 0.018058289,
+      "taxPaid": 8080.96,
+      "value": 36275
+    },
+    {
+      "time": 1568303261156,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.017099857,
+      "taxPaid": 7937.62,
+      "value": 39508
+    },
+    {
+      "time": 1536767261156,
+      "valueIncreaseRate": 0.12857428,
+      "taxIncreaseRate": 0.035594776,
+      "taxPaid": 7804.17,
+      "value": 39508
+    },
+    {
+      "time": 1505231261156,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.074791156,
+      "taxPaid": 7535.93,
+      "value": 35007
+    },
+    {
+      "time": 1473695261156,
+      "valueIncreaseRate": -0.07150625,
+      "taxIncreaseRate": 0.01485617,
+      "taxPaid": 7011.53,
+      "value": 35007
+    },
+    {
+      "time": 1442072861156,
+      "valueIncreaseRate": 0.35373953,
+      "taxIncreaseRate": 0.33701214,
+      "taxPaid": 6908.89,
+      "value": 37703
+    },
+    {
+      "time": 1410536861157,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.020142669,
+      "taxPaid": 5167.41,
+      "value": 27851
+    },
+    {
+      "time": 1379000861157,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.013528006,
+      "taxPaid": 5065.38,
+      "value": 27851
+    },
+    {
+      "time": 1347464861157,
+      "valueIncreaseRate": -0.013635076,
+      "taxIncreaseRate": 0.092279814,
+      "taxPaid": 4997.77,
+      "value": 27851
+    },
+    {
+      "time": 1315842461157,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.004161378,
+      "taxPaid": 4575.54,
+      "value": 28236
+    },
+    {
+      "time": 1284306461157,
+      "valueIncreaseRate": -0.2,
+      "taxIncreaseRate": -0.16517192,
+      "taxPaid": 4594.66,
+      "value": 28236
+    },
+    {
+      "time": 1252770461157,
+      "valueIncreaseRate": -0.044971183,
+      "taxIncreaseRate": 0.038153715,
+      "taxPaid": 5503.72,
+      "value": 35295
+    },
+    {
+      "time": 1221234461157,
+      "valueIncreaseRate": -0.14692304,
+      "taxIncreaseRate": -0.13836223,
+      "taxPaid": 5301.45,
+      "value": 36957
+    },
+    {
+      "time": 1189612061157,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.010681484,
+      "taxPaid": 6152.76,
+      "value": 43322
+    },
+    {
+      "time": 1158076061157,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6219.19,
+      "value": 43322
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1676,
+  "state": "IL",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU1065d8wjwc93d_1sm5f",
+    "review_count": 61,
+    "display_name": "Kelly Ladewig",
+    "profile_url": "https://www.zillow.com/profile/kellyladewig/",
+    "business_name": "Baird & Warner",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "347",
+      "areacode": "708",
+      "number": "0609"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/40be17a37df09bdb58b413d0857d4962-h_n.jpg"
+  },
+  "yearBuilt": 2002,
+  "brokerageName": "Baird & Warner",
+  "description": "Discover this light-filled 2 bed / 2 bath corner residence at the desirable Park Millennium. Floor-to-ceiling windows showcase sweeping city and park views,  filling the home with natural light and creating an uplifting atmosphere - making even rainy or snowy days feel special. The open living and dining space perfect for entertaining or cozy nights in, while the modern kitchen, spacious bedrooms and in-unit laundry make everyday living comfortable and practical. At Park Millennium, resort-style amenities make city living effortless: swim laps in the indoor pool, relax in the hot tub or sauna, work out in the expansive gym, or enjoy summer evenings grilling on the sundeck. The building also offers a business center, party room, 24-hour door staff, on-site dry cleaners, and direct connection to the Pedway system for easy all-weather access to shopping, dining, and public transportation. The Lakeshore East location is unbeatable, steps to Michigan Avenue, Millennium Park, Mariano's, Wildberry Cafe, the Riverwalk, lakefront paths, museums, theaters, and more. From morning coffee at a local cafe to evening strolls along the lake, this home puts the best of Chicago right outside your door. HOA includes heat, air, cable, internet, and amenities. Leased parking available. This is more than a condo, it's a lifestyle in one of Chicago's most vibrant and connected neighborhoods.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/222-n-columbus-dr-apt-1502-chicago-il-60601/176358640_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 25
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/222-n-columbus-dr-apt-1502-chicago-il-60601/176358640_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/222-n-columbus-dr-apt-1502-chicago-il-60601/176358640_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 100,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 12
+          }
+        ],
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "source": {
+          "url": "https://firststreet.org/property/222-n-columbus-dr-apt-1502-chicago-il-60601/176358640_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/222-n-columbus-dr-apt-1502-chicago-il-60601/176358640_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 3
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 4
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 41.88652,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 612"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-612-Chicago-IL-60601/80390788_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 612",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 264000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/af03a20ce77369e6152e535f776261b2-p_c.jpg"
+        }
+      ],
+      "zpid": 80390788,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 835,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 835
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 4007"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-4007-Chicago-IL-60601/80390789_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 4007",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 231600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3fa4ac5afa61efb4e1a37612fc6da29e-p_c.jpg"
+        }
+      ],
+      "zpid": 80390789,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 660,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 660
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 405"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-405-Chicago-IL-60601/80620783_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 405",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 225900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d27fb4870bbe44c55ff0b6adbb6799ce-p_c.jpg"
+        }
+      ],
+      "zpid": 80620783,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 800,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 800
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 4205"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-4205-Chicago-IL-60601/80808618_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 4205",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 261500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8218fcc0d294e12b27c032927d7a8c4e-p_c.jpg"
+        }
+      ],
+      "zpid": 80808618,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 0,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 0
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 3308"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-3308-Chicago-IL-60601/80808692_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 3308",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 209200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f631af77142dc6376a7f93abc65c529c-p_c.jpg"
+        }
+      ],
+      "zpid": 80808692,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1250,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1250
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 504"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-504-Chicago-IL-60601/80808857_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 504",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 310700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/eb66283cd905ea287cd8b70121117937-p_c.jpg"
+        }
+      ],
+      "zpid": 80808857,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 835,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 835
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.62102,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 809",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1225,
+      "lotSize": null,
+      "zpid": 80809071,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 809"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-809-Chicago-IL-60601/80809071_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12332793",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 41.88652,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1225,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4636bd5491a148fadc86bdf4109305e9-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 380000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 1505"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-1505-Chicago-IL-60601/80809225_zpid/",
+      "lotAreaValue": 0.94276859504132,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 1505",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88652,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 228300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 41067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/933157689514d29d36c97c4005fcf464-p_c.jpg"
+        }
+      ],
+      "zpid": 80809225,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -87.62102,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.62102,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "222 N Columbus Dr APT 3005",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 670,
+      "lotSize": null,
+      "zpid": 80809264,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "222 N Columbus Dr APT 3005"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/222-N-Columbus-Dr-APT-3005-Chicago-IL-60601/80809264_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12299523",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 41.88652,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2001,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 670,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1570210b2a49d58afdc0180b2c804811-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 222000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.011152416356877,
+      "date": "2025-09-02",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12460280"
+      },
+      "pricePerSquareFoot": 341,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 399000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-05-20",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1716163200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12039447"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.0061551875743536,
+      "date": "2024-04-25",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1714003200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12039447"
+      },
+      "pricePerSquareFoot": 345,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 403500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-04-25",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1714003200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11985653"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.20118047337278,
+      "date": "2024-02-21",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1708473600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11985653"
+      },
+      "pricePerSquareFoot": 347,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 405999
+    },
+    {
+      "priceChangeRate": -0.034285714285714,
+      "date": "2021-08-12",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1628726400000,
+      "sellerAgent": {
+        "name": "Barbara Ball",
+        "photo": null,
+        "profileUrl": "/profile/bballrealtor/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11036969"
+      },
+      "pricePerSquareFoot": 289,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 338000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-07-27",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1627344000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11036969"
+      },
+      "pricePerSquareFoot": 299,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-07-02",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1625184000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11036969"
+      },
+      "pricePerSquareFoot": 299,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": 0.014492753623188,
+      "date": "2021-03-30",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1617062400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "11036969"
+      },
+      "pricePerSquareFoot": 299,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-09-12",
+      "source": "Corcoran Urban Real Estate",
+      "postingIsRental": false,
+      "time": 1599868800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Corcoran Urban Real Estate",
+        "infoString3": null,
+        "infoString1": "10688054"
+      },
+      "pricePerSquareFoot": 295,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 345000
+    },
+    {
+      "priceChangeRate": -0.092105263157895,
+      "date": "2020-08-18",
+      "source": "Corcoran Urban Real Estate",
+      "postingIsRental": false,
+      "time": 1597708800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Corcoran Urban Real Estate",
+        "infoString3": null,
+        "infoString1": "10688054"
+      },
+      "pricePerSquareFoot": 295,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 345000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-04-10",
+      "source": "Urban Real Estate",
+      "postingIsRental": false,
+      "time": 1586476800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Urban Real Estate",
+        "infoString3": null,
+        "infoString1": "10688054"
+      },
+      "pricePerSquareFoot": 325,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 380000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2cfa3d3a4d53638d2ccf5536a87d8fb0-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1270-Ogden-Elementary-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Ogden Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1425-Wells-Community-Academy-High-School/",
+      "rating": 1,
+      "totalCount": null,
+      "distance": 2.6,
+      "assigned": null,
+      "name": "Wells Community Academy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3780,
+  "city": "Chicago",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.88,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Chicago",
+    "state": "IL",
+    "neighborhood": null,
+    "subdivision": "Park Millennium Condos",
+    "streetAddress": "222 N Columbus Dr APT 1502",
+    "zipcode": "60601"
+  },
+  "cityId": 17426,
+  "timeOnZillow": "9 days",
+  "priceChange": null,
+  "zestimate": 388200,
+  "zpid": 80821641,
+  "countyId": 139,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 855,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling windows",
+            "Corner residence",
+            "Spacious bedrooms",
+            "In-unit laundry",
+            "Natural light",
+            "Modern kitchen"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling windows",
+            "Corner residence",
+            "Spacious bedrooms",
+            "In-unit laundry",
+            "Natural light",
+            "Modern kitchen"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "The Loop"
+  },
+  "zipcode": "60601",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 21,
+  "url": "/homedetails/222-N-Columbus-Dr-APT-1502-Chicago-IL-60601/80821641_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "mlsName": "MRED as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Baird & Warner"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Baird & Warner",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-07 22:07:42",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Kelly Ladewig",
+    "attributionTitle": "Listing courtesy of:",
+    "mlsId": "12460280",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "708-347-0609",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Kelly Ladewig",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "708-347-0609",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "brokerPhoneNumber": "312-242-1000",
+    "lastChecked": "2025-09-12 08:38:03"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 21,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "No Disability Access"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 369990,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2002",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "99 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,175 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$341",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "240",
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": "20",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "12",
+        "roomFeatures": [
+          "Flooring (Carpet)",
+          "Window Treatments (Blinds)",
+          "Bathroom (Full)"
+        ],
+        "roomDimensions": "12X20",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "120",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "10",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "12",
+        "roomFeatures": [
+          "Flooring (Carpet)",
+          "Window Treatments (Blinds)"
+        ],
+        "roomDimensions": "12X10",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom3",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom4",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "88",
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": "11",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "8",
+        "roomFeatures": [
+          "Flooring (Wood Laminate)",
+          "Window Treatments (Curtains/Drapes)"
+        ],
+        "roomDimensions": "8X11",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "FamilyRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "126",
+        "roomAreaSource": null,
+        "roomType": "Foyer",
+        "roomDescription": null,
+        "roomWidth": "9",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "14",
+        "roomFeatures": [
+          "Flooring (Wood Laminate)"
+        ],
+        "roomDimensions": "14X9",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "99",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "9",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "11",
+        "roomFeatures": [
+          "Kitchen (Eating Area-Breakfast Bar)",
+          "Flooring (Ceramic Tile)"
+        ],
+        "roomDimensions": "11X9",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "306",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "17",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "18",
+        "roomFeatures": [
+          "Flooring (Wood Laminate)",
+          "Window Treatments (Blinds)"
+        ],
+        "roomDimensions": "18X17",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "48",
+        "roomAreaSource": null,
+        "roomType": "WalkInCloset",
+        "roomDescription": null,
+        "roomWidth": "8",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "6",
+        "roomFeatures": [
+          "Flooring (Carpet)"
+        ],
+        "roomDimensions": "6X8",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,175 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Chicago",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Lake Michigan",
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,170 sqft",
+    "commonWalls": "End Unit",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,175 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 99,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Glass",
+      "Marble/Granite",
+      "Concrete"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,175 monthly",
+    "appliances": [
+      "Range",
+      "Microwave",
+      "Dishwasher",
+      "Refrigerator",
+      "Washer",
+      "Dryer",
+      "Disposal",
+      "Stainless Steel Appliance(s)"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2002,
+    "utilities": [
+      "Cable Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17103160331147",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 7806,
+    "subdivisionName": "Park Millennium Condos",
+    "storiesTotal": 52,
+    "storiesDecimal": null,
+    "specialListingConditions": "None",
+    "windowFeatures": [
+      "Screens"
+    ],
+    "ownership": "Condo",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "299",
+    "associationPhone2": null,
+    "onMarketDate": 1756841594000,
+    "roomTypes": [
+      "Foyer",
+      "Walk In Closet"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Bike Room/Bike Trails",
+      "Door Person",
+      "Elevator(s)",
+      "Exercise Room",
+      "On Site Manager/Engineer",
+      "Party Room",
+      "Sundeck",
+      "Indoor Pool",
+      "Receiving Room",
+      "Sauna",
+      "Valet/Cleaner",
+      "Spa/Hot Tub",
+      "Business Center"
+    ],
+    "propertySubType": [
+      "Condominium",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 99,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,175 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "On Site",
+      "Leased",
+      "Attached",
+      "Garage"
+    ],
+    "parkingCapacity": 99,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,175 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "299",
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "0",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "299",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer Hookup",
+      "In Unit",
+      "Laundry Closet"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Heat",
+      "Air Conditioning",
+      "Water",
+      "Gas",
+      "Insurance",
+      "Doorman",
+      "Cable TV",
+      "Exercise Facilities",
+      "Pool",
+      "Exterior Maintenance",
+      "Scavenger",
+      "Snow Removal",
+      "Internet"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 341,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-02",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.215,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692061176
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.458,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692061176
+    },
+    "arm5Bucket": {
+      "rate": 7.083,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692061176
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 34,
+  "livingArea": 1170,
+  "zestimateHighPercent": "5",
+  "mlsid": "12460280",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1109337",
+  "country": "USA",
+  "price": 399000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:41.895943+00:00",
+    "zpid": "80821641",
+    "zipcode": "60601",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

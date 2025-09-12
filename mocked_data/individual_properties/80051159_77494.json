@@ -1,0 +1,1631 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.829765,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/a22328abb24e7ced4464cfcf56413ba2-p_d.jpg",
+  "livingAreaValue": 2234,
+  "streetAddress": "3534 Junction Bend Ln",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155935784,
+      "valueIncreaseRate": 0.09999917,
+      "taxIncreaseRate": 0.08170198,
+      "taxPaid": 1092.93,
+      "value": 264288
+    },
+    {
+      "time": 1694533535784,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.59807146,
+      "taxPaid": 1010.38,
+      "value": 240262
+    },
+    {
+      "time": 1662997535784,
+      "valueIncreaseRate": 0.10002015,
+      "taxIncreaseRate": 0.031619616,
+      "taxPaid": 2513.83,
+      "value": 218420
+    },
+    {
+      "time": 1631461535784,
+      "valueIncreaseRate": -0.029568447,
+      "taxIncreaseRate": -0.010966807,
+      "taxPaid": 2436.78,
+      "value": 198560
+    },
+    {
+      "time": 1599925535784,
+      "valueIncreaseRate": 0.057579987,
+      "taxIncreaseRate": 0.018848607,
+      "taxPaid": 2463.8,
+      "value": 204610
+    },
+    {
+      "time": 1568303135784,
+      "valueIncreaseRate": 0.014312677,
+      "taxIncreaseRate": 0.004210779,
+      "taxPaid": 2418.22,
+      "value": 193470
+    },
+    {
+      "time": 1536767135784,
+      "valueIncreaseRate": 0.0738051,
+      "taxIncreaseRate": -0.3943689,
+      "taxPaid": 2408.08,
+      "value": 190740
+    },
+    {
+      "time": 1505231135784,
+      "valueIncreaseRate": -0.009590187,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3976.15,
+      "value": 177630
+    },
+    {
+      "time": 1473695135784,
+      "valueIncreaseRate": 0.05419385,
+      "taxIncreaseRate": 0.32720605,
+      "taxPaid": 3976.15,
+      "value": 179350
+    },
+    {
+      "time": 1442072735784,
+      "valueIncreaseRate": 0.10002586,
+      "taxIncreaseRate": 0.04551448,
+      "taxPaid": 2995.88,
+      "value": 170130
+    },
+    {
+      "time": 1410536735784,
+      "valueIncreaseRate": 0.1075623,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2865.46,
+      "value": 154660
+    },
+    {
+      "time": 1379000735784,
+      "valueIncreaseRate": 0.011590843,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 139640
+    },
+    {
+      "time": 1347464735784,
+      "valueIncreaseRate": -0.13961606,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 138040
+    },
+    {
+      "time": 1315842335784,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 160440
+    },
+    {
+      "time": 1284306335784,
+      "valueIncreaseRate": 0.048147906,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 160440
+    },
+    {
+      "time": 1252770335784,
+      "valueIncreaseRate": 0.032582298,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 153070
+    },
+    {
+      "time": 1221234335784,
+      "valueIncreaseRate": 0.76057005,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 148240
+    },
+    {
+      "time": 1189611935784,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 84200
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1638,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU10c4xvfpu68zt_2qbsr",
+    "review_count": 0,
+    "display_name": "LaToya Mitchell",
+    "profile_url": "https://www.zillow.com/profile/Latoya-Mitchell-R/",
+    "business_name": "HomeSmart",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "600",
+      "areacode": "832",
+      "number": "7508"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "HomeSmart",
+  "description": "This move-in ready home in Pine Mill Ranch is a gem! Featuring new Anderson windows, a new HVAC system, and recently updated flooring, it offers everything you need. With 4 spacious bedrooms, 2.5 bathrooms, an open floor plan, and a gorgeous covered patio, this home has it all. Conveniently situated in the highly desirable Katy area, it\u2019s close to shopping, La Centerra, and top-rated Katy ISD schools.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3534-junction-bend-ln-katy-tx-77494/4800861581_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3534-junction-bend-ln-katy-tx-77494/4800861581_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.11999999731779
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.21999999880791
+          }
+        ],
+        "insuranceSeparatePolicy": "RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00030000001424924
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0017999999690801
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0032999999821186
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0048000002279878
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0063000000081956
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0077999997884035
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0093000000342727
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3534-junction-bend-ln-katy-tx-77494/4800861581_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3534-junction-bend-ln-katy-tx-77494/4800861581_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3534-junction-bend-ln-katy-tx-77494/4800861581_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.731882,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3538 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3538-Junction-Bend-Ln-Katy-TX-77494/80070683_zpid/",
+      "lotAreaValue": 5175,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3538 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.731762,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 278500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5175,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/21955afbc6b4c457ea6e4cba12fa884f-p_c.jpg"
+        }
+      ],
+      "zpid": 80070683,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1609,
+      "longitude": -95.8298,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1609
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3530 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3530-Junction-Bend-Ln-Katy-TX-77494/80073699_zpid/",
+      "lotAreaValue": 5175,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3530 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73201,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 336100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5175,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3530+Junction+Bend+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=BosDijBwBEctIv70nkr5J6UawzE="
+        }
+      ],
+      "zpid": 80073699,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2695,
+      "longitude": -95.8298,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2695
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3542 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3542-Junction-Bend-Ln-Katy-TX-77494/80056104_zpid/",
+      "lotAreaValue": 5175,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3542 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.731638,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 299500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5175,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3542+Junction+Bend+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=TNXxdZM3Ln1lWRTtI6iVIGHJJrM="
+        }
+      ],
+      "zpid": 80056104,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1830,
+      "longitude": -95.8298,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1830
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3526 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3526-Junction-Bend-Ln-Katy-TX-77494/80069727_zpid/",
+      "lotAreaValue": 5175,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3526 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732134,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 332700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5175,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3526+Junction+Bend+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=PJmaDJH8VpndtpwovAVl0v9gBfE="
+        }
+      ],
+      "zpid": 80069727,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1906,
+      "longitude": -95.82981,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1906
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3546 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3546-Junction-Bend-Ln-Katy-TX-77494/80060973_zpid/",
+      "lotAreaValue": 5170,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3546 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.731514,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 326500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5170,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8d93af405943240fd41780e1ad963a94-p_c.jpg"
+        }
+      ],
+      "zpid": 80060973,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2369,
+      "longitude": -95.8298,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2369
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3522 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3522-Junction-Bend-Ln-Katy-TX-77494/80072535_zpid/",
+      "lotAreaValue": 5179,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3522 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732258,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5179,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/36c06cde75ee5eb3f7e421c829f6a386-p_c.jpg"
+        }
+      ],
+      "zpid": 80072535,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2234,
+      "longitude": -95.82981,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2234
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3535 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3535-Junction-Bend-Ln-Katy-TX-77494/80052815_zpid/",
+      "lotAreaValue": 5876,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3535 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.731947,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5876,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ae06559ed389819e9072579398346557-p_c.jpg"
+        }
+      ],
+      "zpid": 80052815,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1309,
+      "longitude": -95.82929,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1309
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.82929,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3539 Junction Bend Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 1858,
+      "lotSize": 4996,
+      "zpid": 80044529,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3539 Junction Bend Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3539-Junction-Bend-Ln-Katy-TX-77494/80044529_zpid/",
+      "lotAreaValue": 4996,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.73181,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2007,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1858,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c35ec0589923c9c021562d7c144acb0c-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 291800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.65957021276596,
+      "date": "2025-09-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "28379741"
+      },
+      "pricePerSquareFoot": 175,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 389999
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-03-01",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1456790400000,
+      "sellerAgent": {
+        "name": "Mary Thompson",
+        "photo": null,
+        "profileUrl": "/profile/MaryExCITERealty/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.020833333333333,
+      "date": "2015-11-03",
+      "source": "Coldwell Banker United, Realtors - Katy",
+      "postingIsRental": false,
+      "time": 1446508800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker United, Realtors - Katy",
+        "infoString3": null,
+        "infoString1": "84650895"
+      },
+      "pricePerSquareFoot": 105,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 235000
+    },
+    {
+      "priceChangeRate": -0.020408163265306,
+      "date": "2015-10-22",
+      "source": "Coldwell Banker United, Realtors - Katy",
+      "postingIsRental": false,
+      "time": 1445472000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker United, Realtors - Katy",
+        "infoString3": null,
+        "infoString1": "84650895"
+      },
+      "pricePerSquareFoot": 107,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 240000
+    },
+    {
+      "priceChangeRate": -0.02,
+      "date": "2015-10-12",
+      "source": "Coldwell Banker United, Realtors - Katy",
+      "postingIsRental": false,
+      "time": 1444608000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker United, Realtors - Katy",
+        "infoString3": null,
+        "infoString1": "84650895"
+      },
+      "pricePerSquareFoot": 110,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 245000
+    },
+    {
+      "priceChangeRate": -0.038461538461538,
+      "date": "2015-09-22",
+      "source": "Coldwell Banker United, Realtors - Katy",
+      "postingIsRental": false,
+      "time": 1442880000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker United, Realtors - Katy",
+        "infoString3": null,
+        "infoString1": "84650895"
+      },
+      "pricePerSquareFoot": 112,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 250000
+    },
+    {
+      "priceChangeRate": 0.53031194820483,
+      "date": "2015-09-12",
+      "source": "Coldwell Banker United, REALTORS",
+      "postingIsRental": false,
+      "time": 1442016000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker United, REALTORS",
+        "infoString3": null,
+        "infoString1": "84650895"
+      },
+      "pricePerSquareFoot": 116,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 260000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2009-09-23",
+      "source": "Keller Williams Realty",
+      "postingIsRental": false,
+      "time": 1253664000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams Realty",
+        "infoString3": null,
+        "infoString1": "1924750"
+      },
+      "pricePerSquareFoot": 76,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 169900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2009-07-18",
+      "source": "Keller Williams Realty",
+      "postingIsRental": false,
+      "time": 1247875200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams Realty",
+        "infoString3": null,
+        "infoString1": "1924750"
+      },
+      "pricePerSquareFoot": 76,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 169900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/a22328abb24e7ced4464cfcf56413ba2-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/24762-Keiko-Davidson-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Keiko Davidson Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/25341-Tays-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Tays J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/11780-Obra-D-Tompkins-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Obra D Tompkins High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2472,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Pine Mill Ranch Sec 2",
+    "streetAddress": "3534 Junction Bend Ln",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "11 hours",
+  "priceChange": null,
+  "zestimate": 330100,
+  "zpid": 80051159,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 8,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Recently updated flooring",
+            "Open floor plan",
+            "New anderson windows",
+            "Gorgeous covered patio",
+            "New hvac system"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Recently updated flooring",
+            "Open floor plan",
+            "New anderson windows",
+            "Gorgeous covered patio",
+            "New hvac system"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3534-Junction-Bend-Ln-Katy-TX-77494/80051159_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "HomeSmart"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "HomeSmart",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 21:15:29",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "LaToya Mitchell",
+    "attributionTitle": null,
+    "mlsId": "28379741",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "832-600-7508",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0631072",
+        "memberFullName": "LaToya Mitchell",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-600-7508",
+    "agentLicenseNumber": "TREC #0631072",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "713-785-6666",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 15,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 307125,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "5,209 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$175",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "5,209 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,234 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": [
+      "ENERGY STAR Certified Homes"
+    ],
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "3 Bedrooms Up",
+      "Primary Bed - 1st Floor"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Other",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Keiko Davidson Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Attic Vents",
+      "Thermostat"
+    ],
+    "constructionMaterials": [
+      "Cement Siding"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "ENERGY STAR Qualified Appliances",
+      "Disposal",
+      "Dryer",
+      "Washer",
+      "Water Softener Rented",
+      "Electric Oven",
+      "Microwave",
+      "Electric Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Full",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Tays Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "5797020010290914",
+    "incomeIncludes": null,
+    "highSchool": "Tompkins High School",
+    "taxAnnualAmount": 6232,
+    "subdivisionName": "Pine Mill Ranch Sec 2",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757650745000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Clubhouse",
+      "Dog Park",
+      "Jogging Path",
+      "Park",
+      "Picnic Area",
+      "Playground",
+      "Pool",
+      "Splash Pad",
+      "Sport Court",
+      "Tennis Court(s)",
+      "Trail(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,234",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 175,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691935798
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691935798
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691935798
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 2234,
+  "zestimateHighPercent": "5",
+  "mlsid": "28379741",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 389999,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:36.430305+00:00",
+    "zpid": "80051159",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

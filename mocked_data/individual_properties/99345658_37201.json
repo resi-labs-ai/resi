@@ -1,0 +1,1760 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.77458,
+  "countyFIPS": "47037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2ad79f9ef5a06e834dbb5144d0629395-p_d.jpg",
+  "livingAreaValue": 2008,
+  "streetAddress": "301 Demonbreun St UNIT 2016",
+  "county": "Davidson County",
+  "monthlyHoaFee": 1265,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533697148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 13124.21,
+      "value": 387900
+    },
+    {
+      "time": 1662997697148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.009948626,
+      "taxPaid": 13124.21,
+      "value": 387900
+    },
+    {
+      "time": 1631461697148,
+      "valueIncreaseRate": 0.584397,
+      "taxIncreaseRate": 0.24460512,
+      "taxPaid": 13256.09,
+      "value": 387900
+    },
+    {
+      "time": 1599925697148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.32456496,
+      "taxPaid": 10650.84,
+      "value": 244825
+    },
+    {
+      "time": 1568303297148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8041.01,
+      "value": 244825
+    },
+    {
+      "time": 1536767297148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8041.01,
+      "value": 244825
+    },
+    {
+      "time": 1505231297148,
+      "valueIncreaseRate": 0.7841137,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 244825
+    },
+    {
+      "time": 1473695297148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8041.03,
+      "value": 137225
+    },
+    {
+      "time": 1442072897148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 137225
+    },
+    {
+      "time": 1410536897148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6521.08,
+      "value": 137225
+    },
+    {
+      "time": 1379000897148,
+      "valueIncreaseRate": 0.15266694,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 137225
+    },
+    {
+      "time": 1347464897148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 119050
+    },
+    {
+      "time": 1315842497148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 119050
+    },
+    {
+      "time": 1284306497148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 119050
+    },
+    {
+      "time": 1252770497148,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 119050
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 6888,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUsdqwlhclkt1l_7j3qu",
+    "review_count": 0,
+    "display_name": "Heather Poiry",
+    "profile_url": "https://www.zillow.com/profile/Legallyblondeofrealestate/",
+    "business_name": "Blue Sky Realty Partners",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "788",
+      "areacode": "615",
+      "number": "4288"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/96bff8a15d5cc93da1bdccbdcfc7dc01-h_n.jpg"
+  },
+  "yearBuilt": 2008,
+  "brokerageName": "Blue Sky Realty Partners",
+  "description": "Incredible penthouse at Encore with unbeatable value! Priced aggressively!\nWhy buy a two-bedroom when you can own a Penthouse in the heart of Downtown Nashville! Rare Opportunity!\nThis two-story condo features 25-foot floor-to-ceiling windows that create a bright and airy atmosphere while offering spectacular views of the Nashville skyline and the beautiful Tennessee countryside. Relax or entertain on not one, but two private balconies, seamlessly blending indoor and outdoor living.\n\nThe open layout is perfect for modern living, complete with a stylish wet bar for those memorable gatherings. Each spacious bedroom has an en-suite full bathroom suite, ensuring comfort and privacy for you and your guests.\n\nAdditional features include two side-by-side parking spots for your convenience and a prime location just steps from the excitement of Titans and Preds games, live concerts, and the vibrant energy of Nashville. Explore top-notch restaurants and nightlife right at your doorstep!\n\nLiving at Encore means you\u2019ll enjoy amenities like 24-hour concierge service, a state-of-the-art fitness center, and a refreshing pool\u2014all within a pet-friendly community that welcomes your furry companions.\n\nThis exceptional penthouse is the best-priced condo on the market today, offering a lifestyle that\u2019s hard to beat. Schedule your showing now and elevate your Nashville living experience!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.029999999329448
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.079999998211861
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.090000003576279
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/301-demonbreun-st-nashville-tn-37201-2251/472497245_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 42
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/301-demonbreun-st-nashville-tn-37201-2251/472497245_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.40999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.77999997138977
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/301-demonbreun-st-nashville-tn-37201-2251/472497245_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 105,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 20
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/301-demonbreun-st-nashville-tn-37201-2251/472497245_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/301-demonbreun-st-nashville-tn-37201-2251/472497245_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 36.15869,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.77451,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 1215",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 865,
+      "lotSize": 871,
+      "zpid": 108771004,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 1215"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-1215-Nashville-TN-37201/108771004_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2981210",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.158695,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 865,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8f2d594254218ece187223114f285f5e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 499900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 1917"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-1917-Nashville-TN-37201/114437095_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 1917",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2896938",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.15877,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 615000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/60755087ce58c77a39cb5782338af4cd-p_c.jpg"
+        }
+      ],
+      "zpid": 114437095,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 842,
+      "longitude": -86.77462,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 842
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.77446,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 914",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1184,
+      "lotSize": 871,
+      "zpid": 108715307,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 914"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-914-Nashville-TN-37201/108715307_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2823180",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.158733,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1184,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1309f99ef24ab23e206138157f9e8891-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 949999,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.77446,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 814",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1184,
+      "lotSize": 871,
+      "zpid": 108776875,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 814"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-814-Nashville-TN-37201/108776875_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2817434",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.158733,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1184,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e30ff39e68ff9411e6012ea3e7fd1dcc-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 995000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.77446,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 714",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1184,
+      "lotSize": 871,
+      "zpid": 99345657,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 714"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-714-Nashville-TN-37201/99345657_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2430956",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 36.158737,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1184,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4a7ee9bc22913e4ef1603cd2b62fa6b8-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 990000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 1313"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-1313-Nashville-TN-37201/108717920_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 1313",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2914235",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.15881,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 575000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/32c4f17e2f84da5f795054c4cbb923e5-p_c.jpg"
+        }
+      ],
+      "zpid": 108717920,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 837,
+      "longitude": -86.77452,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 837
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 1712"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-1712-Nashville-TN-37201/108262872_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 1712",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2970017",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.158863,
+      "homeStatus": "FOR_RENT",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2195,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Rent",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/488928c934a864c78a217ce7fbb40875-p_c.jpg"
+        }
+      ],
+      "zpid": 108262872,
+      "hdpTypeDimension": "ForRent",
+      "livingArea": 720,
+      "longitude": -86.77457,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "22bzbnzmpxdd4",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 720
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "301 Demonbreun St UNIT 1812"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/301-Demonbreun-St-UNIT-1812-Nashville-TN-37201/108758178_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "301 Demonbreun St UNIT 1812",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2922953",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.158863,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 550000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0ecafbb0e4eebee9636c38a630222ae5-p_c.jpg"
+        }
+      ],
+      "zpid": 108758178,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 720,
+      "longitude": -86.77457,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 720
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.023809523809524,
+      "date": "2025-09-11",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2992596"
+      },
+      "pricePerSquareFoot": 817,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1640000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-11-08",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1636329600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2285610"
+      },
+      "pricePerSquareFoot": 837,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 1680000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-18",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1634515200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2285610"
+      },
+      "pricePerSquareFoot": 837,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 1680000
+    },
+    {
+      "priceChangeRate": -0.039451114922813,
+      "date": "2021-08-26",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1629936000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2285610"
+      },
+      "pricePerSquareFoot": 837,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1680000
+    },
+    {
+      "priceChangeRate": -0.027793218454697,
+      "date": "2021-07-01",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1625097600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2247979"
+      },
+      "pricePerSquareFoot": 871,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1749000
+    },
+    {
+      "priceChangeRate": -0.027567567567568,
+      "date": "2021-05-18",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1621296000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2247979"
+      },
+      "pricePerSquareFoot": 896,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1799000
+    },
+    {
+      "priceChangeRate": 0.97860962566845,
+      "date": "2021-04-26",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1619395200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2247979"
+      },
+      "pricePerSquareFoot": 921,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1850000
+    },
+    {
+      "priceChangeRate": -0.015685861669649,
+      "date": "2014-09-18",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1410998400000,
+      "sellerAgent": {
+        "name": "Matthew Read",
+        "photo": null,
+        "profileUrl": "/profile/matthewread/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1566334"
+      },
+      "pricePerSquareFoot": 466,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 935000
+    },
+    {
+      "priceChangeRate": 0.69625,
+      "date": "2014-08-10",
+      "source": "Bob Parks Realty, LLC",
+      "postingIsRental": false,
+      "time": 1407628800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Bob Parks Realty, LLC",
+        "infoString3": null,
+        "infoString1": "1566334"
+      },
+      "pricePerSquareFoot": 473,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 949900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-01-11",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1294704000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 279,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 560000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2ad79f9ef5a06e834dbb5144d0629395-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2202-Jones-Paideia-Magnet/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Jones Elementary",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2201-John-Early-Paideia-Middle-Magnet/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 2.6,
+      "assigned": null,
+      "name": "John Early Paideia Middle Magnet",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1158-Pearl-Cohn-Magnet-High-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 2.3,
+      "assigned": null,
+      "name": "Pearl Cohn Magnet High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "Encore",
+    "streetAddress": "301 Demonbreun St UNIT 2016",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "1 day",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 99345658,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 121,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Stylish wet bar",
+            "Two private balconies",
+            "Beautiful tennessee countryside",
+            "Open layout",
+            "Spacious bedroom"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Stylish wet bar",
+            "Two private balconies",
+            "Beautiful tennessee countryside",
+            "Open layout",
+            "Spacious bedroom"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": null,
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/301-Demonbreun-St-UNIT-2016-Nashville-TN-37201/99345658_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Blue Sky Realty Partners"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Blue Sky Realty Partners",
+    "listingAttributionContact": "6157884288",
+    "lastUpdated": "2025-09-10 22:02:06",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Heather  Poiry",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2992596",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "615-788-4288",
+    "listingAgents": [
+      {
+        "memberStateLicense": "360805",
+        "memberFullName": "Heather  Poiry",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-788-4288",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "615-234-1200",
+    "lastChecked": "2025-09-12 08:43:20"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 57,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Wood",
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1551600,
+    "atAGlanceFacts": [
+      {
+        "factValue": "High Rise, Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2008",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,265 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$817",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "252",
+        "roomAreaSource": null,
+        "roomType": "Bedroom1",
+        "roomDescription": null,
+        "roomWidth": "14",
+        "roomLevel": "Full Bath",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "18",
+        "roomFeatures": [
+          "Full Bath"
+        ],
+        "roomDimensions": "18x14",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "216",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Bath",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "18",
+        "roomFeatures": [
+          "Bath"
+        ],
+        "roomDimensions": "18x12",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Double Vanity",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": null,
+        "roomFeatures": [
+          "Double Vanity"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "208",
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": "13",
+        "roomLevel": "Combination",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "16",
+        "roomFeatures": [
+          "Combination"
+        ],
+        "roomDimensions": "16x13",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "288",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "16",
+        "roomLevel": "Eat-in Kitchen",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "18",
+        "roomFeatures": [
+          "Eat-in Kitchen"
+        ],
+        "roomDimensions": "18x16",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "486",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "18",
+        "roomLevel": "Great Room",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "27",
+        "roomFeatures": [
+          "Great Room"
+        ],
+        "roomDimensions": "27x18",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,265 monthly",
+        "type": "HOA"
+      },
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$100 one time",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "871.20 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,008 sqft",
+    "commonWalls": "End Unit",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,265 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": [
+      "Built-in Features",
+      "Ceiling Fan(s)",
+      "Extra Closets",
+      "High Ceilings",
+      "Open Floorplan",
+      "Pantry",
+      "Smart Thermostat",
+      "Wet Bar",
+      "High Speed Internet"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jones Paideia Magnet",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "ICFs (Insulated Concrete Forms)"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,265 monthly",
+    "appliances": [
+      "Oven",
+      "Range",
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Freezer",
+      "Ice Maker",
+      "Microwave",
+      "Refrigerator",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "West End Middle School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2008,
+    "utilities": [
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "093060A33200CO",
+    "incomeIncludes": null,
+    "highSchool": "Hillsboro Comp High School",
+    "taxAnnualAmount": 13124,
+    "subdivisionName": "Encore",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757548800000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "High Rise",
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,265 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security Gate",
+      "Security Guard",
+      "Security System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "2,008",
+    "associations": [
+      {
+        "feeFrequency": "$1,265 monthly",
+        "name": null,
+        "phone": null
+      },
+      {
+        "feeFrequency": "$100 one time",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": "$100 one time",
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,008",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck",
+      "Patio"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Insurance",
+      "Internet",
+      "Recreation Facilities",
+      "Trash"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 817,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.542,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687024145
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.325,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687024145
+    },
+    "arm5Bucket": {
+      "rate": 6.196,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687024145
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 4,
+  "livingArea": 2008,
+  "zestimateHighPercent": null,
+  "mlsid": "2992596",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2746810975",
+  "country": "USA",
+  "price": 1640000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:17.852163+00:00",
+    "zpid": "99345658",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collection_summary": {
+    "zipcodes_processed": 10,
+    "properties_found": 328,
+    "properties_collected": 328,
+    "total_api_calls": 338,
+    "errors_encountered": 0,
+    "duration_seconds": 420.803843,
+    "collection_rate": "0.78 properties/sec"
+  },
+  "file_locations": {
+    "search_data": "/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/mocked_data/property_extended_search",
+    "property_data": "/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/mocked_data/individual_properties"
+  },
+  "collected_at": "2025-09-12T15:49:07.298629+00:00"
+}

@@ -1,0 +1,1252 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 52,
+      "display_name": "Michelle Guerra",
+      "badge_type": "Premier Agent",
+      "business_name": "MG Texas Real Estate",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "324",
+        "areacode": "956",
+        "number": "2427"
+      },
+      "zuid": "X1-ZU10a9xpmrc6e4p_1vfad",
+      "image_url": "https://photos.zillowstatic.com/fp/be82a6fa46ebccc7b997a0cdeafa7ac7-h_g.jpg"
+    }
+  ],
+  "longitude": -99.35622,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/3405c9fe77babdb588e24f73578fca25-p_d.jpg",
+  "livingAreaValue": 1860,
+  "streetAddress": "134 Martinez Rd",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 315,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU11j3kdul67ymh_3cswb",
+    "review_count": 0,
+    "display_name": "Naomi Laughlin",
+    "profile_url": "https://www.zillow.com/profile/zuser20170327065545834/",
+    "business_name": "RE/MAX Real Estate Services",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "754",
+      "areacode": "956",
+      "number": "9786"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 1983,
+  "brokerageName": "RE/MAX Real Estate Services",
+  "description": "Perfect investment property outside of Laredo.  Make your appointment today.",
+  "climate": null,
+  "latitude": 28.027538,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "856 Martinena Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/856-Martinena-Rd-Encinal-TX-78019/454388105_zpid/",
+      "lotAreaValue": 32.71,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "856 Martinena Rd",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "20252850",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.024818,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 409000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 1424847,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ddb75816c9274fe21c11f036a0ef76bd-p_c.jpg"
+        }
+      ],
+      "zpid": 454388105,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": null,
+      "longitude": -99.35164,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "100 Pearsall St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/100-Pearsall-St-Encinal-TX-78019/243666092_zpid/",
+      "lotAreaValue": 1,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "100 Pearsall St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.03358,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 12000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 43560,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=100+Pearsall+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=dSQwsSvYMWWKyZmSyKkDahrmH-I="
+        }
+      ],
+      "zpid": 243666092,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.35889,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "0 Encinal Blvd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/0-Encinal-Blvd-Encinal-TX-78019/2070896149_zpid/",
+      "lotAreaValue": 0.30998622589532,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "0 Encinal Blvd",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.034327,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13503,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=28.034326553344727,-99.35531616210938&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=HIVPvljH4K-03Ryj1_98xVcim_0="
+        }
+      ],
+      "zpid": 2070896149,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.355316,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "105 Pearsall St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/105-Pearsall-St-Encinal-TX-78019/118587343_zpid/",
+      "lotAreaValue": 2,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "105 Pearsall St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.033743,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 248800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 87120,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=105+Pearsall+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=v8toZP1-AgzvyDJx4mvfNWCd4FY="
+        }
+      ],
+      "zpid": 118587343,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3068,
+      "longitude": -99.359535,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3068
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "101 Pearsall St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/101-Pearsall-St-Encinal-TX-78019/120437551_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "101 Pearsall St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.034056,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 32350,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=101+Pearsall+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ULXx646kj_tExXWLKq22IkMrqI4="
+        }
+      ],
+      "zpid": 120437551,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2128,
+      "longitude": -99.358665,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2128
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "508 S Main St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/508-S-Main-St-Encinal-TX-78019/122738329_zpid/",
+      "lotAreaValue": 0.33367768595041,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "508 S Main St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.034601,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 19640,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 14535,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=508+S+Main+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=t1knx0kN6TslYuDCqkDDMAKh2qc="
+        }
+      ],
+      "zpid": 122738329,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 374,
+      "longitude": -99.356514,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 374
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "N Main St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/N-Main-St-Encinal-TX-78019/194056600_zpid/",
+      "lotAreaValue": 0.27219926538108,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "N Main St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.03487,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 14230,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11857,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=28.034870147705078,-99.35643005371094&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=HJ0_17wtqxbCBcUaa4fzF_DMkw4="
+        }
+      ],
+      "zpid": 194056600,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.35643,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "101 Uvalde St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/101-Uvalde-St-Encinal-TX-78019/194056744_zpid/",
+      "lotAreaValue": 8651,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "101 Uvalde St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.03464,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 10810,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8651,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=101+Uvalde+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=p4kfsIxGF0EdWId6Vt_wqW5DoNU="
+        }
+      ],
+      "zpid": 194056744,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.358635,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "101 Uvalde St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/101-Uvalde-St-Encinal-TX-78019/251212372_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Encinal",
+        "state": "TX",
+        "streetAddress": "101 Uvalde St",
+        "zipcode": "78019"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 28.03464,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1340,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=101+Uvalde+St%2C+Encinal%2C+TX+78019&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=p4kfsIxGF0EdWId6Vt_wqW5DoNU="
+        }
+      ],
+      "zpid": 251212372,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 672,
+      "longitude": -99.358635,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 672
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.15730337078652,
+      "date": "2025-08-22",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1755820800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253650"
+      },
+      "pricePerSquareFoot": 40,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 75000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-04",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1754265600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250560"
+      },
+      "pricePerSquareFoot": 48,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 89000
+    },
+    {
+      "priceChangeRate": -0.1010101010101,
+      "date": "2025-05-01",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1746057600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250560"
+      },
+      "pricePerSquareFoot": 48,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 89000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-02-05",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1738713600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250560"
+      },
+      "pricePerSquareFoot": 53,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 99000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/3405c9fe77babdb588e24f73578fca25-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/25720-SAN-ISIDRO-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 28.9,
+      "assigned": null,
+      "name": "San Isidro Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/25762-ELIAS-HERRERA-MIDDLE/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 31,
+      "assigned": null,
+      "name": "Elias Herrera Middle",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6749-United-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 29.9,
+      "assigned": null,
+      "name": "United High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Las Lomas II",
+    "streetAddress": "134 Martinez Rd",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "20 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 446925954,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 272,
+  "homeInsights": {},
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/134-Martinez-Rd-Laredo-TX-78041/446925954_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "RE/MAX Real Estate Services"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "RE/MAX Real Estate Services",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-22 07:52:31",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Naomi Laughlin",
+    "attributionTitle": null,
+    "mlsId": "20253650",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-754-9786",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Naomi Laughlin",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-754-9786",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-568-4257",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 12,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1983",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Window Unit",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Wall Unit(s)",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.25 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "20 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$40",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Second",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "None"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Private Well"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.25 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "1,860 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": "Composition Shingle,15 or More Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 20,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Wood"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Refrigerator",
+      "Range",
+      "Electric Water Heater"
+    ],
+    "sewer": [
+      "Septic Tank"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Partial,Wood",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "None",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1983,
+    "utilities": [
+      "Underground Utilities"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 1230,
+    "subdivisionName": "Las Lomas II",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1755879780000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "No Garage",
+      "Dirt",
+      "Attached Carport"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Wall Unit(s)"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,860",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Front"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer and Dryer Hookups"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Window Unit"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 40,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-22",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691766219
+    },
+    "fifteenYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691766219
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691766219
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 5,
+  "livingArea": 1860,
+  "zestimateHighPercent": null,
+  "mlsid": "20253650",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 75000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:46.705988+00:00",
+    "zpid": "446925954",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

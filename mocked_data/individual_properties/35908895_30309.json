@@ -1,0 +1,2024 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.3987,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f9a94304ebc006e483a9424e42b6071f-p_d.jpg",
+  "livingAreaValue": 815,
+  "streetAddress": "130 26th St NW APT 404",
+  "county": "Fulton County",
+  "monthlyHoaFee": 788,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155892264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.28338614,
+      "taxPaid": 3335.79,
+      "value": 81480
+    },
+    {
+      "time": 1694533492264,
+      "valueIncreaseRate": 0.080636606,
+      "taxIncreaseRate": -0.14820215,
+      "taxPaid": 2599.21,
+      "value": 81480
+    },
+    {
+      "time": 1662997492264,
+      "valueIncreaseRate": 0.178125,
+      "taxIncreaseRate": 0.17696251,
+      "taxPaid": 3051.44,
+      "value": 75400
+    },
+    {
+      "time": 1631461492264,
+      "valueIncreaseRate": 0.02960103,
+      "taxIncreaseRate": 0.007468649,
+      "taxPaid": 2592.64,
+      "value": 64000
+    },
+    {
+      "time": 1599925492264,
+      "valueIncreaseRate": 0.072463766,
+      "taxIncreaseRate": 0.29460052,
+      "taxPaid": 2573.42,
+      "value": 62160
+    },
+    {
+      "time": 1568303092264,
+      "valueIncreaseRate": 0.23529412,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1987.81,
+      "value": 57960
+    },
+    {
+      "time": 1536767092264,
+      "valueIncreaseRate": 0.30333334,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1987.81,
+      "value": 46920
+    },
+    {
+      "time": 1505231092264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.24224927,
+      "taxPaid": 1987.81,
+      "value": 36000
+    },
+    {
+      "time": 1473695092264,
+      "valueIncreaseRate": -0.05362776,
+      "taxIncreaseRate": -0.052391257,
+      "taxPaid": 1600.17,
+      "value": 36000
+    },
+    {
+      "time": 1442072692264,
+      "valueIncreaseRate": 0.42792794,
+      "taxIncreaseRate": 0.39801967,
+      "taxPaid": 1688.64,
+      "value": 38040
+    },
+    {
+      "time": 1410536692264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.027650632,
+      "taxPaid": 1207.88,
+      "value": 26640
+    },
+    {
+      "time": 1379000692264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.0069784815,
+      "taxPaid": 1175.38,
+      "value": 26640
+    },
+    {
+      "time": 1347464692264,
+      "valueIncreaseRate": -0.31971398,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1183.64,
+      "value": 26640
+    },
+    {
+      "time": 1315842292264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 39160
+    },
+    {
+      "time": 1284306292264,
+      "valueIncreaseRate": -0.25889477,
+      "taxIncreaseRate": 2.1080222,
+      "taxPaid": 1729.49,
+      "value": 39160
+    },
+    {
+      "time": 1252770292264,
+      "valueIncreaseRate": -0.002265861,
+      "taxIncreaseRate": 0,
+      "taxPaid": 556.46,
+      "value": 52840
+    },
+    {
+      "time": 1221234292264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 52960
+    },
+    {
+      "time": 1189611892264,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 557.72,
+      "value": 52960
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 836,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 3,
+    "zuid": "X1-ZUz8bl6xz847wp_agge9",
+    "review_count": 5623,
+    "display_name": "Mark Spain Real Estate",
+    "profile_url": "https://www.zillow.com/profile/Mark-Spain/",
+    "business_name": "Mark Spain Real Estate",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "299",
+      "areacode": "855",
+      "number": "7653"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/3b1f3b8236ef06230ac2c22b4e85a428-h_n.jpg"
+  },
+  "yearBuilt": 1962,
+  "brokerageName": "Mark Spain Real Estate",
+  "description": "Perfectly situated between Buckhead and Midtown, this spacious 1-bedroom, 1-bath Mid-Century Condo features a large, open living area filled with natural light from floor-to-ceiling windows. A bright sunroom offers the perfect spot for a home office or workout space. Secured gated parking, and ample visitor spaces, pool, and tennis courts\u2014all in a serene, tranquil setting. Offering the perfect blend of city living with a peaceful setting, within walking distance of Beltline, shops & restaurants.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/130-26th-st-nw-apt-404-atlanta-ga-30309/132178077_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/130-26th-st-nw-apt-404-atlanta-ga-30309/132178077_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/130-26th-st-nw-apt-404-atlanta-ga-30309/132178077_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/130-26th-st-nw-apt-404-atlanta-ga-30309/132178077_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/130-26th-st-nw-apt-404-atlanta-ga-30309/132178077_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.80186,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 105"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-105-Atlanta-GA-30309/35908852_zpid/",
+      "lotAreaValue": 1132.56,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 105",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 259600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1132,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/588b78fec1d2ac323e933a56ef357d58-p_c.jpg"
+        }
+      ],
+      "zpid": 35908852,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 106"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-106-Atlanta-GA-30309/35908853_zpid/",
+      "lotAreaValue": 1149,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 106",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 231700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1149,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908853,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St #107"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-107-Atlanta-GA-30309/35908854_zpid/",
+      "lotAreaValue": 814,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St #107",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 171700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 814,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908854,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 815,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 815
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 108"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-108-Atlanta-GA-30309/35908855_zpid/",
+      "lotAreaValue": 814,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 108",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 174200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 814,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908855,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 815,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 815
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St #109"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-109-Atlanta-GA-30309/35908856_zpid/",
+      "lotAreaValue": 814,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St #109",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 178200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 814,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908856,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 815,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 815
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 111"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-111-Atlanta-GA-30309/35908857_zpid/",
+      "lotAreaValue": 1149,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 111",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 239100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1149,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f9cb610f25969214e43d0ebf8b09e186-p_c.jpg"
+        }
+      ],
+      "zpid": 35908857,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 112"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-112-Atlanta-GA-30309/35908858_zpid/",
+      "lotAreaValue": 814,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 112",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 195500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 814,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908858,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 815,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 815
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St #113"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-113-Atlanta-GA-30309/35908859_zpid/",
+      "lotAreaValue": 814,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St #113",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 171700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 814,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.80186080932617,-84.39869689941406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2fQhFgawJ8wf3r4BbjfkAI9MCYk="
+        }
+      ],
+      "zpid": 35908859,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 815,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 815
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "130 26th St NW APT 114"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/130-26th-St-NW-APT-114-Atlanta-GA-30309/35908860_zpid/",
+      "lotAreaValue": 5,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "130 26th St NW APT 114",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80186,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 222600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 217800,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1bd998d6b8754fc080237ac18082dedf-p_c.jpg"
+        }
+      ],
+      "zpid": 35908860,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -84.3987,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.055702917771883,
+      "date": "2025-09-10",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7646728"
+      },
+      "pricePerSquareFoot": 244,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 199000
+    },
+    {
+      "priceChangeRate": 1,
+      "date": "2025-08-05",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1754352000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-07-29",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1722211200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6920425"
+      },
+      "pricePerSquareFoot": 231,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 188500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-07-29",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1690588800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6920425"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-07-28",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1627430400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "9021461"
+      },
+      "pricePerSquareFoot": 231,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 188500
+    },
+    {
+      "priceChangeRate": 1.0944444444444,
+      "date": "2021-07-26",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1627257600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6920425"
+      },
+      "pricePerSquareFoot": 231,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 188500
+    },
+    {
+      "priceChangeRate": -0.099099099099099,
+      "date": "2015-08-05",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1438732800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 110,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 90000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2015-07-15",
+      "source": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+      "postingIsRental": false,
+      "time": 1436918400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+        "infoString3": null,
+        "infoString1": "5514847"
+      },
+      "pricePerSquareFoot": 123,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 99900
+    },
+    {
+      "priceChangeRate": -0.047664442326025,
+      "date": "2015-04-21",
+      "source": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+      "postingIsRental": false,
+      "time": 1429574400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+        "infoString3": null,
+        "infoString1": "5514847"
+      },
+      "pricePerSquareFoot": 123,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 99900
+    },
+    {
+      "priceChangeRate": 0.32784810126582,
+      "date": "2015-04-06",
+      "source": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+      "postingIsRental": false,
+      "time": 1428278400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ATLANTA FINE HOMES SOTHEBYS INTERNATIONAL",
+        "infoString3": null,
+        "infoString1": "5514847"
+      },
+      "pricePerSquareFoot": 129,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 104900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2012-11-21",
+      "source": "Muffley & Associates",
+      "postingIsRental": true,
+      "time": 1353456000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "5059211"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1000
+    },
+    {
+      "priceChangeRate": 0.11111111111111,
+      "date": "2012-08-31",
+      "source": "Muffley & Associates",
+      "postingIsRental": true,
+      "time": 1346371200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "5059211"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 1000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-07-20",
+      "source": "Muffley & Associates",
+      "postingIsRental": true,
+      "time": 1311120000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "4217430"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-07-06",
+      "source": "Muffley & Associates",
+      "postingIsRental": true,
+      "time": 1309910400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "4217430"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-07-06",
+      "source": "Muffley & Associates",
+      "postingIsRental": false,
+      "time": 1309910400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "4170761"
+      },
+      "pricePerSquareFoot": 97,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 79000
+    },
+    {
+      "priceChangeRate": -0.43571428571429,
+      "date": "2011-05-19",
+      "source": "Muffley & Associates",
+      "postingIsRental": false,
+      "time": 1305763200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Muffley & Associates",
+        "infoString3": null,
+        "infoString1": "4170761"
+      },
+      "pricePerSquareFoot": 97,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 79000
+    },
+    {
+      "priceChangeRate": 0.65289256198347,
+      "date": "1999-09-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 938649600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 172,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 140000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1998-05-06",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 894412800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 104,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 84700
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f9a94304ebc006e483a9424e42b6071f-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 5.2,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 1812,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Brookwood Park",
+    "streetAddress": "130 26th St NW APT 404",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "2 days",
+  "priceChange": null,
+  "zestimate": 197900,
+  "zpid": 35908895,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 104,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Bright sunroom",
+            "Tennis courts"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Bright sunroom",
+            "Tennis courts"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Brookwood"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/130-26th-St-NW-APT-404-Atlanta-GA-30309/35908895_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Mark Spain Real Estate"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Mark Spain Real Estate"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Mark Spain Real Estate",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 06:21:16",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "MARK SPAIN",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7646728",
+    "coAgentName": "Brooke Eiseman",
+    "coAgentNumber": "404-947-1910",
+    "infoString5": "770-886-9000",
+    "listingAgents": [
+      {
+        "memberStateLicense": "178501",
+        "memberFullName": "MARK SPAIN",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "359739",
+        "memberFullName": "Brooke Eiseman",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "770-886-9000",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 27,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 203700,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1962",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s)",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Parking space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$788 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "2 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$244",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Neighborhood",
+      "Park/Greenbelt"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Other",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Cabinets Stain",
+          " Pantry",
+          " Solid Surface Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "404-575-4470",
+        "name": null,
+        "fee": "$788 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Courtyard",
+      "Gas Grill",
+      "Lighting",
+      "Tennis Court(s)"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "814.57 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/130-26th-Street-NW-Unit-404-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "815 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$788 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "404-575-4470",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "High Rise (6 or More Stories)",
+    "interiorFeatures": [
+      "Entrance Foyer",
+      "High Ceilings 9 ft Main",
+      "High Speed Internet"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Level",
+      "Private"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 2,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "River Eves",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$788 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Electric Cooktop",
+      "Electric Oven",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "2 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Gated",
+      "Homeowners Assoc",
+      "Near Beltline",
+      "Near Public Transport",
+      "Near Schools",
+      "Near Shopping",
+      "Park",
+      "Pool",
+      "Sidewalks",
+      "Street Lights",
+      "Tennis Court(s)"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": "439x476x371x246x494",
+    "virtualTour": "https://www.propertypanorama.com/130-26th-Street-NW-Unit-404-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 1962,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Phone Available",
+      "Sewer Available",
+      "Underground Utilities",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 014700060481",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 3336,
+    "subdivisionName": "Brookwood Park",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "None"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757462400000,
+    "roomTypes": [
+      "Sun Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$788 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Carbon Monoxide Detector(s)",
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Key Card Entry",
+      "Secured Garage/Parking",
+      "Security Gate",
+      "Security Lights",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 119,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "815",
+    "associations": [
+      {
+        "feeFrequency": "$788 monthly",
+        "name": null,
+        "phone": "404-575-4470"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "110 Volts"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "815",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "None"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Pest Control",
+      "Security",
+      "Sewer",
+      "Swim",
+      "Termite",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 244,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.188,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682723879
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.188,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682723879
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682723879
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 2,
+  "livingArea": 815,
+  "zestimateHighPercent": "5",
+  "mlsid": "7646728",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001706073",
+  "country": "USA",
+  "price": 199000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:52.858355+00:00",
+    "zpid": "35908895",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

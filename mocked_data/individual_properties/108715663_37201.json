@@ -1,0 +1,1654 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.78328,
+  "countyFIPS": "47037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2e36cb92161651d8da3f176ce2aa9471-p_d.jpg",
+  "livingAreaValue": 1000,
+  "streetAddress": "817 3rd Ave N #411",
+  "county": "Davidson County",
+  "monthlyHoaFee": 239,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533736080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2952.19,
+      "value": 90725
+    },
+    {
+      "time": 1662997736080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.0103418315,
+      "taxPaid": 2952.19,
+      "value": 90725
+    },
+    {
+      "time": 1631461736080,
+      "valueIncreaseRate": 0.117302954,
+      "taxIncreaseRate": -0.12966196,
+      "taxPaid": 2983.04,
+      "value": 90725
+    },
+    {
+      "time": 1599925736080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.33787555,
+      "taxPaid": 3427.45,
+      "value": 81200
+    },
+    {
+      "time": 1568303336080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2561.86,
+      "value": 81200
+    },
+    {
+      "time": 1536767336080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2561.86,
+      "value": 81200
+    },
+    {
+      "time": 1505231336080,
+      "valueIncreaseRate": 0.6554536,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2561.86,
+      "value": 81200
+    },
+    {
+      "time": 1473695336080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.15654372,
+      "taxPaid": 2561.86,
+      "value": 49050
+    },
+    {
+      "time": 1442072936080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2215.1,
+      "value": 49050
+    },
+    {
+      "time": 1410536936080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2215.1,
+      "value": 49050
+    },
+    {
+      "time": 1379000936080,
+      "valueIncreaseRate": 0.019220779,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 49050
+    },
+    {
+      "time": 1347464936080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 48125
+    },
+    {
+      "time": 1315842536080,
+      "valueIncreaseRate": -0.375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 48125
+    },
+    {
+      "time": 1284306536080,
+      "valueIncreaseRate": 0.6,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 77000
+    },
+    {
+      "time": 1252770536080,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 48125
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2058,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUwvb94y16zsi1_8s1xy",
+    "review_count": 3,
+    "display_name": "Laura Mangiofico",
+    "profile_url": "https://www.zillow.com/profile/LauraMangiofico/",
+    "business_name": "Prosper Realty Group",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "605",
+      "areacode": "615",
+      "number": "6235"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/9312c2c17d12e392def519b84a46793a-h_n.jpg"
+  },
+  "yearBuilt": 2008,
+  "brokerageName": "Prosper Realty Group",
+  "description": "Welcome to District Lofts! This beautifully appointed 2-bedroom, 2-bathroom condo is located in the heart of Germantown, one of Nashville\u2019s most vibrant and desirable neighborhoods! This 4th floor condo offers 1000sf of thoughtfully designed living space, filled with natural light! It features hardwood floors, stainless steel appliances, granite countertops, and a convenient in-unit washer & dryer. There is also additional storage on the same floor, and a covered & gated assigned parking space.  The location is truly unbeatable \u2014 you\u2019ll be within easy walking distance of First Tennessee Park, Nissan Stadium, the Bicentennial Mall, the Farmers Market, and Brooklyn Bowl, as well as some of the city\u2019s most celebrated restaurants and nightlife. With Broadway and all things downtown Nashville just minutes away, this condo places you right in the middle of everything Music City has to offer.  As an added bonus, the building allows for short-term rentals (with certain restrictions \u2014 buyers are encouraged to check with the HOA for details), making this property not only a fantastic primary residence or second home, but also a unique investment opportunity in one of Nashville\u2019s hottest neighborhoods. Don\u2019t miss your chance to own a piece of prime real estate in the heart of it all!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.029999999329448
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.079999998211861
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.090000003576279
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/817-3rd-ave-n-nashville-tn-37201-1081/472488470_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 42
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_SHADED",
+        "source": {
+          "url": "https://firststreet.org/property/817-3rd-ave-n-nashville-tn-37201-1081/472488470_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.28999999165535
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.34000000357628
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.38999998569489
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/817-3rd-ave-n-nashville-tn-37201-1081/472488470_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 105,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 20
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/817-3rd-ave-n-nashville-tn-37201-1081/472488470_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/817-3rd-ave-n-nashville-tn-37201-1081/472488470_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 36.171616,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -86.78338,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #210",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1129,
+      "lotSize": null,
+      "zpid": 108734221,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #210"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-210-Nashville-TN-37201/108734221_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.171574,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1129,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c77baebcea53c6f91cae5868f8eb0b63-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 497000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78318,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #303",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 850,
+      "lotSize": 871,
+      "zpid": 108718220,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #303"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-303-Nashville-TN-37201/108718220_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.171566,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 850,
+      "providerListingID": "4w88v11p24wes",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d5f93d07e63ca4176980f5c8ff711429-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 413300,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N UNIT 317"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-UNIT-317-Nashville-TN-37201/108732958_zpid/",
+      "lotAreaValue": 1306.8,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N UNIT 317",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.171566,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 496600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1306,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f0ba389de35cfb3d80ca359c0b4ef129-p_c.jpg"
+        }
+      ],
+      "zpid": 108732958,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1165,
+      "longitude": -86.78318,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "58jze0dvnup59",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1165
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78318,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #402",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 850,
+      "lotSize": 871,
+      "zpid": 108733441,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #402"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-402-Nashville-TN-37201/108733441_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.171566,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 850,
+      "providerListingID": "3r9e2d62uwk5x",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/172c0ccdb17dbe8bd69c3ad470258101-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 376500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -86.78318,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #204",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 910,
+      "lotSize": null,
+      "zpid": 108740573,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #204"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-204-Nashville-TN-37201/108740573_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.171566,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 910,
+      "providerListingID": "3ja46qahvh9j2",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d7cbd999920112931d0366f7eaac1d75-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 408800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N UNIT 207"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-UNIT-207-Nashville-TN-37201/108746240_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N UNIT 207",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.171566,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 331000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/27fb0bf03551eef78f5bba89917cd930-p_c.jpg"
+        }
+      ],
+      "zpid": 108746240,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 710,
+      "longitude": -86.78318,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "2r44cw4k8skz8",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 710
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #201"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-201-Nashville-TN-37201/108780667_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #201",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.171566,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 375900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/86125670ae442cfdf2e7785027109e89-p_c.jpg"
+        }
+      ],
+      "zpid": 108780667,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 890,
+      "longitude": -86.78318,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 890
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -86.78318,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "817 3rd Ave N #217",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1165,
+      "lotSize": null,
+      "zpid": 108784571,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "817 3rd Ave N #217"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/817-3rd-Ave-N-217-Nashville-TN-37201/108784571_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.171566,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1165,
+      "providerListingID": "2wbycfnsq62kh",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0d9858ca6ae925adc0fe7e92db14f87e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 499500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.02000400080016,
+      "date": "2025-07-18",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1752796800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2905665"
+      },
+      "pricePerSquareFoot": 490,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 489900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-08",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1749340800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2905665"
+      },
+      "pricePerSquareFoot": 500,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 499900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-05-22",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1747872000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2802553"
+      },
+      "pricePerSquareFoot": 500,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 499900
+    },
+    {
+      "priceChangeRate": -0.091089256525921,
+      "date": "2025-03-11",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1741651200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2802553"
+      },
+      "pricePerSquareFoot": 500,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 499900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-23",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1692748800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2545026"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.57142571428571,
+      "date": "2023-07-06",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1688601600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2545026"
+      },
+      "pricePerSquareFoot": 550,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 549999
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2018-12-12",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1544572800000,
+      "sellerAgent": {
+        "name": "Gabriela Lira",
+        "photo": null,
+        "profileUrl": "/profile/Gabriela-Lira/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 350,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2018-11-03",
+      "source": "RE/MAX MASTERS",
+      "postingIsRental": false,
+      "time": 1541203200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX MASTERS",
+        "infoString3": null,
+        "infoString1": "1981049"
+      },
+      "pricePerSquareFoot": 350,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": -0.027507641011392,
+      "date": "2018-11-01",
+      "source": "RE/MAX MASTERS",
+      "postingIsRental": false,
+      "time": 1541030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX MASTERS",
+        "infoString3": null,
+        "infoString1": "1981049"
+      },
+      "pricePerSquareFoot": 350,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 350000
+    },
+    {
+      "priceChangeRate": 0.56546324488908,
+      "date": "2018-10-18",
+      "source": "RE/MAX MASTERS",
+      "postingIsRental": false,
+      "time": 1539820800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX MASTERS",
+        "infoString3": null,
+        "infoString1": "1981049"
+      },
+      "pricePerSquareFoot": 360,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 359900
+    },
+    {
+      "priceChangeRate": 0.31371428571429,
+      "date": "2014-07-25",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1406246400000,
+      "sellerAgent": {
+        "name": "Brianna Morant",
+        "photo": null,
+        "profileUrl": "/profile/Brianna-Morant/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1549621"
+      },
+      "pricePerSquareFoot": 230,
+      "buyerAgent": {
+        "name": "Aaron Joyce",
+        "photo": null,
+        "profileUrl": "/profile/aaronjoyce/"
+      },
+      "event": "Sold",
+      "price": 229900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2010-06-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1276732800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 175,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 175000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2e36cb92161651d8da3f176ce2aa9471-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2202-Jones-Paideia-Magnet/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Jones Elementary",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2201-John-Early-Paideia-Middle-Magnet/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "John Early Paideia Middle Magnet",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1158-Pearl-Cohn-Magnet-High-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "Pearl Cohn Magnet High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "District Lofts",
+    "streetAddress": "817 3rd Ave N #411",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "97 days",
+  "priceChange": -10000,
+  "zestimate": null,
+  "zpid": 108715663,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 528,
+  "homeInsights": {},
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/817-3rd-Ave-N-411-Nashville-TN-37201/108715663_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Prosper Realty Group"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Prosper Realty Group",
+    "listingAttributionContact": "6156056235",
+    "lastUpdated": "2025-07-22 11:02:08",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Laura Jean Mangiofico",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2905665",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "615-605-6235",
+    "listingAgents": [
+      {
+        "memberStateLicense": "337769",
+        "memberFullName": "Laura Jean Mangiofico",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-605-6235",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "731-256-9652",
+    "lastChecked": "2025-09-12 08:43:20"
+  },
+  "priceChangeDateString": "2025-07-18",
+  "photoCount": 30,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Wood",
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 362900,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Apartment, Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2008",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central, Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$239 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "97 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$490",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$239 monthly",
+        "type": "HOA"
+      },
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$835 one time",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,000 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$239 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": [
+      "Ceiling Fan(s)",
+      "Elevator",
+      "Pantry",
+      "Storage",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 97,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jones Paideia Magnet",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$239 monthly",
+    "appliances": [
+      "Electric Range",
+      "Range",
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Freezer",
+      "Ice Maker",
+      "Microwave",
+      "Refrigerator",
+      "Stainless Steel Appliance(s)",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "John Early Paideia Magnet",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2008,
+    "utilities": [
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "082130E41100CO",
+    "incomeIncludes": null,
+    "highSchool": "Pearl Cohn Magnet High School",
+    "taxAnnualAmount": 2952,
+    "subdivisionName": "District Lofts",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1749254400000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Apartment",
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$239 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage Door Opener",
+      "Assigned"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Carbon Monoxide Detector(s)",
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Security Gate",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": true,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,000",
+    "associations": [
+      {
+        "feeFrequency": "$239 monthly",
+        "name": null,
+        "phone": null
+      },
+      {
+        "feeFrequency": "$835 one time",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "Other",
+    "associationFee2": "$835 one time",
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Air Purifier"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "1,000",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central",
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Structure",
+      "Maintenance Grounds"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 490,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-06-07",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.247,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692136102
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692136102
+    },
+    "arm5Bucket": {
+      "rate": 6.776,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692136102
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 19,
+  "livingArea": 1000,
+  "zestimateHighPercent": null,
+  "mlsid": "2905665",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1002158143",
+  "country": "USA",
+  "price": 489900,
+  "priceChangeDate": 1752796800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:56.650962+00:00",
+    "zpid": "108715663",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

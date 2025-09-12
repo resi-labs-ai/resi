@@ -1,0 +1,1532 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 26,
+      "display_name": "Fernando Branco",
+      "badge_type": "Premier Agent",
+      "business_name": "Fernando Branco Realty, LLC",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "321",
+        "areacode": "212",
+        "number": "0115"
+      },
+      "zuid": "X1-ZUz592cenx7y15_1sm5f",
+      "image_url": "https://photos.zillowstatic.com/fp/a4531eda13457caac00b44e024200b0a-h_g.jpg"
+    }
+  ],
+  "longitude": -74.00283,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/03964bc1d789ff8250e9a332b33a2f75-p_d.jpg",
+  "livingAreaValue": 3520,
+  "streetAddress": "456 W 25th St",
+  "county": "New York County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155881096,
+      "valueIncreaseRate": -0.16415663,
+      "taxIncreaseRate": 0.036837067,
+      "taxPaid": 38983,
+      "value": 299700
+    },
+    {
+      "time": 1694533481096,
+      "valueIncreaseRate": -0.057115808,
+      "taxIncreaseRate": 0,
+      "taxPaid": 37598,
+      "value": 358560
+    },
+    {
+      "time": 1662997481096,
+      "valueIncreaseRate": -0.06944648,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 380280
+    },
+    {
+      "time": 1631461481096,
+      "valueIncreaseRate": -0.12195437,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 408660
+    },
+    {
+      "time": 1599925481096,
+      "valueIncreaseRate": 0.17405781,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 465420
+    },
+    {
+      "time": 1568303081096,
+      "valueIncreaseRate": 1.5695673,
+      "taxIncreaseRate": 0.060816884,
+      "taxPaid": 34235.52,
+      "value": 396420
+    },
+    {
+      "time": 1536767081096,
+      "valueIncreaseRate": 0.018101787,
+      "taxIncreaseRate": 0.044772077,
+      "taxPaid": 32272.79,
+      "value": 154275
+    },
+    {
+      "time": 1505231081096,
+      "valueIncreaseRate": 0.059990488,
+      "taxIncreaseRate": 0.08088264,
+      "taxPaid": 30889.79,
+      "value": 151532
+    },
+    {
+      "time": 1473695081096,
+      "valueIncreaseRate": 0.059993327,
+      "taxIncreaseRate": 0,
+      "taxPaid": 28578.3,
+      "value": 142956
+    },
+    {
+      "time": 1442072681096,
+      "valueIncreaseRate": 0.00060096156,
+      "taxIncreaseRate": 0.6575261,
+      "taxPaid": 28578.3,
+      "value": 134865
+    },
+    {
+      "time": 1410536681096,
+      "valueIncreaseRate": 0.048388727,
+      "taxIncreaseRate": 0,
+      "taxPaid": 17241.54,
+      "value": 134784
+    },
+    {
+      "time": 1379000681096,
+      "valueIncreaseRate": 0.01810306,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 128563
+    },
+    {
+      "time": 1347464681096,
+      "valueIncreaseRate": 0.059984386,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 126277
+    },
+    {
+      "time": 1315842281096,
+      "valueIncreaseRate": 0.05999751,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 119131
+    },
+    {
+      "time": 1284306281096,
+      "valueIncreaseRate": 0.0006054131,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 112388
+    },
+    {
+      "time": 1252770281096,
+      "valueIncreaseRate": 0.048387095,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 112320
+    },
+    {
+      "time": 1221234281096,
+      "valueIncreaseRate": 0.01810303,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 107136
+    },
+    {
+      "time": 1189611881096,
+      "valueIncreaseRate": 0.059984285,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 105231
+    },
+    {
+      "time": 1158075881096,
+      "valueIncreaseRate": 0.059995517,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 99276
+    },
+    {
+      "time": 1126539881096,
+      "valueIncreaseRate": 0.00060897437,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 93657
+    },
+    {
+      "time": 1095003881096,
+      "valueIncreaseRate": 0.048387095,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 93600
+    },
+    {
+      "time": 1063381481096,
+      "valueIncreaseRate": 0.018097226,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 89280
+    },
+    {
+      "time": 1031845481096,
+      "valueIncreaseRate": 0.05999033,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 87693
+    },
+    {
+      "time": 1000309481096,
+      "valueIncreaseRate": 0.059988726,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 82730
+    },
+    {
+      "time": 968773481096,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 78048
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 22676,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUudkjb7eheadl_5nog6",
+    "review_count": 0,
+    "display_name": "zuser20190819094808330",
+    "profile_url": "https://www.zillow.com/profile/zuser20190819094808330/",
+    "business_name": "Compass",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 1910,
+  "brokerageName": "Compass",
+  "description": "Nestled in the heart of West Chelsea, 456 West 25th Street is a townhouse that harmoniously blends historical charm with contemporary design. Originally constructed in 1910, this 20-foot-wide, three-story , Two-family,brick residence has a spectacular private garden.\n\nSpanning approximately 3,520 square feet, the home is currently configured with an owners duplex that has been thoughtfully transformed by Workshop for Architecture, focusing on creating open living spaces and connecting the interiors with the outdoor garden. The home showcases a dramatic curved architectural staircase, a minimalist palette of gray oil-stained European white oak floors, pristine white walls, and striking Calacatta marble accents. Subtle, recessed lighting enhances the ambiance, highlighting the home's architectural details.\n\nThe parlor and garden levels have been thoughtfully reimagined to elevate the indoor-outdoor living experience, featuring expansive glass doors that open onto a lush, landscaped garden. This tranquil urban oasis offers the ideal setting for both relaxed everyday living and effortless entertaining.\n\nThe top two floors retain their original charm, featuring generous proportions, high ceilings, and classic architectural details. These expansive levels offer remarkable versatility, easily accommodating additional bedrooms, a home office, a media room, or a separate guest suite\u2014allowing for a variety of lifestyle needs and creative configurations.\n\nSituated on a 1,975-square-foot lot, the property offers potential for further expansion, subject to zoning regulations. Its prime location places it within close proximity to the High Line, Chelsea Market, and an array of art galleries and dining establishments, epitomizing the vibrant lifestyle of the Chelsea neighborhood.\n\n456 West 25th Street is a rare offering that embodies refined urban living\u2014a distinguished piece of New York City\u2019s architectural heritage, thoughtfully transformed for contemporary comfort and style.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/456-w-25th-st-new-york-ny-10001/362478829_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/456-w-25th-st-new-york-ny-10001/362478829_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.11999999731779
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23000000417233
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/456-w-25th-st-new-york-ny-10001/362478829_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "source": {
+          "url": "https://firststreet.org/property/456-w-25th-st-new-york-ny-10001/362478829_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/456-w-25th-st-new-york-ny-10001/362478829_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.748554,
+  "nearbyHomes": [
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "458 W 25th St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/458-W-25th-St-New-York-NY-10001/143095086_zpid/",
+      "lotAreaValue": 1775,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "458 W 25th St",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748577,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1382000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1775,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=40.74857711791992,-74.00288391113281&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=Wln1Kr4TRWyHX-YsWm8Wx-JMrM0="
+        }
+      ],
+      "zpid": 143095086,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2310,
+      "longitude": -74.002884,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2310
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "458 W 25th St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/458-W-25th-St-New-York-NY-10001/143095087_zpid/",
+      "lotAreaValue": 1775,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "458 W 25th St",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748577,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1382000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1775,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=40.74857711791992,-74.00288391113281&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=Wln1Kr4TRWyHX-YsWm8Wx-JMrM0="
+        }
+      ],
+      "zpid": 143095087,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2310,
+      "longitude": -74.002884,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2310
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "458 W 25th St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/458-W-25th-St-New-York-NY-10001/321903016_zpid/",
+      "lotAreaValue": 1777,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "458 W 25th St",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748577,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3802300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1777,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=40.74857711791992,-74.00288391113281&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=Wln1Kr4TRWyHX-YsWm8Wx-JMrM0="
+        }
+      ],
+      "zpid": 321903016,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2310,
+      "longitude": -74.002884,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2310
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -74.00276,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "454 W 25th St",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 3432,
+      "lotSize": null,
+      "zpid": 31502271,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 5,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "454 W 25th St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/454-W-25th-St-New-York-NY-10001/31502271_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1736604",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 40.748528,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Townhouse",
+      "newConstructionType": null,
+      "yearBuilt": 1900,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 3432,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c64f74898297ebe4f19cab92ca2951b2-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 4995000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "454 W 25th St #1G"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/454-W-25th-St-1G-New-York-NY-10001/2059281148_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "454 W 25th St #1G",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748528,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/43ad4e43b2e1cfcb6a54974b64af3829-p_c.jpg"
+        }
+      ],
+      "zpid": 2059281148,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 800,
+      "longitude": -74.00276,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 800
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "454 W 25th St #2B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/454-W-25th-St-2B-New-York-NY-10001/2080197174_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "454 W 25th St #2B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748528,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 556000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8bf7a5d9f361aa5c236c16eb14f49425-p_c.jpg"
+        }
+      ],
+      "zpid": 2080197174,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 450,
+      "longitude": -74.00276,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 450
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "454 W 25th St APT 1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/454-W-25th-St-APT-1-New-York-NY-10001/2084740122_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "454 W 25th St APT 1",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748528,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c3900c394f9fce32263883ab63d67f9f-p_c.jpg"
+        }
+      ],
+      "zpid": 2084740122,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 2400,
+      "longitude": -74.00276,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "1t2fdya1cgwza",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2400
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "454 W 25th St APT 3B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/454-W-25th-St-APT-3B-New-York-NY-10001/2092232691_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "454 W 25th St APT 3B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748528,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 812600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f9cd6363844df31014e13dde8740db2e-p_c.jpg"
+        }
+      ],
+      "zpid": 2092232691,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -74.00276,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.06104347826087,
+      "date": "2025-07-01",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1751328000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1778312"
+      },
+      "pricePerSquareFoot": 1534,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5399000
+    },
+    {
+      "priceChangeRate": -0.11538461538462,
+      "date": "2024-10-24",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1729728000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "1727149"
+      },
+      "pricePerSquareFoot": 1634,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5750000
+    },
+    {
+      "priceChangeRate": 0.88405797101449,
+      "date": "2024-07-25",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1721865600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "1727149"
+      },
+      "pricePerSquareFoot": 1847,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6500000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2007-02-16",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1171584000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 980,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 3450000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/03964bc1d789ff8250e9a332b33a2f75-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2129-Ps-33-Chelsea-Prep/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.1,
+      "assigned": null,
+      "name": "Ps 33 Chelsea Prep",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/18349-Middle-297/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Middle 297",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/8185-James-Baldwin-School-A-School-For-Expeditionary-Lr/",
+      "rating": null,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "James Baldwin School A School For Expeditionary Lr",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 18836,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 13:30:00",
+      "endTime": "2025-09-14 15:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "West Chelsea",
+    "streetAddress": "456 W 25th St",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "73 days",
+  "priceChange": -351000,
+  "zestimate": 5248400,
+  "zpid": 31502272,
+  "countyId": 2452,
+  "homeType": "MULTI_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1005,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive glass doors",
+            "Private garden",
+            "Pristine white walls",
+            "Open living spaces",
+            "High ceilings",
+            "Classic architectural details",
+            "Striking calacatta marble accents"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive glass doors",
+            "Private garden",
+            "Pristine white walls",
+            "Open living spaces",
+            "High ceilings",
+            "Classic architectural details",
+            "Striking calacatta marble accents"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 5,
+  "neighborhoodRegion": {
+    "name": "Chelsea"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/456-W-25th-St-New-York-NY-10001/31502272_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 09:40:02",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Samantha Shuman",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1778312",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "518-588-2671",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10401327477",
+        "memberFullName": "Samantha Shuman",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "518-588-2671",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "518-588-2671",
+    "lastChecked": "2025-09-12 08:36:02"
+  },
+  "priceChangeDateString": "2025-07-01",
+  "photoCount": 22,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 4995000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Multi Family",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1910",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "73 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,534",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": [
+      "Garden"
+    ],
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "3,520 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 4,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 73,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Washer/Dryer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1910,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "007220070",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 39012,
+    "subdivisionName": "West Chelsea",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1751328000000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Multi Family"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 2,
+    "homeType": "MultiFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 5,
+    "buildingArea": "3,520",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Other"
+    ],
+    "bathroomsFloat": 5,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1534,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-01",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Multi Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682493202
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682493202
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757682493202
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 45,
+  "livingArea": 3520,
+  "zestimateHighPercent": "5",
+  "mlsid": "S1778312",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 5399000,
+  "priceChangeDate": 1751328000000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:41.587576+00:00",
+    "zpid": "31502272",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1779 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.38292,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/1c3090f0b3ec87a2c00aa7a05882f8da-p_d.jpg",
+  "livingAreaValue": 7803,
+  "streetAddress": "81 Peachtree Cir NE",
+  "county": "Fulton County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155883292,
+      "valueIncreaseRate": 0.07903903,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1325880
+    },
+    {
+      "time": 1694533483292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.14564292,
+      "taxPaid": 33245.34,
+      "value": 1228760
+    },
+    {
+      "time": 1662997483292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.0069440333,
+      "taxPaid": 38912.7,
+      "value": 1228760
+    },
+    {
+      "time": 1631461483292,
+      "valueIncreaseRate": 0.011991435,
+      "taxIncreaseRate": -0.2312317,
+      "taxPaid": 38644.35,
+      "value": 1228760
+    },
+    {
+      "time": 1599925483292,
+      "valueIncreaseRate": 0.41054833,
+      "taxIncreaseRate": 0.79555845,
+      "taxPaid": 50267.88,
+      "value": 1214200
+    },
+    {
+      "time": 1568303083292,
+      "valueIncreaseRate": 0.19808485,
+      "taxIncreaseRate": 0,
+      "taxPaid": 27995.68,
+      "value": 860800
+    },
+    {
+      "time": 1536767083292,
+      "valueIncreaseRate": 0.039949052,
+      "taxIncreaseRate": 0,
+      "taxPaid": 27995.68,
+      "value": 718480
+    },
+    {
+      "time": 1505231083292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.0058807456,
+      "taxPaid": 27995.68,
+      "value": 690880
+    },
+    {
+      "time": 1473695083292,
+      "valueIncreaseRate": 0.19529411,
+      "taxIncreaseRate": 0.32059357,
+      "taxPaid": 28161.29,
+      "value": 690880
+    },
+    {
+      "time": 1442072683292,
+      "valueIncreaseRate": 0.13887137,
+      "taxIncreaseRate": 0.08572426,
+      "taxPaid": 21324.72,
+      "value": 578000
+    },
+    {
+      "time": 1410536683292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 19641.01,
+      "value": 507520
+    },
+    {
+      "time": 1379000683292,
+      "valueIncreaseRate": 0.35353103,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 507520
+    },
+    {
+      "time": 1347464683292,
+      "valueIncreaseRate": 0.66382676,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 374960
+    },
+    {
+      "time": 1315842283292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 225360
+    },
+    {
+      "time": 1284306283292,
+      "valueIncreaseRate": -0.39897588,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8886,
+      "value": 225360
+    },
+    {
+      "time": 1252770283292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 374960
+    },
+    {
+      "time": 1221234283292,
+      "valueIncreaseRate": -0.00031993174,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 374960
+    },
+    {
+      "time": 1189611883292,
+      "valueIncreaseRate": 0.104996465,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 375080
+    },
+    {
+      "time": 1126539883292,
+      "valueIncreaseRate": 0.03198346,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 339440
+    },
+    {
+      "time": 1095003883292,
+      "valueIncreaseRate": 0.19973738,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 328920
+    },
+    {
+      "time": 1063381483292,
+      "valueIncreaseRate": 0.06577515,
+      "taxIncreaseRate": 2.668779,
+      "taxPaid": 11256.4,
+      "value": 274160
+    },
+    {
+      "time": 1031845483292,
+      "valueIncreaseRate": 0.061221123,
+      "taxIncreaseRate": -0.6801348,
+      "taxPaid": 3068.16,
+      "value": 257240
+    },
+    {
+      "time": 1000309483292,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9592.04,
+      "value": 242400
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 16796,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyvdtkvedcjyh_22g4q",
+    "review_count": 17,
+    "display_name": "Jason Cook",
+    "profile_url": "https://www.zillow.com/profile/jasonATL240/",
+    "business_name": "Ansley Real Estate| Christie's International Real Estate",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "431",
+      "areacode": "404",
+      "number": "1384"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/aa240c44109fbb3998a6be3d4f868e4a-h_n.jpg"
+  },
+  "yearBuilt": 2011,
+  "brokerageName": "Ansley Real Estate| Christie's International Real Estate",
+  "description": "This exceptional Ansley Park residence was designed for both grand entertaining and effortless everyday living!\u00a0 In 2011, the current owners commissioned RLS Construction for a complete and meticulous rebuild, extending even to the foundation. Ross Design Architects reimagined the fa\u00e7ade with refined sophistication, enhancing its presence and curb appeal while honoring the home\u2019s timeless historic character.\u00a0 A dramatic foyer introduces the soaring 23-foot hall, flanked by an elegant formal living room and a large formal dining room, each graced with quarter-sawn oak floors and intricate mahogany inlay. The gourmet Siematic/Miele kitchen is a culinary masterpiece, featuring dual dishwashers, a wine refrigerator, warming drawer, induction cooktop, and more\u2014flowing seamlessly into the inviting family room and onto an expansive covered porch, ideal for year-round gatherings. Upstairs, four luxurious ensuite bedrooms include a private primary suite with sweeping skyline views, a boutique-style walk-in closet with center island, spa-inspired bath, and a serene private terrace. Preserved 1912 heart pine floors add warmth and character to the upper level, complemented by a spacious laundry suite. The versatile lower level offers every modern amenity: a state-of-the-art media room, fitness studio, guest suite with full bath, wet bar, climate-controlled wine cellar for 1,100+ bottles, and a secure safe room. Whole-home automation by Control4 ensures effortless control of lighting, audio-visual, security, and sound. Additional highlights include an elevator servicing all three levels, a rare three-car\u00a0garage, smart irrigation fed by a private well, and extensive storage. Located on a premier street, the home is within walking distance to Colony Square, High Museum, ASO, Atlanta Botanical Garden, Piedmont Park, Beltline and numerous restaurants!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/81-peachtree-cir-ne-atlanta-ga-30309/132200817_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/81-peachtree-cir-ne-atlanta-ga-30309/132200817_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/81-peachtree-cir-ne-atlanta-ga-30309/132200817_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/81-peachtree-cir-ne-atlanta-ga-30309/132200817_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/81-peachtree-cir-ne-atlanta-ga-30309/132200817_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.791267,
+  "nearbyHomes": [
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "85 Peachtree Cir NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/85-Peachtree-Cir-NE-Atlanta-GA-30309/35897858_zpid/",
+      "lotAreaValue": 0.491,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "85 Peachtree Cir NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.791546,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2955000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 21387,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bcaa1d60c20feefbb5fc9994bd258b1e-p_c.jpg"
+        }
+      ],
+      "zpid": 35897858,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5516,
+      "longitude": -84.38279,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5516
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "63 Peachtree Cir NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/63-Peachtree-Cir-NE-Atlanta-GA-30309/35897856_zpid/",
+      "lotAreaValue": 0.87,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "63 Peachtree Cir NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7401291",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.791,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 5100000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 37897,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/25d9a234797d0c31e1120be6e2c91a7b-p_c.jpg"
+        }
+      ],
+      "zpid": 35897856,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 9360,
+      "longitude": -84.382645,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 9360
+    },
+    {
+      "bathrooms": 6.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "15 Inman Cir NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/15-Inman-Cir-NE-Atlanta-GA-30309/35897859_zpid/",
+      "lotAreaValue": 0.36698806244261,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "15 Inman Cir NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.791653,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3361300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15986,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/902ed4fd69acbf792f7283a8ebc1283a-p_c.jpg"
+        }
+      ],
+      "zpid": 35897859,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5464,
+      "longitude": -84.382515,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5464
+    },
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -84.38364,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "88 Peachtree Cir NE #ID1049129P",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 775,
+      "lotSize": null,
+      "zpid": 450852639,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "88 Peachtree Cir NE #ID1049129P"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/88-Peachtree-Cir-NE-ID1049129P-Atlanta-GA-30309/450852639_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 33.79118,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 775,
+      "providerListingID": "3658dyb9xv230",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e8dcc04827acfa8c0d825a13eee8627c-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 0,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -84.38364,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "88 Peachtree Cir NE #CH",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 780,
+      "lotSize": null,
+      "zpid": 451027434,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "88 Peachtree Cir NE #CH"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/88-Peachtree-Cir-NE-CH-Atlanta-GA-30309/451027434_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 33.79118,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 780,
+      "providerListingID": "30sj14522ntsx",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d6943e11b1190a8432693e4a79e86aaf-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 0,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -84.38364,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "88 Peachtree Cir NE",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 0,
+      "lotSize": 14766,
+      "zpid": 35897900,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 6,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "88 Peachtree Cir NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/88-Peachtree-Cir-NE-Atlanta-GA-30309/35897900_zpid/",
+      "lotAreaValue": 0.339,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10121895",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 33.79117,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 0,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/698abec931bb6a02df6c93e6ebef0f6d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2295000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "20 Westminster Dr NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/20-Westminster-Dr-NE-Atlanta-GA-30309/35897855_zpid/",
+      "lotAreaValue": 0.30948117539027,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "20 Westminster Dr NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.79107,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2030700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13481,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=20+Westminster+Dr+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=0NYl0a4e05lUU2yixaaSWJfvHTE="
+        }
+      ],
+      "zpid": 35897855,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1378,
+      "longitude": -84.382225,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1378
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "78 Peachtree Cir NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/78-Peachtree-Cir-NE-Atlanta-GA-30309/35897899_zpid/",
+      "lotAreaValue": 0.35468319559229,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "78 Peachtree Cir NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.790928,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2281500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15450,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a8b8f9e2a7fa9cf59bfd1caa2e7498ec-p_c.jpg"
+        }
+      ],
+      "zpid": 35897899,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4752,
+      "longitude": -84.38359,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4752
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.19212121212121,
+      "date": "2025-09-12",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10598673"
+      },
+      "pricePerSquareFoot": 512,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3999000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-05-02",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1746144000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7529508"
+      },
+      "pricePerSquareFoot": 634,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 4950000
+    },
+    {
+      "priceChangeRate": -0.029411764705882,
+      "date": "2025-02-26",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1740528000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7529508"
+      },
+      "pricePerSquareFoot": 634,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 4950000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-12-16",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1734307200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10420232"
+      },
+      "pricePerSquareFoot": 654,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5100000
+    },
+    {
+      "priceChangeRate": 9.2409638554217,
+      "date": "2024-12-02",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1733097600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10420232"
+      },
+      "pricePerSquareFoot": 654,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5100000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1993-12-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 757209600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 64,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 498000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/1c3090f0b3ec87a2c00aa7a05882f8da-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.4,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 7789,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Ansley Park",
+    "streetAddress": "81 Peachtree Cir NE",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "11 hours",
+  "priceChange": null,
+  "zestimate": 3564800,
+  "zpid": 35897857,
+  "countyId": 1020,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 109,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sweeping skyline views",
+            "Fitness studio",
+            "Serene private terrace",
+            "Quarter-sawn oak floors",
+            "Large formal dining room",
+            "Dramatic foyer",
+            "Intricate mahogany inlay"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sweeping skyline views",
+            "Fitness studio",
+            "Serene private terrace",
+            "Quarter-sawn oak floors",
+            "Large formal dining room",
+            "Dramatic foyer",
+            "Intricate mahogany inlay"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Ansley Park"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "15",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/81-Peachtree-Cir-NE-Atlanta-GA-30309/35897857_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Ansley Real Estate| Christie's International Real Estate"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Ansley Real Estate| Christie's International Real Estate"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Ansley Real Estate| Christie's International Real Estate",
+    "listingAttributionContact": "404-431-1384",
+    "lastUpdated": "2025-09-12 08:37:07",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Jason Cook",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7644660",
+    "coAgentName": "Bill Gilmore",
+    "coAgentNumber": "404-455-5712",
+    "infoString5": "404-431-1384",
+    "listingAgents": [
+      {
+        "memberStateLicense": "325021",
+        "memberFullName": "Jason Cook",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "359350",
+        "memberFullName": "Bill Gilmore",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-431-1384",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:37:07"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 57,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "Block"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 3314700,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2011",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.34 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$512",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Roommate Floor Plan",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Roommate Floor Plan"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Roommate Floor Plan"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Double Vanity",
+          " Separate Tub/Shower",
+          " Soaking Tub"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Seats 12+",
+          " Separate Dining Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Breakfast Room",
+          " Cabinets Stain",
+          " Eat-in Kitchen",
+          " Keeping Room",
+          " Kitchen Island",
+          " Pantry",
+          " Stone Counters",
+          " Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "2,905",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 0,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Courtyard",
+      "Garden"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.34 Acres",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://listings.bartolottimedia.com/sites/qalxgpe/unbranded"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/81-Peachtree-Circle-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "7,803 sqft",
+    "commonWalls": "No Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 5,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Crown Molding",
+      "Double Vanity",
+      "Elevator",
+      "Entrance Foyer",
+      "High Ceilings 9 ft Upper",
+      "High Ceilings 10 ft Main",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Landscaped",
+      "Private",
+      "Other"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Virginia-Highland",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": [
+      "Living Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Double Oven",
+      "Dryer",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Golf",
+      "Homeowners Assoc",
+      "Near Beltline",
+      "Near Schools",
+      "Near Shopping",
+      "Park",
+      "Playground",
+      "Sidewalks",
+      "Tennis Court(s)"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://listings.bartolottimedia.com/sites/qalxgpe/unbranded",
+    "contingency": null,
+    "yearBuilt": 2011,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "17 010500080265",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 38931,
+    "subdivisionName": "Ansley Park",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757635200000,
+    "roomTypes": [
+      "Attic",
+      "Dining Room",
+      "Exercise Room",
+      "Family Room",
+      "Living Room",
+      "Media Room",
+      "Wine Cellar",
+      "Workshop"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "Three Or More",
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Secured Garage/Parking",
+      "Security System Owned",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 0,
+    "hasHomeWarranty": false,
+    "basementYN": true,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "4,898",
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "220 Volts in Garage"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "Finished,Finished Bath,Full",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Irrigation Equipment"
+    ],
+    "bathrooms": 6,
+    "buildingArea": "7,803",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Side Porch"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "Laundry Room"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 512,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.333,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686422415
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.396,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686422415
+    },
+    "arm5Bucket": {
+      "rate": 6.015,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686422415
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 7803,
+  "zestimateHighPercent": "18",
+  "mlsid": "7644660",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 3999000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:43.808441+00:00",
+    "zpid": "35897857",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

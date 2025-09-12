@@ -1,0 +1,1838 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.38214,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/377bd5f7fe3c3d3da8008b4c37943ec8-p_d.jpg",
+  "livingAreaValue": 1510,
+  "streetAddress": "145 15th St NE APT 204",
+  "county": "Fulton County",
+  "monthlyHoaFee": 807,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155917647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.28338557,
+      "taxPaid": 7123.56,
+      "value": 174000
+    },
+    {
+      "time": 1694533517647,
+      "valueIncreaseRate": -0.0874764,
+      "taxIncreaseRate": -0.28071404,
+      "taxPaid": 5550.6,
+      "value": 174000
+    },
+    {
+      "time": 1662997517647,
+      "valueIncreaseRate": 0.23019356,
+      "taxIncreaseRate": 0.22897892,
+      "taxPaid": 7716.82,
+      "value": 190680
+    },
+    {
+      "time": 1631461517647,
+      "valueIncreaseRate": 0.012013581,
+      "taxIncreaseRate": -0.009741645,
+      "taxPaid": 6279.05,
+      "value": 155000
+    },
+    {
+      "time": 1599925517647,
+      "valueIncreaseRate": 0.115026206,
+      "taxIncreaseRate": 0.07539331,
+      "taxPaid": 6340.82,
+      "value": 153160
+    },
+    {
+      "time": 1568303117647,
+      "valueIncreaseRate": -0.029120725,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5896.28,
+      "value": 137360
+    },
+    {
+      "time": 1536767117647,
+      "valueIncreaseRate": 0.1692562,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5896.28,
+      "value": 141480
+    },
+    {
+      "time": 1505231117647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.119903274,
+      "taxPaid": 5896.28,
+      "value": 121000
+    },
+    {
+      "time": 1473695117647,
+      "valueIncreaseRate": 0.3927256,
+      "taxIncreaseRate": 1.0594928,
+      "taxPaid": 5264.99,
+      "value": 121000
+    },
+    {
+      "time": 1442072717647,
+      "valueIncreaseRate": 0.33826247,
+      "taxIncreaseRate": 0.56530124,
+      "taxPaid": 2556.45,
+      "value": 86880
+    },
+    {
+      "time": 1410536717647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 3.2582257,
+      "taxPaid": 1633.2,
+      "value": 64920
+    },
+    {
+      "time": 1379000717647,
+      "valueIncreaseRate": -0.24016854,
+      "taxIncreaseRate": -0.8475572,
+      "taxPaid": 383.54,
+      "value": 64920
+    },
+    {
+      "time": 1347464717647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2515.96,
+      "value": 85440
+    },
+    {
+      "time": 1315842317647,
+      "valueIncreaseRate": -0.25,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 85440
+    },
+    {
+      "time": 1284306317647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 3.8724804,
+      "taxPaid": 3964.25,
+      "value": 113920
+    },
+    {
+      "time": 1252770317647,
+      "valueIncreaseRate": -0.0695851,
+      "taxIncreaseRate": 0,
+      "taxPaid": 813.6,
+      "value": 113920
+    },
+    {
+      "time": 1221234317647,
+      "valueIncreaseRate": -0.08544966,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 122440
+    },
+    {
+      "time": 1189611917647,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 4730.46,
+      "value": 133880
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1785,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUz8yqx4ag4aa1_23up7",
+    "review_count": 30,
+    "display_name": "Diana Sauvigne'",
+    "profile_url": "https://www.zillow.com/profile/Intown-Specialist/",
+    "business_name": "Berkshire Hathaway HomeServices Georgia Properties",
+    "rating_average": 4.9,
+    "phone": {
+      "prefix": "374",
+      "areacode": "770",
+      "number": "7274"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/06143aa5572ef4a0d6453187a7d891c9-h_n.jpg"
+  },
+  "yearBuilt": 1972,
+  "brokerageName": "Berkshire Hathaway HomeServices Georgia Properties",
+  "description": "Dramatic 2-Story Condo in Colony Square, the Heart of Midtown!  Discover the epitome of urban living in this stunning 1,500 Sq Ft condo located in vibrant Colony House. This residence boasts 2-story windows that offer a breathtaking view of the beautiful garden patio of Saints + Council and the exciting city-scape of Midtown.  The open floor plan downstairs features hardwood floors and offers ample space for entertaining. The living room seamlessly flows into the dining area, which then opens up to great kitchen for all your culinary needs. A convenient powder room for guests is also available downstairs, along with extra storage space under the stairwell. The washer and dryer are placed in a closet next to the kitchen for easy access.  Upstairs, you will find two large, carpeted bedrooms and two bathrooms. The master bathroom has been updated with tiles, a new walk-in shower, and a spacious walk-in closet. Additionally, the loft on the second floor presents a versatile space that can serve as an office or accommodate a Murphy bed.  This home can be sold fully furnished.  The Colony House Condo is pet-friendly and is surrounded by numerous parks, making it an ideal choice for pet owners.  Living in Colony Square means enjoying the best of the urban \"live-work-play\" lifestyle. With a fantastic selection of restaurants and a food court right at your doorstep, you'll find little need to cook. MARTA is just one block away, providing quick access to the airport. Additionally, you are within walking distance of Piedmont Park, the Beltline, Botanical Gardens, Alliance Theater, Museum, Symphony, Whole Foods, and yoga classes.  Embrace the luxurious urban living experience that Colony Square has to offer. This condo is not just a home, but a gateway to a vibrant, dynamic lifestyle.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/145-15th-st-ne-apt-204-atlanta-ga-30309/134169232_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/145-15th-st-ne-apt-204-atlanta-ga-30309/134169232_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/145-15th-st-ne-apt-204-atlanta-ga-30309/134169232_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 16
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/145-15th-st-ne-apt-204-atlanta-ga-30309/134169232_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/145-15th-st-ne-apt-204-atlanta-ga-30309/134169232_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.788013,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 206",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1724,
+      "lotSize": 1724,
+      "zpid": 35898833,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 206"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-206-Atlanta-GA-30309/35898833_zpid/",
+      "lotAreaValue": 1724.976,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7647323",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1972,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1724,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bf7cdba117ff6cae8ca43bfc08515bb4-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 550000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 211",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 862,
+      "lotSize": 862,
+      "zpid": 35898838,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 211"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-211-Atlanta-GA-30309/35898838_zpid/",
+      "lotAreaValue": 862.488,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7647280",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1972,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 862,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f50aeb7f89afa675ddb524cf62d49cf0-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 320000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 413",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1641,
+      "lotSize": 1642,
+      "zpid": 35898849,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 413"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-413-Atlanta-GA-30309/35898849_zpid/",
+      "lotAreaValue": 1642.212,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7626237",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1972,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1641,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d28a5162139b35367b45176d74695aff-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 475000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 1209",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 862,
+      "lotSize": null,
+      "zpid": 439768398,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 1209"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-1209-Atlanta-GA-30309/439768398_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7602052",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1975,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 862,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b9659082b8cefac49efd98b31c846892-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 315000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 1225",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 862,
+      "lotSize": 862,
+      "zpid": 451966431,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 1225"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-1225-Atlanta-GA-30309/451966431_zpid/",
+      "lotAreaValue": 862.488,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7580314",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1974,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 862,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8d1427135da5fbf608836a7bb0440a1d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 320000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 826",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1460,
+      "lotSize": 1724,
+      "zpid": 2069615386,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 826"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-826-Atlanta-GA-30309/2069615386_zpid/",
+      "lotAreaValue": 1724.976,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7606915",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1974,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1460,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d111643668104ab80c1e76c26810a7b2-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 625000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.38214,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE APT 602",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1724,
+      "lotSize": 1568,
+      "zpid": 2069625844,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE APT 602"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-APT-602-Atlanta-GA-30309/2069625844_zpid/",
+      "lotAreaValue": 1568.16,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7613277",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.788013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1974,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1724,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/017f66fd51956b17708511a4f23f935a-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 499900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "145 15th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/145-15th-St-NE-Atlanta-GA-30309/35898669_zpid/",
+      "lotAreaValue": 1463,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "145 15th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.788,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 482200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1463,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/98ba4f22ac87ee26024d19673796086c-p_c.jpg"
+        }
+      ],
+      "zpid": 35898669,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1512,
+      "longitude": -84.382126,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1512
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.011904761904762,
+      "date": "2025-09-02",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10596151"
+      },
+      "pricePerSquareFoot": 281,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 425000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-05-29",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1748476800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7546656"
+      },
+      "pricePerSquareFoot": 278,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 420000
+    },
+    {
+      "priceChangeRate": -0.011764705882353,
+      "date": "2025-04-09",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1744156800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7546656"
+      },
+      "pricePerSquareFoot": 278,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 420000
+    },
+    {
+      "priceChangeRate": -0.055555555555556,
+      "date": "2025-04-01",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1743465600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7546656"
+      },
+      "pricePerSquareFoot": 281,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 425000
+    },
+    {
+      "priceChangeRate": 0.48760330578512,
+      "date": "2025-03-24",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1742774400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7546656"
+      },
+      "pricePerSquareFoot": 298,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 450000
+    },
+    {
+      "priceChangeRate": -0.032,
+      "date": "2015-08-27",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1440633600000,
+      "sellerAgent": {
+        "name": "Alan Hanratty",
+        "photo": null,
+        "profileUrl": "/profile/Alan-Hanratty/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 200,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 302500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2015-08-15",
+      "source": "RE/MAX METRO ATLANTA CITYSIDE",
+      "postingIsRental": false,
+      "time": 1439596800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX METRO ATLANTA CITYSIDE",
+        "infoString3": null,
+        "infoString1": "5544185"
+      },
+      "pricePerSquareFoot": 207,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 312500
+    },
+    {
+      "priceChangeRate": -0.038461538461538,
+      "date": "2015-07-01",
+      "source": "RE/MAX Metro Atlanta Cityside",
+      "postingIsRental": false,
+      "time": 1435708800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Metro Atlanta Cityside",
+        "infoString3": null,
+        "infoString1": "7460622"
+      },
+      "pricePerSquareFoot": 207,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 312500
+    },
+    {
+      "priceChangeRate": -0.1875,
+      "date": "2015-05-26",
+      "source": "RE/MAX METRO ATLANTA CITYSIDE",
+      "postingIsRental": false,
+      "time": 1432598400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX METRO ATLANTA CITYSIDE",
+        "infoString3": null,
+        "infoString1": "5544185"
+      },
+      "pricePerSquareFoot": 215,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 325000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-10-04",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1380844800000,
+      "sellerAgent": {
+        "name": "Jeff McCrary",
+        "photo": null,
+        "profileUrl": "/profile/realtorjeffcb/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5163206"
+      },
+      "pricePerSquareFoot": 265,
+      "buyerAgent": {
+        "name": "Tom Ellicott",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISr551hj9bxpv81000000000.jpg"
+        },
+        "profileUrl": "/profile/Tom-Ellicott/"
+      },
+      "event": "Sold",
+      "price": 400000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/377bd5f7fe3c3d3da8008b4c37943ec8-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.1,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.8,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4508,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Colony House",
+    "streetAddress": "145 15th St NE APT 204",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "10 days",
+  "priceChange": null,
+  "zestimate": 423600,
+  "zpid": 35898831,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 701,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Hardwood floors",
+            "Open floor plan",
+            "Dining area",
+            "Spacious walk-in closet",
+            "Walk-in shower",
+            "Powder room",
+            "Great kitchen"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Hardwood floors",
+            "Open floor plan",
+            "Spacious walk-in closet"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Ansley Park"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/145-15th-St-NE-APT-204-Atlanta-GA-30309/35898831_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Berkshire Hathaway HomeServices Georgia Properties"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Berkshire Hathaway HomeServices Georgia Properties",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 15:01:02",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Diana Sauvigne",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7642479",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-266-8100",
+    "listingAgents": [
+      {
+        "memberStateLicense": "258837",
+        "memberFullName": "Diana Sauvigne",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-266-8100",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 45,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Carpet",
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "Pillar/Post/Pier"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 435000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1972",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central, Electric, Forced Air, Hot Water",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$807 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$281",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Oversized Master",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Oversized Master"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Oversized Master"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Shower Only"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Dining L"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Cabinets White",
+          " Solid Surface Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$807 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 0,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Updated/Remodeled",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "1,568 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/145-15th-Street-NE-Unit-204-Atlanta-GA-30309/unbranded"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.zillow.com/view-imx/01f0bbd9-8d42-42ea-9ee4-b26f241699a1"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "1,510 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": "1031 Exchange,Cash,Conventional,FHA",
+    "otherParking": null,
+    "associationFee": "$807 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 2,
+    "architecturalStyle": "Contemporary,Modern",
+    "listingId": null,
+    "structureType": "High Rise (6 or More Stories)",
+    "interiorFeatures": [
+      "High Ceilings 9 ft Main",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Zero Lot Line"
+    ],
+    "roofType": "Composition,Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 10,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Morningside-",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Thermostat"
+    ],
+    "constructionMaterials": [
+      "Concrete"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$807 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Double Oven",
+      "Dryer",
+      "Electric Range",
+      "Microwave",
+      "Refrigerator",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "10 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Concierge",
+      "Fitness Center",
+      "Homeowners Assoc",
+      "Meeting Room",
+      "Near Beltline",
+      "Near Public Transport",
+      "Near Shopping",
+      "Park",
+      "Restaurant",
+      "Sidewalks",
+      "Street Lights"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.zillow.com/view-imx/01f0bbd9-8d42-42ea-9ee4-b26f241699a1",
+    "contingency": null,
+    "yearBuilt": 1972,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Sewer Available",
+      "Underground Utilities",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 010600150042",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 7124,
+    "subdivisionName": "Colony House",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Window Treatments"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756771200000,
+    "roomTypes": [
+      "Loft"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$807 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Drive Under Main Level",
+      "Garage",
+      "Garage Door Opener",
+      "Electric Vehicle Charging Station(s)"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Closed Circuit Camera(s)",
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Key Card Entry",
+      "Secured Garage/Parking",
+      "Security Gate",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 192,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,510",
+    "associations": [
+      {
+        "feeFrequency": "$807 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "110 Volts",
+      "220 Volts",
+      "220 Volts in Laundry"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 3,
+    "buildingArea": "1,510",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Deck"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": "Cushman",
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall",
+      "Laundry Closet",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central",
+      "Electric",
+      "Forced Air",
+      "Hot Water"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Door Person",
+      "Electricity",
+      "Insurance",
+      "Internet",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Receptionist",
+      "Reserve Fund",
+      "Security",
+      "Termite",
+      "Trash",
+      "Utilities",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 281,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-02",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688664215
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688664215
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688664215
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 26,
+  "livingArea": 1510,
+  "zestimateHighPercent": "5",
+  "mlsid": "7642479",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2750806446",
+  "country": "USA",
+  "price": 425000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:18.260400+00:00",
+    "zpid": "35898831",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

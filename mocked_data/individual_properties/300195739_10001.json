@@ -1,0 +1,1519 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 26,
+      "display_name": "Fernando Branco",
+      "badge_type": "Premier Agent",
+      "business_name": "Fernando Branco Realty, LLC",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "321",
+        "areacode": "212",
+        "number": "0115"
+      },
+      "zuid": "X1-ZUz592cenx7y15_1sm5f",
+      "image_url": "https://photos.zillowstatic.com/fp/a4531eda13457caac00b44e024200b0a-h_g.jpg"
+    }
+  ],
+  "longitude": -74.003,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/5067bf8fa2106ef1df0476d47dbd5057-p_d.jpg",
+  "livingAreaValue": 1691,
+  "streetAddress": "520 W 28th St #18",
+  "county": "New York County",
+  "monthlyHoaFee": 4652,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155853042,
+      "valueIncreaseRate": -0.036906432,
+      "taxIncreaseRate": 0.013246628,
+      "taxPaid": 37863,
+      "value": 320636
+    },
+    {
+      "time": 1694533453042,
+      "valueIncreaseRate": -0.00053737295,
+      "taxIncreaseRate": 0,
+      "taxPaid": 37368,
+      "value": 332923
+    },
+    {
+      "time": 1662997453042,
+      "valueIncreaseRate": 0.17802125,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 333102
+    },
+    {
+      "time": 1631461453042,
+      "valueIncreaseRate": -0.09675936,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 282764
+    },
+    {
+      "time": 1599925453042,
+      "valueIncreaseRate": 0.023005407,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 313055
+    },
+    {
+      "time": 1568303053042,
+      "valueIncreaseRate": 0.01167669,
+      "taxIncreaseRate": 0.03556719,
+      "taxPaid": 37816.76,
+      "value": 306015
+    },
+    {
+      "time": 1536767053042,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 36517.92,
+      "value": 302483
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 15540,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU14a8we2grbguh_3z9zv",
+    "review_count": 0,
+    "display_name": "Michael Rubin",
+    "profile_url": "https://www.zillow.com/profile/zuser20200510190715628/",
+    "business_name": "Compass",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2016,
+  "brokerageName": "Compass",
+  "description": "Residence 18 at Zaha Hadid\u2019s 520 West 28th Street is a 2-bedroom, 2.5-bathroom home with nearly 50 feet of floor-to-ceiling motorized windows and the distinction of being the only apartment on its floor, ensuring extreme privacy and discretion.  \n\nUpon entering the apartment, a dramatic and sun-flooded 32 \u00d7 21\u2019 great room with seven sculptural windows facing north onto 28th Street sets the tone of this incredibly artful property. The open kitchen was designed in collaboration with Zaha Hadid and Boffi and is outfitted with a sleek eat-in island, white marble countertops and a suite of fully-integrated Gaggenau appliances.\n\nThe floor plan is thoughtfully laid out, with both bedrooms in the western wing of the home. The oversized master suite includes a massive walk-in closet and linen closet, as well as an en-suite five-fixture bathroom. The second bedroom is equally generous in size with ample closet space and its own en-suite bathroom as well. Additional features of this 1691 SF home include beautiful white oak flooring, custom-outfitted closets, ceiling heights up to 10\u20197\u201d, LG washer and vented dryer, a walk-in coat closet and a powder room for guests.\n\n520 West 28th Street is a stunning, 39-unit condominium with world-class amenities in the heart of West Chelsea. Residents enjoy full-time concierge and doorman service, a private IMAX theatre, parking portal, entertainment suite with a terrace on the High Line, a 75-foot sky lit swimming pool, world-renowned fitness center and a spa suite with a sauna, steam room, whirlpool, cold plunge, waterfall showers and massage beds.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/520-w-28th-st-18-new-york-ny-10001/362262643_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/520-w-28th-st-18-new-york-ny-10001/362262643_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.14000000059605
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18000000715256
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.21999999880791
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25999999046326
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/520-w-28th-st-18-new-york-ny-10001/362262643_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "source": {
+          "url": "https://firststreet.org/property/520-w-28th-st-18-new-york-ny-10001/362262643_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/520-w-28th-st-18-new-york-ny-10001/362262643_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 6
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.750988,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -74.003,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "514 W 28th St",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 150112,
+      "lotSize": 22219,
+      "zpid": 120288355,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": null,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "514 W 28th St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/514-W-28th-St-New-York-NY-10001/120288355_zpid/",
+      "lotAreaValue": 0.51007805325987,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 40.750988,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2014,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 150112,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=514+W+28th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=or5QRKKTQ6vOEakV_5Nq_BzBtz4="
+        }
+      ],
+      "currency": "USD",
+      "price": 42236000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St #35"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-35-New-York-NY-10001/300195005_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St #35",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 7633000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=520+W+28th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ePrEozhNGP-6EdVL0wQaAC69wsg="
+        }
+      ],
+      "zpid": 300195005,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3302,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3302
+    },
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St #26"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-26-New-York-NY-10001/300195569_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St #26",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3294000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b0cf39700cbc145e969a3f03c7a6b6e9-p_c.jpg"
+        }
+      ],
+      "zpid": 300195569,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1717,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1717
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St #24"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-24-New-York-NY-10001/300195662_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St #24",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 12000900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=520+W+28th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ePrEozhNGP-6EdVL0wQaAC69wsg="
+        }
+      ],
+      "zpid": 300195662,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4756,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4756
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St APT 1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-APT-1-New-York-NY-10001/300195759_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St APT 1",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 11715200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/51540e5bcc9110c9dc56d0d9cf25e6a1-p_c.jpg"
+        }
+      ],
+      "zpid": 300195759,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5329,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5329
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St FLOOR 5"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-FLOOR-5-New-York-NY-10001/300195798_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St FLOOR 5",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4139000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/61ea2c21e29b2b9952ea06d6af65c33e-p_c.jpg"
+        }
+      ],
+      "zpid": 300195798,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2065,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2065
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St #16"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-16-New-York-NY-10001/300195940_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St #16",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 6065600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/138a0b91f85541a1167a7e1777da72f2-p_c.jpg"
+        }
+      ],
+      "zpid": 300195940,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2924,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2924
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 W 28th St #11"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-W-28th-St-11-New-York-NY-10001/300196130_zpid/",
+      "lotAreaValue": 0.79343434343434,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "520 W 28th St #11",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.750988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 5990800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34562,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/13dade1f4c271413805034ecab66e2e6-p_c.jpg"
+        }
+      ],
+      "zpid": 300196130,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2924,
+      "longitude": -74.003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2924
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-03",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1787765"
+      },
+      "pricePerSquareFoot": 2188,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3700000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-03",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1761222"
+      },
+      "pricePerSquareFoot": 2188,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 3700000
+    },
+    {
+      "priceChangeRate": -0.097560975609756,
+      "date": "2025-03-24",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1742774400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1761222"
+      },
+      "pricePerSquareFoot": 2188,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3700000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-11-10",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1699574400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.088888888888889,
+      "date": "2023-06-28",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1687910400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 2425,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 4100000
+    },
+    {
+      "priceChangeRate": -0.13319582608749,
+      "date": "2023-04-20",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1681948800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 2661,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 4500000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-08-26",
+      "source": "Compass",
+      "postingIsRental": true,
+      "time": 1598400000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Compass",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 7,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 11000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-07-09",
+      "source": "Compass",
+      "postingIsRental": true,
+      "time": 1594252800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Compass",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 7,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 11000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-07-31",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1501459200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 3070,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 5191484
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/5067bf8fa2106ef1df0476d47dbd5057-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2129-Ps-33-Chelsea-Prep/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.2,
+      "assigned": null,
+      "name": "Ps 33 Chelsea Prep",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/18349-Middle-297/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Middle 297",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/1958-The-High-School-Of-Fashion-Industries/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "The High School of Fashion Industries",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 19326,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 12:00:00",
+      "endTime": "2025-09-14 13:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "West Chelsea",
+    "streetAddress": "520 W 28th St #18",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "9 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 300195739,
+  "countyId": 2452,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 279,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling motorized windows",
+            "Beautiful white oak flooring",
+            "Fully-integrated gaggenau appliances",
+            "Massive walk-in closet",
+            "En-suite five-fixture bathroom",
+            "Sleek eat-in island",
+            "Sculptural windows"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling motorized windows",
+            "Beautiful white oak flooring",
+            "Fully-integrated gaggenau appliances",
+            "Massive walk-in closet",
+            "En-suite five-fixture bathroom",
+            "Sleek eat-in island",
+            "Sculptural windows"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Chelsea"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/520-W-28th-St-18-New-York-NY-10001/300195739_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 08:29:30",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Michael Rubin",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1787765",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "347-880-0349",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10301208606",
+        "memberFullName": "Michael Rubin",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "347-880-0349",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "347-880-0349",
+    "lastChecked": "2025-09-12 08:41:11"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 21,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Swimming Pool"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 712525,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2016",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "Garage",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$4,652 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$2,188",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$4,652 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,691 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$4,652 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$4,652 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Washer/Dryer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": "520 West 28th By Zaha Hadid",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Doorman"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2016,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "006991320",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 37860,
+    "subdivisionName": "West Chelsea",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756857600000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Elevator(s)",
+      "Concierge"
+    ],
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$4,652 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage"
+    ],
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Doorman"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$4,652 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "1,691",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Maintenance"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 2188,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689552860
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689552860
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689552860
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 8,
+  "livingArea": 1691,
+  "zestimateHighPercent": null,
+  "mlsid": "S1787765",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1040686498",
+  "country": "USA",
+  "price": 3700000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:13.561551+00:00",
+    "zpid": "300195739",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

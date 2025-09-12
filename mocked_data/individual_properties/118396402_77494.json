@@ -1,0 +1,1718 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.84112,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/7fb4f5e38eb28a9c30c8b44531e9db55-p_d.jpg",
+  "livingAreaValue": 4551,
+  "streetAddress": "3311 Wimberly Place Ln",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 104,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155938239,
+      "valueIncreaseRate": 0.10000015,
+      "taxIncreaseRate": 0.100402795,
+      "taxPaid": 10147.32,
+      "value": 736757
+    },
+    {
+      "time": 1694533538239,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.08527427,
+      "taxPaid": 9221.46,
+      "value": 669779
+    },
+    {
+      "time": 1662997538239,
+      "valueIncreaseRate": 0.099992774,
+      "taxIncreaseRate": 0.050965115,
+      "taxPaid": 10081.12,
+      "value": 608890
+    },
+    {
+      "time": 1631461538239,
+      "valueIncreaseRate": 0.01864154,
+      "taxIncreaseRate": -0.0012889495,
+      "taxPaid": 9592.25,
+      "value": 553540
+    },
+    {
+      "time": 1599925538239,
+      "valueIncreaseRate": 0.061907645,
+      "taxIncreaseRate": 0.030921327,
+      "taxPaid": 9604.63,
+      "value": 543410
+    },
+    {
+      "time": 1568303138239,
+      "valueIncreaseRate": -0.017321171,
+      "taxIncreaseRate": -0.055897992,
+      "taxPaid": 9316.55,
+      "value": 511730
+    },
+    {
+      "time": 1536767138239,
+      "valueIncreaseRate": 0.005638916,
+      "taxIncreaseRate": -0.3955855,
+      "taxPaid": 9868.16,
+      "value": 520750
+    },
+    {
+      "time": 1505231138239,
+      "valueIncreaseRate": -0.05639783,
+      "taxIncreaseRate": 0,
+      "taxPaid": 16326.81,
+      "value": 517830
+    },
+    {
+      "time": 1473695138239,
+      "valueIncreaseRate": -0.026450709,
+      "taxIncreaseRate": 0.51127565,
+      "taxPaid": 16326.81,
+      "value": 548780
+    },
+    {
+      "time": 1442072738239,
+      "valueIncreaseRate": 0.030964226,
+      "taxIncreaseRate": -0.06769869,
+      "taxPaid": 10803.33,
+      "value": 563690
+    },
+    {
+      "time": 1410536738239,
+      "valueIncreaseRate": 0.23723751,
+      "taxIncreaseRate": 0,
+      "taxPaid": 11587.81,
+      "value": 546760
+    },
+    {
+      "time": 1379000738239,
+      "valueIncreaseRate": 13.371382,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 441920
+    },
+    {
+      "time": 1347464738239,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 30750
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 3318,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU12kalfgu3h349_xpn1",
+    "review_count": 31,
+    "display_name": "Amy Lookabaugh",
+    "profile_url": "https://www.zillow.com/profile/RealtorAmyCRRG/",
+    "business_name": "Compass RE Texas, LLC - West Houston",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "236",
+      "areacode": "832",
+      "number": "0699"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/dd1db33fda166a3e296d4768cfde2bf6-h_n.jpg"
+  },
+  "yearBuilt": 2012,
+  "brokerageName": "Compass RE Texas, LLC - West Houston",
+  "description": "Absolutely GORGEOUS Highland Home located in the highly sought-after Cinco Ranch Northwest community & only steps from the walking trails, parks, community pool, splash pad, tennis courts, and more.  Attractive brick and limestone elevation with large covered back patio, outdoor kitchen, and oversized yard ready for a pool! Two story entry with wrought iron stairs and Juliet balcony. Additional features include soaring wood beamed ceilings, breakfast room with desk, study/office with built-ins, hardwood floors, gameroom & media room. There is a SECOND DOWNSTAIRS bedroom with ensuite bathroom. Large primary suite with sitting area and oversized closet with access to the laundry room. Highland chef's kitchen w/ tons of cabinetry, GE Profile appliances, & large walk-in pantry. Upstairs HVAC unit replaced AUG 2025! Tandem garage w/ epoxy floor, full sprinkler, 8ft solid core doors down, Nest smoke detectors. Walking distance to Jenks Elementary and zoned to Jordan HS! Don't miss this one!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3311-wimberly-place-ln-katy-tx-77494/4800860734_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3311-wimberly-place-ln-katy-tx-77494/4800860734_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.86000001430511
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.93999999761581
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.98000001907349
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00030000001424924
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0017999999690801
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0032999999821186
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0048000002279878
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0063000000081956
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0077999997884035
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0093000000342727
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3311-wimberly-place-ln-katy-tx-77494/4800860734_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 5
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3311-wimberly-place-ln-katy-tx-77494/4800860734_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3311-wimberly-place-ln-katy-tx-77494/4800860734_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.735367,
+  "nearbyHomes": [
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3307 Wimberly Place Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3307-Wimberly-Place-Ln-Katy-TX-77494/117506460_zpid/",
+      "lotAreaValue": 9348,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3307 Wimberly Place Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73555,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 760300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9348,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3307+Wimberly+Place+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ywthv9T_TJwKZ8PDIZjINrsyaz0="
+        }
+      ],
+      "zpid": 117506460,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4067,
+      "longitude": -95.84114,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4067
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3315 Wimberly Place Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3315-Wimberly-Place-Ln-Katy-TX-77494/118402284_zpid/",
+      "lotAreaValue": 10792,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3315 Wimberly Place Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.735138,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 787500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10792,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3315+Wimberly+Place+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Ul5Cf3pgWxJNS7AZwvPy0i0mll0="
+        }
+      ],
+      "zpid": 118402284,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4399,
+      "longitude": -95.84104,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4399
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3303 Wimberly Place Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3303-Wimberly-Place-Ln-Katy-TX-77494/117506461_zpid/",
+      "lotAreaValue": 10634,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3303 Wimberly Place Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.735762,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 833200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10634,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3303+Wimberly+Place+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=f_ncrFc7g-73ZTOaJMG7DJc1-sQ="
+        }
+      ],
+      "zpid": 117506461,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4436,
+      "longitude": -95.8412,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4436
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3310 Aspen Ranch Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3310-Aspen-Ranch-Ct-Katy-TX-77494/117506469_zpid/",
+      "lotAreaValue": 9317,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3310 Aspen Ranch Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.735538,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 822100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9317,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/97b2eab2b7245f69e5782b7f597ace3e-p_c.jpg"
+        }
+      ],
+      "zpid": 117506469,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3858,
+      "longitude": -95.8407,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3858
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3314 Aspen Ranch Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3314-Aspen-Ranch-Ct-Katy-TX-77494/117506470_zpid/",
+      "lotAreaValue": 9347,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3314 Aspen Ranch Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.735342,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 772900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9347,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3314+Aspen+Ranch+Ct%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=y1d3e20RhSIpU4aaC_aR1KNvYIg="
+        }
+      ],
+      "zpid": 117506470,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4117,
+      "longitude": -95.84065,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4117
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3306 Aspen Ranch Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3306-Aspen-Ranch-Ct-Katy-TX-77494/118399631_zpid/",
+      "lotAreaValue": 9902,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3306 Aspen Ranch Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.735735,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 896900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9902,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/54b0b20fec30cfef3f4daa8bce173b27-p_c.jpg"
+        }
+      ],
+      "zpid": 118399631,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4537,
+      "longitude": -95.8408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4537
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.84163,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3314 Wimberly Place Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 4782,
+      "lotSize": 9347,
+      "zpid": 118050589,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3314 Wimberly Place Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3314-Wimberly-Place-Ln-Katy-TX-77494/118050589_zpid/",
+      "lotAreaValue": 9347.976,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "94008680",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 29.735216,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2013,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 4782,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1c3cf0da498b5d697f0d287c1623fe16-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 850000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3318 Aspen Ranch Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3318-Aspen-Ranch-Ct-Katy-TX-77494/117586844_zpid/",
+      "lotAreaValue": 10097,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3318 Aspen Ranch Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73513,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 905300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10097,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3b34b49d62964a2bbbe29687a827253e-p_c.jpg"
+        }
+      ],
+      "zpid": 117586844,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4346,
+      "longitude": -95.84065,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4346
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "52586831"
+      },
+      "pricePerSquareFoot": 174,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 789950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-11",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23112562"
+      },
+      "pricePerSquareFoot": 174,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 789950
+    },
+    {
+      "priceChangeRate": -0.012500781298831,
+      "date": "2025-08-07",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1754524800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23112562"
+      },
+      "pricePerSquareFoot": 174,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 789950
+    },
+    {
+      "priceChangeRate": -0.056662735849057,
+      "date": "2025-07-17",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1752710400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "45977641"
+      },
+      "pricePerSquareFoot": 176,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 799950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-08-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1723075200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "65436587"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-07-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1720396800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "65436587"
+      },
+      "pricePerSquareFoot": 186,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 848000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-07-01",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1719792000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "65436587"
+      },
+      "pricePerSquareFoot": 186,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 848000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-06-26",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1719360000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "65436587"
+      },
+      "pricePerSquareFoot": 186,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 848000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/7fb4f5e38eb28a9c30c8b44531e9db55-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/25340-Jenks-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Jenks Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/fulshear/25835-NEW-JR-16/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Joe M. Adams Junior High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/25831-NEW-High-School-14/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Jordan High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4559,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Cinco Ranch Northwest Sec 4",
+    "streetAddress": "3311 Wimberly Place Ln",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "12 hours",
+  "priceChange": -10000,
+  "zestimate": 769200,
+  "zpid": 118396402,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 55,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Epoxy floor",
+            "Juliet balcony",
+            "Two story entry",
+            "Outdoor kitchen",
+            "Splash pad",
+            "Tennis courts",
+            "Hardwood floors"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Epoxy floor",
+            "Juliet balcony",
+            "Two story entry",
+            "Outdoor kitchen",
+            "Splash pad",
+            "Tennis courts",
+            "Hardwood floors"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Cinco Ranch Northwest"
+  },
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3311-Wimberly-Place-Ln-Katy-TX-77494/118396402_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass RE Texas, LLC - West Houston"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass RE Texas, LLC - West Houston",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 20:31:28",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Amy Lookabaugh",
+    "attributionTitle": null,
+    "mlsId": "52586831",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "832-236-0699",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0694834",
+        "memberFullName": "Amy Lookabaugh",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-236-0699",
+    "agentLicenseNumber": "TREC #0694834",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "281-751-3130",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-08-07",
+  "photoCount": 49,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Engineered Hardwood",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 793888,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2012",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,250 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10,097 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$174",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Full Secondary Bathroom Down",
+          "Half Bath",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower",
+          "Primary Bath: Soaking Tub",
+          "Secondary Bath(s): Tub/Shower Combo",
+          "Vanity Area"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry",
+          "Pots/Pans Drawers",
+          "Walk-in Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,250 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Back Green Space",
+      "Outdoor Kitchen",
+      "Side Yard",
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,097 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://listings.homecapture.net/videos/01981892-539b-7280-a5c9-6aa4a8e52488"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=sgJKkY13KFy&"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "4,551 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$1,250 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 5,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Balcony",
+      "Crown Molding",
+      "Formal Entry/Foyer",
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "Wired for Sound",
+      "2 Bedrooms Down",
+      "3 Bedrooms Up",
+      "En-Suite Bath",
+      "Primary Bed - 1st Floor",
+      "Sitting Area",
+      "Split Plan",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Near Golf Course",
+      "Subdivided",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jenks Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Attic Vents",
+      "Thermostat",
+      "HVAC",
+      "HVAC>13 SEER",
+      "Insulation"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Cement Siding",
+      "Stone"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,250 annually",
+    "appliances": [
+      "Disposal",
+      "Wine Refrigerator",
+      "Convection Oven",
+      "Double Oven",
+      "Electric Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Subdivision Tennis Court"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Adams Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://listings.homecapture.net/videos/01981892-539b-7280-a5c9-6aa4a8e52488",
+    "contingency": null,
+    "yearBuilt": 2012,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "2279040030020914",
+    "incomeIncludes": null,
+    "highSchool": "Jordan High School",
+    "taxAnnualAmount": 17401,
+    "subdivisionName": "Cinco Ranch Northwest Sec 4",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows",
+      "Window Coverings"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757646230000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete",
+      "Curbs",
+      "Gutters"
+    ],
+    "associationAmenities": [
+      "Basketball Court",
+      "Golf Course",
+      "Jogging Path",
+      "Park",
+      "Picnic Area",
+      "Playground",
+      "Pond",
+      "Pool",
+      "Splash Pad",
+      "Sport Court",
+      "Tennis Court(s)",
+      "Trail(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,250 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Oversized",
+      "Tandem",
+      "Additional Parking",
+      "Garage Door Opener",
+      "Double-Wide Driveway"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": [
+      "Insulated Doors"
+    ],
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,250 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "4,551",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck",
+      "Porch"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": "Highland Homes",
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Natural Gas",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 174,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688224470
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688224470
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688224470
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 4551,
+  "zestimateHighPercent": "5",
+  "mlsid": "52586831",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 789950,
+  "priceChangeDate": 1754524800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:38.765141+00:00",
+    "zpid": "118396402",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

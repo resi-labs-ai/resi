@@ -1,0 +1,1099 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 5,
+      "display_name": "Manish Singh",
+      "badge_type": "Premier Agent",
+      "business_name": "Keller Williams Metropolitan",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "832",
+        "number": "8636"
+      },
+      "zuid": "X1-ZUwaotauu3n8cp_7galw",
+      "image_url": "https://photos.zillowstatic.com/fp/1dca33caacd6275763b38068e9327760-h_g.jpg"
+    }
+  ],
+  "longitude": -95.84408,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/0a29a2ebf3e466f33203042a9daafb9b-p_d.jpg",
+  "livingAreaValue": 2109,
+  "streetAddress": "Hickory Ridge I A Plan, Katy, TX: Build On Your Lot",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 1524,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 2025,
+  "brokerageName": "America's Home Place",
+  "description": "Stone and shakes add a rustic touch to this beautiful mountain style home. Sit back and enjoy the view on the wrap around porch. The spacious living room has vaulted ceilings to the second floor. Private master on main floor with walk in closet and double vanity. Loft on second floor can be used as 3rd bedroom. The great room has an option for a cozy fireplace that would be an ideal addition to this mountain home.",
+  "climate": null,
+  "latitude": 29.778568,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Heritage Barndominium Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206716_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Heritage Barndominium Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 356975,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f05e4b29fbf7b4709ae1b3e391fad92e-p_c.jpg"
+        }
+      ],
+      "zpid": 439206716,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2688,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2688
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Blue Ridge Modern Farmhouse Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206721_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Blue Ridge Modern Farmhouse Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 318816,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6a4e8013059bbd3305813317de7ea6a3-p_c.jpg"
+        }
+      ],
+      "zpid": 439206721,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2057,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2057
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Berglund Modern Farmhouse Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206727_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Berglund Modern Farmhouse Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 379143,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/22da237c417b808c6a89d8a48d57b082-p_c.jpg"
+        }
+      ],
+      "zpid": 439206727,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2196,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2196
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Brookwood Modern Farmhouse Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206758_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Brookwood Modern Farmhouse Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 397896,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/07755d2ce3bd74c3e5677f4dac086dd8-p_c.jpg"
+        }
+      ],
+      "zpid": 439206758,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2745,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2745
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Hill V Modern Farmhouse Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206795_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Hill V Modern Farmhouse Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 351454,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0f6c0fb1c7a254ca88d56b36d5d54ab8-p_c.jpg"
+        }
+      ],
+      "zpid": 439206795,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 2688,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2688
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Lexington Modern Farmhouse Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206804_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Lexington Modern Farmhouse Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 556729,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a080d6402ad6ae415c2f7012740609a7-p_c.jpg"
+        }
+      ],
+      "zpid": 439206804,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 3573,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3573
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Delaware A Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206829_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Delaware A Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 500614,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/924e1411c64b6ddeac145855f2da87f2-p_c.jpg"
+        }
+      ],
+      "zpid": 439206829,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 3020,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3020
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": "BUILDER_PLAN",
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Fairfield A Plan, Katy, TX: Build On Your Lot"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "isShowcaseListing": false,
+      "hdpUrl": "/community/katy-tx-build-on-your-lot/439206858_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Fairfield A Plan, Katy, TX: Build On Your Lot",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.778568,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      },
+      "price": 289772,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "New Construction Plan",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a90c698a1946255003a71de03fa1a445-p_c.jpg"
+        }
+      ],
+      "zpid": 439206858,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 1743,
+      "longitude": -95.84408,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "30799529",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1743
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2024-08-19",
+      "source": "Americas Home Place",
+      "postingIsRental": false,
+      "time": 1724025600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Americas Home Place",
+        "infoString3": "https://photos.zillowstatic.com/fp/3c43de1bb48761db45464edb7ca6499b-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 172,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 362864
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/0a29a2ebf3e466f33203042a9daafb9b-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10696-Woodcreek-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "Woodcreek Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/3877-Katy-J-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.7,
+      "assigned": null,
+      "name": "Katy J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/3876-Katy-High-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Katy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Katy",
+  "providerListingID": "30799529",
+  "currency": "USD",
+  "listingProvider": {
+    "enhancedVideoURL": null,
+    "showNoContactInfoMessage": false,
+    "postingGroupName": "America's Home Place",
+    "isZRMSourceText": null,
+    "showLogos": null,
+    "disclaimerText": null,
+    "sourceText": "Source: Americas Home Place",
+    "title": "Listing Provided by",
+    "logos": {},
+    "postingWebsiteURL": "https://americashomeplace.com/house-plans/Models/554/craftsman_hickory_ridge_i_a?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=4856572&nhf_listing_type=plan&utm_term=plan_HickoryRidgeIA&utm_campaign=Katy%2FTX",
+    "agentLicenseNumber": null,
+    "postingWebsiteLinkText": "America's Home Place",
+    "enhancedDescriptionText": null,
+    "agentName": null
+  },
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Katy, TX: Build On Your Lot",
+    "streetAddress": "Hickory Ridge I A Plan, Katy, TX: Build On Your Lot",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "5 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 439206806,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 59,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "updated-desc-ab-backfill",
+          "phrases": [
+            "Cozy fireplace",
+            "Wrap around porch",
+            "Loft on second floor",
+            "Beautiful mountain style home",
+            "Great room",
+            "Vaulted ceilings",
+            "Walk in closet"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "llm-tags-from-pdc-model-1",
+          "phrases": [
+            "Cozy fireplace",
+            "Wrap around porch",
+            "Loft on second floor",
+            "Beautiful mountain style home",
+            "Great room",
+            "Vaulted ceilings",
+            "Walk in closet"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Old Katy"
+  },
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/community/katy-tx-build-on-your-lot/439206806_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/3c43de1bb48761db45464edb7ca6499b-zillow_web_95_35.jpg",
+    "mlsName": "Americas Home Place",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "America's Home Place"
+      }
+    ],
+    "infoString10": null,
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "America's Home Place",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-07 13:15:49",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": null,
+    "attributionTitle": null,
+    "mlsId": null,
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "281-394-0104",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "281-394-0104",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/3c43de1bb48761db45464edb7ca6499b-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": null,
+    "brokerPhoneNumber": "281-394-0104",
+    "lastChecked": "2025-09-07 13:15:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 10,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2025",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "0 spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "5 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$172",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": "New Construction",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,109 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "House",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 5,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2025,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 6568,
+    "subdivisionName": "Katy, TX: Build On Your Lot",
+    "storiesTotal": 2,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757212126000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": null,
+    "levels": "2.0",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": "America's Home Place",
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": true,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 172,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-07",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691980585
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691980585
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691980585
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 2109,
+  "zestimateHighPercent": null,
+  "mlsid": null,
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": false,
+    "is_FSBO": false,
+    "is_newHome": true,
+    "is_foreclosure": false
+  },
+  "buildingId": "2495267187",
+  "country": "USA",
+  "price": 362864,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:21.071131+00:00",
+    "zpid": "439206806",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

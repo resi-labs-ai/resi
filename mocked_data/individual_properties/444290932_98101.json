@@ -1,0 +1,1300 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.33878,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/714532ccd092077988caa3e543d4c5da-p_d.jpg",
+  "livingAreaValue": 750,
+  "streetAddress": "1900 Westlake Avenue N #B-20",
+  "county": "King County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 2457,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUz3jvj43bh3wp_2ca41",
+    "review_count": 13,
+    "display_name": "Linda M Bagley",
+    "profile_url": "https://www.zillow.com/profile/Linda-M-Bagley/",
+    "business_name": "Special Agents Realty",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "419",
+      "areacode": "206",
+      "number": "0065"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/2d5cc7aef029e8351821d19938bc1547-h_n.jpg"
+  },
+  "yearBuilt": 2009,
+  "brokerageName": "Special Agents Realty",
+  "description": "End-of-dock Seattle houseboat with panoramic open-water views, a spacious rooftop deck, and two covered main-level decks. Enjoy vaulted ceilings, walls of windows, a full kitchen with a breakfast bar, a built-in queen bed, a full bath, and onboard laundry. The upper bonus room is ideal for entertaining, an office, or a guest space. Watch fireworks, Duck Dodge, water planes, and sunrises over Lake Union. Pets and rentals OK. The slip lease is $1,598/mo and includes moorage, insurance, DNR, and facility fees, as well as liveaboard status. Financing available. Moments to Amazon, Google, Adobe, and top local dining. Paddleboard, kayak, or relax in a private floating retreat\u2014live the lake lifestyle! Hauled out August 2023. NO Short-term rentals.",
+  "climate": null,
+  "latitude": 47.6367,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N #19"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-19-Seattle-WA-98101/444275145_zpid/",
+      "lotAreaValue": 561.924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N #19",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2184860",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.63663,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 195000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 561,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dcc9d41f422a4c2a54951c3813ebf012-p_c.jpg"
+        }
+      ],
+      "zpid": 444275145,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 300,
+      "longitude": -122.33869,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 300
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -122.33878,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N #B19",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 300,
+      "lotSize": 561,
+      "zpid": 442109533,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N #B19"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-B19-Seattle-WA-98101/442109533_zpid/",
+      "lotAreaValue": 561.924,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2359321",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 47.636604,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1968,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 300,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fccc12e8a80c32443253a8fdd4d1493f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 160000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N #B21"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-B21-Seattle-WA-98101/444179707_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N #B21",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "353490",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.636646,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 596900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/13fbfaafa3458403c4b0d03d0fd22b80-p_c.jpg"
+        }
+      ],
+      "zpid": 444179707,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 990,
+      "longitude": -122.33941,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 990
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2000 Westlake Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/2000-Westlake-Ave-N-Seattle-WA-98109/2072252730_zpid/",
+      "lotAreaValue": 161.172,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "2000 Westlake Ave N",
+        "zipcode": "98109"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2418137",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.637085,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 80000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 161,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/56369caf6be1a9dd0b7542e1c9b598c1-p_c.jpg"
+        }
+      ],
+      "zpid": 2072252730,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 120,
+      "longitude": -122.33911,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 120
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N UNIT B9"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-UNIT-B9-Seattle-WA-98109/2089270847_zpid/",
+      "lotAreaValue": 561.924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N UNIT B9",
+        "zipcode": "98109"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2232499",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.63642,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 359000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 561,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4e16408f3ea540d93547faf5af1e288f-p_c.jpg"
+        }
+      ],
+      "zpid": 2089270847,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 353,
+      "longitude": -122.33931,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 353
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N #B3"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-B3-Seattle-WA-98109/129517988_zpid/",
+      "lotAreaValue": 683.892,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N #B3",
+        "zipcode": "98109"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.6367,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 53100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 683,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/04f4cb1ef985754991d86dbfa7085a64-p_c.jpg"
+        }
+      ],
+      "zpid": 129517988,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 504,
+      "longitude": -122.33962,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 504
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -122.33962,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "2144 Westlake Ave N #1DO7",
+        "zipcode": "98109"
+      },
+      "livingAreaValue": 2000,
+      "lotSize": 1999,
+      "zpid": 441587555,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2144 Westlake Ave N #1DO7"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/2144-Westlake-Ave-N-1DO7-Seattle-WA-98109/441587555_zpid/",
+      "lotAreaValue": 1999.404,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2377987",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.6367,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1987,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 2000,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/afba0c47181434aac79881cfbf8f1571-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 949999,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -122.33962,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1900 Westlake Ave N UNIT B11",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 518,
+      "lotSize": 670,
+      "zpid": 444197109,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1900 Westlake Ave N UNIT B11"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1900-Westlake-Ave-N-UNIT-B11-Seattle-WA-98101/444197109_zpid/",
+      "lotAreaValue": 670.824,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2425507",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.6367,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1994,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 518,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e4160a3682f87b07d0979377a84b33b2-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 390000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.20618556701031,
+      "date": "2025-07-19",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1752883200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2407004"
+      },
+      "pricePerSquareFoot": 780,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 585000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-11-10",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1604966400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1688243"
+      },
+      "pricePerSquareFoot": 647,
+      "buyerAgent": {
+        "name": "Alan Braden",
+        "photo": null,
+        "profileUrl": "/profile/alanbradenrealestate/"
+      },
+      "event": "Sold",
+      "price": 485000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/714532ccd092077988caa3e543d4c5da-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/5659-Queen-Anne-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Queen Anne Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1585-Mcclure-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Mcclure Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/2939-The-Center-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "The Center School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 13:00:00",
+      "endTime": "2025-09-13 16:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "Lake Union",
+    "streetAddress": "1900 Westlake Avenue N #B-20",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "54 days",
+  "priceChange": null,
+  "zestimate": 571400,
+  "zpid": 444290932,
+  "countyId": 207,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1205,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Built-in queen bed",
+            "Onboard laundry",
+            "Upper bonus room",
+            "Panoramic open-water views",
+            "Walls of windows",
+            "Guest space",
+            "Vaulted ceilings"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Built-in queen bed",
+            "Onboard laundry",
+            "Upper bonus room",
+            "Panoramic open-water views",
+            "Private floating retreat",
+            "Walls of windows",
+            "Vaulted ceilings"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Westlake"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/1900-Westlake-Ave-N-B20-Seattle-WA-98101/444290932_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Special Agents Realty"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Special Agents Realty",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 09:46:11",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Linda M Bagley",
+    "attributionTitle": null,
+    "mlsId": "2407004",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "206-419-0065",
+    "listingAgents": [
+      {
+        "memberStateLicense": "17584",
+        "memberFullName": "Linda M Bagley",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "206-419-0065",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "206-419-0065",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 28,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": [
+      "See Remarks"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2009",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Wall Unit(s), Electric, Wood",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "None",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "Off Street",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "561.92 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "54 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$780",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Lake",
+      "Territorial"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomThreeQuarter",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BonusRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public",
+      "Company: Included in monthly slip invoice"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "561.92 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://cdn-properties.virtuance.com/704946/videos/1900_Westlake_Ave_N_B-20_2_unbranded.mp4"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=kH1G7AxCTkt&mls=1"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "750 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Floating House",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Deck",
+      "Dock"
+    ],
+    "roofType": "See Remarks",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 54,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": "Jurisdiction: City",
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "See Remarks",
+      "Wood Siding"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)",
+      "Water Heater: On Demand",
+      "Water Heater Location: Exterior"
+    ],
+    "sewer": [
+      "None",
+      "Company: Black water tank 65 Gal - pump service"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "56 days",
+    "waterfrontFeatures": [
+      "Lake"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Gated"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "40'  x  14'",
+    "virtualTour": "https://my.matterport.com/show/?m=kH1G7AxCTkt&mls=1",
+    "contingency": null,
+    "yearBuilt": 2009,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 0,
+    "parcelNumber": "420038171203",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 4995,
+    "subdivisionName": "Lake Union",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1752796800000,
+    "roomTypes": null,
+    "frontageLength": "Waterfront Ft: 40'",
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": false,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "FOWR # 851",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Off Street"
+    ],
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": "Lake",
+    "electric": [
+      "Company: Seattle City Light"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": false,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 1,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "None"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "750",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Water Heater"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": "Houzer",
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Wall Unit(s)",
+      "Electric",
+      "Wood"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 780,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-19",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.94,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692028076
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.217,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692028076
+    },
+    "arm5Bucket": {
+      "rate": 6.421,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692028076
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 42,
+  "livingArea": 750,
+  "zestimateHighPercent": "5",
+  "mlsid": "2407004",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2742083308",
+  "country": "USA",
+  "price": 585000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:08.649336+00:00",
+    "zpid": "444290932",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

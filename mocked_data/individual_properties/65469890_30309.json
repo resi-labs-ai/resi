@@ -1,0 +1,1924 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.39385,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/ccb7795dbaf9586670c1bfab3e087289-p_d.jpg",
+  "livingAreaValue": 1350,
+  "streetAddress": "50 Biscayne Dr NW UNIT 2109",
+  "county": "Fulton County",
+  "monthlyHoaFee": 784,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155903324,
+      "valueIncreaseRate": 0.03925121,
+      "taxIncreaseRate": 0.62747633,
+      "taxPaid": 3580.92,
+      "value": 137680
+    },
+    {
+      "time": 1694533503324,
+      "valueIncreaseRate": -0.04470724,
+      "taxIncreaseRate": -0.3635961,
+      "taxPaid": 2200.29,
+      "value": 132480
+    },
+    {
+      "time": 1662997503324,
+      "valueIncreaseRate": -0.019236209,
+      "taxIncreaseRate": -0.0033985188,
+      "taxPaid": 3457.38,
+      "value": 138680
+    },
+    {
+      "time": 1631461503324,
+      "valueIncreaseRate": 0.048961423,
+      "taxIncreaseRate": -0.3783652,
+      "taxPaid": 3469.17,
+      "value": 141400
+    },
+    {
+      "time": 1599925503324,
+      "valueIncreaseRate": 0.13812901,
+      "taxIncreaseRate": 0.6352033,
+      "taxPaid": 5580.72,
+      "value": 134800
+    },
+    {
+      "time": 1568303103324,
+      "valueIncreaseRate": 0.023858922,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3412.86,
+      "value": 118440
+    },
+    {
+      "time": 1536767103324,
+      "valueIncreaseRate": 0.1708502,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3412.86,
+      "value": 115680
+    },
+    {
+      "time": 1505231103324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.14637448,
+      "taxPaid": 3412.86,
+      "value": 98800
+    },
+    {
+      "time": 1473695103324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.000867396,
+      "taxPaid": 2977.09,
+      "value": 98800
+    },
+    {
+      "time": 1442072703324,
+      "valueIncreaseRate": 0.11462094,
+      "taxIncreaseRate": -0.25989172,
+      "taxPaid": 2974.51,
+      "value": 98800
+    },
+    {
+      "time": 1410536703324,
+      "valueIncreaseRate": 0.3221957,
+      "taxIncreaseRate": 0,
+      "taxPaid": 4019.02,
+      "value": 88640
+    },
+    {
+      "time": 1379000703324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 67040
+    },
+    {
+      "time": 1347464703324,
+      "valueIncreaseRate": -0.26555654,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2978.66,
+      "value": 67040
+    },
+    {
+      "time": 1315842303324,
+      "valueIncreaseRate": -0.04037006,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 91280
+    },
+    {
+      "time": 1284306303324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 4.2803326,
+      "taxPaid": 4200.98,
+      "value": 95120
+    },
+    {
+      "time": 1252770303324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 795.59,
+      "value": 95120
+    },
+    {
+      "time": 1221234303324,
+      "valueIncreaseRate": -0.19607843,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 95120
+    },
+    {
+      "time": 1189611903324,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 969.01,
+      "value": 118320
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1596,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUz98sng9u9bm1_3cswb",
+    "review_count": 0,
+    "display_name": "Darrell Card",
+    "profile_url": "https://www.zillow.com/profile/DarrellCard/",
+    "business_name": "Keller Williams Realty Intown ATL",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "310",
+      "areacode": "404",
+      "number": "8764"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/8da2575269f239baaf62481c5f4097e2-h_n.jpg"
+  },
+  "yearBuilt": 2001,
+  "brokerageName": "Keller Williams Realty Intown ATL",
+  "description": "Welcome to your city retreat at The Manor House Unit 2109, a move-in ready condo designed for modern urban living. This freshly updated home offers two spacious bedrooms with large walk-in closets and two sleek bathrooms featuring a double vanity, walk-in shower, and a Japanese-style soaking tub perfect for relaxing after a long day. The open living area includes hardwood floors, nine-foot ceilings, abundant natural light, and a stainless-steel and granite kitchen that overlooks the living space, making it ideal for entertaining or unwinding. Added conveniences include a private laundry room with washer and dryer, brand-new carpet in the bedrooms, two deeded parking spaces (#51 & #156)  in a secure garage, a 24-hour concierge for peace of mind, and even a dog walk for your furry friend. Located on a tree-lined street that feels like a neighborhood but sits just minutes from the Beltline, Bobby Jones Golf Course, shopping, and dining, this condo blends comfort, style, and city convenience between Buckhead and Midtown. Don\u2019t miss your chance to experience true urban elegance\u2014schedule your tour today to see this beautifully renovated and staged home!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.10999999940395
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.14000000059605
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.18000000715256
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.20999999344349
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/50-biscayne-dr-nw-unit-2109-atlanta-ga-30309/134165573_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/50-biscayne-dr-nw-unit-2109-atlanta-ga-30309/134165573_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/50-biscayne-dr-nw-unit-2109-atlanta-ga-30309/134165573_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 19
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/50-biscayne-dr-nw-unit-2109-atlanta-ga-30309/134165573_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/50-biscayne-dr-nw-unit-2109-atlanta-ga-30309/134165573_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.81505,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.39385,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 1109",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1350,
+      "lotSize": 1350,
+      "zpid": 65469874,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 1109"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-1109-Atlanta-GA-30309/65469874_zpid/",
+      "lotAreaValue": 1350.36,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7624231",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 33.81505,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2001,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1350,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ac6703a986584714d58635ce0dfd4627-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 365000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 1115"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-1115-Atlanta-GA-30309/65469880_zpid/",
+      "lotAreaValue": 1533.312,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 1115",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7090182",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81505,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 365000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1533,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/173d4d1ddd6cf57cda04c5ff3c5af8c9-p_c.jpg"
+        }
+      ],
+      "zpid": 65469880,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1535,
+      "longitude": -84.39385,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1535
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 2106"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-2106-Atlanta-GA-30309/65469887_zpid/",
+      "lotAreaValue": 1568.16,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 2106",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7584380",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81505,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 350000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1568,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1cfaea554159ae7000934ffada3ed7a0-p_c.jpg"
+        }
+      ],
+      "zpid": 65469887,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1573,
+      "longitude": -84.39385,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1573
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 2110"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-2110-Atlanta-GA-30309/65469891_zpid/",
+      "lotAreaValue": 1524.6,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 2110",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7109049",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81505,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 370000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1524,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/be97bdfb8823aaf869b5ef93dacc5459-p_c.jpg"
+        }
+      ],
+      "zpid": 65469891,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1535,
+      "longitude": -84.39385,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1535
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.39385,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 2113",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1535,
+      "lotSize": 1533,
+      "zpid": 65469894,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 2113"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-2113-Atlanta-GA-30309/65469894_zpid/",
+      "lotAreaValue": 1533.312,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7597494",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 33.81505,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2001,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1535,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c054fb29cdf7e320387d17ab0cac075b-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 359000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 6107"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-6107-Atlanta-GA-30309/65469920_zpid/",
+      "lotAreaValue": 1350.36,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 6107",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7621796",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81505,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 390000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 1350,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/550c2a639d62ac7c7b20fcaa67a78c27-p_c.jpg"
+        }
+      ],
+      "zpid": 65469920,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 1350,
+      "longitude": -84.39385,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1350
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.39385,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 5107",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1350,
+      "lotSize": 1350,
+      "zpid": 65469936,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 5107"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-5107-Atlanta-GA-30309/65469936_zpid/",
+      "lotAreaValue": 1350.36,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7602951",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.81505,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1350,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/81e966c92631f009e09487aeeeb2426d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 410000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Biscayne Dr NW UNIT 4110"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Biscayne-Dr-NW-UNIT-4110-Atlanta-GA-30309/452850944_zpid/",
+      "lotAreaValue": 1524.6,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Biscayne Dr NW UNIT 4110",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7589985",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81505,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 370000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1524,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a34d6c142b30aa0fe682c23349097b0e-p_c.jpg"
+        }
+      ],
+      "zpid": 452850944,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1535,
+      "longitude": -84.39385,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1535
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-05",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7644395"
+      },
+      "pricePerSquareFoot": 281,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 380000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-29",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1753747200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": null,
+        "infoString1": "7504459"
+      },
+      "pricePerSquareFoot": 281,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 380000
+    },
+    {
+      "priceChangeRate": -0.05,
+      "date": "2025-03-27",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1743033600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7504459"
+      },
+      "pricePerSquareFoot": 281,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 380000
+    },
+    {
+      "priceChangeRate": 0.53846153846154,
+      "date": "2025-01-13",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1736726400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7504459"
+      },
+      "pricePerSquareFoot": 296,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 400000
+    },
+    {
+      "priceChangeRate": -0.036680251945165,
+      "date": "2014-09-24",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1411516800000,
+      "sellerAgent": {
+        "name": "Blair Huckeba",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISmu1gc1ifp8450000000000.jpg"
+        },
+        "profileUrl": "/profile/BlairSells/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5323070"
+      },
+      "pricePerSquareFoot": 193,
+      "buyerAgent": {
+        "name": "Darrell Card",
+        "photo": null,
+        "profileUrl": "/profile/DarrellCard/"
+      },
+      "event": "Sold",
+      "price": 260000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-08-12",
+      "source": "Dorsey Alston, Realtors",
+      "postingIsRental": false,
+      "time": 1407801600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dorsey Alston, Realtors",
+        "infoString3": null,
+        "infoString1": "5323070"
+      },
+      "pricePerSquareFoot": 200,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 269900
+    },
+    {
+      "priceChangeRate": 0.018490566037736,
+      "date": "2014-07-26",
+      "source": "Dorsey Alston, Realtors",
+      "postingIsRental": false,
+      "time": 1406332800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dorsey Alston, Realtors",
+        "infoString3": null,
+        "infoString1": "5323070"
+      },
+      "pricePerSquareFoot": 200,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 269900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-12-23",
+      "source": "Owner",
+      "postingIsRental": false,
+      "time": 1387756800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 196,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 265000
+    },
+    {
+      "priceChangeRate": -0.10169491525424,
+      "date": "2013-11-18",
+      "source": "Owner",
+      "postingIsRental": false,
+      "time": 1384732800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 196,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 265000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-04-19",
+      "source": "Zillow Rental Network",
+      "postingIsRental": true,
+      "time": 1366329600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Network",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1750
+    },
+    {
+      "priceChangeRate": 0.00057175528873642,
+      "date": "2013-04-06",
+      "source": "Zillow Rental Network",
+      "postingIsRental": true,
+      "time": 1365206400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Network",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1750
+    },
+    {
+      "priceChangeRate": -0.00057142857142857,
+      "date": "2013-03-19",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1363651200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1749
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-03-08",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1362700800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 1750
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2002-05-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1021593600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 219,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 295000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/ccb7795dbaf9586670c1bfab3e087289-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 4.6,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2497,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "The Manor House",
+    "streetAddress": "50 Biscayne Dr NW UNIT 2109",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "7 days",
+  "priceChange": null,
+  "zestimate": 376200,
+  "zpid": 65469890,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 465,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Nine-foot ceilings",
+            "Hardwood floors",
+            "Abundant natural light",
+            "Large walk-in closets",
+            "Brand-new carpet",
+            "Walk-in shower",
+            "Sleek bathrooms"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Nine-foot ceilings",
+            "Hardwood floors",
+            "Abundant natural light",
+            "Large walk-in closets",
+            "Brand-new carpet",
+            "Walk-in shower",
+            "Sleek bathrooms"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/50-Biscayne-Dr-NW-UNIT-2109-Atlanta-GA-30309/65469890_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Williams Realty Intown ATL"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Williams Realty Intown ATL",
+    "listingAttributionContact": "404-541-3500",
+    "lastUpdated": "2025-09-08 07:41:37",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "DARRELL CARD HARPER",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7644395",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-310-8764",
+    "listingAgents": [
+      {
+        "memberStateLicense": "163000",
+        "memberFullName": "DARRELL CARD HARPER",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-310-8764",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 16,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Carpet",
+      "Ceramic Tile",
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "Concrete Perimeter"
+    ],
+    "accessibilityFeatures": [
+      "Accessible Bedroom",
+      "Accessible Entrance"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": true,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 344200,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2001",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Forced Air, Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$784 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "7 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$281",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main, Roommate Floor Plan, Split Bedroom Plan",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main",
+          " Roommate Floor Plan",
+          " Split Bedroom Plan"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main",
+          " Roommate Floor Plan",
+          " Split Bedroom Plan"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Double Vanity",
+          " Soaking Tub",
+          " Separate Tub/Shower"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Separate Dining Room",
+          " Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Breakfast Room",
+          " Cabinets Stain",
+          " Stone Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$784 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "Courtyard"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "1,350 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=LSsYmcb4pvB"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/50-BISCAYNE-Drive-NW-Unit-2109-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": [
+      "Low-Flow Fixtures"
+    ],
+    "stories": 1,
+    "livingArea": "1,350 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$784 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Mid Rise (Up to 5 Stories)",
+    "interiorFeatures": [
+      "Crown Molding",
+      "Double Vanity",
+      "Elevator",
+      "Entrance Foyer",
+      "High Ceilings 9 ft Main",
+      "High Speed Internet",
+      "Recessed Lighting",
+      "Tray Ceiling(s)",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Level"
+    ],
+    "roofType": "Tar/Gravel",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 7,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "E. Rivers",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Thermostat"
+    ],
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$784 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Gas Range",
+      "Gas Water Heater",
+      "Microwave",
+      "Refrigerator",
+      "Self Cleaning Oven",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Wrought Iron",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "7 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": "0",
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Business Center",
+      "Clubhouse",
+      "Fitness Center",
+      "Homeowners Assoc",
+      "Public Transportation",
+      "Near Shopping",
+      "Sidewalks",
+      "Pool",
+      "Near Beltline"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://my.matterport.com/show/?m=LSsYmcb4pvB",
+    "contingency": null,
+    "yearBuilt": 2001,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Phone Available",
+      "Sewer Available",
+      "Underground Utilities",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 011100053017",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 3614,
+    "subdivisionName": "The Manor House",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757030400000,
+    "roomTypes": [
+      "Dining Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$784 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned",
+      "Garage Door Opener",
+      "Covered",
+      "Drive Under Main Level",
+      "Underground",
+      "Garage"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Closed Circuit Camera(s)",
+      "Secured Garage/Parking",
+      "Security Gate",
+      "Smoke Detector(s)",
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 94,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,350",
+    "associations": [
+      {
+        "feeFrequency": "$784 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "220 Volts",
+      "220 Volts in Garage"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "1,350",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "None"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "Laundry Room",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Forced Air",
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Cable TV",
+      "Door Person",
+      "Gas",
+      "Insurance",
+      "Internet",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Pest Control",
+      "Receptionist",
+      "Reserve Fund",
+      "Security",
+      "Sewer",
+      "Swim",
+      "Termite",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 281,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-05",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687659473
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687659473
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687659473
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 14,
+  "livingArea": 1350,
+  "zestimateHighPercent": "5",
+  "mlsid": "7644395",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2742964394",
+  "country": "USA",
+  "price": 380000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:03.839742+00:00",
+    "zpid": "65469890",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

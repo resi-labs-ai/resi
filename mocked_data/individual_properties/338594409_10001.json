@@ -1,0 +1,1505 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 31,
+      "display_name": "Kiran Mummidichetty",
+      "badge_type": "Premier Agent",
+      "business_name": "Compass Real Estate ",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "309",
+        "areacode": "732",
+        "number": "0788"
+      },
+      "zuid": "X1-ZU10c472llrcbnt_52lx3",
+      "image_url": "https://photos.zillowstatic.com/fp/b8ed001a69ad8bfbe948058a402d745f-h_g.jpg"
+    }
+  ],
+  "longitude": -74.00253,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f19a4c458290ad476de758676ac7e82e-p_d.jpg",
+  "livingAreaValue": 2022,
+  "streetAddress": "35 Hudson Yards #6802",
+  "county": "New York County",
+  "monthlyHoaFee": 7016,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155879992,
+      "valueIncreaseRate": 0.00025342274,
+      "taxIncreaseRate": 0.04770913,
+      "taxPaid": 55384,
+      "value": 489425
+    },
+    {
+      "time": 1694533479992,
+      "valueIncreaseRate": 0.004935325,
+      "taxIncreaseRate": 0,
+      "taxPaid": 52862,
+      "value": 489301
+    },
+    {
+      "time": 1662997479992,
+      "valueIncreaseRate": 0.0076135253,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 486898
+    },
+    {
+      "time": 1631461479992,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 483219
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 18900,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUqvd14iwlmqkp_1is64",
+    "review_count": 0,
+    "display_name": "Jing Wang",
+    "profile_url": "https://www.zillow.com/profile/jwang016/",
+    "business_name": "Elegran",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "443",
+      "areacode": "917",
+      "number": "8698"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/fcdb48d6fb54783cf91e9bf983b719ad-h_n.jpg"
+  },
+  "yearBuilt": 2019,
+  "brokerageName": "Elegran",
+  "description": "All showings are by appt only.\r\n\r\nLuxurious Two-Bedroom Residence with Breathtaking Hudson River Views. Every room has unobstructed water view, absolutely the best line in the building.\r\nAs you step inside, be captivated by the spacious and sophisticated ambiance, with soaring high ceilings and exquisite satin finish wide plank French oak floors, the living area radiates magnificence. Relax and entertain in the open-plan spaces while being treated to stunning sunsets and scenic vistas.\r\nThe main bedroom is a true oasis, boasting two expansive walk-in closets and a beautifully designed bathroom adorned with stunning iceberg quartzite, double vanity with Kinon panels, full depth soaking tub and large windows. The second bedroom offers its own private bathroom, perfect for a tranquil escape. The washer/dryer and handsome onyx-clad powder room are both conveniently located off the main hallway.\r\nEnjoy convenient control over light with motorized solar shades in the living, kitchen, and main bathroom areas, and relish in comfort and privacy with blackout shades in the bedrooms. The kitchen is a haven for culinary enthusiasts, featuring Smallbone of Devizes cabinetry, opal white marble counters and backsplash, ample storage space, and top-of-the-line Gaggenau appliances, including a wine cooler and coffee maker.\r\nWithin the same building, 35 Hudson Yards is home to the exclusive Equinox Club and Spa with indoor and outdoor swimming pool, SoulCycle and ZZ\u2019s Club. Additionally, preferred reservations and seating await you at Electric Lemon by Stephen Starr, catering to your epicurean desires.\r\nIndulge in the private amenities for residents, which include a fitness center, stretching and yoga studio, meditation room, business center, cocktail lounge and bar, screening room with wet bar, golf simulator lounge, grand terrace, and private dining room with a view of the Hudson River. Plus, you'll find yourself surrounded by world-class shopping, dining, arts, culture, and fitness, with easy access to The High Line and Hudson River Park.\r\nExperience the pinnacle of urban luxury by scheduling your private viewing today!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/35-hudson-yards-6802-new-york-ny-10001/362484481_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "femaZone": "X",
+        "source": {
+          "url": "https://firststreet.org/property/35-hudson-yards-6802-new-york-ny-10001/362484481_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.37999999523163
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.5
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.61000001430511
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.68999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.75999999046326
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/35-hudson-yards-6802-new-york-ny-10001/362484481_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 14
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/35-hudson-yards-6802-new-york-ny-10001/362484481_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/35-hudson-yards-6802-new-york-ny-10001/362484481_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 6
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.75472,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #6304"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-6304-New-York-NY-10001/338593833_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #6304",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.75472,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 8740100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=35+Hudson+Yards%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=fcfijGHkr09IgDK5W8fe6zWT--M="
+        }
+      ],
+      "zpid": 338593833,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3099,
+      "longitude": -74.00253,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3099
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -74.00253,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #6901",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 2570,
+      "lotSize": null,
+      "zpid": 338593967,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #6901"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-6901-New-York-NY-10001/338593967_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1778672",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 40.75472,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2019,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 2570,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c18ae2979eb921fe2ed17925caf48d53-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5800000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -74.00253,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #7802",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 2871,
+      "lotSize": null,
+      "zpid": 338594377,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #7802"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-7802-New-York-NY-10001/338594377_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1725691",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 40.75472,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2871,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/05e9de3ab329ea1adcac9b06f441501f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5254250,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #7603"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-7603-New-York-NY-10001/338594382_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #7603",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1740381",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.75472,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 7998750,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/82fca5a4731150bbe1f52509e61e8448-p_c.jpg"
+        }
+      ],
+      "zpid": 338594382,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 3436,
+      "longitude": -74.00253,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3436
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -74.00253,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #7502",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 2871,
+      "lotSize": null,
+      "zpid": 338594386,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #7502"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-7502-New-York-NY-10001/338594386_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1781668",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 40.75472,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2019,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 2871,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/05e9de3ab329ea1adcac9b06f441501f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5850000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards APT 7202"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-APT-7202-New-York-NY-10001/338594395_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards APT 7202",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1602017",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.75472,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4564200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1a95776830b7c03f272d082e691026af-p_c.jpg"
+        }
+      ],
+      "zpid": 338594395,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2022,
+      "longitude": -74.00253,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2022
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #6903"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-6903-New-York-NY-10001/338594405_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #6903",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.75472,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 6157900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ffeaec489e0b6ec94495baa6a02eb5c4-p_c.jpg"
+        }
+      ],
+      "zpid": 338594405,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2724,
+      "longitude": -74.00253,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "29st08qyk6fu0",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2724
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -74.00253,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "35 Hudson Yards #6803",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 2724,
+      "lotSize": null,
+      "zpid": 338594408,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "35 Hudson Yards #6803"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/35-Hudson-Yards-6803-New-York-NY-10001/338594408_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1778667",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 40.75472,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2019,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 2724,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b2236550f0c4ab2b55fa2ac96db55034-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5200000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.021739130434783,
+      "date": "2025-09-11",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1778669"
+      },
+      "pricePerSquareFoot": 2226,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 4500000
+    },
+    {
+      "priceChangeRate": -0.037405179178656,
+      "date": "2025-07-07",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1751846400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1778669"
+      },
+      "pricePerSquareFoot": 2275,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 4600000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-11-15",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1700006400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.023746701846966,
+      "date": "2023-10-31",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1698710400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 9,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 18500
+    },
+    {
+      "priceChangeRate": -0.050125313283208,
+      "date": "2023-10-11",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1696982400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 9,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 18950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-09-14",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1694649600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 10,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 19950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-15",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1692057600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-01",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1690848000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 10,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 19950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-01-12",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1610409600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2363,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 4778750
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f19a4c458290ad476de758676ac7e82e-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2129-Ps-33-Chelsea-Prep/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Ps 33 Chelsea Prep",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/18349-Middle-297/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "Middle 297",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/1958-The-High-School-Of-Fashion-Industries/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 0.7,
+      "assigned": null,
+      "name": "The High School of Fashion Industries",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 20493,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "Hudson Yards",
+    "streetAddress": "35 Hudson Yards #6802",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "67 days",
+  "priceChange": -100000,
+  "zestimate": null,
+  "zpid": 338594409,
+  "countyId": 2452,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 235,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Top-of-the-line gaggenau appliances",
+            "Motorized solar shades",
+            "Breathtaking hudson river views",
+            "Unobstructed water view",
+            "Soaring high ceilings",
+            "Expansive walk-in closets",
+            "Spacious and sophisticated ambiance"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Blackout shades",
+            "Top-of-the-line gaggenau appliances",
+            "Motorized solar shades",
+            "Breathtaking hudson river views",
+            "Unobstructed water view",
+            "Soaring high ceilings",
+            "Expansive walk-in closets"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Hudson Yards"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/35-Hudson-Yards-6802-New-York-NY-10001/338594409_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Elegran"
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Elegran",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 05:51:14",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Jing Wang",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1778669",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "917-443-8698",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10401284160",
+        "memberFullName": "Jing Wang",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "917-443-8698",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "917-443-8698",
+    "lastChecked": "2025-09-12 08:36:02"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 8,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Swimming Pool"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "Wheelchair Access"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1087612,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2019",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$7,016 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "67 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$2,226",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Garden",
+      "Park/Greenbelt",
+      "Skyline",
+      "Water"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$7,016 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "2,022 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$7,016 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 67,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$7,016 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Washer/Dryer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Doorman"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2019,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "007021476",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 5184,
+    "subdivisionName": "Hudson Yards",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1751846400000,
+    "roomTypes": [
+      "Bike Room",
+      "Childrens Playroom",
+      "Media Room",
+      "Package Room",
+      "Recreation Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Elevator(s)",
+      "Concierge"
+    ],
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$7,016 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Doorman"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$7,016 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Water",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,022",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Maintenance"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 2226,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-07",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690366508
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690366508
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690366508
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 5,
+  "livingArea": 2022,
+  "zestimateHighPercent": null,
+  "mlsid": "S1778669",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2391457357",
+  "country": "USA",
+  "price": 4500000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:40.489813+00:00",
+    "zpid": "338594409",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

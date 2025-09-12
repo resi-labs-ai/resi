@@ -1,0 +1,1575 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.780655,
+  "countyFIPS": "47037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/e5dc48888c2424f59c44baab18321213-p_d.jpg",
+  "livingAreaValue": 1000,
+  "streetAddress": "852 1st Ave N",
+  "county": "Davidson County",
+  "monthlyHoaFee": 590,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533706599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5460.22,
+      "value": 167800
+    },
+    {
+      "time": 1662997706599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.010338384,
+      "taxPaid": 5460.22,
+      "value": 167800
+    },
+    {
+      "time": 1631461706599,
+      "valueIncreaseRate": 1.553062,
+      "taxIncreaseRate": 0.9887392,
+      "taxPaid": 5517.26,
+      "value": 167800
+    },
+    {
+      "time": 1599925706599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.33787763,
+      "taxPaid": 2774.25,
+      "value": 65725
+    },
+    {
+      "time": 1568303306599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2073.62,
+      "value": 65725
+    },
+    {
+      "time": 1536767306599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2073.62,
+      "value": 65725
+    },
+    {
+      "time": 1505231306599,
+      "valueIncreaseRate": 1.3183422,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2073.62,
+      "value": 65725
+    },
+    {
+      "time": 1473695306599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.6196487,
+      "taxPaid": 2073.62,
+      "value": 28350
+    },
+    {
+      "time": 1442072906599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1280.29,
+      "value": 28350
+    },
+    {
+      "time": 1410536906599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1280.29,
+      "value": 28350
+    },
+    {
+      "time": 1379000906599,
+      "valueIncreaseRate": -0.0121951215,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28350
+    },
+    {
+      "time": 1347464906599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28700
+    },
+    {
+      "time": 1315842506599,
+      "valueIncreaseRate": -0.32030788,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28700
+    },
+    {
+      "time": 1284306506599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1252770506599,
+      "valueIncreaseRate": 0.015634395,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1221234506599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41575
+    },
+    {
+      "time": 1189612106599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41575
+    },
+    {
+      "time": 1158076106599,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2642,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU103hqi21u5gjt_8clor",
+    "review_count": 1,
+    "display_name": "Traci Johnson",
+    "profile_url": "https://www.zillow.com/profile/zuser20150128161801873/",
+    "business_name": "Crye-Leike, Inc., REALTORS",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "812",
+      "areacode": "615",
+      "number": "9080"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/cc3e5ad9a73097cf99da99d465d50e1b-h_n.jpg"
+  },
+  "yearBuilt": 1986,
+  "brokerageName": "Crye-Leike, Inc., REALTORS",
+  "description": "This exceptional waterfront property is an active short-term rental and a fantastic opportunity for investors. Located in the heart of Nashville along the scenic Cumberland River and less than a mile from Broadway, it offers an unbeatable combination of convenience and charm that ensures high rental demand. It features two spacious bedrooms, two bathrooms, and is offered fully furnished. Residents and guests enjoy access to outstanding amenities, including a community pool, fitness center, laundry facilities, and ample covered parking. This fully operational STR (NOO-STR) Airbnb property is ready for its next owner!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.079999998211861
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.10000000149012
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/852-1st-ave-n-nashville-tn-37201/472510069_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 42
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "femaZone": "X_SHADED",
+        "source": {
+          "url": "https://firststreet.org/property/852-1st-ave-n-nashville-tn-37201/472510069_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.40999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.77999997138977
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/852-1st-ave-n-nashville-tn-37201/472510069_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 105,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 20
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/852-1st-ave-n-nashville-tn-37201/472510069_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/852-1st-ave-n-nashville-tn-37201/472510069_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 36.17362,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.780655,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "832 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1000,
+      "lotSize": 996,
+      "zpid": 92387570,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "832 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/832-1st-Ave-N-Nashville-TN-37201/92387570_zpid/",
+      "lotAreaValue": 996,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.173622,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1000,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3cb1b4e14cbe7edc35433af85a4f4da5-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 478000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -86.780655,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "812 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 996,
+      "lotSize": null,
+      "zpid": 108779389,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "812 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/812-1st-Ave-N-Nashville-TN-37201/108779389_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.173622,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 996,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3da565ae122c392b5f425f6a027ee591-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 481900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "852 1st Ave N UNIT 852"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/852-1st-Ave-N-UNIT-852-Nashville-TN-37201/2074867065_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "852 1st Ave N UNIT 852",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.173622,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=852+1st+Ave+N+%2C+Nashville%2C+TN+37201&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=L8ncoJ9G3QTrUx6yB26iSMpCAao="
+        }
+      ],
+      "zpid": 2074867065,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -86.780655,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "810 1st Ave N UNIT 810"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/810-1st-Ave-N-UNIT-810-Nashville-TN-37201/2074997308_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "810 1st Ave N UNIT 810",
+        "zipcode": "37201"
+      },
+      "state": "TN",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 36.17357,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/57f9fa9c787d2740519da3ccc0d94bbb-p_c.jpg"
+        }
+      ],
+      "zpid": 2074997308,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 630,
+      "longitude": -86.78067,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 630
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78066,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "850 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 435,
+      "zpid": 92394255,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "850 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/850-1st-Ave-N-Nashville-TN-37201/92394255_zpid/",
+      "lotAreaValue": 435.6,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17356,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/550b7b803045311bc01d2364aeafdd8b-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 345500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78066,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "810 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 630,
+      "zpid": 108716695,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "810 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/810-1st-Ave-N-Nashville-TN-37201/108716695_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17356,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.173561096191406,-86.7806625366211&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=iOxawHKQ1sb7yE3pXVLbmIMQ0lA="
+        }
+      ],
+      "currency": "USD",
+      "price": 325200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78066,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "830 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 630,
+      "zpid": 108767308,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "830 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/830-1st-Ave-N-Nashville-TN-37201/108767308_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17356,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.173561096191406,-86.7806625366211&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=iOxawHKQ1sb7yE3pXVLbmIMQ0lA="
+        }
+      ],
+      "currency": "USD",
+      "price": 328800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78069,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "854 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 996,
+      "lotSize": 996,
+      "zpid": 92392146,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1.5,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "854 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/854-1st-Ave-N-Nashville-TN-37201/92392146_zpid/",
+      "lotAreaValue": 996,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.173676,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1984,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 996,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.173675537109375,-86.78069305419922&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=9oXOFjBKcP5yR2Iy-1XkdF18F3o="
+        }
+      ],
+      "currency": "USD",
+      "price": 487500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 1.5673469387755,
+      "date": "2025-08-18",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1755475200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2975783"
+      },
+      "pricePerSquareFoot": 629,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 629000
+    },
+    {
+      "priceChangeRate": 0.68067226890756,
+      "date": "2015-12-07",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1449446400000,
+      "sellerAgent": {
+        "name": "Susanne Flynn",
+        "photo": null,
+        "profileUrl": "/profile/Flynn-Realty/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1677516"
+      },
+      "pricePerSquareFoot": 245,
+      "buyerAgent": {
+        "name": "Traci Johnson",
+        "photo": null,
+        "profileUrl": "/profile/zuser20150128161801873/"
+      },
+      "event": "Sold",
+      "price": 245000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2006-05-02",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1146528000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 146,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 145775
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/e5dc48888c2424f59c44baab18321213-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2202-Jones-Paideia-Magnet/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Jones Elementary",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2201-John-Early-Paideia-Middle-Magnet/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.7,
+      "assigned": null,
+      "name": "John Early Paideia Middle Magnet",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1158-Pearl-Cohn-Magnet-High-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "Pearl Cohn Magnet High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "Riverfront",
+    "streetAddress": "852 1st Ave N",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "25 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 177687848,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 469,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Waterfront property",
+            "Scenic cumberland river",
+            "Community pool",
+            "Two spacious bedrooms",
+            "Two bathrooms"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Waterfront property",
+            "Scenic cumberland river",
+            "Stainless steel appliances",
+            "Community pool",
+            "Two spacious bedrooms",
+            "Two bathrooms"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/852-1st-Ave-N-Nashville-TN-37201/177687848_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Crye-Leike, Inc., REALTORS"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Crye-Leike, Inc., REALTORS"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Crye-Leike, Inc., REALTORS",
+    "listingAttributionContact": "6158129080",
+    "lastUpdated": "2025-08-23 11:39:00",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Traci Johnson Ardovino",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2975783",
+    "coAgentName": "Anthony Ardovino",
+    "coAgentNumber": "615-815-5150",
+    "infoString5": "615-812-9080",
+    "listingAgents": [
+      {
+        "memberStateLicense": "222395",
+        "memberFullName": "Traci Johnson Ardovino",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "363930",
+        "memberFullName": "Anthony Ardovino",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-812-9080",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "615-391-9080",
+    "lastChecked": "2025-09-12 08:43:20"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 49,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "Association"
+    ],
+    "flooring": [
+      "Laminate",
+      "Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 419500,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Apartment, Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1986",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$590 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "25 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$629",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "River"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "156",
+        "roomAreaSource": null,
+        "roomType": "Bedroom1",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Walk-In Closet(s)",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "13",
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": "13x12",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "144",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Walk-In Closet(s)",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "12",
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": "12x12",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$590 monthly",
+        "type": "HOA"
+      },
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,000 one time",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "871.20 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,000 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$590 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": [
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 25,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jones Paideia Magnet",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Frame"
+    ],
+    "fireplaceFeatures": [
+      "Family Room"
+    ],
+    "hoaFeeTotal": "$590 monthly",
+    "appliances": [
+      "Electric Oven",
+      "Dishwasher",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "River Front"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "John Early Paideia Magnet",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1986,
+    "utilities": [
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "082140A09000CO",
+    "incomeIncludes": null,
+    "highSchool": "Pearl Cohn Magnet High School",
+    "taxAnnualAmount": 5460,
+    "subdivisionName": "Riverfront",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1755475200000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Laundry",
+      "Pool"
+    ],
+    "propertySubType": [
+      "Apartment",
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$590 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Unassigned"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,000",
+    "associations": [
+      {
+        "feeFrequency": "$590 monthly",
+        "name": null,
+        "phone": null
+      },
+      {
+        "feeFrequency": "$1,000 one time",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "River",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": "$1,000 one time",
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,000",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Recreation Facilities",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 629,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-18",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.063,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688482722
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688482722
+    },
+    "arm5Bucket": {
+      "rate": 6.415,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688482722
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 13,
+  "livingArea": 1000,
+  "zestimateHighPercent": null,
+  "mlsid": "2975783",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 629000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:27.317282+00:00",
+    "zpid": "177687848",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

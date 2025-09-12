@@ -1,0 +1,1771 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.39399,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/462c387baba45204606fa0a470375c6a-p_d.jpg",
+  "livingAreaValue": 1077,
+  "streetAddress": "115 Peachtree Memorial Dr NW APT D4",
+  "county": "Fulton County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155893512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.5858587,
+      "taxPaid": 2883.9,
+      "value": 128000
+    },
+    {
+      "time": 1694533493512,
+      "valueIncreaseRate": 0.14408295,
+      "taxIncreaseRate": -0.24645399,
+      "taxPaid": 1818.51,
+      "value": 128000
+    },
+    {
+      "time": 1662997493512,
+      "valueIncreaseRate": 0.12329318,
+      "taxIncreaseRate": 0.15054041,
+      "taxPaid": 2413.27,
+      "value": 111880
+    },
+    {
+      "time": 1631461493512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.49132034,
+      "taxPaid": 2097.51,
+      "value": 99600
+    },
+    {
+      "time": 1599925493512,
+      "valueIncreaseRate": -0.27489808,
+      "taxIncreaseRate": 0.6625769,
+      "taxPaid": 4123.44,
+      "value": 99600
+    },
+    {
+      "time": 1568303093512,
+      "valueIncreaseRate": 0.50284463,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2480.15,
+      "value": 137360
+    },
+    {
+      "time": 1536767093512,
+      "valueIncreaseRate": 0.24870211,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2480.15,
+      "value": 91400
+    },
+    {
+      "time": 1505231093512,
+      "valueIncreaseRate": -5.464481e-05,
+      "taxIncreaseRate": 0.25368366,
+      "taxPaid": 2480.15,
+      "value": 73196
+    },
+    {
+      "time": 1473695093512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.3774303,
+      "taxPaid": 1978.29,
+      "value": 73200
+    },
+    {
+      "time": 1442072693512,
+      "valueIncreaseRate": 0.20236531,
+      "taxIncreaseRate": 1.1914016,
+      "taxPaid": 3177.62,
+      "value": 73200
+    },
+    {
+      "time": 1410536693512,
+      "valueIncreaseRate": 0.07410021,
+      "taxIncreaseRate": 0.18038186,
+      "taxPaid": 1450.04,
+      "value": 60880
+    },
+    {
+      "time": 1379000693512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.007818285,
+      "taxPaid": 1228.45,
+      "value": 56680
+    },
+    {
+      "time": 1347464693512,
+      "valueIncreaseRate": -0.2110245,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1238.13,
+      "value": 56680
+    },
+    {
+      "time": 1315842293512,
+      "valueIncreaseRate": -0.12518266,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 71840
+    },
+    {
+      "time": 1284306293512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 3.8394904,
+      "taxPaid": 2559.8,
+      "value": 82120
+    },
+    {
+      "time": 1252770293512,
+      "valueIncreaseRate": -0.05782469,
+      "taxIncreaseRate": 0,
+      "taxPaid": 528.94,
+      "value": 82120
+    },
+    {
+      "time": 1221234293512,
+      "valueIncreaseRate": -0.0013748854,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 87160
+    },
+    {
+      "time": 1189611893512,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 680.18,
+      "value": 87280
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1323,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUzdl6imtx5csp_3l8b5",
+    "review_count": 14,
+    "display_name": "Alison Sternfels",
+    "profile_url": "https://www.zillow.com/profile/Alison-Sternfels/",
+    "business_name": "Compass",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "569",
+      "areacode": "404",
+      "number": "3674"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/1a98e09c7cf080e10465ebfa1d632642-h_n.jpg"
+  },
+  "yearBuilt": 1948,
+  "brokerageName": "Compass",
+  "description": "Charming and full of character, this top-floor 2 bed / 1 bath condo is nestled in a picturesque 1948 building in the heart of Buckhead. Located just moments from Piedmont Hospital, the Atlanta BeltLine, and the newly renovated Bobby Jones Golf Course, this home blends timeless appeal with unbeatable convenience. Inside, you'll find hardwood floors throughout, plantation shutters, and custom built-ins that add warmth and function. The sunroom is perfect for morning coffee or a cozy home office overlooking the beautifully landscaped grounds, while the kitchen offers white cabinetry, granite countertops, and a pantry for added storage. A shaded balcony provides a peaceful spot to relax, and rear stairs lead directly to the convenient parking area. As a top-floor unit, enjoy the rare bonus of having an attic. Don\u2019t miss this special opportunity to own in one of Atlanta\u2019s most desirable neighborhoods.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/115-peachtree-memorial-dr-nw-apt-d4-atlanta-ga-30309/134165462_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "femaZone": "AE",
+        "source": {
+          "url": "https://firststreet.org/property/115-peachtree-memorial-dr-nw-apt-d4-atlanta-ga-30309/134165462_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.27000001072884
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.46000000834465
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.61000001430511
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.8299999833107
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.88999998569489
+          }
+        ],
+        "insuranceSeparatePolicy": "REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/115-peachtree-memorial-dr-nw-apt-d4-atlanta-ga-30309/134165462_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/115-peachtree-memorial-dr-nw-apt-d4-atlanta-ga-30309/134165462_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/115-peachtree-memorial-dr-nw-apt-d4-atlanta-ga-30309/134165462_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.817852,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT A4"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-A4-Atlanta-GA-30309/69365360_zpid/",
+      "lotAreaValue": 1075,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT A4",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.817852,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 342000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1075,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/331e71c9365c54f6eaabd1603935b7c9-p_c.jpg"
+        }
+      ],
+      "zpid": 69365360,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT A1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-A1-Atlanta-GA-30309/69366128_zpid/",
+      "lotAreaValue": 1089,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT A1",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.817852,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 310800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1089,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3c0b47f4a0a60192e52936789ef04e01-p_c.jpg"
+        }
+      ],
+      "zpid": 69366128,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 0,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 0
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT A3"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-A3-Atlanta-GA-30309/69369138_zpid/",
+      "lotAreaValue": 1075,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT A3",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.817852,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 363500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1075,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a878bbe25151620d848c7d76c803750a-p_c.jpg"
+        }
+      ],
+      "zpid": 69369138,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT A2"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-A2-Atlanta-GA-30309/69369770_zpid/",
+      "lotAreaValue": 1075,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT A2",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.817852,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 336900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1075,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.81785202026367,-84.39398956298828&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=mWYfy4jSHH2To08WzKg-f8kseCA="
+        }
+      ],
+      "zpid": 69369770,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT C2"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-C2-Atlanta-GA-30309/69364570_zpid/",
+      "lotAreaValue": 1075,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT C2",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81786,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 314600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1075,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7613ea3d4a26549a82d944ca8c0c3aff-p_c.jpg"
+        }
+      ],
+      "zpid": 69364570,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT E4"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-E4-Atlanta-GA-30309/69366042_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT E4",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "20115305",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81786,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 342000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/07ae0ae19e8c35088bb979ee5cc1391f-p_c.jpg"
+        }
+      ],
+      "zpid": 69366042,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW #904"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-904-Atlanta-GA-30309/69367949_zpid/",
+      "lotAreaValue": 1075,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW #904",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81786,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 333900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1075,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9560bd1f4f42454743e9815560f60338-p_c.jpg"
+        }
+      ],
+      "zpid": 69367949,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "115 Peachtree Memorial Dr NW APT E3"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-E3-Atlanta-GA-30309/69368745_zpid/",
+      "lotAreaValue": 247,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "115 Peachtree Memorial Dr NW APT E3",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.81786,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 313800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10759320,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c0a3629cf3a70c14e173f664187a82d6-p_c.jpg"
+        }
+      ],
+      "zpid": 69368745,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1077,
+      "longitude": -84.39399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1077
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.059701492537313,
+      "date": "2025-09-10",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7646993"
+      },
+      "pricePerSquareFoot": 292,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 315000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-09",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757376000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7612765"
+      },
+      "pricePerSquareFoot": 311,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 335000
+    },
+    {
+      "priceChangeRate": 0.46608315098468,
+      "date": "2025-07-10",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1752105600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7612765"
+      },
+      "pricePerSquareFoot": 311,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 335000
+    },
+    {
+      "priceChangeRate": 0.038636363636364,
+      "date": "2017-07-28",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1501200000000,
+      "sellerAgent": {
+        "name": "Lee Milligan",
+        "photo": null,
+        "profileUrl": "/profile/Lee3443/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5860636"
+      },
+      "pricePerSquareFoot": 212,
+      "buyerAgent": {
+        "name": "Alison Sternfels",
+        "photo": null,
+        "profileUrl": "/profile/Alison-Sternfels/"
+      },
+      "event": "Sold",
+      "price": 228500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-06-12",
+      "source": "Atlanta - North Fulton",
+      "postingIsRental": false,
+      "time": 1497225600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Atlanta - North Fulton",
+        "infoString3": null,
+        "infoString1": "5860636"
+      },
+      "pricePerSquareFoot": 204,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 220000
+    },
+    {
+      "priceChangeRate": 0.20218579234973,
+      "date": "2017-06-07",
+      "source": "KELLER WILLIAMS NORTH ATLANTA",
+      "postingIsRental": false,
+      "time": 1496793600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "KELLER WILLIAMS NORTH ATLANTA",
+        "infoString3": null,
+        "infoString1": "5860636"
+      },
+      "pricePerSquareFoot": 204,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 220000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-04-24",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1398297600000,
+      "sellerAgent": {
+        "name": "Mary Stuart Iverson",
+        "photo": null,
+        "profileUrl": "/profile/Mary-Stuart-Iverson/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 170,
+      "buyerAgent": {
+        "name": "Lee Campbell",
+        "photo": null,
+        "profileUrl": "/profile/hlcampbell1/"
+      },
+      "event": "Sold",
+      "price": 183000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/462c387baba45204606fa0a470375c6a-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 0.3,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 4.5,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2055,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Waterside At Peachtree",
+    "streetAddress": "115 Peachtree Memorial Dr NW APT D4",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "2 days",
+  "priceChange": null,
+  "zestimate": 312300,
+  "zpid": 69366626,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 287,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Beautifully landscaped grounds",
+            "Shaded balcony",
+            "Hardwood floors",
+            "Custom built-ins",
+            "Plantation shutters",
+            "Granite countertops"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Beautifully landscaped grounds",
+            "Shaded balcony",
+            "Hardwood floors",
+            "Custom built-ins",
+            "Plantation shutters",
+            "Granite countertops"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": null,
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/115-Peachtree-Memorial-Dr-NW-APT-D4-Atlanta-GA-30309/69366626_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 05:03:13",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Alison Sternfels",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7646993",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-569-3674",
+    "listingAgents": [
+      {
+        "memberStateLicense": "165861",
+        "memberFullName": "Alison Sternfels",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-569-3674",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 32,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "Block"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 320000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1948",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Open Parking spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "2 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$292",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Trees/Woods"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Other",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Cabinets White",
+          " Pantry",
+          " Stone Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "770-777-6890",
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "Rear Stairs"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "1,075 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/115-Peachtree-Memorial-Drive-NW-D4-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,077 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "770-777-6890",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Mid Rise (Up to 5 Stories)",
+    "interiorFeatures": [
+      "Bookcases",
+      "Crown Molding",
+      "High Ceilings 9 ft Main"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Other"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 2,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "E. Rivers",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Electric Range",
+      "Electric Water Heater",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": "Pull Down Stairs",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "63 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Homeowners Assoc",
+      "Near Beltline",
+      "Near Trails/Greenway",
+      "Sidewalks",
+      "Storage"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.propertypanorama.com/115-Peachtree-Memorial-Drive-NW-D4-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 1948,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 011100020693",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 2884,
+    "subdivisionName": "Waterside At Peachtree",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Wood Frames"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757462400000,
+    "roomTypes": [
+      "Sun Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Level Driveway",
+      "Parking Lot",
+      "See Remarks"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security Lights",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 20,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,077",
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "110 Volts"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "1,077",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Rear Porch"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall",
+      "Laundry Closet",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Pest Control",
+      "Reserve Fund",
+      "Sewer",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 292,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690534855
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690534855
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690534855
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 11,
+  "livingArea": 1077,
+  "zestimateHighPercent": "5",
+  "mlsid": "7646993",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1050561961",
+  "country": "USA",
+  "price": 315000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:54.078253+00:00",
+    "zpid": "69366626",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

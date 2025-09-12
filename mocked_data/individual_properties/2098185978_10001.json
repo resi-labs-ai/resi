@@ -1,0 +1,1587 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 21,
+      "display_name": "Federico Pina",
+      "badge_type": "Premier Agent",
+      "business_name": "R New York",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "610",
+        "areacode": "305",
+        "number": "6815"
+      },
+      "zuid": "X1-ZU10i2zeoze6qdl_a57uh",
+      "image_url": "https://photos.zillowstatic.com/fp/0e9970176fb60192ff37d9e0310ae38e-h_g.jpg"
+    }
+  ],
+  "longitude": -73.9967,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/1ac4ae4bc56d307664ff04c50b2e9201-p_d.jpg",
+  "livingAreaValue": 1329,
+  "streetAddress": "261 W 25th St APT 1D",
+  "county": "New York County",
+  "monthlyHoaFee": 2097,
+  "timeZone": "America/New_York",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 10059,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU10bread1ixcsp_2ca41",
+    "review_count": 5,
+    "display_name": "Cory Kantin",
+    "profile_url": "https://www.zillow.com/profile/Cory-Kantin/",
+    "business_name": "Corcoran",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "842",
+      "areacode": "917",
+      "number": "9092"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/b4cdb7f05e878226c821b0057e32c2b7-h_n.jpg"
+  },
+  "yearBuilt": 2015,
+  "brokerageName": "Corcoran",
+  "description": "New & Priced to Sell. \n\nFind your sanctuary in the city with your own private fully landscaped 826 SF terrace at The Seymour! This spacious home has an wonderful split bedroom layout with a large dining area, perfect for hosting dinner parties inside and out. This is a fantastic price for a pin-drop quiet enclave on a tree-lined street in prime Chelsea.\n \nResidence features:\n-826 SF private terrace with landscaped water irrigation system \n-Pin-drop quiet residence at the corner of the building, with only one wall the (2nd bath) adjoining another apartment\n- All rooms facing to private landscaped garden\n-Split bedroom layout each with its own ensuite bathroom\n-Spacious Island Kitchen with Top-of-the-line Bertazzoni, Miele and Subzero appliances\n-Solid oak floors and striking floor to ceiling casement windows\n-Spa-like bathroom with Bianco Dolmitti marble, Grohe fittings and a deep soaking tub\n-Incredible closet space and in-unit washer/dryer\n \nThe Seymour\u2019s hotel-like amenities include a brick and ivy garden, a bright airy gym, a lounge with a fireplace and pool table, a media room, library, and a roof deck which has fabulous views, a lounge area and an outdoor kitchen. This luxurious boutique doorman condo is on a tree lined street with the C-train on the corner of 25th and 1 at 23rd. Set in the heart of Chelsea situated by the Highline, Madison Square Park, Chelsea Piers, Hudson Yards, Trader Joe\u2019s, and Whole Foods.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/261-w-25th-st-apt-1d-new-york-ny-10001/362328180_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/261-w-25th-st-apt-1d-new-york-ny-10001/362328180_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.23999999463558
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.38999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.50999999046326
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.61000001430511
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.68999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.75
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/261-w-25th-st-apt-1d-new-york-ny-10001/362328180_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/261-w-25th-st-apt-1d-new-york-ny-10001/362328180_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/261-w-25th-st-apt-1d-new-york-ny-10001/362328180_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.7465,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 2E"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-2E-New-York-NY-10001/219650824_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 2E",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1228800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/110e10b8228b35ac9e3b831773b2fa4c-p_c.jpg"
+        }
+      ],
+      "zpid": 219650824,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 783,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 783
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 6A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-6A-New-York-NY-10001/219650839_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 6A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1326400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9219d5e112ff260be53db9db640d5fe6-p_c.jpg"
+        }
+      ],
+      "zpid": 219650839,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 720,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 720
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 6C"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-6C-New-York-NY-10001/219650841_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 6C",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2352000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=261+W+25th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=e17DdxdX1g1RcMmcmmCTUcB5ZKE="
+        }
+      ],
+      "zpid": 219650841,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 7B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-7B-New-York-NY-10001/219650844_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 7B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2731400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=261+W+25th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=e17DdxdX1g1RcMmcmmCTUcB5ZKE="
+        }
+      ],
+      "zpid": 219650844,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1459,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1459
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 10A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-10A-New-York-NY-10001/219650855_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 10A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1502100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=261+W+25th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=e17DdxdX1g1RcMmcmmCTUcB5ZKE="
+        }
+      ],
+      "zpid": 219650855,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 810,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 810
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St PENTHOUSE B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-PENTHOUSE-B-New-York-NY-10001/2071228338_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St PENTHOUSE B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3606300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f25eb909694f53daf1340eed66ed8194-p_c.jpg"
+        }
+      ],
+      "zpid": 2071228338,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1773,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1773
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 1B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-1B-New-York-NY-10001/2098600624_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 1B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.7465,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 789900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dbb988bee9287b04995d36368aac32b9-p_c.jpg"
+        }
+      ],
+      "zpid": 2098600624,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 457,
+      "longitude": -73.9967,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 457
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 25th St APT 7C"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-25th-St-APT-7C-New-York-NY-10001/219650845_zpid/",
+      "lotAreaValue": 9505,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 25th St APT 7C",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74647,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2187900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9505,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6e2dcb8426e66471ce87e0b9f5dfe89f-p_c.jpg"
+        }
+      ],
+      "zpid": 219650845,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1122,
+      "longitude": -73.99668,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1122
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.077071290944123,
+      "date": "2025-09-03",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1787196"
+      },
+      "pricePerSquareFoot": 1802,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2395000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-12-22",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1734825600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 9,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 11995
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-11-22",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1732233600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 9,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 11995
+    },
+    {
+      "priceChangeRate": -0.089154089154089,
+      "date": "2024-09-25",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1727222400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "1736790"
+      },
+      "pricePerSquareFoot": 1953,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2595000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-01-03",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1641168000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-03-15",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1615766400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 2144,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2849000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-07-02",
+      "source": "Keller Williams NYC",
+      "postingIsRental": false,
+      "time": 1593648000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams NYC",
+        "infoString3": null,
+        "infoString1": "H5010257"
+      },
+      "pricePerSquareFoot": 2144,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2849000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-03-25",
+      "source": "OneKey MLS",
+      "postingIsRental": false,
+      "time": 1585094400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "OneKey MLS",
+        "infoString3": null,
+        "infoString1": "H5010257"
+      },
+      "pricePerSquareFoot": 2144,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2849000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-08-26",
+      "source": "Keller Williams NYC",
+      "postingIsRental": false,
+      "time": 1566777600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams NYC",
+        "infoString3": null,
+        "infoString1": "234990"
+      },
+      "pricePerSquareFoot": 2144,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2849000
+    },
+    {
+      "priceChangeRate": -0.1096875,
+      "date": "2019-07-31",
+      "source": "Keller Williams NYC",
+      "postingIsRental": false,
+      "time": 1564531200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams NYC",
+        "infoString3": null,
+        "infoString1": "234990"
+      },
+      "pricePerSquareFoot": 2144,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2849000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-01-24",
+      "source": "RPMilller Realty Group",
+      "postingIsRental": false,
+      "time": 1485216000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RPMilller Realty Group",
+        "infoString3": null,
+        "infoString1": "1555757"
+      },
+      "pricePerSquareFoot": 2408,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 3200000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-11-04",
+      "source": "RPMilller Realty Group",
+      "postingIsRental": false,
+      "time": 1478217600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RPMilller Realty Group",
+        "infoString3": null,
+        "infoString1": "1555757"
+      },
+      "pricePerSquareFoot": 2408,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 3200000
+    },
+    {
+      "priceChangeRate": -0.056047197640118,
+      "date": "2016-09-23",
+      "source": "RPMilller Realty Group",
+      "postingIsRental": false,
+      "time": 1474588800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RPMilller Realty Group",
+        "infoString3": null,
+        "infoString1": "1555757"
+      },
+      "pricePerSquareFoot": 2408,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3200000
+    },
+    {
+      "priceChangeRate": -0.045070422535211,
+      "date": "2016-08-19",
+      "source": "RPMilller Realty Group",
+      "postingIsRental": false,
+      "time": 1471564800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RPMilller Realty Group",
+        "infoString3": null,
+        "infoString1": "1555757"
+      },
+      "pricePerSquareFoot": 2551,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3390000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-06-18",
+      "source": "RPMilller Realty Group",
+      "postingIsRental": false,
+      "time": 1466208000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RPMilller Realty Group",
+        "infoString3": null,
+        "infoString1": "1555757"
+      },
+      "pricePerSquareFoot": 2671,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3550000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/1ac4ae4bc56d307664ff04c50b2e9201-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2058-Ps-11-William-T-Harris/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.3,
+      "assigned": null,
+      "name": "PS 11 Sarah J Garnett Elementary School (The)",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/18349-Middle-297/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Middle 297",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/1958-The-High-School-Of-Fashion-Industries/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 0.1,
+      "assigned": null,
+      "name": "The High School of Fashion Industries",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 11788,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 15:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "Chelsea",
+    "streetAddress": "261 W 25th St APT 1D",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "9 days",
+  "priceChange": -200000,
+  "zestimate": null,
+  "zpid": 2098185978,
+  "countyId": 2452,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 300,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Outdoor kitchen",
+            "Fabulous views",
+            "Roof deck",
+            "Spa-like bathroom",
+            "Private landscaped garden",
+            "Brick and ivy garden",
+            "Split bedroom layout"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Outdoor kitchen",
+            "Ensuite bathroom",
+            "Spa-like bathroom",
+            "Brick and ivy garden",
+            "Split bedroom layout",
+            "Incredible closet space",
+            "Deep soaking tub"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Chelsea"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/261-W-25th-St-APT-1D-New-York-NY-10001/2098185978_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Corcoran"
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Corcoran",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 12:39:28",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Cory Kantin",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1787196",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "917-842-9092",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10301208382",
+        "memberFullName": "Cory Kantin",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "917-842-9092",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "917-842-9092",
+    "lastChecked": "2025-09-12 08:36:02"
+  },
+  "priceChangeDateString": "2025-09-03",
+  "photoCount": 20,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2015",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$2,097 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,802",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Garden"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$2,097 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": [
+      "Garden",
+      "Terrace"
+    ],
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://www.youtube.com/v/skd_nIUB3hI?feature=share"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,329 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$2,097 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$2,097 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Washer/Dryer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": "The Seymour",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Doorman"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.youtube.com/v/skd_nIUB3hI?feature=share",
+    "contingency": null,
+    "yearBuilt": 2015,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 34164,
+    "subdivisionName": "Chelsea",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756857600000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Elevator(s)",
+      "Concierge"
+    ],
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$2,097 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Doorman"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$2,097 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "1,329",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Other",
+      "Terrace"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Maintenance"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1802,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683787044
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683787044
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757683787044
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 12,
+  "livingArea": 1329,
+  "zestimateHighPercent": null,
+  "mlsid": "S1787196",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2745138852",
+  "country": "USA",
+  "price": 2395000,
+  "priceChangeDate": 1756857600000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:14.778362+00:00",
+    "zpid": "2098185978",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

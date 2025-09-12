@@ -1,0 +1,1720 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.32971,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2e404236c4b812698ad065013a04880d-p_d.jpg",
+  "livingAreaValue": 568,
+  "streetAddress": "1400 Hubbell Place #1203",
+  "county": "King County",
+  "monthlyHoaFee": 720,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726156000151,
+      "valueIncreaseRate": -0.056300268,
+      "taxIncreaseRate": -0.040409356,
+      "taxPaid": 3279.19,
+      "value": 352000
+    },
+    {
+      "time": 1694533600151,
+      "valueIncreaseRate": 0.04775281,
+      "taxIncreaseRate": 0.16656992,
+      "taxPaid": 3417.28,
+      "value": 373000
+    },
+    {
+      "time": 1662997600151,
+      "valueIncreaseRate": -0.019283747,
+      "taxIncreaseRate": -0.09637634,
+      "taxPaid": 2929.34,
+      "value": 356000
+    },
+    {
+      "time": 1631461600151,
+      "valueIncreaseRate": 0.01396648,
+      "taxIncreaseRate": -0.03763638,
+      "taxPaid": 3241.77,
+      "value": 363000
+    },
+    {
+      "time": 1599925600151,
+      "valueIncreaseRate": -0.082051285,
+      "taxIncreaseRate": -0.07281662,
+      "taxPaid": 3368.55,
+      "value": 358000
+    },
+    {
+      "time": 1568303200151,
+      "valueIncreaseRate": 0.13372093,
+      "taxIncreaseRate": 0.26133975,
+      "taxPaid": 3633.1,
+      "value": 390000
+    },
+    {
+      "time": 1536767200151,
+      "valueIncreaseRate": 0.17406143,
+      "taxIncreaseRate": 0.018219689,
+      "taxPaid": 2880.35,
+      "value": 344000
+    },
+    {
+      "time": 1505231200151,
+      "valueIncreaseRate": 0.109848484,
+      "taxIncreaseRate": 0.61774784,
+      "taxPaid": 2828.81,
+      "value": 293000
+    },
+    {
+      "time": 1473695200151,
+      "valueIncreaseRate": 0.25118482,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1748.61,
+      "value": 264000
+    },
+    {
+      "time": 1442072800151,
+      "valueIncreaseRate": 0.13440861,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1748.61,
+      "value": 211000
+    },
+    {
+      "time": 1410536800151,
+      "valueIncreaseRate": 0.2236842,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1748.61,
+      "value": 186000
+    },
+    {
+      "time": 1379000800151,
+      "valueIncreaseRate": 0.15151516,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1748.61,
+      "value": 152000
+    },
+    {
+      "time": 1347464800151,
+      "valueIncreaseRate": -0.15384616,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 132000
+    },
+    {
+      "time": 1315842400151,
+      "valueIncreaseRate": -0.24271844,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 156000
+    },
+    {
+      "time": 1284306400151,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 206000
+    },
+    {
+      "time": 1252770400151,
+      "valueIncreaseRate": 0.101604275,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 206000
+    },
+    {
+      "time": 1189612000151,
+      "valueIncreaseRate": 0.119760476,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 187000
+    },
+    {
+      "time": 1158076000151,
+      "valueIncreaseRate": 0.04375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 167000
+    },
+    {
+      "time": 1126540000151,
+      "valueIncreaseRate": 0.17216118,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 160000
+    },
+    {
+      "time": 1000309600151,
+      "valueIncreaseRate": 0.05,
+      "taxIncreaseRate": -0.012029738,
+      "taxPaid": 1568.63,
+      "value": 136500
+    },
+    {
+      "time": 968773600151,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1587.73,
+      "value": 130000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1617,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUz3v3ikyhozyh_7q4l7",
+    "review_count": 102,
+    "display_name": "Ryan Rockwell",
+    "profile_url": "https://www.zillow.com/profile/Ryan-Rockwell/",
+    "business_name": "COMPASS",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "963",
+      "areacode": "206",
+      "number": "2022"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/b20c68675945790544b3b0b7f33fbd8b-h_n.jpg"
+  },
+  "yearBuilt": 1957,
+  "brokerageName": "COMPASS",
+  "description": "Updated SW facing corner unit with spectacular views of Seattle City skyline. Spacious open floor plan with remolded kitchen and bathroom, hardwood & tile floors. Many recent impressive upgrades including an opened-up kitchen looking onto the family room and Laundry in the unit.  Deeded parking space in fully secure underground garage & storage. Ideal location. Steps away from restaurants, shops, theaters & nightlife. Dues include cable, water, heat, hot water, sewer, garbage & concierge. 2 roof top decks, rec room, guest suite, dog walk area. No rent restrictions.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1400-hubbell-pl-apt-1203-seattle-wa-98101/531171022_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1400-hubbell-pl-apt-1203-seattle-wa-98101/531171022_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1400-hubbell-pl-apt-1203-seattle-wa-98101/531171022_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1400-hubbell-pl-apt-1203-seattle-wa-98101/531171022_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1400-hubbell-pl-apt-1203-seattle-wa-98101/531171022_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.61215,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 303"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-303-Seattle-WA-98101/48788895_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 303",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 303500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2f4e5459bd9b9c602cd44d4bb2fa7706-p_c.jpg"
+        }
+      ],
+      "zpid": 48788895,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 569,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 569
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 307"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-307-Seattle-WA-98101/48788896_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 307",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 389900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4b9838f03b404f52ace830e22676231f-p_c.jpg"
+        }
+      ],
+      "zpid": 48788896,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 802,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 802
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 409"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-409-Seattle-WA-98101/48788898_zpid/",
+      "lotAreaValue": 0.5915,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 409",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 339700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 25765,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7e285133e70e00ddf6891f5f70430ad7-p_c.jpg"
+        }
+      ],
+      "zpid": 48788898,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 706,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 706
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 506"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-506-Seattle-WA-98101/48788899_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 506",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 287600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a0e9261bcbd12605fd632144860515ec-p_c.jpg"
+        }
+      ],
+      "zpid": 48788899,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 572,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 572
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 511"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-511-Seattle-WA-98101/48788900_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 511",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 322000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a4d1c31c200fceabafa5f66a58f4dca1-p_c.jpg"
+        }
+      ],
+      "zpid": 48788900,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 660,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 660
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 707"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-707-Seattle-WA-98101/48788901_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 707",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 417000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5a4bda0bf392a1ed169f88bda5c39463-p_c.jpg"
+        }
+      ],
+      "zpid": 48788901,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 802,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 802
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 803"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-803-Seattle-WA-98101/48788904_zpid/",
+      "lotAreaValue": 0.5915,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 803",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 310600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 25765,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/35b101a97b1544d39d9f6de3133c258d-p_c.jpg"
+        }
+      ],
+      "zpid": 48788904,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 568,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 568
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 1006"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-1006-Seattle-WA-98101/48788906_zpid/",
+      "lotAreaValue": 0.5915,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 1006",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 400600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 25765,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ced518d44432205bc7040509bce296b4-p_c.jpg"
+        }
+      ],
+      "zpid": 48788906,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 714,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 714
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Hubbell Pl APT 1308"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Hubbell-Pl-APT-1308-Seattle-WA-98101/48788908_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1400 Hubbell Pl APT 1308",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 301200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0e4445be6dd64c11f89848240f4c2770-p_c.jpg"
+        }
+      ],
+      "zpid": 48788908,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 574,
+      "longitude": -122.32971,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 574
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.084507042253521,
+      "date": "2025-09-05",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1757030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2429414"
+      },
+      "pricePerSquareFoot": 678,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 385000
+    },
+    {
+      "priceChangeRate": -0.013751909987498,
+      "date": "2017-11-06",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1509926400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1200302"
+      },
+      "pricePerSquareFoot": 625,
+      "buyerAgent": {
+        "name": "Ryan Rockwell",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/IS7qvj25ij7zuq0000000000.jpg"
+        },
+        "profileUrl": "/profile/Ryan-Rockwell/"
+      },
+      "event": "Sold",
+      "price": 355000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-10-05",
+      "source": "Windermere Real Estate/Wall Street, Inc.",
+      "postingIsRental": false,
+      "time": 1507161600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate/Wall Street, Inc.",
+        "infoString3": null,
+        "infoString1": "1200302"
+      },
+      "pricePerSquareFoot": 634,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 359950
+    },
+    {
+      "priceChangeRate": 1.5905001799208,
+      "date": "2017-09-29",
+      "source": "Windermere Real Estate/Wall Street, Inc.",
+      "postingIsRental": false,
+      "time": 1506643200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate/Wall Street, Inc.",
+        "infoString3": null,
+        "infoString1": "1200302"
+      },
+      "pricePerSquareFoot": 634,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 359950
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1998-02-06",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 886723200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 245,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 138950
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2e404236c4b812698ad065013a04880d-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2057,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "Capitol Hill",
+    "streetAddress": "1400 Hubbell Place #1203",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "7 days",
+  "priceChange": null,
+  "zestimate": 371900,
+  "zpid": 58383120,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 128,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Corner unit",
+            "Open floor plan",
+            "Opened-up kitchen",
+            "Tile floors"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Corner unit",
+            "Open floor plan",
+            "Opened-up kitchen",
+            "Tile floors"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "First Hill"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/1400-Hubbell-Pl-APT-1203-Seattle-WA-98101/58383120_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "COMPASS"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "COMPASS",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-08 09:43:19",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Ryan Rockwell",
+    "attributionTitle": null,
+    "mlsId": "2429414",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "206-963-2022",
+    "listingAgents": [
+      {
+        "memberStateLicense": "12962",
+        "memberFullName": "Ryan Rockwell",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "206-963-2022",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "206-330-0314",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 16,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Hardwood",
+      "Laminate"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 352000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1957",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Radiator, Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "None",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Carport space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$720 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "7 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$678",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Lake",
+      "Mountain(s)",
+      "Partial",
+      "Sound",
+      "Territorial"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "206-706-8000",
+        "name": null,
+        "fee": "$720 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Company: HOA"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)"
+    ],
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.59 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "568 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out,Conventional",
+    "otherParking": null,
+    "associationFee": "$720 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "206-706-8000",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 1,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Curbs",
+      "Paved",
+      "Sidewalk"
+    ],
+    "roofType": "Flat",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 7,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Lowell",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement/Concrete"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$720 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Cooking - Electric Hookup",
+      "Cooking-Electric",
+      "Ice Maker"
+    ],
+    "sewer": [
+      "Company: HOA"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": "Elektra",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "8 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Cable TV",
+      "Elevator",
+      "Game/Rec Rm",
+      "Lobby Entrance",
+      "Rooftop Deck"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Meany Mid",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1957,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "2248901410",
+    "incomeIncludes": null,
+    "highSchool": "Garfield High",
+    "taxAnnualAmount": 3279,
+    "subdivisionName": "Capitol Hill",
+    "storiesTotal": 16,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Insulated Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756944000000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": false,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$720 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Carport"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 200,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$720 monthly",
+        "name": null,
+        "phone": "206-706-8000"
+      }
+    ],
+    "waterView": "Lake,Sound",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "None"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "568",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Cooking-Electric",
+      "End Unit",
+      "Ice Maker",
+      "Insulated Windows"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Common Area"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Radiator",
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Central Hot Water",
+      "Concierge",
+      "Earthquake Insurance",
+      "Internet",
+      "Sewer",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 678,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-05",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.089,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686511537
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.453,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686511537
+    },
+    "arm5Bucket": {
+      "rate": 6.558,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757686511537
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 6,
+  "livingArea": 568,
+  "zestimateHighPercent": "5",
+  "mlsid": "2429414",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001467697",
+  "country": "USA",
+  "price": 385000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:40.694930+00:00",
+    "zpid": "58383120",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

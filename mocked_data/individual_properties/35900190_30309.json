@@ -1,0 +1,1845 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.39017,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/30f72d1490e548b241e7771cbd57e42c-p_d.jpg",
+  "livingAreaValue": 2748,
+  "streetAddress": "42 Camden Rd NE",
+  "county": "Fulton County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155884381,
+      "valueIncreaseRate": 0.7016422,
+      "taxIncreaseRate": 0.33740163,
+      "taxPaid": 12798.76,
+      "value": 617560
+    },
+    {
+      "time": 1694533484381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.2235576,
+      "taxPaid": 9569.87,
+      "value": 362920
+    },
+    {
+      "time": 1662997484381,
+      "valueIncreaseRate": -0.04090909,
+      "taxIncreaseRate": 0.1040705,
+      "taxPaid": 12325.28,
+      "value": 362920
+    },
+    {
+      "time": 1631461484381,
+      "valueIncreaseRate": 0.15718654,
+      "taxIncreaseRate": -0.17538372,
+      "taxPaid": 11163.49,
+      "value": 378400
+    },
+    {
+      "time": 1599925484381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.18056814,
+      "taxPaid": 13537.8,
+      "value": 327000
+    },
+    {
+      "time": 1568303084381,
+      "valueIncreaseRate": -0.14594652,
+      "taxIncreaseRate": 0,
+      "taxPaid": 11467.19,
+      "value": 327000
+    },
+    {
+      "time": 1536767084381,
+      "valueIncreaseRate": 0.27626666,
+      "taxIncreaseRate": 0,
+      "taxPaid": 11467.19,
+      "value": 382880
+    },
+    {
+      "time": 1505231084381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.0344142,
+      "taxPaid": 11467.19,
+      "value": 300000
+    },
+    {
+      "time": 1473695084381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.12444043,
+      "taxPaid": 11875.89,
+      "value": 300000
+    },
+    {
+      "time": 1442072684381,
+      "valueIncreaseRate": 0.14942528,
+      "taxIncreaseRate": 0.0036042263,
+      "taxPaid": 10561.6,
+      "value": 300000
+    },
+    {
+      "time": 1410536684381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 10523.67,
+      "value": 261000
+    },
+    {
+      "time": 1379000684381,
+      "valueIncreaseRate": 0.11557531,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 261000
+    },
+    {
+      "time": 1347464684381,
+      "valueIncreaseRate": -0.10360153,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9114.84,
+      "value": 233960
+    },
+    {
+      "time": 1315842284381,
+      "valueIncreaseRate": -0.09450458,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 261000
+    },
+    {
+      "time": 1284306284381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 11557.4,
+      "value": 288240
+    },
+    {
+      "time": 1252770284381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 288240
+    },
+    {
+      "time": 1221234284381,
+      "valueIncreaseRate": -0.000138754,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 288240
+    },
+    {
+      "time": 1189611884381,
+      "valueIncreaseRate": 0.071513526,
+      "taxIncreaseRate": -0.66709435,
+      "taxPaid": 2542.87,
+      "value": 288280
+    },
+    {
+      "time": 1126539884381,
+      "valueIncreaseRate": 0.0309626,
+      "taxIncreaseRate": 1.6935929,
+      "taxPaid": 7638.41,
+      "value": 269040
+    },
+    {
+      "time": 1095003884381,
+      "valueIncreaseRate": 0.05039446,
+      "taxIncreaseRate": -0.0027850864,
+      "taxPaid": 2835.77,
+      "value": 260960
+    },
+    {
+      "time": 1063381484381,
+      "valueIncreaseRate": 0.087931335,
+      "taxIncreaseRate": 0.05671345,
+      "taxPaid": 2843.69,
+      "value": 248440
+    },
+    {
+      "time": 1031845484381,
+      "valueIncreaseRate": 0.08742857,
+      "taxIncreaseRate": -0.67174745,
+      "taxPaid": 2691.07,
+      "value": 228360
+    },
+    {
+      "time": 1000309484381,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8198.17,
+      "value": 210000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 6720,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUzzqpfluvlert_3tnpz",
+    "review_count": 16,
+    "display_name": "Sheila Lantier",
+    "profile_url": "https://www.zillow.com/profile/zuser20141026130248027/",
+    "business_name": "Harry Norman Realtors",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "545",
+      "areacode": "404",
+      "number": "3585"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/20bb9d1f143848ec4f31ad494bed5ea6-h_n.jpg"
+  },
+  "yearBuilt": 1929,
+  "brokerageName": "Harry Norman Realtors",
+  "description": "Located in coveted Brookwood Hills.  This neighborhood is known for its exclusivity, tree-lined sidewalks, timeless architecture and great amenities. 42 Camden captures the most discerning buyer\u2019s attention the moment they walk through the door. This beauty captivates the eye with its elegant tone- high ceilings, arched doorways and Nancy Myers inspired kitchen. The main level was designed for gathering-with the bright and inviting open floor plan, thoughtfully designed for both everyday living and effortless entertaining. Two fireside living areas flow seamlessly into the dining space and designer kitchen, creating a warm and connected atmosphere. Expansive windows fill the rooms with natural light, while the open design allows guests to mingle with ease. Whether hosting a gathering or enjoying a quiet evening in, the layout encourages connection and conversation, all while offering plenty of room to relax and entertain in style.  Upstairs, the owner\u2019s suite is spacious and inviting. A walk-in closet provides ample storage and organization, while the spa-like bath with vaulted ceiling features dual vanities, a soaking tub, and a separate glass-enclosed shower. There are two additional spacious bedrooms (one with an en-suite bath), gleaming hardwoods and ample storage. The driveway leads to the professionally landscaped outdoor dining and living area and detached garage offers plenty of storage. Voluntary membership in the Brookwood Hills Community Club is available immediately to neighborhood residents.  Residents enjoy proximity to high-end shopping, dining, and excellent schools.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/42-camden-rd-ne-atlanta-ga-30309/132179173_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/42-camden-rd-ne-atlanta-ga-30309/132179173_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/42-camden-rd-ne-atlanta-ga-30309/132179173_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/42-camden-rd-ne-atlanta-ga-30309/132179173_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/42-camden-rd-ne-atlanta-ga-30309/132179173_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.808186,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "38 Camden Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/38-Camden-Rd-NE-Atlanta-GA-30309/35900189_zpid/",
+      "lotAreaValue": 8398,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "38 Camden Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808117,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1529100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8398,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e717173bd083f5e5e1704b34b9efc70c-p_c.jpg"
+        }
+      ],
+      "zpid": 35900189,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3400,
+      "longitude": -84.39034,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3400
+    },
+    {
+      "bathrooms": 4.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "46 Camden Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/46-Camden-Rd-NE-Atlanta-GA-30309/35900191_zpid/",
+      "lotAreaValue": 8398,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "46 Camden Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808258,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1711300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8398,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=46+Camden+Rd+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=LZtdetaWq2_CdZlCkWzpotgdxj4="
+        }
+      ],
+      "zpid": 35900191,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3282,
+      "longitude": -84.389984,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3282
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "34 Camden Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/34-Camden-Rd-NE-Atlanta-GA-30309/35900228_zpid/",
+      "lotAreaValue": 9099,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "34 Camden Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808044,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1547900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9099,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=34+Camden+Rd+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=0uOeeVWruB_OkDEc_KdZLc6J78M="
+        }
+      ],
+      "zpid": 35900228,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3136,
+      "longitude": -84.390526,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3136
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "50 Camden Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/50-Camden-Rd-NE-Atlanta-GA-30309/35900192_zpid/",
+      "lotAreaValue": 8407,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "50 Camden Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.80833,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1406700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8407,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b12749e5e89a8eebf2942b9b4d3ccbd3-p_c.jpg"
+        }
+      ],
+      "zpid": 35900192,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2692,
+      "longitude": -84.3898,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2692
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "69 Brighton Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/69-Brighton-Rd-NE-Atlanta-GA-30309/35900176_zpid/",
+      "lotAreaValue": 9060,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "69 Brighton Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808506,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2312800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9060,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5b5581c1aea4cc5101fede9fdd0cfac8-p_c.jpg"
+        }
+      ],
+      "zpid": 35900176,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6537,
+      "longitude": -84.39042,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6537
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "79 Brighton Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/79-Brighton-Rd-NE-Atlanta-GA-30309/35900175_zpid/",
+      "lotAreaValue": 9099,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "79 Brighton Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808582,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1591700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9099,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=79+Brighton+Rd+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=mQ6sUqRgG5B06rUtvZwHVIxy3Zo="
+        }
+      ],
+      "zpid": 35900175,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3632,
+      "longitude": -84.39023,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3632
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "67 Brighton Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/67-Brighton-Rd-NE-Atlanta-GA-30309/35900177_zpid/",
+      "lotAreaValue": 9104,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "67 Brighton Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808434,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1901600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9104,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8a52fdc0b617d0e26ac619f0b81567b6-p_c.jpg"
+        }
+      ],
+      "zpid": 35900177,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3400,
+      "longitude": -84.3906,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3400
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "83 Brighton Rd NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/83-Brighton-Rd-NE-Atlanta-GA-30309/35900174_zpid/",
+      "lotAreaValue": 9099,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "83 Brighton Rd NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.808662,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1585300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9099,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=83+Brighton+Rd+NE%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=dBec0-WPeOOjPQvjcSJYqD8btJ8="
+        }
+      ],
+      "zpid": 35900174,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3968,
+      "longitude": -84.39003,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3968
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 1.735041025641,
+      "date": "2025-09-12",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7648094"
+      },
+      "pricePerSquareFoot": 582,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1599999
+    },
+    {
+      "priceChangeRate": -0.023372287145242,
+      "date": "2011-11-07",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1320624000000,
+      "sellerAgent": {
+        "name": "Patti Junger",
+        "photo": null,
+        "profileUrl": "/profile/Patti-Junger/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 213,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 585000
+    },
+    {
+      "priceChangeRate": -0.032310177705977,
+      "date": "2011-08-29",
+      "source": "Dorsey Alston",
+      "postingIsRental": false,
+      "time": 1314576000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dorsey Alston",
+        "infoString3": null,
+        "infoString1": "4240237"
+      },
+      "pricePerSquareFoot": 218,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 599000
+    },
+    {
+      "priceChangeRate": -0.046224961479199,
+      "date": "2011-08-19",
+      "source": "Dorsey Alston",
+      "postingIsRental": false,
+      "time": 1313712000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dorsey Alston",
+        "infoString3": null,
+        "infoString1": "4240237"
+      },
+      "pricePerSquareFoot": 225,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 619000
+    },
+    {
+      "priceChangeRate": -0.13351134846462,
+      "date": "2011-04-21",
+      "source": "Coldwell Banker Residential Brokerage - Buckhead",
+      "postingIsRental": false,
+      "time": 1303344000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Residential Brokerage - Buckhead",
+        "infoString3": null,
+        "infoString1": "4136273"
+      },
+      "pricePerSquareFoot": 236,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": 0.071530758226037,
+      "date": "2011-02-22",
+      "source": "NRT Atlanta",
+      "postingIsRental": false,
+      "time": 1298332800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NRT Atlanta",
+        "infoString3": null,
+        "infoString1": "2958858"
+      },
+      "pricePerSquareFoot": 273,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 749000
+    },
+    {
+      "priceChangeRate": -0.06675567423231,
+      "date": "2011-02-20",
+      "source": "NRT Atlanta",
+      "postingIsRental": false,
+      "time": 1298160000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NRT Atlanta",
+        "infoString3": null,
+        "infoString1": "2958858"
+      },
+      "pricePerSquareFoot": 254,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 699000
+    },
+    {
+      "priceChangeRate": 0.89620253164557,
+      "date": "2010-10-16",
+      "source": "NRT Atlanta",
+      "postingIsRental": false,
+      "time": 1287187200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NRT Atlanta",
+        "infoString3": null,
+        "infoString1": "2958858"
+      },
+      "pricePerSquareFoot": 273,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 749000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1993-10-27",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 751680000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 144,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 395000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/30f72d1490e548b241e7771cbd57e42c-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 0.7,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 5.1,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4735,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Brookwood Hills",
+    "streetAddress": "42 Camden Rd NE",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "11 hours",
+  "priceChange": null,
+  "zestimate": 1539200,
+  "zpid": 35900190,
+  "countyId": 1020,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 161,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "High ceilings",
+            "Detached garage",
+            "Gleaming hardwoods",
+            "Open floor plan",
+            "Expansive windows",
+            "Walk-in closet",
+            "Nancy myers inspired kitchen"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "High ceilings",
+            "Detached garage",
+            "Gleaming hardwoods",
+            "Open floor plan",
+            "Expansive windows",
+            "Walk-in closet",
+            "Nancy myers inspired kitchen"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Brookwood Hills"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/42-Camden-Rd-NE-Atlanta-GA-30309/35900190_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Harry Norman Realtors"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Harry Norman Realtors",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 07:45:12",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Sheila Lantier",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7648094",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-545-3585",
+    "listingAgents": [
+      {
+        "memberStateLicense": "353934",
+        "memberFullName": "Sheila Lantier",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-545-3585",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 61,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Concrete Perimeter"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1543900,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1929",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "8,407 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$582",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Neighborhood"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "None",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "None"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "None"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Double Vanity",
+          " Separate Tub/Shower",
+          " Soaking Tub",
+          " Vaulted Ceiling(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept",
+          " Separate Dining Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Breakfast Room",
+          " Cabinets White",
+          " Eat-in Kitchen",
+          " Kitchen Island",
+          " Pantry",
+          " Pantry Walk-In",
+          " Stone Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 0,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Garden",
+      "Gas Grill",
+      "Permeable Paving",
+      "Private Yard",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "8,407 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/42-Camden-Road-NE-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,748 sqft",
+    "commonWalls": "No Common Walls",
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 3,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Bookcases",
+      "Crown Molding",
+      "Double Vanity",
+      "High Ceilings 9 ft Lower",
+      "His and Hers Closets",
+      "Vaulted Ceiling(s)",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Front Yard",
+      "Landscaped",
+      "Private"
+    ],
+    "roofType": "Composition,Tile",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "E. Rivers",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick 3 Sides",
+      "HardiPlank Type"
+    ],
+    "fireplaceFeatures": [
+      "Decorative",
+      "Family Room",
+      "Gas Log",
+      "Living Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Electric Oven",
+      "Gas Cooktop",
+      "Gas Water Heater",
+      "Microwave",
+      "Refrigerator",
+      "Self Cleaning Oven",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard,Fenced,Wood",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Near Beltline",
+      "Near Public Transport",
+      "Near Schools",
+      "Near Shopping",
+      "Park",
+      "Pickleball",
+      "Playground",
+      "Pool",
+      "Swim Team",
+      "Tennis Court(s)"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.propertypanorama.com/42-Camden-Road-NE-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 1929,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Phone Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 011000040502",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 12799,
+    "subdivisionName": "Brookwood Hills",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Plantation Shutters",
+      "Shutters"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757635200000,
+    "roomTypes": [
+      "Basement",
+      "Bathroom",
+      "Bedroom",
+      "Dining Room",
+      "Family Room",
+      "Kitchen",
+      "Laundry",
+      "Living Room",
+      "Sun Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Detached",
+      "Driveway",
+      "Garage",
+      "Garage Door Opener",
+      "Garage Faces Front",
+      "Kitchen Level"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": true,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "2,748",
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "220 Volts in Laundry"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "Interior Entry,Partial,Unfinished",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 3,
+    "buildingArea": "2,748",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio",
+      "Screened",
+      "Side Porch"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "Laundry Room",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 2,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 582,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-12",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.333,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690726575
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.396,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690726575
+    },
+    "arm5Bucket": {
+      "rate": 6.015,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690726575
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 2748,
+  "zestimateHighPercent": "5",
+  "mlsid": "7648094",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 1599999,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:44.951589+00:00",
+    "zpid": "35900190",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

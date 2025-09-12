@@ -1,0 +1,1659 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.42068,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/6351c24dbded8fbd522cb42eb6539e72-p_d.jpg",
+  "livingAreaValue": 6254,
+  "streetAddress": "1600 Summitridge Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155790928,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0.009426491,
+      "taxPaid": 97233.95,
+      "value": 8037090
+    },
+    {
+      "time": 1694533390928,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0.06000149,
+      "taxPaid": 96325.94,
+      "value": 7879500
+    },
+    {
+      "time": 1662997390928,
+      "valueIncreaseRate": 0.20182621,
+      "taxIncreaseRate": 0.19041635,
+      "taxPaid": 90873.4,
+      "value": 7725000
+    },
+    {
+      "time": 1631461390928,
+      "valueIncreaseRate": 0.010359945,
+      "taxIncreaseRate": -0.009568101,
+      "taxPaid": 76337.49,
+      "value": 6427718
+    },
+    {
+      "time": 1599925390928,
+      "valueIncreaseRate": 0.01999994,
+      "taxIncreaseRate": 0,
+      "taxPaid": 77074.95,
+      "value": 6361810
+    },
+    {
+      "time": 1568302990928,
+      "valueIncreaseRate": 0.019999921,
+      "taxIncreaseRate": 0.045247983,
+      "taxPaid": 77074.95,
+      "value": 6237069
+    },
+    {
+      "time": 1536766990928,
+      "valueIncreaseRate": 0.01999991,
+      "taxIncreaseRate": 0,
+      "taxPaid": 73738.44,
+      "value": 6114774
+    },
+    {
+      "time": 1505230990928,
+      "valueIncreaseRate": 0.019999895,
+      "taxIncreaseRate": 0.022387626,
+      "taxPaid": 73738.44,
+      "value": 5994877
+    },
+    {
+      "time": 1473694990928,
+      "valueIncreaseRate": 0.015249828,
+      "taxIncreaseRate": 0.022354422,
+      "taxPaid": 72123.76,
+      "value": 5877331
+    },
+    {
+      "time": 1442072590928,
+      "valueIncreaseRate": 0.019979734,
+      "taxIncreaseRate": 0.012404844,
+      "taxPaid": 70546.73,
+      "value": 5789049
+    },
+    {
+      "time": 1410536590928,
+      "valueIncreaseRate": 0.013509107,
+      "taxIncreaseRate": 0,
+      "taxPaid": 69682.33,
+      "value": 5675651
+    },
+    {
+      "time": 1347464590928,
+      "valueIncreaseRate": 0.20017146,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 5600000
+    },
+    {
+      "time": 1315842190928,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 4666000
+    },
+    {
+      "time": 1284306190928,
+      "valueIncreaseRate": -0.21561903,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 4666000
+    },
+    {
+      "time": 1252770190928,
+      "valueIncreaseRate": 0.5946194,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 5948640
+    },
+    {
+      "time": 1221234190928,
+      "valueIncreaseRate": 0.019999726,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 3730445
+    },
+    {
+      "time": 1189611790928,
+      "valueIncreaseRate": 0.044942856,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 3657300
+    },
+    {
+      "time": 1158075790928,
+      "valueIncreaseRate": 12.837602,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 3500000
+    },
+    {
+      "time": 1126539790928,
+      "valueIncreaseRate": 0.040388294,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 252934
+    },
+    {
+      "time": 1095003790928,
+      "valueIncreaseRate": 0.018662455,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 243115
+    },
+    {
+      "time": 1063381390928,
+      "valueIncreaseRate": 0.019997265,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 238661
+    },
+    {
+      "time": 1031845390928,
+      "valueIncreaseRate": 0.040391643,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 233982
+    },
+    {
+      "time": 968773390928,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 224898
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 33579,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyjqzplbgod8p_7oq0q",
+    "review_count": 0,
+    "display_name": "The Beverly Hills Estates",
+    "profile_url": "https://www.zillow.com/profile/TBHE/",
+    "business_name": "The Beverly Hills Estates",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "626",
+      "areacode": "310",
+      "number": "4248"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/d256d95b3be727011b2b7a4fbf5f604d-h_n.jpg"
+  },
+  "yearBuilt": 1942,
+  "brokerageName": "The Beverly Hills Estates",
+  "description": "At the crest of the mountain, where city lights dissolve into the endless ocean, rises a South Hampton inspired Georgian Estate. Inside, soaring ceilings and walls of French doors flood every room with natural light, while rich dark hardwood floors ground the interiors in timeless elegance. The primary suite commands its own private wing, a sanctuary of serenity, while four guest suites and six bespoke bathrooms offer comfort and privacy for family and friends. At the heart of the home, a chef's kitchen flows seamlessly into a family room, an entertainer's dream designed for both intimate evenings and grand gatherings. Four dramatic fireplaces lend warmth throughout. Beyond the residence, manicured gardens frame a sparkling resort-style pool, and expansive terraces provide multiple settings for alfresco dining, sunset cocktails, and quiet reflection. This is more than a home, it is a legacy estate, crafted with impeccable provenance and positioned to capture the most breathtaking views of both city and sea. A once-in-a-lifetime opportunity to own a residence destined to be treasured for generations.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1600-summitridge-dr-beverly-hills-ca-90210/601371647_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1600-summitridge-dr-beverly-hills-ca-90210/601371647_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0024000001139939
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.01480000000447
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.027699999511242
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.041200000792742
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.05519999936223
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.069700002670288
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.084700003266335
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1600-summitridge-dr-beverly-hills-ca-90210/601371647_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1600-summitridge-dr-beverly-hills-ca-90210/601371647_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1600-summitridge-dr-beverly-hills-ca-90210/601371647_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.099705,
+  "nearbyHomes": [
+    {
+      "bathrooms": 8,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1620 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1620-Summitridge-Dr-Beverly-Hills-CA-90210/2097342010_zpid/",
+      "lotAreaValue": 0.339,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1620 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "24-387513",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099876,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2400000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 14766,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6119f2e9db99ee6dc012d769407a58cc-p_c.jpg"
+        }
+      ],
+      "zpid": 2097342010,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 8451,
+      "longitude": -118.42019,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 8451
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1511 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1511-Summitridge-Dr-Beverly-Hills-CA-90210/20523058_zpid/",
+      "lotAreaValue": 1.77318640955,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1511 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099857,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3262400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 77240,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eb5618976e0d5f09a3d0903bad5c6f2-p_c.jpg"
+        }
+      ],
+      "zpid": 20523058,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 8300,
+      "longitude": -118.421234,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 8300
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1540 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1540-Summitridge-Dr-Beverly-Hills-CA-90210/2103751202_zpid/",
+      "lotAreaValue": 0.33868227731864,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1540 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.09973,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 14753,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f227d0d65c1ca2986c6bace5ea9026b3-p_c.jpg"
+        }
+      ],
+      "zpid": 2103751202,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.42004,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 11,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1531 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1531-Summitridge-Dr-Beverly-Hills-CA-90210/20523085_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1531 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "24-378855",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099342,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 17500000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 8,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0aa384d8f90679c0bd1dd8437aa87093-p_c.jpg"
+        }
+      ],
+      "zpid": 20523085,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 11500,
+      "longitude": -118.420166,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 11500
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1551 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1551-Summitridge-Dr-Beverly-Hills-CA-90210/95607288_zpid/",
+      "lotAreaValue": 9680,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1551 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099277,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2143900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9680,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0733576147e4476218c6288926f5cce7-p_c.jpg"
+        }
+      ],
+      "zpid": 95607288,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3600,
+      "longitude": -118.42114,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3600
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.421135,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1551 Summitridge Dr #15",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": null,
+      "lotSize": 9737,
+      "zpid": 2054383541,
+      "livingAreaUnitsShort": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "bathrooms": null,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1551 Summitridge Dr #15"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1551-Summitridge-Dr-15-Beverly-Hills-CA-90210/2054383541_zpid/",
+      "lotAreaValue": 9737,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "OC25055070",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 34.09927,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": null,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7a6c02c20cca22ec2eb3c6fbada7cc6f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1795000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.42081,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1541 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 4015,
+      "lotSize": 41468,
+      "zpid": 20523086,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3.5,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1541 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+      "lotAreaValue": 0.95197428833792,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.09913,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1960,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4015,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9bd9717798e7beefdf0fb99f954ef669-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 4872219,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1530 Summitridge Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1530-Summitridge-Dr-Beverly-Hills-CA-90210/250218744_zpid/",
+      "lotAreaValue": 0.50982552800735,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1530 Summitridge Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099777,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 95791,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22208,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1530+Summitridge+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=trVABry825AsG2VBRhq1Y79CqBE="
+        }
+      ],
+      "zpid": 250218744,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.41976,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.03495145631068,
+      "date": "2025-09-11",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25587199"
+      },
+      "pricePerSquareFoot": 1278,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 7995000
+    },
+    {
+      "priceChangeRate": -0.022151898734177,
+      "date": "2021-12-22",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1640131200000,
+      "sellerAgent": {
+        "name": "Drew Mandile",
+        "photo": null,
+        "profileUrl": "/profile/Drew-Mandile/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21101099"
+      },
+      "pricePerSquareFoot": 1235,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 7725000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-12-13",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1639353600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21101099"
+      },
+      "pricePerSquareFoot": 1263,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 7900000
+    },
+    {
+      "priceChangeRate": 0.39821623006922,
+      "date": "2021-11-05",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1636070400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21101099"
+      },
+      "pricePerSquareFoot": 1263,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 7900000
+    },
+    {
+      "priceChangeRate": 0.047276367006487,
+      "date": "2013-03-26",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1364256000000,
+      "sellerAgent": {
+        "name": "Debra Smalley",
+        "photo": null,
+        "profileUrl": "/profile/zuser20150622164845731/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12598713"
+      },
+      "pricePerSquareFoot": 903,
+      "buyerAgent": {
+        "name": "Drew Mandile",
+        "photo": null,
+        "profileUrl": "/profile/Drew-Mandile/"
+      },
+      "event": "Sold",
+      "price": 5650056
+    },
+    {
+      "priceChangeRate": -0.085593220338983,
+      "date": "2012-02-10",
+      "source": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+      "postingIsRental": false,
+      "time": 1328832000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+        "infoString3": null,
+        "infoString1": "12-598713"
+      },
+      "pricePerSquareFoot": 863,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5395000
+    },
+    {
+      "priceChangeRate": -0.092307692307692,
+      "date": "2011-06-12",
+      "source": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+      "postingIsRental": false,
+      "time": 1307836800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+        "infoString3": null,
+        "infoString1": "11-513975"
+      },
+      "pricePerSquareFoot": 943,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5900000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-03-18",
+      "source": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+      "postingIsRental": false,
+      "time": 1300406400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Residential Brokerage - Beverly Hills South",
+        "infoString3": null,
+        "infoString1": "11-513975"
+      },
+      "pricePerSquareFoot": 1039,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6500000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/6351c24dbded8fbd522cb42eb6539e72-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.2,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 3.3,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 4.4,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 32655,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-21 14:00:00",
+      "endTime": "2025-09-21 17:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "1600 Summitridge Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "18 hours",
+  "priceChange": null,
+  "zestimate": 8731000,
+  "zpid": 20523164,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 367,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Endless ocean",
+            "City lights",
+            "Private wing",
+            "Guest suites",
+            "Sunset cocktails",
+            "Manicured gardens",
+            "Resort-style pool"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Endless ocean",
+            "City lights",
+            "Private wing",
+            "Guest suites",
+            "Sunset cocktails",
+            "Manicured gardens",
+            "Resort-style pool"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "13",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/1600-Summitridge-Dr-Beverly-Hills-CA-90210/20523164_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": "DRE # 01774287",
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "The Beverly Hills Estates"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "The Beverly Hills Estates"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "The Beverly Hills Estates",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 09:16:13",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Rayni Williams",
+    "attributionTitle": null,
+    "mlsId": "25587199",
+    "coAgentName": "Branden Williams",
+    "coAgentNumber": "310-776-0737",
+    "infoString5": "310-626-4248",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 01496786",
+        "memberFullName": "Rayni Williams",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "DRE # 01774287",
+        "memberFullName": "Branden Williams",
+        "associatedAgentType": "coListAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coBuyerAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-626-4248",
+    "agentLicenseNumber": "DRE # 01496786",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-626-4248",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 32,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated And Filtered",
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Carpet"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 8037090,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1942",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Air Conditioning",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.37 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,278",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "City Lights",
+      "Coastline",
+      "Bay",
+      "Park/Greenbelt",
+      "Catalina",
+      "Mountain(s)",
+      "Ocean",
+      "Panoramic",
+      "Pool",
+      "Trees/Woods"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.37 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "6,254 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 5,
+    "architecturalStyle": "Georgian",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Den",
+      "Living Room",
+      "Family Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Refrigerator",
+      "Range/Oven",
+      "Barbeque"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "117 x 130",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1942,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 6,
+    "parcelNumber": "4355008030",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 97234,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757623667000,
+    "roomTypes": [
+      "Bar",
+      "Powder",
+      "Patio Open",
+      "Family Room",
+      "Formal Entry",
+      "Guest-Maids Quarters",
+      "Dining Room",
+      "Dining Area",
+      "Walk-In Pantry"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "LARE40",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Detached",
+      "Garage - 2 Car",
+      "Auto Driveway Gate",
+      "Garage Door Opener"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Other"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": "Coastline,Bay,Catalina,Ocean",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Air Conditioning"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "6,254",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Inside"
+    ],
+    "entryLocation": null,
+    "fireplaces": 4,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1278,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689892004
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689892004
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689892004
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 13,
+  "livingArea": 6254,
+  "zestimateHighPercent": "16",
+  "mlsid": "25587199",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 7995000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:11.445032+00:00",
+    "zpid": "20523164",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

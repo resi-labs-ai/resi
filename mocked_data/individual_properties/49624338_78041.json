@@ -1,0 +1,1510 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 52,
+      "display_name": "Michelle Guerra",
+      "badge_type": "Premier Agent",
+      "business_name": "MG Texas Real Estate",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "324",
+        "areacode": "956",
+        "number": "2427"
+      },
+      "zuid": "X1-ZU10a9xpmrc6e4p_1vfad",
+      "image_url": "https://photos.zillowstatic.com/fp/be82a6fa46ebccc7b997a0cdeafa7ac7-h_g.jpg"
+    }
+  ],
+  "longitude": -99.489746,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f20ae38ab91fdf1df71fefc0b81878a6-p_d.jpg",
+  "livingAreaValue": 1864,
+  "streetAddress": "107 Kansas St",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155757854,
+      "valueIncreaseRate": 0.028577223,
+      "taxIncreaseRate": -0.01122266,
+      "taxPaid": 1368.28,
+      "value": 218081
+    },
+    {
+      "time": 1694533357854,
+      "valueIncreaseRate": 0.1609692,
+      "taxIncreaseRate": 0.36901104,
+      "taxPaid": 1383.81,
+      "value": 212022
+    },
+    {
+      "time": 1662997357854,
+      "valueIncreaseRate": 0.09999819,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1010.81,
+      "value": 182625
+    },
+    {
+      "time": 1631461357854,
+      "valueIncreaseRate": 0.02394844,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 166023
+    },
+    {
+      "time": 1599925357854,
+      "valueIncreaseRate": -0.010617525,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 162140
+    },
+    {
+      "time": 1568302957854,
+      "valueIncreaseRate": 0.06831812,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 163880
+    },
+    {
+      "time": 1536766957854,
+      "valueIncreaseRate": -0.052033123,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 153400
+    },
+    {
+      "time": 1505230957854,
+      "valueIncreaseRate": 0.07686165,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 161820
+    },
+    {
+      "time": 1473694957854,
+      "valueIncreaseRate": 0.016299201,
+      "taxIncreaseRate": 0.011697139,
+      "taxPaid": 3002.12,
+      "value": 150270
+    },
+    {
+      "time": 1442072557854,
+      "valueIncreaseRate": 0.03384142,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2967.41,
+      "value": 147860
+    },
+    {
+      "time": 1410536557854,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2967.41,
+      "value": 143020
+    },
+    {
+      "time": 1379000557854,
+      "valueIncreaseRate": -0.018596034,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 143020
+    },
+    {
+      "time": 1347464557854,
+      "valueIncreaseRate": -0.034708884,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 145730
+    },
+    {
+      "time": 1315842157854,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 150970
+    },
+    {
+      "time": 1284306157854,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 150970
+    },
+    {
+      "time": 1252770157854,
+      "valueIncreaseRate": 0.031497676,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 150970
+    },
+    {
+      "time": 1221234157854,
+      "valueIncreaseRate": 0.049401306,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 146360
+    },
+    {
+      "time": 1189611757854,
+      "valueIncreaseRate": 0.060044084,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 139470
+    },
+    {
+      "time": 1158075757854,
+      "valueIncreaseRate": 0.068979524,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 131570
+    },
+    {
+      "time": 1126539757854,
+      "valueIncreaseRate": 0.021665145,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 123080
+    },
+    {
+      "time": 1095003757854,
+      "valueIncreaseRate": 0.0770675,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 120470
+    },
+    {
+      "time": 1063381357854,
+      "valueIncreaseRate": 0.07249017,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111850
+    },
+    {
+      "time": 1031845357854,
+      "valueIncreaseRate": 0.07128916,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 104290
+    },
+    {
+      "time": 1000309357854,
+      "valueIncreaseRate": 0.05084197,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 97350
+    },
+    {
+      "time": 968773357854,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 92640
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1121,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUxi7vxdz1yzgp_9prla",
+    "review_count": 69,
+    "display_name": "Leo Saenz",
+    "profile_url": "https://www.zillow.com/profile/Leo-Saenz/",
+    "business_name": "Better Homes & Gardens Real Estate",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "740",
+      "areacode": "956",
+      "number": "7381"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/3c09cc4e17e1c62635f36f848a425f40-h_n.jpg"
+  },
+  "yearBuilt": 1978,
+  "brokerageName": "Better Homes & Gardens Real Estate",
+  "description": "NEW listing to hit Laredo! This sizable home provides ample space for entertaining and family gatherings , both indoors and out! Brick home, large lot and a beautiful Pool are some of the features outside of this charming home. The inside of the home is just as inviting with a cozy fireplace, butcher block countertops in the kitchen and a spacious layout. Don't miss out, make your appointments today!!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/107-kansas-st-laredo-tx-78041/4807691946_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "femaZone": "AE",
+        "source": {
+          "url": "https://firststreet.org/property/107-kansas-st-laredo-tx-78041/4807691946_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.10999999940395
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.14000000059605
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.20000000298023
+          }
+        ],
+        "insuranceSeparatePolicy": "REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/107-kansas-st-laredo-tx-78041/4807691946_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 21
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 24
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/107-kansas-st-laredo-tx-78041/4807691946_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/107-kansas-st-laredo-tx-78041/4807691946_fsid"
+        },
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 0
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.548168,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "105 Kansas St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/105-Kansas-St-Laredo-TX-78041/49624337_zpid/",
+      "lotAreaValue": 7710,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "105 Kansas St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.5482,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 221200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7710,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=105+Kansas+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=jAT8AhQ-IsDC007MY0TvjNL9ljU="
+        }
+      ],
+      "zpid": 49624337,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1574,
+      "longitude": -99.48996,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1574
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "109 Kansas St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/109-Kansas-St-Laredo-TX-78041/49624339_zpid/",
+      "lotAreaValue": 7770,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "109 Kansas St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.548136,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 245000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7770,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0ee8e93fef2d4979420e2067b0dd98be-p_c.jpg"
+        }
+      ],
+      "zpid": 49624339,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1582,
+      "longitude": -99.48953,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1582
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "108 Kentucky St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/108-Kentucky-St-Laredo-TX-78041/49624331_zpid/",
+      "lotAreaValue": 7710,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "108 Kentucky St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54787,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 231800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7710,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=108+Kentucky+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=NtLdzljRgl4DJBEsuV3TMOUy_zA="
+        }
+      ],
+      "zpid": 49624331,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1530,
+      "longitude": -99.48981,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1530
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "106 Kentucky St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/106-Kentucky-St-Laredo-TX-78041/49624332_zpid/",
+      "lotAreaValue": 7710,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "106 Kentucky St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547903,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 232500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7710,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=106+Kentucky+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=8erxcu2Snan9jdC4L1daMTOuLck="
+        }
+      ],
+      "zpid": 49624332,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1790,
+      "longitude": -99.49002,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1790
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "103 Kansas St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/103-Kansas-St-Laredo-TX-78041/49624336_zpid/",
+      "lotAreaValue": 7710,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "103 Kansas St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.548235,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 237200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7710,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=103+Kansas+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=bWFuJ8LlVwn-SILkxnTHyLw6_IM="
+        }
+      ],
+      "zpid": 49624336,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1875,
+      "longitude": -99.49017,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1875
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "111 Kansas St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/111-Kansas-St-Laredo-TX-78041/49624340_zpid/",
+      "lotAreaValue": 7710,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "111 Kansas St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.548103,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 236800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7710,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=111+Kansas+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=3hN6k_331t7ngJZy6vsOMY7EaW4="
+        }
+      ],
+      "zpid": 49624340,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2129,
+      "longitude": -99.48932,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2129
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "110 Kentucky St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/110-Kentucky-St-Laredo-TX-78041/49624330_zpid/",
+      "lotAreaValue": 0.29499540863177,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "110 Kentucky St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547855,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 269200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12850,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=110+Kentucky+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=TJLS4LHQ9lr_nEvoQInbQaynB-M="
+        }
+      ],
+      "zpid": 49624330,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1870,
+      "longitude": -99.48946,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1870
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "108 Kansas St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/108-Kansas-St-Laredo-TX-78041/49624347_zpid/",
+      "lotAreaValue": 7927,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "108 Kansas St",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.5486,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 233400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7927,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=108+Kansas+St%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=2U2upDAHJazFH3E2rU74OJgsLks="
+        }
+      ],
+      "zpid": 49624347,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1470,
+      "longitude": -99.48965,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1470
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.029090909090909,
+      "date": "2025-09-06",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1757116800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253748"
+      },
+      "pricePerSquareFoot": 143,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 267000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-29",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1756425600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253748"
+      },
+      "pricePerSquareFoot": 148,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 275000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f20ae38ab91fdf1df71fefc0b81878a6-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6745-Gutierrez-Elementary-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Gutierrez Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6764-Clark-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.1,
+      "assigned": null,
+      "name": "Clark Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 3.5,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2008,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Hillside Terrace",
+    "streetAddress": "107 Kansas St",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "13 days",
+  "priceChange": -8000,
+  "zestimate": 258900,
+  "zpid": 49624338,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 826,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Beautiful pool",
+            "Cozy fireplace",
+            "Brick home",
+            "Large lot",
+            "Butcher block countertops",
+            "Spacious layout"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Beautiful pool",
+            "Cozy fireplace",
+            "Brick home",
+            "Large lot",
+            "Butcher block countertops",
+            "Spacious layout"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "Hillside Terrace"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/107-Kansas-St-Laredo-TX-78041/49624338_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Better Homes & Gardens Real Estate"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Better Homes & Gardens Real Estate",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-06 13:14:35",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Leo Saenz",
+    "attributionTitle": null,
+    "mlsId": "20253748",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-740-7381",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Leo Saenz",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-740-7381",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-704-5089",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": "2025-09-06",
+  "photoCount": 24,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Tile",
+      "Vinyl",
+      "Laminate"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 218081,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1978",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "7,700 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "13 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$143",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "7,700 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,864 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Large Master Bedroom",
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": "Composition Shingle,5-10 Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 13,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "UISD-Amparo Gutierrez",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Brick Veneer"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Range",
+      "None",
+      "Electric Water Heater"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Masonry",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "Access Only",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "UISD-Clark",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1978,
+    "utilities": [
+      "Underground Utilities",
+      "Cable Available",
+      "Sewer Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "215247",
+    "incomeIncludes": null,
+    "highSchool": "UISD-J.B. Alexander",
+    "taxAnnualAmount": 1368,
+    "subdivisionName": "Hillside Terrace",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1756510896000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Concrete",
+      "No Carport"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,864",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Front",
+      "Rear"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer and Dryer Hookups"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 0,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 143,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-29",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691757871
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691757871
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691757871
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 40,
+  "livingArea": 1864,
+  "zestimateHighPercent": "5",
+  "mlsid": "20253748",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 267000,
+  "priceChangeDate": 1757116800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:38.338021+00:00",
+    "zpid": "49624338",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

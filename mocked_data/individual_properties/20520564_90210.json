@@ -1,0 +1,1546 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.392586,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/88c8d4a7a1d2a916586c016adc316de3-p_d.jpg",
+  "livingAreaValue": 6122,
+  "streetAddress": "201 N Palm Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155806626,
+      "valueIncreaseRate": 0.019999623,
+      "taxIncreaseRate": 0.017962534,
+      "taxPaid": 17233.76,
+      "value": 1405586
+    },
+    {
+      "time": 1694533406626,
+      "valueIncreaseRate": 0.019999156,
+      "taxIncreaseRate": 0.029202418,
+      "taxPaid": 16929.66,
+      "value": 1378026
+    },
+    {
+      "time": 1662997406626,
+      "valueIncreaseRate": 0.019999743,
+      "taxIncreaseRate": 0.031205188,
+      "taxPaid": 16449.3,
+      "value": 1351007
+    },
+    {
+      "time": 1631461406626,
+      "valueIncreaseRate": 0.010359003,
+      "taxIncreaseRate": 0.003569738,
+      "taxPaid": 15951.53,
+      "value": 1324517
+    },
+    {
+      "time": 1599925406626,
+      "valueIncreaseRate": 0.019999487,
+      "taxIncreaseRate": 0,
+      "taxPaid": 15894.79,
+      "value": 1310937
+    },
+    {
+      "time": 1568303006626,
+      "valueIncreaseRate": 0.019998666,
+      "taxIncreaseRate": 0.07222775,
+      "taxPaid": 15894.79,
+      "value": 1285233
+    },
+    {
+      "time": 1536767006626,
+      "valueIncreaseRate": 0.019998722,
+      "taxIncreaseRate": 0,
+      "taxPaid": 14824.08,
+      "value": 1260034
+    },
+    {
+      "time": 1505231006626,
+      "valueIncreaseRate": 0.019999884,
+      "taxIncreaseRate": 0.023891842,
+      "taxPaid": 14824.08,
+      "value": 1235329
+    },
+    {
+      "time": 1473695006626,
+      "valueIncreaseRate": 0.015249188,
+      "taxIncreaseRate": 0.020438861,
+      "taxPaid": 14478.17,
+      "value": 1211107
+    },
+    {
+      "time": 1442072606626,
+      "valueIncreaseRate": 0.019979496,
+      "taxIncreaseRate": 0.07946946,
+      "taxPaid": 14188.18,
+      "value": 1192916
+    },
+    {
+      "time": 1410536606626,
+      "valueIncreaseRate": 0.024629502,
+      "taxIncreaseRate": 0,
+      "taxPaid": 13143.66,
+      "value": 1169549
+    },
+    {
+      "time": 1347464606626,
+      "valueIncreaseRate": 0.019999,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1141436
+    },
+    {
+      "time": 1315842206626,
+      "valueIncreaseRate": 0.0075286264,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1119056
+    },
+    {
+      "time": 1284306206626,
+      "valueIncreaseRate": -0.002371256,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1110694
+    },
+    {
+      "time": 1252770206626,
+      "valueIncreaseRate": 0.019998992,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1113334
+    },
+    {
+      "time": 1221234206626,
+      "valueIncreaseRate": 0.01999899,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1091505
+    },
+    {
+      "time": 1189611806626,
+      "valueIncreaseRate": 0.019998608,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1070104
+    },
+    {
+      "time": 1158075806626,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1049123
+    },
+    {
+      "time": 1126539806626,
+      "valueIncreaseRate": 0.04039822,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1049123
+    },
+    {
+      "time": 1095003806626,
+      "valueIncreaseRate": 0.018669467,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1008386
+    },
+    {
+      "time": 1063381406626,
+      "valueIncreaseRate": 0.019999051,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 989905
+    },
+    {
+      "time": 1031845406626,
+      "valueIncreaseRate": 0.040397163,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 970496
+    },
+    {
+      "time": 968773406626,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 932813
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 25830,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUw2fp4h4hm22x_8b74a",
+    "review_count": 2,
+    "display_name": "Devorah Balakhaneh",
+    "profile_url": "https://www.zillow.com/profile/DevorahB/",
+    "business_name": "Carolwood Estates",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "230",
+      "areacode": "424",
+      "number": "2389"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/f492b884ed0dee97837d73e4fd5298b4-h_n.jpg"
+  },
+  "yearBuilt": 1989,
+  "brokerageName": "Carolwood Estates",
+  "description": "Located on iconic Palm Drive, this stately, custom-built residence captures the essence of Beverly Hills living. Set on a prized corner, the home is bathed in natural light and framed by soaring palm trees that define the neighborhood's timeless elegance. A grand front balcony offers views over the tree-lined street. While inside, exceptional ceiling heights create a sense of volume and grandeur throughout. The layout is ideal for entertaining, featuring a dramatic ballroom, expansive living areas, and a dedicated office on the main level. The primary suite faces the street and includes a sliding door for indoor-outdoor flow, along with dual walk-in closets. All bedrooms offer generous closet space, and there is ample built-in storage thoughtfully placed throughout the home. The kitchen and bedrooms are generously proportioned, offering the rare combination of size and scale in this location. An elevator serves all floors, including a bright and versatile lower level with two bedrooms, its own entrance that doubles as a service entrance, large living room, and private sauna. The lower level works perfectly for guests, wellness, or long-term stays. The backyard features both hardscaping and grassy areas, ideal for entertaining and relaxation. A truly rare offering with space, elegance, and location all in one. Square footage is an approximation; buyer to conduct their own investigations. Public records reflect 4,522 SF for first and second floors.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/201-n-palm-dr-beverly-hills-ca-90210/601431641_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/201-n-palm-dr-beverly-hills-ca-90210/601431641_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.11999999731779
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.21999999880791
+          }
+        ],
+        "insuranceSeparatePolicy": "RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/201-n-palm-dr-beverly-hills-ca-90210/601431641_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 40
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 21
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/201-n-palm-dr-beverly-hills-ca-90210/601431641_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/201-n-palm-dr-beverly-hills-ca-90210/601431641_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.069416,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "203 N Palm Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/203-N-Palm-Dr-Beverly-Hills-CA-90210/20520563_zpid/",
+      "lotAreaValue": 7501.032,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "203 N Palm Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "25492035",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.069553,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 5000000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7501,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0391acbb1650012297a00131ef2e0c55-p_c.jpg"
+        }
+      ],
+      "zpid": 20520563,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2758,
+      "longitude": -118.392586,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2758
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "205 N Palm Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/205-N-Palm-Dr-Beverly-Hills-CA-90210/20520562_zpid/",
+      "lotAreaValue": 7499,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "205 N Palm Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.06969,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4801800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7499,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=205+N+Palm+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=NJZVqZrbJNaqEgF8T6ljyWE8BiQ="
+        }
+      ],
+      "zpid": 20520562,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4350,
+      "longitude": -118.392586,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4350
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.392586,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "127 N Palm Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 1658,
+      "lotSize": 7501,
+      "zpid": 20520652,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "127 N Palm Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/127-N-Palm-Dr-Beverly-Hills-CA-90210/20520652_zpid/",
+      "lotAreaValue": 7501,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.06911,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1925,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1658,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=127+N+Palm+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=RHcpvRVRhGU_x2hzC7yRSRnDcoQ="
+        }
+      ],
+      "currency": "USD",
+      "price": 2209800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "207 N Palm Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/207-N-Palm-Dr-Beverly-Hills-CA-90210/20520561_zpid/",
+      "lotAreaValue": 7498,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "207 N Palm Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.069824,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2285200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7498,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=207+N+Palm+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=i8clC5iU-sA6FHA03C2Y6ifo31c="
+        }
+      ],
+      "zpid": 20520561,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1819,
+      "longitude": -118.392586,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1819
+    },
+    {
+      "bathrooms": 4.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "125 N Palm Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/125-N-Palm-Dr-Beverly-Hills-CA-90210/20520653_zpid/",
+      "lotAreaValue": 7405,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "125 N Palm Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.068974,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3590000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7405,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/953f15fb864c8e40a610fb8550cbd418-p_c.jpg"
+        }
+      ],
+      "zpid": 20520653,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2820,
+      "longitude": -118.392586,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2820
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "200 N Maple Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/200-N-Maple-Dr-Beverly-Hills-CA-90210/20520545_zpid/",
+      "lotAreaValue": 7501,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "200 N Maple Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.069412,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3221000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7501,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=200+N+Maple+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=AJKZzCr37pw2KfLbE3B-8d_wWhU="
+        }
+      ],
+      "zpid": 20520545,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2640,
+      "longitude": -118.39314,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2640
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.39314,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "202 N Maple Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 2643,
+      "lotSize": 7497,
+      "zpid": 20520546,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "202 N Maple Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/202-N-Maple-Dr-Beverly-Hills-CA-90210/20520546_zpid/",
+      "lotAreaValue": 7497,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.06955,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1923,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2643,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=202+N+Maple+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=txvRmyBCeO5apvsLdfdrIozx-is="
+        }
+      ],
+      "currency": "USD",
+      "price": 3423400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "204 N Maple Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/204-N-Maple-Dr-Beverly-Hills-CA-90210/20520547_zpid/",
+      "lotAreaValue": 7500,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "204 N Maple Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.069687,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2970500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7500,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=204+N+Maple+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=prSkc05X7BWTIBsYp8imLyUEeuY="
+        }
+      ],
+      "zpid": 20520547,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2662,
+      "longitude": -118.39314,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2662
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.025854879065888,
+      "date": "2025-09-05",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1757030400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25587615"
+      },
+      "pricePerSquareFoot": 1005,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6150000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-26",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1753488000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25557311"
+      },
+      "pricePerSquareFoot": 979,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-26",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1750896000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25557311"
+      },
+      "pricePerSquareFoot": 979,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5995000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/88c8d4a7a1d2a916586c016adc316de3-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1524-Horace-Mann-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 0.7,
+      "assigned": null,
+      "name": "Horace Mann Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1521-Beverly-Vista-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Beverly Vista Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1520-Beverly-Hills-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Beverly Hills High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 17:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "201 N Palm Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 10389,
+  "timeOnZillow": "7 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 20520564,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 2034,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Grand front balcony",
+            "Dramatic ballroom",
+            "Bathed in natural light",
+            "Soaring palm trees",
+            "Dedicated office",
+            "Private sauna",
+            "Stately custom-built residence"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Grand front balcony",
+            "Dramatic ballroom",
+            "Bathed in natural light",
+            "Soaring palm trees",
+            "Dedicated office",
+            "Private sauna",
+            "Stately custom-built residence"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 7,
+  "neighborhoodRegion": {
+    "name": "North Doheny"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/201-N-Palm-Dr-Beverly-Hills-CA-90210/20520564_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": "DRE # 01943888",
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Carolwood Estates"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Carolwood Estates"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Carolwood Estates",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 09:41:13",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Devorah Balakhaneh",
+    "attributionTitle": null,
+    "mlsId": "25587615",
+    "coAgentName": "Jonathan Nash",
+    "coAgentNumber": "424-230-6088",
+    "infoString5": "424-230-2389",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 02013682",
+        "memberFullName": "Devorah Balakhaneh",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "DRE # 01943888",
+        "memberFullName": "Jonathan Nash",
+        "associatedAgentType": "coListAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coBuyerAgent"
+      }
+    ],
+    "agentPhoneNumber": "424-230-2389",
+    "agentLicenseNumber": "DRE # 02013682",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-623-3600",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Wood",
+      "Tile",
+      "Carpet",
+      "Granite"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1405586,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1989",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Air Conditioning, Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "7,501 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "7 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,005",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Tree Top",
+      "Other",
+      "Hills"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "7,501 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 3,
+    "livingArea": "6,122 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 6,
+    "architecturalStyle": "Mediterranean",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Elevator",
+      "Built-Ins"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 7,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Decorative",
+      "Great Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Dryer",
+      "Freezer",
+      "Disposal",
+      "Washer",
+      "Refrigerator",
+      "Range/Oven"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "50 x 150",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1989,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "4342025020",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 17234,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 3,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757033289000,
+    "roomTypes": [
+      "Walk-In Closet",
+      "Utility Room",
+      "Breakfast Area",
+      "Breakfast",
+      "Basement",
+      "Bar",
+      "Dining Room",
+      "Dining Area",
+      "Patio Open",
+      "Office",
+      "Living Room",
+      "Library",
+      "Jack And Jill",
+      "In-Law Suite",
+      "Guest-Maids Quarters",
+      "Great Room",
+      "Family Room",
+      "Entry",
+      "Dressing Area",
+      "Powder",
+      "Rec Room",
+      "Sauna",
+      "Service Entrance",
+      "Study"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Three Or More",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "BHR1YY",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Secured",
+      "Covered",
+      "Garage Door Opener",
+      "Driveway",
+      "Garage - 2 Car",
+      "Private",
+      "Side By Side",
+      "Parking Space",
+      "Guest",
+      "On Street"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": true,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 2,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Air Conditioning",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 7,
+    "buildingArea": "6,122",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 7,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Inside",
+      "Other"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1005,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-05",
+  "bedrooms": 6,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.325,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681868869
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.154,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681868869
+    },
+    "arm5Bucket": {
+      "rate": 6.213,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681868869
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 33,
+  "livingArea": 6122,
+  "zestimateHighPercent": null,
+  "mlsid": "25587615",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 6150000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:27.149608+00:00",
+    "zpid": "20520564",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

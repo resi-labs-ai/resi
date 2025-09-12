@@ -1,0 +1,1140 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Julie Sanchez",
+      "badge_type": "Premier Agent",
+      "business_name": "ROSGO Realty",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "635",
+        "areacode": "956",
+        "number": "7885"
+      },
+      "zuid": "X1-ZUqr0j8bkqpiq1_540hk",
+      "image_url": "https://photos.zillowstatic.com/fp/3677994a961434615f2aeadcee010896-h_g.jpg"
+    }
+  ],
+  "longitude": -99.47605,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/3a32c9a64f9c1428f9d43b0d1a198d72-p_d.jpg",
+  "livingAreaValue": 3067,
+  "streetAddress": "1511 E Cherry Hill Dr",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 1239,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1954,
+  "brokerageName": "Lula Morales Realty, Inc.",
+  "description": "This 3000+ sq ft, 6-bedroom, 4-bath single-story home, on a 17,785 sq. ft. lot is spacious and versatile. Featuring a formal dining room, 2 family rooms, and two bonus rooms ideal for an office, playroom, or hobby space, the property also includes a detached workshop, a storage shed, double carport, and a fenced yard with front and back sprinkler systems.",
+  "climate": null,
+  "latitude": 27.542795,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "642A Dogwood Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/642A-Dogwood-Ave-Laredo-TX-78041/49625897_zpid/",
+      "lotAreaValue": 7230,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "642A Dogwood Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.542599,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 181200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7230,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=642A+Dogwood+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=sRGRWtcqWnjQOj199fiEIq7dRHo="
+        }
+      ],
+      "zpid": 49625897,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1284,
+      "longitude": -99.47629,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1284
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "637A Cactus Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/637A-Cactus-Rd-Laredo-TX-78041/49625872_zpid/",
+      "lotAreaValue": 10715,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "637A Cactus Rd",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54274,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 195500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10715,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=637A+Cactus+Rd%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=a0dyNf1ooLuOTGzdinvAbDV5NJ0="
+        }
+      ],
+      "zpid": 49625872,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1494,
+      "longitude": -99.47568,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1494
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "637 Cactus Dr #B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/637-Cactus-Dr-B-Laredo-TX-78041/49625873_zpid/",
+      "lotAreaValue": 7753,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "637 Cactus Dr #B",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54274,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 193000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7753,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=637+Cactus+Dr%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=FviYARxuLegZ4GEY49_KFGFMrEU="
+        }
+      ],
+      "zpid": 49625873,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1494,
+      "longitude": -99.47568,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1494
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "641A Dogwood Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/641A-Dogwood-Ave-Laredo-TX-78041/49625895_zpid/",
+      "lotAreaValue": 7884,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "641A Dogwood Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54277,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 205600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7884,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=641A+Dogwood+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=TJeJFknLYhv0Skb-hrR8yEkeQjQ="
+        }
+      ],
+      "zpid": 49625895,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1894,
+      "longitude": -99.476425,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1894
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "641 Dogwood Ave #B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/641-Dogwood-Ave-B-Laredo-TX-78041/49625896_zpid/",
+      "lotAreaValue": 7623,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "641 Dogwood Ave #B",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54277,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 196000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7623,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=641+Dogwood+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=1g8QGAbZMYrT7bHvhhzr3uzqkp0="
+        }
+      ],
+      "zpid": 49625896,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1732,
+      "longitude": -99.476425,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1732
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "642 Dogwood Ave #B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/642-Dogwood-Ave-B-Laredo-TX-78041/49625898_zpid/",
+      "lotAreaValue": 8232,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "642 Dogwood Ave #B",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.54246,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 176800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8232,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=642+Dogwood+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=j3_Q0fs1pjcU9vGkdZ78gJOQvwE="
+        }
+      ],
+      "zpid": 49625898,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1295,
+      "longitude": -99.4761,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1295
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "610 Cherry Hill Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/610-Cherry-Hill-Dr-Laredo-TX-78041/49625978_zpid/",
+      "lotAreaValue": 10759,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "610 Cherry Hill Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.543331,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 195900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10759,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=610+Cherry+Hill+Dr%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=hb0V5zr5kkAXGWqDbFOWQ-up6Ns="
+        }
+      ],
+      "zpid": 49625978,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1375,
+      "longitude": -99.476036,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1375
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "610 E Cherry Hill Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/610-E-Cherry-Hill-Dr-Laredo-TX-78041/199983589_zpid/",
+      "lotAreaValue": 9931,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "610 E Cherry Hill Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.543337,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 113801,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9931,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=610+E+Cherry+Hill+Dr%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=B_nX0bz_LOCMKsKABmDudSTi7To="
+        }
+      ],
+      "zpid": 199983589,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.47604,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-27",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1756252800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253709"
+      },
+      "pricePerSquareFoot": 96,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 295000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/3a32c9a64f9c1428f9d43b0d1a198d72-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6753-Newman-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Newman Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6764-Clark-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Clark Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 3.2,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Flynn",
+    "streetAddress": "1511 E Cherry Hill Dr",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "15 days",
+  "priceChange": null,
+  "zestimate": 288000,
+  "zpid": 456264471,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1061,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Detached workshop",
+            "Double carport",
+            "Fenced yard",
+            "Formal dining room",
+            "Bonus rooms"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Detached workshop",
+            "Double carport",
+            "Fenced yard",
+            "Formal dining room",
+            "Bonus rooms"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 4,
+  "neighborhoodRegion": {
+    "name": "Flynn"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/1511-E-Cherry-Hill-Dr-Laredo-TX-78041/456264471_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Lula Morales Realty, Inc."
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Lula Morales Realty, Inc.",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-05 10:09:22",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Susana Farias",
+    "attributionTitle": null,
+    "mlsId": "20253709",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-237-8061",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Susana Farias",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-237-8061",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-724-9094",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 40,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1954",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.41 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "15 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$96",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen/Dining Combo",
+          "Formica"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.41 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "3,067 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 6,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Cable TV Wiring",
+      "Dining Room",
+      "Rec Room",
+      "Workshop",
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Sprinklers In Front",
+      "Sprinklers In Rear"
+    ],
+    "roofType": "Composition Shingle,1-5 Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 15,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Aluminum Siding"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Range",
+      "Gas Water Heater"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Combination,Chain Link,Masonry",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "Access Only",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1954,
+    "utilities": [
+      "Underground Utilities",
+      "Sewer Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 4,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 4838,
+    "subdivisionName": "Flynn",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1756314979000,
+    "roomTypes": [
+      "2 Extra rooms can be used as  Office/Study",
+      "playroom or   hobby/craft room."
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "No Garage",
+      "Concrete",
+      "Detached Carport"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 4,
+    "buildingArea": "3,067",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Rear"
+    ],
+    "bathroomsFloat": 4,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 96,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-27",
+  "bedrooms": 6,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689553348
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689553348
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689553348
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 54,
+  "livingArea": 3067,
+  "zestimateHighPercent": "5",
+  "mlsid": "20253709",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 295000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:40.560170+00:00",
+    "zpid": "456264471",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

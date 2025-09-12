@@ -1,0 +1,1755 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.82981,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/7c5927a84be9474018ee8b0b368be1f0-p_d.jpg",
+  "livingAreaValue": 3474,
+  "streetAddress": "1511 Baldridge Ln",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 119,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155949064,
+      "valueIncreaseRate": 0.08017966,
+      "taxIncreaseRate": 0.32438713,
+      "taxPaid": 9265.85,
+      "value": 567804
+    },
+    {
+      "time": 1694533549064,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.10298631,
+      "taxPaid": 6996.33,
+      "value": 525657
+    },
+    {
+      "time": 1662997549064,
+      "valueIncreaseRate": 0.099993095,
+      "taxIncreaseRate": 0.046152543,
+      "taxPaid": 7799.58,
+      "value": 477870
+    },
+    {
+      "time": 1631461549064,
+      "valueIncreaseRate": 0.086075,
+      "taxIncreaseRate": 0.06838818,
+      "taxPaid": 7455.49,
+      "value": 434430
+    },
+    {
+      "time": 1599925549064,
+      "valueIncreaseRate": -0.013612152,
+      "taxIncreaseRate": -0.045123063,
+      "taxPaid": 6978.26,
+      "value": 400000
+    },
+    {
+      "time": 1568303149064,
+      "valueIncreaseRate": 0.008555511,
+      "taxIncreaseRate": -0.029863343,
+      "taxPaid": 7308.02,
+      "value": 405520
+    },
+    {
+      "time": 1536767149064,
+      "valueIncreaseRate": -0.022891859,
+      "taxIncreaseRate": -0.227481,
+      "taxPaid": 7532.98,
+      "value": 402080
+    },
+    {
+      "time": 1505231149064,
+      "valueIncreaseRate": 0.057840616,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9751.19,
+      "value": 411500
+    },
+    {
+      "time": 1473695149064,
+      "valueIncreaseRate": 0.052546132,
+      "taxIncreaseRate": 0.40252832,
+      "taxPaid": 9751.19,
+      "value": 389000
+    },
+    {
+      "time": 1442072749064,
+      "valueIncreaseRate": 0.060396522,
+      "taxIncreaseRate": 0.03086249,
+      "taxPaid": 6952.58,
+      "value": 369580
+    },
+    {
+      "time": 1410536749064,
+      "valueIncreaseRate": 0.10388623,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6744.43,
+      "value": 348530
+    },
+    {
+      "time": 1379000749064,
+      "valueIncreaseRate": -0.027715333,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 315730
+    },
+    {
+      "time": 1347464749064,
+      "valueIncreaseRate": 0.0074145314,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 324730
+    },
+    {
+      "time": 1315842349064,
+      "valueIncreaseRate": 0.032148574,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 322340
+    },
+    {
+      "time": 1284306349064,
+      "valueIncreaseRate": -0.014204546,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 312300
+    },
+    {
+      "time": 1252770349064,
+      "valueIncreaseRate": 0.09241379,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 316800
+    },
+    {
+      "time": 1221234349064,
+      "valueIncreaseRate": 0.055044204,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 290000
+    },
+    {
+      "time": 1189611949064,
+      "valueIncreaseRate": 0.04892196,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 274870
+    },
+    {
+      "time": 1158075949064,
+      "valueIncreaseRate": -0.037960276,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 262050
+    },
+    {
+      "time": 1126539949064,
+      "valueIncreaseRate": -0.03653792,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 272390
+    },
+    {
+      "time": 1095003949064,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 282720
+    },
+    {
+      "time": 1063381549064,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    },
+    {
+      "time": 1031845549064,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2457,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUxojcu4dfolc9_9y704",
+    "review_count": 0,
+    "display_name": "Murphy Kovar",
+    "profile_url": "https://www.zillow.com/profile/murphykovar/",
+    "business_name": "eXp Realty LLC",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "557",
+      "areacode": "713",
+      "number": "1484"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/14b15f1908448d879956a5998c29127f-h_n.jpg"
+  },
+  "yearBuilt": 2002,
+  "brokerageName": "eXp Realty LLC",
+  "description": "This beautiful home build by Partners N Building has 3 bedrooms down two full baths and one bedroom up with full bath, game room and media plus a king size balcony overlooking amazing backyard. Roof is less than 3 years old, 4 car garage (tandem) covered patio and backyard is large enough for Texas size pool. Formal living, formal dining wood floors and sitting area with fireplace in Primary bedroom. Ensuite bathroom has his/her vanities, separate shower and large garden tub. Kitchen has tons of cabinets, granite, island, breakfast bar, gas cooktop and oven with microwave, and the large utility room is located right off the kitchen. 4 car tandem garage with garage door added to the back for easy access from backyard. \r\nIn the beautiful subdivision of Grayson Lakes featuring club house, Gorgeous Lakes and lush landscaping, many amenities for residents and their guest. Low taxes close to Katy Schools and easy access for shopping & freeways.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1511-baldridge-ln-katy-tx-77494/4800858551_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1511-baldridge-ln-katy-tx-77494/4800858551_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 9.9999997473788e-05
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.00060000002849847
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0010999999940395
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0015999999595806
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0020999999251217
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0026000000070781
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0031000000890344
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1511-baldridge-ln-katy-tx-77494/4800858551_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 5
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1511-baldridge-ln-katy-tx-77494/4800858551_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1511-baldridge-ln-katy-tx-77494/4800858551_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.752043,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.82987,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1507 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3909,
+      "lotSize": 10219,
+      "zpid": 82716601,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1507 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1507-Baldridge-Ln-Katy-TX-77494/82716601_zpid/",
+      "lotAreaValue": 10219,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.752237,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2006,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3909,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1507+Baldridge+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=zRzY-AvMIvQyxgAzSUBSPu-kf8U="
+        }
+      ],
+      "currency": "USD",
+      "price": 578400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.82971,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1515 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3404,
+      "lotSize": 10436,
+      "zpid": 82723275,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1515 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1515-Baldridge-Ln-Katy-TX-77494/82723275_zpid/",
+      "lotAreaValue": 10436,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.751823,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3404,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/85b3a8147e15f4a049dd46f31893d28f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 563800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Grayson Lakes Blvd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Grayson-Lakes-Blvd-Katy-TX-77494/305270016_zpid/",
+      "lotAreaValue": 0.79598255280073,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Grayson Lakes Blvd",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.752424,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 199,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 34673,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.752424240112305,-95.82967376708984&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2oMcI2l04R8_ztgbQfec94_R5_0="
+        }
+      ],
+      "zpid": 305270016,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -95.82967,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1519 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1519-Baldridge-Ln-Katy-TX-77494/82719975_zpid/",
+      "lotAreaValue": 10659,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1519 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.751616,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 663600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10659,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7b74f5b03507b6cc2fc6b7486e3c8c25-p_c.jpg"
+        }
+      ],
+      "zpid": 82719975,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3929,
+      "longitude": -95.829636,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3929
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1510 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1510-Baldridge-Ln-Katy-TX-77494/82708581_zpid/",
+      "lotAreaValue": 0.27208448117539,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1510 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.751802,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 640200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11852,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5f19a95baf5bcb7726058ae43b49eaa2-p_c.jpg"
+        }
+      ],
+      "zpid": 82708581,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3326,
+      "longitude": -95.83032,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3326
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1506 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1506-Baldridge-Ln-Katy-TX-77494/82710230_zpid/",
+      "lotAreaValue": 0.27307162534435,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1506 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.752024,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 618800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11895,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1506+Baldridge+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=AZ1nW1Yo8oUOaL3NOmwkm3ABvNs="
+        }
+      ],
+      "zpid": 82710230,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4028,
+      "longitude": -95.83041,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4028
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1514 Baldridge Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1514-Baldridge-Ln-Katy-TX-77494/82713323_zpid/",
+      "lotAreaValue": 0.25769054178145,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "1514 Baldridge Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.751589,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 531700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11225,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1514+Baldridge+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ROcUiFpEyNNgsJ_hAx8t4qUZwCM="
+        }
+      ],
+      "zpid": 82713323,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3063,
+      "longitude": -95.83024,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3063
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Grayson Lakes Blvd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Grayson-Lakes-Blvd-Katy-TX-77494/305270017_zpid/",
+      "lotAreaValue": 0.71999540863177,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Grayson Lakes Blvd",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.752481,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 180,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 31363,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.75248146057129,-95.82935333251953&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=cL57BrjnlBHMUCDtqs64hXRFZFU="
+        }
+      ],
+      "zpid": 305270017,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -95.82935,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.0625,
+      "date": "2025-09-11",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "46225540"
+      },
+      "pricePerSquareFoot": 168,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 585000
+    },
+    {
+      "priceChangeRate": 0.094736842105263,
+      "date": "2025-06-03",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1748908800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20835781"
+      },
+      "pricePerSquareFoot": 180,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 624000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-07-01",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1688169600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "80860731"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-05-24",
+      "source": "HAR",
+      "postingIsRental": true,
+      "time": 1684886400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/d7ca2feac029409ea31352e4cf1c9a70-zillow_web_logo_inf_11.jpg",
+        "infoString1": "80860731"
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 3800
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-05-21",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1684627200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "54537602"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.033898305084746,
+      "date": "2023-05-07",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1683417600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "54537602"
+      },
+      "pricePerSquareFoot": 164,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 570000
+    },
+    {
+      "priceChangeRate": -0.056,
+      "date": "2023-04-25",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1682380800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "16117834"
+      },
+      "pricePerSquareFoot": 170,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 590000
+    },
+    {
+      "priceChangeRate": 0.76056338028169,
+      "date": "2023-04-21",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1682035200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "16117834"
+      },
+      "pricePerSquareFoot": 180,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 625000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2012-07-09",
+      "source": "Realm Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1341792000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Realm Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "84508977"
+      },
+      "pricePerSquareFoot": 102,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 355000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2012-06-22",
+      "source": "Realm Real Estate Professional",
+      "postingIsRental": false,
+      "time": 1340323200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Realm Real Estate Professional",
+        "infoString3": null,
+        "infoString1": "84508977"
+      },
+      "pricePerSquareFoot": 102,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 355000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/7c5927a84be9474018ee8b0b368be1f0-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10696-Woodcreek-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Woodcreek Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/12056-Woodcreek-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Woodcreek J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/11780-Obra-D-Tompkins-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "Obra D Tompkins High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3616,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Grayson Lakes",
+    "streetAddress": "1511 Baldridge Ln",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "1 day",
+  "priceChange": -39000,
+  "zestimate": 572900,
+  "zpid": 82722839,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 243,
+  "homeInsights": {},
+  "bathrooms": 3,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/1511-Baldridge-Ln-Katy-TX-77494/82722839_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "eXp Realty LLC"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "eXp Realty LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 02:17:24",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Murphy Kovar",
+    "attributionTitle": null,
+    "mlsId": "46225540",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "713-557-1484",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0490587",
+        "memberFullName": "Murphy Kovar",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "713-557-1484",
+    "agentLicenseNumber": "TREC #0490587",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "888-519-7431",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 47,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Engineered Hardwood",
+      "Tile",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 567804,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2002",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "4 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,425 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10,419 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$168",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower",
+          "Primary Bath: Soaking Tub",
+          "Secondary Bath(s): Tub/Shower Combo",
+          "Vanity Area"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen open to Family Room",
+          "Pantry",
+          "Walk-in Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,425 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public",
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": [
+      "Chain Link Fence",
+      "All Stones Around The Dog Area"
+    ],
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,419 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,474 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,VA Loan",
+    "otherParking": null,
+    "associationFee": "$1,425 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Balcony",
+      "Crown Molding",
+      "Formal Entry/Foyer",
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "2 Bedrooms Down",
+      "1 Bedroom Up",
+      "Primary Bed - 1st Floor",
+      "Sitting Area",
+      "Split Plan",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 4,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Cul-De-Sac",
+      "Subdivided",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Woodcreek Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Thermostat",
+      "HVAC"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Cement Siding"
+    ],
+    "fireplaceFeatures": [
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,425 annually",
+    "appliances": [
+      "Disposal",
+      "Electric Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard,Full",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Woodcreek Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2002,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "2531030030020914",
+    "incomeIncludes": null,
+    "highSchool": "Tompkins High School",
+    "taxAnnualAmount": 10993,
+    "subdivisionName": "Grayson Lakes",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows",
+      "Solar Screens",
+      "Window Coverings"
+    ],
+    "ownership": "Full Ownership",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757603900000,
+    "roomTypes": [
+      "Family Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": [
+      "Jogging Path",
+      "Picnic Area",
+      "Playground",
+      "Pool",
+      "Security",
+      "Tennis Court(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 4,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,425 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Tandem"
+    ],
+    "parkingCapacity": 4,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,425 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "3,474",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": "Partners In Building",
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Natural Gas",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 168,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.082,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685559633
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.209,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685559633
+    },
+    "arm5Bucket": {
+      "rate": 6.584,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757685559633
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 5,
+  "livingArea": 3474,
+  "zestimateHighPercent": "5",
+  "mlsid": "46225540",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 585000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:49.797050+00:00",
+    "zpid": "82722839",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

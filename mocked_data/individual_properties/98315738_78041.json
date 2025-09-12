@@ -1,0 +1,1398 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 18,
+      "display_name": "Martha Perez",
+      "badge_type": "Premier Agent",
+      "business_name": "KELLER WILLIAMS LAREDO",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "235",
+        "areacode": "956",
+        "number": "1930"
+      },
+      "zuid": "X1-ZU10oiyprwkpafd_6plsx",
+      "image_url": "https://photos.zillowstatic.com/fp/a99cdfe6b3982189207d824da32e11ff-h_g.jpg"
+    }
+  ],
+  "longitude": -99.501785,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/c29ae4f25c6960eb5c1d432dcb45ae79-p_d.jpg",
+  "livingAreaValue": null,
+  "streetAddress": "3616 San Eduardo Ave",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155739426,
+      "valueIncreaseRate": 0.050003536,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 148523
+    },
+    {
+      "time": 1694533339426,
+      "valueIncreaseRate": 0.3169165,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 141450
+    },
+    {
+      "time": 1662997339426,
+      "valueIncreaseRate": 0.1997364,
+      "taxIncreaseRate": 0.114861056,
+      "taxPaid": 728.06,
+      "value": 107410
+    },
+    {
+      "time": 1631461339426,
+      "valueIncreaseRate": -2.2338882e-05,
+      "taxIncreaseRate": -0.010964865,
+      "taxPaid": 653.05,
+      "value": 89528
+    },
+    {
+      "time": 1599925339426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.99004227,
+      "taxPaid": 660.29,
+      "value": 89530
+    },
+    {
+      "time": 1568302939426,
+      "valueIncreaseRate": 0.25462443,
+      "taxIncreaseRate": 0,
+      "taxPaid": 66309,
+      "value": 89530
+    },
+    {
+      "time": 1536766939426,
+      "valueIncreaseRate": 1.4623878,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 71360
+    },
+    {
+      "time": 1505230939426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.008959972,
+      "taxPaid": 799.69,
+      "value": 28980
+    },
+    {
+      "time": 1473694939426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.00896528,
+      "taxPaid": 806.92,
+      "value": 28980
+    },
+    {
+      "time": 1442072539426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 799.75,
+      "value": 28980
+    },
+    {
+      "time": 1410536539426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 799.75,
+      "value": 28980
+    },
+    {
+      "time": 1315842139426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28980
+    },
+    {
+      "time": 1284306139426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28980
+    },
+    {
+      "time": 1252770139426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28980
+    },
+    {
+      "time": 1221234139426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28980
+    },
+    {
+      "time": 1189611739426,
+      "valueIncreaseRate": 0.12238575,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28980
+    },
+    {
+      "time": 1158075739426,
+      "valueIncreaseRate": 0.11968777,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 25820
+    },
+    {
+      "time": 1126539739426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    },
+    {
+      "time": 1095003739426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    },
+    {
+      "time": 1063381339426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    },
+    {
+      "time": 1031845339426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    },
+    {
+      "time": 1000309339426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    },
+    {
+      "time": 968773339426,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23060
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 336,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUveauab8zgfex_5w3v0",
+    "review_count": 9,
+    "display_name": "Cecilia C Cisneros",
+    "profile_url": "https://www.zillow.com/profile/zuser20180728185101440/",
+    "business_name": "ROSGO REALTY, LLC",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "763",
+      "areacode": "956",
+      "number": "2843"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/e2f53285fe9df075614179c1ee086a26-h_n.jpg"
+  },
+  "yearBuilt": null,
+  "brokerageName": "ROSGO REALTY, LLC",
+  "description": "THIS PROPERTY IS ZONED B-3 ON WEBB CAD BUT THE CITY OF LAREDO PLANNING AND ZONING DEPARTMENT HAS IT ZONED AS R-3",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3616-san-eduardo-ave-laredo-tx-78041/4807730655_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3616-san-eduardo-ave-laredo-tx-78041/4807730655_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/3616-san-eduardo-ave-laredo-tx-78041/4807730655_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3616-san-eduardo-ave-laredo-tx-78041/4807730655_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3616-san-eduardo-ave-laredo-tx-78041/4807730655_fsid"
+        },
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 0
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.532469,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3614 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3614-San-Eduardo-Ave-Laredo-TX-78041/49607082_zpid/",
+      "lotAreaValue": 5749,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3614 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532341,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 158100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5749,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3614+San+Eduardo+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ejV5zf0Yl2fChc-qSC1Dp6iRoGE="
+        }
+      ],
+      "zpid": 49607082,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 596,
+      "longitude": -99.501785,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 596
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3620 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3620-San-Eduardo-Ave-Laredo-TX-78041/49607079_zpid/",
+      "lotAreaValue": 5967,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3620 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532598,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 131700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5967,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3620+San+Eduardo+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=udWblkZSsPKtoOF40_lpr9CTfLc="
+        }
+      ],
+      "zpid": 49607079,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 400,
+      "longitude": -99.501785,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 400
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3612 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3612-San-Eduardo-Ave-Laredo-TX-78041/49607084_zpid/",
+      "lotAreaValue": 5749,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3612 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532213,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 178800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5749,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3612+San+Eduardo+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=eturnHloQlynQ_OHQ7OH4vBrd9o="
+        }
+      ],
+      "zpid": 49607084,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1229,
+      "longitude": -99.501785,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1229
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3706 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3706-San-Eduardo-Ave-Laredo-TX-78041/199956227_zpid/",
+      "lotAreaValue": 5789,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3706 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532784,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 11618,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5789,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.53278350830078,-99.50166320800781&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=_xPQ3dGG4I_KiHhetHC07i02IDk="
+        }
+      ],
+      "zpid": 199956227,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.50166,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3617 San Dario Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3617-San-Dario-Ave-Laredo-TX-78041/49607080_zpid/",
+      "lotAreaValue": 5749,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3617 San Dario Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532473,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 232600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5749,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3617+San+Dario+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=1UOOCrQj9F9tEk1-qNTP-gIQXQQ="
+        }
+      ],
+      "zpid": 49607080,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 600,
+      "longitude": -99.502174,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 600
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3611 San Dario Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3611-San-Dario-Ave-Laredo-TX-78041/49607081_zpid/",
+      "lotAreaValue": 5749,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3611 San Dario Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532345,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 170700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5749,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3611+San+Dario+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=YHJJYVdzty8tSEEj_DBo4aWYaH0="
+        }
+      ],
+      "zpid": 49607081,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5890,
+      "longitude": -99.502174,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5890
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3604 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3604-San-Eduardo-Ave-Laredo-TX-78041/250961226_zpid/",
+      "lotAreaValue": 5749,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3604 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532085,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 311200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5749,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3604+San+Eduardo+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=esELYP6iEpTPFzuEE9fIiiJAnxU="
+        }
+      ],
+      "zpid": 250961226,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2964,
+      "longitude": -99.50179,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2964
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3702 San Eduardo Ave"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3702-San-Eduardo-Ave-Laredo-TX-78041/49607116_zpid/",
+      "lotAreaValue": 5793,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "3702 San Eduardo Ave",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.532873,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 130600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5793,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3702+San+Eduardo+Ave%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MRh9s5xh8VdBgQ-EMFzZ4ig94E0="
+        }
+      ],
+      "zpid": 49607116,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1218,
+      "longitude": -99.501785,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1218
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-10",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1757462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253974"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 80000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/c29ae4f25c6960eb5c1d432dcb45ae79-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/9066-T-Sanchez-El---H-Ochoa-El/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "T Sanchez El / H Ochoa El",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/4229-Martin-High-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Martin High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "8-12",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/4242-Memorial-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Memorial Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 1402,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "3616 San Eduardo Ave",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "1 day",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 98315738,
+  "countyId": 328,
+  "homeType": "LOT",
+  "livingAreaUnits": null,
+  "pageViewCount": 39,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        }
+      ]
+    }
+  ],
+  "bathrooms": null,
+  "neighborhoodRegion": {
+    "name": "Western Division"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3616-San-Eduardo-Ave-Laredo-TX-78041/98315738_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "ROSGO REALTY, LLC"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "ROSGO REALTY, LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 10:18:35",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Cecilia Cisneros",
+    "attributionTitle": null,
+    "mlsId": "20253974",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-763-2843",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Cecilia Cisneros",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-763-2843",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-777-6746",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 10,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 148523,
+    "atAGlanceFacts": null,
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "5,749 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": null,
+    "commonWalls": null,
+    "listingTerms": "Cash",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": null,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Combination,Chain Link,Masonry",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": null,
+    "utilities": [
+      "Electricity Available",
+      "Sewer Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": null,
+    "parcelNumber": "166179",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 1312,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757531431000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential Land"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "VacantLand",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": null,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": null,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": null,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": null,
+  "propertyTypeDimension": "Lot",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691739441
+    },
+    "fifteenYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691739441
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691739441
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 2,
+  "livingArea": null,
+  "zestimateHighPercent": null,
+  "mlsid": "20253974",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 80000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:19.859197+00:00",
+    "zpid": "98315738",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

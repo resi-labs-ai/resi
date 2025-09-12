@@ -1,0 +1,1709 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Julie Sanchez",
+      "badge_type": "Premier Agent",
+      "business_name": "ROSGO Realty",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "635",
+        "areacode": "956",
+        "number": "7885"
+      },
+      "zuid": "X1-ZUqr0j8bkqpiq1_540hk",
+      "image_url": "https://photos.zillowstatic.com/fp/3677994a961434615f2aeadcee010896-h_g.jpg"
+    }
+  ],
+  "longitude": -99.48278,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/52f26139ada4c538b56c14a4cde67efa-p_d.jpg",
+  "livingAreaValue": 1481,
+  "streetAddress": "5500 McPherson Rd UNIT 31",
+  "county": "Webb County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155755708,
+      "valueIncreaseRate": -0.0030459247,
+      "taxIncreaseRate": -0.04162968,
+      "taxPaid": 928.22,
+      "value": 147943
+    },
+    {
+      "time": 1694533355708,
+      "valueIncreaseRate": 0.27984098,
+      "taxIncreaseRate": 0.23233323,
+      "taxPaid": 968.54,
+      "value": 148395
+    },
+    {
+      "time": 1662997355708,
+      "valueIncreaseRate": 0.16768885,
+      "taxIncreaseRate": 0.08507289,
+      "taxPaid": 785.94,
+      "value": 115948
+    },
+    {
+      "time": 1631461355708,
+      "valueIncreaseRate": 0.05087311,
+      "taxIncreaseRate": 0.039390434,
+      "taxPaid": 724.32,
+      "value": 99297
+    },
+    {
+      "time": 1599925355708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.9900423,
+      "taxPaid": 696.87,
+      "value": 94490
+    },
+    {
+      "time": 1568302955708,
+      "valueIncreaseRate": 0.05918619,
+      "taxIncreaseRate": 0,
+      "taxPaid": 69983,
+      "value": 94490
+    },
+    {
+      "time": 1536766955708,
+      "valueIncreaseRate": 0.024460267,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 89210
+    },
+    {
+      "time": 1505230955708,
+      "valueIncreaseRate": 0.074663706,
+      "taxIncreaseRate": -0.6911883,
+      "taxPaid": 655.49,
+      "value": 87080
+    },
+    {
+      "time": 1473694955708,
+      "valueIncreaseRate": -0.05305598,
+      "taxIncreaseRate": -0.10511975,
+      "taxPaid": 2122.62,
+      "value": 81030
+    },
+    {
+      "time": 1442072555708,
+      "valueIncreaseRate": -0.07511889,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2371.96,
+      "value": 85570
+    },
+    {
+      "time": 1410536555708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2371.96,
+      "value": 92520
+    },
+    {
+      "time": 1379000555708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 92520
+    },
+    {
+      "time": 1347464555708,
+      "valueIncreaseRate": 0.043537106,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 92520
+    },
+    {
+      "time": 1315842155708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 88660
+    },
+    {
+      "time": 1284306155708,
+      "valueIncreaseRate": -0.03082641,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 88660
+    },
+    {
+      "time": 1252770155708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 91480
+    },
+    {
+      "time": 1221234155708,
+      "valueIncreaseRate": 0.026135726,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 91480
+    },
+    {
+      "time": 1189611755708,
+      "valueIncreaseRate": 0.09306032,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 89150
+    },
+    {
+      "time": 1158075755708,
+      "valueIncreaseRate": 0.120637536,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 81560
+    },
+    {
+      "time": 1126539755708,
+      "valueIncreaseRate": 0.058156442,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 72780
+    },
+    {
+      "time": 1095003755708,
+      "valueIncreaseRate": -0.022594856,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 68780
+    },
+    {
+      "time": 1063381355708,
+      "valueIncreaseRate": 0.052970223,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 70370
+    },
+    {
+      "time": 1031845355708,
+      "valueIncreaseRate": 0.13772558,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 66830
+    },
+    {
+      "time": 1000309355708,
+      "valueIncreaseRate": 0.05136925,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 58740
+    },
+    {
+      "time": 968773355708,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 55870
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 668,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1981,
+  "brokerageName": "Texas Elite Realty Group",
+  "description": "Welcome to this beautiful 3-bedroom, 2.5-bath condo located in one of Laredo\u2019s most convenient areas. Featuring an open-concept layout, this home offers a spacious living area perfect for entertaining, a modern kitchen, and a cozy dining space. The large primary suite includes a private bath, while the additional bedrooms provide comfort and versatility for family or guests. Enjoy the convenience of a half bath downstairs.   Situated near shopping, dining, and schools!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/5500-mcpherson-rd-unit-31-laredo-tx-78041/4807690747_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "AE",
+        "source": {
+          "url": "https://firststreet.org/property/5500-mcpherson-rd-unit-31-laredo-tx-78041/4807690747_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.34999999403954
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.46000000834465
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.69999998807907
+          }
+        ],
+        "insuranceSeparatePolicy": "REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/5500-mcpherson-rd-unit-31-laredo-tx-78041/4807690747_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/5500-mcpherson-rd-unit-31-laredo-tx-78041/4807690747_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/5500-mcpherson-rd-unit-31-laredo-tx-78041/4807690747_fsid"
+        },
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 0
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.547815,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-1-Laredo-TX-78041/49624692_zpid/",
+      "lotAreaValue": 2874,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 1",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 161200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2874,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d0865ac8d1ea17a8c0d9d7d2da459e68-p_c.jpg"
+        }
+      ],
+      "zpid": 49624692,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1481,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1481
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 2"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-2-Laredo-TX-78041/49624693_zpid/",
+      "lotAreaValue": 2787,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 2",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 140400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2787,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.547815322875977,-99.48278045654297&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=K4EmX_7LHVtmkCQ-1hsyYsnG2QU="
+        }
+      ],
+      "zpid": 49624693,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1254,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1254
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 6"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-6-Laredo-TX-78041/49624697_zpid/",
+      "lotAreaValue": 2797,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 6",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "20253557",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 143000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 2797,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/58d7bcc44f6f383ae76eacd7a142fc54-p_c.jpg"
+        }
+      ],
+      "zpid": 49624697,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 1254,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1254
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 8"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-8-Laredo-TX-78041/49624699_zpid/",
+      "lotAreaValue": 2787,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 8",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 133600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2787,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.547815322875977,-99.48278045654297&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=K4EmX_7LHVtmkCQ-1hsyYsnG2QU="
+        }
+      ],
+      "zpid": 49624699,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1254,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1254
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 10"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-10-Laredo-TX-78041/49624701_zpid/",
+      "lotAreaValue": 2874,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 10",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 158400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2874,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/73e213782234cf15a08e5d2120e546c2-p_c.jpg"
+        }
+      ],
+      "zpid": 49624701,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1481,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1481
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 11"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-11-Laredo-TX-78041/49624702_zpid/",
+      "lotAreaValue": 2874,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 11",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 156200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2874,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.547815322875977,-99.48278045654297&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=K4EmX_7LHVtmkCQ-1hsyYsnG2QU="
+        }
+      ],
+      "zpid": 49624702,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1481,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1481
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -99.48278,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 12",
+        "zipcode": "78041"
+      },
+      "livingAreaValue": 1481,
+      "lotSize": 2873,
+      "zpid": 49624703,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 12"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-12-Laredo-TX-78041/49624703_zpid/",
+      "lotAreaValue": 2873,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "20252510",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 27.547815,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Townhouse",
+      "newConstructionType": null,
+      "yearBuilt": 1981,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1481,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/deb3853d9df0c330b093f83473a5d372-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 158500,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 13"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-13-Laredo-TX-78041/49624704_zpid/",
+      "lotAreaValue": 2874,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 13",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 156000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2874,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.547815322875977,-99.48278045654297&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=K4EmX_7LHVtmkCQ-1hsyYsnG2QU="
+        }
+      ],
+      "zpid": 49624704,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1481,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1481
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5500 McPherson Rd UNIT 14"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5500-McPherson-Rd-UNIT-14-Laredo-TX-78041/49624705_zpid/",
+      "lotAreaValue": 2874,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "5500 McPherson Rd UNIT 14",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.547815,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 158600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2874,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=27.547815322875977,-99.48278045654297&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=K4EmX_7LHVtmkCQ-1hsyYsnG2QU="
+        }
+      ],
+      "zpid": 49624705,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1481,
+      "longitude": -99.48278,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1481
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.00625,
+      "date": "2025-09-03",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253819"
+      },
+      "pricePerSquareFoot": 107,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 159000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-02-04",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1738627200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250085"
+      },
+      "pricePerSquareFoot": 108,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 160000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-01-07",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1736208000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250085"
+      },
+      "pricePerSquareFoot": 108,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 160000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-12-03",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1733184000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20243185"
+      },
+      "pricePerSquareFoot": 108,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 160000
+    },
+    {
+      "priceChangeRate": 0.16788321167883,
+      "date": "2024-08-07",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1722988800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20243185"
+      },
+      "pricePerSquareFoot": 108,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 160000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-02-14",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1644796800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-08-07",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1628294400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20211785"
+      },
+      "pricePerSquareFoot": 93,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 137000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/52f26139ada4c538b56c14a4cde67efa-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6745-Gutierrez-Elementary-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.7,
+      "assigned": null,
+      "name": "Gutierrez Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6764-Clark-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Clark Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 3.2,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 1614,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "CONDOS-Mission Viejo",
+    "streetAddress": "5500 McPherson Rd UNIT 31",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "9 days",
+  "priceChange": null,
+  "zestimate": 156800,
+  "zpid": 199982260,
+  "countyId": 328,
+  "homeType": "TOWNHOUSE",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 113,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Cozy dining space",
+            "Comfort and versatility",
+            "Modern kitchen",
+            "Private bath",
+            "Additional bedrooms",
+            "Half bath downstairs",
+            "Large primary suite"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Cozy dining space",
+            "Comfort and versatility",
+            "Modern kitchen",
+            "Private bath",
+            "Additional bedrooms",
+            "Half bath downstairs",
+            "Large primary suite"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Hillside Terrace"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/5500-McPherson-Rd-UNIT-31-Laredo-TX-78041/199982260_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Texas Elite Realty Group"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Texas Elite Realty Group",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 11:44:02",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Alexandra Herrera",
+    "attributionTitle": null,
+    "mlsId": "20253819",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-251-3063",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Alexandra Herrera",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-251-3063",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-652-8692",
+    "lastChecked": "2025-09-12 08:28:42"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 23,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Swimming Pool"
+    ],
+    "flooring": [
+      "Carpet",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Level",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 147943,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condo/Townhouse",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1981",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "Open Parking",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "2,873 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$107",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Second",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen/Dining Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "2,873 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "1,481 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Large Master Bedroom",
+      "Ceiling Fan(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Corner Lot"
+    ],
+    "roofType": "Tile,15 or More Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Refrigerator",
+      "Range",
+      "Electric Water Heater"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "None",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1981,
+    "utilities": [
+      "Underground Utilities",
+      "Sewer Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "215640",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 928,
+    "subdivisionName": "CONDOS-Mission Viejo",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1756872632000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condo/Townhouse"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 0,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "No Garage",
+      "Asphalt",
+      "No Carport"
+    ],
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "Townhouse",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "1,481",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Rear"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer and Dryer Hookups"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 0,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 107,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Townhouse",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.009,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687127917
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.404,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687127917
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687127917
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 1481,
+  "zestimateHighPercent": "5",
+  "mlsid": "20253819",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001684531",
+  "country": "USA",
+  "price": 159000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:36.196442+00:00",
+    "zpid": "199982260",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

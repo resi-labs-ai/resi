@@ -1,0 +1,1953 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.40347,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/1d046a95705fa59e07d376c7f90685dc-p_d.jpg",
+  "livingAreaValue": 0,
+  "streetAddress": "9360 Readcrest Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155793248,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0.020009048,
+      "taxPaid": 100839.65,
+      "value": 8323200
+    },
+    {
+      "time": 1694533393248,
+      "valueIncreaseRate": 0.42870998,
+      "taxIncreaseRate": 0.46293464,
+      "taxPaid": 98861.52,
+      "value": 8160000
+    },
+    {
+      "time": 1662997393248,
+      "valueIncreaseRate": 0.019999975,
+      "taxIncreaseRate": 0.012077997,
+      "taxPaid": 67577.54,
+      "value": 5711446
+    },
+    {
+      "time": 1631461393248,
+      "valueIncreaseRate": 0.016665675,
+      "taxIncreaseRate": -0.009381134,
+      "taxPaid": 66771.08,
+      "value": 5599457
+    },
+    {
+      "time": 1599925393248,
+      "valueIncreaseRate": 0.019999908,
+      "taxIncreaseRate": 0,
+      "taxPaid": 67403.4,
+      "value": 5507668
+    },
+    {
+      "time": 1568302993248,
+      "valueIncreaseRate": 0.019999811,
+      "taxIncreaseRate": 0.05185673,
+      "taxPaid": 67403.4,
+      "value": 5399675
+    },
+    {
+      "time": 1536766993248,
+      "valueIncreaseRate": -0.25857142,
+      "taxIncreaseRate": 0,
+      "taxPaid": 64080.4,
+      "value": 5293800
+    },
+    {
+      "time": 1505230993248,
+      "valueIncreaseRate": 17.954578,
+      "taxIncreaseRate": -0.29126033,
+      "taxPaid": 64080.4,
+      "value": 7140000
+    },
+    {
+      "time": 1473694993248,
+      "valueIncreaseRate": 0.015246622,
+      "taxIncreaseRate": 16.595829,
+      "taxPaid": 90414.58,
+      "value": 376690
+    },
+    {
+      "time": 1442072593248,
+      "valueIncreaseRate": 0.019977128,
+      "taxIncreaseRate": 0.0071699913,
+      "taxPaid": 5138.41,
+      "value": 371033
+    },
+    {
+      "time": 1410536593248,
+      "valueIncreaseRate": 0.024623688,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5101.83,
+      "value": 363766
+    },
+    {
+      "time": 1347464593248,
+      "valueIncreaseRate": 0.019996323,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 355024
+    },
+    {
+      "time": 1315842193248,
+      "valueIncreaseRate": 0.00752611,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 348064
+    },
+    {
+      "time": 1284306193248,
+      "valueIncreaseRate": -0.0023708795,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 345464
+    },
+    {
+      "time": 1252770193248,
+      "valueIncreaseRate": 0.01999729,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 346285
+    },
+    {
+      "time": 1221234193248,
+      "valueIncreaseRate": 0.019997597,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 339496
+    },
+    {
+      "time": 1189611793248,
+      "valueIncreaseRate": 0.019996015,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 332840
+    },
+    {
+      "time": 1158075793248,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 326315
+    },
+    {
+      "time": 1126539793248,
+      "valueIncreaseRate": 0.04039599,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 326315
+    },
+    {
+      "time": 1095003793248,
+      "valueIncreaseRate": 0.018665273,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 313645
+    },
+    {
+      "time": 1063381393248,
+      "valueIncreaseRate": 0.019995892,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 307898
+    },
+    {
+      "time": 1031845393248,
+      "valueIncreaseRate": 0.040394016,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 301862
+    },
+    {
+      "time": 968773393248,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 290142
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 91350,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 1926,
+  "brokerageName": "Plus Real Estate",
+  "description": "Nestled in the coveted Crest Streets of Beverly Hills, this contemporary estate blends timeless architectural pedigree with striking modern design. Originally built in 1926 as one of the model homes for the visionary Beverly Crest development by George Read, the residence stands as a piece of Los Angeles history, once said to be the home of legendary Hollywood architect John Elgin Woolf during the 1950s and '60s. Fresh from an extensive renovation, the home now showcases warm modern interiors with clean lines, natural materials, and walls of steel windows and glass that frame sweeping, unobstructed views from downtown Los Angeles to the Pacific Ocean. Designed for both privacy and openness, the living spaces flow effortlessly to expansive outdoor terraces, lush gardens, and a serene pool oasis. Set on a verdant 19,154-square-foot lot, this gated property offers rare seclusion just minutes from the heart of Beverly Hills. A truly unique offering, where old Hollywood heritage meets sophisticated contemporary living. APN 4350-016-011 also included in sale.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/9360-readcrest-dr-beverly-hills-ca-90210/601373239_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/9360-readcrest-dr-beverly-hills-ca-90210/601373239_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0007999999797903
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0049000000581145
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0091000003740191
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.013500000350177
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.01799999922514
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.022700000554323
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.027499999850988
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/9360-readcrest-dr-beverly-hills-ca-90210/601373239_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/9360-readcrest-dr-beverly-hills-ca-90210/601373239_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/9360-readcrest-dr-beverly-hills-ca-90210/601373239_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.09487,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9360 Readcrest Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9360-Readcrest-Dr-Beverly-Hills-CA-90210/135434396_zpid/",
+      "lotAreaValue": 639,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9360 Readcrest Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.0949,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 352985,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 639,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=34.09489822387695,-118.40347290039062&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=h1axjMXwSNkwWnaGNnvX6nGn05w="
+        }
+      ],
+      "zpid": 135434396,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.40347,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1128 Miradero Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1128-Miradero-Rd-Beverly-Hills-CA-90210/20522630_zpid/",
+      "lotAreaValue": 0.75222681359045,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1128 Miradero Rd",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.094578,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 11167700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 32767,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1128+Miradero+Rd%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=QIiCYXIS0oUtSEPjyCPzcvjLfL8="
+        }
+      ],
+      "zpid": 20522630,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6633,
+      "longitude": -118.40368,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6633
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.403076,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1315 Schuyler Rd",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 1990,
+      "lotSize": 11441,
+      "zpid": 20522985,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1315 Schuyler Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1315-Schuyler-Rd-Beverly-Hills-CA-90210/20522985_zpid/",
+      "lotAreaValue": 0.2626492194674,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.094696,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1950,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1990,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a1e78f1592e6c98140e4003c514ea6de-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 3286200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1301 Schuyler Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1301-Schuyler-Rd-Beverly-Hills-CA-90210/20522984_zpid/",
+      "lotAreaValue": 9752,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1301 Schuyler Rd",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.094547,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3655400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9752,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1301+Schuyler+Rd%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=YelKw1aPH_rSHbgQ4R9Kt8efIGE="
+        }
+      ],
+      "zpid": 20522984,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3674,
+      "longitude": -118.40324,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3674
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.40314,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9354 Readcrest Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 2753,
+      "lotSize": 13808,
+      "zpid": 20522987,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9354 Readcrest Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9354-Readcrest-Dr-Beverly-Hills-CA-90210/20522987_zpid/",
+      "lotAreaValue": 0.317,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.095196,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1961,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2753,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a42e77f684b5df7140dfdcf50115b84e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 4285300,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1319 Schuyler Rd"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1319-Schuyler-Rd-Beverly-Hills-CA-90210/20522986_zpid/",
+      "lotAreaValue": 0.26053719008264,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1319 Schuyler Rd",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.094864,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2836400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11349,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1319+Schuyler+Rd%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=jbg4e9i0CZg9yubhiFhOYbdKZi0="
+        }
+      ],
+      "zpid": 20522986,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2843,
+      "longitude": -118.40291,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2843
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9377 Readcrest Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9377-Readcrest-Dr-Beverly-Hills-CA-90210/20522937_zpid/",
+      "lotAreaValue": 0.44403122130395,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9377 Readcrest Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.095394,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2700000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 19342,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9377+Readcrest+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=c5l919_X6dd0w4uhFIdQkxjNlk0="
+        }
+      ],
+      "zpid": 20522937,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3086,
+      "longitude": -118.40361,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3086
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9376 Readcrest Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9376-Readcrest-Dr-Beverly-Hills-CA-90210/20522982_zpid/",
+      "lotAreaValue": 0.50734618916437,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9376 Readcrest Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.095306,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4395500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22100,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9376+Readcrest+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=QSW70D85oYYldfo8EpLToKkz4Bg="
+        }
+      ],
+      "zpid": 20522982,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5920,
+      "longitude": -118.404,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5920
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 1.4729960204662,
+      "date": "2025-09-11",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25590661"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 21750000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-02-12",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1676160000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-101953"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-01-28",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1643328000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-101953"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-12-30",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1640822400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-101953"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-11-05",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1636070400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21101953"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-27",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1635292800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1633478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21781948"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-10-06",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1633478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.28571428571429,
+      "date": "2021-09-22",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1632268800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21769988"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 45000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-09-21",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1632182400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-09-09",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1631145600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21781948"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-08-20",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1629417600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.053293413173653,
+      "date": "2021-08-18",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1629244800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21730372"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8795000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-07-02",
+      "source": "Hilton & Hyland",
+      "postingIsRental": false,
+      "time": 1593648000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20544608"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 8350000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-06-29",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1593388800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20568690"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 35000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-06-13",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1592006400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20568690"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 35000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-04-28",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1588032000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20568690"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 35000
+    },
+    {
+      "priceChangeRate": -0.3,
+      "date": "2020-04-03",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1585872000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20568690"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 35000
+    },
+    {
+      "priceChangeRate": -0.071706503613118,
+      "date": "2020-01-16",
+      "source": "Hilton & Hyland",
+      "postingIsRental": false,
+      "time": 1579132800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "20544608"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 8350000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-12-04",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1575417600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "19476176"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 50000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-06-15",
+      "source": "Hilton & Hyland",
+      "postingIsRental": true,
+      "time": 1560556800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "19476176"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 50000
+    },
+    {
+      "priceChangeRate": -0.10005002501251,
+      "date": "2019-03-15",
+      "source": "Hilton & Hyland",
+      "postingIsRental": false,
+      "time": 1552608000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "19444166"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-02-11",
+      "source": "Hilton & Hyland",
+      "postingIsRental": false,
+      "time": 1549843200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "18388064"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 9995000
+    },
+    {
+      "priceChangeRate": 0.92211538461538,
+      "date": "2018-08-13",
+      "source": "Hilton & Hyland",
+      "postingIsRental": false,
+      "time": 1534118400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Hilton & Hyland",
+        "infoString3": null,
+        "infoString1": "18374426"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 9995000
+    },
+    {
+      "priceChangeRate": -0.15102040816327,
+      "date": "2017-06-27",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1498521600000,
+      "sellerAgent": {
+        "name": "Adam Rosenfeld",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/IS3nupydu8iv7t1000000000.jpg"
+        },
+        "profileUrl": "/profile/adamjrosenfeld/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "17191458"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": {
+        "name": "David Yocum",
+        "photo": null,
+        "profileUrl": "/profile/user3810139/"
+      },
+      "event": "Sold",
+      "price": 5200000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-04-01",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1459468800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "09404085"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": {
+        "name": "Ina Kagel",
+        "photo": null,
+        "profileUrl": "/profile/Beverly-Hills-Agent/"
+      },
+      "event": "Sold",
+      "price": 6125000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/1d046a95705fa59e07d376c7f90685dc-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/west-hollywood/2468-West-Hollywood-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "West Hollywood Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 3.4,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 4.7,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 8162,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "9360 Readcrest Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "22 hours",
+  "priceChange": null,
+  "zestimate": 21484200,
+  "zpid": 20522983,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 351,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Serene pool oasis",
+            "Contemporary estate",
+            "Modern design",
+            "Warm modern interiors",
+            "Lush gardens",
+            "Clean lines",
+            "Timeless architectural pedigree"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Serene pool oasis",
+            "Contemporary estate",
+            "Modern design",
+            "Warm modern interiors",
+            "Lush gardens",
+            "Clean lines",
+            "Timeless architectural pedigree"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 5,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/9360-Readcrest-Dr-Beverly-Hills-CA-90210/20522983_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Plus Real Estate"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Plus Real Estate",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 03:36:04",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Tyrone McKillen",
+    "attributionTitle": null,
+    "mlsId": "25590661",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "949-212-8721",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 01915539",
+        "memberFullName": "Tyrone McKillen",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "949-212-8721",
+    "agentLicenseNumber": "DRE # 01915539",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-230-5478",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 28,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated And Filtered"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Mixed",
+      "Stone Tile"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 8323200,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1926",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.43 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Panoramic",
+      "Hills",
+      "City",
+      "City Lights",
+      "Coastline",
+      "Ocean"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.43 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": null,
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 4,
+    "architecturalStyle": "Architectural",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Built-Ins"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Living Room",
+      "Den"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Disposal",
+      "Freezer",
+      "Dryer",
+      "Dishwasher",
+      "Microwave",
+      "Washer",
+      "Refrigerator",
+      "Range/Oven"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "165 x 114",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1926,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "4352012020",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 100840,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757612180000,
+    "roomTypes": [
+      "Breakfast Area",
+      "Great Room",
+      "Sauna",
+      "Library",
+      "Living Room",
+      "Walk-In Closet",
+      "Patio Open",
+      "Entry",
+      "Enclosed Glass Porch"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Multi/Split",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage - 2 Car"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Gazebo"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": "Coastline,Ocean",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Cable"
+    ],
+    "bathrooms": 5,
+    "buildingArea": "0",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 5,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Laundry Room"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": null,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690597190
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690597190
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690597190
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 13,
+  "livingArea": 0,
+  "zestimateHighPercent": "5",
+  "mlsid": "25590661",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 21750000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:13.810821+00:00",
+    "zpid": "20522983",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

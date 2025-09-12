@@ -1,0 +1,1590 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.83872,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/63cf0f37ad7e5ca8ecac061e655349dd-p_d.jpg",
+  "livingAreaValue": 3824,
+  "streetAddress": "3407 Cardiff Mist Dr",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 92,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155944298,
+      "valueIncreaseRate": 0.016746232,
+      "taxIncreaseRate": -0.16386059,
+      "taxPaid": 8814.59,
+      "value": 649589
+    },
+    {
+      "time": 1694533544298,
+      "valueIncreaseRate": 0.065402634,
+      "taxIncreaseRate": -0.050010964,
+      "taxPaid": 10542.01,
+      "value": 638890
+    },
+    {
+      "time": 1662997544298,
+      "valueIncreaseRate": 0.40513626,
+      "taxIncreaseRate": 0.5163766,
+      "taxPaid": 11096.98,
+      "value": 599670
+    },
+    {
+      "time": 1631461544298,
+      "valueIncreaseRate": 0.026333509,
+      "taxIncreaseRate": 0.006893186,
+      "taxPaid": 7318.09,
+      "value": 426770
+    },
+    {
+      "time": 1599925544298,
+      "valueIncreaseRate": 0.08506863,
+      "taxIncreaseRate": 0.055427507,
+      "taxPaid": 7267.99,
+      "value": 415820
+    },
+    {
+      "time": 1568303144298,
+      "valueIncreaseRate": -0.03611852,
+      "taxIncreaseRate": -0.07497161,
+      "taxPaid": 6886.3,
+      "value": 383220
+    },
+    {
+      "time": 1536767144298,
+      "valueIncreaseRate": 0.031549998,
+      "taxIncreaseRate": -0.39631405,
+      "taxPaid": 7444.42,
+      "value": 397580
+    },
+    {
+      "time": 1505231144298,
+      "valueIncreaseRate": -0.07692676,
+      "taxIncreaseRate": 0,
+      "taxPaid": 12331.61,
+      "value": 385420
+    },
+    {
+      "time": 1473695144298,
+      "valueIncreaseRate": 0.019135954,
+      "taxIncreaseRate": 0.5914897,
+      "taxPaid": 12331.61,
+      "value": 417540
+    },
+    {
+      "time": 1442072744298,
+      "valueIncreaseRate": 5.4266667,
+      "taxIncreaseRate": 4.734935,
+      "taxPaid": 7748.47,
+      "value": 409700
+    },
+    {
+      "time": 1410536744298,
+      "valueIncreaseRate": 5.071429,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1351.1,
+      "value": 63750
+    },
+    {
+      "time": 1379000744298,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 10500
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2730,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUy33wm7kwsao9_2uji6",
+    "review_count": 26,
+    "display_name": "Nicole Freer",
+    "profile_url": "https://www.zillow.com/profile/nicolef15003/",
+    "business_name": "Corcoran Genesis",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "236",
+      "areacode": "832",
+      "number": "6438"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/ffceb9d6ef3591ad78a46bbf7c55175d-h_n.jpg"
+  },
+  "yearBuilt": 2014,
+  "brokerageName": "Corcoran Genesis",
+  "description": "Welcome home to 3407 Cardiff Mist Drive, located in Canyon Lakes at Cardiff Ranch community and zoned to Katy ISD! This beautiful home offers 4 bedrooms, 3 full baths, 1 half bath, and a spacious 3-car garage. Step inside to high ceilings and elegant flooring. The study is filled with natural light from large windows and features a decorative ceiling for added charm. The kitchen boasts rich stained cabinetry, a center island for additional prep space and storage, and stainless steel appliances. The family room has a stunning tile-surround fireplace, built-in shelving, plush carpet, and a wall of windows. The spacious primary suite, complete with a spa-like bath featuring a garden tub, separate walk-in shower, dual vanities, and a generous walk-in closet. Upstairs, you\u2019ll find three secondary bedrooms, game room and media room. Enjoy the covered patio and backyard, an ideal spot for relaxing or entertaining. Be sure to check out the 3D tour and schedule your private showing today!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.98000001907349
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3407-cardiff-mist-dr-katy-tx-77494/4800861014_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3407-cardiff-mist-dr-katy-tx-77494/4800861014_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.34999999403954
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.46000000834465
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.69999998807907
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0012000000569969
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0021999999880791
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0031999999191612
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0041999998502433
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0052000000141561
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0062000001780689
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3407-cardiff-mist-dr-katy-tx-77494/4800861014_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3407-cardiff-mist-dr-katy-tx-77494/4800861014_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3407-cardiff-mist-dr-katy-tx-77494/4800861014_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.732697,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3411 Cardiff Mist Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3411-Cardiff-Mist-Dr-Katy-TX-77494/120559974_zpid/",
+      "lotAreaValue": 9525,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3411 Cardiff Mist Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732487,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 761700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9525,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3411+Cardiff+Mist+Dr%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=YY7vDLSgYBTkPk33V_HCGvghv3c="
+        }
+      ],
+      "zpid": 120559974,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4380,
+      "longitude": -95.83873,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4380
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3403 Cardiff Mist Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3403-Cardiff-Mist-Dr-Katy-TX-77494/120890926_zpid/",
+      "lotAreaValue": 0.46085858585859,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3403 Cardiff Mist Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.733025,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 809000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 20075,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3403+Cardiff+Mist+Dr%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=MI5cJl44VbggTAUsPCqcbCPk2M4="
+        }
+      ],
+      "zpid": 120890926,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4729,
+      "longitude": -95.83875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4729
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Cardiff Mist Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Cardiff-Mist-Dr-Katy-TX-77494/249029998_zpid/",
+      "lotAreaValue": 6115,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Cardiff Mist Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732382,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6115,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.73238182067871,-95.83851623535156&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=OoPsq3OZZCd1X-hzkyitrYZ1vJo="
+        }
+      ],
+      "zpid": 249029998,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": null,
+      "longitude": -95.83852,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3414 Herons Pointe Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3414-Herons-Pointe-Ln-Katy-TX-77494/120892820_zpid/",
+      "lotAreaValue": 7500,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3414 Herons Pointe Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732645,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 624800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7500,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3414+Herons+Pointe+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=E-OMI-FRjGjpA0BTvnqHtRg0HmU="
+        }
+      ],
+      "zpid": 120892820,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3355,
+      "longitude": -95.83831,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3355
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -95.83831,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3410 Herons Pointe Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3585,
+      "lotSize": null,
+      "zpid": 120888134,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3410 Herons Pointe Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3410-Herons-Pointe-Ln-Katy-TX-77494/120888134_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.73281,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3585,
+      "providerListingID": "2gfgkgmneh0vu",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2f9940eb59bdccbcdb2fb8d5e1fbb621-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 635500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3415 Cardiff Mist Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3415-Cardiff-Mist-Dr-Katy-TX-77494/120891163_zpid/",
+      "lotAreaValue": 9526,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3415 Cardiff Mist Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73228,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 627000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9526,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d1ee92bf164a8e6fd46e70f61d94e915-p_c.jpg"
+        }
+      ],
+      "zpid": 120891163,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3910,
+      "longitude": -95.83873,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3910
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3418 Herons Pointe Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3418-Herons-Pointe-Ln-Katy-TX-77494/119898244_zpid/",
+      "lotAreaValue": 7500,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3418 Herons Pointe Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73248,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 470100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7500,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3418+Herons+Pointe+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=96VvnLVpGgGRF1Hcynay93nEKsM="
+        }
+      ],
+      "zpid": 119898244,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2747,
+      "longitude": -95.8383,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2747
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3406 Herons Pointe Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3406-Herons-Pointe-Ln-Katy-TX-77494/119897586_zpid/",
+      "lotAreaValue": 8043,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3406 Herons Pointe Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.732983,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 633300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8043,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=3406+Herons+Pointe+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=RNBF-FXllPZUdWDmeF2B6j0xoRs="
+        }
+      ],
+      "zpid": 119897586,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3898,
+      "longitude": -95.83832,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3898
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.47727272727273,
+      "date": "2025-09-11",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "43288158"
+      },
+      "pricePerSquareFoot": 170,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 650000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-05-27",
+      "source": "Better Homes and Gardens Gary Greene",
+      "postingIsRental": false,
+      "time": 1622073600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Better Homes and Gardens Gary Greene",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-04-21",
+      "source": "Better Homes and Gardens Gary Greene",
+      "postingIsRental": false,
+      "time": 1618963200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Better Homes and Gardens Gary Greene",
+        "infoString3": null,
+        "infoString1": "86154357"
+      },
+      "pricePerSquareFoot": 115,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 440000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-04-17",
+      "source": "Better Homes and Gardens Gary Greene",
+      "postingIsRental": false,
+      "time": 1618617600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Better Homes and Gardens Gary Greene",
+        "infoString3": null,
+        "infoString1": "86154357"
+      },
+      "pricePerSquareFoot": 115,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 440000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/63cf0f37ad7e5ca8ecac061e655349dd-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/24762-Keiko-Davidson-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Keiko Davidson Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/25341-Tays-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.9,
+      "assigned": null,
+      "name": "Tays J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/11780-Obra-D-Tompkins-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Obra D Tompkins High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3691,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 12:00:00",
+      "endTime": "2025-09-13 16:00:00"
+    },
+    {
+      "startTime": "2025-09-14 12:00:00",
+      "endTime": "2025-09-14 16:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Canyon Lakes At Cardiff Ranch",
+    "streetAddress": "3407 Cardiff Mist Dr",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "21 hours",
+  "priceChange": null,
+  "zestimate": 635400,
+  "zpid": 120888877,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 209,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Stunning tile-surround fireplace",
+            "Plush carpet",
+            "High ceilings",
+            "Wall of windows",
+            "Stainless steel appliances",
+            "Built-in shelving",
+            "Elegant flooring"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Stunning tile-surround fireplace",
+            "Plush carpet",
+            "High ceilings",
+            "Wall of windows",
+            "Stainless steel appliances",
+            "Built-in shelving",
+            "Elegant flooring"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 4,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3407-Cardiff-Mist-Dr-Katy-TX-77494/120888877_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": "TREC #0669148",
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Corcoran Genesis"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Corcoran Genesis"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Corcoran Genesis",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 02:17:19",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Nicole Freer",
+    "attributionTitle": null,
+    "mlsId": "43288158",
+    "coAgentName": "Manuchehr Sharipov",
+    "coAgentNumber": "832-524-3434",
+    "infoString5": "832-236-6438",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0632814",
+        "memberFullName": "Nicole Freer",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "TREC #0669148",
+        "memberFullName": "Manuchehr Sharipov",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-236-6438",
+    "agentLicenseNumber": "TREC #0632814",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "832-437-1822",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 28,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Tile",
+      "Vinyl"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 649589,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2014",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,100 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10,585 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "0",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$170",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Half Bath",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower",
+          "Primary Bath: Soaking Tub",
+          "Vanity Area"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,100 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,585 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=a4AUJxJ7oKZ&brand=0&mls=1&"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,824 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA",
+    "otherParking": null,
+    "associationFee": "$1,100 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Crown Molding",
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "En-Suite Bath",
+      "Primary Bed - 1st Floor",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Subdivided",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 0,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Keiko Davidson Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Thermostat",
+      "HVAC"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Stone",
+      "Wood Siding"
+    ],
+    "fireplaceFeatures": [
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,100 annually",
+    "appliances": [
+      "Disposal",
+      "Gas Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Tays Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://my.matterport.com/show/?m=a4AUJxJ7oKZ&brand=0&mls=1&",
+    "contingency": null,
+    "yearBuilt": 2014,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "2254030010060914",
+    "incomeIncludes": null,
+    "highSchool": "Tompkins High School",
+    "taxAnnualAmount": 8815,
+    "subdivisionName": "Canyon Lakes At Cardiff Ranch",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows",
+      "Window Coverings"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757613040000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete",
+      "Curbs",
+      "Gutters"
+    ],
+    "associationAmenities": [
+      "Clubhouse",
+      "Fitness Center",
+      "Jogging Path",
+      "Park",
+      "Party Room",
+      "Picnic Area",
+      "Playground",
+      "Pool",
+      "Splash Pad",
+      "Trail(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,100 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage",
+      "Additional Parking",
+      "Electric Gate",
+      "Garage Door Opener",
+      "Driveway Gate",
+      "Porte-Cochere"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,100 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 4,
+    "buildingArea": "3,824",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered"
+    ],
+    "bathroomsFloat": 4,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 0,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 170,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689704968
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689704968
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757689704968
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 4,
+  "livingArea": 3824,
+  "zestimateHighPercent": "5",
+  "mlsid": "43288158",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 650000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:44.938879+00:00",
+    "zpid": "120888877",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

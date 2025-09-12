@@ -1,0 +1,1831 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.379654,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/e8acfff0e786f5fea7bb5efac42ab7d6-p_d.jpg",
+  "livingAreaValue": 765,
+  "streetAddress": "275 13th St NE APT 310",
+  "county": "Fulton County",
+  "monthlyHoaFee": 420,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155924732,
+      "valueIncreaseRate": 0.17030029,
+      "taxIncreaseRate": 0.8439338,
+      "taxPaid": 2100.13,
+      "value": 113800
+    },
+    {
+      "time": 1694533524732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.4328553,
+      "taxPaid": 1138.94,
+      "value": 97240
+    },
+    {
+      "time": 1662997524732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.013172957,
+      "taxPaid": 2008.2,
+      "value": 97240
+    },
+    {
+      "time": 1631461524732,
+      "valueIncreaseRate": 0.20525533,
+      "taxIncreaseRate": -0.40658653,
+      "taxPaid": 1982.09,
+      "value": 97240
+    },
+    {
+      "time": 1599925524732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 1.0132058,
+      "taxPaid": 3340.15,
+      "value": 80680
+    },
+    {
+      "time": 1568303124732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1659.12,
+      "value": 80680
+    },
+    {
+      "time": 1536767124732,
+      "valueIncreaseRate": 0.09027027,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1659.12,
+      "value": 80680
+    },
+    {
+      "time": 1505231124732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.11754099,
+      "taxPaid": 1659.12,
+      "value": 74000
+    },
+    {
+      "time": 1473695124732,
+      "valueIncreaseRate": 0.184379,
+      "taxIncreaseRate": -0.3146439,
+      "taxPaid": 1880.11,
+      "value": 74000
+    },
+    {
+      "time": 1442072724732,
+      "valueIncreaseRate": 0.37017545,
+      "taxIncreaseRate": 0.32682317,
+      "taxPaid": 2743.26,
+      "value": 62480
+    },
+    {
+      "time": 1410536724732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.027650343,
+      "taxPaid": 2067.54,
+      "value": 45600
+    },
+    {
+      "time": 1379000724732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 3.1039288,
+      "taxPaid": 2011.91,
+      "value": 45600
+    },
+    {
+      "time": 1347464724732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 490.24,
+      "value": 45600
+    },
+    {
+      "time": 1315842324732,
+      "valueIncreaseRate": -0.30614728,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 45600
+    },
+    {
+      "time": 1284306324732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1611.46,
+      "value": 65720
+    },
+    {
+      "time": 1252770324732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 65720
+    },
+    {
+      "time": 1221234324732,
+      "valueIncreaseRate": 0.53479683,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 65720
+    },
+    {
+      "time": 1189611924732,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42820
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1218,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 2005,
+  "brokerageName": "Keller Wms Re Atl Midtown",
+  "description": "Ready to live the quintessential Midtown lifestyle? This stunning 1-bedroom, 1-bathroom condo at ParcVue is coming back to the market with a brand-new price of $289,900. This is your chance to snag a true urban oasis in the heart of Atlanta's most vibrant neighborhood.  Imagine waking up just a few steps from Piedmont Park, then spending your day exploring world-class museums like the High Museum of Art and enjoying top-tier dining and shopping. Everything you need is right at your fingertips, from public transit to corporate offices.  Inside, you'll find a sleek, updated space that's perfect for both relaxing and entertaining. The updated kitchen features solid surface counters and stainless steel appliances, while beautiful hardwood floors flow throughout the main living areas. The spacious living and dining areas open directly onto a large, covered private terrace\u2014the perfect spot to unwind with a drink after a long day. The unit also includes the must-haves: a large closet and in-unit laundry.  Don't miss out on this incredible opportunity to own a piece of the city. Schedule a tour today and discover your new home!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/275-13th-st-ne-apt-310-atlanta-ga-30309/134169349_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/275-13th-st-ne-apt-310-atlanta-ga-30309/134169349_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/275-13th-st-ne-apt-310-atlanta-ga-30309/134169349_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/275-13th-st-ne-apt-310-atlanta-ga-30309/134169349_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/275-13th-st-ne-apt-310-atlanta-ga-30309/134169349_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.78499,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE APT 804"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-APT-804-Atlanta-GA-30309/71544629_zpid/",
+      "lotAreaValue": 766,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE APT 804",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 261000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 766,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/117b2661af5a4a5a1db228225d8d855b-p_c.jpg"
+        }
+      ],
+      "zpid": 71544629,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 780,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 780
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -84.379654,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 0,
+      "lotSize": null,
+      "zpid": 71752043,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-Atlanta-GA-30309/71752043_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 33.78499,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2005,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 0,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9109c01567f18f8d9eee80bc5224c8ed-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 261300,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-Atlanta-GA-30309/71752088_zpid/",
+      "lotAreaValue": 958,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 323500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 958,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/add07d0a904445bca767a672fa0c934a-p_c.jpg"
+        }
+      ],
+      "zpid": 71752088,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 960,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 960
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-Atlanta-GA-30309/71752209_zpid/",
+      "lotAreaValue": 766,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 294400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 766,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f19125bcba1085ad6be4569051a27084-p_c.jpg"
+        }
+      ],
+      "zpid": 71752209,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 900,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 900
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE #132-8"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-132-8-Atlanta-GA-30309/71752266_zpid/",
+      "lotAreaValue": 3698,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE #132-8",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1542500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 3698,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78498840332031,-84.37965393066406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=WYIOuyFggrC94tlal_ZGhEswBpg="
+        }
+      ],
+      "zpid": 71752266,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 7400,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 7400
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE APT 303"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-APT-303-Atlanta-GA-30309/71752378_zpid/",
+      "lotAreaValue": 766,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE APT 303",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 268200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 766,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3c8ae3372b0318c97d58825504c9be51-p_c.jpg"
+        }
+      ],
+      "zpid": 71752378,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 765,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 765
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE APT 1211"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-APT-1211-Atlanta-GA-30309/71752410_zpid/",
+      "lotAreaValue": 1149,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE APT 1211",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 386100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1149,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78498840332031,-84.37965393066406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=WYIOuyFggrC94tlal_ZGhEswBpg="
+        }
+      ],
+      "zpid": 71752410,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1150,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1150
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-Atlanta-GA-30309/71752483_zpid/",
+      "lotAreaValue": 858,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 310700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 858,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78498840332031,-84.37965393066406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=WYIOuyFggrC94tlal_ZGhEswBpg="
+        }
+      ],
+      "zpid": 71752483,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 860,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 860
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "275 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/275-13th-St-NE-Atlanta-GA-30309/71752511_zpid/",
+      "lotAreaValue": 1899,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "275 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78499,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 641600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1899,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78498840332031,-84.37965393066406&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=WYIOuyFggrC94tlal_ZGhEswBpg="
+        }
+      ],
+      "zpid": 71752511,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3800,
+      "longitude": -84.379654,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3800
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.064536947402388,
+      "date": "2025-09-12",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1757635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7648279"
+      },
+      "pricePerSquareFoot": 379,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 289900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-31",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1756598400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7544456"
+      },
+      "pricePerSquareFoot": 405,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 309900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-03-20",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1742428800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7544456"
+      },
+      "pricePerSquareFoot": 405,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 309900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-03-17",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1742169600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7495125"
+      },
+      "pricePerSquareFoot": 405,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 309900
+    },
+    {
+      "priceChangeRate": -0.031259768677712,
+      "date": "2025-01-14",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1736812800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10424889"
+      },
+      "pricePerSquareFoot": 405,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 309900
+    },
+    {
+      "priceChangeRate": 0.72918918918919,
+      "date": "2024-12-06",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1733443200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7495125"
+      },
+      "pricePerSquareFoot": 418,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 319900
+    },
+    {
+      "priceChangeRate": -0.07035175879397,
+      "date": "2015-01-09",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1420761600000,
+      "sellerAgent": {
+        "name": "Pamela Handler",
+        "photo": null,
+        "profileUrl": "/profile/Pamela-Handler/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5369617"
+      },
+      "pricePerSquareFoot": 242,
+      "buyerAgent": {
+        "name": "Common Ground Real Estate",
+        "photo": null,
+        "profileUrl": "/profile/CGREATL/"
+      },
+      "event": "Sold",
+      "price": 185000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-12-06",
+      "source": "Atlanta Communities Real Estate Brokerage",
+      "postingIsRental": false,
+      "time": 1417824000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Atlanta Communities Real Estate Brokerage",
+        "infoString3": null,
+        "infoString1": "5369617"
+      },
+      "pricePerSquareFoot": 260,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 199000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-11-22",
+      "source": "Atlanta Communities Real Estate Brokerage, LLC",
+      "postingIsRental": false,
+      "time": 1416614400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Atlanta Communities Real Estate Brokerage, LLC",
+        "infoString3": null,
+        "infoString1": "5369617"
+      },
+      "pricePerSquareFoot": 260,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 199000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/e8acfff0e786f5fea7bb5efac42ab7d6-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2132,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Parc Vue",
+    "streetAddress": "275 13th St NE APT 310",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "11 days",
+  "priceChange": null,
+  "zestimate": 286800,
+  "zpid": 71754417,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 108,
+  "homeInsights": {},
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/275-13th-St-NE-APT-310-Atlanta-GA-30309/71754417_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Wms Re Atl Midtown"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Wms Re Atl Midtown",
+    "listingAttributionContact": "404-604-3100",
+    "lastUpdated": "2025-09-12 04:02:54",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Andrew LAND",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7648279",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-309-1982",
+    "listingAgents": [
+      {
+        "memberStateLicense": "353825",
+        "memberFullName": "Andrew LAND",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-309-1982",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 30,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "Fenced"
+    ],
+    "flooring": [
+      "Carpet",
+      "Ceramic Tile",
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "None"
+    ],
+    "accessibilityFeatures": [
+      "Accessible Bedroom",
+      "Accessible Doors",
+      "Accessible Entrance"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 284500,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2005",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Parking space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$420 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "11 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$379",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "None"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          " Cabinets Stain",
+          " Pantry",
+          " Solid Surface Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "404-347-4532",
+        "name": null,
+        "fee": "$420 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "766.66 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "765 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$420 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "404-347-4532",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Bookcases",
+      "Elevator"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Landscaped"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 11,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Fulton - Other",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Other"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$420 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Electric Cooktop",
+      "Electric Oven",
+      "Electric Water Heater",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "276 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Business Center",
+      "Clubhouse",
+      "Concierge",
+      "Fitness Center",
+      "Meeting Room",
+      "Near Public Transport",
+      "Near Schools",
+      "Near Shopping",
+      "Near Trails/Greenway",
+      "Pool",
+      "Street Lights"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2005,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Phone Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 010600340338",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 2100,
+    "subdivisionName": "Parc Vue",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated Windows",
+      "Window Treatments"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756684800000,
+    "roomTypes": [
+      "Living Room",
+      "Master Bathroom",
+      "Master Bedroom"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$420 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned",
+      "Covered"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Key Card Entry",
+      "Secured Garage/Parking",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 134,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$420 monthly",
+        "name": null,
+        "phone": "404-347-4532"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "110 Volts",
+      "220 Volts in Laundry"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "765",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Door Person",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Pest Control",
+      "Receptionist",
+      "Reserve Fund",
+      "Sewer",
+      "Termite",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 379,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-01",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691924760
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691924760
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691924760
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 765,
+  "zestimateHighPercent": "5",
+  "mlsid": "7648279",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001579798",
+  "country": "USA",
+  "price": 289900,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:25.270810+00:00",
+    "zpid": "71754417",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

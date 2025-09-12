@@ -1,0 +1,1617 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 55,
+      "display_name": "Ali Bakir",
+      "badge_type": "Premier Agent",
+      "business_name": "MorphEasy\u00ae",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "312",
+        "number": "7022"
+      },
+      "zuid": "X1-ZU112p2069q258p_94p27",
+      "image_url": "https://photos.zillowstatic.com/fp/e29233b0f9c6d160f381da79e8f90faa-h_g.jpg"
+    }
+  ],
+  "longitude": -87.61529,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_d.jpg",
+  "livingAreaValue": 1574,
+  "streetAddress": "211 N Harbor Dr #2508",
+  "county": "Cook County",
+  "monthlyHoaFee": 1416,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 5733,
+  "state": "IL",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUt7s61ife34sp_4hje0",
+    "review_count": 0,
+    "display_name": "Brad Brondyke",
+    "profile_url": "https://www.zillow.com/profile/bradbrondyke/",
+    "business_name": "Jameson Sotheby's Intl Realty",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "512",
+      "areacode": "773",
+      "number": "5035"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2022,
+  "brokerageName": "Jameson Sotheby's Intl Realty",
+  "description": "Experience luxury resort-style lakefront living at Cirrus in the exclusive Lakeshore East neighborhood with its premier amenities, prime location and private community. Set among Lakeshore East's serene green spaces where the Chicago River meets Lake Michigan, Cirrus offers its residents easy access to the lakefront running and biking path, DuSable Harbor and adjacent neighborhood parks, grocery, restaurants and cafes. Luxury living is made easy with over 48,000 SF of amenities. Entertain on our beautiful 41st floor indoor/outdoor amenity space including a wine lounge, chef's table, catering kitchen, outdoor terrace featuring lawn area, fire pit and grilling stations for al fresco dining - all overlooking the stunning lakefront and skyline. Wellness-minded residents at Cirrus enjoy the fully equipped fitness center including strength studio, motion studio for spinning and yoga with complimentary daily fitness classes, massage suite, steam room, indoor and outdoor pools and hydrotherapy pool. Convenient co-working spaces, salon, kid's club and indoor/outdoor dog runs make daily life easy. The unique lounge spaces, sound-proof jam room, movie screening room, conservatory, pool cabanas, sports simulator and more make life at Cirrus extraordinary. 24-hour door staff and friendly management are committed to making Cirrus a world-class community. Unit 2508 features floor to ceiling windows, wide plank hardwood flooring throughout, custom Italian Snaidero cabinetry, quartz counters, luxury Gaggenau appliances, Dornbracht fixtures and spa-like baths. Indoor parking available.",
+  "climate": null,
+  "latitude": 41.88569,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61529,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #1409",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1550,
+      "lotSize": null,
+      "zpid": 342169679,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #1409"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-1409-Chicago-IL-60601/342169679_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "11988391",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 41.88569,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2022,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1550,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1015000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #1309"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-1309-Chicago-IL-60601/345371616_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #1309",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12009475",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1025000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "zpid": 345371616,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1550,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1550
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #TOWNHOUSE 1"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-TOWNHOUSE-1-Chicago-IL-60601/346009635_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #TOWNHOUSE 1",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1976000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Home Type Unknown",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=211+N+Harbor+Dr%2C+Chicago%2C+IL+60601&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Z7K3NExEgOXlrDAaF9WyP3CxQlA="
+        }
+      ],
+      "zpid": 346009635,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "HOME_TYPE_UNKNOWN",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #4402"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-4402-Chicago-IL-60601/347723629_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #4402",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "11976862",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1500000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/59193f615d526283a0d7d97bdaf26755-p_c.jpg"
+        }
+      ],
+      "zpid": 347723629,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1558,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1558
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #1709"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-1709-Chicago-IL-60601/348439209_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #1709",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12030811",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1070000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "zpid": 348439209,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1550,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1550
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #2109"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-2109-Chicago-IL-60601/348439426_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #2109",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Home Type Unknown",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=211+N+Harbor+Dr%2C+Chicago%2C+IL+60601&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Z7K3NExEgOXlrDAaF9WyP3CxQlA="
+        }
+      ],
+      "zpid": 348439426,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "HOME_TYPE_UNKNOWN",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #4002"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-4002-Chicago-IL-60601/350159217_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #4002",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12057877",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2650000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "zpid": 350159217,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2893,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2893
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61529,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #2009",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1550,
+      "lotSize": null,
+      "zpid": 352363628,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #2009"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-2009-Chicago-IL-60601/352363628_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12453353",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88569,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2022,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1550,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1090000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #2008"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-2008-Chicago-IL-60601/353492489_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #2008",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12095476",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88569,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1315000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+        }
+      ],
+      "zpid": 353492489,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1574,
+      "longitude": -87.61529,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1574
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-03",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12433279"
+      },
+      "pricePerSquareFoot": 867,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1365000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/9a6a2501bd2cead2a154e11aec60f4e3-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1270-Ogden-Elementary-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Ogden Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1425-Wells-Community-Academy-High-School/",
+      "rating": 1,
+      "totalCount": null,
+      "distance": 2.9,
+      "assigned": null,
+      "name": "Wells Community Academy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Chicago",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.88,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Chicago",
+    "state": "IL",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "211 N Harbor Dr #2508",
+    "zipcode": "60601"
+  },
+  "cityId": 17426,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": 1336400,
+  "zpid": 456381056,
+  "countyId": 139,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 238,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Luxury gaggenau appliances",
+            "Pool cabanas",
+            "Hydrotherapy pool",
+            "Fully equipped fitness center",
+            "Indoor and outdoor pools",
+            "Floor to ceiling windows",
+            "Spa-like baths"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Luxury gaggenau appliances",
+            "Pool cabanas",
+            "Hydrotherapy pool",
+            "Fitness center",
+            "Indoor and outdoor pools",
+            "Floor to ceiling windows",
+            "Strength studio"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "New Eastside"
+  },
+  "zipcode": "60601",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 21,
+  "url": "/homedetails/211-N-Harbor-Dr-2508-Chicago-IL-60601/456381056_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "mlsName": "MRED as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Jameson Sotheby's Intl Realty"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Magellan Marketing Group LLC"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Jameson Sotheby's Intl Realty",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-08 22:07:10",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Bradley Brondyke",
+    "attributionTitle": "Listing courtesy of:",
+    "mlsId": "12433279",
+    "coAgentName": "Molly Sundby",
+    "coAgentNumber": "708-846-3501",
+    "infoString5": "312-751-0300",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Bradley Brondyke",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "471017584",
+        "memberFullName": "Molly Sundby",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "312-751-0300",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "brokerPhoneNumber": "312-751-0300",
+    "lastChecked": "2025-09-12 08:38:03"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "No Disability Access"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2022",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Heat Pump, Indv Controls, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Attached Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,416 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "8 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$867",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "143",
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": "13",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "11",
+        "roomFeatures": [
+          "Flooring (Hardwood)",
+          "Bathroom (Full",
+          "Shower Only)"
+        ],
+        "roomDimensions": "11X13",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "140",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "10",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "14",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "14X10",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "120",
+        "roomAreaSource": null,
+        "roomType": "Bedroom3",
+        "roomDescription": null,
+        "roomWidth": "10",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "12",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "12X10",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom4",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "COMBO",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "FamilyRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "238",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "14",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "17",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "17X14",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "286",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "13",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "22",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "22X13",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "60",
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": "10",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "6",
+        "roomFeatures": null,
+        "roomDimensions": "6X10",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,416 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Chicago",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Lake Michigan"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,574 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,416 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 8,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Ogden Elementary",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Glass"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,416 monthly",
+    "appliances": [
+      "Double Oven",
+      "Microwave",
+      "Dishwasher",
+      "High End Refrigerator",
+      "Disposal",
+      "Range Hood",
+      "Gas Cooktop"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Ogden Elementary",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2022,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17104000220000",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 25662,
+    "subdivisionName": null,
+    "storiesTotal": 47,
+    "storiesDecimal": null,
+    "specialListingConditions": "None",
+    "windowFeatures": null,
+    "ownership": "Condo",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "299",
+    "associationPhone2": null,
+    "onMarketDate": 1756919338000,
+    "roomTypes": [
+      "Terrace"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Bike Room/Bike Trails",
+      "Door Person",
+      "Elevator(s)",
+      "Exercise Room",
+      "Storage",
+      "Health Club",
+      "On Site Manager/Engineer",
+      "Park",
+      "Party Room",
+      "Sundeck",
+      "Indoor Pool",
+      "Pool",
+      "Receiving Room",
+      "Service Elevator(s)",
+      "Steam Room",
+      "Valet/Cleaner",
+      "Business Center"
+    ],
+    "propertySubType": [
+      "Condominium",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,416 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage Door Opener",
+      "On Site",
+      "Attached",
+      "Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,416 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "299",
+    "otherEquipment": [
+      "TV-Cable"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "0",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "299",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer Hookup",
+      "Gas Dryer Hookup",
+      "In Unit"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Heat Pump",
+      "Indv Controls",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Heat",
+      "Air Conditioning",
+      "Water",
+      "Gas",
+      "Insurance",
+      "Security",
+      "Doorman",
+      "Exercise Facilities",
+      "Pool",
+      "Exterior Maintenance",
+      "Scavenger",
+      "Snow Removal"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 867,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.312,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692056433
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.095,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692056433
+    },
+    "arm5Bucket": {
+      "rate": 6.633,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692056433
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 13,
+  "livingArea": 1574,
+  "zestimateHighPercent": "5",
+  "mlsid": "12433279",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2404150001",
+  "country": "USA",
+  "price": 1365000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:37.037095+00:00",
+    "zpid": "456381056",
+    "zipcode": "60601",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1691 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.33916,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/420c1bef9638c777fe4cdff1acbacd1b-p_d.jpg",
+  "livingAreaValue": 3135,
+  "streetAddress": "99 Union Street #1102",
+  "county": "King County",
+  "monthlyHoaFee": 7090,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726156009846,
+      "valueIncreaseRate": -0.0346048,
+      "taxIncreaseRate": -0.019381454,
+      "taxPaid": 45227.63,
+      "value": 4910000
+    },
+    {
+      "time": 1694533609846,
+      "valueIncreaseRate": 0.053656515,
+      "taxIncreaseRate": 0.17460933,
+      "taxPaid": 46121.53,
+      "value": 5086000
+    },
+    {
+      "time": 1662997609846,
+      "valueIncreaseRate": 0.03074952,
+      "taxIncreaseRate": -0.052000657,
+      "taxPaid": 39265.42,
+      "value": 4827000
+    },
+    {
+      "time": 1631461609846,
+      "valueIncreaseRate": 0.010355987,
+      "taxIncreaseRate": -0.04176806,
+      "taxPaid": 41419.25,
+      "value": 4683000
+    },
+    {
+      "time": 1599925609846,
+      "valueIncreaseRate": -0.00855615,
+      "taxIncreaseRate": 0.00031287142,
+      "taxPaid": 43224.66,
+      "value": 4635000
+    },
+    {
+      "time": 1568303209846,
+      "valueIncreaseRate": 0.012781629,
+      "taxIncreaseRate": 0.12814514,
+      "taxPaid": 43211.14,
+      "value": 4675000
+    },
+    {
+      "time": 1536767209846,
+      "valueIncreaseRate": 0.30801928,
+      "taxIncreaseRate": 0.13329433,
+      "taxPaid": 38302.82,
+      "value": 4616000
+    },
+    {
+      "time": 1505231209846,
+      "valueIncreaseRate": 0.049985122,
+      "taxIncreaseRate": -0.015902445,
+      "taxPaid": 33797.77,
+      "value": 3529000
+    },
+    {
+      "time": 1473695209846,
+      "valueIncreaseRate": -0.14803548,
+      "taxIncreaseRate": 0,
+      "taxPaid": 34343.92,
+      "value": 3361000
+    },
+    {
+      "time": 1442072809846,
+      "valueIncreaseRate": 0.06650446,
+      "taxIncreaseRate": 0,
+      "taxPaid": 34343.92,
+      "value": 3945000
+    },
+    {
+      "time": 1410536809846,
+      "valueIncreaseRate": 0.26245734,
+      "taxIncreaseRate": 0,
+      "taxPaid": 34343.92,
+      "value": 3699000
+    },
+    {
+      "time": 1347464809846,
+      "valueIncreaseRate": -0.004078858,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2930000
+    },
+    {
+      "time": 1315842409846,
+      "valueIncreaseRate": -0.4166171,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2942000
+    },
+    {
+      "time": 1284306409846,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 5043000
+    },
+    {
+      "time": 1252770409846,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 5043000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 28350,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyt618z04fw95_9vdv6",
+    "review_count": 27,
+    "display_name": "Scott Wasner",
+    "profile_url": "https://www.zillow.com/profile/ScottWasner/",
+    "business_name": "Realogics Sotheby's Int'l Rlty",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "910",
+      "areacode": "206",
+      "number": "1410"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/d9856f8069e5a9754493cf6c6609f6bc-h_n.jpg"
+  },
+  "yearBuilt": 2008,
+  "brokerageName": "Realogics Sotheby's Int'l Rlty",
+  "description": "Introducing Four Seasons Seattle, Private Residence 1102, a stunning property that offers 2 private bedroom suites, 2.25 baths, den/office, complete with custom luxury finishes. Flawlessly orchestrated by the dedicated hospitality team, effortless living at Four Seasons Seattle transcends the definition of service, with amenities such as 24 hr room service, Security, Concierge, Valet, Spa, Pool, Housekeeping, Fitness Center, 2 parking spaces, & storage. Perched at the water\u2019s edge, experience living within the downtown core steps from the Great Wheel, newly expanded waterfront, Seattle Art Museum, premier dining & shopping. Discover a boutique setting with elegance, comfort and security that inspires you to live as you wish.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/99-union-st-seattle-wa-98101-5009/531476406_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/99-union-st-seattle-wa-98101-5009/531476406_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/99-union-st-seattle-wa-98101-5009/531476406_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/99-union-st-seattle-wa-98101-5009/531476406_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/99-union-st-seattle-wa-98101-5009/531476406_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.60738,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1105"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1105-Seattle-WA-98101/89822434_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1105",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2238622",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2200000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f2b2d64d84065833c8273821b9694b35-p_c.jpg"
+        }
+      ],
+      "zpid": 89822434,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1328,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1328
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1103"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1103-Seattle-WA-98101/89822469_zpid/",
+      "lotAreaValue": 0.5005,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1103",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2268707",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4150000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 21801,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2a4b7cee8faedc62a70647ba2c48906b-p_c.jpg"
+        }
+      ],
+      "zpid": 89822469,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2399,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2399
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1201"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1201-Seattle-WA-98101/89822943_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1201",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2189038",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3000000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/cd1671642cfe14b084344c6720cffdae-p_c.jpg"
+        }
+      ],
+      "zpid": 89822943,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2082,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2082
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1406"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1406-Seattle-WA-98101/89823385_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1406",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2075929",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4450000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/78dc75b278cb5abcf39b157032499491-p_c.jpg"
+        }
+      ],
+      "zpid": 89823385,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1992,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1992
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.33916,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1601",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 4125,
+      "lotSize": null,
+      "zpid": 89823623,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1601"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1601-Seattle-WA-98101/89823623_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2403576",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 47.60738,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4125,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7785a7a7f80fc499132d61623716a643-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 7850000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1401"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1401-Seattle-WA-98101/89824065_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1401",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2020562",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2500000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ea2fe75e67048a685bba2d6a596af233-p_c.jpg"
+        }
+      ],
+      "zpid": 89824065,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2082,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2082
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1905"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1905-Seattle-WA-98101/89824354_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1905",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2183439",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1800000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6840ee7bcd51e2130e4b1041fd3b6741-p_c.jpg"
+        }
+      ],
+      "zpid": 89824354,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1023,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1023
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "99 Union St UNIT 1104"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/99-Union-St-UNIT-1104-Seattle-WA-98101/89824468_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "99 Union St UNIT 1104",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2208527",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.60738,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2600000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4f301c8f3bc72e320e65836bddaa2c8b-p_c.jpg"
+        }
+      ],
+      "zpid": 89824468,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2224,
+      "longitude": -122.33916,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2224
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.066390041493776,
+      "date": "2025-08-26",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1756166400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2424530"
+      },
+      "pricePerSquareFoot": 2153,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6750000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2008-11-26",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1227657600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "28189570"
+      },
+      "pricePerSquareFoot": 2306,
+      "buyerAgent": {
+        "name": "Lisa Whittaker",
+        "photo": null,
+        "profileUrl": "/profile/Real-Estate-Advocate/"
+      },
+      "event": "Sold",
+      "price": 7230000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/420c1bef9638c777fe4cdff1acbacd1b-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.7,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 6748,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "Downtown",
+    "streetAddress": "99 Union Street #1102",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "17 days",
+  "priceChange": null,
+  "zestimate": 6400000,
+  "zpid": 89824261,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1955,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Custom luxury finishes",
+            "Private bedroom suites"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Custom luxury finishes",
+            "Private bedroom suites"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Downtown"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/99-Union-St-UNIT-1102-Seattle-WA-98101/89824261_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Realogics Sotheby's Int'l Rlty"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Realogics Sotheby's Int'l Rlty",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-26 05:04:34",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Benjamin Wasner",
+    "attributionTitle": null,
+    "mlsId": "2424530",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "206-910-1410",
+    "listingAgents": [
+      {
+        "memberStateLicense": "104614",
+        "memberFullName": "Benjamin Wasner",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "206-910-1410",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "206-538-0730",
+    "lastChecked": "2025-09-12 08:34:23"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 36,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Hardwood",
+      "Marble",
+      "Travertine"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 4910000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2008",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Fireplace, Forced Air, Electric, Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$7,090 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "17 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$2,153",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Bay",
+      "City",
+      "Mountain(s)",
+      "Ocean",
+      "Sound"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomThreeQuarter",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DenOffice",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "EntryHall",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "206-749-7000",
+        "name": null,
+        "fee": "$7,090 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 3,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Double Oven",
+      "Dryer(s)",
+      "Garbage Disposal",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "3,135 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out,Conventional",
+    "otherParking": null,
+    "associationFee": "$7,090 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "206-749-7000",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": "Modern",
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Curbs",
+      "Dead End Street",
+      "Paved",
+      "Sidewalk"
+    ],
+    "roofType": "Flat",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 17,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Buyer To Verify",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement/Concrete",
+      "Metal/Vinyl"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Main Level: 1",
+      "Fireplace"
+    ],
+    "hoaFeeTotal": "$7,090 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Disposal",
+      "Double Oven",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)",
+      "Garbage Disposal",
+      "Cooking-Gas",
+      "Dryer-Gas",
+      "Ice Maker",
+      "Washer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "Community"
+    ],
+    "waterViewYN": true,
+    "buildingName": "Four Seasons Private Residences",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "197 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Electric Car Charging Station",
+      "Elevator",
+      "Fitness Center",
+      "Lobby Entrance",
+      "Pool",
+      "Rooftop Deck",
+      "Sauna"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Buyer To Verify",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2008,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "6094680120",
+    "incomeIncludes": null,
+    "highSchool": "Buyer To Verify",
+    "taxAnnualAmount": 45228,
+    "subdivisionName": "Downtown",
+    "storiesTotal": 22,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Insulated Windows",
+      "Coverings: Electric Blinds"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1740614400000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$7,090 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Common Garage"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security Service",
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 36,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$7,090 monthly",
+        "name": null,
+        "phone": "206-749-7000"
+      }
+    ],
+    "waterView": "Bay,Ocean,Sound",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 1,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "3,135",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Cooking-Gas",
+      "Dryer-Gas",
+      "End Unit",
+      "Fireplace",
+      "Ice Maker",
+      "Insulated Windows",
+      "Primary Bathroom",
+      "Walk-In Closet(s)",
+      "Washer"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Dryer-Gas",
+      "Washer Hookup",
+      "Gas Dryer Hookup"
+    ],
+    "entryLocation": "Main",
+    "fireplaces": 1,
+    "heating": [
+      "Fireplace",
+      "Forced Air",
+      "Electric",
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Central Hot Water",
+      "Common Area Maintenance",
+      "Concierge",
+      "Earthquake Insurance",
+      "Gas",
+      "Security",
+      "Sewer",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 2153,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-26",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.451,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692009867
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.258,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692009867
+    },
+    "arm5Bucket": {
+      "rate": 6.032,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692009867
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 49,
+  "livingArea": 3135,
+  "zestimateHighPercent": "5",
+  "mlsid": "2424530",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1002153197",
+  "country": "USA",
+  "price": 6750000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:50.423347+00:00",
+    "zpid": "89824261",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

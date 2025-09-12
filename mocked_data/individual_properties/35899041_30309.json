@@ -1,0 +1,1892 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.379875,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/48f555e3e95af210047d81b9e594e425-p_d.jpg",
+  "livingAreaValue": 1168,
+  "streetAddress": "209 14th St NE APT 105",
+  "county": "Fulton County",
+  "monthlyHoaFee": 517,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155909376,
+      "valueIncreaseRate": 0.061186485,
+      "taxIncreaseRate": 0.36191043,
+      "taxPaid": 6532.39,
+      "value": 159560
+    },
+    {
+      "time": 1694533509376,
+      "valueIncreaseRate": 0.12578617,
+      "taxIncreaseRate": -0.112610646,
+      "taxPaid": 4796.49,
+      "value": 150360
+    },
+    {
+      "time": 1662997509376,
+      "valueIncreaseRate": 0.029919803,
+      "taxIncreaseRate": 0.028903542,
+      "taxPaid": 5405.17,
+      "value": 133560
+    },
+    {
+      "time": 1631461509376,
+      "valueIncreaseRate": 0.21332335,
+      "taxIncreaseRate": 0.18723883,
+      "taxPaid": 5253.33,
+      "value": 129680
+    },
+    {
+      "time": 1599925509376,
+      "valueIncreaseRate": -0.04469074,
+      "taxIncreaseRate": -0.030544,
+      "taxPaid": 4424.83,
+      "value": 106880
+    },
+    {
+      "time": 1568303109376,
+      "valueIncreaseRate": 0.023792094,
+      "taxIncreaseRate": 0,
+      "taxPaid": 4564.24,
+      "value": 111880
+    },
+    {
+      "time": 1536767109376,
+      "valueIncreaseRate": 0.09586843,
+      "taxIncreaseRate": 0,
+      "taxPaid": 4564.24,
+      "value": 109280
+    },
+    {
+      "time": 1505231109376,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.55382097,
+      "taxPaid": 4564.24,
+      "value": 99720
+    },
+    {
+      "time": 1473695109376,
+      "valueIncreaseRate": 0.20609578,
+      "taxIncreaseRate": 0.3787644,
+      "taxPaid": 2937.43,
+      "value": 99720
+    },
+    {
+      "time": 1442072709376,
+      "valueIncreaseRate": 0.4147844,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2130.48,
+      "value": 82680
+    },
+    {
+      "time": 1410536709376,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.17372973,
+      "taxPaid": 2130.48,
+      "value": 58440
+    },
+    {
+      "time": 1379000709376,
+      "valueIncreaseRate": 0.41982508,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2578.43,
+      "value": 58440
+    },
+    {
+      "time": 1347464709376,
+      "valueIncreaseRate": -0.3985973,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41160
+    },
+    {
+      "time": 1315842309376,
+      "valueIncreaseRate": -0.14960238,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 68440
+    },
+    {
+      "time": 1284306309376,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2487.39,
+      "value": 80480
+    },
+    {
+      "time": 1252770309376,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 80480
+    },
+    {
+      "time": 1221234309376,
+      "valueIncreaseRate": -0.000496771,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 80480
+    },
+    {
+      "time": 1189611909376,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 608.99,
+      "value": 80520
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1823,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUz8yqx4ag4aa1_23up7",
+    "review_count": 30,
+    "display_name": "Diana Sauvigne'",
+    "profile_url": "https://www.zillow.com/profile/Intown-Specialist/",
+    "business_name": "Berkshire Hathaway HomeServices Georgia Properties",
+    "rating_average": 4.9,
+    "phone": {
+      "prefix": "374",
+      "areacode": "770",
+      "number": "7274"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/06143aa5572ef4a0d6453187a7d891c9-h_n.jpg"
+  },
+  "yearBuilt": 1984,
+  "brokerageName": "Berkshire Hathaway HomeServices Georgia Properties",
+  "description": "See the difference between \u201cho hum\u201d and WOW!  Much desired private patio, large enough for quiet dining or large party, sets #105 apart from all other Midtown condos.   This stunning home has all the updates a professional desires + the charm of being in an established building.  All new kitchen with quartz countertops, deluxe appliances, pantry, and breakfast bar leads to open living room with gas fireplace, hardwood floors and floor to ceiling windows. Roommate floor plan with an oversized bedroom with automatic shades and walk in closet.  Both bathrooms are updated. Tandem parking for 2 cars + extra storage cage in basement are included.  You can enjoy the pool, clubhouse and gym on a daily basis.  14th ST is an unbeatable location in the Heart of vibrant Midtown with the serenity of the Park on one side + the energy of the Arts District on the other.  Enjoy walking to an array of local restaurants, many events at Piedmont Park, the Beltline, the Arts Center, and Marta\u2014offering direct access to the airport in just 24 minutes.  You\u2019ll love calling #105 your home!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/209-14th-st-ne-apt-105-atlanta-ga-30309/132195920_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/209-14th-st-ne-apt-105-atlanta-ga-30309/132195920_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/209-14th-st-ne-apt-105-atlanta-ga-30309/132195920_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/209-14th-st-ne-apt-105-atlanta-ga-30309/132195920_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/209-14th-st-ne-apt-105-atlanta-ga-30309/132195920_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.785923,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.379875,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "209 14th St NE APT 201",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 0,
+      "lotSize": 1306,
+      "zpid": 35899056,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "209 14th St NE APT 201"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/209-14th-St-NE-APT-201-Atlanta-GA-30309/35899056_zpid/",
+      "lotAreaValue": 1306.8,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 33.785923,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 0,
+      "providerListingID": "15tur59hzm0sz",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ff712178db530042f6d926205ddc2b4b-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 373900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "203 14th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/203-14th-St-NE-Atlanta-GA-30309/35899094_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "203 14th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 356600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dbc123e425b03f8abb8df06dfdd22305-p_c.jpg"
+        }
+      ],
+      "zpid": 35899094,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1168,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "2jmnm8t5uebya",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1168
+    },
+    {
+      "bathrooms": 1.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "205 14th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/205-14th-St-NE-Atlanta-GA-30309/35899095_zpid/",
+      "lotAreaValue": 910,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "205 14th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 283800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 910,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/88a103c3eed451fffe1ce7eb06d41f36-p_c.jpg"
+        }
+      ],
+      "zpid": 35899095,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 912,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 912
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "207 14th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/207-14th-St-NE-Atlanta-GA-30309/35899096_zpid/",
+      "lotAreaValue": 679,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "207 14th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 272300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 679,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78592300415039,-84.37987518310547&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=0g78PqOiSNtakvKBqhj-hCJ3wXE="
+        }
+      ],
+      "zpid": 35899096,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 680,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 680
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "244 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/244-13th-St-NE-Atlanta-GA-30309/35899097_zpid/",
+      "lotAreaValue": 1167,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "244 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 314200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1167,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f130e40edb61b8a6d54746ba327362cb-p_c.jpg"
+        }
+      ],
+      "zpid": 35899097,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 912,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 912
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.379875,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "244 13th St NE APT 302",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1168,
+      "lotSize": 1176,
+      "zpid": 35899099,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "244 13th St NE APT 302"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/244-13th-St-NE-APT-302-Atlanta-GA-30309/35899099_zpid/",
+      "lotAreaValue": 1176.12,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7602036",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 33.785923,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1985,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1168,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7f39d9fb68ecb98558c0b07fb5cf3e86-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 421500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "244 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/244-13th-St-NE-Atlanta-GA-30309/35899102_zpid/",
+      "lotAreaValue": 910,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "244 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 271800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 910,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78592300415039,-84.37987518310547&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=0g78PqOiSNtakvKBqhj-hCJ3wXE="
+        }
+      ],
+      "zpid": 35899102,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 912,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 912
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "244 13th St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/244-13th-St-NE-Atlanta-GA-30309/35899103_zpid/",
+      "lotAreaValue": 910,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "244 13th St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.785923,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 265200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 910,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.78592300415039,-84.37987518310547&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=0g78PqOiSNtakvKBqhj-hCJ3wXE="
+        }
+      ],
+      "zpid": 35899103,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 912,
+      "longitude": -84.379875,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 912
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.12,
+      "date": "2025-09-04",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1756944000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7643704"
+      },
+      "pricePerSquareFoot": 372,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 434000
+    },
+    {
+      "priceChangeRate": 0.061643835616438,
+      "date": "2022-04-15",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1649980800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 332,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 387500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-02-22",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1645488000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7003882"
+      },
+      "pricePerSquareFoot": 313,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 365000
+    },
+    {
+      "priceChangeRate": 0.057971014492754,
+      "date": "2022-02-18",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1645142400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7003882"
+      },
+      "pricePerSquareFoot": 313,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 365000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-08-22",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1503360000000,
+      "sellerAgent": {
+        "name": "Brandi Nickerson",
+        "photo": null,
+        "profileUrl": "/profile/brandi-nickerson/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/5a56de187a17ad29edf4ffa2bc9930b2-zillow_web_logo_inf_11.jpg",
+        "infoString1": "8219325"
+      },
+      "pricePerSquareFoot": 295,
+      "buyerAgent": {
+        "name": "Kim Abbate",
+        "photo": null,
+        "profileUrl": "/profile/kimabbate/"
+      },
+      "event": "Sold",
+      "price": 345000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-07-17",
+      "source": "Harry Norman, REALTORS\ufffd",
+      "postingIsRental": false,
+      "time": 1500249600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Harry Norman, REALTORS\ufffd",
+        "infoString3": null,
+        "infoString1": "5874432"
+      },
+      "pricePerSquareFoot": 295,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 345000
+    },
+    {
+      "priceChangeRate": 0.38368059037039,
+      "date": "2017-07-06",
+      "source": "Harry Norman Realtors",
+      "postingIsRental": false,
+      "time": 1499299200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Harry Norman Realtors",
+        "infoString3": null,
+        "infoString1": "8219325"
+      },
+      "pricePerSquareFoot": 295,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 345000
+    },
+    {
+      "priceChangeRate": -0.00266,
+      "date": "2015-01-20",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1421712000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5373952"
+      },
+      "pricePerSquareFoot": 213,
+      "buyerAgent": {
+        "name": "Donna Augello",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISegxk3l0nlodr1000000000.jpg"
+        },
+        "profileUrl": "/profile/daugello/"
+      },
+      "event": "Sold",
+      "price": 249335
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-12-13",
+      "source": "ATLANTA INTOWN REAL ESTATE",
+      "postingIsRental": false,
+      "time": 1418428800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ATLANTA INTOWN REAL ESTATE",
+        "infoString3": null,
+        "infoString1": "07374018"
+      },
+      "pricePerSquareFoot": 214,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 250000
+    },
+    {
+      "priceChangeRate": 0.20481927710843,
+      "date": "2014-12-09",
+      "source": "ATLANTA INTOWN REAL ESTATE",
+      "postingIsRental": false,
+      "time": 1418083200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "ATLANTA INTOWN REAL ESTATE",
+        "infoString3": null,
+        "infoString1": "07374018"
+      },
+      "pricePerSquareFoot": 214,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 250000
+    },
+    {
+      "priceChangeRate": -0.056818181818182,
+      "date": "2013-10-31",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1383177600000,
+      "sellerAgent": {
+        "name": "Kristen McCord",
+        "photo": null,
+        "profileUrl": "/profile/Komccord/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5194487"
+      },
+      "pricePerSquareFoot": 178,
+      "buyerAgent": {
+        "name": "Atlanta Turtle Group",
+        "photo": null,
+        "profileUrl": "/profile/DecaturRealEstate/"
+      },
+      "event": "Sold",
+      "price": 207500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-09-18",
+      "source": "Keller Williams Realty Chattahoochee North",
+      "postingIsRental": false,
+      "time": 1379462400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams Realty Chattahoochee North",
+        "infoString3": null,
+        "infoString1": "5194487"
+      },
+      "pricePerSquareFoot": 188,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 220000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-09-10",
+      "source": "Keller Williams Realty Chattahoochee North",
+      "postingIsRental": false,
+      "time": 1378771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams Realty Chattahoochee North",
+        "infoString3": null,
+        "infoString1": "5194487"
+      },
+      "pricePerSquareFoot": 188,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 220000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/48f555e3e95af210047d81b9e594e425-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3006,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Colony Park Citihomes I",
+    "streetAddress": "209 14th St NE APT 105",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": 430600,
+  "zpid": 35899041,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 710,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gas fireplace",
+            "Private patio",
+            "Hardwood floors",
+            "Floor to ceiling windows",
+            "Breakfast bar",
+            "Walk in closet",
+            "Automatic shades"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gas fireplace",
+            "Private patio",
+            "Hardwood floors",
+            "Floor to ceiling windows",
+            "Breakfast bar",
+            "Walk in closet",
+            "Automatic shades"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/209-14th-St-NE-APT-105-Atlanta-GA-30309/35899041_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Berkshire Hathaway HomeServices Georgia Properties"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Berkshire Hathaway HomeServices Georgia Properties",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-05 05:01:32",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Diana Sauvigne",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7643704",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-266-8100",
+    "listingAgents": [
+      {
+        "memberStateLicense": "258837",
+        "memberFullName": "Diana Sauvigne",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-266-8100",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 42,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "None"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 398900,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1984",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Electric, Central, Forced Air",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$517 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "8 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$372",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City",
+      "Trees/Woods"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Oversized Master, Roommate Floor Plan, Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Oversized Master",
+          " Roommate Floor Plan",
+          " Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Oversized Master",
+          " Roommate Floor Plan",
+          " Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Shower Only",
+          " Double Vanity"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Cabinets White",
+          " Pantry",
+          " Solid Surface Counters",
+          " View to Family Room",
+          " Breakfast Bar"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "0",
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$517 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Storage",
+      "Garden",
+      "Private Yard",
+      "Courtyard"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": "Updated/Remodeled",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "914.76 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.zillow.com/view-imx/4c9ff207-55e1-4b73-90be-67025d602ab3?wl=true&setAttribution=mls&initialViewType=pano"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,168 sqft",
+    "commonWalls": "2+ Common Walls,No One Below,End Unit",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$517 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Mid Rise (Up to 5 Stories)",
+    "interiorFeatures": [
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Level"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 8,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Springdale Park",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": [
+      "Factory Built",
+      "Gas Starter",
+      "Living Room",
+      "Masonry",
+      "Stone"
+    ],
+    "hoaFeeTotal": "$517 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Electric Range",
+      "Electric Water Heater",
+      "Microwave",
+      "Refrigerator",
+      "Self Cleaning Oven",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "8 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Clubhouse",
+      "Fitness Center",
+      "Gated",
+      "Homeowners Assoc",
+      "Near Public Transport",
+      "Near Shopping",
+      "Pool",
+      "Sidewalks",
+      "Street Lights",
+      "Near Beltline",
+      "Near Trails/Greenway",
+      "Park"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.zillow.com/view-imx/4c9ff207-55e1-4b73-90be-67025d602ab3?wl=true&setAttribution=mls&initialViewType=pano",
+    "contingency": null,
+    "yearBuilt": 1984,
+    "utilities": [
+      "Cable Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 010600240041",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 6532,
+    "subdivisionName": "Colony Park Citihomes I",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Window Treatments"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756944000000,
+    "roomTypes": [
+      "Other"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt",
+      "Paved"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$517 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Garage(s)",
+      "Pool House"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Key Card Entry",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 1,
+    "hasHomeWarranty": false,
+    "basementYN": true,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "1,168",
+    "associations": [
+      {
+        "feeFrequency": "$517 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "110 Volts",
+      "220 Volts in Laundry"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "Driveway Access,Daylight",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "1,168",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": false,
+    "laundryFeatures": [
+      "In Bathroom",
+      "Laundry Closet"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Electric",
+      "Central",
+      "Forced Air"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Water",
+      "Reserve Fund",
+      "Termite",
+      "Trash"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 372,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-04",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688172984
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688172984
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688172984
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 52,
+  "livingArea": 1168,
+  "zestimateHighPercent": "5",
+  "mlsid": "7643704",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1049670355",
+  "country": "USA",
+  "price": 434000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:09.912970+00:00",
+    "zpid": "35899041",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

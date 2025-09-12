@@ -1,0 +1,1479 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 5,
+      "display_name": "Manish Singh",
+      "badge_type": "Premier Agent",
+      "business_name": "Keller Williams Metropolitan",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "832",
+        "number": "8636"
+      },
+      "zuid": "X1-ZUwaotauu3n8cp_7galw",
+      "image_url": "https://photos.zillowstatic.com/fp/1dca33caacd6275763b38068e9327760-h_g.jpg"
+    }
+  ],
+  "longitude": -95.789246,
+  "countyFIPS": "48201",
+  "imgSrc": "https://photos.zillowstatic.com/fp/93cad19dfcedf9a034b42778ae88d8f7-p_d.jpg",
+  "livingAreaValue": 2779,
+  "streetAddress": "24238 Cordova Brook Ln",
+  "county": "Harris County",
+  "monthlyHoaFee": 700,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155968228,
+      "valueIncreaseRate": -0.058720745,
+      "taxIncreaseRate": 0.15450285,
+      "taxPaid": 5407.98,
+      "value": 383015
+    },
+    {
+      "time": 1694533568228,
+      "valueIncreaseRate": 0.15974087,
+      "taxIncreaseRate": -0.117333405,
+      "taxPaid": 4684.25,
+      "value": 406909
+    },
+    {
+      "time": 1662997568228,
+      "valueIncreaseRate": 0.20514397,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5306.93,
+      "value": 350862
+    },
+    {
+      "time": 1631461568228,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 291137
+    },
+    {
+      "time": 1599925568228,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.031504337,
+      "taxPaid": 5392.7,
+      "value": 291137
+    },
+    {
+      "time": 1568303168228,
+      "valueIncreaseRate": -0.13723892,
+      "taxIncreaseRate": -0.40887117,
+      "taxPaid": 5568.12,
+      "value": 291137
+    },
+    {
+      "time": 1536767168228,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9419.47,
+      "value": 337448
+    },
+    {
+      "time": 1505231168228,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.11993155,
+      "taxPaid": 9419.47,
+      "value": 337448
+    },
+    {
+      "time": 1473695168228,
+      "valueIncreaseRate": 2.7651942,
+      "taxIncreaseRate": 7.3242803,
+      "taxPaid": 10703.11,
+      "value": 337448
+    },
+    {
+      "time": 1442072768228,
+      "valueIncreaseRate": 1.3173368,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1285.77,
+      "value": 89623
+    },
+    {
+      "time": 1410536768228,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1285.77,
+      "value": 38675
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1762,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 2014,
+  "brokerageName": "5th Stream Realty",
+  "description": "Come see this beautiful move-in ready Katy townhouse. Located at I-10 and 99 Grand Parkway you have convenient access to shopping, dining and parks. Zoned to excellent Katy schools, this extremely well-maintained spacious townhouse (built 2014) offers peaceful living in a gated community. The three-bedroom, three-bathroom home boasts high-ceilings, an upstairs family room, a dedicated media room, a home-office (that can be used as a fourth bedroom) and an open-concept kitchen with a breakfast bar! HOA dues include law maintenance as well as coverage for the roof, foundation and exterior--true turnkey living at its finest.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.91000002622604
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.97000002861023
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/24238-cordova-brook-ln-katy-tx-77494/4802977768_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 125
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/24238-cordova-brook-ln-katy-tx-77494/4802977768_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.21999999880791
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.37000000476837
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.49000000953674
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.5799999833107
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.72000002861023
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/24238-cordova-brook-ln-katy-tx-77494/4802977768_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 6
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/24238-cordova-brook-ln-katy-tx-77494/4802977768_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/24238-cordova-brook-ln-katy-tx-77494/4802977768_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.769716,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24242 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/24242-Cordova-Brook-Ln-Katy-TX-77494/126281199_zpid/",
+      "lotAreaValue": 4020,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24242 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.769773,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 354300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 4020,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7a7a07123d352db0b93973bd4ec13ec5-p_c.jpg"
+        }
+      ],
+      "zpid": 126281199,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2727,
+      "longitude": -95.789314,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2727
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24234 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/24234-Cordova-Brook-Ln-Katy-TX-77494/126297081_zpid/",
+      "lotAreaValue": 4499,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24234 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.769638,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 367600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 4499,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/49781329923a72273ae6b118d5545475-p_c.jpg"
+        }
+      ],
+      "zpid": 126297081,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2766,
+      "longitude": -95.789154,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2766
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Canton Light Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Canton-Light-Ln-Katy-TX-77494/161384992_zpid/",
+      "lotAreaValue": 3484,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Canton Light Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.76988,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 174,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 3484,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.769880294799805,-95.78916931152344&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=6Ag6xRA3787Lo5da2zXnCmQOkmc="
+        }
+      ],
+      "zpid": 161384992,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -95.78917,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24246 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/24246-Cordova-Brook-Ln-Katy-TX-77494/125715245_zpid/",
+      "lotAreaValue": 4499,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24246 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.769827,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 365900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 4499,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0e73af7ecd4ae4b37c8a30c881088a16-p_c.jpg"
+        }
+      ],
+      "zpid": 125715245,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2500,
+      "longitude": -95.789406,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2500
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.78908,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24230 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 2548,
+      "lotSize": 4007,
+      "zpid": 126281631,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24230 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/24230-Cordova-Brook-Ln-Katy-TX-77494/126281631_zpid/",
+      "lotAreaValue": 4007,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.769571,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2014,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2548,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.76957130432129,-95.78907775878906&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=lEuMEiv_dIdSqekaBdnYni1dytA="
+        }
+      ],
+      "currency": "USD",
+      "price": 373900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Azul Terrace Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Azul-Terrace-Ln-Katy-TX-77494/161384991_zpid/",
+      "lotAreaValue": 6534,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Azul Terrace Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.769926,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 327,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6534,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.769926071166992,-95.78939819335938&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=mTKqkmIjNb3H2nisLf2h7YxhOAk="
+        }
+      ],
+      "zpid": 161384991,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -95.7894,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24239 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/24239-Cordova-Brook-Ln-Katy-TX-77494/122567493_zpid/",
+      "lotAreaValue": 3920,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24239 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.76942,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 403300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 3920,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.769420623779297,-95.78964233398438&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=J9rsUnOybG_BCwuhdrSekNpc_4k="
+        }
+      ],
+      "zpid": 122567493,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2766,
+      "longitude": -95.78964,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2766
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "24235 Cordova Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/24235-Cordova-Brook-Ln-Katy-TX-77494/122568479_zpid/",
+      "lotAreaValue": 3955,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "24235 Cordova Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.769354,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 390300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Townhouse",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 3955,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0d4e93c69ab522c1d38344fefa7f1399-p_c.jpg"
+        }
+      ],
+      "zpid": 122568479,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2857,
+      "longitude": -95.78956,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "TOWNHOUSE",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2857
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-09",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757376000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "65182441"
+      },
+      "pricePerSquareFoot": 151,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 419500
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/93cad19dfcedf9a034b42778ae88d8f7-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10098-Roberta-Wright-Rylander-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "Roberta Wright Rylander Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/12056-Woodcreek-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 2.5,
+      "assigned": null,
+      "name": "Woodcreek J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/3876-Katy-High-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 2.4,
+      "assigned": null,
+      "name": "Katy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2856,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.6,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Towns/Seville Rep 1",
+    "streetAddress": "24238 Cordova Brook Ln",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "2 days",
+  "priceChange": null,
+  "zestimate": 411600,
+  "zpid": 126259751,
+  "countyId": 1090,
+  "homeType": "TOWNHOUSE",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 72,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Spacious townhouse",
+            "Upstairs family room",
+            "Open-concept kitchen",
+            "Dedicated media room",
+            "Breakfast bar"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Spacious townhouse",
+            "Upstairs family room",
+            "Open-concept kitchen",
+            "Dedicated media room",
+            "Breakfast bar"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/24238-Cordova-Brook-Ln-Katy-TX-77494/126259751_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "5th Stream Realty"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "5th Stream Realty",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 14:39:51",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Matthew Key",
+    "attributionTitle": null,
+    "mlsId": "65182441",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "713-882-7457",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0721875",
+        "memberFullName": "Matthew Key",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "713-882-7457",
+    "agentLicenseNumber": "TREC #0721875",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "214-868-0707",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 50,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 383015,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Townhouse",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2014",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$700 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "4,024 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "2 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$151",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Full Secondary Bathroom Down",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower",
+          "Primary Bath: Soaking Tub",
+          "Secondary Bath(s): Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Pantry",
+          "Pots/Pans Drawers",
+          "Under Cabinet Lighting"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$700 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public",
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Front Yard"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "4,024 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://view.spiro.media/24238_cordova_brook_-6103"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,779 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$700 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "1 Bedroom Down - Not Primary BR",
+      "2 Bedrooms Up",
+      "Primary Bed - 2nd Floor"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 2,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Rylander Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Exposure/Shade"
+    ],
+    "constructionMaterials": [
+      "Brick",
+      "Stone"
+    ],
+    "fireplaceFeatures": [
+      "Gas"
+    ],
+    "hoaFeeTotal": "$700 monthly",
+    "appliances": [
+      "Disposal",
+      "Convection Oven",
+      "Double Oven",
+      "Microwave",
+      "Gas Range",
+      "Dishwasher",
+      "Washer/Dryer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Fenced",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Woodcreek Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://view.spiro.media/24238_cordova_brook_-6103",
+    "contingency": null,
+    "yearBuilt": 2014,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "1343510010040",
+    "incomeIncludes": null,
+    "highSchool": "Katy High School",
+    "taxAnnualAmount": 9079,
+    "subdivisionName": "Towns/Seville Rep 1",
+    "storiesTotal": 2,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": "Full Ownership",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757454099000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete"
+    ],
+    "associationAmenities": [
+      "Controlled Access"
+    ],
+    "propertySubType": [
+      "Townhouse"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$700 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Electric Gate",
+      "Attached"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$700 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Townhouse",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,779",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Common Area"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 151,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-09",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Townhouse",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691968266
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691968266
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691968266
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 2,
+  "livingArea": 2779,
+  "zestimateHighPercent": "5",
+  "mlsid": "65182441",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 419500,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:08.755722+00:00",
+    "zpid": "126259751",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1718 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 55,
+      "display_name": "Ali Bakir",
+      "badge_type": "Premier Agent",
+      "business_name": "MorphEasy\u00ae",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "312",
+        "number": "7022"
+      },
+      "zuid": "X1-ZU112p2069q258p_94p27",
+      "image_url": "https://photos.zillowstatic.com/fp/e29233b0f9c6d160f381da79e8f90faa-h_g.jpg"
+    }
+  ],
+  "longitude": -87.61723,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/409d2455a3fa7f80ef290c99422c8b6e-p_d.jpg",
+  "livingAreaValue": 1113,
+  "streetAddress": "363 E Wacker Dr #3805",
+  "county": "Cook County",
+  "monthlyHoaFee": 1146,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 4830,
+  "state": "IL",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUz44ujy0somq1_4lr3f",
+    "review_count": 0,
+    "display_name": "Naomi Wilkinson",
+    "profile_url": "https://www.zillow.com/profile/NNW1/",
+    "business_name": "Magellan Marketing Group LLC",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "622",
+      "areacode": "312",
+      "number": "1002"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/4f9b6256dc3112e96e954ee0596aff8f-h_n.jpg"
+  },
+  "yearBuilt": 2020,
+  "brokerageName": "Magellan Marketing Group LLC",
+  "description": "Rarely available - high floor One Bedroom with Protected Lake, City, Buckingham Fountain, and Millennium Park Views!  Chicago's New Luxury Tower an architectural masterpiece, designed by Jeanne Gang complimented by a St. Regis 5 Star Hotel located in Lakeshore East. Gaggenau appliances, Snaidero cabinetry with cantilever countertops, wide plank hardwood flooring throughout, Kallista plumbing fixtures, full height stone walls with Robern medicine cabinets. Amenities include indoor & outdoor pools, hot tub, fitness & training rooms, private dining room, demo kitchen, private wine storage & wine tasting room, enclosed dog exercise area. Indoor Full Height Storage locker S117 included in price, Parking additional $45k.  Floor plan under additional information.",
+  "climate": null,
+  "latitude": 41.887226,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #4606"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-4606-Chicago-IL-60601/346478783_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #4606",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.887226,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Home Type Unknown",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=363+E+Wacker+Dr%2C+Chicago%2C+IL+60601&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=72lflNLjkCVk4mDf35yRDaob558="
+        }
+      ],
+      "zpid": 346478783,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -87.61723,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "HOME_TYPE_UNKNOWN",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr UNIT 2105"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-UNIT-2105-Chicago-IL-60601/351804368_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr UNIT 2105",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12078180",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.887226,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 975000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/73f896dad46136cac382a74a0c1db576-p_c.jpg"
+        }
+      ],
+      "zpid": 351804368,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1201,
+      "longitude": -87.61723,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1201
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61723,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #4801",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 2020,
+      "lotSize": null,
+      "zpid": 351967669,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #4801"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-4801-Chicago-IL-60601/351967669_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12380981",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.887226,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 2020,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0691aeb049195ee7c6ccb6b24443d866-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1790000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61723,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #4308",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 2546,
+      "lotSize": null,
+      "zpid": 402593104,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #4308"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-4308-Chicago-IL-60601/402593104_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "09184127",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 41.887226,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2546,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/76beca06cbe4e041114978762f6bf46e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2631100,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61723,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #4304",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1720,
+      "lotSize": null,
+      "zpid": 402647974,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #4304"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-4304-Chicago-IL-60601/402647974_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12275515",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.887226,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1720,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3351286d4e9b72e4b6c156b28e02af1f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1749000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #8601"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-8601-Chicago-IL-60601/413722031_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #8601",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.887226,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c9dcf337a2d792122059f8176e04136d-p_c.jpg"
+        }
+      ],
+      "zpid": 413722031,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 5734,
+      "longitude": -87.61723,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "3c2d9wuh3mrxw",
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5734
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr UNIT 2907"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-UNIT-2907-Chicago-IL-60601/439212430_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr UNIT 2907",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12015594",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.887226,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1011504,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/73f896dad46136cac382a74a0c1db576-p_c.jpg"
+        }
+      ],
+      "zpid": 439212430,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1315,
+      "longitude": -87.61723,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1315
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.61723,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #1706",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 2488,
+      "lotSize": null,
+      "zpid": 439212629,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #1706"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-1706-Chicago-IL-60601/439212629_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "11891682",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 41.887226,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2488,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2b7e1fabf0a0b42b751ac65bca1ad680-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2315000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "363 E Wacker Dr #2704"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/363-E-Wacker-Dr-2704-Chicago-IL-60601/439229938_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "363 E Wacker Dr #2704",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "11688591",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.887226,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1665000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/691f94c426d98bcd0a5a8ddabfc139a2-p_c.jpg"
+        }
+      ],
+      "zpid": 439229938,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1719,
+      "longitude": -87.61723,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1719
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.12594530451436,
+      "date": "2025-09-02",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "12460281"
+      },
+      "pricePerSquareFoot": 1033,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1150000
+    },
+    {
+      "priceChangeRate": -0.074931889980581,
+      "date": "2021-11-09",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1636416000000,
+      "sellerAgent": {
+        "name": "Leila Zammatta",
+        "photo": null,
+        "profileUrl": "/profile/LeilaZammatta/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "09189564"
+      },
+      "pricePerSquareFoot": 918,
+      "buyerAgent": {
+        "name": "Helaine Cohen",
+        "photo": null,
+        "profileUrl": "/profile/Helaine-Cohen/"
+      },
+      "event": "Sold",
+      "price": 1021364
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-02-01",
+      "source": "MRED as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1548979200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "MRED as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_logo_inf_11.jpg",
+        "infoString1": "09189564"
+      },
+      "pricePerSquareFoot": 992,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 1104096
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-07-21",
+      "source": "Magellan Realty LLC",
+      "postingIsRental": false,
+      "time": 1500595200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Magellan Realty LLC",
+        "infoString3": null,
+        "infoString1": "09189564"
+      },
+      "pricePerSquareFoot": 992,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1104096
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-04-09",
+      "source": "Magellan Realty LLC",
+      "postingIsRental": false,
+      "time": 1460160000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Magellan Realty LLC",
+        "infoString3": null,
+        "infoString1": "09189564"
+      },
+      "pricePerSquareFoot": 992,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 1104096
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-04-08",
+      "source": "Magellan Realty LLC",
+      "postingIsRental": false,
+      "time": 1460073600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Magellan Realty LLC",
+        "infoString3": null,
+        "infoString1": "09189564"
+      },
+      "pricePerSquareFoot": 992,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1104096
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/409d2455a3fa7f80ef290c99422c8b6e-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1270-Ogden-Elementary-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "Ogden Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1425-Wells-Community-Academy-High-School/",
+      "rating": 1,
+      "totalCount": null,
+      "distance": 2.7,
+      "assigned": null,
+      "name": "Wells Community Academy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4638,
+  "city": "Chicago",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.88,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Chicago",
+    "state": "IL",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "363 E Wacker Dr #3805",
+    "zipcode": "60601"
+  },
+  "cityId": 17426,
+  "timeOnZillow": "9 days",
+  "priceChange": null,
+  "zestimate": 1100400,
+  "zpid": 2099048279,
+  "countyId": 139,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 179,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "High floor",
+            "Wide plank hardwood flooring",
+            "Gaggenau appliances",
+            "Snaidero cabinetry",
+            "Cantilever countertops",
+            "Kallista plumbing fixtures",
+            "Full height stone walls"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "High floor",
+            "Wide plank hardwood flooring",
+            "Gaggenau appliances",
+            "Snaidero cabinetry",
+            "Cantilever countertops",
+            "Kallista plumbing fixtures",
+            "Full height stone walls"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "New Eastside"
+  },
+  "zipcode": "60601",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 21,
+  "url": "/homedetails/363-E-Wacker-Dr-3805-Chicago-IL-60601/2099048279_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "mlsName": "MRED as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Magellan Marketing Group LLC"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Magellan Marketing Group LLC"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Magellan Marketing Group LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-07 22:07:42",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Naomi Wilkinson",
+    "attributionTitle": "Listing courtesy of:",
+    "mlsId": "12460281",
+    "coAgentName": "Leila Zammatta",
+    "coAgentNumber": null,
+    "infoString5": "312-642-8869",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Naomi Wilkinson",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "471002261",
+        "memberFullName": "Leila Zammatta",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "312-642-8869",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/1b0fc53ffc89ea17e1e382976aca4421-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#17)\n\n",
+    "brokerPhoneNumber": "312-642-8869",
+    "lastChecked": "2025-09-12 08:43:11"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 28,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": [
+      "No Disability Access"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2020",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Forced Air",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Attached Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,146 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,033",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Back of Property",
+      "Front of Property",
+      "Side(s) of Property"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "165",
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": "11",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "15",
+        "roomFeatures": [
+          "Flooring (Hardwood)",
+          "Bathroom (Full)"
+        ],
+        "roomDimensions": "15X11",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom3",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom4",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": "COMBO",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "FamilyRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "190",
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": "10",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "19",
+        "roomFeatures": [
+          "Kitchen (Galley",
+          "Island)",
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "19X10",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "24",
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": "4",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "6",
+        "roomFeatures": [
+          "Flooring (Other)"
+        ],
+        "roomDimensions": "6X4",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "270",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "15",
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": "18",
+        "roomFeatures": [
+          "Flooring (Hardwood)"
+        ],
+        "roomDimensions": "18X15",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,146 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Chicago",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Lake Michigan"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,113 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,146 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 9,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Steel Siding",
+      "Glass"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,146 monthly",
+    "appliances": [
+      "Microwave",
+      "Dishwasher",
+      "High End Refrigerator",
+      "Freezer",
+      "Washer",
+      "Dryer",
+      "Disposal",
+      "Cooktop",
+      "Oven",
+      "Gas Cooktop"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2020,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17103180881213",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 21233,
+    "subdivisionName": null,
+    "storiesTotal": 95,
+    "storiesDecimal": null,
+    "specialListingConditions": "None",
+    "windowFeatures": [
+      "All",
+      "Window Treatments"
+    ],
+    "ownership": "Condo",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "299",
+    "associationPhone2": null,
+    "onMarketDate": 1756845277000,
+    "roomTypes": [
+      "No additional rooms"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Bike Room/Bike Trails",
+      "Door Person",
+      "Elevator(s)",
+      "Exercise Room",
+      "Storage",
+      "Health Club",
+      "On Site Manager/Engineer",
+      "Park",
+      "Party Room",
+      "Sundeck",
+      "Indoor Pool",
+      "Pool",
+      "Receiving Room",
+      "Restaurant",
+      "Sauna",
+      "Service Elevator(s)",
+      "Steam Room",
+      "Valet/Cleaner"
+    ],
+    "propertySubType": [
+      "Condominium",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,146 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "On Site",
+      "Attached",
+      "Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,146 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Back of Property,Front of Property,Side(s) of Property",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "299",
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,113",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "299",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer Hookup",
+      "In Unit"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Natural Gas",
+      "Forced Air"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Heat",
+      "Air Conditioning",
+      "Water",
+      "Gas",
+      "Insurance",
+      "Doorman",
+      "Exercise Facilities",
+      "Pool",
+      "Exterior Maintenance",
+      "Scavenger",
+      "Internet"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1033,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-02",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.312,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692057982
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.095,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692057982
+    },
+    "arm5Bucket": {
+      "rate": 6.633,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692057982
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 3,
+  "livingArea": 1113,
+  "zestimateHighPercent": "5",
+  "mlsid": "12460281",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1151184956",
+  "country": "USA",
+  "price": 1150000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:38.625574+00:00",
+    "zpid": "2099048279",
+    "zipcode": "60601",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

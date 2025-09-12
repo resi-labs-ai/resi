@@ -1,0 +1,1680 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.42682,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/79a1808547baaf4a96492726c1881b8d-p_d.jpg",
+  "livingAreaValue": 3804,
+  "streetAddress": "1619 Tower Grove Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155801990,
+      "valueIncreaseRate": 0.019999802,
+      "taxIncreaseRate": 0.019959632,
+      "taxPaid": 61144.49,
+      "value": 5040736
+    },
+    {
+      "time": 1694533401990,
+      "valueIncreaseRate": 0.019999793,
+      "taxIncreaseRate": 0.048677802,
+      "taxPaid": 59947.95,
+      "value": 4941899
+    },
+    {
+      "time": 1662997401990,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0.011977091,
+      "taxPaid": 57165.27,
+      "value": 4845000
+    },
+    {
+      "time": 1631461401990,
+      "valueIncreaseRate": 0.3529807,
+      "taxIncreaseRate": 0.32466295,
+      "taxPaid": 56488.7,
+      "value": 4750000
+    },
+    {
+      "time": 1599925401990,
+      "valueIncreaseRate": 0.019999832,
+      "taxIncreaseRate": 0,
+      "taxPaid": 42643.83,
+      "value": 3510767
+    },
+    {
+      "time": 1568303001990,
+      "valueIncreaseRate": 0.019999757,
+      "taxIncreaseRate": 0.04578731,
+      "taxPaid": 42643.83,
+      "value": 3441929
+    },
+    {
+      "time": 1536767001990,
+      "valueIncreaseRate": 0.019999843,
+      "taxIncreaseRate": 0,
+      "taxPaid": 40776.77,
+      "value": 3374441
+    },
+    {
+      "time": 1505231001990,
+      "valueIncreaseRate": 0.019999636,
+      "taxIncreaseRate": 0.022331085,
+      "taxPaid": 40776.77,
+      "value": 3308276
+    },
+    {
+      "time": 1473695001990,
+      "valueIncreaseRate": 0.07575755,
+      "taxIncreaseRate": 0.02307543,
+      "taxPaid": 39886.07,
+      "value": 3243409
+    },
+    {
+      "time": 1442072601990,
+      "valueIncreaseRate": 0.21867421,
+      "taxIncreaseRate": 0.27929136,
+      "taxPaid": 38986.44,
+      "value": 3015000
+    },
+    {
+      "time": 1410536601990,
+      "valueIncreaseRate": 0.22233202,
+      "taxIncreaseRate": 0,
+      "taxPaid": 30475.03,
+      "value": 2474000
+    },
+    {
+      "time": 1347464601990,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2024000
+    },
+    {
+      "time": 1315842201990,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2024000
+    },
+    {
+      "time": 1284306201990,
+      "valueIncreaseRate": -0.2792123,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2024000
+    },
+    {
+      "time": 1252770201990,
+      "valueIncreaseRate": 0.019999782,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2808039
+    },
+    {
+      "time": 1221234201990,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2752980
+    },
+    {
+      "time": 1189611801990,
+      "valueIncreaseRate": 0.8033175,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2699000
+    },
+    {
+      "time": 1158075801990,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1496686
+    },
+    {
+      "time": 1126539801990,
+      "valueIncreaseRate": 0.040399175,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1496686
+    },
+    {
+      "time": 1095003801990,
+      "valueIncreaseRate": 0.018669399,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1438569
+    },
+    {
+      "time": 1063381401990,
+      "valueIncreaseRate": 0.35788846,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1412204
+    },
+    {
+      "time": 1031845401990,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1040000
+    },
+    {
+      "time": 968773401990,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1040000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 21836,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZU108kr3cqoukuh_7ew1f",
+    "review_count": 80,
+    "display_name": "Russell Dunn",
+    "profile_url": "https://www.zillow.com/profile/Russell-Dunn/",
+    "business_name": "The One Luxury Properties",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "829",
+      "areacode": "203",
+      "number": "5393"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/d421336d45ad8fc5dd9e360a1c64a1ce-h_n.jpg"
+  },
+  "yearBuilt": 1978,
+  "brokerageName": "The One Luxury Properties",
+  "description": "Secluded down a 100-foot driveway, this gated estate offers expansive ocean and canyon views with unmatched privacy. The main level features three bedrooms, including a stunning primary suite that opens to resort-style grounds with pool, spa, cabana, outdoor kitchen, fire-pit, and lawn. Upstairs, an open living and dining area flows into a gourmet kitchen with designer appliances, plus a guest suite with separate entrance and a den/office. Sliding glass doors lead to a large deck with al fresco dining, fireplace, and lounge seating\u2014perfect for enjoying sunset views.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1619-tower-grove-dr-beverly-hills-ca-90210/601371513_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1619-tower-grove-dr-beverly-hills-ca-90210/601371513_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0031000000890344
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.018899999558926
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.035399999469519
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.052299998700619
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.069700002670288
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.087499998509884
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.10580000281334
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1619-tower-grove-dr-beverly-hills-ca-90210/601371513_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 16
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1619-tower-grove-dr-beverly-hills-ca-90210/601371513_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1619-tower-grove-dr-beverly-hills-ca-90210/601371513_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.10038,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.426765,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1617 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 5580,
+      "lotSize": 14385,
+      "zpid": 20523565,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 6,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1617 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1617-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523565_zpid/",
+      "lotAreaValue": 0.33023415977961,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.100136,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1958,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 5580,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=34.100135803222656,-118.42676544189453&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=Y1HCWo1z9Pm-qzT0TfnMcnj8__g="
+        }
+      ],
+      "currency": "USD",
+      "price": 6442700,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1629 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1629-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523562_zpid/",
+      "lotAreaValue": 0.45989439853076,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1629 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10067,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3325400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 20033,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/14d5aba96c9531b3b640ab6a82bb066a-p_c.jpg"
+        }
+      ],
+      "zpid": 20523562,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3100,
+      "longitude": -118.426704,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3100
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1623 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1623-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523563_zpid/",
+      "lotAreaValue": 9805,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1623 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.100426,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3724400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9805,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2aab13377f3d190037ae4f33ca9b1f13-p_c.jpg"
+        }
+      ],
+      "zpid": 20523563,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3700,
+      "longitude": -118.42644,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3700
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9915 Shangri La Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9915-Shangri-La-Dr-Beverly-Hills-CA-90210/20523575_zpid/",
+      "lotAreaValue": 0.43629476584022,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9915 Shangri La Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099888,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4934400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 19005,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9915+Shangri+La+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ULg15lWcFKq0z12qqLencgbH72Q="
+        }
+      ],
+      "zpid": 20523575,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 7366,
+      "longitude": -118.42676,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 7366
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1611 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1611-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523566_zpid/",
+      "lotAreaValue": 9147,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1611 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.100105,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4349100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9147,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/da62e2363bbf194d23e5385360cd9a61-p_c.jpg"
+        }
+      ],
+      "zpid": 20523566,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3219,
+      "longitude": -118.42632,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3219
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1635 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1635-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523561_zpid/",
+      "lotAreaValue": 0.48714416896235,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1635 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.100906,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3555900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 21220,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fb4589b5c6411c7f766df1efd1409763-p_c.jpg"
+        }
+      ],
+      "zpid": 20523561,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4000,
+      "longitude": -118.42671,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4000
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1603 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1603-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523567_zpid/",
+      "lotAreaValue": 0.30103305785124,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1603 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.099846,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3529000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13113,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/42fd14069178e7c7f8e2ed2ec884b0f6-p_c.jpg"
+        }
+      ],
+      "zpid": 20523567,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4142,
+      "longitude": -118.42623,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4142
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1622 Tower Grove Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1622-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523584_zpid/",
+      "lotAreaValue": 0.27603305785124,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1622 Tower Grove Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.100426,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3443248,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12024,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6f81a274be6ad726014b5aeba983f82b-p_c.jpg"
+        }
+      ],
+      "zpid": 20523584,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 3136,
+      "longitude": -118.4259,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3136
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.094526315789474,
+      "date": "2025-09-06",
+      "source": "CRMLS",
+      "postingIsRental": false,
+      "time": 1757116800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CRMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_logo_inf_11.jpg",
+        "infoString1": "BB25199383"
+      },
+      "pricePerSquareFoot": 1367,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5199000
+    },
+    {
+      "priceChangeRate": -0.049049049049049,
+      "date": "2020-10-15",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1602720000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20611774"
+      },
+      "pricePerSquareFoot": 1249,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 4750000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-10-15",
+      "source": "Newmark Residential",
+      "postingIsRental": false,
+      "time": 1602720000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Newmark Residential",
+        "infoString3": null,
+        "infoString1": "20611774"
+      },
+      "pricePerSquareFoot": 1313,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 4995000
+    },
+    {
+      "priceChangeRate": 0.8506854390515,
+      "date": "2020-08-05",
+      "source": "Newmark Residential",
+      "postingIsRental": false,
+      "time": 1596585600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Newmark Residential",
+        "infoString3": null,
+        "infoString1": "20611774"
+      },
+      "pricePerSquareFoot": 1313,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 4995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2006-09-22",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1158883200000,
+      "sellerAgent": {
+        "name": "Linda May",
+        "photo": null,
+        "profileUrl": "/profile/Linda-May/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 710,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 2699000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/79a1808547baaf4a96492726c1881b8d-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.1,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 3.3,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 4.3,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 20383,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 12:30:00",
+      "endTime": "2025-09-13 16:30:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "1619 Tower Grove Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "5 days",
+  "priceChange": null,
+  "zestimate": 4988800,
+  "zpid": 20523564,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1693,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gourmet kitchen",
+            "Resort-style grounds",
+            "Stunning primary suite",
+            "Unmatched privacy",
+            "Lounge seating",
+            "Sunset views",
+            "Outdoor kitchen"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gourmet kitchen",
+            "Resort-style grounds",
+            "Stunning primary suite",
+            "Unmatched privacy",
+            "Lounge seating",
+            "Sunset views",
+            "Outdoor kitchen"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/1619-Tower-Grove-Dr-Beverly-Hills-CA-90210/20523564_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "mlsName": "CRMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "The One Luxury Properties"
+      }
+    ],
+    "infoString10": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "The One Luxury Properties",
+    "listingAttributionContact": "213-537-8340",
+    "lastUpdated": "2025-09-11 19:36:13",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Russell Dunn",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "BB25199383",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "714-614-7342",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE #02000585",
+        "memberFullName": "Russell Dunn",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "714-614-7342",
+    "agentLicenseNumber": "DRE #02000585",
+    "providerLogo": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "brokerPhoneNumber": "714-614-7342",
+    "lastChecked": "2025-09-12 08:32:54"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 46,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Private"
+    ],
+    "flooring": [
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 5040736,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1978",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.45 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "5 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,367",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City Lights",
+      "Canyon",
+      "Panoramic"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.45 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,804 sqft",
+    "commonWalls": "No Common Walls",
+    "listingTerms": "Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": "Square Feet",
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "House",
+    "interiorFeatures": [
+      "Separate/Formal Dining Room",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "0-1 Unit/Acre"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 5,
+    "listAOR": "California Regional MLS",
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Living Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "6 Burner Stove",
+      "Double Oven",
+      "Dryer",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "5 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Mountainous",
+      "Suburban"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1978,
+    "utilities": [
+      "Sewer Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "4356015009",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 61144,
+    "subdivisionName": null,
+    "storiesTotal": 2,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757116800000,
+    "roomTypes": [
+      "Kitchen",
+      "Laundry",
+      "Primary Bathroom",
+      "Other",
+      "Dining Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "Standard"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": "Los Angeles Unified",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": "1",
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1367,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-07",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.325,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681811232
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.154,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681811232
+    },
+    "arm5Bucket": {
+      "rate": 6.213,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757681811232
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 34,
+  "livingArea": 3804,
+  "zestimateHighPercent": "5",
+  "mlsid": "BB25199383",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 5199000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:22.524490+00:00",
+    "zpid": "20523564",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

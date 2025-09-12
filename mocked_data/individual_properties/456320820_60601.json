@@ -1,0 +1,1090 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 1,
+      "review_count": 55,
+      "display_name": "Ali Bakir",
+      "badge_type": "Premier Agent",
+      "business_name": "MorphEasy\u00ae",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "312",
+        "number": "7022"
+      },
+      "zuid": "X1-ZU112p2069q258p_94p27",
+      "image_url": "https://photos.zillowstatic.com/fp/e29233b0f9c6d160f381da79e8f90faa-h_g.jpg"
+    }
+  ],
+  "longitude": -87.614624,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/6c42cd3f325b76d8419c8b6eacc3adab-p_d.jpg",
+  "livingAreaValue": 1553,
+  "streetAddress": "09 Tier Plan, Cirrus",
+  "county": "Cook County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Chicago",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 4515,
+  "state": "IL",
+  "listed_by": {
+    "agent_reason": null,
+    "zpro": null,
+    "recent_sales": null,
+    "review_count": null,
+    "display_name": null,
+    "badge_type": null,
+    "business_name": null,
+    "rating_average": null,
+    "phone": null,
+    "zuid": null,
+    "image_url": null
+  },
+  "yearBuilt": 2025,
+  "brokerageName": "Jameson Sotheby's International Realty",
+  "description": "Experience luxury resort-style lakefront living at Cirrus in the exclusive Lakeshore East neighborhood with its premier amenities, prime location and private community. Set among Lakeshore East's serene green spaces where the Chicago River meets Lake Michigan, Cirrus offers its residents easy access to the lakefront running and biking path, DuSable Harbor and adjacent neighborhood parks, grocery, restaurants and cafes. Luxury living is made easy with over 48,000 SF of amenities. Entertain on our beautiful 41st floor indoor/outdoor amenity space including a wine lounge, chef's table, catering kitchen, outdoor terrace featuring lawn area, fire pit and grilling stations for al fresco dining - all overlooking the stunning lakefront and skyline. Fully equipped fitness center including strength studio, motion studio for spinning and yoga with complimentary daily fitness classes, massage suite, steam room, indoor and outdoor pools and hydrotherapy pool. Convenient co-working spaces, salon, kid's club and indoor/outdoor dog runs make daily life easy. The unique lounge spaces, sound-proof jam room, movie screening room, conservatory, pool cabanas, sports simulator and more make life at Cirrus extraordinary. Features floor to ceiling windows, wide plank hardwood flooring throughout, custom Italian Snaidero cabinetry, quartz counters, luxury Gaggenau appliances, Dornbracht fixtures and spa-like baths.",
+  "climate": null,
+  "latitude": 41.88634,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "211 N Harbor Dr #I5RBLW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/211-N-Harbor-Dr-I5RBLW-I5rblw-Chicago-IL-60601/456271100_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "I5rblw Chicago",
+        "state": "IL",
+        "streetAddress": "211 N Harbor Dr #I5RBLW",
+        "zipcode": "60601"
+      },
+      "state": "IL",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "12347911",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 41.88634,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 924900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3936ae43eb42bd223d7cb0b3d2f428b6-p_c.jpg"
+        }
+      ],
+      "zpid": 456271100,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1553,
+      "longitude": -87.614624,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1553
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "06 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1384,
+      "lotSize": null,
+      "zpid": 456271103,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "06 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456271103_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 1384,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9898272c6da1bf7fb4a56cff73ca2525-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 950000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "03 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1408,
+      "lotSize": null,
+      "zpid": 456271105,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "03 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456271105_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 1408,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eeb348d47e684677fb75c2876a76b2d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 900000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "02 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1638,
+      "lotSize": null,
+      "zpid": 456271113,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "02 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456271113_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 1638,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eeb348d47e684677fb75c2876a76b2d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1475000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "01 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1201,
+      "lotSize": null,
+      "zpid": 456271119,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "01 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456271119_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 1201,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eeb348d47e684677fb75c2876a76b2d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 865000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "04 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 1251,
+      "lotSize": null,
+      "zpid": 456271125,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "04 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456271125_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 1251,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eeb348d47e684677fb75c2876a76b2d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 995000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "07 Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 661,
+      "lotSize": null,
+      "zpid": 456320812,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "07 Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456320812_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 661,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9898272c6da1bf7fb4a56cff73ca2525-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 485000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -87.614624,
+      "parentRegion": null,
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "streetAddress": "02 Combo Tier Plan, Cirrus",
+        "zipcode": "60601"
+      },
+      "livingAreaValue": 2893,
+      "lotSize": null,
+      "zpid": 456320813,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "IL",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "02 Combo Tier Plan, Cirrus"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": true,
+      "hdpUrl": "/community/cirrus/456320813_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 41.88634,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": "BUILDER_PLAN",
+      "yearBuilt": 2025,
+      "listingTypeDimension": "New Construction Plan",
+      "livingArea": 2893,
+      "providerListingID": "31725882",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4eeb348d47e684677fb75c2876a76b2d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2510000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": true,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-27",
+      "source": "Jameson Sotheby's International Realty",
+      "postingIsRental": false,
+      "time": 1756252800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Jameson Sotheby's International Realty",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 692,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1075000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/6c42cd3f325b76d8419c8b6eacc3adab-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1270-Ogden-Elementary-School/",
+      "rating": 3,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Ogden Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/illinois/chicago/1425-Wells-Community-Academy-High-School/",
+      "rating": 1,
+      "totalCount": null,
+      "distance": 2.9,
+      "assigned": null,
+      "name": "Wells Community Academy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Chicago",
+  "providerListingID": "31725882",
+  "currency": "USD",
+  "listingProvider": {
+    "enhancedVideoURL": null,
+    "showNoContactInfoMessage": false,
+    "postingGroupName": "Jameson Sotheby's International Realty",
+    "isZRMSourceText": null,
+    "showLogos": null,
+    "disclaimerText": null,
+    "sourceText": "Source: Jameson Sotheby's International Realty",
+    "title": "Listing Provided by",
+    "logos": {},
+    "postingWebsiteURL": "https://cirruscondos.com?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=601914&nhf_listing_type=community&utm_term=comm_Cirrus&utm_campaign=Chicago+%2FIL",
+    "agentLicenseNumber": null,
+    "postingWebsiteLinkText": "Jameson Sotheby's International Realty",
+    "enhancedDescriptionText": null,
+    "agentName": null
+  },
+  "propertyTaxRate": 1.88,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Chicago",
+    "state": "IL",
+    "neighborhood": null,
+    "subdivision": "Cirrus",
+    "streetAddress": "09 Tier Plan, Cirrus",
+    "zipcode": "60601"
+  },
+  "cityId": 17426,
+  "timeOnZillow": "15 days",
+  "priceChange": null,
+  "zestimate": 1058100,
+  "zpid": 456320820,
+  "countyId": 139,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 256,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Luxury gaggenau appliances",
+            "Pool cabanas",
+            "Hydrotherapy pool",
+            "Fully equipped fitness center",
+            "Indoor and outdoor pools",
+            "Floor to ceiling windows",
+            "Steam room"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Luxury gaggenau appliances",
+            "Pool cabanas",
+            "Hydrotherapy pool",
+            "Fully equipped fitness center",
+            "Indoor and outdoor pools",
+            "Floor to ceiling windows",
+            "Steam room"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "New Eastside"
+  },
+  "zipcode": "60601",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 21,
+  "url": "/community/cirrus/456320820_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "Jameson Sotheby's International Realty",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Jameson Sotheby's International Realty"
+      }
+    ],
+    "infoString10": null,
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Jameson Sotheby's International Realty",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-03 17:25:27",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": null,
+    "attributionTitle": null,
+    "mlsId": null,
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "312-667-5766",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "312-667-5766",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": null,
+    "brokerPhoneNumber": "312-667-5766",
+    "lastChecked": "2025-09-03 17:25:27"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 21,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2025",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Attached Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "15 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$692",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Chicago",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": "New Construction",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,553 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 15,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2025,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 20210,
+    "subdivisionName": "Cirrus",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756333512000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 2,
+    "builderName": "Jameson Sotheby's International Realty",
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": true,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 692,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-27",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.312,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692079086
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.095,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692079086
+    },
+    "arm5Bucket": {
+      "rate": 6.633,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692079086
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 10,
+  "livingArea": 1553,
+  "zestimateHighPercent": "5",
+  "mlsid": null,
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": false,
+    "is_FSBO": false,
+    "is_newHome": true,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 1075000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:59.881536+00:00",
+    "zpid": "456320820",
+    "zipcode": "60601",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

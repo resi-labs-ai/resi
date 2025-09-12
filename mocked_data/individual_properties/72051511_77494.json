@@ -1,0 +1,1835 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 5,
+      "display_name": "Manish Singh",
+      "badge_type": "Premier Agent",
+      "business_name": "Keller Williams Metropolitan",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "622",
+        "areacode": "832",
+        "number": "8636"
+      },
+      "zuid": "X1-ZUwaotauu3n8cp_7galw",
+      "image_url": "https://photos.zillowstatic.com/fp/1dca33caacd6275763b38068e9327760-h_g.jpg"
+    }
+  ],
+  "longitude": -95.78276,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/831987190dc0f9ff0d249202c25c05e0-p_d.jpg",
+  "livingAreaValue": 6584,
+  "streetAddress": "7507 Emerald Meadow Ct",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 250,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155973120,
+      "valueIncreaseRate": 0.054941814,
+      "taxIncreaseRate": 0.043320905,
+      "taxPaid": 24883.38,
+      "value": 1524834
+    },
+    {
+      "time": 1694533573120,
+      "valueIncreaseRate": 0.019329906,
+      "taxIncreaseRate": 0.1912922,
+      "taxPaid": 23850.17,
+      "value": 1445420
+    },
+    {
+      "time": 1662997573120,
+      "valueIncreaseRate": 0.28732115,
+      "taxIncreaseRate": -0.04566731,
+      "taxPaid": 20020.42,
+      "value": 1418010
+    },
+    {
+      "time": 1631461573120,
+      "valueIncreaseRate": -0.010936518,
+      "taxIncreaseRate": -0.03003917,
+      "taxPaid": 20978.45,
+      "value": 1101520
+    },
+    {
+      "time": 1599925573120,
+      "valueIncreaseRate": -0.0009956853,
+      "taxIncreaseRate": -0.031464186,
+      "taxPaid": 21628.14,
+      "value": 1113700
+    },
+    {
+      "time": 1568303173120,
+      "valueIncreaseRate": -0.14562161,
+      "taxIncreaseRate": -0.17744638,
+      "taxPaid": 22330.76,
+      "value": 1114810
+    },
+    {
+      "time": 1536767173120,
+      "valueIncreaseRate": 0.058016494,
+      "taxIncreaseRate": -0.009786498,
+      "taxPaid": 27148.09,
+      "value": 1304820
+    },
+    {
+      "time": 1505231173120,
+      "valueIncreaseRate": 0.10000446,
+      "taxIncreaseRate": 0,
+      "taxPaid": 27416.4,
+      "value": 1233270
+    },
+    {
+      "time": 1473695173120,
+      "valueIncreaseRate": 0.09999706,
+      "taxIncreaseRate": 0.38185135,
+      "taxPaid": 27416.4,
+      "value": 1121150
+    },
+    {
+      "time": 1442072773120,
+      "valueIncreaseRate": 0.100003235,
+      "taxIncreaseRate": 0.08358535,
+      "taxPaid": 19840.34,
+      "value": 1019230
+    },
+    {
+      "time": 1410536773120,
+      "valueIncreaseRate": 0.09999525,
+      "taxIncreaseRate": 0,
+      "taxPaid": 18309.9,
+      "value": 926570
+    },
+    {
+      "time": 1379000773120,
+      "valueIncreaseRate": 1.5926131,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 842340
+    },
+    {
+      "time": 1347464773120,
+      "valueIncreaseRate": 0.7657609,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 324900
+    },
+    {
+      "time": 1315842373120,
+      "valueIncreaseRate": -0.2,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 184000
+    },
+    {
+      "time": 1284306373120,
+      "valueIncreaseRate": 0.42857143,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 230000
+    },
+    {
+      "time": 1252770373120,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 161000
+    },
+    {
+      "time": 1221234373120,
+      "valueIncreaseRate": 0.4375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 161000
+    },
+    {
+      "time": 1189611973120,
+      "valueIncreaseRate": 0.68421054,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 112000
+    },
+    {
+      "time": 1158075973120,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 66500
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 8816,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUzabnrhmre8eh_1k6ql",
+    "review_count": 5,
+    "display_name": "Nita Chauhan",
+    "profile_url": "https://www.zillow.com/profile/Nita-Chauhan/",
+    "business_name": "Dalton Wade Inc",
+    "rating_average": 4.3,
+    "phone": {
+      "prefix": "368",
+      "areacode": "832",
+      "number": "1849"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/c2ae2b05e99e96e79df361ab0e35bf6c-h_n.jpg"
+  },
+  "yearBuilt": 2012,
+  "brokerageName": "Dalton Wade Inc",
+  "description": "Prestigious hidden Gem in Prime Gated Location of Avalon at Seven Meadows. This extravagant Custom home offers  Double Doors to a Grand Living area with 25Ft Ceiling which features seamless glass to the panoramic views of the Infinity pool/spa, lakes and fountain. The Gourmet Kitchen has top tier appliances, waterfall granite countertops, butler's pantry. Full Wet bar/wine grotto, A grand dining room with domed ceiling. The luxurious Owners suite boasts a fireplace/sitting area/walk-in double entry shower and access to the outside patio. Bedrooms have great views and ensuite with walk in closets. The grand 6th bedroom can be home office or guest suite, large game room with wet bar and its own half bath, study station and gym, A very Cinema type gorgeous Theatre room. Also from the upstairs Balcony you can Enjoy the full lake views relaxing water fountain,  it's just amazing to relax!  Zoned for highly rated Katy ISD Schools!! Home wont last!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.73000001907349
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.91000002622604
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.97000002861023
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/7507-emerald-meadow-ct-katy-tx-77494/4800888013_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/7507-emerald-meadow-ct-katy-tx-77494/4800888013_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.34000000357628
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.46000000834465
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.55000001192093
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.62000000476837
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.68000000715256
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/7507-emerald-meadow-ct-katy-tx-77494/4800888013_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/7507-emerald-meadow-ct-katy-tx-77494/4800888013_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/7507-emerald-meadow-ct-katy-tx-77494/4800888013_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.71593,
+  "nearbyHomes": [
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "7503 Emerald Meadow Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/7503-Emerald-Meadow-Ct-Katy-TX-77494/72051512_zpid/",
+      "lotAreaValue": 0.29997704315886,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "7503 Emerald Meadow Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.715807,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1439000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13067,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/603641d10ae6e4a618843cb66b9b0f56-p_c.jpg"
+        }
+      ],
+      "zpid": 72051512,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5442,
+      "longitude": -95.782524,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5442
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "7511 Emerald Meadow Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/7511-Emerald-Meadow-Ct-Katy-TX-77494/72051510_zpid/",
+      "lotAreaValue": 0.28859044995409,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "7511 Emerald Meadow Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.716093,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1487600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12571,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e12774324ccd9cd5ff973edf98a5efca-p_c.jpg"
+        }
+      ],
+      "zpid": 72051510,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5961,
+      "longitude": -95.78299,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5961
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "7515 Emerald Meadow Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/7515-Emerald-Meadow-Ct-Katy-TX-77494/72051509_zpid/",
+      "lotAreaValue": 0.2997015610652,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "7515 Emerald Meadow Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.71624,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1165200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13055,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.71623992919922,-95.7832260131836&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=ms-oKvwMLhuxUidM3vCCEo05m94="
+        }
+      ],
+      "zpid": 72051509,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4193,
+      "longitude": -95.783226,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4193
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "7506 Emerald Meadow Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/7506-Emerald-Meadow-Ct-Katy-TX-77494/72051496_zpid/",
+      "lotAreaValue": 0.28558310376492,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "7506 Emerald Meadow Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.716436,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12440,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/385bd441cfd00b81c38a4b1156538065-p_c.jpg"
+        }
+      ],
+      "zpid": 72051496,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 4124,
+      "longitude": -95.78246,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4124
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "23118 Two Harbors Glen St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/23118-Two-Harbors-Glen-St-Katy-TX-77494/72051495_zpid/",
+      "lotAreaValue": 0.37617079889807,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "23118 Two Harbors Glen St",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.716215,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1122800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16386,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.716215133666992,-95.78218841552734&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=-C-_txHa_z2-kjsYYFNuPqQ1qaM="
+        }
+      ],
+      "zpid": 72051495,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4507,
+      "longitude": -95.78219,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4507
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Bulrush Canyon Trl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/Bulrush-Canyon-Trl-Katy-TX-77494/305268629_zpid/",
+      "lotAreaValue": 5357,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "Bulrush Canyon Trl",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.715334,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 31,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5357,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.715333938598633,-95.78296661376953&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=AzBnNxE0uitTm9_agN2FY_Eon_g="
+        }
+      ],
+      "zpid": 305268629,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -95.78297,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "7510 Emerald Meadow Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/7510-Emerald-Meadow-Ct-Katy-TX-77494/72051497_zpid/",
+      "lotAreaValue": 0.28080808080808,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "7510 Emerald Meadow Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.716578,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1331400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12231,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/50f70e0c85d4c4d67b57d35af4ee5b77-p_c.jpg"
+        }
+      ],
+      "zpid": 72051497,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5323,
+      "longitude": -95.782684,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5323
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "23302 Two Harbors Glen St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/23302-Two-Harbors-Glen-St-Katy-TX-77494/80066663_zpid/",
+      "lotAreaValue": 0.29469696969697,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "23302 Two Harbors Glen St",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.715359,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1070500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12837,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.71535873413086,-95.78323364257812&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=lCcHJ9I487xhGhg1MMnA9zyheAo="
+        }
+      ],
+      "zpid": 80066663,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4666,
+      "longitude": -95.78323,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4666
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.023720930232558,
+      "date": "2025-08-06",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1754438400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "73373579"
+      },
+      "pricePerSquareFoot": 319,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2099000
+    },
+    {
+      "priceChangeRate": 0.3312693498452,
+      "date": "2025-06-17",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1750118400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "73373579"
+      },
+      "pricePerSquareFoot": 327,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2150000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-08-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1660262400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "29273223"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-06-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1654646400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "29273223"
+      },
+      "pricePerSquareFoot": 245,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 1615000
+    },
+    {
+      "priceChangeRate": 0.076666666666667,
+      "date": "2022-06-08",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1654646400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "29273223"
+      },
+      "pricePerSquareFoot": 245,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1615000
+    },
+    {
+      "priceChangeRate": -0.11712772218952,
+      "date": "2022-06-02",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1654128000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "29273223"
+      },
+      "pricePerSquareFoot": 228,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1500000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-06-29",
+      "source": "RE/MAX Associates Northeast",
+      "postingIsRental": false,
+      "time": 1498694400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Associates Northeast",
+        "infoString3": null,
+        "infoString1": "64524604"
+      },
+      "pricePerSquareFoot": 258,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1699000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2017-05-27",
+      "source": "RE/MAX Associates Northeast",
+      "postingIsRental": false,
+      "time": 1495843200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Associates Northeast",
+        "infoString3": null,
+        "infoString1": "64524604"
+      },
+      "pricePerSquareFoot": 258,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1699000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-12-24",
+      "source": "RE/MAX Associates Northeast",
+      "postingIsRental": false,
+      "time": 1482537600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Associates Northeast",
+        "infoString3": null,
+        "infoString1": "80753393"
+      },
+      "pricePerSquareFoot": 258,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1699000
+    },
+    {
+      "priceChangeRate": -0.029142857142857,
+      "date": "2016-10-15",
+      "source": "RE/MAX Associates Northeast",
+      "postingIsRental": false,
+      "time": 1476489600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Associates Northeast",
+        "infoString3": null,
+        "infoString1": "80753393"
+      },
+      "pricePerSquareFoot": 258,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1699000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-07-24",
+      "source": "RE/MAX Associates Northeast",
+      "postingIsRental": false,
+      "time": 1469318400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RE/MAX Associates Northeast",
+        "infoString3": null,
+        "infoString1": "80753393"
+      },
+      "pricePerSquareFoot": 266,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1750000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2009-11-13",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1258070400000,
+      "sellerAgent": {
+        "name": "Corey S. Ward PA",
+        "photo": null,
+        "profileUrl": "/profile/coreysward/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": null
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/831987190dc0f9ff0d249202c25c05e0-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/10694-Griffin-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 0.4,
+      "assigned": null,
+      "name": "Griffin Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10328-Beckendorff-J-High-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 0.5,
+      "assigned": null,
+      "name": "Beckendorff J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10324-Seven-Lakes-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "Seven Lakes High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 7543,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 12:00:00",
+      "endTime": "2025-09-13 15:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Avalon At Seven Meadows Sec 4",
+    "streetAddress": "7507 Emerald Meadow Ct",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "3 days",
+  "priceChange": -51000,
+  "zestimate": 2006600,
+  "zpid": 72051511,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 326,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Study station",
+            "Outside patio",
+            "Waterfall granite countertops",
+            "Relaxing water fountain",
+            "Gourmet kitchen",
+            "Top tier appliances",
+            "Double doors"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Study station",
+            "Outside patio",
+            "Waterfall granite countertops",
+            "Relaxing water fountain",
+            "Gourmet kitchen",
+            "Top tier appliances",
+            "Double doors"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/7507-Emerald-Meadow-Ct-Katy-TX-77494/72051511_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Dalton Wade Inc"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Dalton Wade Inc",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 02:20:16",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Nita Chauhan",
+    "attributionTitle": null,
+    "mlsId": "2256961",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "832-368-1849",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0507023",
+        "memberFullName": "Nita Chauhan",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-368-1849",
+    "agentLicenseNumber": "TREC #0507023",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "888-668-8283",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-08-06",
+  "photoCount": 35,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Gunite",
+      "Heated",
+      "In Ground",
+      "Salt Water"
+    ],
+    "flooring": [
+      "Engineered Hardwood",
+      "Slate",
+      "Stone",
+      "Travertine",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": [
+      "Disabled Access",
+      "Master Bath Disabled Access"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1524834,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2012",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas, Zoned",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Electric, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$3,000 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "0.29 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "3 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$319",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Lake",
+      "Water"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Half Bath",
+          "Hollywood Bath",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry",
+          "Pot Filler",
+          "Pots/Pans Drawers",
+          "Soft Closing Cabinets",
+          "Soft Closing Drawers",
+          "Under Cabinet Lighting",
+          "Walk-in Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$3,000 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Outdoor Kitchen",
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.29 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "6,584 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,Investor,No Approval,Owner Will Carry,VA Loan",
+    "otherParking": null,
+    "associationFee": "$3,000 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 6,
+    "architecturalStyle": "Mediterranean,Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Balcony",
+      "Crown Molding",
+      "Elevator Shaft",
+      "Formal Entry/Foyer",
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "Beamed Ceilings",
+      "Vaulted Ceiling",
+      "Wet Bar",
+      "Wired for Sound",
+      "1 Bedroom Down - Not Primary BR",
+      "3 Bedrooms Up",
+      "En-Suite Bath",
+      "Primary Bed - 1st Floor",
+      "Primary Bed - 2nd Floor",
+      "Sitting Area",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Cul-De-Sac",
+      "Near Golf Course",
+      "Subdivided",
+      "Waterfront",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition,Energy Star/Reflective Roof",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 3,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Griffin Elementary School (Katy)",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Lighting",
+      "HVAC",
+      "HVAC>13 SEER",
+      "Insulation",
+      "Other Energy Features"
+    ],
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$3,000 annually",
+    "appliances": [
+      "Disposal",
+      "Refrigerator",
+      "Washer",
+      "Convection Oven",
+      "Double Oven",
+      "Gas Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Gas Range",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Back Yard,Partial",
+    "spaFeatures": [
+      "Spa/Hot Tub"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "Lake Front"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Beckendorff Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2012,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "1274040010170914",
+    "incomeIncludes": null,
+    "highSchool": "Seven Lakes High School",
+    "taxAnnualAmount": 30792,
+    "subdivisionName": "Avalon At Seven Meadows Sec 4",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows",
+      "Window Coverings"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757369307000,
+    "roomTypes": [
+      "Den",
+      "Family Room",
+      "Guest Suite",
+      "Media Room",
+      "Utility Room",
+      "Wine Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete",
+      "Gutters"
+    ],
+    "associationAmenities": [
+      "Clubhouse",
+      "Controlled Access"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$3,000 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached",
+      "Garage Door Opener",
+      "Double-Wide Driveway"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": [
+      "Insulated Doors"
+    ],
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$3,000 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "Lake,Water",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Electric",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "6,584",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck",
+      "Porch"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 3,
+    "heating": [
+      "Natural Gas",
+      "Zoned"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 319,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-08",
+  "bedrooms": 6,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.396,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691973144
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.098,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691973144
+    },
+    "arm5Bucket": {
+      "rate": 6.055,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691973144
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 5,
+  "livingArea": 6584,
+  "zestimateHighPercent": "5",
+  "mlsid": "2256961",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 2099000,
+  "priceChangeDate": 1754438400000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:13.658447+00:00",
+    "zpid": "72051511",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1670 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 31,
+      "display_name": "Kiran Mummidichetty",
+      "badge_type": "Premier Agent",
+      "business_name": "Compass Real Estate ",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "309",
+        "areacode": "732",
+        "number": "0788"
+      },
+      "zuid": "X1-ZU10c472llrcbnt_52lx3",
+      "image_url": "https://photos.zillowstatic.com/fp/b8ed001a69ad8bfbe948058a402d745f-h_g.jpg"
+    }
+  ],
+  "longitude": -73.99522,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/340c1be211eb86c2072cc134893dc108-p_d.jpg",
+  "livingAreaValue": 2028,
+  "streetAddress": "252 7th Ave APT 15N",
+  "county": "New York County",
+  "monthlyHoaFee": 1854,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155872500,
+      "valueIncreaseRate": 0.024426319,
+      "taxIncreaseRate": -0.006565949,
+      "taxPaid": 66875,
+      "value": 527766
+    },
+    {
+      "time": 1694533472500,
+      "valueIncreaseRate": -0.09814809,
+      "taxIncreaseRate": 0,
+      "taxPaid": 67317,
+      "value": 515182
+    },
+    {
+      "time": 1662997472500,
+      "valueIncreaseRate": 0.029856423,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 571249
+    },
+    {
+      "time": 1631461472500,
+      "valueIncreaseRate": -0.10649773,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 554688
+    },
+    {
+      "time": 1599925472500,
+      "valueIncreaseRate": 0.018782094,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 620802
+    },
+    {
+      "time": 1568303072500,
+      "valueIncreaseRate": -0.0074325646,
+      "taxIncreaseRate": 0.07529429,
+      "taxPaid": 66276.68,
+      "value": 609357
+    },
+    {
+      "time": 1536767072500,
+      "valueIncreaseRate": 0.2165456,
+      "taxIncreaseRate": 0.102953054,
+      "taxPaid": 61635.85,
+      "value": 613920
+    },
+    {
+      "time": 1505231072500,
+      "valueIncreaseRate": 0.0024811628,
+      "taxIncreaseRate": 0.064078465,
+      "taxPaid": 55882.57,
+      "value": 504642
+    },
+    {
+      "time": 1473695072500,
+      "valueIncreaseRate": 0.064735286,
+      "taxIncreaseRate": 0,
+      "taxPaid": 52517.34,
+      "value": 503393
+    },
+    {
+      "time": 1442072672500,
+      "valueIncreaseRate": 0.063499026,
+      "taxIncreaseRate": 2.2406929,
+      "taxPaid": 52517.34,
+      "value": 472787
+    },
+    {
+      "time": 1410536672500,
+      "valueIncreaseRate": 0.06537098,
+      "taxIncreaseRate": 0,
+      "taxPaid": 16205.59,
+      "value": 444558
+    },
+    {
+      "time": 1379000672500,
+      "valueIncreaseRate": 0.03563726,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 417280
+    },
+    {
+      "time": 1347464672500,
+      "valueIncreaseRate": -0.04158163,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 402921
+    },
+    {
+      "time": 1315842272500,
+      "valueIncreaseRate": 0.4831349,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 420402
+    },
+    {
+      "time": 1284306272500,
+      "valueIncreaseRate": -0.11893609,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 283455
+    },
+    {
+      "time": 1252770272500,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 321719
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 22260,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZU11gcdadji7bpl_6plsx",
+    "review_count": 36,
+    "display_name": "Talia McKinney",
+    "profile_url": "https://www.zillow.com/profile/Talia-McKinney/",
+    "business_name": "SERHANT.",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "314",
+      "areacode": "717",
+      "number": "2170"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/b6a6cb1f150b343294e76f881598e7ce-h_n.jpg"
+  },
+  "yearBuilt": 1910,
+  "brokerageName": "SERHANT.",
+  "description": "3 Bedroom with Expansive Private Terrace at The Chelsea Mercantile\n\nWelcome to Residence 15N at The Chelsea Mercantile, a rare and expansive home offering a seamless blend of indoor luxury and private outdoor living. This 3 bedroom, 2.5 bathroom loft spans approximately 2,028 square feet of interior space and features an extraordinary 1,400 square foot terrace that wraps the entire length of the apartment\u2014perfect for entertaining or relaxing in the heart of Chelsea. Whole Foods is conveniently located within the building, providing unmatched ease and access to one of the city\u2019s best markets just an elevator ride away.\n\nThe open-concept living and dining area is bathed in natural light from oversized windows and flows directly into a thoughtfully reimagined kitchen. Redesigned for both style and function, the kitchen features top-of-the-line Miele appliances, custom cabinetry, and a custom sliding door that offers flexibility and privacy when desired.\n\nThe primary suite is a true retreat, complete with a hidden home office, a spacious walk-in closet, and a spa-inspired en suite bathroom. Two additional bedrooms provide versatility for guests, family, or a dedicated workspace.\n\nAdditional features include central HVAC, a powder room, in-unit washer and dryer, abundant storage throughout, and a dedicated private storage unit included in the sale.\n\nThe Chelsea Mercantile is a full-service prewar condominium offering 24-hour doorman and concierge service, a live-in superintendent, valet services, a fully equipped fitness center, children\u2019s playroom, and direct access to a full-service garage. Residents also enjoy an expansive, beautifully landscaped 10,000-square-foot rooftop terrace with sweeping, panoramic views of the Manhattan skyline\u2014an ideal setting to relax or entertain high above the city.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/252-7th-ave-apt-15n-new-york-ny-10001/362425901_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/252-7th-ave-apt-15n-new-york-ny-10001/362425901_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/252-7th-ave-apt-15n-new-york-ny-10001/362425901_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/252-7th-ave-apt-15n-new-york-ny-10001/362425901_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/252-7th-ave-apt-15n-new-york-ny-10001/362425901_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.74526,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 14B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-14B-New-York-NY-10001/54048941_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 14B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2532100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ff0e05fef7464ba65961946558990045-p_c.jpg"
+        }
+      ],
+      "zpid": 54048941,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1521,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1521
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 17F"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-17F-New-York-NY-10001/54048942_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 17F",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2314700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8d6cd838c9fdc6cda8a0595a63516580-p_c.jpg"
+        }
+      ],
+      "zpid": 54048942,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1257,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1257
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 16H"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-16H-New-York-NY-10001/54152505_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 16H",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2342600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=252+7th+Ave%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=weCjo-ar9eNucE2xcm-u2Vxr_pA="
+        }
+      ],
+      "zpid": 54152505,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1602,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1602
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3A-New-York-NY-10001/55501346_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1855300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=252+7th+Ave%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=weCjo-ar9eNucE2xcm-u2Vxr_pA="
+        }
+      ],
+      "zpid": 55501346,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2053,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2053
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3B-New-York-NY-10001/55501347_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1657180",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1750000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3a826bfc54a789b2701163a9820ab1c8-p_c.jpg"
+        }
+      ],
+      "zpid": 55501347,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1065,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1065
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -73.99522,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3C",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 997,
+      "lotSize": null,
+      "zpid": 55501348,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3C"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3C-New-York-NY-10001/55501348_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1753986",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 40.74526,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1910,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 997,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bebc1e5cdf51af9a8e9ea45f8196d457-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1820000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3D"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3D-New-York-NY-10001/55501349_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3D",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3344000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8c81e4344754f8b46fe4af0945c1c05b-p_c.jpg"
+        }
+      ],
+      "zpid": 55501349,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1897,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1897
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3E"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3E-New-York-NY-10001/55501350_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3E",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1639021",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.74526,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2325000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/70186b8b8d2c0b05d161293dcb51804c-p_c.jpg"
+        }
+      ],
+      "zpid": 55501350,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1365,
+      "longitude": -73.99522,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1365
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -73.99522,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "252 7th Ave APT 3F",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 1531,
+      "lotSize": null,
+      "zpid": 55501351,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "252 7th Ave APT 3F"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/252-7th-Ave-APT-3F-New-York-NY-10001/55501351_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 40.74526,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1910,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1531,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1aa7519d6260569584bdc2a8af9d339c-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2557700,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.17777777777778,
+      "date": "2025-07-16",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1752624000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1781428"
+      },
+      "pricePerSquareFoot": 2613,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5300000
+    },
+    {
+      "priceChangeRate": -0.13461538461538,
+      "date": "2021-06-25",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1624579200000,
+      "sellerAgent": {
+        "name": "Dolly Lenz",
+        "photo": null,
+        "profileUrl": "/profile/idollylenz/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2219,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 4500000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-04-15",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1618444800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "19743938"
+      },
+      "pricePerSquareFoot": 2564,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 5200000
+    },
+    {
+      "priceChangeRate": -0.045871559633028,
+      "date": "2021-01-04",
+      "source": "Dolly Lenz Real Estate LLC",
+      "postingIsRental": false,
+      "time": 1609718400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dolly Lenz Real Estate LLC",
+        "infoString3": null,
+        "infoString1": "19743938"
+      },
+      "pricePerSquareFoot": 2564,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 5200000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-10-06",
+      "source": "Dolly Lenz Real Estate LLC",
+      "postingIsRental": false,
+      "time": 1601942400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dolly Lenz Real Estate LLC",
+        "infoString3": null,
+        "infoString1": "19743938"
+      },
+      "pricePerSquareFoot": 2687,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 5450000
+    },
+    {
+      "priceChangeRate": -0.12449799196787,
+      "date": "2019-10-10",
+      "source": "Dolly Lenz Real Estate LLC",
+      "postingIsRental": false,
+      "time": 1570665600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dolly Lenz Real Estate LLC",
+        "infoString3": null,
+        "infoString1": "19743938"
+      },
+      "pricePerSquareFoot": 2687,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 5450000
+    },
+    {
+      "priceChangeRate": 24.49014790428,
+      "date": "2019-07-11",
+      "source": "Dolly Lenz Real Estate LLC",
+      "postingIsRental": false,
+      "time": 1562803200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Dolly Lenz Real Estate LLC",
+        "infoString3": null,
+        "infoString1": "19743938"
+      },
+      "pricePerSquareFoot": 3070,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6225000
+    },
+    {
+      "priceChangeRate": -0.97203412539364,
+      "date": "2008-05-23",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1211500800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 120,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 244212
+    },
+    {
+      "priceChangeRate": 3.364067966017,
+      "date": "2003-06-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1055808000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4306,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 8732500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2001-01-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 979689600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 987,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 2001000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/340c1be211eb86c2072cc134893dc108-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2058-Ps-11-William-T-Harris/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.3,
+      "assigned": null,
+      "name": "PS 11 Sarah J Garnett Elementary School (The)",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2891-Jhs-104-Simon-Baruch/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Jhs 104 Simon Baruch",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/1958-The-High-School-Of-Fashion-Industries/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 0.1,
+      "assigned": null,
+      "name": "The High School of Fashion Industries",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 17191,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "Chelsea",
+    "streetAddress": "252 7th Ave APT 15N",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "58 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 55501642,
+  "countyId": 2452,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 452,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Oversized windows",
+            "Expansive private terrace",
+            "Miele appliances",
+            "Hidden home office",
+            "In-unit washer and dryer",
+            "Central hvac",
+            "Spa-inspired en suite bathroom"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Oversized windows",
+            "Expansive private terrace",
+            "Miele appliances",
+            "Hidden home office",
+            "In-unit washer and dryer",
+            "Central hvac",
+            "Spa-inspired en suite bathroom"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Chelsea"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/252-7th-Ave-APT-15N-New-York-NY-10001/55501642_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "SERHANT."
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "SERHANT.",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-07 10:18:39",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Talia McKinney",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1781428",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "717-314-2170",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10401263176",
+        "memberFullName": "Talia McKinney",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "717-314-2170",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "717-314-2170",
+    "lastChecked": "2025-09-12 08:41:11"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 15,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1172814,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1910",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,854 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "58 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$2,613",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,854 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://www.youtube.com/v/AbfjLofFDXo"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "2,028 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$1,854 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 58,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$1,854 monthly",
+    "appliances": null,
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": "Chelsea Mercantile",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Full Time Doorman"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.youtube.com/v/AbfjLofFDXo",
+    "contingency": null,
+    "yearBuilt": 1910,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "007741303",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 54000,
+    "subdivisionName": "Chelsea",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1752624000000,
+    "roomTypes": [
+      "Childrens Playroom",
+      "Recreation Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Elevator(s)",
+      "Concierge"
+    ],
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,854 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Full-Time Doorman"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,854 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,028",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Maintenance"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 2613,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-16",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691872525
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691872525
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691872525
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 20,
+  "livingArea": 2028,
+  "zestimateHighPercent": null,
+  "mlsid": "S1781428",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001498218",
+  "country": "USA",
+  "price": 5300000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:32.989298+00:00",
+    "zpid": "55501642",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

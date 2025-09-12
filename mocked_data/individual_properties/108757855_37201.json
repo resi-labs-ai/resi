@@ -1,0 +1,1899 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 4,
+      "display_name": "Robinson Muller",
+      "badge_type": "Premier Agent",
+      "business_name": "Legacy Real  Estate Group",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "598",
+        "areacode": "615",
+        "number": "1403"
+      },
+      "zuid": "X1-ZU16b1hqhtoytc9_9ljvv",
+      "image_url": "https://photos.zillowstatic.com/fp/d2f499ab7c06ab2f212d8505a6e1fbee-h_g.jpg"
+    }
+  ],
+  "longitude": -86.78126,
+  "countyFIPS": "47037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2240e3a9a43e7b1d79d6c8e64edd28c2-p_d.jpg",
+  "livingAreaValue": 996,
+  "streetAddress": "1032 1st Ave N",
+  "county": "Davidson County",
+  "monthlyHoaFee": 563,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1694533709439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5460.22,
+      "value": 167800
+    },
+    {
+      "time": 1662997709439,
+      "valueIncreaseRate": 0.6,
+      "taxIncreaseRate": 0.58345735,
+      "taxPaid": 5460.22,
+      "value": 167800
+    },
+    {
+      "time": 1631461709439,
+      "valueIncreaseRate": 0.5956637,
+      "taxIncreaseRate": 0.24296297,
+      "taxPaid": 3448.29,
+      "value": 104875
+    },
+    {
+      "time": 1599925709439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.33787763,
+      "taxPaid": 2774.25,
+      "value": 65725
+    },
+    {
+      "time": 1568303309439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2073.62,
+      "value": 65725
+    },
+    {
+      "time": 1536767309439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2073.62,
+      "value": 65725
+    },
+    {
+      "time": 1505231309439,
+      "valueIncreaseRate": 1.3183422,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 65725
+    },
+    {
+      "time": 1473695309439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.6196487,
+      "taxPaid": 2073.62,
+      "value": 28350
+    },
+    {
+      "time": 1442072909439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1280.29,
+      "value": 28350
+    },
+    {
+      "time": 1410536909439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1280.29,
+      "value": 28350
+    },
+    {
+      "time": 1379000909439,
+      "valueIncreaseRate": -0.3285968,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 28350
+    },
+    {
+      "time": 1347464909439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1315842509439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1284306509439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1252770509439,
+      "valueIncreaseRate": 0.015634395,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 42225
+    },
+    {
+      "time": 1221234509439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41575
+    },
+    {
+      "time": 1189612109439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 41575
+    },
+    {
+      "time": 1158076109439,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2730,
+  "state": "TN",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUznlambty416x_4ixyh",
+    "review_count": 0,
+    "display_name": "Stefanie Schmitz",
+    "profile_url": "https://www.zillow.com/profile/stefanieschmitz/",
+    "business_name": "Compass Tennessee, LLC",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "335",
+      "areacode": "615",
+      "number": "2313"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/86d27d0a138ef4aecaf9e28abd892d6a-h_n.jpg"
+  },
+  "yearBuilt": 1986,
+  "brokerageName": "Compass Tennessee, LLC",
+  "description": "**Non-Owner Occupied Short Term Rental, NOO STR, Airbnb/VRBO allowed**  Top performing STR with almost $80k annual projections and almost $20k in May & June this year alone!  Super rare 2 bed/2 full bath top floor Riverfront unit.  Unbeatable location overlooking the Cumberland River just steps away from famous Broadway, Horizon Park, the *new* Nissan Stadium, Ascend Amphitheater, Bridgestone Arena and more!  Professionally decorated by Crystal Beckel of Avalon Blue Home for the fellow Swiftie lover and one that makes the scrollers STOP.  Brand new furniture negotiable and new LVP flooring throughout.  Community amenities include pool, fitness center, laundry facilities, outdoor area with firepit and covered parking.  Proforma available upon request.  Buyer/Buyer's agent to verify all pertinent information.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.019999999552965
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.079999998211861
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.10000000149012
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1032-1st-ave-n-nashville-tn-37201/472509993_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 42
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "femaZone": "X_SHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1032-1st-ave-n-nashville-tn-37201/472509993_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.40999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.63999998569489
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.77999997138977
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1032-1st-ave-n-nashville-tn-37201/472509993_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 105,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 20
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1032-1st-ave-n-nashville-tn-37201/472509993_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1032-1st-ave-n-nashville-tn-37201/472509993_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 2
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 2
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 36.17459,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78126,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1008 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 996,
+      "lotSize": 871,
+      "zpid": 108736359,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1008 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1008-1st-Ave-N-Nashville-TN-37201/108736359_zpid/",
+      "lotAreaValue": 871.2,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174595,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 996,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0ea235ee21330b970ed949f893be5857-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 586800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.78126,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1020 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 996,
+      "lotSize": 996,
+      "zpid": 108779446,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1020 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1020-1st-Ave-N-Nashville-TN-37201/108779446_zpid/",
+      "lotAreaValue": 996,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174595,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 996,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/71f06e91ade6115674f76292eac05e40-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 477400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781265,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1018 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 435,
+      "zpid": 92392940,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1018 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1018-1st-Ave-N-Nashville-TN-37201/92392940_zpid/",
+      "lotAreaValue": 435.6,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2972525",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.174534,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/de45a51a10dc908aa5ebdc85eb9130c0-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 414900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781265,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1030 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 630,
+      "zpid": 108738503,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1030 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1030-1st-Ave-N-Nashville-TN-37201/108738503_zpid/",
+      "lotAreaValue": 630,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.174534,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/565e6008f19090316d3d6c1fa0274862-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 315700,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781265,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1006 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 630,
+      "lotSize": 435,
+      "zpid": 108786552,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1006 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1006-1st-Ave-N-Nashville-TN-37201/108786552_zpid/",
+      "lotAreaValue": 435.6,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2928056",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 36.174534,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 630,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/55207e293bb93d6c4a0e94a2672a7210-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 416900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781296,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1010 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 1000,
+      "lotSize": 871,
+      "zpid": 108252909,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1010 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1010-1st-Ave-N-Nashville-TN-37201/108252909_zpid/",
+      "lotAreaValue": 871,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17465,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1000,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/95973f666b82915a8fe9f169b6d9b336-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 515800,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781296,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1034 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 953,
+      "lotSize": 953,
+      "zpid": 108732198,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1.5,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1034 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1034-1st-Ave-N-Nashville-TN-37201/108732198_zpid/",
+      "lotAreaValue": 953,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17465,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 953,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.17464828491211,-86.78129577636719&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=5oW8oO2ezpfykSUf1vwwSISbeJY="
+        }
+      ],
+      "currency": "USD",
+      "price": 472400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -86.781296,
+      "parentRegion": null,
+      "address": {
+        "city": "Nashville",
+        "state": "TN",
+        "streetAddress": "1022 1st Ave N",
+        "zipcode": "37201"
+      },
+      "livingAreaValue": 953,
+      "lotSize": 953,
+      "zpid": 108750646,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1.5,
+      "state": "TN",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1022 1st Ave N"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1022-1st-Ave-N-Nashville-TN-37201/108750646_zpid/",
+      "lotAreaValue": 953,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 36.17465,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 1986,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 953,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=36.17464828491211,-86.78129577636719&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=5oW8oO2ezpfykSUf1vwwSISbeJY="
+        }
+      ],
+      "currency": "USD",
+      "price": 471500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.021234939759036,
+      "date": "2025-08-11",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1754870400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2972670"
+      },
+      "pricePerSquareFoot": 653,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 649900
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-07-01",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1719792000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2673148"
+      },
+      "pricePerSquareFoot": 667,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 664000
+    },
+    {
+      "priceChangeRate": 0.039123630672926,
+      "date": "2024-06-28",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1719532800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2673148"
+      },
+      "pricePerSquareFoot": 667,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 664000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-08",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1691452800000,
+      "sellerAgent": {
+        "name": "Shane McCarty",
+        "photo": null,
+        "profileUrl": "/profile/Mc2Group/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2548619"
+      },
+      "pricePerSquareFoot": 642,
+      "buyerAgent": {
+        "name": "Nina Lampley",
+        "photo": null,
+        "profileUrl": "/profile/zuser20140401115954623/"
+      },
+      "event": "Sold",
+      "price": 639000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-07-17",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1689552000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2548619"
+      },
+      "pricePerSquareFoot": 642,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 639000
+    },
+    {
+      "priceChangeRate": 0.49648711943794,
+      "date": "2023-07-14",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1689292800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2548619"
+      },
+      "pricePerSquareFoot": 642,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 639000
+    },
+    {
+      "priceChangeRate": -0.0069767441860465,
+      "date": "2021-03-30",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1617062400000,
+      "sellerAgent": {
+        "name": "Tommy Dabbs",
+        "photo": null,
+        "profileUrl": "/profile/Tommy-Dabbs/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2205995"
+      },
+      "pricePerSquareFoot": 429,
+      "buyerAgent": {
+        "name": "Debbie Beam",
+        "photo": null,
+        "profileUrl": "/profile/Realtordebbiebeam/"
+      },
+      "event": "Sold",
+      "price": 427000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-03-12",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1615507200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2205995"
+      },
+      "pricePerSquareFoot": 432,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 430000
+    },
+    {
+      "priceChangeRate": -0.033707865168539,
+      "date": "2021-03-05",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1614902400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2205995"
+      },
+      "pricePerSquareFoot": 432,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 430000
+    },
+    {
+      "priceChangeRate": -0.032398347466841,
+      "date": "2021-01-12",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1610409600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2205995"
+      },
+      "pricePerSquareFoot": 447,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 445000
+    },
+    {
+      "priceChangeRate": 1.3584615384615,
+      "date": "2020-11-11",
+      "source": "DABBS REALTY GROUP",
+      "postingIsRental": false,
+      "time": 1605052800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "DABBS REALTY GROUP",
+        "infoString3": null,
+        "infoString1": "2205995"
+      },
+      "pricePerSquareFoot": 462,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 459900
+    },
+    {
+      "priceChangeRate": -0.048780487804878,
+      "date": "2014-12-30",
+      "source": "RealTracs MLS as distributed by MLS GRID",
+      "postingIsRental": false,
+      "time": 1419897600000,
+      "sellerAgent": {
+        "name": "Tommy Dabbs",
+        "photo": null,
+        "profileUrl": "/profile/Tommy-Dabbs/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "RealTracs MLS as distributed by MLS GRID",
+        "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1574494"
+      },
+      "pricePerSquareFoot": 196,
+      "buyerAgent": {
+        "name": "Tommy Dabbs",
+        "photo": null,
+        "profileUrl": "/profile/Tommy-Dabbs/"
+      },
+      "event": "Sold",
+      "price": 195000
+    },
+    {
+      "priceChangeRate": -0.046511627906977,
+      "date": "2014-12-08",
+      "source": "DABBS REALTY GROUP",
+      "postingIsRental": false,
+      "time": 1417996800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "DABBS REALTY GROUP",
+        "infoString3": null,
+        "infoString1": "1574494"
+      },
+      "pricePerSquareFoot": 206,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 205000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-09-12",
+      "source": "Avenue Real Estate Services",
+      "postingIsRental": true,
+      "time": 1410480000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Avenue Real Estate Services",
+        "infoString3": null,
+        "infoString1": "1564866"
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1600
+    },
+    {
+      "priceChangeRate": 0.21537591859808,
+      "date": "2014-09-12",
+      "source": "DABBS REALTY GROUP",
+      "postingIsRental": false,
+      "time": 1410480000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "DABBS REALTY GROUP",
+        "infoString3": null,
+        "infoString1": "1574494"
+      },
+      "pricePerSquareFoot": 216,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 215000
+    },
+    {
+      "priceChangeRate": -0.058823529411765,
+      "date": "2014-08-25",
+      "source": "Avenue Real Estate Services LLC",
+      "postingIsRental": true,
+      "time": 1408924800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Avenue Real Estate Services LLC",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1600
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-08-05",
+      "source": "Avenue Real Estate Services LLC",
+      "postingIsRental": true,
+      "time": 1407196800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Avenue Real Estate Services LLC",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 2,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 1700
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2006-09-12",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1158019200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 178,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 176900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2240e3a9a43e7b1d79d6c8e64edd28c2-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2202-Jones-Paideia-Magnet/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Jones Elementary",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/2201-John-Early-Paideia-Middle-Magnet/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "John Early Paideia Middle Magnet",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/tennessee/nashville/1158-Pearl-Cohn-Magnet-High-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 2,
+      "assigned": null,
+      "name": "Pearl Cohn Magnet High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Nashville",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.57,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Nashville",
+    "state": "TN",
+    "neighborhood": null,
+    "subdivision": "Riverfront",
+    "streetAddress": "1032 1st Ave N",
+    "zipcode": "37201"
+  },
+  "cityId": 6118,
+  "timeOnZillow": "32 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 108757855,
+  "countyId": 2243,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 275,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Riverfront unit",
+            "Overlooking the cumberland river",
+            "Outdoor area with firepit",
+            "Covered parking",
+            "New lvp flooring",
+            "Fitness center"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Riverfront unit",
+            "Overlooking the cumberland river",
+            "Outdoor area with firepit",
+            "Covered parking",
+            "New lvp flooring",
+            "Fitness center"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": null,
+  "zipcode": "37201",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 53,
+  "url": "/homedetails/1032-1st-Ave-N-Nashville-TN-37201/108757855_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "mlsName": "RealTracs MLS as distributed by MLS GRID",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass Tennessee, LLC"
+      }
+    ],
+    "infoString10": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass Tennessee, LLC",
+    "listingAttributionContact": "6153352313",
+    "lastUpdated": "2025-08-12 02:09:00",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Stefanie Schmitz Ainslie",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "2972670",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "615-335-2313",
+    "listingAgents": [
+      {
+        "memberStateLicense": "323996",
+        "memberFullName": "Stefanie Schmitz Ainslie",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "615-335-2313",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/4dff87a5713b987022bf15b252f758d0-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Based on information submitted to the MLS GRID as of 2025-09-12 08:43:20 PDT. All data is obtained from various sources and may not have been verified by broker or MLS GRID. Supplied Open House Information is subject to change without notice. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#99)\n",
+    "brokerPhoneNumber": "615-475-5616",
+    "lastChecked": "2025-09-12 08:43:20"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 29,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "Association"
+    ],
+    "flooring": [
+      "Vinyl"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Views",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 419500,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Apartment, Residential, Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1986",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central, Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "4 Open Parking spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$563 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "32 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$653",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "River"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "156",
+        "roomAreaSource": null,
+        "roomType": "Bedroom1",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Walk-In Closet(s)",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "13",
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": "13x12",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "132",
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": null,
+        "roomWidth": "11",
+        "roomLevel": "Walk-In Closet(s)",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "12",
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": "12x11",
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Suite",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": null,
+        "roomFeatures": [
+          "Suite"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": "Square Feet",
+        "roomArea": "216",
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": "12",
+        "roomLevel": "Combination",
+        "description": null,
+        "roomLengthWidthUnits": "Feet",
+        "roomLength": "18",
+        "roomFeatures": [
+          "Combination"
+        ],
+        "roomDimensions": "18x12",
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$563 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Nashville",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": true,
+    "bathroomsOneQuarter": null,
+    "lotSize": "871.20 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "996 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$563 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 2,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "Condominium",
+    "interiorFeatures": [
+      "High Speed Internet"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Views"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 32,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jones Paideia Magnet",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Other"
+    ],
+    "fireplaceFeatures": [
+      "Living Room"
+    ],
+    "hoaFeeTotal": "$563 monthly",
+    "appliances": [
+      "Built-In Electric Oven",
+      "Cooktop",
+      "Dishwasher",
+      "Disposal",
+      "Microwave",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "River Front"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "John Early Paideia Magnet",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1986,
+    "utilities": [
+      "Electricity Available",
+      "Water Available",
+      "Cable Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "082140A11000CO",
+    "incomeIncludes": null,
+    "highSchool": "Pearl Cohn Magnet High School",
+    "taxAnnualAmount": 5460,
+    "subdivisionName": "Riverfront",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1754870400000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Fitness Center",
+      "Laundry",
+      "Pool"
+    ],
+    "propertySubType": [
+      "Apartment",
+      "Residential",
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 0,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$563 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Unassigned"
+    ],
+    "parkingCapacity": 4,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": 4,
+    "securityFeatures": [
+      "Fire Alarm",
+      "Fire Sprinkler System",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "996",
+    "associations": [
+      {
+        "feeFrequency": "$563 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": "River",
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": null,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "996",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Central",
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Maintenance Grounds",
+      "Recreation Facilities",
+      "Trash",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 653,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-11",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.063,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692109459
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692109459
+    },
+    "arm5Bucket": {
+      "rate": 6.415,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692109459
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 11,
+  "livingArea": 996,
+  "zestimateHighPercent": null,
+  "mlsid": "2972670",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 649900,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:48:30.141233+00:00",
+    "zpid": "108757855",
+    "zipcode": "37201",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

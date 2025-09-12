@@ -1,0 +1,1896 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.33405,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/0cedd7cfe911c94fcddd9992dbfa0780-p_d.jpg",
+  "livingAreaValue": 1350,
+  "streetAddress": "737 Olive Way #2905",
+  "county": "King County",
+  "monthlyHoaFee": 1350,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726156008654,
+      "valueIncreaseRate": -0.13929492,
+      "taxIncreaseRate": -0.12510039,
+      "taxPaid": 9250.13,
+      "value": 1001000
+    },
+    {
+      "time": 1694533608654,
+      "valueIncreaseRate": 0.04680468,
+      "taxIncreaseRate": 0.16662177,
+      "taxPaid": 10572.79,
+      "value": 1163000
+    },
+    {
+      "time": 1662997608654,
+      "valueIncreaseRate": 0.09350394,
+      "taxIncreaseRate": 0.005764242,
+      "taxPaid": 9062.74,
+      "value": 1111000
+    },
+    {
+      "time": 1631461608654,
+      "valueIncreaseRate": 0.04526749,
+      "taxIncreaseRate": -0.008583057,
+      "taxPaid": 9010.8,
+      "value": 1016000
+    },
+    {
+      "time": 1599925608654,
+      "valueIncreaseRate": -0.17064847,
+      "taxIncreaseRate": -0.16259333,
+      "taxPaid": 9088.81,
+      "value": 972000
+    },
+    {
+      "time": 1568303208654,
+      "valueIncreaseRate": 0.03716814,
+      "taxIncreaseRate": 0.15519752,
+      "taxPaid": 10853.52,
+      "value": 1172000
+    },
+    {
+      "time": 1536767208654,
+      "valueIncreaseRate": 0.06403013,
+      "taxIncreaseRate": -0.077501476,
+      "taxPaid": 9395.38,
+      "value": 1130000
+    },
+    {
+      "time": 1505231208654,
+      "valueIncreaseRate": 0.09034908,
+      "taxIncreaseRate": 0.18241665,
+      "taxPaid": 10184.71,
+      "value": 1062000
+    },
+    {
+      "time": 1473695208654,
+      "valueIncreaseRate": 0.12601157,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8613.47,
+      "value": 974000
+    },
+    {
+      "time": 1442072808654,
+      "valueIncreaseRate": -0.06587473,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8613.47,
+      "value": 865000
+    },
+    {
+      "time": 1410536808654,
+      "valueIncreaseRate": 0.5255354,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8613.47,
+      "value": 926000
+    },
+    {
+      "time": 1347464808654,
+      "valueIncreaseRate": 0.018456375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 607000
+    },
+    {
+      "time": 1315842408654,
+      "valueIncreaseRate": -0.13748191,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 596000
+    },
+    {
+      "time": 1284306408654,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 691000
+    },
+    {
+      "time": 1252770408654,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 691000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 4599,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUzcf6rp2esyrt_5dugv",
+    "review_count": 18,
+    "display_name": "Amanda Schmidt",
+    "profile_url": "https://www.zillow.com/profile/user86526793/",
+    "business_name": "COMPASS",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "679",
+      "areacode": "206",
+      "number": "6069"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/9bc74e813ed9702754d531c91d8dd0ae-h_n.jpg"
+  },
+  "yearBuilt": 2009,
+  "brokerageName": "COMPASS",
+  "description": "Above the Sparkling City lights of Seattle, enjoy floor to ceiling views of snowy mountaintops and the Bellevue Skyline 8 miles away. This lovely Southeast corner home features all the amenity one would expect above Seattle's premier Hyatt Hotel; unique access to 5-Star hotel amenities: 24-hour concierge, room service, Gym, sauna, steam room, saline lap pool & spa. Residents-only club features a BBQ terrace, dog lounge, grooming station and event room. Uniquely remodeled with a spacious chef's kitchen and extra storage space. Walk to shopping, theaters, restaurants, Amazon, Google, Apple and Meta, Whole Foods. Easy access to I-5, light rail & SLU streetcar. The veritable foodie paradise of Capitol Hill or Pike Place Market at your doorstep.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/737-olive-way-apt-2905-seattle-wa-98101/531170013_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/737-olive-way-apt-2905-seattle-wa-98101/531170013_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/737-olive-way-apt-2905-seattle-wa-98101/531170013_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/737-olive-way-apt-2905-seattle-wa-98101/531170013_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/737-olive-way-apt-2905-seattle-wa-98101/531170013_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.613564,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.33405,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 1903",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 823,
+      "lotSize": null,
+      "zpid": 58383047,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 1903"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-1903-Seattle-WA-98101/58383047_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2403303",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.613564,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2009,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 823,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/87555585fc0198b40553b2f5437bfb9c-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 625000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 2309"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-2309-Seattle-WA-98101/89207901_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 2309",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2032109",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 595000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ea69437571d9ac3582558b9b6bd0be66-p_c.jpg"
+        }
+      ],
+      "zpid": 89207901,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 690,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 690
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 3310"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-3310-Seattle-WA-98101/89207918_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 3310",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2217901",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 595000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bf32ab2d0bd9a2d14583c4406a48edee-p_c.jpg"
+        }
+      ],
+      "zpid": 89207918,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 650,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 650
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 2503"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-2503-Seattle-WA-98101/89207974_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 2503",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2296240",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 629900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/75d8a5ca361da80eeea98c9438ae2d4f-p_c.jpg"
+        }
+      ],
+      "zpid": 89207974,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 823,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 823
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 3307"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-3307-Seattle-WA-98101/89207978_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 3307",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 671800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/04a6bb1d47c5117be0e297b631f5bd48-p_c.jpg"
+        }
+      ],
+      "zpid": 89207978,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 834,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 834
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 2310"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-2310-Seattle-WA-98101/89207986_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 2310",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2140704",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 594999,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a2bb30f7bb40e289e6caee34ce918696-p_c.jpg"
+        }
+      ],
+      "zpid": 89207986,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 650,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 650
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 1810"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-1810-Seattle-WA-98101/89208071_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 1810",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2231329",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 545000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/83f236df00fe47bdf65c7d0d7377a0d9-p_c.jpg"
+        }
+      ],
+      "zpid": 89208071,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 657,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 657
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 2007"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-2007-Seattle-WA-98101/89208078_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 2007",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2133327",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.613564,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 640000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3197e4067e7ea6aac0c6543b83510b74-p_c.jpg"
+        }
+      ],
+      "zpid": 89208078,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 834,
+      "longitude": -122.33405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 834
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.33405,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "737 Olive Way APT 3710",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 650,
+      "lotSize": null,
+      "zpid": 89208179,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "737 Olive Way APT 3710"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/737-Olive-Way-APT-3710-Seattle-WA-98101/89208179_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2413824",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.613564,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2010,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 650,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/aaac397fe60e590595d99f93a94c13ff-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 599000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.32727272727273,
+      "date": "2025-08-26",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1756166400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2425591"
+      },
+      "pricePerSquareFoot": 811,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1095000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-07-26",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1374796800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 611,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 825000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2012-03-17",
+      "source": "Realogics Sotheby's International Realty",
+      "postingIsRental": false,
+      "time": 1331942400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Realogics Sotheby's International Realty",
+        "infoString3": null,
+        "infoString1": "168895"
+      },
+      "pricePerSquareFoot": 611,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 825000
+    },
+    {
+      "priceChangeRate": -0.17085427135678,
+      "date": "2011-03-24",
+      "source": "Realogics Sotheby's International Realty",
+      "postingIsRental": false,
+      "time": 1300924800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Realogics Sotheby's International Realty",
+        "infoString3": null,
+        "infoString1": "168895"
+      },
+      "pricePerSquareFoot": 611,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 825000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2011-01-24",
+      "source": "Coldwell Banker Bain Associates",
+      "postingIsRental": false,
+      "time": 1295827200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Bain Associates",
+        "infoString3": null,
+        "infoString1": "117340"
+      },
+      "pricePerSquareFoot": 737,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2010-12-30",
+      "source": "Coldwell Banker Bain Associates",
+      "postingIsRental": false,
+      "time": 1293667200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Bain Associates",
+        "infoString3": null,
+        "infoString1": "117340"
+      },
+      "pricePerSquareFoot": 737,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2010-11-28",
+      "source": "Coldwell Banker Bain Associates",
+      "postingIsRental": false,
+      "time": 1290902400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Bain Associates",
+        "infoString3": null,
+        "infoString1": "117340"
+      },
+      "pricePerSquareFoot": 737,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2010-08-13",
+      "source": "Coldwell Banker Bain Associates",
+      "postingIsRental": false,
+      "time": 1281657600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Coldwell Banker Bain Associates",
+        "infoString3": null,
+        "infoString1": "117340"
+      },
+      "pricePerSquareFoot": 737,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 995000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/0cedd7cfe911c94fcddd9992dbfa0780-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.6,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4792,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 13:00:00",
+      "endTime": "2025-09-14 15:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "Downtown",
+    "streetAddress": "737 Olive Way #2905",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "17 days",
+  "priceChange": null,
+  "zestimate": 1073800,
+  "zpid": 89208397,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 938,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Extra storage space",
+            "Southeast corner home"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Three sleeping quarters",
+            "Custom designed kitchen",
+            "Creamy travertine",
+            "Uniquely mesmerizing views",
+            "Wrap around deck",
+            "Custom wall paneling",
+            "Expansive marble topped island"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "Downtown"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/737-Olive-Way-APT-2905-Seattle-WA-98101/89208397_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "COMPASS"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "COMPASS"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "COMPASS",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-09 09:44:11",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Sam Cunningham",
+    "attributionTitle": null,
+    "mlsId": "2425591",
+    "coAgentName": "Laura Cunningham",
+    "coAgentNumber": "206-227-7848",
+    "infoString5": "206-227-7849",
+    "listingAgents": [
+      {
+        "memberStateLicense": "23132",
+        "memberFullName": "Sam Cunningham",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "82618",
+        "memberFullName": "Laura Cunningham",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "206-227-7849",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "425-242-6440",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 38,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Engineered Hardwood",
+      "Carpet"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1001000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2009",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Fireplace, Forced Air, High Efficiency (Unspecified), Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,350 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "17 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$811",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Mountain(s)",
+      "See Remarks",
+      "Territorial"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DenOffice",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "EntryHall",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "GreatRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "206-706-8000",
+        "name": null,
+        "fee": "$1,350 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Company: HOA"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Garbage Disposal",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 2,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "1,350 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out,Conventional,VA Loan",
+    "otherParking": null,
+    "associationFee": "$1,350 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "206-706-8000",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 2,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Corner Lot",
+      "Curbs",
+      "Paved",
+      "Sidewalk"
+    ],
+    "roofType": "Flat",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 17,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": 2009,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement/Concrete"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Main Level: 1",
+      "Fireplace"
+    ],
+    "hoaFeeTotal": "$1,350 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Disposal",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Washer(s)",
+      "Garbage Disposal",
+      "Water Heater: Gas",
+      "Water Heater:  central",
+      "Water Heater Location: Roof",
+      "Cooking-Gas",
+      "Dryer-Electric",
+      "Ice Maker",
+      "Washer"
+    ],
+    "sewer": [
+      "Company: HOA"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "Community",
+      "Bath"
+    ],
+    "waterViewYN": false,
+    "buildingName": "Olive 8",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "18 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Cable TV",
+      "Clubhouse",
+      "Elevator",
+      "Fitness Center",
+      "Game/Rec Rm",
+      "Garden Space",
+      "Gated",
+      "Indoor Pool",
+      "Rooftop Deck",
+      "Sauna"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2009,
+    "utilities": [
+      "Comcast"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "6364001230",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 9250,
+    "subdivisionName": "Downtown",
+    "storiesTotal": 39,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Insulated Windows",
+      "Coverings: shades"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756080000000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,350 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Common Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security Service",
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 220,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,350 monthly",
+        "name": null,
+        "phone": "206-706-8000"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "Company: Seattle City Light"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": "1,350",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Cooking-Gas",
+      "Dryer-Electric",
+      "End Unit",
+      "Fireplace",
+      "Ice Maker",
+      "Insulated Windows",
+      "Jetted Tub",
+      "Primary Bathroom",
+      "Walk-In Closet(s)",
+      "Washer",
+      "Water Heater"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": "Main",
+    "fireplaces": 1,
+    "heating": [
+      "Fireplace",
+      "Forced Air",
+      "High Efficiency (Unspecified)",
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Central Hot Water",
+      "Common Area Maintenance",
+      "Concierge",
+      "Earthquake Insurance",
+      "Gas",
+      "Maintenance Grounds",
+      "Security",
+      "Sewer",
+      "Snow Removal",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 811,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-26",
+  "bedrooms": 2,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.451,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692008676
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.258,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692008676
+    },
+    "arm5Bucket": {
+      "rate": 6.032,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692008676
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 39,
+  "livingArea": 1350,
+  "zestimateHighPercent": "5",
+  "mlsid": "2425591",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001482759",
+  "country": "USA",
+  "price": 1095000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:49.207392+00:00",
+    "zpid": "89208397",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

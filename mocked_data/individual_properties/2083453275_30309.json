@@ -1,0 +1,1715 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.388115,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/2fd71b7c0767b42e5e032ea6e75fa518-p_d.jpg",
+  "livingAreaValue": 812,
+  "streetAddress": "950 W Peachtree St NW UNIT 802",
+  "county": "Fulton County",
+  "monthlyHoaFee": 403,
+  "timeZone": "America/New_York",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 1478,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU10ahgyintyayx_1hdln",
+    "review_count": 28,
+    "display_name": "Alex Smith Meier",
+    "profile_url": "https://www.zillow.com/profile/alexsmithmeier/",
+    "business_name": "Keller Williams Realty Metro Atlanta",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "788",
+      "areacode": "404",
+      "number": "6729"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/fc73264438a6c2b07137d8c7990d791e-h_n.jpg"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "Keller Williams Realty Metro Atlanta",
+  "description": "Live in the heart of Midtown where style, convenience, and vibrant city living converge. This airy freshly painted one-bedroom residence in Plaza Midtown offers one of the most desirable layouts in the building, filled with natural light and framed by sweeping city views. From the moment you enter, you'll notice how effortlessly the space flows with expansive floor-to-ceiling windows and sliding doors bringing the skyline into your living room, or leads you to a generous balcony that\u2019s ideal for morning coffee or evening entertainment. Located on the quiet side you also have views of the amenities lush green space, large resort-inspired pool, stylish clubroom/business center plus a state-of-the-art fitness center.   The thoughtfully renovated kitchen features sleek quartz counters, crisp white subway tile backsplash, stainless appliances, and a modern faucet. There\u2019s even an additional built in \u201ccoffee bar\u201d station with further custom built in storage. Durable hand scraped hardwood flooring spans the entire unit, offering a stylish warmth. The bedroom offers another vantage point for those incredible views and includes ample space for your furnishings. A hallway lined with dual closets leads to a well-appointed bathroom with a tiled tub/shower combo, additional storage and laundry closet.  What truly sets this home apart? Direct private elevator access to Publix - yes, your grocery run just got a whole lot easier. Nearby access to Piedmont Park, the Beltline, Georgia Tech, Midtown\u2019s best restaurants, and endless cultural experiences. This is more than a home, it\u2019s a lifestyle. Come see for yourself.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23999999463558
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/950-w-peachtree-st-nw-unit-802-atlanta-ga-30309/134169313_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/950-w-peachtree-st-nw-unit-802-atlanta-ga-30309/134169313_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/950-w-peachtree-st-nw-unit-802-atlanta-ga-30309/134169313_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/950-w-peachtree-st-nw-unit-802-atlanta-ga-30309/134169313_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/950-w-peachtree-st-nw-unit-802-atlanta-ga-30309/134169313_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.78006,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "44 Peachtree Pl NW UNIT 1331"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/44-Peachtree-Pl-NW-UNIT-1331-Atlanta-GA-30309/82613131_zpid/",
+      "lotAreaValue": 1089,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "44 Peachtree Pl NW UNIT 1331",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 243600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1089,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/caf0df0d13fd49edc2289c835325a7cd-p_c.jpg"
+        }
+      ],
+      "zpid": 82613131,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 1091,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1091
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "44 Peachtree Pl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/44-Peachtree-Pl-Atlanta-GA-30309/82614302_zpid/",
+      "lotAreaValue": 1089,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "44 Peachtree Pl",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 459400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1089,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c2c8700a28a3ac719d580b5b9f7201e9-p_c.jpg"
+        }
+      ],
+      "zpid": 82614302,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1091,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1091
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "950 W Peachtree St NW UNIT 1505"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/950-W-Peachtree-St-NW-UNIT-1505-Atlanta-GA-30309/82615080_zpid/",
+      "lotAreaValue": 866,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "950 W Peachtree St NW UNIT 1505",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 337600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 866,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dac6b5ad681e783df207883a2c06ad71-p_c.jpg"
+        }
+      ],
+      "zpid": 82615080,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 866,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 866
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.388115,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "44 Peachtree Pl NW UNIT 1828",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 768,
+      "lotSize": 784,
+      "zpid": 82624726,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "44 Peachtree Pl NW UNIT 1828"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/44-Peachtree-Pl-NW-UNIT-1828-Atlanta-GA-30309/82624726_zpid/",
+      "lotAreaValue": 784.08,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7607381",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.78006,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2006,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 768,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a20f1e8a4c036fd8df5f8070ecd1f134-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 309900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "44 Peachtree Pl NW UNIT 2027"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/44-Peachtree-Pl-NW-UNIT-2027-Atlanta-GA-30309/82631051_zpid/",
+      "lotAreaValue": 766.656,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "44 Peachtree Pl NW UNIT 2027",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7163499",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 350000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 766,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b3b9e6a7bf1578252db9d53d47fcb4f9-p_c.jpg"
+        }
+      ],
+      "zpid": 82631051,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 768,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 768
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "950 W Peachtree St NW UNIT 2012"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/950-W-Peachtree-St-NW-UNIT-2012-Atlanta-GA-30309/82631440_zpid/",
+      "lotAreaValue": 871.2,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "950 W Peachtree St NW UNIT 2012",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7141467",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 560000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 871,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/48ee29e8bf08351e05b2f4ed771f42fa-p_c.jpg"
+        }
+      ],
+      "zpid": 82631440,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1260,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1260
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "950 W Peachtree St NW UNIT 910"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/950-W-Peachtree-St-NW-UNIT-910-Atlanta-GA-30309/348197921_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "950 W Peachtree St NW UNIT 910",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7370803",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 310800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1663be08aab6a419f7c302a94235a154-p_c.jpg"
+        }
+      ],
+      "zpid": 348197921,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 866,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 866
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "950 W Peachtree St NW UNIT 1913"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/950-W-Peachtree-St-NW-UNIT-1913-Atlanta-GA-30309/443832301_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "950 W Peachtree St NW UNIT 1913",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10436348",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 304200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/36661fa2b9ce9e31be9c8312b1c3d7cb-p_c.jpg"
+        }
+      ],
+      "zpid": 443832301,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": null,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": null,
+      "providerListingID": "2jcuvea9kff96",
+      "homeType": "CONDO",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "950 W Peachtree St NW UNIT 1910"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/950-W-Peachtree-St-NW-UNIT-1910-Atlanta-GA-30309/444002585_zpid/",
+      "lotAreaValue": 866,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "950 W Peachtree St NW UNIT 1910",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.78006,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 363500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 866,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=33.780059814453125,-84.38811492919922&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=1wSaiPHwtZ_Zqtx6HsCvq56JTlw="
+        }
+      ],
+      "zpid": 444002585,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 866,
+      "longitude": -84.388115,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 866
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.11746031746032,
+      "date": "2025-09-02",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7628281"
+      },
+      "pricePerSquareFoot": 433,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 352000
+    },
+    {
+      "priceChangeRate": -0.030470914127424,
+      "date": "2019-09-06",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1567728000000,
+      "sellerAgent": {
+        "name": "Rodney Hinote",
+        "photo": null,
+        "profileUrl": "/profile/Realtor-Rodney/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/5a56de187a17ad29edf4ffa2bc9930b2-zillow_web_logo_inf_11.jpg",
+        "infoString1": "8626903"
+      },
+      "pricePerSquareFoot": 388,
+      "buyerAgent": {
+        "name": "Alex Smith Meier",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/IS3bd8wyyctf0h0000000000.jpg"
+        },
+        "profileUrl": "/profile/alexsmithmeier/"
+      },
+      "event": "Sold",
+      "price": 315000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-08-06",
+      "source": "Ansley Atlanta Real Estate, LLC",
+      "postingIsRental": false,
+      "time": 1565049600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Ansley Atlanta Real Estate, LLC",
+        "infoString3": null,
+        "infoString1": "6589474"
+      },
+      "pricePerSquareFoot": 400,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 324900
+    },
+    {
+      "priceChangeRate": 0.46351351351351,
+      "date": "2019-07-22",
+      "source": "Ansley Atlanta Real Estate, LLC",
+      "postingIsRental": false,
+      "time": 1563753600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Ansley Atlanta Real Estate, LLC",
+        "infoString3": null,
+        "infoString1": "6589474"
+      },
+      "pricePerSquareFoot": 400,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 324900
+    },
+    {
+      "priceChangeRate": 0.156852527358,
+      "date": "2015-04-01",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1427846400000,
+      "sellerAgent": {
+        "name": "Lauren Zgutowicz",
+        "photo": null,
+        "profileUrl": "/profile/Lauren-Zgutowicz/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 273,
+      "buyerAgent": {
+        "name": "Adam Parker",
+        "photo": null,
+        "profileUrl": "/profile/adamparkerATL/"
+      },
+      "event": "Sold",
+      "price": 222000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-08-22",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1377129600000,
+      "sellerAgent": {
+        "name": "Todd Hale",
+        "photo": null,
+        "profileUrl": "/profile/toddhaleatlanta/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/9d11b0e2284916edd17d456fcd64fedf-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5169688"
+      },
+      "pricePerSquareFoot": 236,
+      "buyerAgent": {
+        "name": "Lauren Zgutowicz",
+        "photo": null,
+        "profileUrl": "/profile/Lauren-Zgutowicz/"
+      },
+      "event": "Sold",
+      "price": 191900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2fd71b7c0767b42e5e032ea6e75fa518-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2086,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Plaza Midtown",
+    "streetAddress": "950 W Peachtree St NW UNIT 802",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "10 days",
+  "priceChange": null,
+  "zestimate": 348900,
+  "zpid": 2083453275,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 202,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Modern faucet",
+            "Sweeping city views",
+            "Generous balcony",
+            "Large resort-inspired pool",
+            "Expansive floor-to-ceiling windows",
+            "Lush green space",
+            "Hand scraped hardwood flooring"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Modern faucet",
+            "Sweeping city views",
+            "Generous balcony",
+            "Large resort-inspired pool",
+            "Expansive floor-to-ceiling windows",
+            "Lush green space",
+            "Hand scraped hardwood flooring"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/950-W-Peachtree-St-NW-UNIT-802-Atlanta-GA-30309/2083453275_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Williams Realty Metro Atlanta"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Keller Williams Realty Metro Atlanta"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Williams Realty Metro Atlanta",
+    "listingAttributionContact": "404-564-5560",
+    "lastUpdated": "2025-09-04 03:41:16",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Alex Smith Meier",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7628281",
+    "coAgentName": "Christine Aiken",
+    "coAgentNumber": "404-735-6027",
+    "infoString5": "404-788-6729",
+    "listingAgents": [
+      {
+        "memberStateLicense": "352594",
+        "memberFullName": "Alex Smith Meier",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "353889",
+        "memberFullName": "Christine Aiken",
+        "associatedAgentType": "coListAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-788-6729",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 37,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "Gunite",
+      "Heated",
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Concrete Perimeter"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$403 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "10 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$433",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Cabinets White",
+          " Kitchen Island",
+          " Stone Counters",
+          " View to Family Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "678-235-0650",
+        "name": null,
+        "fee": "$403 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "810.22 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/950-W-Peachtree-Street-NW-Unit-802-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "812 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": "1031 Exchange,Cash,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$403 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "678-235-0650",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "High Rise (6 or More Stories)",
+    "interiorFeatures": [
+      "Entrance Foyer",
+      "High Ceilings 10 ft Main",
+      "High Speed Internet",
+      "His and Hers Closets",
+      "Recessed Lighting"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Zero Lot Line"
+    ],
+    "roofType": "Concrete,Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 10,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Virginia-Highland",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Windows"
+    ],
+    "constructionMaterials": [
+      "Cement Siding",
+      "Concrete",
+      "Metal Siding"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$403 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Disposal",
+      "Dryer",
+      "Electric Cooktop",
+      "Electric Water Heater",
+      "Refrigerator",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "Community"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "10 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Business Center",
+      "Clubhouse",
+      "Concierge",
+      "Fitness Center",
+      "Gated",
+      "Homeowners Assoc",
+      "Near Public Transport",
+      "Near Shopping",
+      "Pool",
+      "Restaurant",
+      "Sidewalks",
+      "Street Lights"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.propertypanorama.com/950-W-Peachtree-Street-NW-Unit-802-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Sewer Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 010700061024",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 1271,
+    "subdivisionName": "Plaza Midtown",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated Windows",
+      "Window Treatments"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756771200000,
+    "roomTypes": [
+      "Other"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$403 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Sprinkler System",
+      "Key Card Entry",
+      "Secured Garage/Parking",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 417,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": "812",
+    "associations": [
+      {
+        "feeFrequency": "$403 monthly",
+        "name": null,
+        "phone": "678-235-0650"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "220 Volts"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "812",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "None"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "Laundry Closet",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Insurance",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Pest Control",
+      "Receptionist",
+      "Reserve Fund",
+      "Security",
+      "Swim"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 433,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-02",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691922358
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691922358
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691922358
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 15,
+  "livingArea": 812,
+  "zestimateHighPercent": "5",
+  "mlsid": "7628281",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001679557",
+  "country": "USA",
+  "price": 352000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:22.880559+00:00",
+    "zpid": "2083453275",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

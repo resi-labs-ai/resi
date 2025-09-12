@@ -1,0 +1,1755 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.383865,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/c63bacdd36e1bc3b58119b9a1f44cdc7-p_d.jpg",
+  "livingAreaValue": 872,
+  "streetAddress": "1080 Peachtree St NE UNIT 2907",
+  "county": "Fulton County",
+  "monthlyHoaFee": 515,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155889894,
+      "valueIncreaseRate": 0.117266186,
+      "taxIncreaseRate": 0.2188325,
+      "taxPaid": 6485.31,
+      "value": 186360
+    },
+    {
+      "time": 1694533489894,
+      "valueIncreaseRate": 0.08339828,
+      "taxIncreaseRate": -0.1460239,
+      "taxPaid": 5320.92,
+      "value": 166800
+    },
+    {
+      "time": 1662997489894,
+      "valueIncreaseRate": -0.02556962,
+      "taxIncreaseRate": -0.026532019,
+      "taxPaid": 6230.76,
+      "value": 153960
+    },
+    {
+      "time": 1631461489894,
+      "valueIncreaseRate": 0.012042019,
+      "taxIncreaseRate": -0.009714752,
+      "taxPaid": 6400.58,
+      "value": 158000
+    },
+    {
+      "time": 1599925489894,
+      "valueIncreaseRate": 0.04330393,
+      "taxIncreaseRate": 0.16872172,
+      "taxPaid": 6463.37,
+      "value": 156120
+    },
+    {
+      "time": 1568303089894,
+      "valueIncreaseRate": 0.12816647,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5530.29,
+      "value": 149640
+    },
+    {
+      "time": 1536767089894,
+      "valueIncreaseRate": 0.12216582,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5530.29,
+      "value": 132640
+    },
+    {
+      "time": 1505231089894,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.07508067,
+      "taxPaid": 5530.29,
+      "value": 118200
+    },
+    {
+      "time": 1473695089894,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.0034869735,
+      "taxPaid": 5144.07,
+      "value": 118200
+    },
+    {
+      "time": 1442072689894,
+      "valueIncreaseRate": 0.25,
+      "taxIncreaseRate": 0.20399529,
+      "taxPaid": 5162.07,
+      "value": 118200
+    },
+    {
+      "time": 1410536689894,
+      "valueIncreaseRate": 0.11299435,
+      "taxIncreaseRate": 0.14377145,
+      "taxPaid": 4287.45,
+      "value": 94560
+    },
+    {
+      "time": 1379000689894,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.006975132,
+      "taxPaid": 3748.52,
+      "value": 84960
+    },
+    {
+      "time": 1347464689894,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3774.85,
+      "value": 84960
+    },
+    {
+      "time": 1315842289894,
+      "valueIncreaseRate": -0.23514584,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 84960
+    },
+    {
+      "time": 1284306289894,
+      "valueIncreaseRate": 1.3831795,
+      "taxIncreaseRate": 1.0104233,
+      "taxPaid": 4170.06,
+      "value": 111080
+    },
+    {
+      "time": 1252770289894,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2074.22,
+      "value": 46610
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1764,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU13nzcovgl9b0p_8w9nd",
+    "review_count": 7,
+    "display_name": "Jeremy Smith",
+    "profile_url": "https://www.zillow.com/profile/jeremy-smith35/",
+    "business_name": "Engel & Volkers Atlanta",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "861",
+      "areacode": "404",
+      "number": "8734"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/0067bf246502c7af24e4aee7a44f7cc6-h_n.jpg"
+  },
+  "yearBuilt": 2008,
+  "brokerageName": "Engel & Volkers Atlanta",
+  "description": "Experience iconic Midtown living at its finest at 1010 Midtown. Perched high on the 29th floor, this residence showcases the building\u2019s most sought-after one bedroom floor plan. Its expansive, corner-wrapped balcony, finished with green turf, offers breathtaking 270 degree views, overlooking Peachtree Street all the way to Downtown, including the Mercedes Benz Stadium and Tech Square, accumulating in Western horizon sunsets.     A 10 ft floor to-ceiling window front spanning the living, dining, and kitchen areas flood the home with abundant natural light, highlighting the open and inviting layout. Chestnut hardwood floors flow seamlessly throughout and pair beautifully with the cabinetry, granite countertops, and premium Bosch stainless steel appliances. A surprising amount of storage includes a walk-in master closet, additional hallway linen/coat closet, and large kitchen pantry.     This home features recent upgrades such as a HVAC system/water heater as well as a brand new full size washer/dryer. All ceiling can-lights and light fixtures are replaced with dimmable LED lighting sitting flush in the ceiling, elevating the room height even further. Together with the sleek wall-mounted TVs in the living and bedroom area they create a modern contemporary feel.     Residents of 1010 Midtown enjoy unparalleled amenities, including 24-hour concierge service, a state-of-the-art fitness center (one of the best in the city), and the largest residential sky park in Midtown, including large saltwater pool, outdoor kitchen, numerous grill and entertainment areas, and open fire pit and fountain, all on the 8th floor amenity deck with sweeping midtown views. One deeded parking space in the secured residential garage adds convenience to this exceptional home.    Situated in the heart of Midtown\u2019s vibrant art and cultural corridor, you\u2019ll be just steps from Piedmont Park, the Beltline, Atlanta Botanical Gardens, the High Museum and Atlanta Symphonie, Whole Foods, premier dining and entertainment, and the city\u2019s most dynamic business hubs.    Bask in sunlight and skyline views by day; by night, let the glittering city lights create the ultimate backdrop for entertaining or unwinding. Come and see for yourself what life on \u201cThe Curve\u201d offers you.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23999999463558
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1080-peachtree-st-ne-unit-2907-atlanta-ga-30309/134169327_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1080-peachtree-st-ne-unit-2907-atlanta-ga-30309/134169327_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1080-peachtree-st-ne-unit-2907-atlanta-ga-30309/134169327_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 6
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1080-peachtree-st-ne-unit-2907-atlanta-ga-30309/134169327_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1080-peachtree-st-ne-unit-2907-atlanta-ga-30309/134169327_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.783833,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.383865,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 1208",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 805,
+      "lotSize": 827,
+      "zpid": 92191565,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 1208"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-1208-Atlanta-GA-30309/92191565_zpid/",
+      "lotAreaValue": 827.64,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7603260",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.783833,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 805,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fc9c93a1b63a7805991e0cdacaae813b-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 349000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 3303"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-3303-Atlanta-GA-30309/92191574_zpid/",
+      "lotAreaValue": 1507.176,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 3303",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7636217",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783833,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 885000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 1507,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ff4ea5f7799e8df388918d112954401e-p_c.jpg"
+        }
+      ],
+      "zpid": 92191574,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 1505,
+      "longitude": -84.383865,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1505
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 3212"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-3212-Atlanta-GA-30309/92191631_zpid/",
+      "lotAreaValue": 1197.9,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 3212",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7149868",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783833,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 675000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1197,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c87809e03846cc54ab9444ea4508cf27-p_c.jpg"
+        }
+      ],
+      "zpid": 92191631,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1196,
+      "longitude": -84.383865,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1196
+    },
+    {
+      "hdpTypeDimension": "Pending",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.383865,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 2406",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 818,
+      "lotSize": 827,
+      "zpid": 92191858,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 2406"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-2406-Atlanta-GA-30309/92191858_zpid/",
+      "lotAreaValue": 827.64,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7518860",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "PENDING",
+      "latitude": 33.783833,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 818,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ad359bc7a746eba3ca817d3c7eb1d45e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 350000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.383865,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 2710",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1397,
+      "lotSize": 1398,
+      "zpid": 92192063,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 2710"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-2710-Atlanta-GA-30309/92192063_zpid/",
+      "lotAreaValue": 1398.276,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7603288",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.783833,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1397,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/805ac83dde23c47ba0d1b7731fbc4fc9-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 825000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 2006"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-2006-Atlanta-GA-30309/92192156_zpid/",
+      "lotAreaValue": 827.64,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 2006",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7638084",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783833,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 359000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 827,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1eb07dc9fc1fad7a4736869784efece7-p_c.jpg"
+        }
+      ],
+      "zpid": 92192156,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 818,
+      "longitude": -84.383865,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 818
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -84.383865,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE #703",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 0,
+      "lotSize": 1132,
+      "zpid": 92192157,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE #703"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-703-Atlanta-GA-30309/92192157_zpid/",
+      "lotAreaValue": 1132.56,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7618871",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 33.783833,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2008,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 0,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f97d8712810bc777a88447839b26205a-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 845000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE UNIT 1902"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-UNIT-1902-Atlanta-GA-30309/92192415_zpid/",
+      "lotAreaValue": 1393.92,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE UNIT 1902",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7612367",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783833,
+      "homeStatus": "FOR_SALE",
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 775000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "For Sale by Agent",
+      "lotSize": 1393,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a8a4d9d679fadd12abd3d09eca4806bf-p_c.jpg"
+        }
+      ],
+      "zpid": 92192415,
+      "hdpTypeDimension": "ForSale",
+      "livingArea": 1386,
+      "longitude": -84.383865,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1386
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1080 Peachtree St NE"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1080-Peachtree-St-NE-Atlanta-GA-30309/92192581_zpid/",
+      "lotAreaValue": 1385,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1080 Peachtree St NE",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.783833,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 685100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1385,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/6f2da6115301fadcc977355dcbf5e786-p_c.jpg"
+        }
+      ],
+      "zpid": 92192581,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1386,
+      "longitude": -84.383865,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1386
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.090649350649351,
+      "date": "2025-09-11",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "10600050"
+      },
+      "pricePerSquareFoot": 482,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 419900
+    },
+    {
+      "priceChangeRate": 0.35135135135135,
+      "date": "2021-05-20",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1621468800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 442,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 385000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-06-13",
+      "source": "Engel & Vlkers Atlanta",
+      "postingIsRental": true,
+      "time": 1560384000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Engel & Vlkers Atlanta",
+        "infoString3": null,
+        "infoString1": "6540155"
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2350
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-05-18",
+      "source": "Engel & Vlkers Atlanta",
+      "postingIsRental": true,
+      "time": 1558137600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Engel & Vlkers Atlanta",
+        "infoString3": null,
+        "infoString1": "6540155"
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2350
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2013-07-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1375142400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 327,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 284900
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/c63bacdd36e1bc3b58119b9a1f44cdc7-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/9203-Virginia-Highland-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Virginia-Highland Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/35-Inman-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.9,
+      "assigned": null,
+      "name": "David T Howard Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/61-Grady-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.8,
+      "assigned": null,
+      "name": "Midtown High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2409,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "1010 Midtown",
+    "streetAddress": "1080 Peachtree St NE UNIT 2907",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "1 day",
+  "priceChange": null,
+  "zestimate": 399300,
+  "zpid": 92192753,
+  "countyId": 1020,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 77,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive corner-wrapped balcony",
+            "Abundant natural light",
+            "Open and inviting layout",
+            "Chestnut hardwood floors",
+            "Sleek wall-mounted tvs",
+            "Saltwater pool",
+            "Dimmable led lighting"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive corner-wrapped balcony",
+            "Abundant natural light",
+            "Open and inviting layout",
+            "Chestnut hardwood floors",
+            "Sleek wall-mounted tvs",
+            "Saltwater pool",
+            "Dimmable led lighting"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Midtown"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "6",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/1080-Peachtree-St-NE-UNIT-2907-Atlanta-GA-30309/92192753_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Engel & Volkers Atlanta"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Engel & Volkers Atlanta",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 05:04:45",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Jeremy Smith",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7645817",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-861-8734",
+    "listingAgents": [
+      {
+        "memberStateLicense": "350038",
+        "memberFullName": "Jeremy Smith",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-861-8734",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 40,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": true,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "Concrete Perimeter"
+    ],
+    "accessibilityFeatures": [
+      "Accessible Entrance"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 465900,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2008",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$515 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$482",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Other",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Other"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen Island"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": "872",
+    "feesAndDues": [
+      {
+        "phone": "404-685-1385",
+        "name": null,
+        "fee": "$515 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "871.20 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/1080-Peachtree-Street-NE-Unit-2907-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "872 sqft",
+    "commonWalls": "2+ Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$515 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "404-685-1385",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 1,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": "High Rise (6 or More Stories)",
+    "interiorFeatures": [
+      "Entrance Foyer",
+      "High Ceilings 10 ft Main"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": 1,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Zero Lot Line"
+    ],
+    "roofType": "Other",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Virginia-Highland",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Appliances"
+    ],
+    "constructionMaterials": [
+      "Other"
+    ],
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": "$515 monthly",
+    "appliances": [
+      "ENERGY STAR Qualified Appliances"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "1 day",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Clubhouse",
+      "Concierge",
+      "Fitness Center",
+      "Gated",
+      "Homeowners Assoc",
+      "Near Beltline",
+      "Near Public Transport",
+      "Near Shopping",
+      "Pool"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "David T Howard",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://www.propertypanorama.com/1080-Peachtree-Street-NE-Unit-2907-Atlanta-GA-30309/unbranded",
+    "contingency": null,
+    "yearBuilt": 2008,
+    "utilities": [
+      "Underground Utilities"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "17 010600053980",
+    "incomeIncludes": null,
+    "highSchool": "Midtown",
+    "taxAnnualAmount": 6485,
+    "subdivisionName": "1010 Midtown",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated Windows"
+    ],
+    "ownership": "Condominium",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757548800000,
+    "roomTypes": [
+      "Family Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Asphalt"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$515 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Assigned",
+      "Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Carbon Monoxide Detector(s)",
+      "Fire Alarm",
+      "Secured Garage/Parking",
+      "Security Gate",
+      "Security Guard",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": 425,
+    "hasHomeWarranty": false,
+    "basementYN": false,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$515 monthly",
+        "name": null,
+        "phone": "404-685-1385"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "Other"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "None",
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "None"
+    ],
+    "bathrooms": 1,
+    "buildingArea": "872",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": false,
+    "laundryFeatures": [
+      "In Hall"
+    ],
+    "entryLocation": null,
+    "fireplaces": 0,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": [
+      "Door Person",
+      "Insurance",
+      "Maintenance Grounds",
+      "Maintenance Structure",
+      "Reserve Fund",
+      "Security",
+      "Swim"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 482,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.269,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688595101
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.283,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688595101
+    },
+    "arm5Bucket": {
+      "rate": 6.735,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688595101
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 1,
+  "livingArea": 872,
+  "zestimateHighPercent": "6",
+  "mlsid": "7645817",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2739852574",
+  "country": "USA",
+  "price": 419900,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:50.426103+00:00",
+    "zpid": "92192753",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

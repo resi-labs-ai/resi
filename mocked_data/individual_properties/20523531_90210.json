@@ -1,0 +1,1708 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.4299,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f26162f01885cdd9cf982952a73f74cf-p_d.jpg",
+  "livingAreaValue": 10875,
+  "streetAddress": "1350 Benedict Canyon Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 41559,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUz00v1fdntjwp_9mygc",
+    "review_count": 538,
+    "display_name": "Sally Forsterjones",
+    "profile_url": "https://www.zillow.com/profile/Sally-Forster-Jones/",
+    "business_name": "Compass",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "579",
+      "areacode": "310",
+      "number": "2200"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/ae0d1e465cfb377d7159de752b69e797-h_n.jpg"
+  },
+  "yearBuilt": 2000,
+  "brokerageName": "Compass",
+  "description": "Positioned behind privacy gates amidst lush, verdant landscaping is this extensively remodeled Tuscan offering numerous amenities and updates throughout. Enter the motor court to experience beautifully designed and manicured gardens adorning the path to the home's elegant, towering double-door entry. Inside, a lofty double-height foyer is accented by an ornate chandelier and grand circular staircase. The formal living room features French doors and opens to the family room, perfect for entertaining. The updated kitchen is equipped with a large center island with prep sink, ample cabinetry, and state-of-the-art appliances including a Wolf range, Sub-Zero refrigerator, and Miele warming drawers, espresso machine, and dishwasher. A series of French doors in the formal dining room open to Juliet balconies to create a breezy al-fresco feel. The primary suite is expansive, with sitting area, private balcony, fireplace, dual voluminous walk-in closets with built-ins, and sumptuous spa-inspired bath. Secondary bedrooms are also beautiful and well-appointed, some also with private balconies. Other important features include a pajama room, office, wine cellar, theatre, and large lower-level lounge ideal for billiards, piano, and more. With wellness top of mind, there is also a massage room, sauna, and steam shower. The paradisal backyard is reminiscent of summers spent on holiday with a resort-like cabana/outdoor living room, adjacent built-in barbecue, shimmering pool with European lion head water spouts, spa with waterfall, ample lounging patios, and terraced garden. There is also a soothing fountain in the front yard, rounding out this wonderfully peaceful paradise. With its enchanting, secluded feel and close proximity to the city, there is no surprise that so many celebrities choose to call Benedict Canyon home. Welcome! This Four Seasons-inspired home is also available for lease at $45,000/month.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1350-benedict-canyon-dr-beverly-hills-ca-90210/610049288_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1350-benedict-canyon-dr-beverly-hills-ca-90210/610049288_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.40999999642372
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.54000002145767
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.62999999523163
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.76999998092651
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0023000000510365
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.013899999670684
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.025499999523163
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.037300001829863
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.049199998378754
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.061200000345707
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.07320000231266
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1350-benedict-canyon-dr-beverly-hills-ca-90210/610049288_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 21
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1350-benedict-canyon-dr-beverly-hills-ca-90210/610049288_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1350-benedict-canyon-dr-beverly-hills-ca-90210/610049288_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.096336,
+  "nearbyHomes": [
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1336 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1336-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523528_zpid/",
+      "lotAreaValue": 0.35305325987144,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1336 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.096245,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2108900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15379,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1336+Benedict+Canyon+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=xW5IsnU6IiGZ78P0C4tPjpsT0TU="
+        }
+      ],
+      "zpid": 20523528,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2137,
+      "longitude": -118.429596,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2137
+    },
+    {
+      "bathrooms": 3.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1368 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1368-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523529_zpid/",
+      "lotAreaValue": 0.28064738292011,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1368 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.096695,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2706900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12225,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1368+Benedict+Canyon+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=KBVBFBHMaFIt0vCU1v-8iXoEWLQ="
+        }
+      ],
+      "zpid": 20523529,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2169,
+      "longitude": -118.429985,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2169
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1350 Shadybrook Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1350-Shadybrook-Dr-Beverly-Hills-CA-90210/20523751_zpid/",
+      "lotAreaValue": 9583,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1350 Shadybrook Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.09617,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 5487400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9583,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/acaa59dac12f4be1f8f25873a994a4c6-p_c.jpg"
+        }
+      ],
+      "zpid": 20523751,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4500,
+      "longitude": -118.43039,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4500
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1326 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1326-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523525_zpid/",
+      "lotAreaValue": 0.3412,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1326 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "24-430467",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.095856,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3310000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 14862,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/054d096e90a1642eb2955fcd8b552761-p_c.jpg"
+        }
+      ],
+      "zpid": 20523525,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 4372,
+      "longitude": -118.429726,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4372
+    },
+    {
+      "bathrooms": 8,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1400 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1400-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523520_zpid/",
+      "lotAreaValue": 1.0601239669421,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1400 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.096794,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 9453000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 46179,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1400+Benedict+Canyon+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=6IUO4AKexQP3rr0I0Jr2w7-IaPA="
+        }
+      ],
+      "zpid": 20523520,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 16356,
+      "longitude": -118.430214,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 16356
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1340 Shadybrook Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1340-Shadybrook-Dr-Beverly-Hills-CA-90210/20523750_zpid/",
+      "lotAreaValue": 9154,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1340 Shadybrook Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.095894,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2536100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9154,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1340+Shadybrook+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Vzm0QUZOJ_ywQqkQUWoHVSMwy5M="
+        }
+      ],
+      "zpid": 20523750,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2740,
+      "longitude": -118.43032,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2740
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1372 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1372-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523530_zpid/",
+      "lotAreaValue": 1.3399908172635,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1372 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.096687,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3621800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 58370,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1372+Benedict+Canyon+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=mb7roeTpis0yoTd-8XdHdn9zKLU="
+        }
+      ],
+      "zpid": 20523530,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2274,
+      "longitude": -118.42934,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2274
+    },
+    {
+      "bathrooms": 9,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1365 Shadybrook Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1365-Shadybrook-Dr-Beverly-Hills-CA-90210/20523752_zpid/",
+      "lotAreaValue": 0.4273,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1365 Shadybrook Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "23-318795",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.096542,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 7020000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 7,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 18613,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f53e7be85f00722788d2fc7f47bf8e15-p_c.jpg"
+        }
+      ],
+      "zpid": 20523752,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 7402,
+      "longitude": -118.43067,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 7402
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.15384615384615,
+      "date": "2025-08-25",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1756080000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25580703"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 45000
+    },
+    {
+      "priceChangeRate": -0.010005002501251,
+      "date": "2025-08-22",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1755820800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25580699"
+      },
+      "pricePerSquareFoot": 910,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 9895000
+    },
+    {
+      "priceChangeRate": -0.074537037037037,
+      "date": "2025-07-21",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1753056000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25527133"
+      },
+      "pricePerSquareFoot": 919,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 9995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-20",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1752969600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25527129"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 39000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-04-21",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1745193600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25527129"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 39000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-04-15",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1744675200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-486241"
+      },
+      "pricePerSquareFoot": 993,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 10800000
+    },
+    {
+      "priceChangeRate": -0.20408163265306,
+      "date": "2025-03-13",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1741824000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-486259"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 39000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-01-20",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1737331200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-486259"
+      },
+      "pricePerSquareFoot": 5,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 49000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-09-28",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1727481600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-441623"
+      },
+      "pricePerSquareFoot": 993,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 10800000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-09-20",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1726790400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-441623"
+      },
+      "pricePerSquareFoot": 993,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 10800000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-08-23",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1724371200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-410411"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.24050632911392,
+      "date": "2024-07-02",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1719878400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-410417"
+      },
+      "pricePerSquareFoot": 5,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 49000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-06-25",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1719273600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-407491"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.017735334242838,
+      "date": "2024-06-24",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1719187200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-407491"
+      },
+      "pricePerSquareFoot": 993,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 10800000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-04-29",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1714348800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-331347"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.13764705882353,
+      "date": "2023-11-14",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1699920000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-331347"
+      },
+      "pricePerSquareFoot": 1011,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 10995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-10-25",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1698192000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-308857"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-10-07",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1696636800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-308947"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-09-11",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1694390400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-308857"
+      },
+      "pricePerSquareFoot": 1172,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 12750000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-09-07",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1694044800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-308947"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 39500
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f26162f01885cdd9cf982952a73f74cf-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 3,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 3.9,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "1350 Benedict Canyon Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "20 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 20523531,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1089,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Shimmering pool",
+            "Terraced garden",
+            "Wine cellar",
+            "Private balcony",
+            "Spa with waterfall",
+            "Juliet balconies",
+            "Soothing fountain"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Shimmering pool",
+            "Terraced garden",
+            "Wine cellar",
+            "Private balcony",
+            "Spa with waterfall",
+            "Juliet balconies",
+            "Soothing fountain"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 10,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/1350-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20523531_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": "DRE # 01239166",
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      },
+      {
+        "associatedOfficeType": "coListOffice",
+        "officeName": "Christie's International Real Estate SoCal"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-02 10:51:03",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Sally Forster Jones",
+    "attributionTitle": null,
+    "mlsId": "25580699",
+    "coAgentName": "Jordana Leigh",
+    "coAgentNumber": "424-239-8725",
+    "infoString5": "310-579-2200",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 00558939",
+        "memberFullName": "Sally Forster Jones",
+        "associatedAgentType": "listAgent"
+      },
+      {
+        "memberStateLicense": "DRE # 01239166",
+        "memberFullName": "Jordana Leigh",
+        "associatedAgentType": "coListAgent"
+      },
+      {
+        "memberStateLicense": null,
+        "memberFullName": null,
+        "associatedAgentType": "coBuyerAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-579-2200",
+    "agentLicenseNumber": "DRE # 00558939",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-230-5478",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 21,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated And Filtered",
+      "Gas Heat",
+      "In Ground"
+    ],
+    "flooring": [
+      "Wood",
+      "Hardwood",
+      "Travertine",
+      "Mixed",
+      "Ceramic Tile",
+      "Marble"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2000",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Air Conditioning, Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "4 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.39 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "20 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$910",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Pool",
+      "Tree Top",
+      "Courtyard"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.39 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 3,
+    "livingArea": "10,875 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 6,
+    "architecturalStyle": "Tuscan",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Built-Ins",
+      "Elevator"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 4,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 20,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Family Room",
+      "Living Room",
+      "Den"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Barbeque",
+      "Dishwasher",
+      "Freezer",
+      "Disposal",
+      "Microwave",
+      "Range/Oven",
+      "Refrigerator",
+      "Washer",
+      "Dryer",
+      "Vented Exhaust Fan",
+      "Trash Compactor"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "In Ground"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2000,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 10,
+    "parcelNumber": "4356011024",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 114782,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 3,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1755904074000,
+    "roomTypes": [
+      "Bar",
+      "Breakfast Area",
+      "Cabana",
+      "Den",
+      "Dining Area",
+      "Dressing Area",
+      "Family Room",
+      "Formal Entry",
+      "Walk-In Closet",
+      "Walk-In Pantry",
+      "Wine Cellar",
+      "Service Entrance",
+      "Sauna",
+      "Powder",
+      "Home Theatre"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Three Or More",
+    "coveredParkingCapacity": 4,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage - 4+ Car",
+      "Garage Is Attached",
+      "Direct Access"
+    ],
+    "parkingCapacity": 7,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": 3,
+    "securityFeatures": [
+      "Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Air Conditioning",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Other"
+    ],
+    "bathrooms": 10,
+    "buildingArea": "10,875",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 10,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Laundry Area"
+    ],
+    "entryLocation": null,
+    "fireplaces": 6,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 910,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-22",
+  "bedrooms": 6,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691825587
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691825587
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691825587
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 54,
+  "livingArea": 10875,
+  "zestimateHighPercent": null,
+  "mlsid": "25580699",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 9895000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:46.019370+00:00",
+    "zpid": "20523531",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

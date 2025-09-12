@@ -1,0 +1,1886 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.34055,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/2b245c5ac278b675d2029ae75f8781c3-p_d.jpg",
+  "livingAreaValue": 773,
+  "streetAddress": "121 Stewart Street #2204",
+  "county": "King County",
+  "monthlyHoaFee": 950,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726156026580,
+      "valueIncreaseRate": -0.1819407,
+      "taxIncreaseRate": -0.16841084,
+      "taxPaid": 5606.94,
+      "value": 607000
+    },
+    {
+      "time": 1694533626580,
+      "valueIncreaseRate": 0.053977273,
+      "taxIncreaseRate": 0.17457356,
+      "taxPaid": 6742.44,
+      "value": 742000
+    },
+    {
+      "time": 1662997626580,
+      "valueIncreaseRate": -0.05376344,
+      "taxIncreaseRate": -0.12922259,
+      "taxPaid": 5740.33,
+      "value": 704000
+    },
+    {
+      "time": 1631461626580,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6592.19,
+      "value": 744000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 2940,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyx64j37fcvex_5f91c",
+    "review_count": 50,
+    "display_name": "Janet Taing",
+    "profile_url": "https://www.zillow.com/profile/YourBellevueAgent/",
+    "business_name": "Keller Williams Seattle Metro",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "941",
+      "areacode": "425",
+      "number": "1036"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/a810813a9a871e7c433e81626012fb70-h_n.jpg"
+  },
+  "yearBuilt": 2020,
+  "brokerageName": "Keller Williams Seattle Metro",
+  "description": "The Emerald is an exquisite luxury high-rise building, just one block from Pike Place Market and two from the newly transformed Seattle Waterfront. This thoughtfully designed residence features floor-to-ceiling windows with waterfront views, White Oak hardwoods, custom wood cabinets, Carrara marble counter tops, Bosch appliances, a spacious, spa-like bath, full-size washer/dryer, custom shades, and Latch keyless entry. The den/office offers potential as a non-conforming 2nd bedroom. Enjoy premier amenities: 24hr concierge, fitness center, yoga studio, pet run, guest suite, onsite electric carshare, and a stunning indoor/outdoor rooftop lounge with panoramic views of Elliott Bay, Mt. Rainier, and the Olympics that will leave you captivated!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/121-stewart-st-2204-seattle-wa-98101/532811957_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/121-stewart-st-2204-seattle-wa-98101/532811957_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/121-stewart-st-2204-seattle-wa-98101/532811957_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 14
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/121-stewart-st-2204-seattle-wa-98101/532811957_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/121-stewart-st-2204-seattle-wa-98101/532811957_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.61059,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #808"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-808-Seattle-WA-98101/337597125_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #808",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2172088",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61059,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 525000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f896096cfbdfcaf0bc766daa2e2305cd-p_c.jpg"
+        }
+      ],
+      "zpid": 337597125,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 579,
+      "longitude": -122.34055,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 579
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #908",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 579,
+      "lotSize": null,
+      "zpid": 337597129,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #908"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-908-Seattle-WA-98101/337597129_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2377431",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2020,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 579,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d3e7dcf1b87b59268c0ad3e83fce427c-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 510000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St UNIT 1306",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 569,
+      "lotSize": null,
+      "zpid": 337597240,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St UNIT 1306"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-UNIT-1306-Seattle-WA-98101/337597240_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2362656",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 569,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/da5dad8f52ba384214a092319b2ddb76-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 399000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Pending",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #1407",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 758,
+      "lotSize": null,
+      "zpid": 337597245,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #1407"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-1407-Seattle-WA-98101/337597245_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2393608",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "PENDING",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2020,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 758,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9230852eaeedfbe1b23c1cebf9236344-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 659000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #1507",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 758,
+      "lotSize": null,
+      "zpid": 337597252,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #1507"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-1507-Seattle-WA-98101/337597252_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2384470",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 758,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/86abbba3a039289164eefd257f69ef26-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 670000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #2207"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-2207-Seattle-WA-98101/337597285_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #2207",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2200442",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.61059,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1385000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/28fa2fdb1674e1c6f5ce9e24f6ccca73-p_c.jpg"
+        }
+      ],
+      "zpid": 337597285,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1060,
+      "longitude": -122.34055,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1060
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #2807",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1059,
+      "lotSize": null,
+      "zpid": 337597309,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #2807"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-2807-Seattle-WA-98101/337597309_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2369804",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2021,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1059,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bd89ac9f6e3e83cc71576c0d3196e9c0-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1339000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.34055,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "121 Stewart St #3108",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 951,
+      "lotSize": null,
+      "zpid": 337597320,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "121 Stewart St #3108"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/121-Stewart-St-3108-Seattle-WA-98101/337597320_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2289913",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 47.61059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2020,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 951,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/874ce3fdda8891b08a6952eb65ecab79-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 789000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.020979020979021,
+      "date": "2025-09-02",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2411332"
+      },
+      "pricePerSquareFoot": 906,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 700000
+    },
+    {
+      "priceChangeRate": -0.013793103448276,
+      "date": "2025-08-12",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1754956800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2411332"
+      },
+      "pricePerSquareFoot": 925,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 715000
+    },
+    {
+      "priceChangeRate": -0.081115335868188,
+      "date": "2025-07-23",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1753228800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2411332"
+      },
+      "pricePerSquareFoot": 938,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 725000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-07-10",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1720569600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.017857142857143,
+      "date": "2024-06-23",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1719100800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2850
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-07-28",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1690502400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.081967213114754,
+      "date": "2023-07-10",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1688947200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2800
+    },
+    {
+      "priceChangeRate": -0.031746031746032,
+      "date": "2023-06-30",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1688083200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3050
+    },
+    {
+      "priceChangeRate": 0.18867924528302,
+      "date": "2023-06-23",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1687478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 3150
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-11-04",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1667520000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.036363636363636,
+      "date": "2022-10-26",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1666742400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2650
+    },
+    {
+      "priceChangeRate": -0.017857142857143,
+      "date": "2022-10-14",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1665705600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2750
+    },
+    {
+      "priceChangeRate": -0.03448275862069,
+      "date": "2022-09-29",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1664409600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2800
+    },
+    {
+      "priceChangeRate": -0.033333333333333,
+      "date": "2022-09-22",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1663804800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2900
+    },
+    {
+      "priceChangeRate": -0.016393442622951,
+      "date": "2022-09-14",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1663113600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 3000
+    },
+    {
+      "priceChangeRate": 0.15094339622642,
+      "date": "2022-09-03",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1662163200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 3050
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-06-23",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1655942400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-05-31",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1653955200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2650
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-08-13",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1628812800000,
+      "sellerAgent": {
+        "name": "Henry Lee",
+        "photo": null,
+        "profileUrl": "/profile/HenryLee57/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1748628"
+      },
+      "pricePerSquareFoot": 1021,
+      "buyerAgent": {
+        "name": "Janet Taing",
+        "photo": null,
+        "profileUrl": "/profile/YourBellevueAgent/"
+      },
+      "event": "Sold",
+      "price": 789000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/2b245c5ac278b675d2029ae75f8781c3-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3024,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 16:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "Downtown",
+    "streetAddress": "121 Stewart Street #2204",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "50 days",
+  "priceChange": -15000,
+  "zestimate": 692400,
+  "zpid": 337597284,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 251,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "White oak hardwoods",
+            "Spacious spa-like bath",
+            "Carrara marble counter tops",
+            "Latch keyless entry",
+            "Custom shades",
+            "Custom wood cabinets",
+            "Bosch appliances"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "White oak hardwoods",
+            "Spacious spa-like bath",
+            "Carrara marble counter tops",
+            "Latch keyless entry",
+            "Custom shades",
+            "Custom wood cabinets",
+            "Bosch appliances"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "Downtown"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/121-Stewart-St-2204-Seattle-WA-98101/337597284_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Williams Seattle Metro"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Williams Seattle Metro",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 10:55:14",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Janet Taing",
+    "attributionTitle": null,
+    "mlsId": "2411332",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "425-941-1036",
+    "listingAgents": [
+      {
+        "memberStateLicense": "26764",
+        "memberFullName": "Janet Taing",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "425-941-1036",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "206-935-3442",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": "2025-09-02",
+  "photoCount": 40,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 607000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2020",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Heat Pump, Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Heat Pump",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "None",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$950 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "50 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$906",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Bay",
+      "City",
+      "Sound"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DenOffice",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "EntryHall",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithoutEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "UtilityRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "206-706-8000",
+        "name": null,
+        "fee": "$950 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Company: included in HOA dues"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Garbage Disposal",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://media.north47media.com/videos/019839e6-e080-7170-9dab-505bc0458514"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "773 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out,Conventional,FHA,VA Loan",
+    "otherParking": null,
+    "associationFee": "$950 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "206-706-8000",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 1,
+    "architecturalStyle": "Modern",
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Corner Lot",
+      "Curbs",
+      "Paved",
+      "Sidewalk"
+    ],
+    "roofType": "Built-Up",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 50,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Buyer To Verify",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": 2020,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement/Concrete"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$950 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Disposal",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Refrigerator(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)",
+      "Garbage Disposal",
+      "Water Heater: water sourced heat pump",
+      "Water Heater Location: In the wall",
+      "Cooking-Gas",
+      "Dryer-Electric",
+      "Ice Maker",
+      "Washer"
+    ],
+    "sewer": [
+      "Company: included in HOA dues"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": true,
+    "buildingName": "The Emerald",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "52 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Clubhouse",
+      "Elevator",
+      "Fitness Center",
+      "Lobby Entrance",
+      "Rooftop Deck",
+      "See Remarks"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Buyer To Verify",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://media.north47media.com/videos/019839e6-e080-7170-9dab-505bc0458514",
+    "contingency": null,
+    "yearBuilt": 2020,
+    "utilities": [
+      "Comcast/Xfinity",
+      "Comcast/Xfinity"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "2329711500",
+    "incomeIncludes": null,
+    "highSchool": "Buyer To Verify",
+    "taxAnnualAmount": 5607,
+    "subdivisionName": "Downtown",
+    "storiesTotal": 39,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Insulated Windows",
+      "Coverings: Hunter Douglas Shades"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1753142400000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$950 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "None"
+    ],
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security Service"
+    ],
+    "numberOfUnitsInCommunity": 262,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$950 monthly",
+        "name": null,
+        "phone": "206-706-8000"
+      }
+    ],
+    "waterView": "Bay,Sound",
+    "electric": [
+      "Company: Seattle City Light"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Heat Pump"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "773",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Cooking-Gas",
+      "Dryer-Electric",
+      "End Unit",
+      "Ice Maker",
+      "Insulated Windows",
+      "Primary Bathroom",
+      "Sprinkler System",
+      "Walk-In Closet(s)",
+      "Washer",
+      "Water Heater"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": "Main",
+    "fireplaces": 0,
+    "heating": [
+      "Heat Pump",
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Central Hot Water",
+      "Common Area Maintenance",
+      "Concierge",
+      "Earthquake Insurance",
+      "Gas",
+      "Security",
+      "Sewer",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 906,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-07-23",
+  "bedrooms": 1,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.94,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692026611
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.217,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692026611
+    },
+    "arm5Bucket": {
+      "rate": 6.421,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692026611
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 3,
+  "livingArea": 773,
+  "zestimateHighPercent": "5",
+  "mlsid": "2411332",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "2750935088",
+  "country": "USA",
+  "price": 700000,
+  "priceChangeDate": 1756771200000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:47:07.227388+00:00",
+    "zpid": "337597284",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

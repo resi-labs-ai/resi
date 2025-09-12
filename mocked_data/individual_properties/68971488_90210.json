@@ -1,0 +1,1848 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.43941,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/1c54a80c90738817d3b926046a820bba-p_d.jpg",
+  "livingAreaValue": 2400,
+  "streetAddress": "10055 Reevesbury Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155811693,
+      "valueIncreaseRate": 0.019998891,
+      "taxIncreaseRate": 0.019754173,
+      "taxPaid": 16773.59,
+      "value": 1380237
+    },
+    {
+      "time": 1694533411693,
+      "valueIncreaseRate": 0.019999351,
+      "taxIncreaseRate": 0.047305115,
+      "taxPaid": 16448.66,
+      "value": 1353175
+    },
+    {
+      "time": 1662997411693,
+      "valueIncreaseRate": 0.019999523,
+      "taxIncreaseRate": 0.011606724,
+      "taxPaid": 15705.7,
+      "value": 1326643
+    },
+    {
+      "time": 1631461411693,
+      "valueIncreaseRate": 0.010359708,
+      "taxIncreaseRate": -0.006766535,
+      "taxPaid": 15525.5,
+      "value": 1300631
+    },
+    {
+      "time": 1599925411693,
+      "valueIncreaseRate": 0.019999128,
+      "taxIncreaseRate": 0,
+      "taxPaid": 15631.27,
+      "value": 1287295
+    },
+    {
+      "time": 1568303011693,
+      "valueIncreaseRate": 0.019999031,
+      "taxIncreaseRate": 0.045230057,
+      "taxPaid": 15631.27,
+      "value": 1262055
+    },
+    {
+      "time": 1536767011693,
+      "valueIncreaseRate": 0.019999176,
+      "taxIncreaseRate": 0,
+      "taxPaid": 14954.86,
+      "value": 1237310
+    },
+    {
+      "time": 1505231011693,
+      "valueIncreaseRate": 0.01999889,
+      "taxIncreaseRate": 0.022326006,
+      "taxPaid": 14954.86,
+      "value": 1213050
+    },
+    {
+      "time": 1473695011693,
+      "valueIncreaseRate": 0.015249236,
+      "taxIncreaseRate": 0.023285821,
+      "taxPaid": 14628.27,
+      "value": 1189266
+    },
+    {
+      "time": 1442072611693,
+      "valueIncreaseRate": 0.019978963,
+      "taxIncreaseRate": 0.011661928,
+      "taxPaid": 14295.39,
+      "value": 1171403
+    },
+    {
+      "time": 1410536611693,
+      "valueIncreaseRate": 0.024629477,
+      "taxIncreaseRate": 0,
+      "taxPaid": 14130.6,
+      "value": 1148458
+    },
+    {
+      "time": 1347464611693,
+      "valueIncreaseRate": 0.019998617,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1120852
+    },
+    {
+      "time": 1315842211693,
+      "valueIncreaseRate": 0.0075293584,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1098876
+    },
+    {
+      "time": 1284306211693,
+      "valueIncreaseRate": -0.0023708993,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1090664
+    },
+    {
+      "time": 1252770211693,
+      "valueIncreaseRate": 0.019999627,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1093256
+    },
+    {
+      "time": 1221234211693,
+      "valueIncreaseRate": 0.019999923,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1071820
+    },
+    {
+      "time": 1189611811693,
+      "valueIncreaseRate": 0.02,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1050804
+    },
+    {
+      "time": 1158075811693,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1030200
+    },
+    {
+      "time": 1126539811693,
+      "valueIncreaseRate": 0.8292358,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 1030200
+    },
+    {
+      "time": 1095003811693,
+      "valueIncreaseRate": 0.01866821,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 563186
+    },
+    {
+      "time": 1063381411693,
+      "valueIncreaseRate": 0.019999078,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 552865
+    },
+    {
+      "time": 1031845411693,
+      "valueIncreaseRate": 0.040397022,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 542025
+    },
+    {
+      "time": 968773411693,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 520979
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 10899,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUv30zhmjydtl5_7galw",
+    "review_count": 3,
+    "display_name": "Paul Small",
+    "profile_url": "https://www.zillow.com/profile/Paul-Small/",
+    "business_name": "Compass",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "717",
+      "areacode": "310",
+      "number": "8536"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/aa87561690ad36935a9b0370fc769090-h_n.jpg"
+  },
+  "yearBuilt": 1992,
+  "brokerageName": "Compass",
+  "description": "Are you seeking a blend of vibrant city life and restorative canyon living? Then come discover the Canyon Chateau at 10055 Reevesbury Drive, the quintessential Beverly Hills sanctuary where creative inspiration thrives.\r\r\n\r\r\nFrom the street, the home\u2019s imposing fa\u00e7ade exudes timeless European charm; its three levels, partially concealed by mature leafy trees. Inside, the journey begins in a marble-floored entry, leading to a versatile guest room/home office, bathed in natural light, full bath and convenient access to a spacious two-car garage.\r\r\n\r\r\nThe main level invites grand scale living. A great room with expansive west-facing windows framing lush hillside views, a working wood-burning fireplace and an open chef\u2019s kitchen, ideal for entertaining while prepping meals. On this floor, a generous second bedroom with full bath and private courtyard offers a peaceful nook for reflection.\r\r\n\r\r\nAscend to the top level, where the heart of this creative retreat unfolds in a primary suite with soaring ceilings, gas burning fireplace, separate sitting room, and over 1,000/sf of luxurious comfort. Imagine stepping onto a private terra cotta terrace, surrounded by shade trees and vibrant landscaping. And revel in the spa-inspired marble bathroom with jetted tub, glass-enclosed shower, and two walk in closets.\r\r\n\r\r\nLocated on a tranquil, dead-end street, nature enthusiasts will delight in year-round greenery and lively birdsong that enchants during morning and evening strolls. For families with children, the home enrolls to Warner Elementary, or you can tap into the Beverly Hills School system. And being just 3 miles north of Sunset, you are moments from world-class dining, shopping and nightlife options.\r\r\n\r\r\nThe next owner will want it all, canyon stillness and city energy, luxury and laidback. Discover all that and more at the Canyon Chateau where every detail is designed to inspire your daily life",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/10055-reevesbury-dr-beverly-hills-ca-90210/601367929_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/10055-reevesbury-dr-beverly-hills-ca-90210/601367929_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10999999940395
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0027000000700355
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0168999992311
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.032299999147654
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.048799999058247
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.066399998962879
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.084899999201298
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.10440000146627
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/10055-reevesbury-dr-beverly-hills-ca-90210/601367929_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 91,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 19
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "source": {
+          "url": "https://firststreet.org/property/10055-reevesbury-dr-beverly-hills-ca-90210/601367929_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/10055-reevesbury-dr-beverly-hills-ca-90210/601367929_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.11291,
+  "nearbyHomes": [
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10059 W Reevesbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10059-W-Reevesbury-Dr-Beverly-Hills-CA-90210/2078326229_zpid/",
+      "lotAreaValue": 0.66969696969697,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "10059 W Reevesbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.112938,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 29172,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5878a9998ea640fcf6027e8614433cb5-p_c.jpg"
+        }
+      ],
+      "zpid": 2078326229,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.43941,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10079 Westwanda Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10079-Westwanda-Dr-Beverly-Hills-CA-90210/20532852_zpid/",
+      "lotAreaValue": 2475,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "10079 Westwanda Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.112926,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1294100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 2475,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=10079+Westwanda+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=wncNheyEQiMYu9EMIAWfd7m_7IM="
+        }
+      ],
+      "zpid": 20532852,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1577,
+      "longitude": -118.43962,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1577
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.43937,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "10063 Reevesbury Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 1200,
+      "lotSize": 36070,
+      "zpid": 20532849,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10063 Reevesbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/10063-Reevesbury-Dr-Beverly-Hills-CA-90210/20532849_zpid/",
+      "lotAreaValue": 0.82805325987144,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.113155,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1929,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1200,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=10063+Reevesbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=qrMu0CgUZjKcvgcxN_w9mQ9e9XI="
+        }
+      ],
+      "currency": "USD",
+      "price": 1426400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10051 Reevesbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10051-Reevesbury-Dr-Beverly-Hills-CA-90210/20532850_zpid/",
+      "lotAreaValue": 7129,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "10051 Reevesbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.112846,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1435000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7129,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=10051+Reevesbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=YY196ra1FFqnYFxwUcM42OJ37G0="
+        }
+      ],
+      "zpid": 20532850,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1420,
+      "longitude": -118.43905,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1420
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10067 Reevesbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10067-Reevesbury-Dr-Beverly-Hills-CA-90210/20532848_zpid/",
+      "lotAreaValue": 7089,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "10067 Reevesbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.113266,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1780100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7089,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=10067+Reevesbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=QFCvFG1nUDw-O_TItTctPTm7XfI="
+        }
+      ],
+      "zpid": 20532848,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2551,
+      "longitude": -118.439476,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2551
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10082 1/2 Westwanda Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10082-1-2-Westwanda-Dr-Los-Angeles-CA-90210/20532857_zpid/",
+      "lotAreaValue": 6123,
+      "parentRegion": null,
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "streetAddress": "10082 1/2 Westwanda Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.112724,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 673700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6123,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=10082+1%2F2+Westwanda+Dr%2C+Los+Angeles%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=AgyKTzqb3_84IrWX5HSIVH143mg="
+        }
+      ],
+      "zpid": 20532857,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 425,
+      "longitude": -118.439926,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 425
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "10082 Westwanda Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/10082-Westwanda-Dr-Los-Angeles-CA-90210/20532858_zpid/",
+      "lotAreaValue": 5614,
+      "parentRegion": null,
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "streetAddress": "10082 Westwanda Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.112823,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 915000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5614,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5794b9df0a9cc6ec70f7f06e0fa613e2-p_c.jpg"
+        }
+      ],
+      "zpid": 20532858,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1031,
+      "longitude": -118.439964,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1031
+    },
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.439674,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "Kleinart Ln",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": null,
+      "lotSize": 14745,
+      "zpid": 2081718962,
+      "livingAreaUnitsShort": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "bathrooms": 0,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "Kleinart Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/Kleinart-Ln-Beverly-Hills-CA-90210/2081718962_zpid/",
+      "lotAreaValue": 0.33849862258953,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.113323,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "newConstructionType": null,
+      "yearBuilt": null,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": null,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3ff4be566552e308418010c355d95ad3-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 0,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.097391304347826,
+      "date": "2025-09-04",
+      "source": "CRMLS",
+      "postingIsRental": false,
+      "time": 1756944000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CRMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_logo_inf_11.jpg",
+        "infoString1": "SB25175384"
+      },
+      "pricePerSquareFoot": 1081,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2595000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-07",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1749254400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-476027"
+      },
+      "pricePerSquareFoot": 1198,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2875000
+    },
+    {
+      "priceChangeRate": 1.8465346534653,
+      "date": "2025-01-10",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1736467200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-476027"
+      },
+      "pricePerSquareFoot": 1198,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2875000
+    },
+    {
+      "priceChangeRate": 1.0954356846473,
+      "date": "2004-12-08",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1102464000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 421,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 1010000
+    },
+    {
+      "priceChangeRate": -0.090566037735849,
+      "date": "1995-11-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 816566400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 201,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 482000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1995-03-06",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 794448000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 221,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 530000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/1c54a80c90738817d3b926046a820bba-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 3,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 4.1,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 4.8,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 8484,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 14:00:00",
+      "endTime": "2025-09-13 17:00:00"
+    },
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 17:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "10055 Reevesbury Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 68971488,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 587,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gas burning fireplace",
+            "Working wood-burning fireplace",
+            "Mature leafy trees",
+            "Marble-floored entry",
+            "Private courtyard",
+            "Expansive west-facing windows",
+            "Bathed in natural light"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Gas burning fireplace",
+            "Working wood-burning fireplace",
+            "Mature leafy trees",
+            "Marble-floored entry",
+            "Private courtyard",
+            "Expansive west-facing windows",
+            "Bathed in natural light"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/10055-Reevesbury-Dr-Beverly-Hills-CA-90210/68971488_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "mlsName": "CRMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      }
+    ],
+    "infoString10": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": "310-717-8536",
+    "lastUpdated": "2025-09-11 10:51:34",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Paul Small",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "SB25175384",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-230-5478",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE #02074499",
+        "memberFullName": "Paul Small",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-230-5478",
+    "agentLicenseNumber": "DRE #02074499",
+    "providerLogo": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "brokerPhoneNumber": "310-230-5478",
+    "lastChecked": "2025-09-12 08:32:54"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 41,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Carpet",
+      "See Remarks",
+      "Wood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1380237,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1992",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air, Zoned",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "6,770 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "8 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,081",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Hills",
+      "Trees/Woods"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Primary Suite"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bedroom on Main Level"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bathroom Exhaust Fan",
+          "Bathtub",
+          "Closet",
+          "Dual Sinks",
+          "Full Bath on Main Level",
+          "Granite Counters",
+          "Jetted Tub",
+          "Separate Shower",
+          "Vanity"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Foyer",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "GreatRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Granite Counters",
+          "Pots & Pan Drawers"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Barbecue"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 1,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "6,770 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://youtu.be/mbkTz3GvJ5w"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://youtu.be/54UVJYmO0tw"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 3,
+    "livingArea": "2,400 sqft",
+    "commonWalls": "No Common Walls",
+    "listingTerms": "Cash,Cash to New Loan,Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": "Square Feet",
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 3,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "House",
+    "interiorFeatures": [
+      "Wet Bar",
+      "Breakfast Bar",
+      "Balcony",
+      "Central Vacuum",
+      "Separate/Formal Dining Room",
+      "Dumbwaiter",
+      "Granite Counters",
+      "High Ceilings",
+      "Intercom",
+      "Open Floorplan",
+      "Recessed Lighting",
+      "Unfurnished",
+      "Bedroom on Main Level",
+      "Entrance Foyer",
+      "Primary Suite"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "0-1 Unit/Acre"
+    ],
+    "roofType": "Tile",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 8,
+    "listAOR": "California Regional MLS",
+    "buildingAreaSource": null,
+    "elementarySchool": "Warner Avenue",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Concrete",
+      "Stucco"
+    ],
+    "fireplaceFeatures": [
+      "Gas",
+      "Living Room",
+      "Primary Bedroom",
+      "Wood Burning"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Built-In Range",
+      "Dishwasher",
+      "Gas Oven",
+      "Microwave",
+      "Refrigerator",
+      "Trash Compactor",
+      "Dryer",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Stucco Wall",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "155 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Foothills",
+      "Street Lights",
+      "Suburban"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Emerson",
+    "lotSizeDimensions": "6770",
+    "virtualTour": "https://youtu.be/mbkTz3GvJ5w",
+    "contingency": null,
+    "yearBuilt": 1992,
+    "utilities": [
+      "Cable Connected",
+      "Electricity Connected",
+      "Natural Gas Connected",
+      "Phone Connected",
+      "Sewer Connected",
+      "Water Connected",
+      "Overhead Utilities"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "4383025014",
+    "incomeIncludes": null,
+    "highSchool": "University",
+    "taxAnnualAmount": 16774,
+    "subdivisionName": null,
+    "storiesTotal": 3,
+    "storiesDecimal": 3,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Bay Window(s)",
+      "Skylight(s)"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756944000000,
+    "roomTypes": [
+      "Bedroom",
+      "Foyer",
+      "Great Room",
+      "Kitchen",
+      "Living Room",
+      "Primary Bedroom",
+      "Dining Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Paved"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Three Or More",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Direct Access",
+      "Garage Faces Front",
+      "Garage",
+      "Garage Door Opener"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": [
+      "Sliding Doors"
+    ],
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 1,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air",
+      "Zoned"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Intercom"
+    ],
+    "bathrooms": 3,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Open",
+      "Patio",
+      "Terrace"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "Los Angeles Unified",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": "Street",
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1081,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-04",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691811707
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691811707
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691811707
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 17,
+  "livingArea": 2400,
+  "zestimateHighPercent": null,
+  "mlsid": "SB25175384",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 2595000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:32.218185+00:00",
+    "zpid": "68971488",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1734 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Julie Sanchez",
+      "badge_type": "Premier Agent",
+      "business_name": "ROSGO Realty",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "635",
+        "areacode": "956",
+        "number": "7885"
+      },
+      "zuid": "X1-ZUqr0j8bkqpiq1_540hk",
+      "image_url": "https://photos.zillowstatic.com/fp/3677994a961434615f2aeadcee010896-h_g.jpg"
+    }
+  ],
+  "longitude": -99.48889,
+  "countyFIPS": "48479",
+  "imgSrc": "https://photos.zillowstatic.com/fp/0a310dd9965305246c1e63a7eb0148e5-p_d.jpg",
+  "livingAreaValue": 4245,
+  "streetAddress": "331 Saint Julien Dr",
+  "county": "Webb County",
+  "monthlyHoaFee": 42,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155775837,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": 0.057431463,
+      "taxPaid": 3467.36,
+      "value": 552640
+    },
+    {
+      "time": 1694533375837,
+      "valueIncreaseRate": 0.05871395,
+      "taxIncreaseRate": 0.019414954,
+      "taxPaid": 3279.04,
+      "value": 502400
+    },
+    {
+      "time": 1662997375837,
+      "valueIncreaseRate": 0.10000046,
+      "taxIncreaseRate": 0.022181349,
+      "taxPaid": 3216.59,
+      "value": 474538
+    },
+    {
+      "time": 1631461375837,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": 0.0879662,
+      "taxPaid": 3146.79,
+      "value": 431398
+    },
+    {
+      "time": 1599925375837,
+      "valueIncreaseRate": -0.0003823312,
+      "taxIncreaseRate": -0.9900461,
+      "taxPaid": 2892.36,
+      "value": 392180
+    },
+    {
+      "time": 1568302975837,
+      "valueIncreaseRate": -0.008416317,
+      "taxIncreaseRate": 0,
+      "taxPaid": 290577,
+      "value": 392330
+    },
+    {
+      "time": 1536766975837,
+      "valueIncreaseRate": -0.07771562,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 395660
+    },
+    {
+      "time": 1505230975837,
+      "valueIncreaseRate": 0.019196047,
+      "taxIncreaseRate": -0.40060166,
+      "taxPaid": 5962.03,
+      "value": 429000
+    },
+    {
+      "time": 1473694975837,
+      "valueIncreaseRate": 0.021824095,
+      "taxIncreaseRate": 0.034984834,
+      "taxPaid": 9946.69,
+      "value": 420920
+    },
+    {
+      "time": 1442072575837,
+      "valueIncreaseRate": 0.0017752919,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9610.47,
+      "value": 411930
+    },
+    {
+      "time": 1410536575837,
+      "valueIncreaseRate": 0.054250848,
+      "taxIncreaseRate": 0,
+      "taxPaid": 9610.47,
+      "value": 411200
+    },
+    {
+      "time": 1379000575837,
+      "valueIncreaseRate": 0.048776552,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 390040
+    },
+    {
+      "time": 1347464575837,
+      "valueIncreaseRate": 0.0047549577,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 371900
+    },
+    {
+      "time": 1315842175837,
+      "valueIncreaseRate": 0.0757382,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 370140
+    },
+    {
+      "time": 1284306175837,
+      "valueIncreaseRate": -0.024052644,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 344080
+    },
+    {
+      "time": 1252770175837,
+      "valueIncreaseRate": -0.007516257,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 352560
+    },
+    {
+      "time": 1221234175837,
+      "valueIncreaseRate": 0.056446098,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 355230
+    },
+    {
+      "time": 1189611775837,
+      "valueIncreaseRate": 0.020826375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 336250
+    },
+    {
+      "time": 1158075775837,
+      "valueIncreaseRate": 0.0803285,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 329390
+    },
+    {
+      "time": 1126539775837,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 304898
+    },
+    {
+      "time": 1095003775837,
+      "valueIncreaseRate": 5.905331,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 277180
+    },
+    {
+      "time": 1063381375837,
+      "valueIncreaseRate": 0.72645164,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 40140
+    },
+    {
+      "time": 1031845375837,
+      "valueIncreaseRate": 0.09981079,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 23250
+    },
+    {
+      "time": 1000309375837,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 21140
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 3003,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUsa4xynf63si1_17jmc",
+    "review_count": 0,
+    "display_name": "Ninfa Gutierrez",
+    "profile_url": "https://www.zillow.com/profile/puentebee26/",
+    "business_name": "Keller Williams Laredo",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/99d0435cdb4b93b3a3c88599535d9589-h_n.jpg"
+  },
+  "yearBuilt": 2003,
+  "brokerageName": "Keller Williams Laredo",
+  "description": "4 Beds., 4 Full Bath, 2 half baths., Maids\u2019 Quarters, Gorgeous Travertine Floors, Hand-Painted ceiling art Domes & Soaring Ceilings, Chef\u2019s Kitchen with Ample Space, Pool Table & Large TV Room (perfect for a Home Theater), Sprinkler System, Sparkling Pool with Relaxing Palapa. This home blends timeless luxury with modern amenities, ideal for those who love to host, relax, and enjoy the finer things in life.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.56000000238419
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.66000002622604
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.80000001192093
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/331-saint-julien-dr-laredo-tx-78041/4807690610_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 4
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/331-saint-julien-dr-laredo-tx-78041/4807690610_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/331-saint-julien-dr-laredo-tx-78041/4807690610_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 17
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 22
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "source": {
+          "url": "https://firststreet.org/property/331-saint-julien-dr-laredo-tx-78041/4807690610_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/331-saint-julien-dr-laredo-tx-78041/4807690610_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 0
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 27.559464,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "329 Saint Julien Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/329-Saint-Julien-Dr-Laredo-TX-78041/70977678_zpid/",
+      "lotAreaValue": 8886,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "329 Saint Julien Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559273,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 464600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8886,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7b48b52e7aff286063da7dd1d60c3101-p_c.jpg"
+        }
+      ],
+      "zpid": 70977678,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3044,
+      "longitude": -99.48879,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3044
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "410 Beringer Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/410-Beringer-Ct-Laredo-TX-78041/60868483_zpid/",
+      "lotAreaValue": 0.25599173553719,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "410 Beringer Ct",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559412,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 614500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11151,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=410+Beringer+Ct%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=--LWfxNarp4w7sau18Mctpt_w88="
+        }
+      ],
+      "zpid": 60868483,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3414,
+      "longitude": -99.48853,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3414
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "413 Beringer Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/413-Beringer-Ct-Laredo-TX-78041/98291211_zpid/",
+      "lotAreaValue": 0.27649219467401,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "413 Beringer Ct",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559883,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 143324,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Lot",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12044,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=413+Beringer+Ct%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=UGUDCUGX4jlWr0sUMGU0ENwIejA="
+        }
+      ],
+      "zpid": 98291211,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -99.48869,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "LOT",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "330 Saint Julien Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/330-Saint-Julien-Dr-Laredo-TX-78041/60868453_zpid/",
+      "lotAreaValue": 9757,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "330 Saint Julien Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559198,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 513100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9757,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=330+Saint+Julien+Dr%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=PvgqNkeXSHPMNKgkXxgjP2f9uA0="
+        }
+      ],
+      "zpid": 60868453,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3359,
+      "longitude": -99.48934,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3359
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "332 Saint Julien Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/332-Saint-Julien-Dr-Laredo-TX-78041/83220600_zpid/",
+      "lotAreaValue": 8407,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "332 Saint Julien Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559393,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 456200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8407,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=332+Saint+Julien+Dr%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=wpwohNYt5mo0Ru6opfGlVbGRd_I="
+        }
+      ],
+      "zpid": 83220600,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3132,
+      "longitude": -99.48943,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3132
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "415 Beringer Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/415-Beringer-Ct-Laredo-TX-78041/65380773_zpid/",
+      "lotAreaValue": 0.68197887970615,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "415 Beringer Ct",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559984,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 787600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 29707,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=415+Beringer+Ct%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=9tC4-luSdAO0xBUXyDGf7ab-o9M="
+        }
+      ],
+      "zpid": 65380773,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3211,
+      "longitude": -99.48904,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3211
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "408 Beringer Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/408-Beringer-Ct-Laredo-TX-78041/199984182_zpid/",
+      "lotAreaValue": 9016,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "408 Beringer Ct",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.559319,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 506900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9016,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=408+Beringer+Ct%2C+Laredo%2C+TX+78041&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ZyIIulSchIwJxG86bWUKftNleqA="
+        }
+      ],
+      "zpid": 199984182,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3365,
+      "longitude": -99.48828,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3365
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "327 Saint Julien Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/327-Saint-Julien-Dr-Laredo-TX-78041/98300362_zpid/",
+      "lotAreaValue": 0.90309917355372,
+      "parentRegion": null,
+      "address": {
+        "city": "Laredo",
+        "state": "TX",
+        "streetAddress": "327 Saint Julien Dr",
+        "zipcode": "78041"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 27.55898,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1024200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 39339,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ebd94032cbc2f0a2359fe6bd32fab649-p_c.jpg"
+        }
+      ],
+      "zpid": 98300362,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4211,
+      "longitude": -99.48857,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4211
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.013793103448276,
+      "date": "2025-08-18",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1755475200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20253566"
+      },
+      "pricePerSquareFoot": 168,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 715000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-19",
+      "source": "LERA MLS",
+      "postingIsRental": false,
+      "time": 1750291200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LERA MLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/7e213a522d62659a4711a10df6b05515-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1844760"
+      },
+      "pricePerSquareFoot": 171,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 725000
+    },
+    {
+      "priceChangeRate": -0.052287581699346,
+      "date": "2025-04-11",
+      "source": "LERA MLS",
+      "postingIsRental": false,
+      "time": 1744329600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LERA MLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/7e213a522d62659a4711a10df6b05515-zillow_web_logo_inf_11.jpg",
+        "infoString1": "1844760"
+      },
+      "pricePerSquareFoot": 171,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 725000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-02-24",
+      "source": "LAR",
+      "postingIsRental": false,
+      "time": 1740355200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "LAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_logo_inf_11.jpg",
+        "infoString1": "20250858"
+      },
+      "pricePerSquareFoot": 180,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 765000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/0a310dd9965305246c1e63a7eb0148e5-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6747-Nye-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Nye Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6755-United-Middle-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.1,
+      "assigned": null,
+      "name": "United Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/laredo/6760-John-B-Alexander-High-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 3,
+      "assigned": null,
+      "name": "John B Alexander High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 4692,
+  "city": "Laredo",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.64,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Laredo",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "JSJ Estates",
+    "streetAddress": "331 Saint Julien Dr",
+    "zipcode": "78041"
+  },
+  "cityId": 52893,
+  "timeOnZillow": "25 days",
+  "priceChange": null,
+  "zestimate": 695600,
+  "zpid": 65380768,
+  "countyId": 328,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 736,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool",
+            "Travertine floors",
+            "Relaxing palapa",
+            "Soaring ceilings",
+            "Hand-painted ceiling art domes"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool",
+            "Spacious bedrooms",
+            "Relaxing palapa",
+            "Gorgeous travertine floors",
+            "Pool table",
+            "Soaring ceilings",
+            "Large tv room"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "JSJ Estates"
+  },
+  "zipcode": "78041",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/331-Saint-Julien-Dr-Laredo-TX-78041/65380768_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "mlsName": "LAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Keller Williams Laredo"
+      }
+    ],
+    "infoString10": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Keller Williams Laredo",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-07 11:53:03",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Ninfa Gutierrez",
+    "attributionTitle": null,
+    "mlsId": "20253566",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "956-763-2859",
+    "listingAgents": [
+      {
+        "memberStateLicense": null,
+        "memberFullName": "Ninfa Gutierrez",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "956-763-2859",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/90ce798ffe1e4c77da170b60ae760615-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 Laredo Multiple Listing Service. Information is deemed to be reliable but not guaranteed. Information is provided exclusively for consumers personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\n\n",
+    "brokerPhoneNumber": "956-797-7670",
+    "lastChecked": "2025-09-12 07:28:35"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 40,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Swimming Pool"
+    ],
+    "flooring": [
+      "Tile",
+      "Concrete/Cement",
+      "Travertin"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": false,
+    "bodyType": null,
+    "topography": "Level,Rolling",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 575108,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2003",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$500 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "9,270 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "25 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$168",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": "walk-in closet",
+        "roomWidth": null,
+        "roomLevel": "Second",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom1",
+        "roomDescription": "walk-in closet",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom2",
+        "roomDescription": "tile floor",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom3",
+        "roomDescription": "tile floor",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": "tile floor",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "FamilyRoom",
+        "roomDescription": "huge",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Granite Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": "tile floor",
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$500 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Laredo",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony"
+    ],
+    "inclusions": null,
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "9,270 sqft",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "4,245 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,VA Loan",
+    "otherParking": null,
+    "associationFee": "$500 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 4,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "Large Master Bedroom",
+      "Dining Room",
+      "Great Room",
+      "Walk-In Closet(s)",
+      "Maids Quarters",
+      "Ceiling Fan(s)",
+      "Wet Bar"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 0,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Sprinklers In Front",
+      "Sprinklers In Rear",
+      "Corner Lot"
+    ],
+    "roofType": "Tile,15 or More Years",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 25,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": "R-1",
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Stucco"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$500 annually",
+    "appliances": [
+      "Refrigerator",
+      "Microwave",
+      "Cooktop",
+      "Double Oven",
+      "Electric Water Heater"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Fenced,Masonry",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": "Storage",
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2003,
+    "utilities": [
+      "Underground Utilities",
+      "Sewer Connected",
+      "Cable Connected",
+      "Internet Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 4,
+    "parcelNumber": "255952",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 3467,
+    "subdivisionName": "JSJ Estates",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows",
+      "Skylight(s)"
+    ],
+    "ownership": "Owner",
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "UISD",
+    "associationPhone2": null,
+    "onMarketDate": 1755531570000,
+    "roomTypes": [
+      "billiard room with bar",
+      "& TV room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$500 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "No Garage",
+      "Concrete",
+      "Attached Carport"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Palapa"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Alarm System",
+      "Smoke Detector(s)"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$500 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": true,
+    "hasCarport": true,
+    "bathroomsHalf": 2,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "UISD",
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "4,245",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Front",
+      "Side",
+      "Enclosed Porch",
+      "Patio"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": "UISD",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer and Dryer Hookups"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": [
+      "Central Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 168,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-18",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691775851
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691775851
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691775851
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 15,
+  "livingArea": 4245,
+  "zestimateHighPercent": "5",
+  "mlsid": "20253566",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 715000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:42:56.354895+00:00",
+    "zpid": "65380768",
+    "zipcode": "78041",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

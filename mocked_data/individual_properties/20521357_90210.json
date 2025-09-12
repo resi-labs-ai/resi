@@ -1,0 +1,1679 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.41958,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/5ba52228705e5dfb944dc5af89c8c1c5-p_d.jpg",
+  "livingAreaValue": null,
+  "streetAddress": "911 N Roxbury Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155835173,
+      "valueIncreaseRate": 0.019999877,
+      "taxIncreaseRate": 0.018463619,
+      "taxPaid": 85369.16,
+      "value": 7086850
+    },
+    {
+      "time": 1694533435173,
+      "valueIncreaseRate": 0.01999982,
+      "taxIncreaseRate": 0.029523164,
+      "taxPaid": 83821.51,
+      "value": 6947893
+    },
+    {
+      "time": 1662997435173,
+      "valueIncreaseRate": -0.20837747,
+      "taxIncreaseRate": -0.20337656,
+      "taxPaid": 81417.8,
+      "value": 6811661
+    },
+    {
+      "time": 1631461435173,
+      "valueIncreaseRate": 0.010359828,
+      "taxIncreaseRate": 0.0033154038,
+      "taxPaid": 102203.62,
+      "value": 8604683
+    },
+    {
+      "time": 1599925435173,
+      "valueIncreaseRate": 0.019999841,
+      "taxIncreaseRate": 0,
+      "taxPaid": 101865.89,
+      "value": 8516454
+    },
+    {
+      "time": 1568303035173,
+      "valueIncreaseRate": 0.019999873,
+      "taxIncreaseRate": 0.06891302,
+      "taxPaid": 101865.89,
+      "value": 8349466
+    },
+    {
+      "time": 1536767035173,
+      "valueIncreaseRate": 0.01999988,
+      "taxIncreaseRate": 0,
+      "taxPaid": 95298.58,
+      "value": 8185752
+    },
+    {
+      "time": 1505231035173,
+      "valueIncreaseRate": 1.5708476,
+      "taxIncreaseRate": 0.024185045,
+      "taxPaid": 95298.58,
+      "value": 8025248
+    },
+    {
+      "time": 1473695035173,
+      "valueIncreaseRate": 0.015249715,
+      "taxIncreaseRate": 1.5469533,
+      "taxPaid": 93048.2,
+      "value": 3121635
+    },
+    {
+      "time": 1442072635173,
+      "valueIncreaseRate": 0.019979652,
+      "taxIncreaseRate": 0.080296084,
+      "taxPaid": 36533.14,
+      "value": 3074746
+    },
+    {
+      "time": 1410536635173,
+      "valueIncreaseRate": 0.02463042,
+      "taxIncreaseRate": 0,
+      "taxPaid": 33817.71,
+      "value": 3014517
+    },
+    {
+      "time": 1347464635173,
+      "valueIncreaseRate": 0.019999536,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2942053
+    },
+    {
+      "time": 1315842235173,
+      "valueIncreaseRate": 0.0075296625,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2884367
+    },
+    {
+      "time": 1284306235173,
+      "valueIncreaseRate": -0.0023703545,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2862811
+    },
+    {
+      "time": 1252770235173,
+      "valueIncreaseRate": 0.019999666,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2869613
+    },
+    {
+      "time": 1221234235173,
+      "valueIncreaseRate": 0.019999754,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2813347
+    },
+    {
+      "time": 1189611835173,
+      "valueIncreaseRate": 0.019999608,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2758184
+    },
+    {
+      "time": 1158075835173,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2704103
+    },
+    {
+      "time": 1126539835173,
+      "valueIncreaseRate": 0.04039895,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2704103
+    },
+    {
+      "time": 1095003835173,
+      "valueIncreaseRate": 0.018669253,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2599102
+    },
+    {
+      "time": 1063381435173,
+      "valueIncreaseRate": 0.019999681,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2551468
+    },
+    {
+      "time": 1031845435173,
+      "valueIncreaseRate": 0.04039915,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2501440
+    },
+    {
+      "time": 968773435173,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 2404308
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 73479,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 1,
+    "zuid": "X1-ZUxr5aiuhyis5l_35s1y",
+    "review_count": 0,
+    "display_name": "Myra Nourmand",
+    "profile_url": "https://www.zillow.com/profile/Myra-Nourmand/",
+    "business_name": "Nourmand & Associates-BH",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "888",
+      "areacode": "310",
+      "number": "3333"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/2521400866c41c6030691fabaeb8b422-h_n.jpg"
+  },
+  "yearBuilt": null,
+  "brokerageName": "Nourmand & Associates-BH",
+  "description": "On Legendary Roxbury Drive a rare opportunity to build the house of your dreams on one of the most prestigious blocks in Beverly Hills! This vacant lot, just under 24,000 sqft, comes with design plans for a grand scale 25,000sqft Contemporary Estate designed by Gabbay architects. Plans for the home include a sumptuous principal suite with separate his and her bathroom retreats, six additional bedrooms, amenities like a wine cellar, sauna, screening room & massage room. In the basement there is a full kitchen, ballroom with 15ft ceilings, salon, wine room and underground garage for 9 cars. A must-see property on a prime street in the flats with endless history and notoriety. Notable stars have resided on famous Roxbury Drive, Jimmy Stewart, Jack Benny and many more.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/911-n-roxbury-dr-beverly-hills-ca-90210/601421863_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/911-n-roxbury-dr-beverly-hills-ca-90210/601421863_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.070000000298023
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.10999999940395
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.14000000059605
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.20000000298023
+          }
+        ],
+        "insuranceSeparatePolicy": "RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.00039999998989515
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.00069999997504056
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0010999999940395
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0015000000130385
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/911-n-roxbury-dr-beverly-hills-ca-90210/601421863_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 44
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 21
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/911-n-roxbury-dr-beverly-hills-ca-90210/601421863_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/911-n-roxbury-dr-beverly-hills-ca-90210/601421863_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.07917,
+  "nearbyHomes": [
+    {
+      "bathrooms": 8,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "909 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/909-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521356_zpid/",
+      "lotAreaValue": 0.55089531680441,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "909 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.07889,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 10021800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23997,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=909+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=OhbaNcJ0bFIFAw2uFRQWE7nWZxg="
+        }
+      ],
+      "zpid": 20521356,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6313,
+      "longitude": -118.41954,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6313
+    },
+    {
+      "bathrooms": 5.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "913 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/913-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521358_zpid/",
+      "lotAreaValue": 0.52575757575758,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "913 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.079353,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 12234600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22902,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=913+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=2d1-hKlyXsFvIvrpxymVSmzYlQM="
+        }
+      ],
+      "zpid": 20521358,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5645,
+      "longitude": -118.41986,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5645
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "907 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/907-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521355_zpid/",
+      "lotAreaValue": 0.54855371900826,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "907 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.07865,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 12495600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23895,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=907+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=w-u4ROSeK0ZWOvotcSy3UxfWl0I="
+        }
+      ],
+      "zpid": 20521355,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 8394,
+      "longitude": -118.419395,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 8394
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "915 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/915-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521359_zpid/",
+      "lotAreaValue": 0.5102157943067,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "915 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.07958,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 8484300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22225,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=915+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=vI1uXBpHLiBJWZSabktA7zMRILw="
+        }
+      ],
+      "zpid": 20521359,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6081,
+      "longitude": -118.420044,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6081
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "910 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/910-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521347_zpid/",
+      "lotAreaValue": 0.5537,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "910 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.079525,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 16579600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 24119,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5dc61afddbef31087d6ef29ede886395-p_c.jpg"
+        }
+      ],
+      "zpid": 20521347,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 7391,
+      "longitude": -118.41881,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 7391
+    },
+    {
+      "hdpTypeDimension": "NoZestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.41899,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "912 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 1200,
+      "lotSize": 24596,
+      "zpid": 20521346,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "912 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/912-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521346_zpid/",
+      "lotAreaValue": 0.56464646464646,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.079777,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1925,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1200,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5de70df2c52fb9924ab4dd762dbe314f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 11221884,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 9,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "908 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/908-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521348_zpid/",
+      "lotAreaValue": 0.5389577594123,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "908 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.07926,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 18640100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23477,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=908+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=ajKLfxQYM4AfClixWcgLlA5VmjI="
+        }
+      ],
+      "zpid": 20521348,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 8889,
+      "longitude": -118.41864,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 8889
+    },
+    {
+      "bathrooms": 5.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "905 N Roxbury Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/905-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521354_zpid/",
+      "lotAreaValue": 0.52998163452709,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "905 N Roxbury Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.078407,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 10263200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23085,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=905+N+Roxbury+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=oO_H_Vyrp0SX5Fvm6e6XjE8Usgg="
+        }
+      ],
+      "zpid": 20521354,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4663,
+      "longitude": -118.419266,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4663
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.076781002638522,
+      "date": "2025-08-18",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1755475200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25579925"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 17495000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-03-09",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1741478400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-446433"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 18950000
+    },
+    {
+      "priceChangeRate": 0.053070297304807,
+      "date": "2024-10-02",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1727827200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-446433"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 18950000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-09-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1693958400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-254659"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-08",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1691452800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-254659"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 17995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-08-01",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1690848000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-254659"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.050395778364116,
+      "date": "2023-04-19",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1681862400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-254659"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 17995000
+    },
+    {
+      "priceChangeRate": -0.24184836967393,
+      "date": "2023-03-27",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1679875200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "23-254659"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 18950000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-12-23",
+      "source": "Douglas Elliman",
+      "postingIsRental": false,
+      "time": 1671753600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Douglas Elliman",
+        "infoString3": "https://photos.zillowstatic.com/fp/516348e93397d0c5ef994a809e58da18-zillow_web_logo_inf_11.jpg",
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.25006251562891,
+      "date": "2022-10-04",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1664841600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-205542"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 24995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-05-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1651795200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143941"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.091136363636364,
+      "date": "2022-04-07",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1649289600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143941"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 19995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-04-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1649203200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21-112125"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 1.6666666666667,
+      "date": "2021-12-15",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1639526400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "21112125"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 22000000
+    },
+    {
+      "priceChangeRate": 2.75,
+      "date": "2016-05-12",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1463011200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 8250000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1995-06-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 804470400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 2200000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/5ba52228705e5dfb944dc5af89c8c1c5-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1522-El-Rodeo-Elementary-School/",
+      "rating": null,
+      "totalCount": null,
+      "distance": 0.8,
+      "assigned": null,
+      "name": "El Rodeo Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1521-Beverly-Vista-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.8,
+      "assigned": null,
+      "name": "Beverly Vista Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1520-Beverly-Hills-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Beverly Hills High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "911 N Roxbury Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 10389,
+  "timeOnZillow": "24 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 20521357,
+  "countyId": 3101,
+  "homeType": "LOT",
+  "livingAreaUnits": null,
+  "pageViewCount": 928,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": {}
+        }
+      ]
+    }
+  ],
+  "bathrooms": null,
+  "neighborhoodRegion": {
+    "name": "Beverly Hills Gateway"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/911-N-Roxbury-Dr-Beverly-Hills-CA-90210/20521357_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Nourmand & Associates-BH"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:43:14 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Nourmand & Associates-BH",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-25 17:06:04",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Myra Nourmand",
+    "attributionTitle": null,
+    "mlsId": "25579925",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-888-3333",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 00983509",
+        "memberFullName": "Myra Nourmand",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-888-3333",
+    "agentLicenseNumber": "DRE # 00983509",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:43:14 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-274-4000",
+    "lastChecked": "2025-09-12 08:43:14"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 2,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": null,
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": "Flat",
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 7086850,
+    "atAGlanceFacts": null,
+    "offerReviewDate": null,
+    "horseYN": false,
+    "view": [
+      "None"
+    ],
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "In Street"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": [
+      "In Street"
+    ],
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.54 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": null,
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": null,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Lot-Level/Flat"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 24,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": [
+      "In Street"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "95 x 239",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": null,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": null,
+    "parcelNumber": "4345006006",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 85369,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": "Beverly Hills Unified School District",
+    "associationPhone2": null,
+    "onMarketDate": 1755551243000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Curbed",
+      "Sidewalk"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Unimproved Land"
+    ],
+    "hasCooling": null,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": "BHR1*",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "In Street"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "VacantLand",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": null,
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": "Beverly Hills Unified School District",
+    "otherEquipment": null,
+    "bathrooms": null,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": null,
+    "builderName": null,
+    "highSchoolDistrict": "Beverly Hills Unified School District",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": null,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-18",
+  "bedrooms": null,
+  "propertyTypeDimension": "Lot",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691835218
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691835218
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691835218
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 35,
+  "livingArea": null,
+  "zestimateHighPercent": null,
+  "mlsid": "25579925",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 17495000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:55.622668+00:00",
+    "zpid": "20521357",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1773 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 53,
+      "display_name": "Kristine Losh",
+      "badge_type": "Premier Agent",
+      "business_name": "Ewing & Clark, Inc.",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "953",
+        "areacode": "206",
+        "number": "6786"
+      },
+      "zuid": "X1-ZUz7zol8eal349_3fm19",
+      "image_url": "https://photos.zillowstatic.com/fp/03add0fb42f3d1316be0bbd709a12a50-h_g.jpg"
+    }
+  ],
+  "longitude": -122.32924,
+  "countyFIPS": "53033",
+  "imgSrc": "https://photos.zillowstatic.com/fp/5349d475f67f8f7d88c185f1e8dea86c-p_d.jpg",
+  "livingAreaValue": 429,
+  "streetAddress": "1420 Terry Avenue #205",
+  "county": "King County",
+  "monthlyHoaFee": 575,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726156007401,
+      "valueIncreaseRate": -0.070512824,
+      "taxIncreaseRate": -0.054702226,
+      "taxPaid": 2703.06,
+      "value": 290000
+    },
+    {
+      "time": 1694533607401,
+      "valueIncreaseRate": 0.1024735,
+      "taxIncreaseRate": 0.22650245,
+      "taxPaid": 2859.48,
+      "value": 312000
+    },
+    {
+      "time": 1662997607401,
+      "valueIncreaseRate": -0.11285266,
+      "taxIncreaseRate": -0.18148184,
+      "taxPaid": 2331.41,
+      "value": 283000
+    },
+    {
+      "time": 1631461607401,
+      "valueIncreaseRate": 0.05629139,
+      "taxIncreaseRate": 0.0020545677,
+      "taxPaid": 2848.33,
+      "value": 319000
+    },
+    {
+      "time": 1599925607401,
+      "valueIncreaseRate": -0.20942408,
+      "taxIncreaseRate": -0.200418,
+      "taxPaid": 2842.49,
+      "value": 302000
+    },
+    {
+      "time": 1568303207401,
+      "valueIncreaseRate": 0.14714715,
+      "taxIncreaseRate": 0.27636495,
+      "taxPaid": 3554.97,
+      "value": 382000
+    },
+    {
+      "time": 1536767207401,
+      "valueIncreaseRate": 0.13651878,
+      "taxIncreaseRate": -0.014102336,
+      "taxPaid": 2785.23,
+      "value": 333000
+    },
+    {
+      "time": 1505231207401,
+      "valueIncreaseRate": 0.19591837,
+      "taxIncreaseRate": 0.72842133,
+      "taxPaid": 2825.07,
+      "value": 293000
+    },
+    {
+      "time": 1473695207401,
+      "valueIncreaseRate": 0.21287128,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1634.48,
+      "value": 245000
+    },
+    {
+      "time": 1442072807401,
+      "valueIncreaseRate": 0.16091955,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1634.48,
+      "value": 202000
+    },
+    {
+      "time": 1410536807401,
+      "valueIncreaseRate": 0.22535211,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1634.48,
+      "value": 174000
+    },
+    {
+      "time": 1347464807401,
+      "valueIncreaseRate": -0.077922076,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 142000
+    },
+    {
+      "time": 1315842407401,
+      "valueIncreaseRate": -0.19791667,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 154000
+    },
+    {
+      "time": 1284306407401,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 192000
+    },
+    {
+      "time": 1252770407401,
+      "valueIncreaseRate": -0.067961164,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 192000
+    },
+    {
+      "time": 1189612007401,
+      "valueIncreaseRate": 0.57251906,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 206000
+    },
+    {
+      "time": 1158076007401,
+      "valueIncreaseRate": -0.007575758,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 131000
+    },
+    {
+      "time": 1126540007401,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 132000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 987,
+  "state": "WA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUyumeve1jayo9_8uv2w",
+    "review_count": 52,
+    "display_name": "Jennica Lynn",
+    "profile_url": "https://www.zillow.com/profile/jennicarealtor/",
+    "business_name": "Real Broker LLC",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "315",
+      "areacode": "253",
+      "number": "5621"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/58ffbb9d22c5e7e271ea1540916f82a6-h_n.jpg"
+  },
+  "yearBuilt": 2002,
+  "brokerageName": "Real Broker LLC",
+  "description": "Experience the best of city living in this stylish open-concept studio at The Meridian! Thoughtfully designed layout maximizes functionality & comfort for modern living & convenience. This condo includes a secured parking space and a separate storage unit. The Meridian offers an array of amenities: secure access, concierge services, a fitness room, hot tub, steam room, game room, conference and theater rooms, a club room, and a rentable guest suite for your visitors. Located at the heart of it all, between Downtown Seattle, First Hill, & Capitol Hill. A short walk to shopping, dining, the Paramount Theater, and more. Whether you're seeking a city lifestyle now or a smart investment for the future, this is the one. This is a short sale.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1420-terry-ave-unit-205-seattle-wa-98101/531170738_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1420-terry-ave-unit-205-seattle-wa-98101/531170738_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1420-terry-ave-unit-205-seattle-wa-98101/531170738_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 0
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 14
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1420-terry-ave-unit-205-seattle-wa-98101/531170738_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1420-terry-ave-unit-205-seattle-wa-98101/531170738_fsid"
+        },
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 11
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 47.612644,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 1401"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-1401-Seattle-WA-98101/60545095_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 1401",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2198270",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.612644,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 700000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/93a770fd26cea5b09c9e798e58cb74dd-p_c.jpg"
+        }
+      ],
+      "zpid": 60545095,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1103,
+      "longitude": -122.32924,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1103
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 901",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1103,
+      "lotSize": null,
+      "zpid": 61290960,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 901"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-901-Seattle-WA-98101/61290960_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2340772",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.612644,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1103,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e920298e29c51a7abc0a63442f052464-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 675000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 1903",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 750,
+      "lotSize": null,
+      "zpid": 61454840,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 1903"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-1903-Seattle-WA-98101/61454840_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2371752",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.612644,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 750,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8a0d1f82797ddea70838b99a1018a73f-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 483950,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 201",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 620,
+      "lotSize": null,
+      "zpid": 61719169,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 201"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-201-Seattle-WA-98101/61719169_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2395712",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.612644,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 620,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e06ec8e6593750d927944217c82ea3ae-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 379450,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 203"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-203-Seattle-WA-98101/61719171_zpid/",
+      "lotAreaValue": 0.3531,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 203",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2022906",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.612644,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 515000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15381,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2f831fd106090943294e017077e00187-p_c.jpg"
+        }
+      ],
+      "zpid": 61719171,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 794,
+      "longitude": -122.32924,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 794
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 303"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-303-Seattle-WA-98101/61719175_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 303",
+        "zipcode": "98101"
+      },
+      "state": "WA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2008837",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 47.612644,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 399900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3b0d8141440098deea2a03b49c270cbe-p_c.jpg"
+        }
+      ],
+      "zpid": 61719175,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 616,
+      "longitude": -122.32924,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 616
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -122.32924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 408",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 1101,
+      "lotSize": null,
+      "zpid": 61719184,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 408"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-408-Seattle-WA-98101/61719184_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2356162",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.612644,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1101,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/10fb736613d8e93d1704e0990d08a9db-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 675000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -122.32924,
+      "parentRegion": null,
+      "address": {
+        "city": "Seattle",
+        "state": "WA",
+        "streetAddress": "1420 Terry Ave UNIT 603",
+        "zipcode": "98101"
+      },
+      "livingAreaValue": 616,
+      "lotSize": 1,
+      "zpid": 61719194,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "WA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1420 Terry Ave UNIT 603"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1420-Terry-Ave-UNIT-603-Seattle-WA-98101/61719194_zpid/",
+      "lotAreaValue": 1,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "2369176",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 47.612644,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2002,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 616,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/16d74cd5b97cc8a474fe232a25e9ef12-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 384900,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.11320754716981,
+      "date": "2025-08-27",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1756252800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "2425972"
+      },
+      "pricePerSquareFoot": 548,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 235000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-03-19",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1710806400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.047619047619048,
+      "date": "2024-03-10",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1710028800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1500
+    },
+    {
+      "priceChangeRate": -0.045454545454545,
+      "date": "2024-03-05",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1709596800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1575
+    },
+    {
+      "priceChangeRate": -0.057142857142857,
+      "date": "2024-02-27",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1708992000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 1650
+    },
+    {
+      "priceChangeRate": 0.16666666666667,
+      "date": "2024-02-20",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1708387200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 1750
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-03-08",
+      "source": "NWMLS",
+      "postingIsRental": false,
+      "time": 1457395200000,
+      "sellerAgent": {
+        "name": "Jeremey Johnson",
+        "photo": null,
+        "profileUrl": "/profile/Johnsonandwalker/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "NWMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_logo_inf_11.jpg",
+        "infoString1": "889749"
+      },
+      "pricePerSquareFoot": 618,
+      "buyerAgent": {
+        "name": "James Salay",
+        "photo": null,
+        "profileUrl": "/profile/Agent-Salay/"
+      },
+      "event": "Sold",
+      "price": 265000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2016-02-09",
+      "source": "Windermere Real Estate/Northwest, Inc.",
+      "postingIsRental": false,
+      "time": 1454976000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate/Northwest, Inc.",
+        "infoString3": null,
+        "infoString1": "889749"
+      },
+      "pricePerSquareFoot": 618,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 265000
+    },
+    {
+      "priceChangeRate": 0.89285714285714,
+      "date": "2016-02-01",
+      "source": "Windermere Real Estate/Northwest, Inc.",
+      "postingIsRental": false,
+      "time": 1454284800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Windermere Real Estate/Northwest, Inc.",
+        "infoString3": null,
+        "infoString1": "889749"
+      },
+      "pricePerSquareFoot": 618,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 265000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-09-10",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1410307200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1500
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2014-08-11",
+      "source": "Owner",
+      "postingIsRental": true,
+      "time": 1407715200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Owner",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 1500
+    },
+    {
+      "priceChangeRate": 0.27330604820373,
+      "date": "2003-02-28",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1046390400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 326,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 140000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2003-01-09",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1042070400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 256,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 109950
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/5349d475f67f8f7d88c185f1e8dea86c-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1580-Lowell-Elementary-School/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 1,
+      "assigned": null,
+      "name": "Lowell Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/7459-Meany-Middle-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Edmonds S. Meany Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/washington/seattle/1561-Garfield-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Garfield High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 1744,
+  "city": "Seattle",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.82,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Seattle",
+    "state": "WA",
+    "neighborhood": null,
+    "subdivision": "First Hill",
+    "streetAddress": "1420 Terry Avenue #205",
+    "zipcode": "98101"
+  },
+  "cityId": 16037,
+  "timeOnZillow": "16 days",
+  "priceChange": null,
+  "zestimate": 232100,
+  "zpid": 61719172,
+  "countyId": 207,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 588,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Open-concept studio",
+            "Thoughtfully designed layout"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Open-concept studio",
+            "Thoughtfully designed layout"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 1,
+  "neighborhoodRegion": {
+    "name": "First Hill"
+  },
+  "zipcode": "98101",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 59,
+  "url": "/homedetails/1420-Terry-Ave-UNIT-205-Seattle-WA-98101/61719172_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "mlsName": "NWMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Real Broker LLC"
+      }
+    ],
+    "infoString10": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Real Broker LLC",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-08-27 05:05:24",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Jennica Lynn",
+    "attributionTitle": null,
+    "mlsId": "2425972",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "253-315-5621",
+    "listingAgents": [
+      {
+        "memberStateLicense": "26532",
+        "memberFullName": "Jennica Lynn",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "253-315-5621",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/033de87a0051f29108423257c615e0b5-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listing information is provided by the Northwest Multiple Listing Service (NWMLS). Property information is based on available data that may include MLS information, county records, and other sources. Listings marked with this symbol: provided by Northwest Multiple Listing Service, 2025. All information provided is deemed reliable but is not guaranteed and should be independently verified. All properties are subject to prior sale or withdrawal. \u00a9 2025 NWMLS. All rights are reserved. Disclaimer: The information contained in this listing has not been verified by Zillow, Inc. and should be verified by the buyer. Some IDX listings have been excluded from this website. [Click here for more information](/mls-disclaimers/#39)",
+    "brokerPhoneNumber": "855-450-0442",
+    "lastChecked": "2025-09-12 08:39:16"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 25,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Ceramic Tile",
+      "Carpet"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 290000,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2002",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Forced Air, Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Forced Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Garage space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$575 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "16 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$548",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "BathroomFull",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "EntryHall",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "KitchenWithEatingSpace",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": "206-706-8000",
+        "name": null,
+        "fee": "$575 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Seattle",
+    "mainLevelBathrooms": 1,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Company: HOA"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)"
+    ],
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "429 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash Out,Conventional",
+    "otherParking": null,
+    "associationFee": "$575 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": "206-706-8000",
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": null,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "Multi Family",
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Curbs",
+      "Paved",
+      "Sidewalk"
+    ],
+    "roofType": "Flat,Metal",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 16,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Buyer To Verify",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Insulated Windows"
+    ],
+    "constructionMaterials": [
+      "Cement/Concrete"
+    ],
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$575 monthly",
+    "appliances": [
+      "Dishwasher(s)",
+      "Dryer(s)",
+      "Microwave(s)",
+      "Stove(s)/Range(s)",
+      "Washer(s)",
+      "Water Heater: Central"
+    ],
+    "sewer": [
+      "Company: HOA"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "Community"
+    ],
+    "waterViewYN": false,
+    "buildingName": "The Meridian",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "189 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Cable TV",
+      "Clubhouse",
+      "Elevator",
+      "Fitness Center",
+      "Game/Rec Rm",
+      "Gated",
+      "Lobby Entrance"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Buyer To Verify",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2002,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 1,
+    "parcelNumber": "5464100070",
+    "incomeIncludes": null,
+    "highSchool": "Buyer To Verify",
+    "taxAnnualAmount": 2859,
+    "subdivisionName": "First Hill",
+    "storiesTotal": 27,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Short Sale",
+    "windowFeatures": [
+      "Insulated Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1741305600000,
+    "roomTypes": null,
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$575 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Common Garage"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Fire Sprinkler System"
+    ],
+    "numberOfUnitsInCommunity": 161,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$575 monthly",
+        "name": null,
+        "phone": "206-706-8000"
+      }
+    ],
+    "waterView": null,
+    "electric": [
+      "Company: Seattle Electric"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Forced Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 1,
+    "buildingArea": "429",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Insulated Windows",
+      "Sprinkler System",
+      "Water Heater"
+    ],
+    "bathroomsFloat": 1,
+    "builderName": null,
+    "highSchoolDistrict": "Seattle",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": null,
+    "entryLocation": "Main",
+    "fireplaces": 0,
+    "heating": [
+      "Forced Air",
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": false,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Cable TV",
+      "Central Hot Water",
+      "Common Area Maintenance",
+      "Concierge",
+      "Earthquake Insurance",
+      "Sewer",
+      "Water"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 548,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-27",
+  "bedrooms": null,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692007439
+    },
+    "fifteenYearFixedBucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692007439
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757692007439
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 27,
+  "livingArea": 429,
+  "zestimateHighPercent": "5",
+  "mlsid": "2425972",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "1001822163",
+  "country": "USA",
+  "price": 235000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:46:47.929582+00:00",
+    "zpid": "61719172",
+    "zipcode": "98101",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

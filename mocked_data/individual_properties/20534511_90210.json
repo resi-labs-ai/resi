@@ -1,0 +1,1665 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.39817,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f60129c768df7c046a3039905c739713-p_d.jpg",
+  "livingAreaValue": 3919,
+  "streetAddress": "500 Leslie Ln",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155803110,
+      "valueIncreaseRate": 0.019998679,
+      "taxIncreaseRate": 0.01646927,
+      "taxPaid": 6860.71,
+      "value": 524722
+    },
+    {
+      "time": 1694533403110,
+      "valueIncreaseRate": 0.019998096,
+      "taxIncreaseRate": 0.027579,
+      "taxPaid": 6749.55,
+      "value": 514434
+    },
+    {
+      "time": 1662997403110,
+      "valueIncreaseRate": 0.019999636,
+      "taxIncreaseRate": 0.044126246,
+      "taxPaid": 6568.4,
+      "value": 504348
+    },
+    {
+      "time": 1631461403110,
+      "valueIncreaseRate": 0.0103577925,
+      "taxIncreaseRate": 0.0038649752,
+      "taxPaid": 6290.81,
+      "value": 494459
+    },
+    {
+      "time": 1599925403110,
+      "valueIncreaseRate": 0.019998124,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6266.59,
+      "value": 489390
+    },
+    {
+      "time": 1568303003110,
+      "valueIncreaseRate": 0.019998385,
+      "taxIncreaseRate": 0.10000385,
+      "taxPaid": 6266.59,
+      "value": 479795
+    },
+    {
+      "time": 1536767003110,
+      "valueIncreaseRate": 0.019997139,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5696.88,
+      "value": 470388
+    },
+    {
+      "time": 1505231003110,
+      "valueIncreaseRate": 0.019996682,
+      "taxIncreaseRate": 0.0231337,
+      "taxPaid": 5696.88,
+      "value": 461166
+    },
+    {
+      "time": 1473695003110,
+      "valueIncreaseRate": 0.015246949,
+      "taxIncreaseRate": 0.025927888,
+      "taxPaid": 5568.07,
+      "value": 452125
+    },
+    {
+      "time": 1442072603110,
+      "valueIncreaseRate": 0.0199765,
+      "taxIncreaseRate": 0.07343259,
+      "taxPaid": 5427.35,
+      "value": 445335
+    },
+    {
+      "time": 1410536603110,
+      "valueIncreaseRate": 0.024624519,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5056.07,
+      "value": 436613
+    },
+    {
+      "time": 1347464603110,
+      "valueIncreaseRate": 0.01999684,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 426120
+    },
+    {
+      "time": 1315842203110,
+      "valueIncreaseRate": 0.0075269206,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 417766
+    },
+    {
+      "time": 1284306203110,
+      "valueIncreaseRate": -0.0023722965,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 414645
+    },
+    {
+      "time": 1252770203110,
+      "valueIncreaseRate": 0.01999843,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 415631
+    },
+    {
+      "time": 1221234203110,
+      "valueIncreaseRate": 0.019997848,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 407482
+    },
+    {
+      "time": 1189611803110,
+      "valueIncreaseRate": 0.019996885,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 399493
+    },
+    {
+      "time": 1158075803110,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 391661
+    },
+    {
+      "time": 1126539803110,
+      "valueIncreaseRate": 0.040395375,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 391661
+    },
+    {
+      "time": 1095003803110,
+      "valueIncreaseRate": 0.018668398,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 376454
+    },
+    {
+      "time": 1063381403110,
+      "valueIncreaseRate": 0.019996688,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 369555
+    },
+    {
+      "time": 1031845403110,
+      "valueIncreaseRate": 0.040397193,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 362310
+    },
+    {
+      "time": 968773403110,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 348242
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 29379,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU10bn26p6jzci1_73nhn",
+    "review_count": 0,
+    "display_name": "Michael Libow",
+    "profile_url": "https://www.zillow.com/profile/Michael-Libow/",
+    "business_name": "Compass",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "691",
+      "areacode": "310",
+      "number": "7889"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/716debb35286984110fa14ee9a50c19c-h_n.jpg"
+  },
+  "yearBuilt": 1962,
+  "brokerageName": "Compass",
+  "description": "This rare sunlit 1962 Trousdale Estates custom-built one-level and one-owner gated Hawaiian Modern estate is replete with extensive original terrazzo flooring, lava rock, high ceilings, curvature, and southern/southeastern/southwestern vistas. Semi-circular retro entry foyer leads to large living and family rooms opening to the substantial grounds with patios, lawns, pool, spa, BBQ center, and views. Family room features a fabulous step-down \"martini\" bar. Super cool expansive kitchen thematically updated over the years. Generous primary suite opens to the grounds with closets galore, vanity area, and a great bath with sunken terrazzo tub. In addition to the primary, there are 3 other bedroom suites on the western side of the home along with several redone bathrooms. Ample off-street parking with large gated motorcourt and 3-car carport. Sited with authentic curb appeal on a generous street-to-street corner lot and exhibiting a tremendous flat pad, the potential is endless for 500 Leslie Ln to become a gem in this prestigious mid-Trousdale coveted and exclusive 6-home cul-de-sac.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/500-leslie-ln-beverly-hills-ca-90210/601372883_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/500-leslie-ln-beverly-hills-ca-90210/601372883_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00069999997504056
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0043999999761581
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0086000002920628
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.013100000098348
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.01799999922514
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.023399999365211
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.028999999165535
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/500-leslie-ln-beverly-hills-ca-90210/601372883_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 44
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 86,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 16
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "source": {
+          "url": "https://firststreet.org/property/500-leslie-ln-beverly-hills-ca-90210/601372883_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/500-leslie-ln-beverly-hills-ca-90210/601372883_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.102657,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.398506,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "510 Leslie Ln",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 3560,
+      "lotSize": 20068,
+      "zpid": 20534510,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3.5,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "510 Leslie Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/510-Leslie-Ln-Beverly-Hills-CA-90210/20534510_zpid/",
+      "lotAreaValue": 0.46069788797062,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.102703,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1961,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3560,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fe147ed73d96ed3e13bc823904ce0012-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5928600,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.39755,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1510 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 6147,
+      "lotSize": 20908,
+      "zpid": 20534485,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 6,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1510 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1510-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534485_zpid/",
+      "lotAreaValue": 0.47998163452709,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.102562,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1960,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 6147,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1ce214a4d6395fef0f2d93fb95f221fe-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 19398200,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "520 Leslie Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/520-Leslie-Ln-Beverly-Hills-CA-90210/20534509_zpid/",
+      "lotAreaValue": 0.44559228650138,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "520 Leslie Ln",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10274,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 13395800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 19410,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/d1413650dbd9b0a36c25afeb8adb8152-p_c.jpg"
+        }
+      ],
+      "zpid": 20534509,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5788,
+      "longitude": -118.398834,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5788
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1520 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1520-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534486_zpid/",
+      "lotAreaValue": 0.50259412304867,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1520 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.102898,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 4917900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 21893,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1520+Loma+Vista+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=fVYSmd3Ne-VEVSBjyv-FMYAU-IQ="
+        }
+      ],
+      "zpid": 20534486,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3722,
+      "longitude": -118.39754,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3722
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "500 Usher Pl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/500-Usher-Pl-Beverly-Hills-CA-90210/20534578_zpid/",
+      "lotAreaValue": 0.48367768595041,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "500 Usher Pl",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.102104,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 5018200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 21069,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=500+Usher+Pl%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=OhrxijsViNLbN4o-0P8xFFyA7Rg="
+        }
+      ],
+      "zpid": 20534578,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3640,
+      "longitude": -118.39848,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3640
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1500 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1500-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534484_zpid/",
+      "lotAreaValue": 0.52938475665748,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1500 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.102234,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 6370700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23060,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/dfc564f1cd5c94274df8ecd1d05abcfb-p_c.jpg"
+        }
+      ],
+      "zpid": 20534484,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3811,
+      "longitude": -118.39762,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3811
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1535 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1535-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534512_zpid/",
+      "lotAreaValue": 0.51384297520661,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "1535 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.10332,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 6871200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22383,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1535+Loma+Vista+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Q5vKCfMnc4cByO2JPF5RnDzQt_c="
+        }
+      ],
+      "zpid": 20534512,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3758,
+      "longitude": -118.39824,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3758
+    },
+    {
+      "bathrooms": 0,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "460 Trousdale Pl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/460-Trousdale-Pl-Beverly-Hills-CA-90210/20534487_zpid/",
+      "lotAreaValue": 0.54779614325069,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "460 Trousdale Pl",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.103237,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 11957500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 0,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23862,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f36eb88d567691bf2905fe9c180c582e-p_c.jpg"
+        }
+      ],
+      "zpid": 20534487,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 17000,
+      "longitude": -118.39759,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 17000
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.035172413793103,
+      "date": "2025-09-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1757116800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25586789"
+      },
+      "pricePerSquareFoot": 1785,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 6995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-01",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1748736000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-489045"
+      },
+      "pricePerSquareFoot": 1850,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 7250000
+    },
+    {
+      "priceChangeRate": -0.064516129032258,
+      "date": "2025-04-02",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1743552000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-489045"
+      },
+      "pricePerSquareFoot": 1850,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 7250000
+    },
+    {
+      "priceChangeRate": -0.031128891111389,
+      "date": "2025-02-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1738800000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-489045"
+      },
+      "pricePerSquareFoot": 1978,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 7750000
+    },
+    {
+      "priceChangeRate": -0.030424242424242,
+      "date": "2024-09-26",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1727308800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-422811"
+      },
+      "pricePerSquareFoot": 2041,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 7999000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-08-05",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1722816000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-422811"
+      },
+      "pricePerSquareFoot": 2105,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 8250000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f60129c768df7c046a3039905c739713-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1523-Hawthorne-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.7,
+      "assigned": null,
+      "name": "Hawthorne Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1521-Beverly-Vista-Elementary-School/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 2.7,
+      "assigned": null,
+      "name": "Beverly Vista Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/beverly-hills/1520-Beverly-Hills-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 2.9,
+      "assigned": null,
+      "name": "Beverly Hills High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 23947,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 17:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "500 Leslie Ln",
+    "zipcode": "90210"
+  },
+  "cityId": 10389,
+  "timeOnZillow": "5 days",
+  "priceChange": null,
+  "zestimate": 6917800,
+  "zpid": 20534511,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1343,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive kitchen",
+            "Generous primary suite",
+            "Extensive original terrazzo flooring",
+            "High ceilings",
+            "Generous street-to-street corner lot",
+            "Sunken terrazzo tub",
+            "Tremendous flat pad"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Expansive kitchen",
+            "Generous primary suite",
+            "Extensive original terrazzo flooring",
+            "High ceilings",
+            "Generous street-to-street corner lot",
+            "Sunken terrazzo tub",
+            "Tremendous flat pad"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 5,
+  "neighborhoodRegion": {
+    "name": "Trousdale Estates"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/500-Leslie-Ln-Beverly-Hills-CA-90210/20534511_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Compass"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Compass",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 02:51:05",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Michael Libow",
+    "attributionTitle": null,
+    "mlsId": "25586789",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-230-5478",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 00863172",
+        "memberFullName": "Michael Libow",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-230-5478",
+    "agentLicenseNumber": "DRE # 00863172",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-230-5478",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 22,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Private"
+    ],
+    "flooring": [
+      "Terrazzo",
+      "Wood",
+      "Mixed"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 524722,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1962",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Carport spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.52 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "5 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,785",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City Lights",
+      "Tree Top",
+      "Water"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Powder Room"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bar"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.52 Acres",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://mls.kuu.la/share/collection/7DcbJ?fs=1&vr=1&sd=1&initload=0&thumbs=1"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "3,919 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 4,
+    "architecturalStyle": "Mid-Century",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Wet Bar",
+      "Bar",
+      "Built-Ins",
+      "Breakfast Area",
+      "Formal Dining Rm"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Corner Lot"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 5,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Living Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": null,
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "Private"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "109 x 207",
+    "virtualTour": "https://mls.kuu.la/share/collection/7DcbJ?fs=1&vr=1&sd=1&initload=0&thumbs=1",
+    "contingency": null,
+    "yearBuilt": 1962,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 4,
+    "parcelNumber": "4391018019",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 6861,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757185667000,
+    "roomTypes": [
+      "Walk-In Closet",
+      "Service Entrance",
+      "Powder",
+      "Family Room",
+      "Living Room",
+      "Patio Open",
+      "Dining Room",
+      "Breakfast Area",
+      "Bar",
+      "Entry"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": "BHR1*",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Carport",
+      "Side By Side",
+      "Driveway",
+      "Gated",
+      "Attached"
+    ],
+    "parkingCapacity": 6,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "None"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": 3,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": [
+      "French Doors"
+    ],
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": "Water",
+    "electric": null,
+    "buildingFeatures": [
+      "Service Entrance"
+    ],
+    "hasOpenParking": true,
+    "hasCarport": true,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 5,
+    "buildingArea": "3,919",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio"
+    ],
+    "bathroomsFloat": 5,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Laundry Room",
+      "Inside"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 3,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1785,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-06",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690980596
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690980596
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757690980596
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 24,
+  "livingArea": 3919,
+  "zestimateHighPercent": "5",
+  "mlsid": "25586789",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 6995000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:23.627473+00:00",
+    "zpid": "20534511",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

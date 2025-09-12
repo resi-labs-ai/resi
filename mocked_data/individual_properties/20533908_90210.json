@@ -1,0 +1,2044 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.40112,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/4d53a847058b0514d988305f7a5cf70e-p_d.jpg",
+  "livingAreaValue": 3400,
+  "streetAddress": "9495 Gloaming Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1473695012855,
+      "valueIncreaseRate": 0.015249208,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 686677
+    },
+    {
+      "time": 1442072612855,
+      "valueIncreaseRate": 0.019978436,
+      "taxIncreaseRate": 0.010592166,
+      "taxPaid": 8401.71,
+      "value": 676363
+    },
+    {
+      "time": 1410536612855,
+      "valueIncreaseRate": 0.02462854,
+      "taxIncreaseRate": 0,
+      "taxPaid": 8313.65,
+      "value": 663115
+    },
+    {
+      "time": 1347464612855,
+      "valueIncreaseRate": 0.019998834,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 647176
+    },
+    {
+      "time": 1315842212855,
+      "valueIncreaseRate": 0.007528432,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 634487
+    },
+    {
+      "time": 1284306212855,
+      "valueIncreaseRate": -0.0023715114,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 629746
+    },
+    {
+      "time": 1252770212855,
+      "valueIncreaseRate": 0.019999484,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 631243
+    },
+    {
+      "time": 1221234212855,
+      "valueIncreaseRate": 0.019998945,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 618866
+    },
+    {
+      "time": 1189611812855,
+      "valueIncreaseRate": 0.019997075,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 606732
+    },
+    {
+      "time": 1158075812855,
+      "valueIncreaseRate": -0.3111956,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 594837
+    },
+    {
+      "time": 1126539812855,
+      "valueIncreaseRate": 0.04039771,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 863579
+    },
+    {
+      "time": 1095003812855,
+      "valueIncreaseRate": 0.01866881,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 830047
+    },
+    {
+      "time": 1063381412855,
+      "valueIncreaseRate": 0.019998522,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 814835
+    },
+    {
+      "time": 1031845412855,
+      "valueIncreaseRate": 0.04039774,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 798859
+    },
+    {
+      "time": 968773412855,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 767840
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 11760,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUwskixeecbrpl_2599o",
+    "review_count": 0,
+    "display_name": "Thomas Orourke",
+    "profile_url": "https://www.zillow.com/profile/zuser20161126180236824/",
+    "business_name": "Berkshire Hathaway HomeServices California Properties",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "770",
+      "areacode": "310",
+      "number": "0221"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 1956,
+  "brokerageName": "Berkshire Hathaway HomeServices California Properties",
+  "description": "ULTIMATE ONE STORY WITH POOL AND YARD. FIRST SHOWING SEPTEMBER 5TH This mid-century compound sits on just under half an acre on a private road at the end of a quiet cul-de-sac.  The property consists of a 4-bedroom, 3.5 bathroom house plus office with a private entrance, as well as a separate 900 square-feet guest house with living room, bedroom, 1.5 bathrooms, kitchen and music studio.  Both structures have hardwood floors. Originally constructed in 1956, the house was upgraded in 2020, maintaining its open floor plan, including kitchen, bathrooms, plumbing, electrical, windows, doors and HVAC.  Situated behind gates, this wonderfully secluded property boasts a pool, vast gardens and a large covered patio.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/9495-gloaming-dr-beverly-hills-ca-90210/601370417_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/9495-gloaming-dr-beverly-hills-ca-90210/601370417_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00089999998454005
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0054999999701977
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.010400000028312
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.01549999974668
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.020800000056624
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.026300000026822
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.032000001519918
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/9495-gloaming-dr-beverly-hills-ca-90210/601370417_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 92,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 16
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "source": {
+          "url": "https://firststreet.org/property/9495-gloaming-dr-beverly-hills-ca-90210/601370417_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/9495-gloaming-dr-beverly-hills-ca-90210/601370417_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.117085,
+  "nearbyHomes": [
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9495 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9495-Gloaming-Dr-Beverly-Hills-CA-90210/244499723_zpid/",
+      "lotAreaValue": 0.28822314049587,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9495 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11714,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3262600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12555,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9495+Gloaming+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=UMEGYSzguZ9CtyLElJwjBL-a2u0="
+        }
+      ],
+      "zpid": 244499723,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3400,
+      "longitude": -118.4012,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3400
+    },
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9485 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9485-Gloaming-Dr-Beverly-Hills-CA-90210/20533906_zpid/",
+      "lotAreaValue": 0.29543158861341,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9485 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11727,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1630600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12869,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b4cf453feb2e0b14b1d9cd5050ec5356-p_c.jpg"
+        }
+      ],
+      "zpid": 20533906,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1968,
+      "longitude": -118.4009,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1968
+    },
+    {
+      "hdpTypeDimension": "ForRent",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -118.40086,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9484 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 4290,
+      "lotSize": null,
+      "zpid": 20533907,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9484 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9484-Gloaming-Dr-Beverly-Hills-CA-90210/20533907_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "PV25191653",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_RENT",
+      "latitude": 34.11678,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1958,
+      "listingTypeDimension": "For Rent",
+      "livingArea": 4290,
+      "providerListingID": "1dty1ejhn4jwk",
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/2ae298c0d6c3adea15fc53f90db7acf0-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 20000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2398 Gloaming Way"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/2398-Gloaming-Way-Beverly-Hills-CA-90210/20533979_zpid/",
+      "lotAreaValue": 8157,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "2398 Gloaming Way",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.116688,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1601800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8157,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=2398+Gloaming+Way%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=7zB3Xcr5rG757LkS3h-SkWIi1fY="
+        }
+      ],
+      "zpid": 20533979,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1952,
+      "longitude": -118.40125,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1952
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9477 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9477-Gloaming-Dr-Beverly-Hills-CA-90210/20533905_zpid/",
+      "lotAreaValue": 0.5866391184573,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9477 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.117462,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2596200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 25554,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fed39e0cef7d86a393dccb76dddc012e-p_c.jpg"
+        }
+      ],
+      "zpid": 20533905,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3089,
+      "longitude": -118.40057,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "33styv8c8mzu",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3089
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.40187,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9509 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 4900,
+      "lotSize": 17746,
+      "zpid": 20533942,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 5,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9509 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9509-Gloaming-Dr-Beverly-Hills-CA-90210/20533942_zpid/",
+      "lotAreaValue": 0.40739210284665,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.116966,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1954,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4900,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/83a4d30081e134bc8e69e8ffbac4ed7d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 5295700,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9508 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9508-Gloaming-Dr-Beverly-Hills-CA-90210/20533952_zpid/",
+      "lotAreaValue": 0.25886134067952,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9508 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.116615,
+      "homeStatus": "RECENTLY_SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2975000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 11276,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/89784eca20843a6ff6f97ff761204bdc-p_c.jpg"
+        }
+      ],
+      "zpid": 20533952,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1641,
+      "longitude": -118.40171,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1641
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9523 Gloaming Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9523-Gloaming-Dr-Beverly-Hills-CA-90210/20533941_zpid/",
+      "lotAreaValue": 0.38994490358127,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9523 Gloaming Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.116993,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2653600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16986,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9523+Gloaming+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=whrSJHyW-f7b73Kx1UX5QRwUq-s="
+        }
+      ],
+      "zpid": 20533941,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3322,
+      "longitude": -118.40226,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3322
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-03",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1756857600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25586909"
+      },
+      "pricePerSquareFoot": 824,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2800000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-09-02",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1756771200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25522129"
+      },
+      "pricePerSquareFoot": 824,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2800000
+    },
+    {
+      "priceChangeRate": 3.1736227045075,
+      "date": "2025-07-04",
+      "source": "CLAW",
+      "postingIsRental": true,
+      "time": 1751587200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25560689"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 12500
+    },
+    {
+      "priceChangeRate": -0.065108514190317,
+      "date": "2025-07-01",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1751328000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25522129"
+      },
+      "pricePerSquareFoot": 824,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2800000
+    },
+    {
+      "priceChangeRate": -0.092424242424242,
+      "date": "2025-05-08",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1746662400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25522129"
+      },
+      "pricePerSquareFoot": 881,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2995000
+    },
+    {
+      "priceChangeRate": 0.03125,
+      "date": "2025-04-08",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1744070400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25522129"
+      },
+      "pricePerSquareFoot": 971,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3300000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-11-21",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1668988800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-215429"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0.084745762711864,
+      "date": "2022-11-04",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1667520000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-215429"
+      },
+      "pricePerSquareFoot": 941,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 3200000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-10-24",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1666569600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": -0.25125,
+      "date": "2022-10-19",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1666137600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2995
+    },
+    {
+      "priceChangeRate": -0.59183673469388,
+      "date": "2022-09-21",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1663718400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 4000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-12-20",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": true,
+      "time": 1608422400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20648236"
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 9800
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-12-18",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1608249600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 868,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2950000
+    },
+    {
+      "priceChangeRate": -0.18333333333333,
+      "date": "2020-12-11",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": true,
+      "time": 1607644800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20648236"
+      },
+      "pricePerSquareFoot": 3,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 9800
+    },
+    {
+      "priceChangeRate": 0.10486891385768,
+      "date": "2020-12-09",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1607472000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 868,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2950000
+    },
+    {
+      "priceChangeRate": -0.0018691588785047,
+      "date": "2020-11-29",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1606608000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 785,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2670000
+    },
+    {
+      "priceChangeRate": 0.028846153846154,
+      "date": "2020-11-27",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1606435200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 787,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2675000
+    },
+    {
+      "priceChangeRate": -0.018867924528302,
+      "date": "2020-11-22",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1606003200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 765,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2600000
+    },
+    {
+      "priceChangeRate": -0.0018832391713748,
+      "date": "2020-11-20",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1605830400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 779,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2650000
+    },
+    {
+      "priceChangeRate": -0.0018796992481203,
+      "date": "2020-11-15",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1605398400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 781,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2655000
+    },
+    {
+      "priceChangeRate": 0.0037735849056604,
+      "date": "2020-11-12",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1605139200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 782,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2660000
+    },
+    {
+      "priceChangeRate": -0.014869888475836,
+      "date": "2020-11-06",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1604620800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 779,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2650000
+    },
+    {
+      "priceChangeRate": -0.0037037037037037,
+      "date": "2020-10-29",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1603929600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 791,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2690000
+    },
+    {
+      "priceChangeRate": 0.42105263157895,
+      "date": "2020-10-23",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1603411200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20637476"
+      },
+      "pricePerSquareFoot": 794,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2700000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2020-10-17",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": true,
+      "time": 1602892800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "20648236"
+      },
+      "pricePerSquareFoot": 4,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 12000
+    },
+    {
+      "priceChangeRate": 1.7536231884058,
+      "date": "2018-01-30",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1517270400000,
+      "sellerAgent": {
+        "name": "Jill Epstein",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISxbze7nbek5450000000000.jpg"
+        },
+        "profileUrl": "/profile/jillepstein/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "17288046"
+      },
+      "pricePerSquareFoot": 559,
+      "buyerAgent": {
+        "name": "Thomas Orourke",
+        "photo": null,
+        "profileUrl": "/profile/zuser20161126180236824/"
+      },
+      "event": "Sold",
+      "price": 1900000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1998-03-03",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 888883200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 203,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 690000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/4d53a847058b0514d988305f7a5cf70e-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/west-hollywood/2468-West-Hollywood-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 2.1,
+      "assigned": null,
+      "name": "West Hollywood Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 4.8,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 6,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 4471,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "9495 Gloaming Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": null,
+  "zpid": 20533908,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 486,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Quiet cul-de-sac",
+            "Private road",
+            "Open floor plan",
+            "Large covered patio",
+            "Hardwood floors",
+            "Vast gardens"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Quiet cul-de-sac",
+            "Private road",
+            "Open floor plan",
+            "Large covered patio",
+            "Hardwood floors",
+            "Vast gardens"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 6,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": null,
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/9495-Gloaming-Dr-Beverly-Hills-CA-90210/20533908_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Berkshire Hathaway HomeServices California Properties"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Berkshire Hathaway HomeServices California Properties",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-03 07:31:16",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Thomas O'Rourke",
+    "attributionTitle": null,
+    "mlsId": "25586909",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-770-0221",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 00931753",
+        "memberFullName": "Thomas O'Rourke",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-770-0221",
+    "agentLicenseNumber": "DRE # 00931753",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-777-7800",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 47,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "In Ground",
+      "Heated And Filtered"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Other"
+    ],
+    "foundationDetails": [
+      "Concrete Perimeter",
+      "FHA Approved"
+    ],
+    "accessibilityFeatures": [
+      "Accessible Doors",
+      "Accessible Hallway(s)",
+      "Handicap Access",
+      "Doors - Swing In"
+    ],
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 686677,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1956",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.40 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "8 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$824",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": false,
+    "view": [
+      "Canyon",
+      "Tree Top",
+      "Trees/Woods",
+      "Pool",
+      "Park/Greenbelt"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Shower and Tub",
+          "Shower Stall",
+          "Remodeled",
+          "Powder Room",
+          "Low Flow Toilet(s)",
+          "Low Flow Shower(s)",
+          "Tile"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Gourmet Kitchen",
+          "Open to Family Room",
+          "Stone Counters",
+          "Remodeled"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "In Street",
+      "Meter on Property",
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": "Updated/Remodeled",
+    "elevationUnits": null,
+    "exclusions": [
+      "book case"
+    ],
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.40 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": "3,400 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 5,
+    "architecturalStyle": "Ranch",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Built-in Features",
+      "Open Floorplan",
+      "Family Kitchen",
+      "Breakfast Area",
+      "Kitchen Island"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Landscaped",
+      "Gutters",
+      "2-4 Lots",
+      "Hillside",
+      "Cul-De-Sac",
+      "Canyon"
+    ],
+    "roofType": "Asphalt",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 8,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Stucco",
+      "Drywall Walls"
+    ],
+    "fireplaceFeatures": [
+      "Gas Starter",
+      "Other"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Gas Cooking Appliances",
+      "Gas Cooktop",
+      "Gas Oven",
+      "Dishwasher",
+      "Dryer",
+      "Refrigerator",
+      "Range/Oven",
+      "Tankless Water Heater",
+      "MultiTank Water Heater",
+      "Gas Water Heater"
+    ],
+    "sewer": [
+      "In Street Paid"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Cedar Fence,Chain Link,Fenced",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": "130 x 160",
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 1956,
+    "utilities": [
+      "Cable Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 3,
+    "parcelNumber": "4388001011",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 32480,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": "Standard",
+    "windowFeatures": [
+      "Double Pane Windows",
+      "Screens"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756935339000,
+    "roomTypes": [
+      "Living Room",
+      "Breakfast Bar",
+      "Art Studio",
+      "Powder",
+      "Patio Covered",
+      "Center Hall",
+      "Dining Area",
+      "Den",
+      "Walk-In Closet",
+      "Media Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": "LARE40",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage - 2 Car",
+      "Driveway"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Guest House",
+      "Detached Guest House"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": 1,
+    "securityFeatures": [
+      "Gated"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": [
+      "Insulated Doors",
+      "Sliding Doors"
+    ],
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "220 Volt Location (Other/See Remarks)"
+    ],
+    "buildingFeatures": [
+      "Partial Copper Plumbing",
+      "Two On A Lot",
+      "Sprinkler System"
+    ],
+    "hasOpenParking": true,
+    "hasCarport": false,
+    "bathroomsHalf": 2,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 1,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 6,
+    "buildingArea": "3,400",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered Porch",
+      "Patio"
+    ],
+    "bathroomsFloat": 6,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Inside"
+    ],
+    "entryLocation": "Ground Level w/steps",
+    "fireplaces": 1,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 824,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-03",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.325,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757680973144
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.154,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757680973144
+    },
+    "arm5Bucket": {
+      "rate": 6.213,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757680973144
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 17,
+  "livingArea": 3400,
+  "zestimateHighPercent": null,
+  "mlsid": "25586909",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 2800000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:33.497309+00:00",
+    "zpid": "20533908",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

@@ -1,0 +1,1648 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.77045,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/8f225bb2661cff8f5411650685b90c85-p_d.jpg",
+  "livingAreaValue": 3916,
+  "streetAddress": "5015 Bridge Creek Ln",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 100,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155951731,
+      "valueIncreaseRate": 0.099999346,
+      "taxIncreaseRate": 0.10149487,
+      "taxPaid": 9106.19,
+      "value": 670993
+    },
+    {
+      "time": 1694533551731,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.089032575,
+      "taxPaid": 8267.12,
+      "value": 609994
+    },
+    {
+      "time": 1662997551731,
+      "valueIncreaseRate": 0.09999405,
+      "taxIncreaseRate": 0.048849855,
+      "taxPaid": 9075.1,
+      "value": 554540
+    },
+    {
+      "time": 1631461551731,
+      "valueIncreaseRate": 0.069159314,
+      "taxIncreaseRate": 0.051140316,
+      "taxPaid": 8652.43,
+      "value": 504130
+    },
+    {
+      "time": 1599925551731,
+      "valueIncreaseRate": -0.011053084,
+      "taxIncreaseRate": -0.04902263,
+      "taxPaid": 8231.47,
+      "value": 471520
+    },
+    {
+      "time": 1568303151731,
+      "valueIncreaseRate": -0.010110866,
+      "taxIncreaseRate": -0.035635367,
+      "taxPaid": 8655.8,
+      "value": 476790
+    },
+    {
+      "time": 1536767151731,
+      "valueIncreaseRate": 0.021591583,
+      "taxIncreaseRate": -0.21470541,
+      "taxPaid": 8975.65,
+      "value": 481660
+    },
+    {
+      "time": 1505231151731,
+      "valueIncreaseRate": 0.03483242,
+      "taxIncreaseRate": 0,
+      "taxPaid": 11429.66,
+      "value": 471480
+    },
+    {
+      "time": 1473695151731,
+      "valueIncreaseRate": 0.013029461,
+      "taxIncreaseRate": 0.34839863,
+      "taxPaid": 11429.66,
+      "value": 455610
+    },
+    {
+      "time": 1442072751731,
+      "valueIncreaseRate": 0.0950549,
+      "taxIncreaseRate": 0.0652873,
+      "taxPaid": 8476.47,
+      "value": 449750
+    },
+    {
+      "time": 1410536751731,
+      "valueIncreaseRate": -0.061105523,
+      "taxIncreaseRate": 0,
+      "taxPaid": 7956.98,
+      "value": 410710
+    },
+    {
+      "time": 1379000751731,
+      "valueIncreaseRate": 0.060949285,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 437440
+    },
+    {
+      "time": 1347464751731,
+      "valueIncreaseRate": 0.099992,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 412310
+    },
+    {
+      "time": 1315842351731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 374830
+    },
+    {
+      "time": 1284306351731,
+      "valueIncreaseRate": -0.0097223325,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 374830
+    },
+    {
+      "time": 1252770351731,
+      "valueIncreaseRate": 0.06117357,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 378510
+    },
+    {
+      "time": 1221234351731,
+      "valueIncreaseRate": 0.08469164,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 356690
+    },
+    {
+      "time": 1189611951731,
+      "valueIncreaseRate": 0.03405553,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 328840
+    },
+    {
+      "time": 1158075951731,
+      "valueIncreaseRate": -0.115139544,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 318010
+    },
+    {
+      "time": 1126539951731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 359390
+    },
+    {
+      "time": 1095003951731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 359390
+    },
+    {
+      "time": 1063381551731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    },
+    {
+      "time": 1031845551731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    },
+    {
+      "time": 1000309551731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    },
+    {
+      "time": 968773551731,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": null
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 3885,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU179l22iv2inex_8l13l",
+    "review_count": 0,
+    "display_name": "Stefany Hennigan",
+    "profile_url": "https://www.zillow.com/profile/StefanyHennigan13/",
+    "business_name": "CB&A, Realtors-Katy",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "381",
+      "areacode": "281",
+      "number": "2353"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/356a2367324a91adee09e05fc460c192-h_n.jpg"
+  },
+  "yearBuilt": 1999,
+  "brokerageName": "CB&A, Realtors-Katy",
+  "description": "Just updated with fresh interior paint on walls and select cabinets, plus brand new carpet throughout! Welcome to this beautifully upgraded 5-bedroom, 5-bath home in the exclusive half-acre enclave of Grand Lakes\u2014zoned to top-rated KATY ISD. Designed for both everyday luxury and unforgettable entertaining, this home features a resort-style backyard with a sparkling pool, covered patio, cabana with a full outdoor kitchen, and even a private outdoor bath/shower\u2014plus plenty of green space for play.  Inside, you\u2019ll find a gourmet island kitchen with stone countertops and a butler\u2019s pantry, formal dining and breakfast rooms, and two flexible office or bonus spaces. The spacious upstairs game room and serene primary suite offer the perfect retreat. Additional upgrades include an extended driveway, 3-car garage, attic storage, and abundant natural light throughout.\r\n\r\nThis is a rare opportunity to own a meticulously cared-for home in one of Katy\u2019s most desirable neighborhoods. Come see today!",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.20000000298023
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.74000000953674
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.91000002622604
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.97000002861023
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/5015-bridge-creek-ln-katy-tx-77494/4800888599_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/5015-bridge-creek-ln-katy-tx-77494/4800888599_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.14000000059605
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.23999999463558
+          }
+        ],
+        "insuranceSeparatePolicy": "RECOMMENDED",
+        "historicCountPropertyAll": 1
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/5015-bridge-creek-ln-katy-tx-77494/4800888599_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/5015-bridge-creek-ln-katy-tx-77494/4800888599_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/5015-bridge-creek-ln-katy-tx-77494/4800888599_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.719543,
+  "nearbyHomes": [
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5011 Bridge Creek Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5011-Bridge-Creek-Ln-Katy-TX-77494/50210643_zpid/",
+      "lotAreaValue": 0.51499081726354,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "5011 Bridge Creek Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.719881,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 759300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22433,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=5011+Bridge+Creek+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=VdKeKTJ9NAtmiiYVmHdTC1CgcBw="
+        }
+      ],
+      "zpid": 50210643,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4390,
+      "longitude": -95.77048,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4390
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "22522 Country Cove Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/22522-Country-Cove-Ln-Katy-TX-77494/50210641_zpid/",
+      "lotAreaValue": 0.47669880624426,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "22522 Country Cove Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.719124,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 635000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 20765,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f7a69a2019ca5ffc68b3e1f8845eb7b1-p_c.jpg"
+        }
+      ],
+      "zpid": 50210641,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3158,
+      "longitude": -95.77053,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3158
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.76996,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "22523 Wolfs Meadow Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 4123,
+      "lotSize": 25338,
+      "zpid": 50210634,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "22523 Wolfs Meadow Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/22523-Wolfs-Meadow-Ln-Katy-TX-77494/50210634_zpid/",
+      "lotAreaValue": 0.58168044077135,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.719603,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1998,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4123,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/b06be7023bef282f9a5f2adc23cb9b72-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 836500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "22518 Country Cove Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/22518-Country-Cove-Ln-Katy-TX-77494/50210640_zpid/",
+      "lotAreaValue": 0.472681359045,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "22518 Country Cove Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.719116,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 763000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 20590,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fcc348b17f3aa973d59c8dcdb1f4f480-p_c.jpg"
+        }
+      ],
+      "zpid": 50210640,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4206,
+      "longitude": -95.770134,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4206
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5010 Bridge Creek Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5010-Bridge-Creek-Ln-Katy-TX-77494/50210653_zpid/",
+      "lotAreaValue": 0.54235537190083,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "5010 Bridge Creek Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.71968,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 761700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23625,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=5010+Bridge+Creek+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=NMC2-sZ4P7tgistDWmxoHbPGMRY="
+        }
+      ],
+      "zpid": 50210653,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3849,
+      "longitude": -95.77119,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3849
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5014 Bridge Creek Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5014-Bridge-Creek-Ln-Katy-TX-77494/50210652_zpid/",
+      "lotAreaValue": 0.51489898989899,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "5014 Bridge Creek Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.719324,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 667300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22428,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/67f61cd9134192519b270730fbdf3f8d-p_c.jpg"
+        }
+      ],
+      "zpid": 50210652,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3719,
+      "longitude": -95.77118,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3719
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "5007 Bridge Creek Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/5007-Bridge-Creek-Ln-Katy-TX-77494/50210644_zpid/",
+      "lotAreaValue": 0.51409550045914,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "5007 Bridge Creek Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.720224,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 774000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 22394,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/3e0bf39ebe54d10f421871399ab2ce71-p_c.jpg"
+        }
+      ],
+      "zpid": 50210644,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 4233,
+      "longitude": -95.7706,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 4233
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.77009,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "22522 Wolfs Meadow Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 3509,
+      "lotSize": 24867,
+      "zpid": 50210633,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "22522 Wolfs Meadow Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/22522-Wolfs-Meadow-Ln-Katy-TX-77494/50210633_zpid/",
+      "lotAreaValue": 0.57086776859504,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.720186,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1998,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 3509,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=22522+Wolfs+Meadow+Ln%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=OPjsh8cSKLl9EHL48JwQTp9Bv-g="
+        }
+      ],
+      "currency": "USD",
+      "price": 990700,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.026305540058316,
+      "date": "2025-09-11",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6652152"
+      },
+      "pricePerSquareFoot": 236,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 925000
+    },
+    {
+      "priceChangeRate": -0.025641288628601,
+      "date": "2025-08-19",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1755561600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "51919727"
+      },
+      "pricePerSquareFoot": 243,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 949990
+    },
+    {
+      "priceChangeRate": -0.025009025009025,
+      "date": "2025-07-21",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1753056000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "51919727"
+      },
+      "pricePerSquareFoot": 249,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 974990
+    },
+    {
+      "priceChangeRate": -1e-06,
+      "date": "2025-06-18",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1750204800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "51919727"
+      },
+      "pricePerSquareFoot": 255,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 999999
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1749686400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "51919727"
+      },
+      "pricePerSquareFoot": 255,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1000000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/8f225bb2661cff8f5411650685b90c85-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/3899-Roosevelt-Alexander-Elementary-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 0.6,
+      "assigned": null,
+      "name": "Roosevelt Alexander Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10328-Beckendorff-J-High-School/",
+      "rating": 10,
+      "totalCount": null,
+      "distance": 1.2,
+      "assigned": null,
+      "name": "Beckendorff J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/10324-Seven-Lakes-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 2.4,
+      "assigned": null,
+      "name": "Seven Lakes High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 5224,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 14:00:00",
+      "endTime": "2025-09-13 16:00:00"
+    },
+    {
+      "startTime": "2025-09-14 13:00:00",
+      "endTime": "2025-09-14 15:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Grand Lakes",
+    "streetAddress": "5015 Bridge Creek Ln",
+    "zipcode": "77494"
+  },
+  "cityId": null,
+  "timeOnZillow": "1 day",
+  "priceChange": -24990,
+  "zestimate": 905800,
+  "zpid": 50210642,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 122,
+  "homeInsights": {},
+  "bathrooms": 5,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/5015-Bridge-Creek-Ln-Katy-TX-77494/50210642_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "CB&A, Realtors-Katy"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "CB&A, Realtors-Katy",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 02:17:20",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Stefany Hennigan",
+    "attributionTitle": null,
+    "mlsId": "6652152",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "281-381-2353",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0811463",
+        "memberFullName": "Stefany Hennigan",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "281-381-2353",
+    "agentLicenseNumber": "TREC #0811463",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "832-678-4770",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 50,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Gunite",
+      "In Ground",
+      "Pool/Spa Combo"
+    ],
+    "flooring": [
+      "Carpet",
+      "Tile",
+      "Wood"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 767433,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1999",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Electric",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Attic Fan, Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,200 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "0.50 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$236",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bidet",
+          "Full Secondary Bathroom Down",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Jetted Tub",
+          "Primary Bath: Separate Shower",
+          "Vanity Area"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,200 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Outdoor Kitchen",
+      "Side Yard",
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.50 Acres",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://galleries.page.link/5UadH"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "3,916 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,VA Loan",
+    "otherParking": null,
+    "associationFee": "$1,200 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 5,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Crown Molding",
+      "High Ceilings",
+      "2 Bedrooms Down",
+      "En-Suite Bath",
+      "Primary Bed - 1st Floor"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Subdivided",
+      "1/4 Up to 1/2 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Alexander Elementary School (Katy)",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Thermostat"
+    ],
+    "constructionMaterials": [
+      "Brick"
+    ],
+    "fireplaceFeatures": [
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,200 annually",
+    "appliances": [
+      "Disposal",
+      "Double Oven",
+      "Electric Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Back Yard",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Beckendorff Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://galleries.page.link/5UadH",
+    "contingency": null,
+    "yearBuilt": 1999,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 5,
+    "parcelNumber": "3519020020140914",
+    "incomeIncludes": null,
+    "highSchool": "Seven Lakes High School",
+    "taxAnnualAmount": 9106,
+    "subdivisionName": "Grand Lakes",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Solar Screens",
+      "Window Coverings"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757588179000,
+    "roomTypes": [
+      "Den",
+      "Family Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Dog Park",
+      "Park",
+      "Playground",
+      "Pool",
+      "Splash Pad",
+      "Sport Court",
+      "Tennis Court(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,200 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Detached",
+      "Oversized"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,200 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Attic Fan",
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 5,
+    "buildingArea": "3,916",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck"
+    ],
+    "bathroomsFloat": 5,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Electric"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 236,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.957,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691951753
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.187,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691951753
+    },
+    "arm5Bucket": {
+      "rate": 6.179,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691951753
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 2,
+  "livingArea": 3916,
+  "zestimateHighPercent": "5",
+  "mlsid": "6652152",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 925000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:52.294405+00:00",
+    "zpid": "50210642",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

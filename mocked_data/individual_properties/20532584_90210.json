@@ -1,0 +1,1904 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.43393,
+  "countyFIPS": "06037",
+  "imgSrc": "https://photos.zillowstatic.com/fp/3da3dbf034a29606f72b7adfd5f9996b-p_d.jpg",
+  "livingAreaValue": 2342,
+  "streetAddress": "9844 Wanda Park Dr",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": [
+    {
+      "time": 1726155819799,
+      "valueIncreaseRate": 0.019999664,
+      "taxIncreaseRate": 0.019446626,
+      "taxPaid": 14945.72,
+      "value": 1212851
+    },
+    {
+      "time": 1694533419799,
+      "valueIncreaseRate": 0.019999914,
+      "taxIncreaseRate": 0.04653606,
+      "taxPaid": 14660.62,
+      "value": 1189070
+    },
+    {
+      "time": 1662997419799,
+      "valueIncreaseRate": 0.01999916,
+      "taxIncreaseRate": 0.012501661,
+      "taxPaid": 14008.71,
+      "value": 1165755
+    },
+    {
+      "time": 1631461419799,
+      "valueIncreaseRate": 0.0103590945,
+      "taxIncreaseRate": -0.0052892156,
+      "taxPaid": 13835.74,
+      "value": 1142898
+    },
+    {
+      "time": 1599925419799,
+      "valueIncreaseRate": 6.600739,
+      "taxIncreaseRate": 0,
+      "taxPaid": 13909.31,
+      "value": 1131180
+    },
+    {
+      "time": 1568303019799,
+      "valueIncreaseRate": 0.01999904,
+      "taxIncreaseRate": 6.118669,
+      "taxPaid": 13909.31,
+      "value": 148825
+    },
+    {
+      "time": 1536767019799,
+      "valueIncreaseRate": 0.019993428,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1953.92,
+      "value": 145907
+    },
+    {
+      "time": 1505231019799,
+      "valueIncreaseRate": 0.019993868,
+      "taxIncreaseRate": 0.019849798,
+      "taxPaid": 1953.92,
+      "value": 143047
+    },
+    {
+      "time": 1473695019800,
+      "valueIncreaseRate": 0.015238385,
+      "taxIncreaseRate": 0.054181185,
+      "taxPaid": 1915.89,
+      "value": 140243
+    },
+    {
+      "time": 1442072619800,
+      "valueIncreaseRate": 0.019972976,
+      "taxIncreaseRate": 0.0039774575,
+      "taxPaid": 1817.42,
+      "value": 138138
+    },
+    {
+      "time": 1410536619800,
+      "valueIncreaseRate": 0.024618132,
+      "taxIncreaseRate": 0,
+      "taxPaid": 1810.22,
+      "value": 135433
+    },
+    {
+      "time": 1347464619800,
+      "valueIncreaseRate": 0.019994136,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 132179
+    },
+    {
+      "time": 1315842219800,
+      "valueIncreaseRate": 0.0075182123,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 129588
+    },
+    {
+      "time": 1284306219800,
+      "valueIncreaseRate": -0.0023734362,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 128621
+    },
+    {
+      "time": 1252770219800,
+      "valueIncreaseRate": 0.019992089,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 128927
+    },
+    {
+      "time": 1221234219800,
+      "valueIncreaseRate": 0.019988218,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 126400
+    },
+    {
+      "time": 1189611819800,
+      "valueIncreaseRate": 0.019992758,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 123923
+    },
+    {
+      "time": 1158075819800,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 121494
+    },
+    {
+      "time": 1126539819800,
+      "valueIncreaseRate": 0.04037541,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 121494
+    },
+    {
+      "time": 1095003819800,
+      "valueIncreaseRate": 0.018667296,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 116779
+    },
+    {
+      "time": 1063381419800,
+      "valueIncreaseRate": 0.019992527,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 114639
+    },
+    {
+      "time": 1031845419800,
+      "valueIncreaseRate": 0.040377673,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 112392
+    },
+    {
+      "time": 968773419800,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 108030
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 9219,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUrqg2qa3je2vd_9prla",
+    "review_count": 0,
+    "display_name": "y m shishido",
+    "profile_url": "https://www.zillow.com/profile/y-m-shishido/",
+    "business_name": "Ocean Palisades Realty, Inc.",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 1963,
+  "brokerageName": "Ocean Palisades Realty, Inc.",
+  "description": "HUGE PRICE IMPROVEMENT!! \r\r\nExperience the elegance of 9844 Wanda Park, a fully reimagined designer residence nestled in the sought-after Beverly Hills Post Office area.\r\r\n\r\r\nSituated in the legendary 90210 zip code, this residence blends the sophistication of European craftsmanship with the relaxed sensibility of California living. Thoughtfully arranged across three refined levels, the home offers 2,342 square feet of living space on a generous 10,663-square-foot lot, creating an ideal balance of luxury and comfort.\r\r\n\r\r\nFrom the moment you enter, you are welcomed by curated design details that set this home apart: Carrara White Marble countertops, Montclair Danby Marble sinks, and a chef\u2019s kitchen outfitted with Smeg and Bertazzoni appliances. Elevated by a built-in coffee station, wine fridge, and sleek microwave, the kitchen flows seamlessly into the open living areas\u2014perfect for entertaining or intimate gatherings.\r\r\n\r\r\nThe primary suite serves as a private retreat, featuring a spa-inspired bath wrapped in European Habana Marble and enhanced with a TOTO smart toilet. Three additional bedrooms provide ample versatility, whether for family, guests, or a dedicated office. Throughout the home, smart-home technology integrates modern convenience with timeless style.\r\r\n\r\r\nOutdoor living is equally impressive, with a spacious dining patio off the kitchen, a serene upper-level seating area with canyon views, and a two-car garage with enclosed storage.\r\r\n\r\r\nLocated just moments from world-class shopping and dining on Rodeo Drive, this residence represents a rare opportunity to own a turnkey designer home in one of Los Angeles\u2019 most exclusive neighborhoods.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/9844-wanda-park-dr-beverly-hills-ca-90210/601367956_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/9844-wanda-park-dr-beverly-hills-ca-90210/601367956_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.25999999046326
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.43000000715256
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.55000001192093
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.64999997615814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.73000001907349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.79000002145767
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.001700000022538
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.011099999770522
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.021999999880791
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.034200001507998
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.047899998724461
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.062799997627735
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.079000003635883
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/9844-wanda-park-dr-beverly-hills-ca-90210/601367956_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 47
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 91,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 19
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 21
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "source": {
+          "url": "https://firststreet.org/property/9844-wanda-park-dr-beverly-hills-ca-90210/601367956_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/9844-wanda-park-dr-beverly-hills-ca-90210/601367956_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.115208,
+  "nearbyHomes": [
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9840 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9840-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532585_zpid/",
+      "lotAreaValue": 10517,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9840 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11538,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 247059,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10517,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9840+Wanda+Park+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=XQeUd986hQJfxhyQIQ9Uwsitt2A="
+        }
+      ],
+      "zpid": 20532585,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.43378,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9840 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9840-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532586_zpid/",
+      "lotAreaValue": 10609,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9840 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11538,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1388600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10609,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9840+Wanda+Park+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=XQeUd986hQJfxhyQIQ9Uwsitt2A="
+        }
+      ],
+      "zpid": 20532586,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1196,
+      "longitude": -118.43378,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1196
+    },
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9846 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9846-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532583_zpid/",
+      "lotAreaValue": 0.35417814508724,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9846 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.115128,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1915900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15428,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0f0e1f0bf5fbd9657ba6b82f6ca81c9e-p_c.jpg"
+        }
+      ],
+      "zpid": 20532583,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1900,
+      "longitude": -118.4342,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1900
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.433685,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9838 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 2330,
+      "lotSize": 9880,
+      "zpid": 20532587,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 5,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9838 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9838-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532587_zpid/",
+      "lotAreaValue": 9880,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.11545,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1947,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2330,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1c3b998ba1565d8609ab846c7ccfc12d-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2226900,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9850 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9850-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532582_zpid/",
+      "lotAreaValue": 7649,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9850 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.114952,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1215100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7649,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9850+Wanda+Park+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Fc4T3oby1RMB64h5AlfKV3XgSto="
+        }
+      ],
+      "zpid": 20532582,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1360,
+      "longitude": -118.43431,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1360
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9836 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9836-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532588_zpid/",
+      "lotAreaValue": 9754,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9836 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.115513,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1996500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9754,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9836+Wanda+Park+Dr%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=2M52YgJAAs6irO7MGqGgIGt3bLU="
+        }
+      ],
+      "zpid": 20532588,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2147,
+      "longitude": -118.43357,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2147
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -118.433464,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9834 Wanda Park Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 2135,
+      "lotSize": 9927,
+      "zpid": 20532589,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9834 Wanda Park Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9834-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532589_zpid/",
+      "lotAreaValue": 9927,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 34.115566,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1961,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 2135,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e3ea03739d2aa2b110b23ecdd47d4dda-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 2356500,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2472 Benedict Canyon Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/2472-Benedict-Canyon-Dr-Beverly-Hills-CA-90210/20532598_zpid/",
+      "lotAreaValue": 7967,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "2472 Benedict Canyon Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11546,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 3075900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7967,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/8d3ad3b7b2adff0e68342c4510dd884a-p_c.jpg"
+        }
+      ],
+      "zpid": 20532598,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2283,
+      "longitude": -118.43449,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2283
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.024444444444444,
+      "date": "2025-09-11",
+      "source": "CRMLS",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CRMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_logo_inf_11.jpg",
+        "infoString1": "SB25191492"
+      },
+      "pricePerSquareFoot": 937,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2195000
+    },
+    {
+      "priceChangeRate": -0.021739130434783,
+      "date": "2025-08-29",
+      "source": "CRMLS",
+      "postingIsRental": false,
+      "time": 1756425600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CRMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_logo_inf_11.jpg",
+        "infoString1": "SB25191492"
+      },
+      "pricePerSquareFoot": 961,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2250000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-07-03",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1751500800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25533441"
+      },
+      "pricePerSquareFoot": 982,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 2300000
+    },
+    {
+      "priceChangeRate": 1.0909090909091,
+      "date": "2025-05-02",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1746144000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25533441"
+      },
+      "pricePerSquareFoot": 982,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2300000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-04-12",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1555027200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "19438672"
+      },
+      "pricePerSquareFoot": 470,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 1100000
+    },
+    {
+      "priceChangeRate": -0.0081154192966637,
+      "date": "2019-04-10",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1554854400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "19438672"
+      },
+      "pricePerSquareFoot": 470,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1100000
+    },
+    {
+      "priceChangeRate": 0.0081818181818182,
+      "date": "2019-04-09",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1554768000000,
+      "sellerAgent": {
+        "name": "Monica Antola",
+        "photo": {
+          "url": "https://photos.zillowstatic.com/h_e/ISv0glxuwnudk10000000000.jpg"
+        },
+        "profileUrl": "/profile/MonicaAntola/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/4f3066f1f5cec0da94c227e529c8b89a-zillow_web_logo_inf_11.jpg",
+        "infoString1": "19438672"
+      },
+      "pricePerSquareFoot": 474,
+      "buyerAgent": {
+        "name": "STEPHEN KATZ",
+        "photo": null,
+        "profileUrl": "/profile/StephenKatzRE/"
+      },
+      "event": "Sold",
+      "price": 1109000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-03-11",
+      "source": "BHHS California Properties",
+      "postingIsRental": false,
+      "time": 1552262400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "BHHS California Properties",
+        "infoString3": null,
+        "infoString1": "19-438672"
+      },
+      "pricePerSquareFoot": 470,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 1100000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-02-27",
+      "source": "Berkshire Hathaway HomeServices California",
+      "postingIsRental": false,
+      "time": 1551225600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Berkshire Hathaway HomeServices California",
+        "infoString3": null,
+        "infoString1": "19438672"
+      },
+      "pricePerSquareFoot": 470,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 1100000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/3da3dbf034a29606f72b7adfd5f9996b-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2474-Warner-Avenue-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 3.1,
+      "assigned": null,
+      "name": "Warner Avenue Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 4.2,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 5.1,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": 7849,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "9844 Wanda Park Dr",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "15 days",
+  "priceChange": -55000,
+  "zestimate": 2111700,
+  "zpid": 20532584,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1735,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Two-car garage",
+            "Curated design details",
+            "Wine fridge",
+            "Built-in coffee station",
+            "Canyon views",
+            "Primary suite",
+            "Spacious dining patio"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Two-car garage",
+            "Curated design details",
+            "Wine fridge",
+            "Built-in coffee station",
+            "Canyon views",
+            "Primary suite",
+            "Spacious dining patio"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/9844-Wanda-Park-Dr-Beverly-Hills-CA-90210/20532584_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "mlsName": "CRMLS",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Ocean Palisades Realty, Inc."
+      }
+    ],
+    "infoString10": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Ocean Palisades Realty, Inc.",
+    "listingAttributionContact": "310-910-3553",
+    "lastUpdated": "2025-09-11 11:55:56",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Yoko Shishido",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "SB25191492",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-940-3774",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE #02065879",
+        "memberFullName": "Yoko Shishido",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-940-3774",
+    "agentLicenseNumber": "DRE #02065879",
+    "providerLogo": "https://photos.zillowstatic.com/fp/cb8caaa629c0af2058e60add67b2f2ee-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "The multiple listing data appearing on this website, or contained in reports produced therefrom, is owned and copyrighted by California Regional Multiple Listing Service, Inc. (\"CRMLS\") and is protected by all applicable copyright laws. Information provided is for viewer's personal, non-commercial use and may not be used for any purpose other than to identify prospective properties the viewer may be interested in purchasing. All listing data, including but not limited to square footage and lot size is believed to be accurate, but the listing Agent, listing Broker and CRMLS and its affiliates do not warrant or guarantee such accuracy. The viewer should independently verify the listed data prior to making any decisions based on such information by personal inspection and/or contacting a real estate professional.\n\nBased on information from California Regional Multiple Listing Service, Inc. as of 2025-09-12 08:32:54 PDT and /or other sources. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information",
+    "brokerPhoneNumber": "310-940-3774",
+    "lastChecked": "2025-09-12 08:32:54"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Wood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1212851,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1963",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "10,666 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "15 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$937",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "Neighborhood",
+      "None"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Primary Suite"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bidet",
+          "Bathtub",
+          "Remodeled",
+          "Soaking Tub",
+          "Separate Shower"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Foyer",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen Island",
+          "Remodeled",
+          "Updated Kitchen"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Laundry",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "LivingRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Other",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": null,
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": null,
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": 0,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": {},
+    "inclusions": [
+      "Washer/Dryer"
+    ],
+    "hasFireplace": false,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": "Feet",
+    "exclusions": null,
+    "mainLevelBedrooms": 0,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "10,666 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://my.matterport.com/show/?m=eAFPmTsypjQ"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://youtu.be/zowvz09ZaRI?feature=shared"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,342 sqft",
+    "commonWalls": "No Common Walls",
+    "listingTerms": "Cash,Cash to New Loan,Conventional",
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": "Square Feet",
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Modern",
+    "listingId": null,
+    "structureType": "House",
+    "interiorFeatures": [
+      "Wet Bar",
+      "Eat-in Kitchen",
+      "Multiple Staircases",
+      "Open Floorplan",
+      "Stone Counters",
+      "Recessed Lighting",
+      "Entrance Foyer",
+      "Primary Suite",
+      "Wine Cellar",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard"
+    ],
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 15,
+    "listAOR": "California Regional MLS",
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "None"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "6 Burner Stove",
+      "Dishwasher",
+      "Gas Cooktop",
+      "Gas Oven",
+      "Microwave",
+      "Refrigerator",
+      "Dryer",
+      "Washer"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "77 days",
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Street Lights"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": "https://my.matterport.com/show/?m=eAFPmTsypjQ",
+    "contingency": null,
+    "yearBuilt": 1963,
+    "utilities": [
+      "Electricity Connected",
+      "Natural Gas Connected",
+      "Sewer Connected",
+      "Water Connected"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "4383001005",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 14946,
+    "subdivisionName": null,
+    "storiesTotal": 2,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756339200000,
+    "roomTypes": [
+      "Foyer",
+      "Kitchen",
+      "Laundry",
+      "Living Room",
+      "Primary Bathroom",
+      "Primary Bedroom",
+      "Other",
+      "Wine Cellar"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two,Three Or More",
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Garage Faces Front",
+      "Garage"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": null,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 2,
+    "buildingArea": null,
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Patio",
+      "Wood"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": "Beverly Hills Unified",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Washer Hookup",
+      "Gas Dryer Hookup"
+    ],
+    "entryLocation": "North West",
+    "fireplaces": null,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": null,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 937,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-08-28",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691326694
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691326694
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691326694
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 82,
+  "livingArea": 2342,
+  "zestimateHighPercent": "5",
+  "mlsid": "SB25191492",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 2195000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:40.313488+00:00",
+    "zpid": "20532584",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

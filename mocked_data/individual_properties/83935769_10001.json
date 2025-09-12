@@ -1,0 +1,1584 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 31,
+      "display_name": "Kiran Mummidichetty",
+      "badge_type": "Premier Agent",
+      "business_name": "Compass Real Estate ",
+      "rating_average": 5,
+      "phone": {
+        "prefix": "309",
+        "areacode": "732",
+        "number": "0788"
+      },
+      "zuid": "X1-ZU10c472llrcbnt_52lx3",
+      "image_url": "https://photos.zillowstatic.com/fp/b8ed001a69ad8bfbe948058a402d745f-h_g.jpg"
+    }
+  ],
+  "longitude": -73.9959,
+  "countyFIPS": "36061",
+  "imgSrc": "https://photos.zillowstatic.com/fp/73d939a97d4ef4e04e77bd8740b31307-p_d.jpg",
+  "livingAreaValue": 1438,
+  "streetAddress": "261 W 28th St APT 6A",
+  "county": "New York County",
+  "monthlyHoaFee": 2761,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155840029,
+      "valueIncreaseRate": 0.06594163,
+      "taxIncreaseRate": 0.0083595365,
+      "taxPaid": 26296,
+      "value": 235329
+    },
+    {
+      "time": 1694533440029,
+      "valueIncreaseRate": -0.013216942,
+      "taxIncreaseRate": 0,
+      "taxPaid": 26078,
+      "value": 220771
+    },
+    {
+      "time": 1662997440029,
+      "valueIncreaseRate": -0.0017624251,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 223728
+    },
+    {
+      "time": 1631461440029,
+      "valueIncreaseRate": -0.09718832,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 224123
+    },
+    {
+      "time": 1599925440029,
+      "valueIncreaseRate": -0.0010783927,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 248250
+    },
+    {
+      "time": 1568303040029,
+      "valueIncreaseRate": 0.062910326,
+      "taxIncreaseRate": -0.11656635,
+      "taxPaid": 20036.08,
+      "value": 248518
+    },
+    {
+      "time": 1536767040029,
+      "valueIncreaseRate": 0.29997888,
+      "taxIncreaseRate": 0.091200784,
+      "taxPaid": 22679.78,
+      "value": 233809
+    },
+    {
+      "time": 1505231040029,
+      "valueIncreaseRate": 0.025252813,
+      "taxIncreaseRate": 0.25408134,
+      "taxPaid": 20784.24,
+      "value": 179856
+    },
+    {
+      "time": 1473695040029,
+      "valueIncreaseRate": 0.026447287,
+      "taxIncreaseRate": 0,
+      "taxPaid": 16573.28,
+      "value": 175426
+    },
+    {
+      "time": 1442072640029,
+      "valueIncreaseRate": 0.062009484,
+      "taxIncreaseRate": 1.425558,
+      "taxPaid": 16573.28,
+      "value": 170906
+    },
+    {
+      "time": 1410536640029,
+      "valueIncreaseRate": 0.060782038,
+      "taxIncreaseRate": 0,
+      "taxPaid": 6832.77,
+      "value": 160927
+    },
+    {
+      "time": 1379000640029,
+      "valueIncreaseRate": -0.0826102,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 151706
+    },
+    {
+      "time": 1347464640029,
+      "valueIncreaseRate": 0.09999734,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 165367
+    },
+    {
+      "time": 1315842240029,
+      "valueIncreaseRate": -0.17121577,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 150334
+    },
+    {
+      "time": 1284306240029,
+      "valueIncreaseRate": -0.025004972,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 181391
+    },
+    {
+      "time": 1252770240029,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 186043
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 10479,
+  "state": "NY",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUy492q9csklc9_517cm",
+    "review_count": 2,
+    "display_name": "Ricky Hadzovic",
+    "profile_url": "https://www.zillow.com/profile/zuser20140926115540162/",
+    "business_name": "The Ricky Hadzovic Group",
+    "rating_average": 4.6,
+    "phone": {
+      "prefix": "323",
+      "areacode": "469",
+      "number": "3699"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/f04279b0a62143ab136fa08eb0d1457a-h_n.jpg"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "The Ricky Hadzovic Group",
+  "description": "Exquisite luxury and design meet in this thoughtfully reimagined true three-bedroom, two-and-a-half-bathroom residence featuring magazine-worthy interiors, exceptional craftsmanship and an ideal location in a contemporary, full-service West Chelsea condominium.\n \nInside this 1,438-square-foot showplace, brand-new hardwood floors and dramatic lighting add a designer ambiance while walls of windows frame wonderful western light and treetop outlooks. A gracious foyer makes a warm welcome with extra-tall doors that reveal a large coat closet and a work-of-art powder room finished with marble floors, extra shelving, a spirits closet, and a custom-designed, temperature-controlled wine cellar with glass doors. Ahead, the open-plan living area sets the stage for comfortable relaxation and lavish entertaining alongside a 19-foot-wide expanse of floor-to-ceiling windows. Enjoy a generous footprint for seating and working areas in the living space, or plan your next dinner party alongside chic lighting and built-in cabinetry in the dining area. \n\nStunning German-made sliding glass doors reveal a custom-designed, contemporary tatami room. Built on a mahogany wood platform with ingenious storage underneath, this Zen space is perfect as a yoga or meditation studio, media lounge, guest room or tranquil home office. Plan your next culinary achievement in the open gourmet kitchen, where lacquer cabinetry and honed granite countertops surround Viking appliances, including a vented gas range, large refrigerator, dishwasher, microwave drawer and wine refrigerator. \n\nHead to the expanded primary suite to discover a king-size layout with western exposures and a dressing area with two roomy closets. The en suite spa bathroom boasts a soaking tub, shower, double vanity and radiant heat flooring. You'll find a secondary bedroom near the entry and another well-appointed full bathroom off the dining area. \n\nThis home's extensive upgrades include Kohler Collection bath and kitchen fixtures, bidet-equipped commodes, and all-new windows throughout. Central HVAC and a 2024 stacked LG smart washer and dryer add comfort and convenience. Currently configured with an extended owner's suite, this home can easily revert to its original three-bedroom layout. A deeded 9X5.9 storage unit conveys with the property. \n\nBuilt in 2006, Onyx Chelsea is a modern condominium where residents enjoy 24-hour doorman service, a welcoming lobby with cold storage, a fitness center, laundry, two rooftop terraces, resident storage, a bike room and an on-site parking garage. Pets, pieds-\u00e0-terre and corporate purchases are permitted.\n\nLocated in vibrant Chelsea, this home also offers easy access to Midtown, NoMad and the Flatiron District. Gourmands will enjoy proximity to Whole Foods, Trader Joe's, Fairway and Eataly, while Chelsea Park, Madison Square Park, The High Line and 500-acre Hudson River Park surround the home with outstanding outdoor space. The FIT campus, Madison Square Garden, Hudson Yards, Chelsea Piers and famed West Chelsea galleries add fantastic art, entertainment and energy to this sought-after enclave. Transportation is effortless with A/C/E, 1/2/3, R/W, PATH, LIRR and Amtrak trains, excellent bus service and CitiBikes all nearby.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10000000149012
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/261-w-28th-st-apt-6a-new-york-ny-10001/362267829_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 7
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/261-w-28th-st-apt-6a-new-york-ny-10001/362267829_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.03999999910593
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.33000001311302
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.43999999761581
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.52999997138977
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.61000001430511
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.6700000166893
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/261-w-28th-st-apt-6a-new-york-ny-10001/362267829_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 2
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 99,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 15
+          }
+        ],
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 7
+        },
+        "source": {
+          "url": "https://firststreet.org/property/261-w-28th-st-apt-6a-new-york-ny-10001/362267829_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/261-w-28th-st-apt-6a-new-york-ny-10001/362267829_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 40.748444,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 5B"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-5B-New-York-NY-10001/83930165_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 5B",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1772800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/1b1a4dc8917c0203f6f07732dd77e601-p_c.jpg"
+        }
+      ],
+      "zpid": 83930165,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1265,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1265
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 9A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-9A-New-York-NY-10001/83930247_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 9A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1590600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=261+W+28th+St%2C+New+York%2C+NY+10001&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=6SNyCEJQEKNOOgdAx2FzHiSsaRE="
+        }
+      ],
+      "zpid": 83930247,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1016,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1016
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 10A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-10A-New-York-NY-10001/83930377_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 10A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1625454",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1560000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f6febb374fbd245f7b3e0dddab94d986-p_c.jpg"
+        }
+      ],
+      "zpid": 83930377,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1016,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1016
+    },
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 4E"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-4E-New-York-NY-10001/83931464_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 4E",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1911900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/679fbebd84fb3f87a543d2f48977e260-p_c.jpg"
+        }
+      ],
+      "zpid": 83931464,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1214,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1214
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "sqft",
+      "isShowcaseListing": false,
+      "longitude": -73.9959,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 6E",
+        "zipcode": "10001"
+      },
+      "livingAreaValue": 1214,
+      "lotSize": null,
+      "zpid": 83931707,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 3,
+      "state": "NY",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 6E"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-6E-New-York-NY-10001/83931707_zpid/",
+      "lotAreaValue": null,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "S1730807",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 40.748444,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "newConstructionType": null,
+      "yearBuilt": 2006,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 1214,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fbcc198a99011e366f153d59533e1c7e-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 1475000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 7D"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-7D-New-York-NY-10001/83932093_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 7D",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1049900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/da6e2641d152688ed9a643faaf576e65-p_c.jpg"
+        }
+      ],
+      "zpid": 83932093,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 795,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 795
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 5A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-5A-New-York-NY-10001/83932410_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 5A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1751800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Condo",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/be3d8e4994f00c2526171d0300fbd597-p_c.jpg"
+        }
+      ],
+      "zpid": 83932410,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1147,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "CONDO",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1147
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 2A"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-2A-New-York-NY-10001/83932601_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 2A",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1449800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Multi Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/714ffe4a32ee2db5b459de22bb6a3d98-p_c.jpg"
+        }
+      ],
+      "zpid": 83932601,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1147,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "MULTI_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1147
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "261 W 28th St APT 4F"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/261-W-28th-St-APT-4F-New-York-NY-10001/83932834_zpid/",
+      "lotAreaValue": 7641,
+      "parentRegion": null,
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "streetAddress": "261 W 28th St APT 4F",
+        "zipcode": "10001"
+      },
+      "state": "NY",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 40.748444,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 972400,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 1,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7641,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/69db25e266262ab671d94e78fb1c1ed2-p_c.jpg"
+        }
+      ],
+      "zpid": 83932834,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 683,
+      "longitude": -73.9959,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 683
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.29947916666667,
+      "date": "2025-09-11",
+      "source": "StreetEasy",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "StreetEasy",
+        "infoString3": null,
+        "infoString1": "S1789496"
+      },
+      "pricePerSquareFoot": 1735,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2495000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-02-03",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1675382400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-01-31",
+      "source": "Zillow Rentals",
+      "postingIsRental": true,
+      "time": 1675123200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rentals",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 5,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 6800
+    },
+    {
+      "priceChangeRate": 0.077478565471975,
+      "date": "2013-08-30",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1377820800000,
+      "sellerAgent": {
+        "name": "Chris Sheller",
+        "photo": null,
+        "profileUrl": "/profile/Chris-Sheller/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1335,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 1920000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2007-12-07",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 1196985600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": 1239,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 1781938
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/73d939a97d4ef4e04e77bd8740b31307-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/2129-Ps-33-Chelsea-Prep/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 0.2,
+      "assigned": null,
+      "name": "Ps 33 Chelsea Prep",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/18349-Middle-297/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 1.3,
+      "assigned": null,
+      "name": "Middle 297",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/new-york/new-york/1958-The-High-School-Of-Fashion-Industries/",
+      "rating": 4,
+      "totalCount": null,
+      "distance": 0.2,
+      "assigned": null,
+      "name": "The High School of Fashion Industries",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 7025,
+  "city": "New York",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.9,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-14 13:00:00",
+      "endTime": "2025-09-14 14:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "New York",
+    "state": "NY",
+    "neighborhood": null,
+    "subdivision": "Chelsea",
+    "streetAddress": "261 W 28th St APT 6A",
+    "zipcode": "10001"
+  },
+  "cityId": 6181,
+  "timeOnZillow": "1 day",
+  "priceChange": null,
+  "zestimate": 2437800,
+  "zpid": 83935769,
+  "countyId": 2452,
+  "homeType": "CONDO",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 106,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling windows",
+            "Walls of windows",
+            "Chic lighting",
+            "Viking appliances",
+            "Central hvac",
+            "Secondary bedroom",
+            "Work-of-art powder room"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Floor-to-ceiling windows",
+            "Walls of windows",
+            "Chic lighting",
+            "Viking appliances",
+            "Central hvac",
+            "Work-of-art powder room",
+            "Outstanding outdoor space"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": {
+    "name": "Chelsea"
+  },
+  "zipcode": "10001",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 43,
+  "url": "/homedetails/261-W-28th-St-APT-6A-New-York-NY-10001/83935769_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": null,
+    "mlsName": "StreetEasy",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "The Ricky Hadzovic Group"
+      }
+    ],
+    "infoString10": "",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "The Ricky Hadzovic Group",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 06:37:40",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Ujkan Hadzovic II",
+    "attributionTitle": "Listing by:",
+    "mlsId": "S1789496",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "469-323-3699",
+    "listingAgents": [
+      {
+        "memberStateLicense": "10491212676",
+        "memberFullName": "Ujkan Hadzovic II",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "469-323-3699",
+    "agentLicenseNumber": null,
+    "providerLogo": null,
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "",
+    "brokerPhoneNumber": "469-323-3699",
+    "lastChecked": "2025-09-12 08:36:02"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 14,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": {},
+    "accessibilityFeatures": null,
+    "hasGarage": false,
+    "hasPetsAllowed": true,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 522953,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Condominium",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "No Data",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$2,761 monthly",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,735",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": {},
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$2,761 monthly",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "New York",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": {},
+    "inclusions": null,
+    "hasFireplace": null,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": null,
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": null,
+    "livingArea": "1,438 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": "$2,761 monthly",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": null,
+    "bedrooms": 3,
+    "architecturalStyle": null,
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": null,
+    "horseAmenities": null,
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": null,
+    "roofType": null,
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": null,
+    "hoaFeeTotal": "$2,761 monthly",
+    "appliances": [
+      "Dishwasher",
+      "Washer/Dryer"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": null,
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": "Onyx Chelsea",
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Doorman",
+      "Full Time Doorman"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "007781024",
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 26964,
+    "subdivisionName": "Chelsea",
+    "storiesTotal": null,
+    "storiesDecimal": null,
+    "specialListingConditions": "Resale",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757548800000,
+    "roomTypes": [
+      "Bike Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": [
+      "Laundry",
+      "Fitness Center",
+      "Elevator(s)"
+    ],
+    "propertySubType": [
+      "Condominium"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": null,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$2,761 monthly",
+    "livingAreaRange": null,
+    "parkingFeatures": {},
+    "parkingCapacity": 0,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Doorman",
+      "Full-Time Doorman"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$2,761 monthly",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": null,
+    "bathroomsHalf": 1,
+    "homeType": "Condo",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Central Air"
+    ],
+    "hasHeating": null,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "1,438",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": null,
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Inside"
+    ],
+    "entryLocation": null,
+    "fireplaces": null,
+    "heating": null,
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": [
+      "Maintenance"
+    ],
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1735,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Condo",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.7,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691840122
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.195,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691840122
+    },
+    "arm5Bucket": {
+      "rate": null,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691840122
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 1438,
+  "zestimateHighPercent": "5",
+  "mlsid": "S1789496",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": "12473",
+  "country": "USA",
+  "price": 2495000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:44:00.503382+00:00",
+    "zpid": "83935769",
+    "zipcode": "10001",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

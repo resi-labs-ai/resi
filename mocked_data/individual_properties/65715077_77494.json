@@ -1,0 +1,1711 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.854935,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/402286aeff3d7f67fb2047c49403a6db-p_d.jpg",
+  "livingAreaValue": 2188,
+  "streetAddress": "28123 Canyon Wren Dr",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 67,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155959454,
+      "valueIncreaseRate": 0.027042026,
+      "taxIncreaseRate": 0.014387587,
+      "taxPaid": 5639.66,
+      "value": 366426
+    },
+    {
+      "time": 1694533559454,
+      "valueIncreaseRate": 0.29361132,
+      "taxIncreaseRate": 0.8683696,
+      "taxPaid": 5559.67,
+      "value": 356778
+    },
+    {
+      "time": 1662997559454,
+      "valueIncreaseRate": 0.099988036,
+      "taxIncreaseRate": 0.03079195,
+      "taxPaid": 2975.68,
+      "value": 275800
+    },
+    {
+      "time": 1631461559454,
+      "valueIncreaseRate": 0.034706175,
+      "taxIncreaseRate": 0.010526082,
+      "taxPaid": 2886.79,
+      "value": 250730
+    },
+    {
+      "time": 1599925559454,
+      "valueIncreaseRate": 0.025432695,
+      "taxIncreaseRate": 0.005543881,
+      "taxPaid": 2856.72,
+      "value": 242320
+    },
+    {
+      "time": 1568303159454,
+      "valueIncreaseRate": 0.016212264,
+      "taxIncreaseRate": 0.003684785,
+      "taxPaid": 2840.97,
+      "value": 236310
+    },
+    {
+      "time": 1536767159454,
+      "valueIncreaseRate": 0.012716662,
+      "taxIncreaseRate": -0.43836707,
+      "taxPaid": 2830.54,
+      "value": 232540
+    },
+    {
+      "time": 1505231159454,
+      "valueIncreaseRate": -0.035210084,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5039.84,
+      "value": 229620
+    },
+    {
+      "time": 1473695159454,
+      "valueIncreaseRate": 0.05956727,
+      "taxIncreaseRate": 0.78801423,
+      "taxPaid": 5039.84,
+      "value": 238000
+    },
+    {
+      "time": 1442072759454,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.02686357,
+      "taxPaid": 2818.68,
+      "value": 224620
+    },
+    {
+      "time": 1410536759454,
+      "valueIncreaseRate": 0.07236635,
+      "taxIncreaseRate": 0,
+      "taxPaid": 2896.49,
+      "value": 204200
+    },
+    {
+      "time": 1379000759454,
+      "valueIncreaseRate": 0.025196511,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 190420
+    },
+    {
+      "time": 1347464759454,
+      "valueIncreaseRate": -0.030027678,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 185740
+    },
+    {
+      "time": 1315842359454,
+      "valueIncreaseRate": 0.0411592,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 191490
+    },
+    {
+      "time": 1284306359454,
+      "valueIncreaseRate": 0.00010875476,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 183920
+    },
+    {
+      "time": 1252770359454,
+      "valueIncreaseRate": 0.045302108,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 183900
+    },
+    {
+      "time": 1221234359454,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 175930
+    },
+    {
+      "time": 1189611959454,
+      "valueIncreaseRate": 0.45746002,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 175930
+    },
+    {
+      "time": 1158075959454,
+      "valueIncreaseRate": 14.903821,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 120710
+    },
+    {
+      "time": 1126539959454,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 7590
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 1466,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUvdb7rgevxfrd_2ox8a",
+    "review_count": 10,
+    "display_name": "Rashad Ajalov",
+    "profile_url": "https://www.zillow.com/profile/RashadAjalov/",
+    "business_name": "Walzel Properties - Corporate Office",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "444",
+      "areacode": "832",
+      "number": "9291"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/3ef99b025e0a7b48fc4efe0cdbc55e45-h_n.jpg"
+  },
+  "yearBuilt": 2005,
+  "brokerageName": "Walzel Properties - Corporate Office",
+  "description": "Gorgeous 4-bedroom, 2.5-bathroom home nestled on a quiet cul-de-sac! The HUGE kitchen offers ample counter space and cabinetry for all your meal prep and storage needs, and it opens up to a bright, eat-in breakfast nook. The spacious living room just off the kitchen is perfect for entertaining, with a cozy fireplace for those chilly nights.\r\nStep outside to an OVERSIZED backyard\u2014ideal for playing catch, gardening, or grilling under the covered patio.\r\nCommunity AMENITIES include a beautiful swimming pool, tennis courts, and a playground. Zoned to acclaimed Katy ISD schools and conveniently located near shopping, dining, and with easy freeway access.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.98000001907349
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/28123-canyon-wren-dr-katy-tx-77494/4800853616_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/28123-canyon-wren-dr-katy-tx-77494/4800853616_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0012000000569969
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0021999999880791
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0031999999191612
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0041999998502433
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0052000000141561
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0062000001780689
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/28123-canyon-wren-dr-katy-tx-77494/4800853616_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 4
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/28123-canyon-wren-dr-katy-tx-77494/4800853616_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/28123-canyon-wren-dr-katy-tx-77494/4800853616_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.756504,
+  "nearbyHomes": [
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28119 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28119-Canyon-Wren-Dr-Katy-TX-77494/65715076_zpid/",
+      "lotAreaValue": 6813,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28119 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756367,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 333200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6813,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=28119+Canyon+Wren+Dr%2C+Katy%2C+TX+77494&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=bWqFq2n_ZnNU4HokNfTgEMuC57M="
+        }
+      ],
+      "zpid": 65715076,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2179,
+      "longitude": -95.85479,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2179
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28127 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28127-Canyon-Wren-Dr-Katy-TX-77494/65715078_zpid/",
+      "lotAreaValue": 7719,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28127 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756332,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 314500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 7719,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fd1a4e5f2701baa21977f45b9c5cb4b8-p_c.jpg"
+        }
+      ],
+      "zpid": 65715078,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1768,
+      "longitude": -95.8551,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1768
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Square Feet",
+      "isShowcaseListing": false,
+      "longitude": -95.85463,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28115 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 1874,
+      "lotSize": 6226,
+      "zpid": 65715075,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 2,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28115 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/28115-Canyon-Wren-Dr-Katy-TX-77494/65715075_zpid/",
+      "lotAreaValue": 6226,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.756384,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2005,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1874,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9ab2c5f7a98240498fe7053d17af4bda-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 307600,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28122 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28122-Canyon-Wren-Dr-Katy-TX-77494/65715086_zpid/",
+      "lotAreaValue": 6398,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28122 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756891,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 347100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6398,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/9f1248a306b37a5ef9ff346e1fe98905-p_c.jpg"
+        }
+      ],
+      "zpid": 65715086,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2566,
+      "longitude": -95.85494,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2566
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28131 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28131-Canyon-Wren-Dr-Katy-TX-77494/65715079_zpid/",
+      "lotAreaValue": 8786,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28131 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756258,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 320500,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 8786,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/f6f7c0e8916210eb4363fcc4b9c9c269-p_c.jpg"
+        }
+      ],
+      "zpid": 65715079,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1816,
+      "longitude": -95.855286,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1816
+    },
+    {
+      "bathrooms": 2.5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28118 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28118-Canyon-Wren-Dr-Katy-TX-77494/65715087_zpid/",
+      "lotAreaValue": 6507,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28118 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756891,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 318800,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6507,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/fb6bc1573855f81f184fe19364ec0ab0-p_c.jpg"
+        }
+      ],
+      "zpid": 65715087,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2029,
+      "longitude": -95.85479,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2029
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28126 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28126-Canyon-Wren-Dr-Katy-TX-77494/65715085_zpid/",
+      "lotAreaValue": 6400,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28126 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.756891,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 374300,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 6400,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/a93d49e53ece3f7fec35b8fd67ae8292-p_c.jpg"
+        }
+      ],
+      "zpid": 65715085,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2471,
+      "longitude": -95.8551,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2471
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "28111 Canyon Wren Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/28111-Canyon-Wren-Dr-Katy-TX-77494/65715074_zpid/",
+      "lotAreaValue": 5998,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "28111 Canyon Wren Dr",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.75639,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 283900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 5998,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/5ec29f75296d7b85dad102794da85861-p_c.jpg"
+        }
+      ],
+      "zpid": 65715074,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1588,
+      "longitude": -95.85447,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1588
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.030286190608502,
+      "date": "2025-08-21",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1755734400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5003228"
+      },
+      "pricePerSquareFoot": 160,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 349000
+    },
+    {
+      "priceChangeRate": -0.027297297297297,
+      "date": "2025-07-28",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1753660800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5003228"
+      },
+      "pricePerSquareFoot": 164,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 359900
+    },
+    {
+      "priceChangeRate": 0.1044776119403,
+      "date": "2025-07-09",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1752019200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "5003228"
+      },
+      "pricePerSquareFoot": 169,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 370000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-06-30",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1656547200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-06-19",
+      "source": "Zillow Rental Manager",
+      "postingIsRental": true,
+      "time": 1655596800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Zillow Rental Manager",
+        "infoString3": null,
+        "infoString1": ""
+      },
+      "pricePerSquareFoot": 1,
+      "buyerAgent": null,
+      "event": "Listed for rent",
+      "price": 2300
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-05-31",
+      "source": "Agent Provided",
+      "postingIsRental": false,
+      "time": 1653955200000,
+      "sellerAgent": {
+        "name": "Tiffani Reynolds",
+        "photo": null,
+        "profileUrl": "/profile/Tiffani-Reynolds0/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": null,
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": {
+        "name": "Rashad Ajalov",
+        "photo": null,
+        "profileUrl": "/profile/RashadAjalov/"
+      },
+      "event": "Sold",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-05-05",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1651708800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22605211"
+      },
+      "pricePerSquareFoot": 153,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 335000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-04-28",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1651104000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22605211"
+      },
+      "pricePerSquareFoot": 153,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 335000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/402286aeff3d7f67fb2047c49403a6db-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/20192-Ray-And-Jamie-Wolman-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.3,
+      "assigned": null,
+      "name": "Ray And Jamie Wolman Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/12056-Woodcreek-J-High-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Woodcreek J High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/3876-Katy-High-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 2.7,
+      "assigned": null,
+      "name": "Katy High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 2377,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Firethorne Sec 4",
+    "streetAddress": "28123 Canyon Wren Dr",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "1 day",
+  "priceChange": -10900,
+  "zestimate": 344800,
+  "zpid": 65715077,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 94,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Cozy fireplace",
+            "Oversized backyard",
+            "Covered patio",
+            "Quiet cul-de-sac",
+            "Huge kitchen",
+            "Ample counter space"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Cozy fireplace",
+            "Oversized backyard",
+            "Covered patio",
+            "Quiet cul-de-sac",
+            "Huge kitchen",
+            "Ample counter space"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 3,
+  "neighborhoodRegion": null,
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/28123-Canyon-Wren-Dr-Katy-TX-77494/65715077_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Walzel Properties - Corporate Office"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Walzel Properties - Corporate Office",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-11 02:09:37",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Rashad Ajalov",
+    "attributionTitle": null,
+    "mlsId": "76437619",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "832-444-9291",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0723138",
+        "memberFullName": "Rashad Ajalov",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "832-444-9291",
+    "agentLicenseNumber": "TREC #0723138",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "832-674-4960",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-08-21",
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": null,
+    "flooring": [
+      "Carpet",
+      "Tile"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 366426,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2005",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$800 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "7,339 sqft",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$160",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Half Bath",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Separate Shower",
+          "Primary Bath: Soaking Tub",
+          "Secondary Bath(s): Tub/Shower Combo"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Kitchen open to Family Room",
+          "Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$800 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Water District"
+    ],
+    "exteriorFeatures": [
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "7,339 sqft",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "BrandedVirtualTour",
+        "mediaURL": "https://youtube.com/shorts/eBKnyQzOMBs?feature=share"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "2,188 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional,FHA,Investor,VA Loan",
+    "otherParking": null,
+    "associationFee": "$800 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 4,
+    "architecturalStyle": "Traditional",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "Primary Bed - 1st Floor",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Cul-De-Sac",
+      "Subdivided",
+      "0 Up To 1/4 Acre"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Wolman Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": [
+      "Brick",
+      "Cement Siding"
+    ],
+    "fireplaceFeatures": [
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$800 annually",
+    "appliances": [
+      "Disposal",
+      "Dryer",
+      "Refrigerator",
+      "Washer",
+      "Electric Oven",
+      "Microwave",
+      "Gas Range",
+      "Dishwasher"
+    ],
+    "sewer": null,
+    "bathroomsPartial": null,
+    "fencing": "Full",
+    "spaFeatures": null,
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Subdivision Tennis Court"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Woodcreek Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://youtube.com/shorts/eBKnyQzOMBs?feature=share",
+    "contingency": null,
+    "yearBuilt": 2005,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "3105040010640914",
+    "incomeIncludes": null,
+    "highSchool": "Katy High School",
+    "taxAnnualAmount": 5640,
+    "subdivisionName": "Firethorne Sec 4",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757539758000,
+    "roomTypes": [
+      "Family Room",
+      "Utility Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete"
+    ],
+    "associationAmenities": [
+      "Playground",
+      "Pool",
+      "Tennis Court(s)",
+      "Trail(s)",
+      "Trash"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 2,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$800 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached"
+    ],
+    "parkingCapacity": 2,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": null,
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$800 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 3,
+    "buildingArea": "2,188",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered",
+      "Patio/Deck"
+    ],
+    "bathroomsFloat": 3,
+    "builderName": null,
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Electric Dryer Hookup",
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 2,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 160,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-10",
+  "bedrooms": 4,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691959484
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.52,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691959484
+    },
+    "arm5Bucket": {
+      "rate": 6.791,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757691959484
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 0,
+  "livingArea": 2188,
+  "zestimateHighPercent": "5",
+  "mlsid": "76437619",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 349000,
+  "priceChangeDate": 1755734400000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:59.958010+00:00",
+    "zpid": "65715077",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

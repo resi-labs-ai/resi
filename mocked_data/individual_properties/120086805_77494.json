@@ -1,0 +1,1544 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Jennifer Hernandez",
+      "badge_type": "Premier Agent",
+      "business_name": "Powers Real Estate",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "533",
+        "areacode": "979",
+        "number": "2995"
+      },
+      "zuid": "X1-ZU165m1qm07ox6x_13bwx",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -95.84424,
+  "countyFIPS": "48157",
+  "imgSrc": "https://photos.zillowstatic.com/fp/f33e2c576ed0d6442f400c521afd41a7-p_d.jpg",
+  "livingAreaValue": 6517,
+  "streetAddress": "3114 Bridle Bluff Ct",
+  "county": "Fort Bend County",
+  "monthlyHoaFee": 142,
+  "timeZone": "America/Chicago",
+  "taxHistory": [
+    {
+      "time": 1726155952929,
+      "valueIncreaseRate": 0.100000106,
+      "taxIncreaseRate": 0.096822776,
+      "taxPaid": 14936.96,
+      "value": 1050026
+    },
+    {
+      "time": 1694533552929,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": -0.06656422,
+      "taxPaid": 13618.39,
+      "value": 954569
+    },
+    {
+      "time": 1662997552929,
+      "valueIncreaseRate": 0.1,
+      "taxIncreaseRate": 0.05610498,
+      "taxPaid": 14589.53,
+      "value": 867790
+    },
+    {
+      "time": 1631461552929,
+      "valueIncreaseRate": 0.065418795,
+      "taxIncreaseRate": 0.04549494,
+      "taxPaid": 13814.47,
+      "value": 788900
+    },
+    {
+      "time": 1599925552929,
+      "valueIncreaseRate": 0.03062105,
+      "taxIncreaseRate": -0.000959431,
+      "taxPaid": 13213.33,
+      "value": 740460
+    },
+    {
+      "time": 1568303152929,
+      "valueIncreaseRate": 0.009470017,
+      "taxIncreaseRate": -0.029359914,
+      "taxPaid": 13226.02,
+      "value": 718460
+    },
+    {
+      "time": 1536767152929,
+      "valueIncreaseRate": -0.01104673,
+      "taxIncreaseRate": -0.39466763,
+      "taxPaid": 13626.08,
+      "value": 711720
+    },
+    {
+      "time": 1505231152929,
+      "valueIncreaseRate": 0.009836388,
+      "taxIncreaseRate": 0,
+      "taxPaid": 22510.08,
+      "value": 719670
+    },
+    {
+      "time": 1473695152929,
+      "valueIncreaseRate": -0.07446753,
+      "taxIncreaseRate": 0.39169142,
+      "taxPaid": 22510.08,
+      "value": 712660
+    },
+    {
+      "time": 1442072752929,
+      "valueIncreaseRate": 0.3252784,
+      "taxIncreaseRate": 0.31354773,
+      "taxPaid": 16174.62,
+      "value": 770000
+    },
+    {
+      "time": 1410536752929,
+      "valueIncreaseRate": 4.8101,
+      "taxIncreaseRate": 0,
+      "taxPaid": 12313.69,
+      "value": 581010
+    },
+    {
+      "time": 1379000752929,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 100000
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 9026,
+  "state": "TX",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUr9zghb9w5vyh_ako3o",
+    "review_count": 0,
+    "display_name": "Gayathri Ravichandran",
+    "profile_url": "https://www.zillow.com/profile/gayathrirealtor/",
+    "business_name": "Realm Real Estate Professionals - Katy",
+    "rating_average": 0,
+    "phone": "",
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2014,
+  "brokerageName": "Realm Real Estate Professionals - Katy",
+  "description": "First time on the market \u2014 the Crown Jewel of Ironwood Estates in renowned Cinco Ranch,Katy ISD Schools!\r\nFor those who expect the extraordinary, this custom masterpiece delivers unmatched\r\nluxury, privacy, and craftsmanship. Inside, discover an extended kitchen with\r\nbespoke cabinetry, professional-grade appliances, and designer lighting, garage floors\r\ninspired by luxury car showrooms, Upgraded Baths with Custom Closets &\r\n exquisite finishes throughout.Even Pets enjoy luxury with a dedicated pet shower and multiple access doors!A whole-house generator ensures comfort\r\nand peace of mind year-round. Step into a resort-style backyard designed for leisure and\r\nentertaining, featuring a sparkling custom pool, gourmet outdoor kitchen, sport courts, and\r\nlush low-maintenance landscaping. Every inch is engineered for luxury living,\r\nentertaining, and unforgettable moments. A once-in-a-lifetime chance to claim the most\r\nprestigious home in the community \u2014 private tours by appointment only.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "SEVERE",
+          "max": 10,
+          "value": 8
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.70999997854233
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.88999998569489
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.95999997854233
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.98000001907349
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.99000000953674
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.99000000953674
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3114-bridle-bluff-ct-katy-tx-77494/4800859854_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 49
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/3114-bridle-bluff-ct-katy-tx-77494/4800859854_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.11999999731779
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.15999999642372
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.21999999880791
+          }
+        ],
+        "insuranceSeparatePolicy": "RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 3
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00019999999494758
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.0012000000569969
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0021999999880791
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.0031999999191612
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.0041999998502433
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.0052000000141561
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.0062000001780689
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/3114-bridle-bluff-ct-katy-tx-77494/4800859854_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 5
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 110,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 10
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 12
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 15
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 18
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 20
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 23
+          }
+        ],
+        "riskScore": {
+          "label": "EXTREME",
+          "max": 10,
+          "value": 9
+        },
+        "source": {
+          "url": "https://firststreet.org/property/3114-bridle-bluff-ct-katy-tx-77494/4800859854_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/3114-bridle-bluff-ct-katy-tx-77494/4800859854_fsid"
+        },
+        "riskScore": {
+          "label": "MINOR",
+          "max": 10,
+          "value": 2
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 1
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 29.738287,
+  "nearbyHomes": [
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.8439,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3115 Bridle Bluff Ct",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 5322,
+      "lotSize": 17829,
+      "zpid": 119899807,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3115 Bridle Bluff Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3115-Bridle-Bluff-Ct-Katy-TX-77494/119899807_zpid/",
+      "lotAreaValue": 0.40929752066116,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.73812,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2013,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 5322,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.73811912536621,-95.84390258789062&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=P6PXTvve-jrVgjj9ahIG1pQKmnI="
+        }
+      ],
+      "currency": "USD",
+      "price": 1317400,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3110 Bridle Bluff Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3110-Bridle-Bluff-Ct-Katy-TX-77494/119980582_zpid/",
+      "lotAreaValue": 0.38971533516988,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3110 Bridle Bluff Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.738625,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1310200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16976,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.738624572753906,-95.84428405761719&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=fEV07RnQ8948nNEo1mUWlVLmbIY="
+        }
+      ],
+      "zpid": 119980582,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6225,
+      "longitude": -95.844284,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6225
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3123 Brighton Sky Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3123-Brighton-Sky-Ln-Katy-TX-77494/120892691_zpid/",
+      "lotAreaValue": 0.37038567493113,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3123 Brighton Sky Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.738062,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1321900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16133,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.738061904907227,-95.84465789794922&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=-RXkPi3t8jOEMf9k8DeiRK-f_Sw="
+        }
+      ],
+      "zpid": 120892691,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 6374,
+      "longitude": -95.84466,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 6374
+    },
+    {
+      "bathrooms": 7,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3122 Cumberland Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3122-Cumberland-Brook-Ln-Katy-TX-77494/120888847_zpid/",
+      "lotAreaValue": 0.37998163452709,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3122 Cumberland Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.737843,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1601200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16552,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/4ae37fb81d483a3e8347a6a82f142faa-p_c.jpg"
+        }
+      ],
+      "zpid": 120888847,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5948,
+      "longitude": -95.8444,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5948
+    },
+    {
+      "hdpTypeDimension": "Zestimate",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -95.84478,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3119 Brighton Sky Ln",
+        "zipcode": "77494"
+      },
+      "livingAreaValue": 5545,
+      "lotSize": 16207,
+      "zpid": 119899022,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "TX",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3119 Brighton Sky Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/3119-Brighton-Sky-Ln-Katy-TX-77494/119899022_zpid/",
+      "lotAreaValue": 0.37206152433425,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "OTHER",
+      "latitude": 29.73836,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2013,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 5545,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.738359451293945,-95.84477996826172&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=lH4HnHfp7lBlj2_BZBdE9VJM-hI="
+        }
+      ],
+      "currency": "USD",
+      "price": 1272300,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3111 Bridle Bluff Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3111-Bridle-Bluff-Ct-Katy-TX-77494/120888814_zpid/",
+      "lotAreaValue": 0.31469237832874,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3111 Bridle Bluff Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.738312,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 930600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13708,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.738311767578125,-95.84361267089844&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=Md8Vv_khJswgIGsJ3GverQi85ZM="
+        }
+      ],
+      "zpid": 120888814,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3475,
+      "longitude": -95.84361,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3475
+    },
+    {
+      "bathrooms": 5,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3106 Bridle Bluff Ct"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3106-Bridle-Bluff-Ct-Katy-TX-77494/120891525_zpid/",
+      "lotAreaValue": 0.34019742883379,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3106 Bridle Bluff Ct",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.7388,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1148900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 14818,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/34ccd66f8eb4053fb9e7cd31c5a449b4-p_c.jpg"
+        }
+      ],
+      "zpid": 120891525,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5590,
+      "longitude": -95.84399,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5590
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "3118 Cumberland Brook Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/3118-Cumberland-Brook-Ln-Katy-TX-77494/120891328_zpid/",
+      "lotAreaValue": 0.37587235996327,
+      "parentRegion": null,
+      "address": {
+        "city": "Katy",
+        "state": "TX",
+        "streetAddress": "3118 Cumberland Brook Ln",
+        "zipcode": "77494"
+      },
+      "state": "TX",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 29.73774,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 1655900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 6,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 16373,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=29.73773956298828,-95.84404754638672&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=2Ci00_adpxtz7Ur0IOP9w4dXDB0="
+        }
+      ],
+      "zpid": 120891328,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 7292,
+      "longitude": -95.84405,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 7292
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.10458333333333,
+      "date": "2025-09-11",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1757548800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "32636879"
+      },
+      "pricePerSquareFoot": 330,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 2149000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-08-12",
+      "source": "HAR",
+      "postingIsRental": false,
+      "time": 1754956800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "HAR",
+        "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_logo_inf_11.jpg",
+        "infoString1": "82474708"
+      },
+      "pricePerSquareFoot": 368,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 2400000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/f33e2c576ed0d6442f400c521afd41a7-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/texas/katy/25340-Jenks-Elementary-School/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 0.3,
+      "assigned": null,
+      "name": "Jenks Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/fulshear/25835-NEW-JR-16/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.5,
+      "assigned": null,
+      "name": "Joe M. Adams Junior High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/texas/katy/25831-NEW-High-School-14/",
+      "rating": 9,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Jordan High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 7635,
+  "city": "Katy",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.81,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Katy",
+    "state": "TX",
+    "neighborhood": null,
+    "subdivision": "Cinco Ranch Northwest Sec 6",
+    "streetAddress": "3114 Bridle Bluff Ct",
+    "zipcode": "77494"
+  },
+  "cityId": 18800,
+  "timeOnZillow": "1 day",
+  "priceChange": -251000,
+  "zestimate": 2044200,
+  "zpid": 120086805,
+  "countyId": 2698,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 94,
+  "homeInsights": {},
+  "bathrooms": 7,
+  "neighborhoodRegion": {
+    "name": "Cinco Ranch Northwest"
+  },
+  "zipcode": "77494",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 54,
+  "url": "/homedetails/3114-Bridle-Bluff-Ct-Katy-TX-77494/120086805_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "mlsName": "HAR",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Realm Real Estate Professionals - Katy"
+      }
+    ],
+    "infoString10": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Realm Real Estate Professionals - Katy",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-12 02:17:22",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Gayathri Ravichandran",
+    "attributionTitle": null,
+    "mlsId": "32636879",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "913-907-9894",
+    "listingAgents": [
+      {
+        "memberStateLicense": "TREC #0761369",
+        "memberFullName": "Gayathri Ravichandran",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "913-907-9894",
+    "agentLicenseNumber": "TREC #0761369",
+    "providerLogo": "https://photos.zillowstatic.com/fp/518d2375831526a203f08f9e431bdcbe-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Copyright 2025, Houston REALTORS\u00ae Information Service, Inc.\nThe information provided is exclusively for consumers\u2019 personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. \nInformation is deemed reliable but not guaranteed.",
+    "brokerPhoneNumber": "281-598-5800",
+    "lastChecked": "2025-09-12 08:37:49"
+  },
+  "priceChangeDateString": "2025-09-11",
+  "photoCount": 50,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated",
+      "Pool/Spa Combo"
+    ],
+    "flooring": [
+      "Carpet",
+      "Engineered Hardwood",
+      "Tile",
+      "Travertine",
+      "Vinyl"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 1172861,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2014",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Natural Gas",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Electric",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "3 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "$1,700 annually",
+        "factLabel": "HOA"
+      },
+      {
+        "factValue": "0.44 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "1 Day",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$330",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": {},
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Full Secondary Bathroom Down",
+          "Primary Bath: Double Sinks",
+          "Primary Bath: Jetted Tub",
+          "Primary Bath: Separate Shower",
+          "Secondary Bath(s): Shower Only"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Breakfast Bar",
+          "Kitchen Island",
+          "Kitchen open to Family Room",
+          "Pantry",
+          "Reverse Osmosis",
+          "Soft Closing Cabinets",
+          "Soft Closing Drawers",
+          "Under Cabinet Lighting",
+          "Walk-in Pantry"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": [
+      {
+        "phone": null,
+        "name": null,
+        "fee": "$1,700 annually",
+        "type": "HOA"
+      }
+    ],
+    "cityRegion": "Katy",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": true,
+    "landLeaseAmount": null,
+    "waterSource": null,
+    "exteriorFeatures": [
+      "Outdoor Kitchen",
+      "Sprinkler System"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.44 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "6,517 sqft",
+    "commonWalls": null,
+    "listingTerms": "Cash,Conventional",
+    "otherParking": null,
+    "associationFee": "$1,700 annually",
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 5,
+    "architecturalStyle": "Contemporary",
+    "listingId": null,
+    "structureType": "Free Standing",
+    "interiorFeatures": [
+      "2 Staircases",
+      "Crown Molding",
+      "Dry Bar",
+      "Formal Entry/Foyer",
+      "High Ceilings",
+      "Prewired for Alarm System",
+      "Wired for Sound",
+      "1 Bedroom Down - Not Primary BR",
+      "2 Bedrooms Down",
+      "Primary Bed - 1st Floor",
+      "Walk-In Closet(s)"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 3,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Cul-De-Sac",
+      "1/4 Up to 1/2 Acre"
+    ],
+    "roofType": "Composition,Energy Star/Reflective Roof",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 1,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "Jenks Elementary School",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "Attic Vents",
+      "Thermostat",
+      "Lighting",
+      "HVAC"
+    ],
+    "constructionMaterials": [
+      "Blown-In Insulation",
+      "Stucco"
+    ],
+    "fireplaceFeatures": [
+      "Outside",
+      "Electric",
+      "Gas Log"
+    ],
+    "hoaFeeTotal": "$1,700 annually",
+    "appliances": [
+      "ENERGY STAR Qualified Appliances",
+      "Disposal",
+      "Ice Maker",
+      "Refrigerator",
+      "Washer",
+      "Water Softener",
+      "Wine Refrigerator",
+      "Convection Oven",
+      "Double Oven",
+      "Microwave",
+      "Gas Cooktop",
+      "Dishwasher"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Back Yard,Full",
+    "spaFeatures": [
+      "Spa/Hot Tub"
+    ],
+    "waterViewYN": null,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Subdivision Tennis Court"
+    ],
+    "waterBodyName": null,
+    "middleOrJuniorSchool": "Adams Junior High School",
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2014,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 6,
+    "parcelNumber": "2279060030090914",
+    "incomeIncludes": null,
+    "highSchool": "Jordan High School",
+    "taxAnnualAmount": 24800,
+    "subdivisionName": "Cinco Ranch Northwest Sec 6",
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Insulated/Low-E windows",
+      "Window Coverings"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757569178000,
+    "roomTypes": [
+      "Family Room",
+      "Media Room",
+      "Utility Room",
+      "Wine Room"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Concrete"
+    ],
+    "associationAmenities": [
+      "Controlled Access",
+      "Park",
+      "Picnic Area",
+      "Pond",
+      "Tennis Court(s)",
+      "Trail(s)"
+    ],
+    "propertySubType": [
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": null,
+    "coveredParkingCapacity": 3,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": "$1,700 annually",
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached"
+    ],
+    "parkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": null,
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": false,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Prewired for Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": [
+      {
+        "feeFrequency": "$1,700 annually",
+        "name": null,
+        "phone": null
+      }
+    ],
+    "waterView": null,
+    "electric": null,
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": false,
+    "bathroomsHalf": 1,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Electric"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 7,
+    "buildingArea": "6,517",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Covered"
+    ],
+    "bathroomsFloat": 7,
+    "builderName": "Toll Brothers",
+    "highSchoolDistrict": "30 - Katy",
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Gas Dryer Hookup",
+      "Washer Hookup"
+    ],
+    "entryLocation": null,
+    "fireplaces": 3,
+    "heating": [
+      "Natural Gas"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": null,
+    "hasAssociation": true,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 330,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-11",
+  "bedrooms": 5,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.448,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757679940462
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.146,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757679940462
+    },
+    "arm5Bucket": {
+      "rate": 6.055,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757679940462
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 6,
+  "livingArea": 6517,
+  "zestimateHighPercent": "5",
+  "mlsid": "32636879",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 2149000,
+  "priceChangeDate": 1757548800000,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:53.474519+00:00",
+    "zpid": "120086805",
+    "zipcode": "77494",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

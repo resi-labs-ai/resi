@@ -1,0 +1,1704 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -118.39674,
+  "countyFIPS": null,
+  "imgSrc": "https://photos.zillowstatic.com/fp/664ff625e9b2d0f22e5c26b77942c213-p_d.jpg",
+  "livingAreaValue": 11500,
+  "streetAddress": "9301 Cherokee Ln",
+  "county": "Los Angeles County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/Los_Angeles",
+  "taxHistory": {},
+  "dateSold": null,
+  "annualHomeownersInsurance": 50379,
+  "state": "CA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZUrn6jdng9hg5l_728x6",
+    "review_count": 0,
+    "display_name": "Tatia Lee",
+    "profile_url": "https://www.zillow.com/profile/tatia99/",
+    "business_name": "The Beverly Hills Estates",
+    "rating_average": 0,
+    "phone": {
+      "prefix": "461",
+      "areacode": "310",
+      "number": "5110"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_n.png"
+  },
+  "yearBuilt": 2006,
+  "brokerageName": "The Beverly Hills Estates",
+  "description": "Your dream lifestyle awaits in this exclusive offering of a private Tuscan-inspired estate, known as Villa-Villa. Set on over half an acre of lush gardens in the heart of Beverly Hills, this celebrity compound spans over 11,500 sq. ft. across three meticulous structures, featuring 7 bedrooms, 11 bathrooms, a gourmet chef's kitchen, a warm and inviting family room with an adjoining office, a grand living room with soaring 30-foot ceilings, a formal dining room with a built-in bar, a custom screening theater, and a spacious upper-level living room. The resort-style grounds include a sparkling pool and spa, sauna, cabana with kitchen, multiple patios, and a rooftop terrace with  Pacific Ocean views. An enclosed vegetable garden and viewing deck add to the expansive outdoor living amenities. Dual primary suites boast private loggias, spa-inspired baths, and expansive walk-in closets, while a separate two-bedroom guest house offers its own private entrance and charming courtyard. Perfectly positioned next to Trousdale Estates, Villa-Villa delivers unmatched privacy while being just moments from the Beverly Hills Hotel, Sunset Strip, and Century City- a true sanctuary blending timeless elegance, modern luxury, and resort-style living.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/9301-cherokee-ln-beverly-hills-ca-90210/601370967_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 21
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/9301-cherokee-ln-beverly-hills-ca-90210/601370967_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.059999998658895
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.10999999940395
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.15000000596046
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.18999999761581
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.23000000417233
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.27000001072884
+          }
+        ],
+        "insuranceSeparatePolicy": "STRONGLY_RECOMMENDED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "RECOMMENDED",
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.00060000002849847
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.003800000064075
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.0074999998323619
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.011500000022352
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.016000000759959
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.020800000056624
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.026000000536442
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/9301-cherokee-ln-beverly-hills-ca-90210/601370967_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 45
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 92,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 4
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 8
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 12
+          }
+        ],
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "source": {
+          "url": "https://firststreet.org/property/9301-cherokee-ln-beverly-hills-ca-90210/601370967_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/9301-cherokee-ln-beverly-hills-ca-90210/601370967_fsid"
+        },
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 34.11202,
+  "nearbyHomes": [
+    {
+      "bathrooms": 10,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9311 W Cherokee Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9311-W-Cherokee-Ln-Beverly-Hills-CA-90210/79530907_zpid/",
+      "lotAreaValue": 0.34568411386593,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9311 W Cherokee Ln",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11182,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 8776900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 7,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15058,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/bab9d3139bb79fd53e4c50bea0f6f298-p_c.jpg"
+        }
+      ],
+      "zpid": 79530907,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 10449,
+      "longitude": -118.39707,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 10449
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2020 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/2020-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534296_zpid/",
+      "lotAreaValue": 0.5397842056933,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "2020 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.111874,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2590700,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 23512,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/efc163021f9eeec52c06132d89e6e3a8-p_c.jpg"
+        }
+      ],
+      "zpid": 20534296,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2311,
+      "longitude": -118.396324,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2311
+    },
+    {
+      "bathrooms": 11,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9301 W Cherokee Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9301-W-Cherokee-Ln-Beverly-Hills-CA-90210/72655299_zpid/",
+      "lotAreaValue": 0.64173553719008,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9301 W Cherokee Ln",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11172,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 10800000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 7,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 27954,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/096fcf40d036de7d7a417fe6bf177de3-p_c.jpg"
+        }
+      ],
+      "zpid": 72655299,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 10998,
+      "longitude": -118.39701,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 10998
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.39731,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9321 Cherokee Ln",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 4149,
+      "lotSize": 33262,
+      "zpid": 20534217,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 4,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9321 Cherokee Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/9321-Cherokee-Ln-Beverly-Hills-CA-90210/20534217_zpid/",
+      "lotAreaValue": 0.7636,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "25526207",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "RECENTLY_SOLD",
+      "latitude": 34.111874,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2016,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 4149,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/e265eab610768229fe2cc866a6e6bad0-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 9820000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "hdpTypeDimension": "ForSale",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -118.39615,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "2002 Loma Vista Dr",
+        "zipcode": "90210"
+      },
+      "livingAreaValue": 10047,
+      "lotSize": 37411,
+      "zpid": 20534301,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 9,
+      "state": "CA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2002 Loma Vista Dr"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/2002-Loma-Vista-Dr-Beverly-Hills-CA-90210/20534301_zpid/",
+      "lotAreaValue": 0.85883838383838,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "25571569",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "FOR_SALE",
+      "latitude": 34.11213,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 2017,
+      "listingTypeDimension": "For Sale by Agent",
+      "livingArea": 10047,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c8a1867650fa5c0bf9daa91ce5a7a138-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 24995000,
+      "listing_sub_type": {
+        "is_FSBA": true,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 6,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "505 Evelyn Pl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/505-Evelyn-Pl-Beverly-Hills-CA-90210/20534239_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "505 Evelyn Pl",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.111267,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 6025200,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/ddeb3037b659164fdc037e9d8d809932-p_c.jpg"
+        }
+      ],
+      "zpid": 20534239,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 5695,
+      "longitude": -118.39677,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": "58d34bngqa37k",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 5695
+    },
+    {
+      "bathrooms": null,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "505 Evelyn Pl"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/505-Evelyn-Pl-Beverly-Hills-CA-90210/135447350_zpid/",
+      "lotAreaValue": 1589,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "505 Evelyn Pl",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.111267,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 68310,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": null,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 1589,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=34.11126708984375,-118.39676666259766&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=3ii_2qyCrkxpMyoqFNMFNidt70Q="
+        }
+      ],
+      "zpid": 135447350,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": null,
+      "longitude": -118.39677,
+      "livingAreaUnitsShort": null,
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": null,
+      "currency": "USD",
+      "livingAreaValue": null
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "9333 Cherokee Ln"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/9333-Cherokee-Ln-Beverly-Hills-CA-90210/20534218_zpid/",
+      "lotAreaValue": 0.7780303030303,
+      "parentRegion": null,
+      "address": {
+        "city": "Beverly Hills",
+        "state": "CA",
+        "streetAddress": "9333 Cherokee Ln",
+        "zipcode": "90210"
+      },
+      "state": "CA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 34.11199,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 2793600,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 33891,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=9333+Cherokee+Ln%2C+Beverly+Hills%2C+CA+90210&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=8Vih8zeb8pIr7QjxBWXxiE2JZtw="
+        }
+      ],
+      "zpid": 20534218,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 2800,
+      "longitude": -118.3977,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2800
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": -0.076952674105425,
+      "date": "2025-09-09",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1757376000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25588639"
+      },
+      "pricePerSquareFoot": 1043,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 11995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2025-06-04",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1748995200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-476269"
+      },
+      "pricePerSquareFoot": 1130,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 12995000
+    },
+    {
+      "priceChangeRate": 0.20324074074074,
+      "date": "2025-01-06",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1736121600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "25-476269"
+      },
+      "pricePerSquareFoot": 1130,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 12995000
+    },
+    {
+      "priceChangeRate": -0.06856403622251,
+      "date": "2024-08-30",
+      "source": "SDMLS",
+      "postingIsRental": false,
+      "time": 1724976000000,
+      "sellerAgent": {
+        "name": "Jacob Greene",
+        "photo": null,
+        "profileUrl": "/profile/JacobGreene90210/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "SDMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/32fa7129f16f8438799012a11d1f3534-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-380157"
+      },
+      "pricePerSquareFoot": 939,
+      "buyerAgent": {
+        "name": "Tatia Lee",
+        "photo": null,
+        "profileUrl": "/profile/tatia99/"
+      },
+      "event": "Sold",
+      "price": 10800000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-08-30",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1724976000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-380157"
+      },
+      "pricePerSquareFoot": 1008,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 11595000
+    },
+    {
+      "priceChangeRate": -0.1077337437476,
+      "date": "2024-06-22",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1719014400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-380157"
+      },
+      "pricePerSquareFoot": 1008,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 11595000
+    },
+    {
+      "priceChangeRate": -0.071454090746695,
+      "date": "2024-05-22",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1716336000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-380157"
+      },
+      "pricePerSquareFoot": 1130,
+      "buyerAgent": null,
+      "event": "Price change",
+      "price": 12995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2024-04-15",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1713139200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "24-380157"
+      },
+      "pricePerSquareFoot": 1217,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 13995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2023-07-17",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1689552000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143923"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": null
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-06-07",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1654560000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143923"
+      },
+      "pricePerSquareFoot": 1217,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 13995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-04-19",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1650326400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143923"
+      },
+      "pricePerSquareFoot": 1217,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 13995000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2022-04-11",
+      "source": "CLAW",
+      "postingIsRental": false,
+      "time": 1649635200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "CLAW",
+        "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "22-143923"
+      },
+      "pricePerSquareFoot": 1217,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 13995000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/664ff625e9b2d0f22e5c26b77942c213-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/california/west-hollywood/2468-West-Hollywood-Elementary-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 1.7,
+      "assigned": null,
+      "name": "West Hollywood Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Elementary",
+      "grades": "K-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2058-Emerson-Community-Charter-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 4.6,
+      "assigned": null,
+      "name": "Emerson Community Charter School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Charter"
+    },
+    {
+      "link": "https://www.greatschools.org/california/los-angeles/2440-University-Senior-High-School-Charter/",
+      "rating": 7,
+      "totalCount": null,
+      "distance": 5.9,
+      "assigned": null,
+      "name": "University Senior High School Charter",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Charter"
+    }
+  ],
+  "rentZestimate": null,
+  "city": "Beverly Hills",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 1.16,
+  "isShowcaseListing": false,
+  "openHouseSchedule": {},
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "neighborhood": null,
+    "subdivision": null,
+    "streetAddress": "9301 Cherokee Ln",
+    "zipcode": "90210"
+  },
+  "cityId": 12447,
+  "timeOnZillow": "3 days",
+  "priceChange": null,
+  "zestimate": 11725900,
+  "zpid": 443777191,
+  "countyId": 3101,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 1039,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool and spa",
+            "Custom screening theater",
+            "Private loggias",
+            "Lush gardens",
+            "Multiple patios",
+            "Expansive walk-in closets",
+            "Enclosed vegetable garden"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Sparkling pool and spa",
+            "Custom screening theater",
+            "Private loggias",
+            "Lush gardens",
+            "Multiple patios",
+            "Expansive walk-in closets",
+            "Enclosed vegetable garden"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 11,
+  "neighborhoodRegion": {
+    "name": "Beverly Crest"
+  },
+  "zipcode": "90210",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 9,
+  "url": "/homedetails/9301-Cherokee-Ln-Beverly-Hills-CA-90210/443777191_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "mlsName": "CLAW",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "The Beverly Hills Estates"
+      }
+    ],
+    "infoString10": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "The Beverly Hills Estates",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 08:01:08",
+    "trueStatus": null,
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Tatia Lee",
+    "attributionTitle": null,
+    "mlsId": "25588639",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "310-461-5110",
+    "listingAgents": [
+      {
+        "memberStateLicense": "DRE # 02197667",
+        "memberFullName": "Tatia Lee",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "310-461-5110",
+    "agentLicenseNumber": "DRE # 02197667",
+    "providerLogo": "https://photos.zillowstatic.com/fp/d1d7f14ba9e5de22bbf848071a4b8b8e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "\u00a9 2025 The MLS\u2122 - Combined L.A. Westside MLS (CLAW). All rights reserved. Based on information from The MLS\u2122 - Combined L.A. Westside MLS (CLAW as of 2025-09-12 08:12:30 PDT. All data, including all measurements and calculations of area, is obtained from various sources and has not been, and will not be, verified by broker or MLS. All information should be independently reviewed and verified for accuracy. Properties may or may not be listed by the office/agent presenting the information.\nIDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.\nInformation is deemed reliable but not guaranteed.\n\n",
+    "brokerPhoneNumber": "310-626-4248",
+    "lastChecked": "2025-09-12 08:12:30"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 46,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "Heated And Filtered",
+      "In Ground"
+    ],
+    "flooring": [
+      "Hardwood",
+      "Travertine"
+    ],
+    "foundationDetails": [
+      "Slab"
+    ],
+    "accessibilityFeatures": null,
+    "hasGarage": true,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": null,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Residential, Single Family Residence",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "2006",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Central",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Air Conditioning, Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "2 Attached Garage spaces",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.64 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "3 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": "$1,043",
+        "factLabel": "Price/sqft"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": false,
+    "view": [
+      "Canyon",
+      "Mountain(s)",
+      "Ocean"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Walk-In Closet(s)"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Bidet",
+          "Double Shower",
+          "Double Vanity(s)",
+          "Granite",
+          "Powder Room",
+          "Shower and Tub",
+          "Steam Shower",
+          "Travertine"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Gourmet Kitchen",
+          "Bar"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Beverly Hills",
+    "mainLevelBathrooms": null,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Public"
+    ],
+    "exteriorFeatures": [
+      "Balcony",
+      "Barbecue",
+      "Sauna Private"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": null,
+    "elevationUnits": null,
+    "exclusions": [
+      "The Seller and Broker hereby acknowledge and agree that all furniture",
+      "artwork",
+      "and statues located on the property are specifically excluded from this listing and any resulting sale. These items shall not be considered part of the real property being offered and will be removed by the Seller prior to close of escrow",
+      "unless otherwise agreed to in writing by both parties."
+    ],
+    "mainLevelBedrooms": null,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": 0,
+    "lotSize": "0.64 Acres",
+    "entryLevel": null,
+    "media": {},
+    "greenWaterConservation": null,
+    "stories": 2,
+    "livingArea": "11,500 sqft",
+    "commonWalls": null,
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": true,
+    "bedrooms": 7,
+    "architecturalStyle": "Mediterranean",
+    "listingId": null,
+    "structureType": "Detached",
+    "interiorFeatures": [
+      "Beamed Ceilings",
+      "Bidet",
+      "Cathedral-Vaulted Ceilings",
+      "Phone System",
+      "Two Story Ceilings",
+      "High Ceilings",
+      "Smart Home",
+      "Built-in Features",
+      "Recessed Lighting",
+      "Ceiling Fan(s)",
+      "Central Vacuum",
+      "Breakfast Counter / Bar",
+      "Dining Area",
+      "Family Kitchen",
+      "Formal Dining Rm"
+    ],
+    "horseAmenities": null,
+    "garageParkingCapacity": 2,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Front Yard",
+      "Landscaped",
+      "Lawn",
+      "Flag Lot",
+      "Secluded"
+    ],
+    "roofType": "Clay",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": null,
+    "daysOnZillow": 3,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": null,
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": null,
+    "constructionMaterials": {},
+    "fireplaceFeatures": [
+      "Den",
+      "Family Room",
+      "Gas",
+      "Great Room",
+      "Guest House",
+      "Living Room",
+      "Outside"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Built-In And Free Standing",
+      "Indoor Grill",
+      "Built-In Gas",
+      "Convection Oven",
+      "Gas Cooktop",
+      "Gas Oven",
+      "Microwave",
+      "Range Hood",
+      "Barbeque",
+      "Disposal",
+      "Dishwasher",
+      "Dryer",
+      "Water Conditioner",
+      "Water Filter",
+      "Water Line to Refrigerator",
+      "Trash Compactor",
+      "Range/Oven",
+      "Refrigerator",
+      "Washer",
+      "Freezer",
+      "Gas Water Heater"
+    ],
+    "sewer": [
+      "In Street"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "Gate,Fenced Yard",
+    "spaFeatures": [
+      "In Ground",
+      "Bath",
+      "Tub With Jets"
+    ],
+    "waterViewYN": true,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": null,
+    "waterfrontFeatures": null,
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": null,
+    "waterBodyName": null,
+    "middleOrJuniorSchool": null,
+    "lotSizeDimensions": null,
+    "virtualTour": null,
+    "contingency": null,
+    "yearBuilt": 2006,
+    "utilities": null,
+    "totalActualRent": null,
+    "bathroomsFull": 8,
+    "parcelNumber": null,
+    "incomeIncludes": null,
+    "highSchool": null,
+    "taxAnnualAmount": 139142,
+    "subdivisionName": null,
+    "storiesTotal": null,
+    "storiesDecimal": 2,
+    "specialListingConditions": "Standard",
+    "windowFeatures": null,
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1757378871000,
+    "roomTypes": [
+      "Den",
+      "Cabana",
+      "Breakfast Area",
+      "Home Theatre",
+      "Formal Entry",
+      "Family Room",
+      "Powder",
+      "Sauna",
+      "Walk-In Closet",
+      "Walk-In Pantry",
+      "Patio Open",
+      "Patio Covered",
+      "Living Room",
+      "Library",
+      "Dining Room",
+      "Guest House",
+      "Loft",
+      "Pantry"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": null,
+    "associationAmenities": null,
+    "propertySubType": [
+      "Residential",
+      "Single Family Residence"
+    ],
+    "hasCooling": true,
+    "levels": "Two",
+    "coveredParkingCapacity": 4,
+    "foundationArea": null,
+    "zoning": "LARE15",
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Attached Carport",
+      "Garage - 2 Car",
+      "Driveway",
+      "On Street"
+    ],
+    "parkingCapacity": 4,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Pool House",
+      "Guest House",
+      "Shed(s)",
+      "Other",
+      "Detached Guest House"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Exterior Security Lights",
+      "Automatic Gate",
+      "Carbon Monoxide Detector(s)",
+      "Security Lights",
+      "Fire and Smoke Detection System",
+      "Gated",
+      "Smoke Detector(s)",
+      "T.V.",
+      "Prewired",
+      "Alarm System"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": "Ocean",
+    "electric": null,
+    "buildingFeatures": [
+      "Custom Built",
+      "High Ceilings (9 Feet+)"
+    ],
+    "hasOpenParking": true,
+    "hasCarport": true,
+    "bathroomsHalf": 3,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": 0,
+    "hasSpa": true,
+    "basement": null,
+    "associationFee2": null,
+    "cooling": [
+      "Air Conditioning",
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": null,
+    "bathrooms": 11,
+    "buildingArea": "11,500",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Deck",
+      "Awning(s)",
+      "Brick",
+      "Concrete Slab",
+      "Covered Porch",
+      "Patio",
+      "Roof Top Deck"
+    ],
+    "bathroomsFloat": 11,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": null,
+    "laundryFeatures": [
+      "Laundry Area"
+    ],
+    "entryLocation": "Foyer",
+    "fireplaces": 9,
+    "heating": [
+      "Central"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 2,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": null,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": 1043,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-09",
+  "bedrooms": 7,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 6.295,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687697695
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 6.166,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687697695
+    },
+    "arm5Bucket": {
+      "rate": 6.175,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757687697695
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 33,
+  "livingArea": 11500,
+  "zestimateHighPercent": "5",
+  "mlsid": "25588639",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 11995000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:43:18.811212+00:00",
+    "zpid": "443777191",
+    "zipcode": "90210",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}

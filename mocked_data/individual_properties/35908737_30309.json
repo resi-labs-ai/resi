@@ -1,0 +1,1896 @@
+{
+  "buildingPermits": null,
+  "contact_recipients": [
+    {
+      "agent_reason": 1,
+      "zpro": null,
+      "recent_sales": 0,
+      "review_count": 0,
+      "display_name": "Premier Broker Flex Atlanta GA",
+      "badge_type": "Premier Agent",
+      "business_name": "Zillow Group",
+      "rating_average": 0,
+      "phone": {
+        "prefix": "452",
+        "areacode": "206",
+        "number": "1030"
+      },
+      "zuid": "X1-ZUv2ktj4jt3nyh_98wrm",
+      "image_url": "https://www.zillowstatic.com/static/images/nophoto_h_g.png"
+    }
+  ],
+  "longitude": -84.398285,
+  "countyFIPS": "13121",
+  "imgSrc": "https://photos.zillowstatic.com/fp/c29288261bfd5415c628e3b369553c91-p_d.jpg",
+  "livingAreaValue": 0,
+  "streetAddress": "1651 Geary Dr NW",
+  "county": "Fulton County",
+  "monthlyHoaFee": null,
+  "timeZone": "America/New_York",
+  "taxHistory": [
+    {
+      "time": 1726155911744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.44339025,
+      "taxPaid": 7242.73,
+      "value": 220520
+    },
+    {
+      "time": 1694533511744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.16702193,
+      "taxPaid": 5017.86,
+      "value": 220520
+    },
+    {
+      "time": 1662997511744,
+      "valueIncreaseRate": 0.11396242,
+      "taxIncreaseRate": 0.054540627,
+      "taxPaid": 6024,
+      "value": 220520
+    },
+    {
+      "time": 1631461511744,
+      "valueIncreaseRate": 0.0949115,
+      "taxIncreaseRate": -0.23682722,
+      "taxPaid": 5712.44,
+      "value": 197960
+    },
+    {
+      "time": 1599925511744,
+      "valueIncreaseRate": 0.17954071,
+      "taxIncreaseRate": 0.45745984,
+      "taxPaid": 7485.12,
+      "value": 180800
+    },
+    {
+      "time": 1568303111744,
+      "valueIncreaseRate": 0.07429212,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5135.73,
+      "value": 153280
+    },
+    {
+      "time": 1536767111744,
+      "valueIncreaseRate": 0.12879747,
+      "taxIncreaseRate": 0,
+      "taxPaid": 5135.73,
+      "value": 142680
+    },
+    {
+      "time": 1505231111744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.092255294,
+      "taxPaid": 5135.73,
+      "value": 126400
+    },
+    {
+      "time": 1473695111744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.003731251,
+      "taxPaid": 4701.95,
+      "value": 126400
+    },
+    {
+      "time": 1442072711744,
+      "valueIncreaseRate": 0.13587347,
+      "taxIncreaseRate": 0.26352596,
+      "taxPaid": 4719.56,
+      "value": 126400
+    },
+    {
+      "time": 1410536711744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0.026878651,
+      "taxPaid": 3735.23,
+      "value": 111280
+    },
+    {
+      "time": 1379000711744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": -0.007262445,
+      "taxPaid": 3637.46,
+      "value": 111280
+    },
+    {
+      "time": 1347464711744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3664.07,
+      "value": 111280
+    },
+    {
+      "time": 1315842311744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111280
+    },
+    {
+      "time": 1284306311744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3847.66,
+      "value": 111280
+    },
+    {
+      "time": 1252770311744,
+      "valueIncreaseRate": -0.0010771992,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111280
+    },
+    {
+      "time": 1221234311744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111400
+    },
+    {
+      "time": 1189611911744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111400
+    },
+    {
+      "time": 1126539911744,
+      "valueIncreaseRate": 0.025405006,
+      "taxIncreaseRate": 0,
+      "taxPaid": null,
+      "value": 111400
+    },
+    {
+      "time": 1095003911744,
+      "valueIncreaseRate": 0.02762013,
+      "taxIncreaseRate": -0.72596705,
+      "taxPaid": 1023.62,
+      "value": 108640
+    },
+    {
+      "time": 1063381511744,
+      "valueIncreaseRate": 0.058046438,
+      "taxIncreaseRate": 2.6837075,
+      "taxPaid": 3735.39,
+      "value": 105720
+    },
+    {
+      "time": 1031845511744,
+      "valueIncreaseRate": 0.10141093,
+      "taxIncreaseRate": -0.6693481,
+      "taxPaid": 1014.03,
+      "value": 99920
+    },
+    {
+      "time": 1000309511744,
+      "valueIncreaseRate": 0,
+      "taxIncreaseRate": 0,
+      "taxPaid": 3066.76,
+      "value": 90720
+    }
+  ],
+  "dateSold": null,
+  "annualHomeownersInsurance": 3087,
+  "state": "GA",
+  "listed_by": {
+    "agent_reason": 3,
+    "zpro": false,
+    "recent_sales": 0,
+    "zuid": "X1-ZU12xzlgxtao07d_7ew1f",
+    "review_count": 34,
+    "display_name": "Neeley Bain",
+    "profile_url": "https://www.zillow.com/profile/neeleybainrealtor/",
+    "business_name": "Dorsey Alston Realtors",
+    "rating_average": 5,
+    "phone": {
+      "prefix": "408",
+      "areacode": "404",
+      "number": "8975"
+    },
+    "badge_type": "Listing Agent",
+    "image_url": "https://photos.zillowstatic.com/fp/8643a304e18e5fc25d7daa32c8159585-h_n.jpg"
+  },
+  "yearBuilt": 1944,
+  "brokerageName": "Dorsey Alston Realtors",
+  "description": "One of the most coveted locations in Loring Heights\u2014tucked away on a quiet dead-end street just feet away from the neighborhood park and playground. This beautifully renovated 3 bed/2 bath home offers a spacious walk-out backyard, perfect for outdoor living and entertaining. Truly turnkey, it features high-end updates, including 13 triple-pane windows replaced in 2022. The backyard shed provides ideal storage or the potential for a creative flex space. Loring Heights remains one of Atlanta\u2019s most desirable neighborhoods thanks to its unbeatable location with easy access to both Buckhead and Midtown, convenient proximity to major interstates, and direct connectivity to the expanding Northwest Beltline trail.",
+  "climate": {
+    "windSources": {
+      "primary": {
+        "insuranceRecommendation": "CRITICAL",
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 5
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0.0099999997764826
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0.050000000745058
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0.090000003576279
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0.12999999523163
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0.17000000178814
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0.20999999344349
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0.25
+          }
+        ],
+        "source": {
+          "url": "https://firststreet.org/property/1651-geary-dr-nw-atlanta-ga-30309/132178164_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_REQUIRED",
+        "historicCountAll": 28
+      }
+    },
+    "floodSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "femaZone": "X_UNSHADED",
+        "source": {
+          "url": "https://firststreet.org/property/1651-geary-dr-nw-atlanta-ga-30309/132178164_fsid"
+        },
+        "probability": [
+          {
+            "relativeYear": 0,
+            "probability": 0
+          },
+          {
+            "relativeYear": 5,
+            "probability": 0
+          },
+          {
+            "relativeYear": 10,
+            "probability": 0
+          },
+          {
+            "relativeYear": 15,
+            "probability": 0
+          },
+          {
+            "relativeYear": 20,
+            "probability": 0
+          },
+          {
+            "relativeYear": 25,
+            "probability": 0
+          },
+          {
+            "relativeYear": 30,
+            "probability": 0
+          }
+        ],
+        "insuranceSeparatePolicy": "NOT_REQUIRED",
+        "historicCountPropertyAll": 0
+      }
+    },
+    "fireSources": {
+      "primary": {
+        "insuranceRecommendation": "NOT_CRITICAL",
+        "riskScore": {
+          "label": "MINIMAL",
+          "max": 10,
+          "value": 1
+        },
+        "probability": {},
+        "source": {
+          "url": "https://firststreet.org/property/1651-geary-dr-nw-atlanta-ga-30309/132178164_fsid"
+        },
+        "insuranceSeparatePolicy": "LIKELY_OPTIONAL",
+        "historicCountAll": 1
+      }
+    },
+    "heatSources": {
+      "primary": {
+        "percentile98Temp": 104,
+        "hotDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 9
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 11
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 13
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 14
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 16
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 18
+          }
+        ],
+        "riskScore": {
+          "label": "MAJOR",
+          "max": 10,
+          "value": 6
+        },
+        "source": {
+          "url": "https://firststreet.org/property/1651-geary-dr-nw-atlanta-ga-30309/132178164_fsid"
+        }
+      }
+    },
+    "airSources": {
+      "primary": {
+        "source": {
+          "url": "https://firststreet.org/property/1651-geary-dr-nw-atlanta-ga-30309/132178164_fsid"
+        },
+        "riskScore": {
+          "label": "MODERATE",
+          "max": 10,
+          "value": 4
+        },
+        "badAirDays": [
+          {
+            "relativeYear": 0,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 5,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 10,
+            "dayCount": 5
+          },
+          {
+            "relativeYear": 15,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 20,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 25,
+            "dayCount": 7
+          },
+          {
+            "relativeYear": 30,
+            "dayCount": 7
+          }
+        ]
+      }
+    }
+  },
+  "latitude": 33.799755,
+  "nearbyHomes": [
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1657 Geary Dr NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1657-Geary-Dr-NW-Atlanta-GA-30309/35908692_zpid/",
+      "lotAreaValue": 10323,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1657 Geary Dr NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.79994,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 538000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 10323,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=1657+Geary+Dr+NW%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=du5xAkvaOe2sgpQOV-WlpvYgtwI="
+        }
+      ],
+      "zpid": 35908692,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1136,
+      "longitude": -84.39824,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1136
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Square Feet",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1647 Geary Dr NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1647-Geary-Dr-NW-Atlanta-GA-30309/35908738_zpid/",
+      "lotAreaValue": 9626.76,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1647 Geary Dr NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10143741",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.799557,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 930000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 9626,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/7d94b0959a08baf93b3ba5d1097cef4a-p_c.jpg"
+        }
+      ],
+      "zpid": 35908738,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 2096,
+      "longitude": -84.39837,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 2096
+    },
+    {
+      "hdpTypeDimension": "RecentlySold",
+      "lotAreaUnits": "Acres",
+      "isShowcaseListing": false,
+      "longitude": -84.39817,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1661 Geary Dr NW",
+        "zipcode": "30309"
+      },
+      "livingAreaValue": 1414,
+      "lotSize": 12675,
+      "zpid": 35908691,
+      "livingAreaUnitsShort": "sqft",
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "bathrooms": 1,
+      "state": "GA",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1661 Geary Dr NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "hdpUrl": "/homedetails/1661-Geary-Dr-NW-Atlanta-GA-30309/35908691_zpid/",
+      "lotAreaValue": 0.291,
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "7101192",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "homeStatus": "SOLD",
+      "latitude": 33.80013,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Single Family",
+      "newConstructionType": null,
+      "yearBuilt": 1944,
+      "listingTypeDimension": "Unknown Listed By",
+      "livingArea": 1414,
+      "providerListingID": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/92999cb435df600cdc6929ac471c49fe-p_c.jpg"
+        }
+      ],
+      "currency": "USD",
+      "price": 730000,
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      }
+    },
+    {
+      "bathrooms": 4,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1642 Loring Dr NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1642-Loring-Dr-NW-Atlanta-GA-30309/35908690_zpid/",
+      "lotAreaValue": 0.34598255280073,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1642 Loring Dr NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.799633,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 961900,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 5,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 15071,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/c807ecd3838fbaaa831c52bc8a73ee3a-p_c.jpg"
+        }
+      ],
+      "zpid": 35908690,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 3410,
+      "longitude": -84.397766,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 3410
+    },
+    {
+      "bathrooms": 1,
+      "newConstructionType": null,
+      "lotAreaUnits": "sqft",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "1642 Loring Dr NW #GARDEN"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/1642-Loring-Dr-NW-GARDEN-Atlanta-GA-30309/2092898654_zpid/",
+      "lotAreaValue": null,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "1642 Loring Dr NW #GARDEN",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.799633,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 0,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 2,
+      "propertyTypeDimension": "Apartment",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": null,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/29a992e83dfaa0a19ce7aa19375ca257-p_c.jpg"
+        }
+      ],
+      "zpid": 2092898654,
+      "hdpTypeDimension": "NoZestimate",
+      "livingArea": 1800,
+      "longitude": -84.397766,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "APARTMENT",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1800
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "315 N Garden Ln NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/315-N-Garden-Ln-NW-Atlanta-GA-30309/35908687_zpid/",
+      "lotAreaValue": 1,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "315 N Garden Ln NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.799294,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 770100,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 43560,
+      "miniCardPhotos": [
+        {
+          "url": "https://maps.googleapis.com/maps/api/streetview?location=315+N+Garden+Ln+NW%2C+Atlanta%2C+GA+30309&size=316x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=c6TosbmRMz__ACficcnKyp3JN4Y="
+        }
+      ],
+      "zpid": 35908687,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1592,
+      "longitude": -84.39819,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1592
+    },
+    {
+      "bathrooms": 2,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "309 N Garden Ln NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/309-N-Garden-Ln-NW-Atlanta-GA-30309/35908688_zpid/",
+      "lotAreaValue": 0.30259412304867,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "309 N Garden Ln NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": null,
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.79932,
+      "homeStatus": "OTHER",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 779000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 3,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 13181,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/0fc59ff379043d32567fa938877b1a21-p_c.jpg"
+        }
+      ],
+      "zpid": 35908688,
+      "hdpTypeDimension": "Zestimate",
+      "livingArea": 1824,
+      "longitude": -84.39793,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1824
+    },
+    {
+      "bathrooms": 3,
+      "newConstructionType": null,
+      "lotAreaUnits": "Acres",
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "321 N Garden Ln NW"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "isPremierBuilder": false,
+      "isShowcaseListing": false,
+      "hdpUrl": "/homedetails/321-N-Garden-Ln-NW-Atlanta-GA-30309/35908686_zpid/",
+      "lotAreaValue": 0.286,
+      "parentRegion": null,
+      "address": {
+        "city": "Atlanta",
+        "state": "GA",
+        "streetAddress": "321 N Garden Ln NW",
+        "zipcode": "30309"
+      },
+      "state": "GA",
+      "attributionInfo": {
+        "agentPhoneNumber": null,
+        "trueStatus": null,
+        "providerLogo": null,
+        "mlsId": "10238456",
+        "brokerName": null,
+        "mlsName": null,
+        "brokerPhoneNumber": null,
+        "agentName": null
+      },
+      "latitude": 33.799232,
+      "homeStatus": "SOLD",
+      "listing_sub_type": {
+        "is_FSBA": false,
+        "is_forAuction": false,
+        "is_comingSoon": false,
+        "is_foreclosure": false,
+        "is_bankOwned": false,
+        "is_newHome": false,
+        "is_FSBO": false
+      },
+      "price": 735000,
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "bedrooms": 4,
+      "propertyTypeDimension": "Single Family",
+      "listingTypeDimension": "Unknown Listed By",
+      "lotSize": 12458,
+      "miniCardPhotos": [
+        {
+          "url": "https://photos.zillowstatic.com/fp/af42613df233f8208f604093fdcdd032-p_c.jpg"
+        }
+      ],
+      "zpid": 35908686,
+      "hdpTypeDimension": "RecentlySold",
+      "livingArea": 1977,
+      "longitude": -84.39846,
+      "livingAreaUnitsShort": "sqft",
+      "providerListingID": null,
+      "homeType": "SINGLE_FAMILY",
+      "livingAreaUnits": "Square Feet",
+      "currency": "USD",
+      "livingAreaValue": 1977
+    }
+  ],
+  "priceHistory": [
+    {
+      "priceChangeRate": 0.13251155624037,
+      "date": "2025-09-04",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1756944000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "7642074"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 735000
+    },
+    {
+      "priceChangeRate": 0.022047244094488,
+      "date": "2024-05-28",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1716854400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6870474"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listing removed",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": -0.021571648690293,
+      "date": "2021-05-27",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1622073600000,
+      "sellerAgent": {
+        "name": "Amy French",
+        "photo": null,
+        "profileUrl": "/profile/zuser20140625114211308/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_logo_inf_11.jpg",
+        "infoString1": "8962260"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 635000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-04-28",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1619568000000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6870474"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2021-04-20",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1618876800000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6870474"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Contingent",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": 0.4358407079646,
+      "date": "2021-04-16",
+      "source": "FMLS GA",
+      "postingIsRental": false,
+      "time": 1618531200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "FMLS GA",
+        "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_logo_inf_11.jpg",
+        "infoString1": "6870474"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 649000
+    },
+    {
+      "priceChangeRate": 0.0044444444444444,
+      "date": "2019-04-01",
+      "source": "GAMLS",
+      "postingIsRental": false,
+      "time": 1554076800000,
+      "sellerAgent": {
+        "name": "Katherine Urquhart",
+        "photo": null,
+        "profileUrl": "/profile/KATURQUHART/"
+      },
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "GAMLS",
+        "infoString3": "https://photos.zillowstatic.com/fp/5a56de187a17ad29edf4ffa2bc9930b2-zillow_web_logo_inf_11.jpg",
+        "infoString1": "8511447"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": {
+        "name": "Christopher Oliver",
+        "photo": null,
+        "profileUrl": "/profile/Realty-ATL/"
+      },
+      "event": "Sold",
+      "price": 452000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-02-27",
+      "source": "KELLER WILLIAMS RLTY-PTREE RD",
+      "postingIsRental": false,
+      "time": 1551225600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "KELLER WILLIAMS RLTY-PTREE RD",
+        "infoString3": null,
+        "infoString1": "6118019"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 450000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-01-27",
+      "source": "KELLER WILLIAMS RLTY-PTREE RD",
+      "postingIsRental": false,
+      "time": 1548547200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "KELLER WILLIAMS RLTY-PTREE RD",
+        "infoString3": null,
+        "infoString1": "6118019"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 450000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "2019-01-25",
+      "source": "Keller Williams Realty",
+      "postingIsRental": false,
+      "time": 1548374400000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Keller Williams Realty",
+        "infoString3": null,
+        "infoString1": "6118019"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Pending sale",
+      "price": 450000
+    },
+    {
+      "priceChangeRate": 1.0053475935829,
+      "date": "2019-01-17",
+      "source": "KELLER WILLIAMS RLTY-PTREE RD",
+      "postingIsRental": false,
+      "time": 1547683200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "KELLER WILLIAMS RLTY-PTREE RD",
+        "infoString3": null,
+        "infoString1": "6118019"
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Listed for sale",
+      "price": 450000
+    },
+    {
+      "priceChangeRate": 0.24666666666667,
+      "date": "1998-01-22",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 885427200000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 224400
+    },
+    {
+      "priceChangeRate": 0.44,
+      "date": "1996-09-20",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 843177600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 180000
+    },
+    {
+      "priceChangeRate": 0,
+      "date": "1996-07-17",
+      "source": "Public Record",
+      "postingIsRental": false,
+      "time": 837561600000,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "attributeSource": {
+        "infoString2": "Public Record",
+        "infoString3": null,
+        "infoString1": null
+      },
+      "pricePerSquareFoot": null,
+      "buyerAgent": null,
+      "event": "Sold",
+      "price": 125000
+    }
+  ],
+  "neighborhoodMapThumb": [
+    {
+      "url": "https://photos.zillowstatic.com/fp/c29288261bfd5415c628e3b369553c91-p_c.jpg"
+    }
+  ],
+  "schools": [
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/39-Rivers-Elementary-School/",
+      "rating": 5,
+      "totalCount": null,
+      "distance": 1.4,
+      "assigned": null,
+      "name": "Rivers Elementary School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Primary",
+      "grades": "PK-5",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/87-Sutton-Middle-School/",
+      "rating": 6,
+      "totalCount": null,
+      "distance": 2.3,
+      "assigned": null,
+      "name": "Sutton Middle School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "Middle",
+      "grades": "6-8",
+      "type": "Public"
+    },
+    {
+      "link": "https://www.greatschools.org/georgia/atlanta/124-North-Atlanta-High-School/",
+      "rating": 8,
+      "totalCount": null,
+      "distance": 5.4,
+      "assigned": null,
+      "name": "North Atlanta High School",
+      "studentsPerTeacher": null,
+      "isAssigned": null,
+      "size": null,
+      "level": "High",
+      "grades": "9-12",
+      "type": "Public"
+    }
+  ],
+  "rentZestimate": 3195,
+  "city": "Atlanta",
+  "providerListingID": null,
+  "currency": "USD",
+  "listingProvider": null,
+  "propertyTaxRate": 0.84,
+  "isShowcaseListing": false,
+  "openHouseSchedule": [
+    {
+      "startTime": "2025-09-13 15:00:00",
+      "endTime": "2025-09-13 17:00:00"
+    },
+    {
+      "startTime": "2025-09-14 14:00:00",
+      "endTime": "2025-09-14 16:00:00"
+    }
+  ],
+  "mortgageRates": null,
+  "address": {
+    "community": null,
+    "city": "Atlanta",
+    "state": "GA",
+    "neighborhood": null,
+    "subdivision": "Loring Heights",
+    "streetAddress": "1651 Geary Dr NW",
+    "zipcode": "30309"
+  },
+  "cityId": 37211,
+  "timeOnZillow": "8 days",
+  "priceChange": null,
+  "zestimate": 743500,
+  "zpid": 35908737,
+  "countyId": 1020,
+  "homeType": "SINGLE_FAMILY",
+  "livingAreaUnits": "sqft",
+  "pageViewCount": 909,
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "treatmentId": "model_0",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Spacious walk-out backyard",
+            "Quiet dead-end street",
+            "High-end updates",
+            "Triple-pane windows",
+            "Neighborhood park and playground"
+          ]
+        },
+        {
+          "treatmentId": "model_1",
+          "modelId": "z-nrt-pdc-llm-tags",
+          "phrases": [
+            "Spacious walk-out backyard",
+            "Quiet dead-end street",
+            "High-end updates",
+            "Triple-pane windows",
+            "Neighborhood park and playground"
+          ]
+        }
+      ]
+    }
+  ],
+  "bathrooms": 2,
+  "neighborhoodRegion": {
+    "name": "Loring Heights"
+  },
+  "zipcode": "30309",
+  "building": null,
+  "zestimateLowPercent": "5",
+  "brokerId": null,
+  "stateId": 16,
+  "url": "/homedetails/1651-Geary-Dr-NW-Atlanta-GA-30309/35908737_zpid/",
+  "solarPotential": null,
+  "attributionInfo": {
+    "buyerAgentName": null,
+    "infoString3": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "mlsName": "FMLS GA",
+    "coAgentLicenseNumber": null,
+    "listingAgreement": null,
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Dorsey Alston Realtors"
+      }
+    ],
+    "infoString10": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "buyerAgentMemberStateLicense": null,
+    "brokerName": "Dorsey Alston Realtors",
+    "listingAttributionContact": null,
+    "lastUpdated": "2025-09-10 10:14:14",
+    "trueStatus": "Active",
+    "listingAgentAttributionContact": null,
+    "agentEmail": null,
+    "agentName": "Neeley Bain",
+    "attributionTitle": "Listing Provided by:",
+    "mlsId": "7642074",
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "infoString5": "404-408-8975",
+    "listingAgents": [
+      {
+        "memberStateLicense": "383275",
+        "memberFullName": "Neeley Bain",
+        "associatedAgentType": "listAgent"
+      }
+    ],
+    "agentPhoneNumber": "404-408-8975",
+    "agentLicenseNumber": null,
+    "providerLogo": "https://photos.zillowstatic.com/fp/d2c28114f36af4dea165c93003b4cd2e-zillow_web_95_35.jpg",
+    "infoString16": null,
+    "buyerBrokerageName": null,
+    "mlsDisclaimer": "Listings identified with the FMLS IDX logo come from FMLS and are held by brokerage firms other than the owner of this website. The listing brokerage is identified in any listing details. Information is deemed reliable but is not guaranteed. If you believe any FMLS listing contains material that infringes your copyrighted work please [click here](https://www.fmls.com/dmca) to review our DMCA policy and learn how to submit a takedown request. \u00a9 2025 First Multiple Listing Service, Inc. [Click here for more information](/mls-disclaimers/#30)\n\n",
+    "brokerPhoneNumber": null,
+    "lastChecked": "2025-09-12 08:22:26"
+  },
+  "priceChangeDateString": null,
+  "photoCount": 31,
+  "homeStatus": "FOR_SALE",
+  "homeFacts": null,
+  "resoFacts": {
+    "hasAttachedProperty": false,
+    "frontageType": null,
+    "poolFeatures": [
+      "None"
+    ],
+    "flooring": [
+      "Hardwood"
+    ],
+    "foundationDetails": [
+      "None"
+    ],
+    "accessibilityFeatures": [
+      "None"
+    ],
+    "hasGarage": false,
+    "hasPetsAllowed": null,
+    "bodyType": null,
+    "topography": null,
+    "landLeaseExpirationDate": null,
+    "hasAdditionalParcels": false,
+    "parkName": null,
+    "livingQuarters": {},
+    "taxAssessedValue": 551300,
+    "atAGlanceFacts": [
+      {
+        "factValue": "Single Family Residence, Residential",
+        "factLabel": "Type"
+      },
+      {
+        "factValue": "1944",
+        "factLabel": "Year Built"
+      },
+      {
+        "factValue": "Electric, Forced Air",
+        "factLabel": "Heating"
+      },
+      {
+        "factValue": "Ceiling Fan(s), Central Air",
+        "factLabel": "Cooling"
+      },
+      {
+        "factValue": "1 Carport space",
+        "factLabel": "Parking"
+      },
+      {
+        "factValue": "0.27 Acres",
+        "factLabel": "Lot"
+      },
+      {
+        "factValue": "8 Days",
+        "factLabel": "Days on Zillow"
+      },
+      {
+        "factValue": null,
+        "factLabel": "Offer Review Date"
+      }
+    ],
+    "offerReviewDate": null,
+    "horseYN": null,
+    "view": [
+      "City"
+    ],
+    "rooms": [
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": "Master on Main",
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Bedroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Master on Main"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "MasterBathroom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Shower Only"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "DiningRoom",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Open Concept",
+          " Seats 12+"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      },
+      {
+        "level": null,
+        "dimensions": null,
+        "features": null,
+        "roomAreaUnits": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomType": "Kitchen",
+        "roomDescription": null,
+        "roomWidth": null,
+        "roomLevel": null,
+        "description": null,
+        "roomLengthWidthUnits": null,
+        "roomLength": null,
+        "roomFeatures": [
+          "Cabinets White",
+          " Pantry Walk-In",
+          " Stone Counters"
+        ],
+        "roomDimensions": null,
+        "roomLengthWidthSource": null,
+        "area": null
+      }
+    ],
+    "belowGradeFinishedArea": null,
+    "feesAndDues": {},
+    "cityRegion": "Atlanta",
+    "mainLevelBathrooms": 2,
+    "hasPrivatePool": null,
+    "landLeaseAmount": null,
+    "waterSource": [
+      "Private"
+    ],
+    "exteriorFeatures": [
+      "Private Yard",
+      "No Dock"
+    ],
+    "inclusions": null,
+    "hasFireplace": true,
+    "gas": null,
+    "propertyCondition": "Resale",
+    "elevationUnits": null,
+    "exclusions": null,
+    "mainLevelBedrooms": 3,
+    "numberOfUnitsVacant": null,
+    "hasWaterfrontView": null,
+    "bathroomsOneQuarter": null,
+    "lotSize": "0.27 Acres",
+    "entryLevel": null,
+    "media": [
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://gold-lens-media.aryeo.com/videos/019911d8-e4f5-7329-ac9e-45c3c73a83a1"
+      },
+      {
+        "mediaCategory": "UnbrandedVirtualTour",
+        "mediaURL": "https://www.propertypanorama.com/1651-Geary-Drive-NW-Atlanta-GA-30309/unbranded"
+      }
+    ],
+    "greenWaterConservation": null,
+    "stories": 1,
+    "livingArea": null,
+    "commonWalls": "No Common Walls",
+    "listingTerms": null,
+    "otherParking": null,
+    "associationFee": null,
+    "marketingType": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "livingAreaRangeUnits": null,
+    "associationPhone": null,
+    "greenBuildingVerificationType": null,
+    "hasAttachedGarage": false,
+    "bedrooms": 3,
+    "architecturalStyle": "Cottage,Traditional",
+    "listingId": null,
+    "structureType": null,
+    "interiorFeatures": [
+      "High Speed Internet",
+      "His and Hers Closets"
+    ],
+    "horseAmenities": [
+      "None"
+    ],
+    "garageParkingCapacity": null,
+    "developmentStatus": null,
+    "lotFeatures": [
+      "Back Yard",
+      "Front Yard",
+      "Landscaped",
+      "Private"
+    ],
+    "roofType": "Composition",
+    "compensationBasedOn": null,
+    "greenEnergyGeneration": [
+      "None"
+    ],
+    "daysOnZillow": 8,
+    "listAOR": null,
+    "buildingAreaSource": null,
+    "elementarySchool": "E. Rivers",
+    "zoningDescription": null,
+    "irrigationWaterRightsAcres": null,
+    "yearBuiltEffective": null,
+    "greenEnergyEfficient": [
+      "None"
+    ],
+    "constructionMaterials": [
+      "Brick 4 Sides"
+    ],
+    "fireplaceFeatures": [
+      "Family Room"
+    ],
+    "hoaFeeTotal": null,
+    "appliances": [
+      "Dishwasher",
+      "Gas Range",
+      "Refrigerator"
+    ],
+    "sewer": [
+      "Public Sewer"
+    ],
+    "bathroomsPartial": null,
+    "fencing": "None",
+    "spaFeatures": [
+      "None"
+    ],
+    "waterViewYN": false,
+    "buildingName": null,
+    "attic": null,
+    "petsMaxWeight": null,
+    "cumulativeDaysOnMarket": "8 days",
+    "waterfrontFeatures": [
+      "None"
+    ],
+    "additionalParcelsDescription": null,
+    "canRaiseHorses": false,
+    "hasLandLease": false,
+    "communityFeatures": [
+      "Dog Park",
+      "Near Beltline",
+      "Near Public Transport",
+      "Near Shopping",
+      "Park",
+      "Playground",
+      "Street Lights"
+    ],
+    "waterBodyName": "None",
+    "middleOrJuniorSchool": "Willis A. Sutton",
+    "lotSizeDimensions": null,
+    "virtualTour": "https://gold-lens-media.aryeo.com/videos/019911d8-e4f5-7329-ac9e-45c3c73a83a1",
+    "contingency": null,
+    "yearBuilt": 1944,
+    "utilities": [
+      "Cable Available",
+      "Electricity Available",
+      "Natural Gas Available",
+      "Water Available"
+    ],
+    "totalActualRent": null,
+    "bathroomsFull": 2,
+    "parcelNumber": "17 014700011450",
+    "incomeIncludes": null,
+    "highSchool": "North Atlanta",
+    "taxAnnualAmount": 7243,
+    "subdivisionName": "Loring Heights",
+    "storiesTotal": null,
+    "storiesDecimal": 1,
+    "specialListingConditions": null,
+    "windowFeatures": [
+      "Double Pane Windows",
+      "Insulated Windows"
+    ],
+    "ownership": null,
+    "woodedArea": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "associationPhone2": null,
+    "onMarketDate": 1756944000000,
+    "roomTypes": [
+      "Workshop"
+    ],
+    "frontageLength": null,
+    "roadSurfaceType": [
+      "Paved"
+    ],
+    "associationAmenities": null,
+    "propertySubType": [
+      "Single Family Residence",
+      "Residential"
+    ],
+    "hasCooling": true,
+    "levels": "One",
+    "coveredParkingCapacity": 1,
+    "foundationArea": null,
+    "zoning": null,
+    "hoaFee": null,
+    "livingAreaRange": null,
+    "parkingFeatures": [
+      "Carport"
+    ],
+    "parkingCapacity": 1,
+    "cropsIncludedYN": null,
+    "tenantPays": null,
+    "builderModel": null,
+    "otherStructures": [
+      "Shed(s)"
+    ],
+    "otherFacts": {},
+    "additionalFeeInfo": null,
+    "hasView": true,
+    "openParkingCapacity": null,
+    "securityFeatures": [
+      "Security System Owned"
+    ],
+    "numberOfUnitsInCommunity": null,
+    "hasHomeWarranty": false,
+    "basementYN": null,
+    "doorFeatures": null,
+    "ownershipType": null,
+    "aboveGradeFinishedArea": null,
+    "associations": {},
+    "waterView": null,
+    "electric": [
+      "Other"
+    ],
+    "buildingFeatures": null,
+    "hasOpenParking": null,
+    "hasCarport": true,
+    "bathroomsHalf": 0,
+    "homeType": "SingleFamily",
+    "isSeniorCommunity": null,
+    "municipality": null,
+    "bathroomsThreeQuarter": null,
+    "hasSpa": false,
+    "basement": "Crawl Space",
+    "associationFee2": null,
+    "cooling": [
+      "Ceiling Fan(s)",
+      "Central Air"
+    ],
+    "hasHeating": true,
+    "associationName2": null,
+    "hasRentControl": null,
+    "elementarySchoolDistrict": null,
+    "otherEquipment": [
+      "Dehumidifier"
+    ],
+    "bathrooms": 2,
+    "buildingArea": "0",
+    "furnished": false,
+    "vegetation": null,
+    "patioAndPorchFeatures": [
+      "Front Porch",
+      "Patio"
+    ],
+    "bathroomsFloat": 2,
+    "builderName": null,
+    "highSchoolDistrict": null,
+    "hasElectricOnProperty": true,
+    "laundryFeatures": [
+      "In Hall",
+      "Main Level"
+    ],
+    "entryLocation": null,
+    "fireplaces": 1,
+    "heating": [
+      "Electric",
+      "Forced Air"
+    ],
+    "availabilityDate": null,
+    "carportParkingCapacity": 1,
+    "hasAssociation": false,
+    "irrigationWaterRightsYN": null,
+    "isNewConstruction": false,
+    "associationFeeIncludes": null,
+    "leaseTerm": null,
+    "pricePerSquareFoot": null,
+    "associationName": null,
+    "elevation": null
+  },
+  "datePosted": "2025-09-04",
+  "bedrooms": 3,
+  "propertyTypeDimension": "Single Family",
+  "mortgageZHLRates": {
+    "thirtyYearFixedBucket": {
+      "rate": 5.964,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688658882
+    },
+    "fifteenYearFixedBucket": {
+      "rate": 5.212,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688658882
+    },
+    "arm5Bucket": {
+      "rate": 6.491,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1757688658882
+    }
+  },
+  "comingSoonOnMarketDate": null,
+  "favoriteCount": 42,
+  "livingArea": 0,
+  "zestimateHighPercent": "5",
+  "mlsid": "7642074",
+  "isListedByOwner": null,
+  "listingSubType": {
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_forAuction": false,
+    "is_bankOwned": false,
+    "is_FSBA": true,
+    "is_FSBO": false,
+    "is_newHome": false,
+    "is_foreclosure": false
+  },
+  "buildingId": null,
+  "country": "USA",
+  "price": 735000,
+  "priceChangeDate": null,
+  "contingentListingType": null,
+  "_metadata": {
+    "collected_at": "2025-09-12T15:45:12.240647+00:00",
+    "zpid": "35908737",
+    "zipcode": "30309",
+    "api_endpoint": "property",
+    "response_code": 200
+  }
+}
