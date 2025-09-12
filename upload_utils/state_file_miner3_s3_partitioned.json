@@ -10,5 +10,65 @@
     "total_records_processed": 72,
     "last_processed_time": "2025-09-11T17:17:13.646218",
     "processing_completed": false
+  },
+  "zillow_zip_34606": {
+    "last_offset": 81,
+    "total_records_processed": 81,
+    "last_processed_time": "2025-09-11T17:22:22.331442",
+    "processing_completed": false
+  },
+  "zillow_zip_95965": {
+    "last_offset": 45,
+    "total_records_processed": 45,
+    "last_processed_time": "2025-09-11T17:22:24.536038",
+    "processing_completed": false
+  },
+  "zillow_zip_93505": {
+    "last_offset": 74,
+    "total_records_processed": 74,
+    "last_processed_time": "2025-09-11T17:22:28.072129",
+    "processing_completed": false
+  },
+  "zillow_zip_85226": {
+    "last_offset": 81,
+    "total_records_processed": 81,
+    "last_processed_time": "2025-09-11T17:27:32.907433",
+    "processing_completed": false
+  },
+  "zillow_zip_76559": {
+    "last_offset": 41,
+    "total_records_processed": 41,
+    "last_processed_time": "2025-09-11T17:27:43.536073",
+    "processing_completed": false
+  },
+  "zillow_zip_19711": {
+    "last_offset": 79,
+    "total_records_processed": 79,
+    "last_processed_time": "2025-09-11T17:32:45.447654",
+    "processing_completed": false
+  },
+  "zillow_zip_19073": {
+    "last_offset": 48,
+    "total_records_processed": 48,
+    "last_processed_time": "2025-09-11T17:32:51.933114",
+    "processing_completed": false
+  },
+  "zillow_zip_93103": {
+    "last_offset": 70,
+    "total_records_processed": 70,
+    "last_processed_time": "2025-09-11T17:32:52.568905",
+    "processing_completed": false
+  },
+  "zillow_zip_30087": {
+    "last_offset": 81,
+    "total_records_processed": 81,
+    "last_processed_time": "2025-09-11T17:37:59.164255",
+    "processing_completed": false
+  },
+  "zillow_zip_91354": {
+    "last_offset": 75,
+    "total_records_processed": 75,
+    "last_processed_time": "2025-09-11T17:38:01.265756",
+    "processing_completed": false
   }
 }

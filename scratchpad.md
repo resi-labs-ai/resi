@@ -1,216 +1,206 @@
-# Miner Analysis - Subnet 428 Testnet Issues
+# EC2 Testnet Miner Setup with PM2 - Todo List
 
-## Current Status Analysis
+## COMPLETED SETUP SUMMARY ✅
+- **Instance Created**: `i-0f7a60b94ba21a51d` (30GB disk, t3.small)
+- **Public IP**: `3.21.247.112`
+- **Key Pair**: `testnet-miner-4-key` (saved to `~/.ssh/testnet-miner-4-key.pem`)
+- **Security Group**: `sg-02632a1cd3f9c7ff2` (SSH access configured)
+- **Wallet Created**: `testnet_miner_4` with 5 TAO transferred
+- **Coldkey Address**: `5ELVuwZFBaYtfX845ewWrxP6sQubMCSPozerYFcnm9Etk7Pi`
+- **Hotkey Address**: `5EjVGhVu5y4iFCZxVxsGAF7sVD77MuMKuTPLJitDE1AbV2yK`
 
-### 1. Miner Registration Status ✅ CONFIRMED
-- **Hotkey**: `5CAsdjbWjgj1f7Ubt1eYzQDhDfpcPuWkAAZES6HrBM7LbGq9`
-- **UID**: Assigned (from logs: "Serving miner axon")
-- **Network**: Subnet 428 (testnet)
-- **Registration**: ✅ Successfully registered and serving on network
+## WALLET RECOVERY INFO (SECURE THESE!)
+- **Coldkey Mnemonic**: `assault uncover abuse enjoy bread dust meadow scatter relax dinosaur assault concert`
+- **Hotkey Mnemonic**: `pudding fruit engine dove shoot title team ivory pole gentle crime satoshi`
 
-### 2. Zipcode Scraping Configuration 🔍 NEEDS VERIFICATION
-- **Total Zipcodes Available**: 7,573 zipcodes in `scraping/zillow/zipcodes.csv`
-- **Current Config**: Uses 7,488+ zipcodes in `scraping_config.json`
-- **Target**: Should be scraping all 7,500+ zipcodes
-- **Status**: ✅ Configuration appears complete, but need to verify active scraping
+## Phase 1: EC2 Instance Creation & Setup ✅
 
-### 3. S3 Access & Upload Issues ❌ MULTIPLE PROBLEMS
+### 1.1 Create EC2 Instance ✅
+- [x] Launch new EC2 instance using AWS CLI with resilabs-admin profile
+  ```bash
+  # EXECUTED: Created i-0f7a60b94ba21a51d with 30GB disk
+  aws ec2 run-instances \
+    --image-id ami-0403a1833008b227d \
+    --instance-type t3.small \
+    --key-name testnet-miner-4-key \
+    --security-group-ids sg-02632a1cd3f9c7ff2 \
+    --subnet-id subnet-0c3412270b089f592 \
+    --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=testnet-miner-4}]' \
+    --block-device-mappings '[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":30,"VolumeType":"gp3","DeleteOnTermination":true}}]' \
+    --profile resilabs-admin
+  ```
 
-#### S3 Configuration:
-- **Auth URL**: Auto-configured to `https://s3-auth-api-testnet.resilabs.ai` ✅
-- **Upload Frequency**: Every 5 minutes (testnet mode) ✅
-- **Initial Delay**: 5 minutes before first upload ✅
+### 1.2 Configure Security Group ✅
+- [x] Create/update security group to allow:
+  - SSH (port 22) from your IP (162.84.164.68/32)
+  - Bittensor ports (9944, 30333) if needed
+  - Any custom monitoring ports
 
-#### Identified Problems:
+### 1.3 Connect to Instance
+- [x] Get instance public IP from AWS console or CLI: `3.21.247.112`
+- [ ] SSH into instance: `ssh -i ~/.ssh/testnet-miner-4-key.pem ubuntu@3.21.247.112`
+- [ ] Update system: `sudo apt update && sudo apt upgrade -y`
 
-##### A. Signature Mismatch Error (CRITICAL)
-```
-NotVerifiedException: Signature mismatch with 1757612201316637000.5FKi4TiBCf76vzNqiBWZRU2kKfbWe7vfDfHT8pcYU7frDoni.5CAsdjbWjgj1f7Ubt1eYzQDhDfpcPuWkAAZES6HrBM7LbGq9
-```
-- **Issue**: Validator signature verification failing
-- **Impact**: Could lead to blacklisting
-- **Root Cause**: Likely validator request authentication problem
+## Phase 2: System Dependencies Installation
 
-##### B. Empty Miner Index (DATA ISSUE)
-```
-Returning compressed miner index of 0 bytes across 0 buckets
-```
-- **Issue**: No data in miner's index
-- **Impact**: Validators see empty miner
-- **Root Cause**: Either no data scraped OR data not indexed properly
+### 2.1 Install Python & Git
+- [ ] Install Python 3.11+: `sudo apt install python3.11 python3.11-venv python3-pip git -y`
+- [ ] Verify Python version: `python3 --version`
+- [ ] Install build essentials: `sudo apt install build-essential -y`
 
-##### C. S3 Upload State Missing
-- **Missing File**: `upload_utils/state_file_miner2.json` doesn't exist
-- **Impact**: Upload state tracking broken
-- **Root Cause**: File not created or wrong path
+### 2.2 Install Node.js & PM2
+- [ ] Install Node.js: `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
+- [ ] Install Node.js: `sudo apt-get install -y nodejs`
+- [ ] Install PM2 globally: `sudo npm install -g pm2`
+- [ ] Verify PM2 installation: `pm2 --version`
 
-### 4. Rate Limiting Analysis ⚠️ POTENTIAL ISSUE
+## Phase 3: Bittensor Wallet Setup
 
-#### Current Testnet Settings:
-- **S3 Upload**: Every 5 minutes (288 uploads/day)
-- **Scraping**: Every 120 seconds (720 scrapes/day)
-- **API Calls**: ~432 calls/day (within 13K monthly limit)
+### 3.1 Create New Wallet & Hotkey
+- [ ] Install bittensor: `pip3 install bittensor`
+- [ ] Create new wallet: `btcli wallet new_coldkey --wallet.name testnet_miner_4`
+- [ ] Create new hotkey: `btcli wallet new_hotkey --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4`
+- [ ] Check wallet balance: `btcli wallet balance --wallet.name testnet_miner_4 --subtensor.network test`
 
-#### Potential Issues:
-- 5-minute S3 uploads might be too aggressive for auth service
-- Could trigger rate limiting on S3 auth endpoint
-- Validator requests + frequent uploads = potential overload
+### 3.2 Fund Wallet (if needed)
+- [ ] Get testnet TAO from faucet if balance is low
+- [ ] Verify sufficient balance for registration (>1 TAO recommended)
 
-## Root Cause Priority Analysis - UPDATED
+## Phase 4: Miner Registration
 
-### ✅ RESOLVED: Local Data Storage
-- **Status**: ✅ CONFIRMED WORKING
-- **Data**: 41 records in SqliteMinerStorage_miner2.sqlite
-- **Recent Activity**: Active scraping (zip:02152 at 17:38 today)
-- **Issue**: Miner IS scraping and storing data locally
+### 4.1 Register as Miner
+- [ ] Register on subnet 428:
+  ```bash
+  btcli subnet register \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name testnet_miner_4 \
+    --wallet.hotkey hotkey_4
+  ```
+- [ ] Verify registration: `btcli subnet list --subtensor.network test`
+- [ ] Check miner UID: `btcli wallet overview --wallet.name testnet_miner_4 --subtensor.network test`
 
-### 🚨 CRITICAL: S3 Daily Rate Limit Exceeded
-- **Status**: ❌ BLOCKING ALL UPLOADS
-- **Error**: "Daily limit of 20 exceeded"
-- **Root Cause**: 5-minute upload frequency = 288 attempts/day (14x over limit!)
-- **Impact**: Complete S3 upload failure, empty miner index
+## Phase 5: Code Deployment
 
-### ✅ RESOLVED: Upload State Management
-- **Status**: ✅ CREATED state_file_miner2.json
-- **Location**: upload_utils/state_file_miner2.json
-- **Content**: Initialized with proper structure
+### 5.1 Clone Repository
+- [ ] Clone repo: `git clone https://github.com/ResiLabs/data-universe-subnet.git`
+- [ ] Navigate to directory: `cd data-universe-subnet`
+- [ ] Check current branch: `git branch`
 
-### 🔍 INVESTIGATION NEEDED: Empty Miner Index
-- **Symptom**: "0 bytes across 0 buckets" 
-- **Likely Cause**: S3 upload failures mean no data available to validators
-- **Expected Fix**: Once S3 uploads work, index should populate
+### 5.2 Environment Setup
+- [ ] Create Python virtual environment: `python3 -m venv venv`
+- [ ] Activate venv: `source venv/bin/activate`
+- [ ] Install dependencies: `pip install -r requirements.txt`
 
-### ⚠️ SECONDARY: Signature Mismatch
-- **Status**: May be related to rate limiting
-- **Theory**: Failed auth attempts could trigger additional validation issues
-- **Priority**: Fix after resolving rate limit issue
+### 5.3 Environment Configuration
+- [ ] Copy environment template: `cp env.example .env`
+- [ ] Edit .env file with miner-specific values:
+  ```bash
+  nano .env
+  ```
+  Update:
+  - WALLET_NAME=testnet_miner_4
+  - WALLET_HOTKEY=hotkey_4
+  - RAPIDAPI_KEY=b869b7feb4msh25a74b696857db1p19cfd0jsnbc9d2e2e820f
+  - RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
+  - NETUID=428
+  - SUBTENSOR_NETWORK=test
 
-## IMMEDIATE ACTION REQUIRED: Fix Rate Limiting
+## Phase 6: PM2 Configuration & Startup
 
-### 🚨 CRITICAL FIX: Reduce Upload Frequency
-**Problem**: 5-minute uploads = 288 attempts/day vs 20 daily limit
-**Solution**: Change to 72-minute intervals (20 uploads/day exactly)
+### 6.1 Create PM2 Ecosystem File
+- [ ] Create PM2 config file: `nano ecosystem.config.js`
+  ```javascript
+  module.exports = {
+    apps: [{
+      name: 'testnet-miner-4',
+      script: 'python',
+      args: 'neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner4.sqlite --miner_upload_state_file upload_utils/state_file_miner4.json',
+      cwd: '/home/ubuntu/data-universe-subnet',
+      interpreter: '/home/ubuntu/data-universe-subnet/venv/bin/python',
+      env: {
+        NODE_ENV: 'production'
+      },
+      error_file: './logs/miner4-error.log',
+      out_file: './logs/miner4-out.log',
+      log_file: './logs/miner4-combined.log',
+      time: true,
+      autorestart: true,
+      max_restarts: 10,
+      min_uptime: '10s'
+    }]
+  };
+  ```
 
-**Implementation**:
-1. Modify `neurons/miner.py` line 281
-2. Change from 5 minutes to 72 minutes for testnet
-3. Formula: 1440 minutes/day ÷ 20 attempts = 72 minutes per attempt
+### 6.2 Create Log Directory & State Files
+- [ ] Create logs directory: `mkdir -p logs`
+- [ ] Create upload utils state file: `touch upload_utils/state_file_miner4.json`
+- [ ] Initialize state file: `echo '{}' > upload_utils/state_file_miner4.json`
 
-### Expected Results After Fix:
-1. ✅ S3 authentication will work (within daily limit)
-2. ✅ Miner index will populate (data uploaded successfully)
-3. ✅ Validators can retrieve data (non-empty index)
-4. ✅ Signature errors should reduce (less auth pressure)
+### 6.3 Start Miner with PM2
+- [ ] Start miner: `pm2 start ecosystem.config.js`
+- [ ] Check status: `pm2 status`
+- [ ] View logs: `pm2 logs testnet-miner-4`
+- [ ] Save PM2 configuration: `pm2 save`
+- [ ] Setup PM2 startup: `pm2 startup` (follow the generated command)
 
-### Verification Steps:
-1. Stop current miner
-2. Apply upload frequency fix
-3. Restart miner with new frequency
-4. Wait for next S3 auth attempt (should succeed)
-5. Monitor miner index population
-6. Verify validator can see data
+## Phase 7: Monitoring & Verification
 
-## Alternative Solutions (if 72min too slow):
-- **Option A**: 36-minute intervals (40 uploads/day) - may still hit limits
-- **Option B**: 144-minute intervals (10 uploads/day) - very conservative
-- **Option C**: Request increased daily limit from Resi Labs
+### 7.1 Verify Miner Operation
+- [ ] Check PM2 status: `pm2 monit`
+- [ ] Check logs for errors: `pm2 logs testnet-miner-4 --lines 50`
+- [ ] Verify database creation: `ls -la SqliteMinerStorage_miner4.sqlite`
+- [ ] Check network connectivity to bittensor
 
-## 🎉 FINAL STATUS SUMMARY - ALL ISSUES RESOLVED!
+### 7.2 Monitor Registration Status
+- [ ] Check miner is visible on network:
+  ```bash
+  btcli subnet metagraph --netuid 428 --subtensor.network test
+  ```
+- [ ] Verify miner UID and stake information
 
-### ✅ **WORKING PERFECTLY:**
-- **Miner Registration**: ✅ Registered on subnet 428 with UID assigned
-- **Data Scraping**: ✅ Active scraping (41 records locally, growing continuously)
-- **Zipcode Coverage**: ✅ All 7,500+ zipcodes properly configured
-- **S3 Authentication**: ✅ Working with increased rate limits
-- **S3 Uploads**: ✅ Successfully uploading to 100+ job IDs (zipcodes)
-- **Miner Index**: ✅ Populated with 38,791 bytes across 1 bucket
-- **Validator Access**: ✅ Ready - validators can retrieve data from non-empty index
+## Phase 8: Cleanup & Documentation
 
-### 📊 **Current Metrics:**
-- **Local Database**: 41 records in SqliteMinerStorage_miner2.sqlite
-- **S3 Upload State**: 100+ zipcode jobs processed and uploaded
-- **Miner Index Size**: 38,791 bytes (vs previous 0 bytes!)
-- **Time Buckets**: 1 active bucket with data
-- **Upload Frequency**: Every 5 minutes (working with increased limits)
+### 8.1 Security Hardening
+- [ ] Remove unnecessary packages: `sudo apt autoremove -y`
+- [ ] Update firewall rules if needed
+- [ ] Secure wallet files with proper permissions: `chmod 600 ~/.bittensor/wallets/testnet_miner_4/*`
 
-### 🔧 **Key Fixes Applied:**
-1. **Rate Limiting**: Server increased limits (no longer 20/day restriction)
-2. **Upload State**: Created proper state_file_miner2.json
-3. **S3 Authentication**: Now working perfectly with testnet endpoint
-4. **Miner Index**: Populated and serving data to validators
+### 8.2 Create Backup & Recovery Notes
+- [ ] Document wallet recovery phrase (store securely offline)
+- [ ] Note down instance details (IP, instance ID, key pair)
+- [ ] Document PM2 management commands for future reference
 
-### 🚀 **Miner Status: FULLY OPERATIONAL**
-Your miner is now:
-- ✅ Scraping data from 7,500+ zipcodes
-- ✅ Successfully authenticating with S3
-- ✅ Uploading data every 5 minutes
-- ✅ Serving populated index to validators
-- ✅ Ready for validator evaluation and scoring
+## Useful Commands for Management
 
-## 🚨 **NEW ISSUE IDENTIFIED: Request Rate Limiting Blacklisting**
-
-### **Problem Analysis:**
-From your latest logs, the blacklisting is caused by **validator request rate limiting**, NOT S3 issues:
-
-```
-BlacklistedException: Forbidden. Key is blacklisted: Hotkey 5FKi4TiBCf76vzNqiBWZRU2kKfbWe7vfDfHT8pcYU7frDoni at 127.0.0.1 over eval period request limit for GetMinerIndex.
-```
-
-### **Root Cause:**
-- **Request Limits**: `GetMinerIndex` allows only **1 request per validator per 60-minute period** (2x limit = 2 max)
-- **Validator Behavior**: Validator `5FKi4TiBCf76vzNqiBWZRU2kKfbWe7vfDfHT8pcYU7frDoni` is making **too many requests**
-- **Evaluation Period**: 60 minutes (default, not testnet-specific)
-- **IP Address**: `127.0.0.1` indicates **local testing or validator on same machine**
-
-### **Why This Happens:**
-1. Validator requests your miner index
-2. Gets signature mismatch (separate issue)
-3. Retries multiple times quickly
-4. Exceeds 2 requests per 60-minute window
-5. Gets blacklisted for remaining evaluation period
-
-### **Solutions:**
-
-#### **Option A: Increase Testnet Evaluation Period (RECOMMENDED)**
+### PM2 Management
 ```bash
-export MINER_EVAL_PERIOD_MINUTES=5  # 5-minute windows for faster testing
-# Restart miner after setting this
+pm2 status                    # Check all processes
+pm2 logs testnet-miner-4     # View logs
+pm2 restart testnet-miner-4  # Restart miner
+pm2 stop testnet-miner-4     # Stop miner
+pm2 delete testnet-miner-4   # Remove from PM2
+pm2 monit                    # Real-time monitoring
 ```
 
-#### **Option B: Fix Validator Signature Issues**
-The signature mismatches suggest the validator's requests aren't properly signed, causing retries.
+### Bittensor Commands
+```bash
+btcli wallet balance --wallet.name testnet_miner_4 --subtensor.network test
+btcli subnet metagraph --netuid 428 --subtensor.network test
+btcli wallet overview --wallet.name testnet_miner_4 --subtensor.network test
+```
 
-#### **Option C: Wait It Out**
-Blacklist clears every 60 minutes automatically.
+### System Monitoring
+```bash
+htop                         # System resources
+df -h                        # Disk usage
+free -h                      # Memory usage
+pm2 logs testnet-miner-4     # Application logs
+```
 
-### **Immediate Action:**
-Set the environment variable for faster testnet evaluation periods and restart your miner.
-
-# 🚀 Terminal Commands (Run in Separate Terminals)
-## Terminal 1 - MINER
-
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
-source venv/bin/activate
-source .env.testnet
-python neurons/miner.py \
-  --netuid 428 \
-  --subtensor.network test \
-  --wallet.name testnet_miner_2 \
-  --wallet.hotkey hotkey_2 \
-  --use_uploader \
-  --logging.debug \
-  --neuron.database_name SqliteMinerStorage_miner2.sqlite \
-  --miner_upload_state_file upload_utils/state_file_miner2.json
-
-## Terminal 2 - VALIDATOR
-
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
-source venv/bin/activate
-source .env.testnet
-python neurons/validator.py \
-  --netuid 428 \
-  --subtensor.network test \
-  --wallet.name 428_testnet_validator \
-  --wallet.hotkey 428_testnet_validator_hotkey \
-  --logging.debug \
-  --max_targets 10
+## Notes
+- Instance type t3.small should be sufficient for testnet mining
+- Monitor costs and upgrade if performance is insufficient
+- Keep wallet backup secure and offline
+- Regularly check miner performance and logs
+- Consider setting up CloudWatch monitoring for production use
