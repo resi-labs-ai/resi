@@ -79,7 +79,8 @@ class S3ValidationResultDetailed:
 PREFERRED_SCRAPERS = {
     DataSource.X: ScraperId.X_APIDOJO,
     DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
-    DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT
+    DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
+    DataSource.RAPID_ZILLOW: ScraperId.RAPID_ZILLOW
 }
 
 

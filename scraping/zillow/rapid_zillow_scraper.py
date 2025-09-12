@@ -11,6 +11,7 @@ from common.data import DataEntity, DataLabel
 from common.date_range import DateRange
 from scraping.scraper import ScrapeConfig, Scraper, ValidationResult
 from scraping.zillow.model import RealEstateContent
+from scraping.zillow.utils import validate_zillow_data_entity_fields
 
 
 class ZillowRapidAPIScraper(Scraper):
@@ -148,7 +149,11 @@ class ZillowRapidAPIScraper(Scraper):
         return entities
     
     async def validate(self, entities: List[DataEntity]) -> List[ValidationResult]:
-        """Validate real estate data by checking if properties still exist"""
+        """
+        Enhanced validation for real estate data including:
+        1. Property existence check via API
+        2. Content field validation with tolerance for time-sensitive data
+        """
         results = []
         
         async with httpx.AsyncClient(timeout=15.0) as client:
@@ -156,16 +161,8 @@ class ZillowRapidAPIScraper(Scraper):
                 try:
                     await self._rate_limit()
                     
-                    # Extract zpid from URI
-                    zpid = None
-                    if "/homedetails/" in entity.uri:
-                        # Extract from URL like "/homedetails/address/57854026_zpid/"
-                        parts = entity.uri.split("/")
-                        for part in parts:
-                            if part.endswith("_zpid"):
-                                zpid = part.replace("_zpid", "")
-                                break
-                    
+                    # Step 1: Extract zpid from URI
+                    zpid = self._extract_zpid_from_uri(entity.uri)
                     if not zpid:
                         results.append(ValidationResult(
                             is_valid=False,
@@ -174,45 +171,33 @@ class ZillowRapidAPIScraper(Scraper):
                         ))
                         continue
                     
-                    # Verify property exists via API
-                    params = {"zpid": zpid}
+                    # Step 2: Check if property exists via API
+                    existence_result = await self._check_property_existence(client, zpid, entity)
+                    if not existence_result.is_valid:
+                        results.append(existence_result)
+                        continue
                     
-                    response = await client.get(
-                        f"{self.BASE_URL}{self.PROPERTY_ENDPOINT}",
-                        headers=self.headers,
-                        params=params
-                    )
-                    
-                    if response.status_code == 200:
-                        # Property exists and is accessible
-                        results.append(ValidationResult(
-                            is_valid=True,
-                            reason="Property verified via Zillow API",
-                            content_size_bytes_validated=entity.content_size_bytes
-                        ))
-                    elif response.status_code == 404:
-                        # Property no longer exists
-                        results.append(ValidationResult(
-                            is_valid=False,
-                            reason="Property not found (may have been sold/removed)",
-                            content_size_bytes_validated=entity.content_size_bytes
-                        ))
-                    elif response.status_code == 429:
-                        # Rate limited - assume valid to avoid false negatives
-                        bt.logging.warning("Rate limited during validation - assuming property is valid")
-                        results.append(ValidationResult(
-                            is_valid=True,
-                            reason="Rate limited during validation - assumed valid",
-                            content_size_bytes_validated=entity.content_size_bytes
-                        ))
-                        await asyncio.sleep(60)
-                    else:
-                        # Other API error - assume valid to avoid false negatives
-                        results.append(ValidationResult(
-                            is_valid=True,
-                            reason=f"API error during validation ({response.status_code}) - assumed valid",
-                            content_size_bytes_validated=entity.content_size_bytes
-                        ))
+                    # Step 3: Fetch fresh property data for content validation
+                    try:
+                        fresh_content = await self._fetch_property_content(client, zpid)
+                        if fresh_content:
+                            # Step 4: Perform comprehensive content validation
+                            content_result = validate_zillow_data_entity_fields(fresh_content, entity)
+                            results.append(content_result)
+                            
+                            # Log validation details for monitoring
+                            if not content_result.is_valid:
+                                bt.logging.info(f"Content validation failed for zpid {zpid}: {content_result.reason}")
+                            else:
+                                bt.logging.debug(f"Content validation passed for zpid {zpid}")
+                        else:
+                            # Fallback to existence check if content fetch fails
+                            results.append(existence_result)
+                            
+                    except Exception as content_error:
+                        bt.logging.warning(f"Content validation error for zpid {zpid}: {str(content_error)}")
+                        # Fallback to existence check on content validation errors
+                        results.append(existence_result)
                 
                 except Exception as e:
                     bt.logging.warning(f"Validation error for {entity.uri}: {e}")
@@ -224,6 +209,84 @@ class ZillowRapidAPIScraper(Scraper):
                     ))
         
         return results
+    
+    def _extract_zpid_from_uri(self, uri: str) -> Optional[str]:
+        """Extract zpid from Zillow URI"""
+        if "/homedetails/" in uri:
+            # Extract from URL like "/homedetails/address/57854026_zpid/"
+            parts = uri.split("/")
+            for part in parts:
+                if part.endswith("_zpid"):
+                    return part.replace("_zpid", "")
+        return None
+    
+    async def _check_property_existence(self, client: httpx.AsyncClient, zpid: str, entity: DataEntity) -> ValidationResult:
+        """Check if property exists via Zillow API"""
+        try:
+            params = {"zpid": zpid}
+            response = await client.get(
+                f"{self.BASE_URL}{self.PROPERTY_ENDPOINT}",
+                headers=self.headers,
+                params=params
+            )
+            
+            if response.status_code == 200:
+                return ValidationResult(
+                    is_valid=True,
+                    reason="Property exists via Zillow API",
+                    content_size_bytes_validated=entity.content_size_bytes
+                )
+            elif response.status_code == 404:
+                return ValidationResult(
+                    is_valid=False,
+                    reason="Property not found (may have been sold/removed)",
+                    content_size_bytes_validated=entity.content_size_bytes
+                )
+            elif response.status_code == 429:
+                bt.logging.warning("Rate limited during validation - assuming property is valid")
+                await asyncio.sleep(60)
+                return ValidationResult(
+                    is_valid=True,
+                    reason="Rate limited during validation - assumed valid",
+                    content_size_bytes_validated=entity.content_size_bytes
+                )
+            else:
+                return ValidationResult(
+                    is_valid=True,
+                    reason=f"API error during validation ({response.status_code}) - assumed valid",
+                    content_size_bytes_validated=entity.content_size_bytes
+                )
+                
+        except Exception as e:
+            bt.logging.warning(f"Property existence check failed for zpid {zpid}: {str(e)}")
+            return ValidationResult(
+                is_valid=True,
+                reason=f"Existence check error - assumed valid: {str(e)}",
+                content_size_bytes_validated=entity.content_size_bytes
+            )
+    
+    async def _fetch_property_content(self, client: httpx.AsyncClient, zpid: str) -> Optional[RealEstateContent]:
+        """Fetch fresh property data for content validation"""
+        try:
+            params = {"zpid": zpid}
+            response = await client.get(
+                f"{self.BASE_URL}{self.PROPERTY_ENDPOINT}",
+                headers=self.headers,
+                params=params
+            )
+            
+            if response.status_code == 200:
+                data = response.json()
+                # Extract property data from API response
+                property_data = data.get("property", {})
+                if property_data:
+                    return RealEstateContent.from_zillow_api(property_data)
+            
+            return None
+            
+        except Exception as e:
+            bt.logging.warning(f"Failed to fetch property content for zpid {zpid}: {str(e)}")
+            return None
     
     def _extract_location_from_label(self, label: str) -> Optional[str]:
         """Extract location parameter from label"""
