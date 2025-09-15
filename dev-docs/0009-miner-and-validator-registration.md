@@ -195,12 +195,12 @@ source .env.testnet
 python neurons/miner.py \
   --netuid 428 \
   --subtensor.network test \
-  --wallet.name testnet_miner_2 \
-  --wallet.hotkey hotkey_2 \
+  --wallet.name testnet_miner_3 \
+  --wallet.hotkey hotkey_3 \
   --use_uploader \
   --logging.debug \
-  --neuron.database_name SqliteMinerStorage_miner2.sqlite \
-  --miner_upload_state_file upload_utils/state_file_miner2.json
+  --neuron.database_name SqliteMinerStorage_miner3.sqlite \
+  --miner_upload_state_file upload_utils/state_file_miner3.json
 
 ## Terminal 2 - VALIDATOR
 
