@@ -83,7 +83,7 @@
 ## Phase 5: Code Deployment
 
 ### 5.1 Clone Repository
-- [ ] Clone repo: `git clone https://github.com/ResiLabs/resi.git`
+- [ ] Clone repo: `git clone https://https://github.com/resi-labs-ai/resi.git`
 - [ ] Navigate to directory: `cd resi`
 - [ ] Check current branch: `git branch`
 
