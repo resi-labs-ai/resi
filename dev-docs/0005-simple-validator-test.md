@@ -58,7 +58,7 @@ RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 ```bash
 # Clone and install
 git clone https://github.com/resi-labs-ai/resi.git
-cd data-universe
+cd resi
 python -m pip install -e .
 
 # Optional: Setup W&B monitoring

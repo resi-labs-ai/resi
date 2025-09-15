@@ -41,4 +41,4 @@ source venv/bin/activate && python scripts/collect_real_data.py --api-key b869b7
 📁 Data saved to: mocked_data/
 📋 Report saved to: mocked_data/collection_report.json
 ============================================================
-(venv) MacBook-Pro-85:46-resi-labs-data-universe calebgates$ ls -la mocked_data/
+(venv) MacBook-Pro-85:46-resi calebgates$ ls -la mocked_data/

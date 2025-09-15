@@ -83,8 +83,8 @@
 ## Phase 5: Code Deployment
 
 ### 5.1 Clone Repository
-- [ ] Clone repo: `git clone https://github.com/ResiLabs/data-universe-subnet.git`
-- [ ] Navigate to directory: `cd data-universe-subnet`
+- [ ] Clone repo: `git clone https://github.com/ResiLabs/resi.git`
+- [ ] Navigate to directory: `cd resi`
 - [ ] Check current branch: `git branch`
 
 ### 5.2 Environment Setup
@@ -116,8 +116,8 @@
       name: 'testnet-miner-4',
       script: 'python',
       args: 'neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner4.sqlite --miner_upload_state_file upload_utils/state_file_miner4.json',
-      cwd: '/home/ubuntu/data-universe-subnet',
-      interpreter: '/home/ubuntu/data-universe-subnet/venv/bin/python',
+      cwd: '/home/ubuntu/resi',
+      interpreter: '/home/ubuntu/resi/venv/bin/python',
       env: {
         NODE_ENV: 'production'
       },

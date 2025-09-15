@@ -224,8 +224,8 @@ class Validator:
         # Allow multiple runs in one process and only set start time after success
         self.wandb_run = wandb.init(
             name=name,
-            project="data-universe-validators",
-            entity="macrocosmos",
+            project="resi-validators",
+            entity="resi-labs-ai",
             config={
                 "uid": self.uid,
                 "hotkey": self.wallet.hotkey.ss58_address,

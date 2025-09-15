@@ -12,7 +12,7 @@ def main():
     parser = argparse.ArgumentParser(description="Test S3 access for validators")
     parser.add_argument("--wallet", type=str, required=True, help="Wallet name")
     parser.add_argument("--hotkey", type=str, required=True, help="Hotkey name")
-    parser.add_argument("--s3_auth_url", type=str, default="https://sn13-data.api.macrocosmos.ai",
+    parser.add_argument("--s3_auth_url", type=str, default="https://s3-auth-api.resilabs.ai",
                         help="S3 authentication URL")
     parser.add_argument("--netuid", type=int, default=13, help="Network UID")
     parser.add_argument("--network", type=str, default="finney", help="Network name")

@@ -3,7 +3,7 @@
 ## Overview
 
 ### To learn more about Dynamic Desirability (Gravity), see:
-[Dynamic Desirability Doc](https://github.com/macrocosm-os/data-universe/blob/gravity/docs/dynamic_desirability.md)
+[Dynamic Desirability Doc](https://github.com/resi-labs-ai/resi/blob/main/docs/dynamic_desirability.md)
 
 ### Overall Process
 
@@ -11,7 +11,7 @@ The overall process of Dynamic Desirability is as follows:
 
 1. Validators have voting power proportional to their percentage stake in the subnet.
 2. Validators create a JSON representing their votes for incentivized labels.
-3. Validators upload their JSON to the Macrocosmos Desirabilities GitHub Repository.
+3. Validators upload their JSON to the Resi Labs Desirabilities GitHub Repository.
 4. Validators take the SHA from their Github commit and commit it to the Bittensor chain.
 5. The overall label weights landscape is reconstructed according to validators’ voting power and their JSON submissions.
 6. This aggregated desirability lookup is used to score Miner scraped data.
@@ -99,7 +99,7 @@ An example of a valid JSON submission is given below:
         "params": {
             "keyword": null,
             "platform": "x",
-            "label": "#macrocosmos",
+            "label": "#resilabs",
             "post_start_datetime": null,
             "post_end_datetime": null
         }
@@ -112,7 +112,7 @@ Invalid JSONs will be normalized during upload:
 - Only positive weights will be counted.
 - Individual label weights are normalized across the sum of the total weight, to add to 1.
 
-More information on JSON restrictions can be found in the [Dynamic Desirability Doc](https://github.com/macrocosm-os/data-universe/blob/gravity/docs/dynamic_desirability.md).
+More information on JSON restrictions can be found in the [Dynamic Desirability Doc](https://github.com/resi-labs-ai/resi/blob/main/docs/dynamic_desirability.md).
 
 ## Submitting and Deleting Preferences with the API
 
@@ -169,7 +169,7 @@ This file provides functionality for miners and validators to retrieve the curre
 
 `run_retrieval()` outputs the aggregate label weights to total.json and also returns them as a DataDesirabilityLookup object with a default scale factor of 0.5.
 
-This script is called from [`validator.py`](https://github.com/macrocosm-os/data-universe/blob/gravity/neurons/validator.py#L123) once every 24 hours at 12 am (midnight) UTC and on a new validator run. The update frequency will be increased in later versions to better reflect real-time updates. Validator logs will be shown in wandb.
+This script is called from [`validator.py`](https://github.com/resi-labs-ai/resi/blob/main/neurons/validator.py#L123) once every 24 hours at 12 am (midnight) UTC and on a new validator run. The update frequency will be increased in later versions to better reflect real-time updates. Validator logs will be shown in wandb.
 
 Update:
 

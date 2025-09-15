@@ -7,7 +7,7 @@ This experiment tests whether your subnet's incentive mechanisms naturally drive
 ## 🚀 **How to Restart the Experiment**
 
 ### Prerequisites
-- Ensure you're in the project directory: `/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe`
+- Ensure you're in the project directory: `/Users/calebgates/bittensor/other-subnets/46-resi`
 - Virtual environment activated: `source venv/bin/activate`
 - All wallet registrations complete (UIDs 5, 7, 8, 9 on testnet 428)
 
@@ -76,19 +76,19 @@ screen -r miner_4      # Attach to miner 4 logs
    
    **Connection 1 - Baseline Miner (UID 5)**
    - Name: `Testnet_Miner_5_Baseline`
-   - File: `/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/SqliteMinerStorage.sqlite`
+   - File: `/Users/calebgates/bittensor/other-subnets/46-resi/SqliteMinerStorage.sqlite`
    
    **Connection 2 - Organic Miner 2 (UID 7)**
    - Name: `Testnet_Miner_7_Organic`
-   - File: `/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/SqliteMinerStorage_miner2.sqlite`
+   - File: `/Users/calebgates/bittensor/other-subnets/46-resi/SqliteMinerStorage_miner2.sqlite`
    
    **Connection 3 - Organic Miner 3 (UID 8)**
    - Name: `Testnet_Miner_8_Organic`
-   - File: `/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/SqliteMinerStorage_miner3.sqlite`
+   - File: `/Users/calebgates/bittensor/other-subnets/46-resi/SqliteMinerStorage_miner3.sqlite`
    
    **Connection 4 - Organic Miner 4 (UID 9)**
    - Name: `Testnet_Miner_9_Organic`
-   - File: `/Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe/SqliteMinerStorage_miner4.sqlite`
+   - File: `/Users/calebgates/bittensor/other-subnets/46-resi/SqliteMinerStorage_miner4.sqlite`
 
 3. **Test each connection** and click "Apply"
 

@@ -284,7 +284,7 @@ python dynamic_desirability/desirability_retrieval.py \
 
 For questions about Subnet 46 validator preferences:
 
-- **GitHub Issues**: [resi-labs-ai/46-resi-labs-data-universe](https://github.com/resi-labs-ai/46-resi-labs-data-universe/issues)
+- **GitHub Issues**: [resi-labs-ai/46-resi](https://github.com/resi-labs-ai/46-resi/issues)
 - **Bittensor Discord**: Subnet 46 channel
 - **Documentation**: [Full Validator Docs](./docs/dd_validator_instructions.md)
 

@@ -657,23 +657,23 @@ pkill -f 'SCREEN.*miner'
 screen -wipe
 
 2. Actually doing the cleanup now:
-(venv) MacBook-Pro-85:46-resi-labs-data-universe calebgates$ echo "=== SIMPLE MINER COMMANDS FOR 3 TERMINAL WINDOWS ===" && echo "" && echo "📋 **COPY AND PASTE THESE COMMANDS:**" && echo "" && echo "🖥️  **TERMINAL WINDOW 1 (Miner 2):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_2 --wallet.hotkey hotkey_2 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner2.sqlite --miner_upload_state_file upload_utils/state_file_miner2.json" && echo "" && echo "🖥️  **TERMINAL WINDOW 2 (Miner 3):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_3 --wallet.hotkey hotkey_3 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner3.sqlite --miner_upload_state_file upload_utils/state_file_miner3.json" && echo "" && echo "🖥️  **TERMINAL WINDOW 3 (Miner 4):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner4.sqlite --miner_upload_state_file upload_utils/state_file_miner4.json"
+(venv) MacBook-Pro-85:46-resi calebgates$ echo "=== SIMPLE MINER COMMANDS FOR 3 TERMINAL WINDOWS ===" && echo "" && echo "📋 **COPY AND PASTE THESE COMMANDS:**" && echo "" && echo "🖥️  **TERMINAL WINDOW 1 (Miner 2):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_2 --wallet.hotkey hotkey_2 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner2.sqlite --miner_upload_state_file upload_utils/state_file_miner2.json" && echo "" && echo "🖥️  **TERMINAL WINDOW 2 (Miner 3):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_3 --wallet.hotkey hotkey_3 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner3.sqlite --miner_upload_state_file upload_utils/state_file_miner3.json" && echo "" && echo "🖥️  **TERMINAL WINDOW 3 (Miner 4):**" && echo "cd /Users/calebgates/bittensor/other-subnets/46-resi" && echo "source venv/bin/activate" && echo "python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner4.sqlite --miner_upload_state_file upload_utils/state_file_miner4.json"
 === SIMPLE MINER COMMANDS FOR 3 TERMINAL WINDOWS ===
 
 📋 **COPY AND PASTE THESE COMMANDS:**
 
 🖥️  **TERMINAL WINDOW 1 (Miner 2):**
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+cd /Users/calebgates/bittensor/other-subnets/46-resi
 source venv/bin/activate
 python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_2 --wallet.hotkey hotkey_2 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner2.sqlite --miner_upload_state_file upload_utils/state_file_miner2.json
 
 🖥️  **TERMINAL WINDOW 2 (Miner 3):**
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+cd /Users/calebgates/bittensor/other-subnets/46-resi
 source venv/bin/activate
 python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_3 --wallet.hotkey hotkey_3 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner3.sqlite --miner_upload_state_file upload_utils/state_file_miner3.json
 
 🖥️  **TERMINAL WINDOW 3 (Miner 4):**
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+cd /Users/calebgates/bittensor/other-subnets/46-resi
 source venv/bin/activate
 python neurons/miner.py --netuid 428 --subtensor.network test --wallet.name testnet_miner_4 --wallet.hotkey hotkey_4 --use_uploader --logging.debug --neuron.database_name SqliteMinerStorage_miner4.sqlite --miner_upload_state_file upload_utils/state_file_miner4.json
 

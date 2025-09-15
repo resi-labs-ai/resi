@@ -247,7 +247,7 @@
         "params": {
             "keyword": null,
             "platform": "x",
-            "label": "#macrocosmos",
+            "label": "#resilabs",
             "post_start_datetime": null,
             "post_end_datetime": null
         }
@@ -258,7 +258,7 @@
         "params": {
             "keyword": null,
             "platform": "x",
-            "label": "#MacrocosmosAI",
+            "label": "#resilabsAI",
             "post_start_datetime": null,
             "post_end_datetime": null
         }

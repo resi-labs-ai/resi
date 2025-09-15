@@ -86,7 +86,7 @@ git clone https://github.com/resi-labs-ai/resi.git
 
 4. Install the requirements. From your virtual environment, run
 ```shell
-cd data-universe
+cd resi
 python -m pip install -e .
 ```
 

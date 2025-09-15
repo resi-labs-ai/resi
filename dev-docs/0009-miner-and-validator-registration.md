@@ -189,7 +189,7 @@ Set the environment variable for faster testnet evaluation periods and restart y
 # 🚀 Terminal Commands (Run in Separate Terminals)
 ## Terminal 1 - MINER
 
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+cd /Users/calebgates/bittensor/other-subnets/46-resi
 source venv/bin/activate
 source .env.testnet
 python neurons/miner.py \
@@ -204,7 +204,7 @@ python neurons/miner.py \
 
 ## Terminal 2 - VALIDATOR
 
-cd /Users/calebgates/bittensor/other-subnets/46-resi-labs-data-universe
+cd /Users/calebgates/bittensor/other-subnets/46-resi
 source venv/bin/activate
 source .env.testnet
 python neurons/validator.py \
