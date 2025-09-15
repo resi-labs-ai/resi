@@ -30,7 +30,7 @@ PROTOCOL_VERSION = 4
 
 # Min evaluation period that must pass before a validator re-evaluates a miner.
 # Can be overridden for testnet with MINER_EVAL_PERIOD_MINUTES environment variable
-_DEFAULT_EVAL_PERIOD_MINUTES = 60
+_DEFAULT_EVAL_PERIOD_MINUTES = 240
 _TESTNET_EVAL_PERIOD_MINUTES = int(os.getenv('MINER_EVAL_PERIOD_MINUTES', _DEFAULT_EVAL_PERIOD_MINUTES))
 MIN_EVALUATION_PERIOD = dt.timedelta(minutes=_TESTNET_EVAL_PERIOD_MINUTES)
 

@@ -32,7 +32,7 @@ class OrganicQueryProcessor:
         
         # constants
         self.NUM_MINERS_TO_QUERY = 5
-        self.CROSS_VALIDATION_SAMPLE_SIZE = 10
+        self.CROSS_VALIDATION_SAMPLE_SIZE = 5
         self.MIN_CONSENSUS = 0.3    # if consensus is <30% of request size, consensus penalties skipped
         
         # Volume verification constants

@@ -378,7 +378,7 @@ class S3Validator:
         
         # Select entities for validation
         entities_to_validate = random.sample(
-            all_entities, min(10, len(all_entities))  # sample_size = 10
+            all_entities, min(5, len(all_entities))  # sample_size = 5
         )
         
         # Group by platform for efficient validation
