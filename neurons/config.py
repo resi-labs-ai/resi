@@ -122,7 +122,7 @@ def add_args(neuron_type: NeuronType, parser):
         "--s3_auth_url",
         type=str,
         help="URL of the S3 authentication service",
-        default="https://sn46-s3-auth.resilabs.ai"  # ResiLabs S3 Auth Server for Subnet 46
+        default="https://s3-auth-api.resilabs.ai"  # ResiLabs S3 Auth Server for Mainnet
     )
 
     if neuron_type == NeuronType.VALIDATOR:
