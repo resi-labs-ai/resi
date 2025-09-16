@@ -264,7 +264,8 @@ pm2 stop testnet-validator     # or mainnet-validator
 ### **API and Monitoring Flags:**
 - `--neuron.api_on`: Enable validator API server
 - `--neuron.api_port`: API server port (default: 8000)
-- `--wandb.off`: Disable Weights & Biases logging
+- `--wandb.off`: Disable Weights & Biases logging (disabled by default)
+- `--wandb.on`: Enable Weights & Biases logging (overrides --wandb.off)
 
 ### **Common Optional Flags:**
 - `--logging.debug`: Enable debug logging
@@ -281,8 +282,7 @@ pm2 start python --name dev-validator -- ./neurons/validator.py \
     --wallet.name dev_validator_wallet \
     --wallet.hotkey dev_validator_hotkey \
     --logging.debug \
-    --max_targets 5 \
-    --wandb.off
+    --max_targets 5
 ```
 
 **Production Mainnet Validator:**

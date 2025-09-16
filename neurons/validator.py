@@ -142,7 +142,7 @@ class Validator:
         """A one-time setup method that must be called before the Validator starts its main loop."""
         assert not self.is_setup, "Validator already setup."
 
-        if not self.config.wandb.off:
+        if self.config.wandb.on or not self.config.wandb.off:
             try:
                 self.new_wandb_run()
             except Exception as e:
@@ -307,7 +307,7 @@ class Validator:
                     )
                     time.sleep(wait_time)
     
-                if not self.config.wandb.off and self.wandb_run is None:
+                if (self.config.wandb.on or not self.config.wandb.off) and self.wandb_run is None:
                     try:
                         self.new_wandb_run()
                         bt.logging.info("W&B: started new run successfully")
@@ -315,7 +315,7 @@ class Validator:
                         bt.logging.error(f"W&B init retry failed: {e}")
 
                 # Rotation with retry (only when we actually have a start time)
-                if (not self.config.wandb.off) and (self.wandb_run_start is not None) and \
+                if (self.config.wandb.on or not self.config.wandb.off) and (self.wandb_run_start is not None) and \
                 ((dt.datetime.now() - self.wandb_run_start) >= dt.timedelta(hours=3)):
 
                     try:
