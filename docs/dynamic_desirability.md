@@ -121,7 +121,7 @@ An example of a valid JSON submission is given below:
 
 After validators have created and saved their submission JSON, they use the upload script provided in the Data Desirability folder to upload the file to the Resi Labs Desirabilities GitHub and commit the GitHub commit SHA to the chain for later retrieval. Commits to the chain are persistent and transparent, allowing for reconstruction of the Data Desirability Lookup at any time during scoring or for individual Validator/Miner purposes. 
 
-Validators should create or modify a chain_config.py file in the dynamic_desirability folder with their Bittensor wallet and hotkey name associated with their validator instance running on subnet 13. This will be used to commit to the chain. Chain commits can be made every 20 minutes. 
+Validators should create or modify a chain_config.py file in the dynamic_desirability folder with their Bittensor wallet and hotkey name associated with their validator instance running on subnet 13. This will be used to commit to the chain. Chain commits can be made every 4 hours (240 minutes). 
 
 Chain commit hashes are used in addition to GitHub version control because it relieves the issue of author authentication on GitHub commits. This is preferable to Resi Labs owning the API service as it is decentralized and open source, in alignment with Bittensor’s values. 
 

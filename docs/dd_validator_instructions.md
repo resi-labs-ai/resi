@@ -153,7 +153,7 @@ After running the script, your my_preferences.json will be uploaded to the Gravi
 
 ### Current Restrictions
 
-Chain uploads are limited to once every 20 minutes. This is due to the chain commit hash limitations. 
+Chain uploads are limited to once every 4 hours (240 minutes). This is due to the chain commit hash limitations. 
 
 Currently, all validators retrieve the latest updated preferences from the chain every 24 hours. In the future, this frequency will be increased to greater reflect real-time updates.
 

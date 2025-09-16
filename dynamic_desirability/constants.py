@@ -12,6 +12,9 @@ AMPLICATION_FACTOR: float = 250 / TOTAL_VALI_WEIGHT * (1 - TOTAL_VALI_WEIGHT)
 DEFAULT_JSON_PATH: str = 'default.json'
 AGGREGATE_JSON_PATH: str = 'total.json'
 
+# Commit reveal interval in minutes (how often validators can commit to the chain)
+COMMIT_REVEAL_INTERVAL_MINUTES: int = 240  # 4 hours
+
 VALID_SOURCES: dict[str, str] = {
     "reddit": "r/",
     "x": "#",

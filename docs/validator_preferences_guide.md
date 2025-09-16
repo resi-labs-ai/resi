@@ -264,7 +264,7 @@ Without chain commits, the system would be vulnerable to:
 - Solution: Wait for GitHub sync, then retry
 
 ### **Rate Limits:**
-- **Chain commits**: Once every 20 minutes maximum
+- **Chain commits**: Once every 4 hours (240 minutes) maximum
 - **GitHub pushes**: No specific limit, but avoid spam
 
 ### **Verification:**

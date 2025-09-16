@@ -4,10 +4,11 @@ import json
 import os
 import shutil
 import subprocess
+import time
 import bittensor as bt
 from typing import List, Optional, Dict, Tuple
 from dynamic_desirability.chain_utils import ChainPreferenceStore, add_args
-from dynamic_desirability.constants import REPO_URL, BRANCH_NAME, PREFERENCES_FOLDER
+from dynamic_desirability.constants import REPO_URL, BRANCH_NAME, PREFERENCES_FOLDER, COMMIT_REVEAL_INTERVAL_MINUTES
 from dynamic_desirability.data import normalize_preferences
 
 
@@ -20,6 +21,28 @@ def run_command(command: List[str]) -> str:
         bt.logging.error(f"Error executing command: {' '.join(command)}")
         bt.logging.error(f"Error message: {e.stderr.strip()}")
         raise
+
+
+def check_commit_interval(last_commit_time: float, commit_interval_minutes: int = COMMIT_REVEAL_INTERVAL_MINUTES) -> bool:
+    """
+    Check if enough time has passed since the last commit to allow a new commit.
+    
+    Args:
+        last_commit_time: Timestamp of the last commit
+        commit_interval_minutes: Minimum interval between commits in minutes
+        
+    Returns:
+        True if enough time has passed, False otherwise
+    """
+    current_time = time.time()
+    time_since_last_commit = (current_time - last_commit_time) / 60  # Convert to minutes
+    
+    if time_since_last_commit >= commit_interval_minutes:
+        return True
+    else:
+        remaining_time = commit_interval_minutes - time_since_last_commit
+        bt.logging.warning(f"Commit interval not yet reached. Please wait {remaining_time:.1f} more minutes.")
+        return False
 
 
 def normalize_preferences_json(file_path: str = None, desirability_dict: Dict = None, hotkey: str = None) -> Optional[str]:
@@ -111,6 +134,14 @@ async def run_uploader(args):
     uid = subtensor.get_uid_for_hotkey_on_subnet(hotkey_ss58=my_hotkey, netuid=args.netuid)
 
     try:
+        # Check commit interval if provided
+        commit_interval = getattr(args, 'commit_interval', COMMIT_REVEAL_INTERVAL_MINUTES)
+        bt.logging.info(f"Using commit interval: {commit_interval} minutes")
+        
+        # Check if we can commit (this is a basic check - in practice, the chain enforces this)
+        # For now, we'll just log the interval setting
+        bt.logging.info(f"Commit reveal interval set to {commit_interval} minutes ({commit_interval/60:.1f} hours)")
+        
         json_content = normalize_preferences_json(file_path=args.file_path, hotkey=my_hotkey)
         if not json_content:
             bt.logging.error("Please see docs for correct format. Not pushing to Github or chain.")

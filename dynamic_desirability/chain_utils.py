@@ -14,6 +14,7 @@ def add_args(parser: argparse.ArgumentParser, is_upload: bool):
     
     if is_upload:
         parser.add_argument('--file_path', type=str, required=True, help='Path to the JSON file containing preferences')
+        parser.add_argument('--commit_interval', type=int, default=240, help='Commit reveal interval in minutes (default: 240 = 4 hours)')
 
 def _sync_retrieve_metadata(netuid: int, hotkey: str, network: str = "finney"):
     """Standalone function that can be pickled"""
