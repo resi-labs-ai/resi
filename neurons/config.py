@@ -94,7 +94,7 @@ def add_args(neuron_type: NeuronType, parser):
         "--neuron.epoch_length",
         type=int,
         help="The default epoch length (how often we sync the metagraph, measured in 12 second blocks).",
-        default=100,
+        default=360,  # 360 blocks = 72 minutes (12 seconds per block)
     )
 
     parser.add_argument(

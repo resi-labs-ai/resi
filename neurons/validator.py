@@ -132,6 +132,7 @@ class Validator:
         self.lock = threading.RLock()
         self.last_eval_time = dt.datetime.utcnow()
         self.last_weights_set_time = dt.datetime.utcnow()
+        self.last_weights_set_block = 0  # Track the block when weights were last set
         self.is_setup = False
 
         # Add counter for evaluation cycles since startup
@@ -490,8 +491,20 @@ class Validator:
                     f"Skipping weight setting - completed {self.evaluation_cycles_since_startup}/15 evaluation cycles since startup")
                 return False
 
-            # Normal 20-minute interval check for subsequent weight settings
-            return dt.datetime.utcnow() - self.last_weights_set_time > dt.timedelta(minutes=20)
+            # Check if an epoch has passed since last weight setting
+            current_block = self.block
+            epoch_length = self.config.neuron.epoch_length
+            blocks_since_last_weights = current_block - self.last_weights_set_block
+            
+            # Log current status for debugging
+            bt.logging.debug(f"Weight setting check: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
+            
+            # If we haven't set weights yet, or if an epoch has passed
+            if self.last_weights_set_block == 0 or blocks_since_last_weights >= epoch_length:
+                bt.logging.info(f"Epoch boundary reached: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
+                return True
+            
+            return False
 
     def _start_api_monitoring(self):
         """Start a lightweight monitor to auto-restart API if it becomes unreachable"""
@@ -624,6 +637,7 @@ class Validator:
         
         with self.lock:
             self.last_weights_set_time = dt.datetime.utcnow()
+            self.last_weights_set_block = self.block
 
         bt.logging.success("Finished setting weights.")
 
