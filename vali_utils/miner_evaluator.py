@@ -394,10 +394,10 @@ class MinerEvaluator:
 
         bt.logging.trace(f"Waiting for {len(threads)} synchronized miner evaluations to finish.")
         
-        # Increased timeout for larger batches (10 minutes total)
-        end = datetime.datetime.now() + datetime.timedelta(seconds=600)
+        # Conservative timeout for 100 parallel threads (25 minutes for safety)
+        end = datetime.datetime.now() + datetime.timedelta(seconds=1500)
         for t in threads:
-            # Compute the timeout, so that all threads are waited for a total of 10 minutes.
+            # Compute the timeout, so that all threads are waited for a total of 25 minutes.
             timeout = max(0, (end - datetime.datetime.now()).total_seconds())
             t.join(timeout=timeout)
 
