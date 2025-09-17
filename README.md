@@ -350,7 +350,7 @@ Validators remain suspicious of Miners and so they periodically check a sample o
 
 As you can see from the above, Resi Labs rewards diversity of data (storing 200 copies of the same data isn't exactly beneficial!)
 
-To help understand the current data on the Subnet, the Resi Labs team hosts a dashboard (https://sn13-dashboard.api.ResiLabs.ai/), showing the amount of each type of data (by DataEntityBucketId) on the Subnet. Miners are strongly encouraged to use this dashboard to customize their [Miner Configuration](./docs/miner.md#configuring-the-miner), to maximize their rewards.
+To help understand the current data on the Subnet, the Resi Labs team hosts a dashboard [Coming Soon](https://sn46-dashboard.ResiLabs.ai/), showing the amount of each type of data (by DataEntityBucketId) on the Subnet. Miners are strongly encouraged to use this dashboard to customize their [Miner Configuration](./docs/miner.md#configuring-the-miner), to maximize their rewards.
 
 # Use Cases
 
