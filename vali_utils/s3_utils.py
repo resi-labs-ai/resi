@@ -209,7 +209,7 @@ class S3Validator:
     ) -> Dict:
         """Analyze data uploaded in the recent time window"""
         now = dt.datetime.now(dt.timezone.utc)
-        threshold_time = now - dt.timedelta(hours=3)  # 3 hour window
+        threshold_time = now - dt.timedelta(hours=12)  # 12 hour window because we are using 3x 4 hour cycles - each miner is evaluated every 12 hours
         
         recent_job_files = {}
         total_recent_files = 0
