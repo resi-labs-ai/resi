@@ -8,25 +8,40 @@ from scraping import utils
 
 
 class RealEstateContent(BaseModel):
-    """Content model for real estate listings from Zillow RapidAPI"""
+    """Content model for real estate listings from Zillow RapidAPI with full Individual Property API support"""
     
     class Config:
-        extra = "forbid"
+        extra = "ignore"  # Allow extra fields from Individual Property API
 
     # Core identifiers
     zpid: str = Field(description="Zillow Property ID")
     address: str
     detail_url: str
     
+    # Enhanced address fields from Individual Property API
+    street_address: Optional[str] = None
+    city: Optional[str] = None
+    state: Optional[str] = None
+    zip_code: Optional[str] = None
+    county: Optional[str] = None
+    county_fips: Optional[str] = None
+    
     # Property details
     property_type: str  # SINGLE_FAMILY, CONDO, etc.
+    property_sub_type: Optional[str] = None
+    home_type: Optional[str] = None
     bedrooms: Optional[int] = None
     bathrooms: Optional[float] = None
     living_area: Optional[int] = Field(None, description="Living area in sq ft")
+    living_area_value: Optional[int] = None  # Alternative field name from Individual API
     
-    # Lot information
+    # Enhanced property details from Individual Property API
+    year_built: Optional[int] = None
+    lot_size: Optional[float] = None
     lot_area_value: Optional[float] = None
     lot_area_unit: Optional[str] = None  # "acres" or "sqft"
+    parking_spaces: Optional[int] = None
+    garage_spaces: Optional[int] = None
     
     # Pricing and estimates
     price: Optional[int] = None
@@ -35,16 +50,28 @@ class RealEstateContent(BaseModel):
     price_change: Optional[int] = None
     date_price_changed: Optional[int] = None  # timestamp
     
+    # Enhanced financial data from Individual Property API
+    hoa_fee: Optional[float] = None
+    monthly_hoa_fee: Optional[float] = None
+    property_taxes: Optional[float] = None
+    tax_assessed_value: Optional[int] = None
+    
+    # Historical data arrays from Individual Property API
+    tax_history: Optional[List[Dict[str, Any]]] = None
+    price_history: Optional[List[Dict[str, Any]]] = None
+    
     # Location data
     latitude: Optional[float] = None
     longitude: Optional[float] = None
     country: str = "USA"
     currency: str = "USD"
+    time_zone: Optional[str] = None
     
     # Listing status
     listing_status: str  # FOR_SALE, FOR_RENT, etc.
     days_on_zillow: Optional[int] = None
     coming_soon_on_market_date: Optional[int] = None
+    date_sold: Optional[int] = None
     
     # Media and features
     img_src: Optional[str] = None
@@ -52,16 +79,64 @@ class RealEstateContent(BaseModel):
     has_video: bool = False
     has_3d_model: bool = False
     carousel_photos: Optional[List[str]] = None
+    photo_count: Optional[int] = None
     
     # Listing subtypes (flags)
     is_fsba: Optional[bool] = None  # For Sale By Agent
     is_open_house: Optional[bool] = None
     is_new_home: Optional[bool] = None
     is_coming_soon: Optional[bool] = None
+    is_foreclosure: Optional[bool] = None
+    is_bank_owned: Optional[bool] = None
     
     # Construction info
     new_construction_type: Optional[str] = None
     unit: Optional[str] = None  # For condos/apartments
+    building_name: Optional[str] = None
+    
+    # Enhanced property features from Individual Property API (resoFacts)
+    reso_facts: Optional[Dict[str, Any]] = None
+    appliances: Optional[List[str]] = None
+    architectural_style: Optional[str] = None
+    basement: Optional[str] = None
+    cooling: Optional[str] = None
+    exterior: Optional[str] = None
+    fireplace: Optional[str] = None
+    flooring: Optional[str] = None
+    foundation: Optional[str] = None
+    heating: Optional[str] = None
+    laundry: Optional[str] = None
+    roof: Optional[str] = None
+    sewer: Optional[str] = None
+    water_source: Optional[str] = None
+    
+    # School information from Individual Property API
+    school_district: Optional[Dict[str, Any]] = None
+    elementary_school: Optional[str] = None
+    middle_school: Optional[str] = None
+    high_school: Optional[str] = None
+    
+    # Neighborhood and market data from Individual Property API
+    neighborhood: Optional[Dict[str, Any]] = None
+    walk_score: Optional[int] = None
+    transit_score: Optional[int] = None
+    bike_score: Optional[int] = None
+    
+    # Climate risk data from Individual Property API
+    climate_risk: Optional[Dict[str, Any]] = None
+    flood_risk: Optional[str] = None
+    fire_risk: Optional[str] = None
+    wind_risk: Optional[str] = None
+    heat_risk: Optional[str] = None
+    
+    # Agent/contact information from Individual Property API
+    contact_recipients: Optional[List[Dict[str, Any]]] = None
+    listing_agent: Optional[Dict[str, Any]] = None
+    
+    # Building permits and legal information
+    building_permits: Optional[List[Dict[str, Any]]] = None
+    zoning: Optional[str] = None
+    parcel_id: Optional[str] = None
     
     # Additional data
     contingent_listing_type: Optional[str] = None
@@ -72,48 +147,25 @@ class RealEstateContent(BaseModel):
     data_source: str = "zillow_rapidapi"
 
     @classmethod
-    def from_zillow_api(cls, api_data: Dict[str, Any]) -> "RealEstateContent":
-        """Create RealEstateContent from Zillow API response"""
+    def from_zillow_api(cls, api_data: Dict[str, Any], api_type: str = "search") -> "RealEstateContent":
+        """Create RealEstateContent from Zillow API response
         
-        # Extract listing subtype flags
-        listing_sub_type = api_data.get("listingSubType", {})
+        Args:
+            api_data: Raw API response data
+            api_type: Type of API response ('search' for Property Extended Search, 'individual' for Individual Property API)
+        """
+        # Import here to avoid circular import
+        from scraping.zillow.field_mapping import ZillowFieldMapper
         
-        return cls(
-            zpid=str(api_data.get("zpid", "")),
-            address=api_data.get("address", ""),
-            detail_url=api_data.get("detailUrl", ""),
-            property_type=api_data.get("propertyType", "UNKNOWN"),
-            bedrooms=api_data.get("bedrooms"),
-            bathrooms=api_data.get("bathrooms"),
-            living_area=api_data.get("livingArea"),
-            lot_area_value=api_data.get("lotAreaValue"),
-            lot_area_unit=api_data.get("lotAreaUnit"),
-            price=api_data.get("price"),
-            zestimate=api_data.get("zestimate"),
-            rent_zestimate=api_data.get("rentZestimate"),
-            price_change=api_data.get("priceChange"),
-            date_price_changed=api_data.get("datePriceChanged"),
-            latitude=api_data.get("latitude"),
-            longitude=api_data.get("longitude"),
-            country=api_data.get("country", "USA"),
-            currency=api_data.get("currency", "USD"),
-            listing_status=api_data.get("listingStatus", "UNKNOWN"),
-            days_on_zillow=api_data.get("daysOnZillow"),
-            coming_soon_on_market_date=api_data.get("comingSoonOnMarketDate"),
-            img_src=api_data.get("imgSrc"),
-            has_image=bool(api_data.get("hasImage", False)),
-            has_video=bool(api_data.get("hasVideo", False)),
-            has_3d_model=bool(api_data.get("has3DModel", False)),
-            carousel_photos=api_data.get("carouselPhotos"),
-            is_fsba=listing_sub_type.get("is_FSBA"),
-            is_open_house=listing_sub_type.get("is_openHouse"),
-            is_new_home=listing_sub_type.get("is_newHome"),
-            is_coming_soon=listing_sub_type.get("is_comingSoon"),
-            new_construction_type=api_data.get("newConstructionType"),
-            unit=api_data.get("unit"),
-            contingent_listing_type=api_data.get("contingentListingType"),
-            variable_data=api_data.get("variableData"),
-        )
+        # Use the appropriate field mapper based on API type
+        if api_type == "individual":
+            # Use full property content mapping for Individual Property API
+            mapped_data = ZillowFieldMapper.create_full_property_content(api_data)
+        else:
+            # Use miner-compatible mapping for Property Extended Search
+            mapped_data = ZillowFieldMapper.create_miner_compatible_content(api_data)
+        
+        return cls(**mapped_data)
 
     def to_data_entity(self) -> DataEntity:
         """Convert to DataEntity for Bittensor storage"""
