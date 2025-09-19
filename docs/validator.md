@@ -88,6 +88,9 @@ git clone https://github.com/resi-labs-ai/resi.git
 ```shell
 cd resi
 python -m pip install -e .
+
+pip install bittensor
+pip install bittensor-cli
 ```
 
 5. Make sure you've [created a Wallet](https://docs.bittensor.com/getting-started/wallets) and [registered a hotkey](https://docs.bittensor.com/subnets/register-and-participate).
