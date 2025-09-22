@@ -53,7 +53,19 @@ class MinerFactory:
             except ImportError:
                 logging.warning("Redfin web scraping implementation not available")
             
-            # Additional platforms would be registered here as they're implemented
+            # Realtor.com implementations
+            try:
+                from miners.realtor_com.web_scraping_implementation.direct_realtor_miner import DirectRealtorScraper
+                self.register_scraper(MinerPlatform.REALTOR_COM, MinerImplementation.WEB_SCRAPING, DirectRealtorScraper)
+            except ImportError:
+                logging.warning("Realtor.com web scraping implementation not available")
+            
+            # Homes.com implementations
+            try:
+                from miners.homes_com.web_scraping_implementation.direct_homes_miner import DirectHomesScraper
+                self.register_scraper(MinerPlatform.HOMES_COM, MinerImplementation.WEB_SCRAPING, DirectHomesScraper)
+            except ImportError:
+                logging.warning("Homes.com web scraping implementation not available")
             
         except Exception as e:
             logging.error(f"Error registering default scrapers: {e}")
