@@ -20,6 +20,7 @@ class BaseRealEstateContent(BaseModel, ABC):
     # Universal identifiers
     source_id: str = Field(description="Platform-specific ID (ZPID, Redfin ID, etc.)")
     source_platform: str = Field(description="Platform name (zillow, redfin, etc.)")
+    source_url: str = Field(description="URL from which this data was scraped (required for validation)")
     address: str = Field(description="Property address")
     detail_url: str = Field(description="URL to property details page")
     
@@ -70,6 +71,12 @@ class BaseRealEstateContent(BaseModel, ABC):
     # Metadata
     scraped_at: dt.datetime = Field(default_factory=lambda: dt.datetime.now(dt.timezone.utc))
     scraping_method: str = Field(description="Method used for scraping (api, web_scraping)")
+    
+    # Extra metadata for miners to include additional discovered data
+    extra_metadata: Dict[str, Any] = Field(
+        default_factory=dict, 
+        description="Extra metadata discovered during scraping (size-limited)"
+    )
     
     @abstractmethod
     def get_platform_source(self) -> DataSource:

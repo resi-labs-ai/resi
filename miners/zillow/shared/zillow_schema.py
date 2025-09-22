@@ -160,13 +160,14 @@ class ZillowRealEstateContent(BaseRealEstateContent, PropertyValidationMixin):
         return cls(**content_data)
     
     @classmethod
-    def from_web_scraping(cls, scraped_data: Dict[str, Any], zpid: str) -> "ZillowRealEstateContent":
+    def from_web_scraping(cls, scraped_data: Dict[str, Any], zpid: str, source_url: str = None) -> "ZillowRealEstateContent":
         """Create ZillowRealEstateContent from web scraping data"""
         
         content_data = {
             # Base fields
             "source_id": zpid,
             "source_platform": "zillow",
+            "source_url": source_url or scraped_data.get("source_url", f"https://www.zillow.com/homedetails/{zpid}_zpid/"),
             "address": scraped_data.get("address", ""),
             "detail_url": f"https://www.zillow.com/homedetails/ADDRESS/{zpid}_zpid/",
             "price": scraped_data.get("price"),

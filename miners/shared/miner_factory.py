@@ -36,9 +36,15 @@ class MinerFactory:
     def _register_default_scrapers(self):
         """Register default scraper implementations"""
         try:
-            # Zillow implementations
-            from miners.zillow.web_scraping_implementation.direct_zillow_miner import DirectZillowScraper
-            self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, DirectZillowScraper)
+            # Zillow implementations - Enhanced scraper with comprehensive data extraction
+            try:
+                from miners.zillow.web_scraping_implementation.enhanced_zillow_miner import EnhancedZillowScraper
+                self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, EnhancedZillowScraper)
+                logging.info("Registered Enhanced Zillow Web Scraper")
+            except ImportError:
+                logging.warning("Enhanced Zillow scraper not available, falling back to basic implementation")
+                from miners.zillow.web_scraping_implementation.direct_zillow_miner import DirectZillowScraper
+                self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, DirectZillowScraper)
             
             try:
                 from miners.zillow.api_implementation.rapid_zillow_miner import ZillowRapidAPIScraper
