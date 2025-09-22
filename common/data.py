@@ -76,9 +76,9 @@ class DataSource(IntEnum):
             DataSource.X: 0.0,             # Disabled for real estate focus
             DataSource.YOUTUBE: 0.0,        # Disabled for real estate focus
             DataSource.ZILLOW: 1.0,         # Primary real estate source
-            DataSource.REDFIN: 0.8,         # Secondary real estate source
-            DataSource.REALTOR_COM: 0.6,    # Tertiary real estate source
-            DataSource.HOMES_COM: 0.4,      # Quaternary real estate source
+            DataSource.REDFIN: 0.0,         # Secondary real estate source
+            DataSource.REALTOR_COM: 0.0,    # Tertiary real estate source
+            DataSource.HOMES_COM: 0.0,      # Quaternary real estate source
         }
         return weights[self]
 
