@@ -1,4 +1,4 @@
-# The MIT License (MIT)
+    git push --set-upstream origin RE-10# The MIT License (MIT)
 # Copyright © 2025 Resi Labs
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -554,6 +554,67 @@ class Miner:
                 if synapse.usernames:
                     from scraping.youtube.model import YouTubeContent
                     labels.extend([DataLabel(value=YouTubeContent.create_channel_label(u)) for u in synapse.usernames])
+
+            elif synapse.source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM]:
+                # NEW: Multi-source real estate handling
+                from miners.shared.miner_factory import get_scraper_for_source
+                
+                # Get appropriate scraper for the platform
+                scraper = get_scraper_for_source(synapse.source)
+                if not scraper:
+                    bt.logging.error(f"No scraper available for source {synapse.source}")
+                    synapse.data = []
+                    return synapse
+                
+                labels = []
+                
+                # Handle ZPID-based requests (Zillow)
+                if synapse.source == DataSource.ZILLOW and hasattr(synapse, 'zpids') and synapse.zpids:
+                    bt.logging.info(f"Processing Zillow ZPID-based request with {len(synapse.zpids)} ZPIDs")
+                    labels.extend([DataLabel(value=f"zpid:{zpid}") for zpid in synapse.zpids])
+                
+                # Handle Redfin ID-based requests
+                elif synapse.source == DataSource.REDFIN and hasattr(synapse, 'redfin_ids') and synapse.redfin_ids:
+                    bt.logging.info(f"Processing Redfin ID-based request with {len(synapse.redfin_ids)} IDs")
+                    labels.extend([DataLabel(value=f"redfin_id:{rid}") for rid in synapse.redfin_ids])
+                
+                # Handle address-based requests (Realtor.com, Homes.com)
+                elif synapse.source in [DataSource.REALTOR_COM, DataSource.HOMES_COM] and hasattr(synapse, 'addresses') and synapse.addresses:
+                    bt.logging.info(f"Processing {synapse.source.name} address-based request with {len(synapse.addresses)} addresses")
+                    labels.extend([DataLabel(value=f"address:{addr}") for addr in synapse.addresses])
+                
+                # Handle legacy keyword-based requests (backward compatibility)
+                elif synapse.keywords:
+                    labels.extend([DataLabel(value=k) for k in synapse.keywords])
+                
+                # Handle username-based requests (if applicable)
+                elif synapse.usernames:
+                    labels.extend([DataLabel(value=u) for u in synapse.usernames])
+                
+                # Use the factory-created scraper instead of provider
+                if labels:
+                    try:
+                        config = ScrapeConfig(
+                            entity_limit=synapse.limit,
+                            date_range=DateRange(start=start_dt, end=end_dt),
+                            labels=labels
+                        )
+                        
+                        bt.logging.info(f"Scraping with {synapse.source.name} scraper")
+                        entities = await scraper.scrape(config)
+                        
+                        synapse.data = entities[:synapse.limit]
+                        bt.logging.info(f"Returning {len(synapse.data)} entities from {synapse.source.name}")
+                        return synapse
+                        
+                    except Exception as e:
+                        bt.logging.error(f"Error during {synapse.source.name} scraping: {e}")
+                        synapse.data = []
+                        return synapse
+                else:
+                    bt.logging.warning(f"No valid identifiers provided for {synapse.source.name}")
+                    synapse.data = []
+                    return synapse
 
             if not scraper_id:
                 bt.logging.error(f"No scraper ID for source {synapse.source}")

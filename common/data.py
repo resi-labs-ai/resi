@@ -59,26 +59,26 @@ class TimeBucket(StrictBaseModel):
 
 
 class DataSource(IntEnum):
-    """The source of data. This will be expanded over time as we increase the types of data we collect."""
+    """The source of data. Expanded for multi-platform real estate scraping."""
 
     REDDIT = 1
     X = 2
     YOUTUBE = 3
-    RAPID_ZILLOW = 4  # Zillow real estate data via RapidAPI
-    UNKNOWN_5 = 5     # Future: Could be RAPID_REDFIN, MLS_DIRECT, etc.
-    UNKNOWN_6 = 6
-    UNKNOWN_7 = 7
+    ZILLOW = 4              # Zillow real estate data (formerly RAPID_ZILLOW)
+    REDFIN = 5              # Redfin real estate data
+    REALTOR_COM = 6         # Realtor.com real estate data
+    HOMES_COM = 7           # Homes.com real estate data
 
     @property
     def weight(self):
         weights = {
-            DataSource.REDDIT: 0.0,         # Disabled for real estate focus
-            DataSource.X: 0.0,              # Disabled for real estate focus  
+            DataSource.REDDIT: 0.0,        # Disabled for real estate focus
+            DataSource.X: 0.0,             # Disabled for real estate focus
             DataSource.YOUTUBE: 0.0,        # Disabled for real estate focus
-            DataSource.RAPID_ZILLOW: 1.0,   # Full weight for Zillow real estate data
-            DataSource.UNKNOWN_5: 0,        # Future real estate sources
-            DataSource.UNKNOWN_6: 0,
-            DataSource.UNKNOWN_7: 0
+            DataSource.ZILLOW: 1.0,         # Primary real estate source
+            DataSource.REDFIN: 0.8,         # Secondary real estate source
+            DataSource.REALTOR_COM: 0.6,    # Tertiary real estate source
+            DataSource.HOMES_COM: 0.4,      # Quaternary real estate source
         }
         return weights[self]
 

@@ -114,6 +114,13 @@ class OnDemandRequest(BaseProtocol):
         max_length=5
     )
 
+    # NEW: ZPID-based requests for Zillow
+    zpids: List[str] = Field(
+        default_factory=list,
+        description="Zillow Property IDs to scrape (for real estate data)",
+        max_length=50
+    )
+
     start_date: Optional[str] = Field(
         default=None,
         description="Start date (ISO format)"
