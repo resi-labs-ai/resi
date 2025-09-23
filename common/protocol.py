@@ -169,10 +169,108 @@ class OnDemandRequest(BaseProtocol):
     )
 
 
+class DataAssignmentRequest(BaseProtocol):
+    """Protocol for coordinated data assignment from validators to miners"""
+    
+    # Assignment metadata
+    request_id: str = Field(
+        description="Unique assignment identifier"
+    )
+    
+    assignment_data: Dict[str, List[str]] = Field(
+        description="Property IDs by source (ZILLOW: [zpids], REDFIN: [redfin_ids], etc.)",
+        default_factory=dict
+    )
+    
+    zipcode_assignments: Dict[str, List[str]] = Field(
+        description="Zipcode assignments by source (ZILLOW: [zipcodes], etc.)",
+        default_factory=dict
+    )
+    
+    assignment_mode: str = Field(
+        default="property_ids",
+        description="Assignment mode: 'property_ids' or 'zipcodes'"
+    )
+    
+    expected_properties_per_zipcode: Optional[int] = Field(
+        default=None,
+        description="Expected number of properties per zipcode (for validation)"
+    )
+    
+    zipcode_batch_id: Optional[str] = Field(
+        default=None,
+        description="Zipcode batch identifier for consensus grouping"
+    )
+    
+    overlap_group: Optional[int] = Field(
+        default=None,
+        description="Overlap group number for consensus validation (0, 1, 2, etc.)"
+    )
+    
+    expires_at: Optional[str] = Field(
+        default=None,
+        description="Assignment expiry time (ISO format)"
+    )
+    
+    expected_completion: Optional[str] = Field(
+        default=None,
+        description="When results are due (ISO format)"
+    )
+    
+    assignment_type: str = Field(
+        default="property_scraping",
+        description="Type of assignment"
+    )
+    
+    block_id: Optional[str] = Field(
+        default=None,
+        description="Data block identifier"
+    )
+    
+    priority: int = Field(
+        default=1,
+        ge=1,
+        le=10,
+        description="Assignment priority (1-10)"
+    )
+    
+    # Response fields (populated by miner)
+    submission_timestamp: Optional[str] = Field(
+        default=None,
+        description="When miner submitted response (ISO format)"
+    )
+    
+    scrape_timestamp: Optional[str] = Field(
+        default=None,
+        description="When miner started scraping (ISO format)"
+    )
+    
+    completion_status: str = Field(
+        default="pending",
+        description="Assignment completion status"
+    )
+    
+    scraped_data: Dict[str, List[DataEntity]] = Field(
+        default_factory=dict,
+        description="Scraped data organized by source"
+    )
+    
+    assignment_stats: Optional[Dict[str, any]] = Field(
+        default=None,
+        description="Assignment execution statistics"
+    )
+    
+    error_details: Optional[Dict[str, any]] = Field(
+        default=None,
+        description="Error information if assignment failed"
+    )
+
+
 # How many times validators can send requests per validation period.
 REQUEST_LIMIT_BY_TYPE_PER_PERIOD = {
     GetMinerIndex: 1,
     GetDataEntityBucket: 1,
     GetContentsByBuckets: 5,
     OnDemandRequest: 5,
+    DataAssignmentRequest: 1,  # Once per 4-hour period from validators
 }
