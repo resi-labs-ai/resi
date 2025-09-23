@@ -57,7 +57,7 @@ class ZipcodeAssignmentManager:
             Dictionary with assignment details and miner assignments
         """
         if sources is None:
-            sources = ['ZILLOW']
+            sources = ['ZILLOW_SOLD']
             
         bt.logging.info(f"Creating zipcode assignments for {len(available_zipcodes)} zipcodes across {len(available_miners)} miners")
         

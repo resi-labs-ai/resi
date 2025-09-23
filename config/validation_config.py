@@ -29,7 +29,7 @@ class ValidationConfig:
     max_properties_per_assignment: int = int(os.getenv('MAX_PROPERTIES_PER_ASSIGNMENT', '50'))
     
     # Data Sources
-    enabled_sources: List[str] = os.getenv('ENABLED_DATA_SOURCES', 'zillow,redfin,realtor,homes').split(',')
+    enabled_sources: List[str] = os.getenv('ENABLED_DATA_SOURCES', 'ZILLOW_SOLD').split(',')
     block_size_per_source: int = int(os.getenv('BLOCK_SIZE_PER_SOURCE', '1000'))
     
     # Time-based Rewards
@@ -141,7 +141,8 @@ CONSENSUS_ONLY_CONFIG = ValidationConfig(
     enable_validator_spot_checks=False,
     consensus_confidence_threshold=0.6,
     anomaly_detection_threshold=0.3,
-    miners_per_property=5,
+    miners_per_property=10,  # Increased for zipcode batches
+    enabled_sources=['ZILLOW_SOLD'],
     enable_behavioral_analysis=True,
     enable_time_based_rewards=True
 )
@@ -150,7 +151,8 @@ API_VALIDATION_CONFIG = ValidationConfig(
     enable_validator_spot_checks=True,
     consensus_confidence_threshold=0.8,  # Higher threshold since we have API validation
     anomaly_detection_threshold=0.2,     # Lower threshold to trigger API validation more often
-    miners_per_property=3,               # Fewer miners needed when API validating
+    miners_per_property=5,               # Fewer miners needed when API validating
+    enabled_sources=['ZILLOW_SOLD'],
     enable_behavioral_analysis=True,
     enable_time_based_rewards=True
 )
@@ -160,7 +162,8 @@ DEVELOPMENT_CONFIG = ValidationConfig(
     enable_validator_spot_checks=False,
     consensus_confidence_threshold=0.5,  # Lower threshold for testing
     anomaly_detection_threshold=0.4,
-    miners_per_property=3,               # Fewer miners for testing
+    miners_per_property=5,               # Fewer miners for testing
+    enabled_sources=['ZILLOW_SOLD'],
     assignment_timeout_hours=1,          # Shorter timeout for testing
     block_size_per_source=10,           # Smaller blocks for testing
     enable_detailed_logging=True,
@@ -171,9 +174,10 @@ PRODUCTION_CONFIG = ValidationConfig(
     enable_validator_spot_checks=False,  # Start with consensus only
     consensus_confidence_threshold=0.7,
     anomaly_detection_threshold=0.25,
-    miners_per_property=5,
-    assignment_timeout_hours=2,
-    block_size_per_source=1000,
+    miners_per_property=10,              # Increased for zipcode batches
+    enabled_sources=['ZILLOW_SOLD'],
+    assignment_timeout_hours=4,          # Longer for zipcode scraping
+    block_size_per_source=20,           # Zipcodes per batch
     enable_behavioral_analysis=True,
     enable_time_based_rewards=True,
     enable_detailed_logging=False,
