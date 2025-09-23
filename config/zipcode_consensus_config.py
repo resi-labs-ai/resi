@@ -5,7 +5,7 @@ Supports both mock and production API endpoints
 
 import os
 from typing import Dict, Any, List
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -16,7 +16,7 @@ class ZipcodeConsensusConfig:
     data_api_url: str = os.getenv('DATA_API_URL', 'http://localhost:8000')  # Mock server by default
     
     # Source Configuration (updated to ZILLOW_SOLD)
-    enabled_sources: List[str] = os.getenv('ENABLED_DATA_SOURCES', 'ZILLOW_SOLD').split(',')
+    enabled_sources: List[str] = field(default_factory=lambda: os.getenv('ENABLED_DATA_SOURCES', 'ZILLOW_SOLD').split(','))
     
     # Zipcode Assignment Configuration
     zipcodes_per_batch: int = int(os.getenv('ZIPCODES_PER_BATCH', '20'))
