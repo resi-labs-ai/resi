@@ -114,10 +114,36 @@ class OnDemandRequest(BaseProtocol):
         max_length=5
     )
 
-    # NEW: ZPID-based requests for Zillow
+    # Real estate data requests
     zpids: List[str] = Field(
         default_factory=list,
         description="Zillow Property IDs to scrape (for real estate data)",
+        max_length=50
+    )
+    
+    # NEW: Zipcode-based requests for sold listings
+    zipcodes: List[str] = Field(
+        default_factory=list,
+        description="Zipcodes to scrape sold listings from",
+        max_length=20
+    )
+    
+    max_listings_per_zipcode: int = Field(
+        default=100,
+        ge=1,
+        le=500,
+        description="Maximum sold listings to scrape per zipcode"
+    )
+    
+    redfin_ids: List[str] = Field(
+        default_factory=list,
+        description="Redfin Property IDs to scrape (for real estate data)",
+        max_length=50
+    )
+    
+    addresses: List[str] = Field(
+        default_factory=list,
+        description="Street addresses to scrape (for real estate data)",
         max_length=50
     )
 

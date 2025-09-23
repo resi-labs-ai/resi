@@ -46,6 +46,15 @@ class MinerFactory:
                 from miners.zillow.web_scraping_implementation.direct_zillow_miner import DirectZillowScraper
                 self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, DirectZillowScraper)
             
+            # Zillow Sold Listings scraper - NEW
+            try:
+                from miners.zillow.web_scraping_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
+                # Register as a separate platform type for sold listings
+                self._scrapers[("ZILLOW_SOLD", MinerImplementation.WEB_SCRAPING)] = ZillowSoldListingsScraper
+                logging.info("Registered Zillow Sold Listings Scraper")
+            except ImportError:
+                logging.warning("Zillow Sold Listings scraper not available")
+            
             try:
                 from miners.zillow.api_implementation.rapid_zillow_miner import ZillowRapidAPIScraper
                 self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.API, ZillowRapidAPIScraper)
@@ -166,6 +175,23 @@ class MinerFactory:
     
     def get_scraper_for_source(self, source: DataSource, implementation: Optional[MinerImplementation] = None) -> Optional[Scraper]:
         """Get scraper for a specific DataSource"""
+        
+        # Handle ZILLOW_SOLD as a special case
+        if source == DataSource.ZILLOW_SOLD:
+            impl = implementation or MinerImplementation.WEB_SCRAPING
+            key = ("ZILLOW_SOLD", impl)
+            scraper_class = self._scrapers.get(key)
+            if scraper_class:
+                try:
+                    return scraper_class()
+                except Exception as e:
+                    logging.error(f"Error creating ZILLOW_SOLD scraper: {e}")
+                    return None
+            else:
+                logging.error(f"No ZILLOW_SOLD scraper registered for implementation: {impl}")
+                return None
+        
+        # Handle regular data sources
         source_to_platform = {
             DataSource.ZILLOW: MinerPlatform.ZILLOW,
             DataSource.REDFIN: MinerPlatform.REDFIN,

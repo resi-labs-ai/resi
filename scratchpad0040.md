@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-This document explores the design of a system where validators pull randomly requested data blocks every 4 hours from a secure API and distribute them to miners, while preventing gaming and ensuring data integrity without requiring validators to scrape data themselves.
+This document explores the design of a system where validators pull randomly requested data blocks every 4 hours from a secure API and distribute them to miners, while preventing gaming and ensuring data integrity **primarily through statistical consensus** rather than synthetic validation. 
+
+**Key Insight**: Unlike social media data, real estate data is **dynamic and multi-source**, making Bittensor's typical synthetic validation approach ineffective. We use **statistical consensus as primary validation** with **optional spot-checks** that can be enabled later without requiring validators to regularly scrape data themselves.
 
 ## Current System Analysis
 
@@ -375,15 +377,48 @@ def verify_property_data_freshness(miner_submission):
 **Implementation Effort**: ~80 lines (extends existing scoring and validation)
 **Risk Level**: Minimal (reuses proven timestamp validation patterns)
 
-### 4. Consensus Without Validator Scraping
+### 4. Statistical Consensus Primary + Optional Spot Validation
 
-#### Statistical Consensus + Minimal Spot Validation (Reuses Existing Systems)
+#### Why Synthetic Validation Doesn't Work for Real Estate Data
+
+**Bittensor's Typical Approach:**
+- Uses synthetic/known data to test scraper quality  
+- Validators know the "correct" answer beforehand
+- Works well for social media (relatively static content)
+
+**Real Estate Data Challenges:**
+- **Dynamic Data**: Prices, status, days on market change hourly
+- **No Ground Truth**: Multiple valid answers depending on timing/source
+- **API Variations**: Search API vs Individual Property API return different fields
+- **Market Reality**: Properties sold/delisted between miner scrapes and validator checks
+
+**Solution: Statistical Consensus as Primary Validation**
 
 **Core Philosophy:**
-- Validators should NOT scrape data regularly (≤10% of cases)
-- Use existing credibility and anomaly detection systems
-- Perform strategic spot-checks only when statistical anomalies detected
-- Leverage existing miner diversity and scoring infrastructure
+- **Primary**: Statistical consensus using miner credibility weighting
+- **Secondary**: Optional spot-checks (disabled by default, configurable)
+- **Fallback**: Degraded scoring for properties with low consensus confidence
+- **No Regular Scraping**: Validators avoid routine data scraping
+
+**Three-Tier Validation Strategy:**
+
+**Tier 1: Statistical Consensus (Always Enabled)**
+- Weight responses by existing miner credibility scores
+- Require majority agreement + credible diversity
+- Flag properties with low consensus confidence
+- Update miner credibility based on agreement patterns
+
+**Tier 2: Behavioral Analysis (Always Enabled)**  
+- Detect synchronized submissions, identical responses
+- Monitor timing patterns and response similarities
+- Apply penalties through existing blacklist system
+- No additional scraping required
+
+**Tier 3: Optional Spot-Checking (Configurable, Default: Disabled)**
+- Enable via configuration flag: `ENABLE_VALIDATOR_SPOT_CHECKS=false`
+- Only triggered when Tier 1 + Tier 2 detect high anomaly rates
+- Uses existing scraper infrastructure when enabled
+- Graceful degradation when disabled
 
 **Implementation Strategy (Builds on Existing Organic Query Processor):**
 ```python
@@ -402,14 +437,17 @@ class PropertyConsensusEngine:
         # REUSE: Step 3 - Use extended anomaly detection
         anomalies = self._apply_behavioral_penalties(valid_responses, self.analyze_submission_patterns(valid_responses))
         
-        # REUSE: Step 4 - Use existing scraper infrastructure for spot-checks (only when needed)
-        if len(anomalies) > 0.3 * len(valid_responses):
-            # Use existing scraper provider for validation
+        # REUSE: Step 4 - Optional spot-checks (configurable)
+        if self.config.get('ENABLE_VALIDATOR_SPOT_CHECKS', False) and len(anomalies) > 0.3 * len(valid_responses):
+            # Use existing scraper provider for validation (only when enabled)
             spot_check_results = await self._perform_strategic_spot_check(
                 sample_properties=random.sample(assignment.properties, 5),
                 suspicious_miners=anomalies
             )
             consensus_data = self._adjust_consensus_with_spot_check(consensus_data, spot_check_results)
+        elif len(anomalies) > 0.3 * len(valid_responses):
+            # Graceful degradation: Lower confidence scores without spot-checking
+            consensus_data = self._apply_anomaly_confidence_penalty(consensus_data, anomalies)
         
         # REUSE: Step 5 - Use existing credibility update system
         self._update_miner_credibility_with_consensus(responses, consensus_data)
@@ -597,3 +635,179 @@ This document provides a **comprehensive implementation guide** that:
 - Maintains compatibility with existing network operations
 
 The approach ensures **network security and data integrity** while scaling efficiently and preventing common attack vectors, all while requiring minimal new development effort.
+
+## Complete Implementation TODO List
+
+### Phase 1: Core Infrastructure Setup (Week 1)
+**Priority: Critical | Effort: 150 lines**
+
+- [ ] **API-001**: Create validator data distribution API endpoint
+  - [ ] Copy S3 authentication pattern from `vali_utils/validator_s3_access.py:176-187`
+  - [ ] Change commitment prefix from `s3:validator:miner:` to `api:data:request:`
+  - [ ] Create endpoint: `GET /api/v1/validator-data?sources=zillow,redfin,realtor,homes`
+  - [ ] Return JSON with random property IDs by source (1000 per source)
+  - [ ] Add 4-hour token expiry matching existing S3 pattern
+  
+- [ ] **API-002**: Deploy API infrastructure
+  - [ ] Set up API server with load balancing
+  - [ ] Configure validator registration verification
+  - [ ] Add rate limiting and monitoring
+  - [ ] Test with 2-3 validators initially
+
+- [ ] **CONFIG-001**: Add configuration flags for optional features
+  - [ ] Add `ENABLE_VALIDATOR_SPOT_CHECKS=false` to config
+  - [ ] Add `CONSENSUS_CONFIDENCE_THRESHOLD=0.6` 
+  - [ ] Add `ANOMALY_DETECTION_THRESHOLD=0.3`
+  - [ ] Add `DATA_API_URL` configuration option
+
+### Phase 2: Protocol Extensions (Week 2)
+**Priority: Critical | Effort: 100 lines**
+
+- [ ] **PROTOCOL-001**: Extend OnDemandRequest for data assignments
+  - [ ] Create `DataAssignmentRequest` synapse in `common/organic_protocol.py`
+  - [ ] Copy structure from existing `OnDemandRequest` 
+  - [ ] Add fields: `request_id`, `assignment_data`, `expires_at`, `expected_completion`
+  - [ ] Test serialization/deserialization with existing infrastructure
+
+- [ ] **MINER-001**: Add data assignment handler to miners
+  - [ ] Copy `handle_on_demand` pattern from `neurons/miner.py:518-558`
+  - [ ] Create `handle_data_assignment` method
+  - [ ] Integrate with existing request rate limiting system
+  - [ ] Add assignment storage and tracking
+
+- [ ] **VALIDATOR-001**: Integrate data API pull with existing sync cycle
+  - [ ] Modify `vali_utils/miner_evaluator.py` sync cycle (add ~10 lines)
+  - [ ] Pull data from API every 4 hours during existing evaluation
+  - [ ] Distribute to miners using existing dendrite infrastructure
+  - [ ] Log assignment success/failure rates
+
+### Phase 3: Statistical Consensus Engine (Week 3)
+**Priority: Critical | Effort: 150 lines**
+
+- [ ] **CONSENSUS-001**: Build statistical consensus using existing credibility
+  - [ ] Copy pattern from `vali_utils/organic_query_processor.py:49-86`
+  - [ ] Create `PropertyConsensusEngine` class
+  - [ ] Implement `calculate_consensus_with_existing_credibility` using `MinerScorer.miner_credibility`
+  - [ ] Add confidence scoring and consensus thresholds
+
+- [ ] **CONSENSUS-002**: Implement graceful degradation without spot-checks
+  - [ ] Add `_apply_anomaly_confidence_penalty` method
+  - [ ] Lower property scores when consensus confidence is low
+  - [ ] Track consensus failure rates for monitoring
+  - [ ] Ensure system works without any validator scraping
+
+- [ ] **VALIDATION-001**: Extend existing validation patterns
+  - [ ] Copy timestamp validation from `scraping/reddit/utils.py:503-553`
+  - [ ] Apply to property data submissions (5-30 minute scraping window)
+  - [ ] Use existing `ValidationResult` structure
+  - [ ] Integrate with existing credibility update system
+
+### Phase 4: Anti-Gaming Enhancements (Week 4)  
+**Priority: High | Effort: 100 lines**
+
+- [ ] **GAMING-001**: Extend existing anomaly detection
+  - [ ] Modify `vali_utils/organic_query_processor.py` anomaly categories
+  - [ ] Add "synchronized_submissions" and "identical_responses" to existing system
+  - [ ] Copy behavioral analysis patterns from existing penalty system
+  - [ ] Test with simulated coordinated miner responses
+
+- [ ] **GAMING-002**: Enhance miner diversity using existing cold key logic
+  - [ ] Copy cold key diversity from `vali_utils/organic_query_processor.py:115-150`
+  - [ ] Apply to property assignment groups (5 miners per property)
+  - [ ] Extend existing blacklist system in `common/utils.py:40-51`
+  - [ ] Add behavioral pattern blacklisting
+
+- [ ] **SCORING-001**: Add time-based reward multipliers
+  - [ ] Extend existing `MinerScorer.on_miner_evaluated` in `rewards/miner_scorer.py:187-245`
+  - [ ] Add submission time tracking to assignments
+  - [ ] Apply multipliers: 1.5x (<30min), 1.2x (<60min), 0.8x (>120min)
+  - [ ] Integrate with existing raw score calculation
+
+### Phase 5: Optional Spot-Check Infrastructure (Week 5)
+**Priority: Medium | Effort: 80 lines**
+
+- [ ] **SPOTCHECK-001**: Build configurable spot-check system
+  - [ ] Add `_perform_strategic_spot_check` method using existing scraper infrastructure
+  - [ ] Use `ScraperProvider.get(ScraperId.RAPID_ZILLOW)` from existing system
+  - [ ] Only execute when `ENABLE_VALIDATOR_SPOT_CHECKS=true`
+  - [ ] Sample 5 properties when anomaly rate > 30%
+
+- [ ] **SPOTCHECK-002**: Integrate with existing scraper infrastructure
+  - [ ] Use existing `vali_utils/miner_evaluator.py:71` scraper provider
+  - [ ] Apply existing rate limiting and error handling
+  - [ ] Store spot-check results for consensus adjustment
+  - [ ] Monitor spot-check accuracy vs consensus accuracy
+
+### Phase 6: Production Deployment & Monitoring (Week 6)
+**Priority: High | Effort: 50 lines**
+
+- [ ] **DEPLOY-001**: Full network rollout
+  - [ ] Deploy to all validators using existing deployment patterns
+  - [ ] Monitor using existing logging systems (`bt.logging`)
+  - [ ] Track consensus confidence rates and anomaly detection
+  - [ ] Monitor miner credibility changes and score distributions
+
+- [ ] **MONITOR-001**: Add comprehensive monitoring
+  - [ ] Track API uptime and response times
+  - [ ] Monitor consensus confidence rates by property type/region
+  - [ ] Alert on high anomaly detection rates
+  - [ ] Track validator agreement rates and Vtrust improvements
+
+- [ ] **TUNE-001**: Parameter optimization
+  - [ ] Tune `CONSENSUS_CONFIDENCE_THRESHOLD` based on network behavior
+  - [ ] Adjust `ANOMALY_DETECTION_THRESHOLD` to minimize false positives
+  - [ ] Optimize time-based reward multipliers for network efficiency
+  - [ ] Document optimal configuration for different network conditions
+
+### Phase 7: Future Enhancement Preparation (Week 7)
+**Priority: Low | Effort: 30 lines**
+
+- [ ] **FUTURE-001**: Spot-check enablement preparation
+  - [ ] Document spot-check enabling procedures
+  - [ ] Create configuration management for gradual rollout
+  - [ ] Build A/B testing framework for spot-check effectiveness
+  - [ ] Prepare validator training materials for spot-check features
+
+- [ ] **FUTURE-002**: Advanced anti-gaming measures
+  - [ ] Design IP-based diversity requirements
+  - [ ] Plan stake-weighted consensus mechanisms
+  - [ ] Prepare geographic distribution requirements
+  - [ ] Document honeypot property integration plans
+
+## Implementation Priorities
+
+**Must Have (Weeks 1-4):**
+- API infrastructure and protocol extensions
+- Statistical consensus engine
+- Basic anti-gaming measures
+- Graceful degradation without spot-checks
+
+**Should Have (Weeks 5-6):**
+- Optional spot-check infrastructure  
+- Production monitoring and tuning
+- Full network deployment
+
+**Could Have (Week 7):**
+- Future enhancement preparation
+- Advanced anti-gaming measures
+- A/B testing framework
+
+## Success Metrics
+
+**Technical Metrics:**
+- [ ] 90% code reuse achieved (target: reuse existing patterns)
+- [ ] <10% validator scraping rate (target: statistical consensus primary)
+- [ ] 5-week implementation timeline met
+- [ ] Zero breaking changes to existing miner/validator operations
+
+**Network Metrics:**
+- [ ] Consensus confidence >60% for 80% of properties
+- [ ] Anomaly detection rate <5% under normal conditions
+- [ ] Miner credibility scores stable during transition
+- [ ] Validator Vtrust scores improve or remain stable
+
+**Data Quality Metrics:**
+- [ ] Property data accuracy maintained or improved vs current system
+- [ ] Response time improvements with time-based rewards
+- [ ] Reduced gaming attempts detected through behavioral analysis
+- [ ] Network resilience maintained without regular validator scraping

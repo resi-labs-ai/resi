@@ -555,8 +555,8 @@ class Miner:
                     from scraping.youtube.model import YouTubeContent
                     labels.extend([DataLabel(value=YouTubeContent.create_channel_label(u)) for u in synapse.usernames])
 
-            elif synapse.source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM]:
-                # NEW: Multi-source real estate handling
+            elif synapse.source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM, DataSource.ZILLOW_SOLD]:
+                # NEW: Multi-source real estate handling including sold listings
                 from miners.shared.miner_factory import get_scraper_for_source
                 
                 # Get appropriate scraper for the platform
@@ -568,8 +568,13 @@ class Miner:
                 
                 labels = []
                 
+                # Handle zipcode-based requests for sold listings (ZILLOW_SOLD)
+                if synapse.source == DataSource.ZILLOW_SOLD and hasattr(synapse, 'zipcodes') and synapse.zipcodes:
+                    bt.logging.info(f"Processing Zillow sold listings request with {len(synapse.zipcodes)} zipcodes")
+                    labels.extend([DataLabel(value=f"zip:{zipcode}") for zipcode in synapse.zipcodes])
+                
                 # Handle ZPID-based requests (Zillow)
-                if synapse.source == DataSource.ZILLOW and hasattr(synapse, 'zpids') and synapse.zpids:
+                elif synapse.source == DataSource.ZILLOW and hasattr(synapse, 'zpids') and synapse.zpids:
                     bt.logging.info(f"Processing Zillow ZPID-based request with {len(synapse.zpids)} ZPIDs")
                     labels.extend([DataLabel(value=f"zpid:{zpid}") for zpid in synapse.zpids])
                 
@@ -594,6 +599,18 @@ class Miner:
                 # Use the factory-created scraper instead of provider
                 if labels:
                     try:
+                        # Create date range with utility function
+                        start_dt = (utils.parse_iso_date(synapse.start_date)
+                                    if synapse.start_date else dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1))
+                        end_dt = (utils.parse_iso_date(synapse.end_date)
+                                if synapse.end_date else dt.datetime.now(dt.timezone.utc))
+
+                        # Fallback to default dates if parsing failed
+                        if start_dt is None:
+                            start_dt = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)
+                        if end_dt is None:
+                            end_dt = dt.datetime.now(dt.timezone.utc)
+                        
                         config = ScrapeConfig(
                             entity_limit=synapse.limit,
                             date_range=DateRange(start=start_dt, end=end_dt),

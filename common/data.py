@@ -68,6 +68,7 @@ class DataSource(IntEnum):
     REDFIN = 5              # Redfin real estate data
     REALTOR_COM = 6         # Realtor.com real estate data
     HOMES_COM = 7           # Homes.com real estate data
+    ZILLOW_SOLD = 8         # Zillow sold listings by zipcode
 
     @property
     def weight(self):
@@ -75,10 +76,11 @@ class DataSource(IntEnum):
             DataSource.REDDIT: 0.0,        # Disabled for real estate focus
             DataSource.X: 0.0,             # Disabled for real estate focus
             DataSource.YOUTUBE: 0.0,        # Disabled for real estate focus
-            DataSource.ZILLOW: 1.0,         # Primary real estate source
+            DataSource.ZILLOW: 0.0,         # Primary real estate source
             DataSource.REDFIN: 0.0,         # Secondary real estate source
             DataSource.REALTOR_COM: 0.0,    # Tertiary real estate source
             DataSource.HOMES_COM: 0.0,      # Quaternary real estate source
+            DataSource.ZILLOW_SOLD: 1,    # Sold listings (higher value than active)
         }
         return weights[self]
 
