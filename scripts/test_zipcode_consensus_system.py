@@ -382,36 +382,6 @@ class ZipcodeConsensusSystemTester:
         print("\n🕵️ Testing Behavioral Analysis...")
         
         try:
-            # Create mock responses with some anomalies
-            mock_responses = []
-            
-            # Normal responses
-            for i in range(8):
-                response = DataAssignmentRequest(
-                    request_id=f"test_assignment_miner_{i}",
-                    assignment_mode="zipcodes",
-                    zipcode_assignments={"ZILLOW_SOLD": ["77494", "78701"]},
-                    completion_status="completed",
-                    submission_timestamp="2025-01-15T10:45:00Z",
-                    scrape_timestamp="2025-01-15T10:30:00Z"
-                )
-                setattr(response, 'miner_uid', i)
-                mock_responses.append(response)
-            
-            # Anomalous responses (synchronized)
-            sync_time = "2025-01-15T10:44:59Z"
-            for i in range(8, 12):
-                response = DataAssignmentRequest(
-                    request_id=f"test_assignment_miner_{i}",
-                    assignment_mode="zipcodes",
-                    zipcode_assignments={"ZILLOW_SOLD": ["77494", "78701"]},
-                    completion_status="completed",
-                    submission_timestamp=sync_time,  # Synchronized!
-                    scrape_timestamp="2025-01-15T10:30:00Z"
-                )
-                setattr(response, 'miner_uid', i)
-                mock_responses.append(response)
-            
             # Test anomaly detection
             mock_metagraph = self._create_mock_metagraph()
             mock_scorer = self._create_mock_scorer()

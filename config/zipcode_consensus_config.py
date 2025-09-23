@@ -210,8 +210,9 @@ PRODUCTION_S3_CONSENSUS_CONFIG = ZipcodeConsensusConfig(
 )
 
 # Testnet Configuration
+# NOTE: Uses production data API even for testnet - only Bittensor network differs
 TESTNET_CONFIG = ZipcodeConsensusConfig(
-    data_api_url='https://testnet-api.resi-subnet.com',
+    data_api_url='https://api.resi-subnet.com',  # Production API required
     enabled_sources=['ZILLOW_SOLD'],
     zipcodes_per_batch=10,
     miners_per_zipcode_batch=7,
