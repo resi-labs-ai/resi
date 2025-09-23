@@ -5,7 +5,7 @@ Enables plug-and-play architecture for different platforms and methods.
 
 import os
 import logging
-from typing import Optional, Dict, Any, Type
+from typing import Optional, Dict, Any, Type, List
 from enum import Enum
 
 from common.data import DataSource
@@ -36,19 +36,23 @@ class MinerFactory:
     def _register_default_scrapers(self):
         """Register default scraper implementations"""
         try:
-            # Zillow implementations - Enhanced scraper with comprehensive data extraction
+            # Zillow ZPID-based implementations (individual properties)
             try:
-                from miners.zillow.web_scraping_implementation.enhanced_zillow_miner import EnhancedZillowScraper
+                from miners.zillow.web_scraping_zpid_implementation.enhanced_zillow_miner import EnhancedZillowScraper
                 self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, EnhancedZillowScraper)
-                logging.info("Registered Enhanced Zillow Web Scraper")
+                logging.info("Registered Enhanced Zillow ZPID Web Scraper")
             except ImportError:
-                logging.warning("Enhanced Zillow scraper not available, falling back to basic implementation")
-                from miners.zillow.web_scraping_implementation.direct_zillow_miner import DirectZillowScraper
-                self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, DirectZillowScraper)
+                logging.warning("Enhanced Zillow ZPID scraper not available, falling back to basic implementation")
+                try:
+                    from miners.zillow.web_scraping_zpid_implementation.direct_zillow_miner import DirectZillowScraper
+                    self.register_scraper(MinerPlatform.ZILLOW, MinerImplementation.WEB_SCRAPING, DirectZillowScraper)
+                    logging.info("Registered Basic Zillow ZPID Web Scraper")
+                except ImportError:
+                    logging.warning("No Zillow ZPID web scraping implementations available")
             
-            # Zillow Sold Listings scraper - NEW
+            # Zillow Sold Listings scraper (zipcode-based)
             try:
-                from miners.zillow.web_scraping_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
+                from miners.zillow.web_scraping_sold_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
                 # Register as a separate platform type for sold listings
                 self._scrapers[("ZILLOW_SOLD", MinerImplementation.WEB_SCRAPING)] = ZillowSoldListingsScraper
                 logging.info("Registered Zillow Sold Listings Scraper")

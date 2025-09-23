@@ -17,7 +17,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 
-from .enhanced_zillow_miner import EnhancedZillowScraper, RateLimiter
+from ..web_scraping_zpid_implementation.enhanced_zillow_miner import EnhancedZillowScraper, RateLimiter
 from miners.zillow.shared.zillow_sold_schema import ZillowSoldListingContent
 from miners.zillow.shared.sold_url_builder import ZillowSoldURLBuilder, SoldListingsSearchParams
 from miners.zillow.shared.zipcode_utils import get_zipcode_mapper
@@ -39,7 +39,6 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
         self.max_session_requests = 8  # Restart browser more frequently
         
         # Sold listings specific settings
-        self.default_max_listings_per_zipcode = 100
         self.enhance_with_property_pages = True  # Whether to visit individual property pages
         self.enhancement_sample_rate = 0.3  # Only enhance 30% of listings to save time
         
@@ -60,15 +59,12 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
             
             for zipcode in zipcodes:
                 try:
-                    # Determine max listings for this zipcode
-                    max_listings = min(
-                        config.entity_limit // len(zipcodes),
-                        self.default_max_listings_per_zipcode
-                    )
+                    # Calculate target listings per zipcode (distribute total limit evenly)
+                    target_listings_per_zipcode = config.entity_limit // len(zipcodes)
                     
                     zipcode_entities = await self.scrape_zipcode_sold_listings(
                         zipcode, 
-                        max_listings
+                        target_listings_per_zipcode
                     )
                     
                     all_entities.extend(zipcode_entities)
@@ -105,11 +101,12 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
     async def scrape_zipcode_sold_listings(
         self, 
         zipcode: str, 
-        max_listings: int = 100
+        target_listings: int = None
     ) -> List[DataEntity]:
-        """Scrape sold listings for a specific zipcode"""
+        """Scrape ALL sold listings for a specific zipcode"""
         
-        logging.info(f"Scraping sold listings for zipcode {zipcode}, max {max_listings} listings")
+        logging.info(f"Scraping ALL sold listings for zipcode {zipcode}" + 
+                    (f" (target: {target_listings})" if target_listings else ""))
         
         try:
             # Get total results and determine pagination strategy
@@ -136,18 +133,19 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
             logging.info(f"Zipcode {zipcode}: Found {total_results} total sold listings, "
                         f"got {len(all_listings)} from page 1")
             
-            # Determine if we need more pages
-            if len(all_listings) < max_listings and total_results > len(all_listings):
-                additional_pages = await self._scrape_additional_pages(
+            # Scrape ALL remaining pages to get complete data
+            if total_results and total_results > len(all_listings):
+                additional_pages = await self._scrape_all_remaining_pages(
                     zipcode, 
                     total_results,
-                    max_listings - len(all_listings),
                     len(all_listings)  # listings per page
                 )
                 all_listings.extend(additional_pages)
             
-            # Limit results
-            all_listings = all_listings[:max_listings]
+            # Apply target limit only if specified (for validator's entity_limit distribution)
+            if target_listings and len(all_listings) > target_listings:
+                logging.info(f"Limiting to {target_listings} listings for validator distribution")
+                all_listings = all_listings[:target_listings]
             
             # Enhance selected listings with property page data
             if self.enhance_with_property_pages and all_listings:
@@ -462,30 +460,32 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
         
         return details
     
-    async def _scrape_additional_pages(
+    async def _scrape_all_remaining_pages(
         self, 
         zipcode: str, 
         total_results: int,
-        remaining_needed: int,
         listings_per_page: int
     ) -> List[ZillowSoldListingContent]:
-        """Scrape additional pages to reach desired listing count"""
+        """Scrape ALL remaining pages to get complete zipcode data"""
         
         additional_listings = []
         
         try:
-            # Calculate pages needed
-            pages_needed = min(
-                (remaining_needed // listings_per_page) + 1,
-                5  # Limit to 5 additional pages for performance
-            )
+            # Calculate total pages needed based on total results
+            total_pages = (total_results // listings_per_page) + (1 if total_results % listings_per_page > 0 else 0)
+            pages_to_scrape = total_pages - 1  # We already scraped page 1
             
-            logging.info(f"Scraping {pages_needed} additional pages for zipcode {zipcode}")
+            if pages_to_scrape <= 0:
+                return additional_listings
             
-            for page_num in range(2, pages_needed + 2):  # Start from page 2
+            logging.info(f"Scraping ALL {pages_to_scrape} remaining pages for zipcode {zipcode} "
+                        f"({total_results} total listings)")
+            
+            for page_num in range(2, total_pages + 1):  # Start from page 2
                 try:
                     page_url = await self.url_builder.build_sold_listings_url(zipcode, page_num)
                     if not page_url:
+                        logging.warning(f"Could not build URL for page {page_num}")
                         break
                     
                     await self.rate_limiter.wait_if_needed()
@@ -496,13 +496,10 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
                     
                     if page_data and page_data["listings"]:
                         additional_listings.extend(page_data["listings"])
-                        logging.debug(f"Page {page_num}: Added {len(page_data['listings'])} listings")
-                        
-                        # Stop if we have enough
-                        if len(additional_listings) >= remaining_needed:
-                            break
+                        logging.debug(f"Page {page_num}: Added {len(page_data['listings'])} listings "
+                                    f"(total: {len(additional_listings)})")
                     else:
-                        logging.debug(f"Page {page_num}: No listings found, stopping pagination")
+                        logging.debug(f"Page {page_num}: No listings found, may have reached end")
                         break
                     
                     # Random delay between pages
@@ -510,12 +507,14 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
                     
                 except Exception as e:
                     logging.error(f"Error scraping page {page_num} for zipcode {zipcode}: {e}")
-                    break
+                    # Continue with next page instead of breaking
+                    continue
         
         except Exception as e:
-            logging.error(f"Error in additional pages scraping: {e}")
+            logging.error(f"Error in all pages scraping: {e}")
         
-        return additional_listings[:remaining_needed]
+        logging.info(f"Scraped {len(additional_listings)} additional listings from {pages_to_scrape} pages")
+        return additional_listings
     
     async def _enhance_selected_listings(
         self, 

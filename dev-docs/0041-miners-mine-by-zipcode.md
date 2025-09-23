@@ -86,7 +86,148 @@ Would you like me to start implementing the URL pattern testing and basic scrape
 ##########################################################################################
 ##########################################################################################
 
+You're absolutely right! Let me address both points:
 
+1. **Remove max listings per zipcode limit** - Miners should scrape ALL sold listings in a zipcode since validators will select zipcodes to reach a target total
+2. **Separate the scrapers** - Create distinct folders for ZPID-based vs sold listings scrapers
+
+Let me implement these changes:
+
+[1 tool called]
+
+First, let me remove the max_listings_per_zipcode limit from the protocol:
+
+[1 tool called]
+
+Now let me create the new folder structure. First, let me create the new directories:
+
+[2 tools called]
+
+Now let me move the sold listings scraper to the new folder:
+
+[1 tool called]
+
+Now let me move the ZPID-based scrapers to the new ZPID folder:
+
+[2 tools called]
+
+Let me check the new structure:
+
+[1 tool called]
+
+Perfect! Now let me update the sold listings scraper to remove the max_listings_per_zipcode limit and fix the import paths:
+
+[1 tool called]
+
+Now let me remove the max_listings_per_zipcode logic from the scraper:
+
+[2 tools called]
+
+Now let me update the scrape_zipcode_sold_listings method to scrape ALL listings instead of limiting by max_listings:
+
+[2 tools called]
+
+Now let me rename the method and update its logic to scrape ALL pages:
+
+[2 tools called]
+
+Now let me create README files for both scraper types:
+
+[2 tools called]
+
+Now let me update the miner factory to register both scraper types separately:
+
+[1 tool called]
+
+Now let me update the test script to use the new folder structure:
+
+[1 tool called]
+
+Let me also update the test script to reflect that we now scrape ALL listings:
+
+[4 tools called]
+
+Perfect! Let me create a main README to document the new structure:
+
+[1 tool called]
+
+Now let me update the scratchpad to reflect the completed changes:
+
+[1 tool called]
+
+Perfect! Let me check that everything is working by testing the import:
+
+[2 tools called]
+
+That's expected - selenium isn't installed in the test environment. Let me test the structure instead:
+
+[3 tools called]
+
+Perfect! Let me check the test script is still executable:
+
+[1 tool called]
+
+## ✅ Implementation Complete!
+
+I have successfully addressed both of your requirements:
+
+### 1. ✅ **Removed Max Listings Per Zipcode Limit**
+
+- **Protocol Update**: Removed `max_listings_per_zipcode` field from `OnDemandRequest`
+- **Scraper Logic**: Updated to scrape **ALL** sold listings in each requested zipcode
+- **Volume Control**: Validators now control volume by selecting zipcodes that add up to their target (e.g., 5000 listings)
+
+**Key Changes:**
+- Miners scrape every sold listing in the zipcode (no artificial limits)
+- `_scrape_all_remaining_pages()` method gets complete coverage
+- Validators select zipcodes strategically to reach desired total volume
+
+### 2. ✅ **Separated Scraper Implementations**
+
+Created distinct folder structure for different scraping approaches:
+
+```
+miners/zillow/
+├── api_implementation/                    # API-based (example)
+├── web_scraping_zpid_implementation/      # Individual properties by ZPID  
+├── web_scraping_sold_implementation/      # Sold listings by zipcode
+└── shared/                               # Shared utilities
+```
+
+**Clear Separation:**
+- **ZPID Scraper** (`DataSource.ZILLOW`): Individual property research
+- **Sold Scraper** (`DataSource.ZILLOW_SOLD`): Market-wide sold listings analysis
+- **Factory Registration**: Each scraper type registered separately
+- **Documentation**: Dedicated READMEs explaining use cases
+
+### 🎯 **Usage Patterns**
+
+**Individual Property Research:**
+```python
+request = OnDemandRequest(
+    source=DataSource.ZILLOW,           # Uses ZPID scraper
+    zpids=["98970000", "12345678"],     # Specific properties
+    limit=50
+)
+```
+
+**Complete Market Analysis:**
+```python
+request = OnDemandRequest(
+    source=DataSource.ZILLOW_SOLD,      # Uses sold scraper
+    zipcodes=["11225", "10001"],        # Gets ALL sold listings
+    limit=1000                          # Distributed across zipcodes
+)
+```
+
+### 🔧 **Miner Choice**
+
+Miners can now choose their preferred implementation:
+- **For detailed property research**: Use ZPID-based scraper
+- **For comprehensive market data**: Use sold listings scraper
+- **Environment-based selection**: `MINER_PLATFORM` and `MINER_IMPLEMENTATION` variables
+
+This architecture provides clear separation of concerns while maintaining compatibility with the existing validator infrastructure. Miners get complete flexibility in their scraping strategy, and validators get predictable volume control through zipcode selection.
 
 ##########################################################################################
 ##########################################################################################

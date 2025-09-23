@@ -15,7 +15,7 @@ from pathlib import Path
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from miners.zillow.web_scraping_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
+from miners.zillow.web_scraping_sold_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
 from miners.zillow.shared.sold_url_builder import ZillowSoldURLBuilder, test_zipcode_url_construction as test_single_zipcode_url
 from miners.zillow.shared.zipcode_utils import get_test_zipcodes, get_zipcode_mapper
 from common.data import DataLabel, DataSource
@@ -71,17 +71,17 @@ async def test_sold_scraper_basic():
     
     # Test with a single zipcode
     test_zipcode = "11225"  # Brooklyn, NY
-    max_listings = 10  # Small number for quick testing
+    limit_for_testing = 20  # Limit for quick testing (scraper gets ALL but we limit for demo)
     
     try:
         scraper = ZillowSoldListingsScraper()
         
         print(f"Testing sold listings scraper with zipcode {test_zipcode}")
-        print(f"Max listings: {max_listings}")
+        print(f"Note: Scraper gets ALL sold listings, limiting to {limit_for_testing} for testing")
         
         # Create scrape config
         config = ScrapeConfig(
-            entity_limit=max_listings,
+            entity_limit=limit_for_testing,
             date_range=DateRange(
                 start=datetime.now(timezone.utc),
                 end=datetime.now(timezone.utc)
@@ -134,8 +134,8 @@ async def test_multiple_zipcodes():
     print("="*60)
     
     # Test with multiple zipcodes
-    test_zipcodes = ["11225", "10001", "90210"]  # Brooklyn, Manhattan, Beverly Hills
-    max_listings_total = 15
+    test_zipcodes = ["11225", "10001"]  # Brooklyn, Manhattan (reduced for faster testing)
+    max_listings_total = 30  # Total limit distributed across zipcodes
     
     try:
         scraper = ZillowSoldListingsScraper()

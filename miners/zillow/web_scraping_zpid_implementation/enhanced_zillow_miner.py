@@ -25,6 +25,7 @@ import requests
 
 from scraping.scraper import Scraper, ScrapeConfig, ValidationResult
 from miners.zillow.shared.comprehensive_zillow_schema import ComprehensiveZillowRealEstateContent
+from miners.zillow.shared.advanced_stealth import AdvancedStealthManager, AdvancedRateLimiter, BotDetectionChecker
 from common.data import DataEntity, DataLabel, DataSource
 from common.date_range import DateRange
 
@@ -33,19 +34,15 @@ class EnhancedZillowScraper(Scraper):
     """Enhanced Zillow scraper using multiple extraction methods for maximum data capture"""
     
     def __init__(self):
-        self.rate_limiter = RateLimiter(requests_per_minute=25)  # Conservative rate limiting
+        # Advanced stealth and rate limiting systems
+        self.stealth_manager = AdvancedStealthManager()
+        self.rate_limiter = AdvancedRateLimiter(base_rpm=8)  # Much more conservative
+        self.bot_checker = BotDetectionChecker()
+        
         self.driver = None
         self.session_count = 0
-        self.max_session_requests = 15  # Restart browser frequently for anti-detection
-        
-        # Enhanced user agent rotation
-        self.user_agents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
-        ]
+        self.consecutive_bot_detections = 0
+        self.max_bot_detections = 5  # Restart after 5 bot detections (more tolerant)
         
         # Metadata size limits
         self.MAX_METADATA_SIZE = 10 * 1024  # 10KB
@@ -61,67 +58,52 @@ class EnhancedZillowScraper(Scraper):
         }
     
     def _create_driver(self):
-        """Create enhanced undetected Chrome driver with stealth options"""
-        try:
-            options = uc.ChromeOptions()
-            
-            # Enhanced stealth options
-            options.add_argument('--no-sandbox')
-            options.add_argument('--disable-dev-shm-usage')
-            options.add_argument('--disable-blink-features=AutomationControlled')
-            options.add_argument('--disable-extensions')
-            options.add_argument('--disable-plugins')
-            options.add_argument('--disable-web-security')
-            options.add_argument('--disable-features=VizDisplayCompositor')
-            options.add_argument('--disable-gpu')
-            
-            # Randomize window size
-            window_sizes = ['1920,1080', '1366,768', '1440,900', '1536,864']
-            options.add_argument(f'--window-size={random.choice(window_sizes)}')
-            
-            # Randomize user agent
-            user_agent = random.choice(self.user_agents)
-            options.add_argument(f'--user-agent={user_agent}')
-            
-            # Additional stealth measures
-            options.add_experimental_option("excludeSwitches", ["enable-automation"])
-            options.add_experimental_option('useAutomationExtension', False)
-            
-            # Create driver
-            driver = uc.Chrome(options=options)
-            driver.set_page_load_timeout(45)  # Longer timeout for complex pages
-            
-            # Remove automation indicators
-            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-            
-            return driver
-            
-        except Exception as e:
-            logging.error(f"Failed to create Chrome driver: {e}")
-            return None
+        """Create advanced stealth Chrome driver"""
+        return self.stealth_manager.create_stealth_driver()
     
     def _get_driver(self):
-        """Get or create a Chrome driver with session management"""
-        if self.driver is None or self.session_count >= self.max_session_requests:
+        """Get or create a Chrome driver with conservative session management"""
+        # Only restart if absolutely necessary
+        should_restart = (
+            self.driver is None or 
+            self.consecutive_bot_detections >= self.max_bot_detections
+        )
+        
+        # Check for session restart only occasionally to avoid constant restarts
+        if self.session_count > 0 and self.session_count % 20 == 0:
+            # Only check these conditions every 20 requests
+            should_restart = should_restart or (
+                self.stealth_manager.should_restart_session() or
+                self.rate_limiter.is_session_too_long()
+            )
+        
+        if should_restart:
             if self.driver:
                 try:
                     self.driver.quit()
-                    time.sleep(random.uniform(2, 5))  # Random delay between sessions
+                    logging.info(f"Restarted browser session after {self.session_count} requests (bot detections: {self.consecutive_bot_detections})")
                 except:
                     pass
             
             self.driver = self._create_driver()
-            self.session_count = 0
+            if self.driver:
+                self.stealth_manager.reset_session()
+                self.consecutive_bot_detections = 0
+                self.session_count = 0
+                logging.info("Successfully created new browser session")
+            else:
+                logging.error("Failed to create new browser session")
         
         return self.driver
     
     async def scrape_zpid(self, zpid: str) -> Optional[DataEntity]:
-        """Enhanced ZPID scraping with multiple extraction methods"""
+        """Enhanced ZPID scraping with advanced anti-detection"""
         await self.rate_limiter.wait_if_needed()
         
         driver = self._get_driver()
         if not driver:
             logging.error(f"Could not create driver for ZPID {zpid}")
+            self.rate_limiter.record_error()
             return None
         
         try:
@@ -143,10 +125,24 @@ class EnhancedZillowScraper(Scraper):
                 EC.presence_of_element_located((By.TAG_NAME, "body"))
             )
             
-            # Check for blocking or errors
-            if self._is_blocked_or_not_found(driver):
-                logging.warning(f"Blocked or property not found for ZPID {zpid}")
+            # Advanced bot detection check
+            bot_indicators = self.bot_checker.check_for_bot_indicators(driver)
+            if self.bot_checker.is_blocked(bot_indicators):
+                severity = self.bot_checker.get_severity_score(bot_indicators)
+                logging.warning(f"Bot detection triggered for ZPID {zpid} (severity: {severity:.2f}): {bot_indicators}")
+                self.consecutive_bot_detections += 1
+                self.rate_limiter.record_error()
+                
+                # If severely blocked, take a long break
+                if severity > 0.8:
+                    logging.warning("Severe bot detection - taking extended break")
+                    await asyncio.sleep(random.uniform(300, 600))  # 5-10 minutes
+                
                 return None
+            
+            # Simulate human behavior
+            page_complexity = "complex" if "homedetails" in url else "medium"
+            await self.stealth_manager.simulate_human_behavior(driver, page_complexity)
             
             # Wait for dynamic content to load
             await self._wait_for_dynamic_content(driver)
@@ -158,24 +154,29 @@ class EnhancedZillowScraper(Scraper):
             
             if not property_data:
                 logging.warning(f"No data extracted for ZPID {zpid}")
+                self.rate_limiter.record_error()
                 return None
             
-            # Add extraction metadata
+            # Add extraction metadata with bot detection info
             property_data['extra_metadata'] = self._create_extraction_metadata(extraction_time, driver)
+            property_data['extra_metadata']['bot_detection_score'] = self.bot_checker.get_severity_score(bot_indicators)
             
             # Convert to comprehensive schema
             content = ComprehensiveZillowRealEstateContent.from_web_scraping(property_data, zpid, url)
             entity = content.to_data_entity()
             
             self.session_count += 1
+            self.rate_limiter.record_success()
             logging.info(f"Successfully extracted {len(property_data)} fields for ZPID {zpid}")
             return entity
             
         except TimeoutException:
             logging.error(f"Timeout loading page for ZPID {zpid}")
+            self.rate_limiter.record_error()
             return None
         except Exception as e:
             logging.error(f"Error scraping ZPID {zpid}: {e}")
+            self.rate_limiter.record_error()
             return None
     
     async def _wait_for_dynamic_content(self, driver):

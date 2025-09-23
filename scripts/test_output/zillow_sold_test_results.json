@@ -1,5 +1,5 @@
 {
-  "test_start_time": "2025-09-23T13:23:16.839049",
+  "test_start_time": "2025-09-23T14:10:42.199862",
   "tests": {
     "url_construction": {
       "status": "completed"
@@ -14,6 +14,6 @@
       "status": "success"
     }
   },
-  "test_end_time": "2025-09-23T13:23:31.180953",
-  "total_duration": 14.341904
+  "test_end_time": "2025-09-23T14:11:04.303282",
+  "total_duration": 22.10342
 }

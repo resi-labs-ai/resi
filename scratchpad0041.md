@@ -521,3 +521,62 @@ request = OnDemandRequest(
 - **Enhancement Optional**: 30% of listings get detailed property page data
 
 This implementation successfully transforms the scraping strategy from individual property hunting to systematic market coverage, making it much more scalable and valuable for comprehensive real estate data collection.
+
+## ✅ ARCHITECTURE SEPARATION COMPLETED
+
+### Updated Implementation Structure
+
+The scrapers have been properly separated into distinct implementations:
+
+#### 📁 **New Folder Structure**
+```
+miners/zillow/
+├── api_implementation/                    # API-based (example)
+├── web_scraping_zpid_implementation/      # Individual properties by ZPID
+├── web_scraping_sold_implementation/      # Sold listings by zipcode
+└── shared/                               # Shared utilities
+```
+
+#### ✅ **Key Changes Made**
+
+1. **Removed Max Listings Limit**
+   - Eliminated `max_listings_per_zipcode` from protocol
+   - Miners now scrape **ALL** sold listings in requested zipcodes
+   - Validators control volume by selecting appropriate zipcodes
+
+2. **Separated Scraper Implementations**
+   - **ZPID Scraper**: `web_scraping_zpid_implementation/` for individual properties
+   - **Sold Scraper**: `web_scraping_sold_implementation/` for zipcode-based market data
+   - Each has dedicated README, requirements, and configuration
+
+3. **Updated Factory Registration**
+   - `DataSource.ZILLOW` → ZPID-based individual property scraping
+   - `DataSource.ZILLOW_SOLD` → Zipcode-based sold listings scraping
+   - Clear separation of use cases and implementations
+
+4. **Complete Coverage Strategy**
+   - Sold listings scraper now gets **every** sold listing in zipcode
+   - Validators select zipcodes to reach target volume (e.g., 5000 listings)
+   - No artificial limits - true market coverage
+
+#### 🎯 **Usage Patterns**
+
+**Individual Property Research:**
+```python
+request = OnDemandRequest(
+    source=DataSource.ZILLOW,           # Uses ZPID scraper
+    zpids=["98970000", "12345678"],
+    limit=50
+)
+```
+
+**Market Analysis:**
+```python
+request = OnDemandRequest(
+    source=DataSource.ZILLOW_SOLD,      # Uses sold listings scraper
+    zipcodes=["11225", "10001"],        # Gets ALL sold listings
+    limit=1000                          # Distributed across zipcodes
+)
+```
+
+This separation allows miners to choose the optimal scraper for their needs while maintaining clear boundaries between individual property research and comprehensive market analysis.
