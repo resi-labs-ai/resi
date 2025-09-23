@@ -119,7 +119,7 @@ class ZillowSoldListingsScraper(EnhancedZillowScraper):
                 return []
             
             # Scrape first page and get total results
-            await self._ensure_driver()
+            driver = self._get_driver()
             await self.rate_limiter.wait_if_needed()
             
             first_page_data = await self._scrape_sold_listings_page(

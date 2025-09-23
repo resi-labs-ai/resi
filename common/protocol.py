@@ -128,13 +128,6 @@ class OnDemandRequest(BaseProtocol):
         max_length=20
     )
     
-    max_listings_per_zipcode: int = Field(
-        default=100,
-        ge=1,
-        le=500,
-        description="Maximum sold listings to scrape per zipcode"
-    )
-    
     redfin_ids: List[str] = Field(
         default_factory=list,
         description="Redfin Property IDs to scrape (for real estate data)",

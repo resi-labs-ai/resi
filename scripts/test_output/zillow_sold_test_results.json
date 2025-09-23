@@ -1,0 +1,19 @@
+{
+  "test_start_time": "2025-09-23T13:23:16.839049",
+  "tests": {
+    "url_construction": {
+      "status": "completed"
+    },
+    "url_validation": {
+      "status": "completed"
+    },
+    "basic_scraper": {
+      "status": "success"
+    },
+    "multiple_zipcodes": {
+      "status": "success"
+    }
+  },
+  "test_end_time": "2025-09-23T13:23:31.180953",
+  "total_duration": 14.341904
+}

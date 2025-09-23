@@ -220,7 +220,7 @@ class ComprehensiveZillowRealEstateContent(BaseRealEstateContent, PropertyValida
     neighborhoodRegion: Optional[Dict[str, Any]] = Field(None, description="Neighborhood region data")
     
     # === METADATA AND EXTRAS ===
-    _metadata: Optional[Dict[str, Any]] = Field(None, description="Zillow internal metadata")
+    metadata: Optional[Dict[str, Any]] = Field(None, description="Zillow internal metadata")
     
     # === DATA QUALITY INDICATORS ===
     data_completeness_score: Optional[float] = Field(None, description="Percentage of fields populated")

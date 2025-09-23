@@ -16,7 +16,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from miners.zillow.web_scraping_implementation.zillow_sold_scraper import ZillowSoldListingsScraper
-from miners.zillow.shared.sold_url_builder import ZillowSoldURLBuilder, test_zipcode_url_construction
+from miners.zillow.shared.sold_url_builder import ZillowSoldURLBuilder, test_zipcode_url_construction as test_single_zipcode_url
 from miners.zillow.shared.zipcode_utils import get_test_zipcodes, get_zipcode_mapper
 from common.data import DataLabel, DataSource
 from common.date_range import DateRange
@@ -46,7 +46,7 @@ async def test_zipcode_url_construction():
         
         try:
             # Test URL construction
-            result = await test_zipcode_url_construction(zipcode)
+            result = await test_single_zipcode_url(zipcode)
             
             if result["zipcode_resolved"]:
                 print(f"✅ Zipcode resolved: {result['zipcode_info']['zillow_format']}")
