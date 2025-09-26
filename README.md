@@ -15,7 +15,7 @@
 
 ---
 
-# 🚨 **MINER REQUIREMENTS**
+# **CRITICAL: MINER REQUIREMENTS**
 
 ## **What Miners Must Do:**
 - **Custom Scrapers Required**: Miners must build and maintain their own data collection systems
@@ -25,9 +25,9 @@
 - **Zero Tolerance Policy**: No synthetic data or duplicates accepted
 
 ## **What Stays the Same:**
-- **✅ S3 Infrastructure**: Existing upload and authentication process unchanged
+- **✓ S3 Infrastructure**: Existing upload and authentication process unchanged
   - We are exploring the use of Hippius by SN75 as an S3 replacement, but this will not affect incentive mechanism
-- **✅ Validator System**: Same validation logic with new data verification methods
+- **✓ Validator System**: Same validation logic with new data verification methods
 
 ## **Why This Approach:**
 - **Scalability & Cost Optimization**: Validators access Zillow directly for validation while reducing operational costs
@@ -252,12 +252,12 @@ ResiLabs is committed to supporting miners in understanding and meeting their GD
 Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
 
 ## Production Status
-- ✅ **S3 API Infrastructure** - Fully operational authentication and storage system
-- ✅ **Prospector Incentive System** - Geographic prioritization with 7,572+ US zipcode coverage
-- ✅ **Core Mining/Validation Logic** - Complete and production-ready (adapted from Subnet 13)
-- ✅ **Zillow RapidAPI Integration** - Primary data source fully implemented and tested
-- ✅ **Real Data Validation** - Comprehensive testing with 328+ real properties
-- ✅ **Field Subset Validation** - Handles API differences between miner and validator data sources
+- **✓ S3 API Infrastructure** - Fully operational authentication and storage system
+- **✓ Prospector Incentive System** - Geographic prioritization with 7,572+ US zipcode coverage
+- **✓ Core Mining/Validation Logic** - Complete and production-ready (adapted from Subnet 13)
+- **✓ Zillow RapidAPI Integration** - Primary data source fully implemented and tested
+- **✓ Real Data Validation** - Comprehensive testing with 328+ real properties
+- **✓ Field Subset Validation** - Handles API differences between miner and validator data sources
 
 ## Architecture Overview
 RESI operates through a **three-repository system**:
@@ -268,21 +268,21 @@ RESI operates through a **three-repository system**:
 ## Scale & Vision
 RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
 
-## 🎯 **What Makes RESI Production-Ready:**
+## **What Makes RESI Production-Ready:**
 
-### **✅ Complete System Integration**
+### **Complete System Integration**
 - **Real Data Validation**: Tested with 328+ actual Zillow properties
 - **Field Subset Validation**: Handles API differences between miner and validator data sources  
 - **100% Success Rate**: Comprehensive testing suite validates all components
 - **S3 Upload Performance**: 6,000+ files/sec upload capability
 
-### **✅ Production Infrastructure**
+### **Production Infrastructure**
 - **Automated S3 Configuration**: Auto-detects testnet vs mainnet endpoints
 - **Robust Error Handling**: Graceful degradation under failure conditions
 - **Performance Monitoring**: Built-in metrics and validation success tracking
 - **Complete PM2 Integration**: Production-ready process management
 
-### **✅ Developer Experience**
+### **Developer Experience**
 - **Comprehensive Documentation**: Complete setup guides with all required flags
 - **Real-World Testing**: Integration tests using actual property data
 - **Troubleshooting Guides**: Common issues and solutions documented
@@ -430,10 +430,10 @@ Ready for serious validators and miners:
 ## **Complete Setup Documentation:**
 
 ### **For Miners:**
-- **⚠️ [Legacy Miner Setup Guide](docs/miner.md)** - DEPRECATED: Old version reference only
+- **[Legacy Miner Setup Guide](docs/miner.md)** - **DEPRECATED**: Old version reference only
 - **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
 - **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
-- **✅ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
+- **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
 - **Custom Scraper Development** - REQUIRED: Build your own data collection system
 
 ### **For Validators:**
@@ -449,7 +449,7 @@ Ready for serious validators and miners:
 
 ## **Quick Start Commands:**
 
-**⚠️ LEGACY Testnet Miner (DEPRECATED):**
+**WARNING: LEGACY Testnet Miner (DEPRECATED):**
 ```bash
 # WARNING: This will NOT work with current system
 pm2 start python --name testnet-miner -- ./neurons/miner.py \
@@ -458,7 +458,7 @@ pm2 start python --name testnet-miner -- ./neurons/miner.py \
     --use_uploader --logging.debug
 ```
 
-**✅ Testnet Validator (UNCHANGED):**
+**Testnet Validator (UNCHANGED):**
 ```bash
 pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --netuid 428 --subtensor.network test \
@@ -489,11 +489,11 @@ Verify your setup with our connectivity test:
 ## **Ready for Production: Join the Network Today**
 
 **RESI Subnet 46 is now fully operational with:**
-- ✅ **Complete validator implementations**
-- ✅ **Real-world data validation with 100% success rates** 
-- ✅ **Production-ready S3 infrastructure**
-- ✅ **Comprehensive testing and monitoring**
-- ✅ **Full documentation and support**
+- **✓ Complete validator implementations**
+- **✓ Real-world data validation with 100% success rates**
+- **✓ Production-ready S3 infrastructure**
+- **✓ Comprehensive testing and monitoring**
+- **✓ Full documentation and support**
 
 **Start earning TAO rewards by contributing to the world's largest open real estate database!**
 
