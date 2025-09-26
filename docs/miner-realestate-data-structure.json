@@ -1,0 +1,456 @@
+{
+    "instructions_for_data_scrapers": {
+      "overview": "This document defines the JSON structure for collecting data on SOLD PROPERTIES from the last 3 years to build a home price trends oracle for prediction markets.",
+      "target_properties": "Focus on properties that have SOLD in the last 3 years (2022-2025). Skip active listings or rental properties.",
+      "submission_format": "Submit data as JSON objects matching the structure below. Set null for unavailable fields.",
+      "historical_data": "For fields that can have multiple historical records (marked with 'has_history': true), provide an array of objects with 'date' and 'value' fields.",
+      "data_sources": "Primary source should be Zillow sold property pages, supplemented with MLS data when available.",
+      "required_fields": [
+        "ids.zillow.zpid",
+        "property.location.addresses", 
+        "property.location.city", 
+        "property.location.state", 
+        "property.location.zip_code",
+        "home_sales.sales_history",
+        "market_context.sale_date",
+        "market_context.final_sale_price"
+      ]
+    },
+    
+    "property_data_schema": {
+      "metadata": {
+        "version": "1.0",
+        "description": "Property data collection schema for real estate data",
+        "collection_date": "YYYY-MM-DD",
+        "miner_hot_key": "string"
+      },
+      
+      "ids": {
+        "property": {
+          "parcel_number": {
+            "data_type": "string",
+            "description": "Official parcel identification number"
+          },
+          "fips_code": {
+            "data_type": "string",
+            "description": "Federal Information Processing Standard county code"
+          }
+        },
+        "zillow": {
+          "zpid": {
+            "data_type": "integer",
+            "required": true,
+            "description": "Property ID from Zillow (REQUIRED)"
+          }
+        },
+        "mls": {
+          "mls_number": {
+            "data_type": "string",
+            "description": "Multiple Listing Service number"
+          }
+        }
+      },
+      
+      "property": {
+        "location": {
+          "addresses": {
+            "data_type": "string",
+            "required": true,
+            "description": "Full property address (REQUIRED)"
+          },
+          "street_number": {
+            "data_type": "string",
+            "description": "Street number portion of address"
+          },
+          "street_name": {
+            "data_type": "string",
+            "description": "Street name portion of address"
+          },
+          "unit_number": {
+            "data_type": "string",
+            "description": "Unit/apartment number if applicable"
+          },
+          "city": {
+            "data_type": "string",
+            "required": true,
+            "description": "City name (REQUIRED)"
+          },
+          "state": {
+            "data_type": "string",
+            "required": true,
+            "description": "State abbreviation (REQUIRED)"
+          },
+          "zip_code": {
+            "data_type": "string",
+            "required": true,
+            "description": "5-digit ZIP code (REQUIRED)"
+          },
+          "zip_code_plus_4": {
+            "data_type": "string",
+            "required": true,
+            "description": "4-digit ZIP code plus 4"
+          },
+          "county": {
+            "data_type": "string",
+            "description": "County name"
+          },
+          "latitude": {
+            "data_type": "float",
+            "description": "Geographic latitude coordinate"
+          },
+          "longitude": {
+            "data_type": "float",
+            "description": "Geographic longitude coordinate"
+          }
+        },
+        
+        "features": {
+          "interior_features": {
+            "data_type": "array",
+            "description": "List of interior features and amenities"
+          },
+          "bedrooms": {
+            "data_type": "integer",
+            "description": "Number of bedrooms"
+          },
+          "bathrooms": {
+            "data_type": "float",
+            "description": "Total number of bathrooms"
+          },
+          "full_bathrooms": {
+            "data_type": "integer",
+            "description": "Number of full bathrooms"
+          },
+          "half_bathrooms": {
+            "data_type": "integer",
+            "description": "Number of half bathrooms"
+          },
+          "exterior_features": {
+            "data_type": "array",
+            "description": "List of exterior features and lot characteristics"
+          },
+          "garage_spaces": {
+            "data_type": "integer",
+            "description": "Number of garage parking spaces"
+          },
+          "total_parking_spaces": {
+            "data_type": "integer",
+            "description": "Total parking spaces including garage and other"
+          },
+          "pool": {
+            "data_type": "string",
+            "description": "Pool type and features if present"
+          },
+          "fireplace": {
+            "data_type": "integer",
+            "description": "Number of fireplaces"
+          },
+          "stories": {
+            "data_type": "integer",
+            "description": "Number of stories (for buildings, total building stories)"
+          },
+          "hvac_type": {
+            "data_type": "object",
+            "description": "Heating and cooling system types",
+            "example": {
+              "heating": ["gas", "electric"],
+              "cooling": ["central air", "window units"]
+            }
+          },
+          "flooring_type": {
+            "data_type": "array",
+            "description": "Types of flooring throughout property"
+          }
+        },
+        
+        "characteristics": {
+          "property_type": {
+            "data_type": "string",
+            "description": "Primary property type classification"
+          },
+          "property_subtype": {
+            "data_type": "array",
+            "description": "More specific property type classifications"
+          },
+          "construction_material": {
+            "data_type": "array",
+            "description": "Primary construction materials used"
+          },
+          "year_built": {
+            "data_type": "integer",
+            "description": "Year property was originally built"
+          },
+          "year_renovated": {
+            "data_type": "integer",
+            "description": "Year of major renovation (effective year built)"
+          }
+        },
+        
+        "size": {
+          "house_size_sqft": {
+            "data_type": "integer",
+            "description": "Living area in square feet"
+          },
+          "lot_size_acres": {
+            "data_type": "float",
+            "description": "Lot size in acres"
+          },
+          "lot_size_sqft": {
+            "data_type": "integer",
+            "description": "Lot size in square feet"
+          }
+        },
+        
+        "utilities": {
+          "sewer_type": {
+            "data_type": "array",
+            "description": "Sewer system type(s)"
+          },
+          "water_source": {
+            "data_type": "array",
+            "description": "Water source(s)"
+          }
+        },
+        
+        "school": {
+          "elementary_school": {
+            "data_type": "object",
+            "description": "Elementary school information",
+            "example": {
+              "name": "Lincoln Elementary",
+              "rating": 8,
+              "distance": 0.5,
+              "grades": "K-5",
+              "type": "public"
+            }
+          },
+          "middle_school": {
+            "data_type": "object",
+            "description": "Middle school information",
+            "example": {
+              "name": "Washington Middle School",
+              "rating": 7,
+              "distance": 1.2,
+              "grades": "6-8",
+              "type": "public"
+            }
+          },
+          "high_school": {
+            "data_type": "object",
+            "description": "High school information",
+            "example": {
+              "name": "Roosevelt High School",
+              "rating": 9,
+              "distance": 2.1,
+              "grades": "9-12",
+              "type": "public"
+            }
+          },
+          "school_district": {
+            "data_type": "string",
+            "description": "School district number or name"
+          }
+        },
+        
+        "hoa": {
+          "hoa_fee_monthly": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Monthly HOA fee amounts with dates",
+            "example": [
+              {"date": "2024-01-01", "value": 250.00},
+              {"date": "2023-01-01", "value": 225.00}
+            ]
+          },
+          "hoa_fee_annual": {
+            "data_type": "array", 
+            "has_history": true,
+            "description": "Annual HOA fee amounts with dates",
+            "example": [
+              {"date": "2024-01-01", "value": 3000.00},
+              {"date": "2023-01-01", "value": 2700.00}
+            ]
+          }
+        }
+      },
+      
+      "valuation": {
+        "assessment": {
+          "assessor_tax_values": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Historical assessed values for tax purposes with dates",
+            "example": [
+              {"date": "2024-01-01", "value": 450000},
+              {"date": "2023-01-01", "value": 420000}
+            ]
+          },
+          "assessor_market_values": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Historical assessed market values from tax records with dates",
+            "example": [
+              {"date": "2024-01-01", "value": 525000},
+              {"date": "2023-01-01", "value": 500000}
+            ]
+          }
+        },
+        "market": {
+          "zestimate_current": {
+            "data_type": "float",
+            "description": "Current Zestimate value from Zillow"
+          },
+          "zestimate_history": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Historical Zestimate values with dates - factual data points from Zillow",
+            "example": [
+              {"date": "2024-09-01", "value": 575000},
+              {"date": "2024-08-01", "value": 570000},
+              {"date": "2024-07-01", "value": 568000}
+            ]
+          },
+          "price_per_sqft": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Price per square foot with dates",
+            "example": [
+              {"date": "2024-09-01", "value": 287.50},
+              {"date": "2024-08-01", "value": 285.00}
+            ]
+          },
+          "comparable_sales": {
+            "data_type": "array",
+            "description": "Recent comparable sales in area"
+          }
+        },
+        "rental": {
+          "rent_estimate": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Estimated monthly rental values with dates",
+            "example": [
+              {"date": "2024-09-01", "value": 2800},
+              {"date": "2024-08-01", "value": 2750}
+            ]
+          }
+        }
+      },
+      
+      "market_data": {
+        "trends": {
+          "days_on_market": {
+            "data_type": "array",
+            "has_history": true,
+            "description": "Number of days property has been listed with dates",
+            "example": [
+              {"date": "2024-09-01", "value": 45},
+              {"date": "2024-01-15", "value": 30}
+            ]
+          }
+        }
+      },
+      
+      "home_sales": {
+        "sales_history": {
+          "data_type": "array",
+          "description": "Complete sales history with prices, dates, and transaction details",
+          "example": [
+            {
+              "date": "2023-06-15",
+              "value": 525000,
+              "transaction_type": "sale",
+              "source": "MLS"
+            },
+            {
+              "date": "2019-03-22",
+              "value": 450000,
+              "transaction_type": "sale", 
+              "source": "public_records"
+            }
+          ]
+        }
+      },
+      
+      "market_context": {
+        "sale_date": {
+          "data_type": "string",
+          "required": true,
+          "description": "Date of most recent sale (REQUIRED for price trend analysis)"
+        },
+        "final_sale_price": {
+          "data_type": "float",
+          "required": true,
+          "description": "Final sale price of most recent transaction (REQUIRED)"
+        },
+        "listing_timeline": {
+          "data_type": "array",
+          "description": "Timeline of listing events leading to sale",
+          "example": [
+            {"date": "2023-05-01", "event": "listed", "price": 549000},
+            {"date": "2023-05-15", "event": "price_reduced", "price": 535000},
+            {"date": "2023-06-01", "event": "pending", "price": 535000},
+            {"date": "2023-06-15", "event": "sold", "price": 525000}
+          ]
+        },
+        "days_on_market": {
+          "data_type": "integer",
+          "description": "Total days on market before sale"
+        },
+        "price_changes": {
+          "data_type": "array",
+          "description": "All price changes during listing period",
+          "example": [
+            {"date": "2023-05-15", "old_price": 549000, "new_price": 535000, "change_percent": -2.5}
+          ]
+        }
+      },
+      
+      "neighborhood_context": {
+        "recent_comparable_sales": {
+          "data_type": "array",
+          "description": "Recent sales of similar properties in area (for price trend context)",
+          "example": [
+            {"address": "123 Oak St", "sale_date": "2023-07-01", "sale_price": 510000, "sqft": 1800},
+            {"address": "456 Elm Ave", "sale_date": "2023-06-20", "sale_price": 540000, "sqft": 1950}
+          ]
+        },
+        "market_trends": {
+          "median_sale_price_trend": {
+            "data_type": "array",
+            "description": "Neighborhood median sale prices by month",
+            "example": [
+              {"month": "2023-06", "median_price": 525000},
+              {"month": "2023-05", "median_price": 515000}
+            ]
+          }
+        }
+      },
+      
+      "tax_assessment": {
+        "current_assessment": {
+          "data_type": "float",
+          "description": "Most recent tax assessed value"
+        },
+        "assessment_history": {
+          "data_type": "array",
+          "has_history": true,
+          "description": "Historical tax assessments with dates",
+          "example": [
+            {"date": "2024-01-01", "value": 450000},
+            {"date": "2023-01-01", "value": 420000},
+            {"date": "2022-01-01", "value": 400000}
+          ]
+        },
+        "annual_taxes": {
+          "data_type": "array",
+          "has_history": true,
+          "description": "Annual property tax amounts",
+          "example": [
+            {"year": 2024, "amount": 8500},
+            {"year": 2023, "amount": 8200}
+          ]
+        }
+      }
+    }
+  }

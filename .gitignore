@@ -183,3 +183,5 @@ SqliteMinerStorage.sqlite-wal
 .env*
 
 SqliteMinerStorage*
+
+.DS_Store

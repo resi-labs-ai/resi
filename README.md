@@ -9,31 +9,82 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Get Started](#-get-started-complete-setup-guides-available) • [Production Ready](#-what-makes-resi-production-ready) • [Quick Start](#-quick-start-commands) • [Documentation](#-complete-setup-documentation)
+[Get Started](#get-started) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators) • [Documentation](#complete-setup-documentation)
 
 </div>
 
 ---
 
-# 🚀 SYSTEM STATUS: READY FOR PRODUCTION
+# 🚨 **MINER REQUIREMENTS**
 
-> **✅ RESI SUBNET 46 IS NOW LIVE AND READY FOR VALIDATORS & MINERS ✅**
-> 
-> **We have successfully adapted Subnet 13's proven architecture for real estate data collection and completed all core systems.**
->
-> **✅ PRODUCTION READY:**
-> - ✅ **S3 API Server** - Authentication system for validators and miners to access AWS S3 storage
-> - ✅ **Prospector System** - JSON-based incentive weighting that prioritizes larger metro areas
-> - ✅ **Core Architecture** - Forked and adapted Subnet 13's data collection framework
-> - ✅ **Miner & Validator Code** - Complete mining and validation logic for real estate data
-> - ✅ **RapidAPI Zillow Integration** - Primary data source fully implemented
-> - ✅ **Comprehensive Testing Suite** - Full integration testing with real data validation
-> - ✅ **Complete Documentation** - Updated setup guides with all required flags and configurations
->
-> **🎯 READY TO START:**
-> - **Testnet (Subnet 428)**: Perfect for testing and development
-> - **Mainnet (Subnet 46)**: Production environment with real TAO rewards
-> - **Complete PM2 Setup Guides**: [Miner Setup](docs/miner.md) • [Validator Setup](docs/validator.md)
+## **What Miners Must Do:**
+- **Custom Scrapers Required**: Miners must build and maintain their own data collection systems
+- **New Data Schema**: Comprehensive property data structure focused on sold properties from last 3 years (2022-2025)
+- **Any Data Source Welcome**: Use Zillow, Redfin, county assessors, MLS, public records, or any accessible source but do note what validators will be rewarding
+- **Performance-Based Rewards**: Evaluation based on data completeness, quality, AND submission quantity
+- **Zero Tolerance Policy**: No synthetic data or duplicates accepted
+
+## **What Stays the Same:**
+- **✅ S3 Infrastructure**: Existing upload and authentication process unchanged
+  - We are exploring the use of Hippius by SN75 as an S3 replacement, but this will not affect incentive mechanism
+- **✅ Validator System**: Same validation logic with new data verification methods
+
+## **Why This Approach:**
+- **Scalability & Cost Optimization**: Validators access Zillow directly for validation while reducing operational costs
+- **Innovation Incentive**: Rewards miners who develop creative, efficient data collection methods  
+- **Data Diversity**: Multiple sources create more robust, comprehensive property database - miners free to use ANY accessible source
+- **Rapid Data Collection**: We're playing catchup and need comprehensive data coverage across the entire country
+- **True Decentralization**: Removes dependency on single data source or provider
+
+## **TIMELINE: CRITICAL DATES**
+
+### **Monday**: Validator Code Ready
+- Updated validator code available on GitHub
+- Testnet validator (428) running for miner testing
+- Miners can test custom scrapers against new validation system
+
+### **Wednesday**: Production Switch
+- Mainnet validators (46) switch from burn code to new validation system
+- All miners must have compliant custom scrapers ready
+- No grace period - system goes live immediately
+
+## **FOR MINERS: REQUIREMENTS**
+
+### **Required Actions**
+1. **Build Custom Data Collection System**
+   - Use ANY accessible data source (Zillow, Redfin, county records, MLS, public records, etc.)
+   - Focus on properties sold in last 3 years (2022-2025)
+   - Implement comprehensive property data schema
+
+2. **Schema Compliance**
+   - Required fields MUST be present for validation property matching
+   - Follow structure in `docs/miner-realestate-data-structure.json`
+   - See complete example: `docs/example-complete-property-data.json`
+
+3. **Modify Existing Miner Code**
+   - Keep S3 upload functionality intact
+   - Replace data collection logic with your custom implementation
+   - Maintain same authentication and storage processes
+
+### **Evaluation Criteria**
+- **Data Completeness**: Number of schema fields populated
+- **Data Quality**: Accuracy verified when validators cross-check against Zillow
+- **Submission Quantify**: Faster data collection rewarded
+- **Comprehensive Coverage**: Priority on pulling data from everywhere - we're playing catchup across the entire country
+- **Zipcode Coverage**: Miners will be requested to collect ALL sold listings for specific zipcodes
+- **No Tolerance**: Synthetic data or duplicates result in penalties
+
+### **Support & Resources**
+- **Community Support**: Available in Bittensor Discord channel and RESI Discord
+- **No Official Support**: ResiLabs will not provide scraper development assistance
+- **Validation Method**: Validators access Zillow directly to cross-check submissions for verification
+
+### **Legal Concerns (if any):**
+For those that may be concerned with the practice of scraping data please be assured that we have consulted with our legal team regarding the validity of this practice. The standing case law points to scraping of openly accessible data on the internet as **LEGAL**. In the event of manipulating logins or paywalls, this is where liability is a cause for concern. 
+
+The landmark [hiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn) case (2019) established that scraping publicly available data is legal under U.S. law. While scraping may violate Terms of Service and result in IP blocking, it cannot result in legal action against users for collecting public information not behind paywalls or login requirements.
+
+**Happy scraping, let's fill up this database!**
 
 ---
 
@@ -323,10 +374,10 @@ As of Dec 11th, 2023 data older than 30 days is not scored. This may increase in
 
 ### 2) Data Desirability & Geographic Prioritization
 
-Resi Labs maintains a [Dynamic Desirability List](docs/dynamic_desirability.md) and uses our **Gravity System** to prioritize data collection:
+Resi Labs maintains a [Dynamic Desirability List](docs/dynamic_desirability.md) and uses our **Prospector System** to prioritize data collection:
 
-**Gravity System:**
-- JSON-based incentive weighting managed in the [gravity repository](https://github.com/resi-labs-ai/gravity)
+**Prospector System:**
+- JSON-based incentive weighting managed in the [prospector repository](https://github.com/resi-labs-ai/prospector)
 - Currently prioritizes larger metro areas for maximum market impact
 - Dynamically adjustable to respond to market demands and user requests
 - Geographic weighting ensures miners focus on high-value property markets
@@ -334,9 +385,9 @@ Resi Labs maintains a [Dynamic Desirability List](docs/dynamic_desirability.md) 
 **Dynamic Desirability:**
 - Data deemed desirable is scored more highly based on both content and location
 - Unspecified labels get the default_scale_factor of 0.3, meaning they score less than half value in comparison
-- Metro area properties receive bonus weighting through the Gravity system
+- Metro area properties receive bonus weighting through the Prospector system
 
-The DataDesirabilityLookup and Gravity weightings will evolve over time, but each change will be announced ahead of time to give Miners adequate time to prepare for updates.
+The DataDesirabilityLookup and Prospector weightings will evolve over time, but each change will be announced ahead of time to give Miners adequate time to prepare for updates.
 
 ### 3) Duplication Factor
 
@@ -365,55 +416,49 @@ subnet 46, Resi Labs, has a range of use-cases:
 
 Resi Labs's potential is extensive, as anybody can use it to build datasets on whatever topics are meaningful to them. By tapping into Bittensor's miner and validator communities, people can access data scraping and analysis at a fast and affordable rate.
 
-# Getting Started
 
-## 🚀 GET STARTED: Complete Setup Guides Available
+# Get Started
 
-**RESI Subnet 46 is now fully operational! Choose your network and get started:**
+## **Network Options:**
+- **Testnet (Subnet 428)**: Perfect for testing new custom scrapers
+- **Mainnet (Subnet 46)**: Production environment with real TAO rewards
 
-### 🧪 **Testnet (Subnet 428) - Recommended for New Users**
-Perfect for learning and testing without real TAO costs:
-- **5-minute S3 upload cycles** for faster iteration
-- **Auto-configured testnet endpoints**
-- **Lower validation costs** for experimentation
-- **Safe environment** to learn the system
-
-### 🏭 **Mainnet (Subnet 46) - Production Environment**
 Ready for serious validators and miners:
-- **Real TAO rewards** based on data quality and validation work
-- **2-hour S3 upload cycles** for production efficiency
-- **Full economic participation** in the network
+- 2-hour S3 upload cycles for production efficiency
+- Full economic participation in the network
 
-### 📚 **Complete Setup Documentation:**
+## **Complete Setup Documentation:**
 
-#### **For Miners:**
-- **[Complete Miner Setup Guide](docs/miner.md)** - Everything you need to start mining
-- **RapidAPI Zillow Integration** - Full setup instructions included
-- **S3 Upload Configuration** - Automated cloud storage for your data
-- **PM2 Process Management** - Production-ready deployment instructions
+### **For Miners:**
+- **⚠️ [Legacy Miner Setup Guide](docs/miner.md)** - DEPRECATED: Old version reference only
+- **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
+- **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
+- **✅ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
+- **Custom Scraper Development** - REQUIRED: Build your own data collection system
 
-#### **For Validators:**
+### **For Validators:**
 - **[Complete Validator Setup Guide](docs/validator.md)** - Full validation setup
 - **Real Estate Data Validation** - Specialized property data verification
 - **Cross-validation Logic** - Compare results with other validators
 - **Performance Monitoring** - Track validation success rates and API usage
 
-### 🔧 **System Requirements:**
+## **System Requirements:**
 - **Miners**: No GPU required, sufficient network bandwidth and disk space
 - **Validators**: 32GB+ RAM recommended, 4+ CPU cores, no GPU required
 - **Both**: Python 3.10+, RapidAPI Zillow subscription
 
-### ⚡ **Quick Start Commands:**
+## **Quick Start Commands:**
 
-**Testnet Miner:**
+**⚠️ LEGACY Testnet Miner (DEPRECATED):**
 ```bash
+# WARNING: This will NOT work with current system
 pm2 start python --name testnet-miner -- ./neurons/miner.py \
     --netuid 428 --subtensor.network test \
     --wallet.name your_wallet --wallet.hotkey your_hotkey \
     --use_uploader --logging.debug
 ```
 
-**Testnet Validator:**
+**✅ Testnet Validator (UNCHANGED):**
 ```bash
 pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --netuid 428 --subtensor.network test \
@@ -421,12 +466,19 @@ pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --max_targets 10 --logging.debug
 ```
 
-### 🧪 **Optional: S3 Connectivity Test**
+**NEW: Custom Miner Development Required**
+- Miners must build their own data collection system
+- Follow schema in `docs/miner-realestate-data-structure.json` (on `miner-todo` branch)
+- Maintain S3 upload functionality from existing miner code
+- Focus on sold properties from last 3 years (2022-2025)
+- **Be prepared**: Validators will request ALL sold listings for specific zipcodes
+
+## **Optional: S3 Connectivity Test**
 Verify your setup with our connectivity test:
 1. **Testing Guide:** [MINER_VALIDATOR_TESTING_GUIDE.md](https://github.com/resi-labs-ai/resi-labs-api/blob/main/MINER_VALIDATOR_TESTING_GUIDE.md)
 2. **Direct Test Script:** [test_mainnet_s3_auth.py](https://github.com/resi-labs-ai/resi-labs-api/blob/main/api-test/test_mainnet_s3_auth.py)
 
-### 📋 **Advanced Configuration:**
+## **Advanced Configuration:**
 - **[Validator Preferences Guide](./docs/validator_preferences_guide.md)** - Submit custom data preferences and influence network priorities
 - **[PM2 Startup Guide](./docs/pm2_startup_guide.md)** - Complete PM2 process management reference
 - **[Testing Guide](./docs/testing_guide.md)** - Run comprehensive test suites locally
@@ -434,10 +486,10 @@ Verify your setup with our connectivity test:
 
 ---
 
-## 🏆 **Ready for Production: Join the Network Today**
+## **Ready for Production: Join the Network Today**
 
 **RESI Subnet 46 is now fully operational with:**
-- ✅ **Complete miner and validator implementations**
+- ✅ **Complete validator implementations**
 - ✅ **Real-world data validation with 100% success rates** 
 - ✅ **Production-ready S3 infrastructure**
 - ✅ **Comprehensive testing and monitoring**

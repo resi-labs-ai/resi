@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Property data collection schema for real estate data",
+    "collection_date": "2024-09-25",
+    "miner_hot_key": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+  },
+
+  "ids": {
+    "property": {
+      "parcel_number": "123-456-789-000",
+      "fips_code": "06037"
+    },
+    "zillow": {
+      "zpid": 20522557
+    },
+    "mls": {
+      "mls_number": "SB24123456"
+    }
+  },
+
+  "property": {
+    "location": {
+      "addresses": "1234 Oak Street",
+      "street_number": "1234",
+      "street_name": "Oak Street",
+      "unit_number": null,
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zip_code": "90210",
+      "zip_code_plus_4": "3456",
+      "county": "Los Angeles County",
+      "latitude": 34.0901,
+      "longitude": -118.4065
+    },
+
+    "features": {
+      "interior_features": [
+        "Hardwood floors",
+        "Crown molding",
+        "Walk-in closets",
+        "Built-in shelving",
+        "Granite countertops",
+        "Stainless steel appliances"
+      ],
+      "bedrooms": 4,
+      "bathrooms": 3.5,
+      "full_bathrooms": 3,
+      "half_bathrooms": 1,
+      "exterior_features": [
+        "Mature landscaping",
+        "Sprinkler system",
+        "Patio",
+        "Deck",
+        "Fenced yard",
+        "Garden"
+      ],
+      "garage_spaces": 2,
+      "total_parking_spaces": 3,
+      "pool": "In-ground heated pool with spa",
+      "fireplace": 2,
+      "stories": 2,
+      "hvac_type": {
+        "heating": ["gas", "forced air"],
+        "cooling": ["central air", "zoned system"]
+      },
+      "flooring_type": [
+        "hardwood",
+        "tile",
+        "carpet"
+      ]
+    },
+
+    "characteristics": {
+      "property_type": "Single Family Residential",
+      "property_subtype": [
+        "Detached",
+        "Traditional"
+      ],
+      "construction_material": [
+        "Brick",
+        "Stucco",
+        "Wood frame"
+      ],
+      "year_built": 1995,
+      "year_renovated": 2018
+    },
+
+    "size": {
+      "house_size_sqft": 2850,
+      "lot_size_acres": 0.25,
+      "lot_size_sqft": 10890
+    },
+
+    "utilities": {
+      "sewer_type": [
+        "Public sewer"
+      ],
+      "water_source": [
+        "Public water"
+      ]
+    },
+
+    "school": {
+      "elementary_school": {
+        "name": "Beverly Hills Elementary",
+        "rating": 9,
+        "distance": 0.3,
+        "grades": "K-5",
+        "type": "public"
+      },
+      "middle_school": {
+        "name": "Beverly Hills Middle School",
+        "rating": 8,
+        "distance": 0.7,
+        "grades": "6-8",
+        "type": "public"
+      },
+      "high_school": {
+        "name": "Beverly Hills High School",
+        "rating": 9,
+        "distance": 1.2,
+        "grades": "9-12",
+        "type": "public"
+      },
+      "school_district": "Beverly Hills Unified School District"
+    },
+
+    "hoa": {
+      "hoa_fee_monthly": [
+        {"date": "2024-01-01", "value": 275.00},
+        {"date": "2023-01-01", "value": 250.00},
+        {"date": "2022-01-01", "value": 225.00}
+      ],
+      "hoa_fee_annual": [
+        {"date": "2024-01-01", "value": 3300.00},
+        {"date": "2023-01-01", "value": 3000.00},
+        {"date": "2022-01-01", "value": 2700.00}
+      ]
+    }
+  },
+
+  "valuation": {
+    "assessment": {
+      "assessor_tax_values": [
+        {"date": "2024-01-01", "value": 1200000},
+        {"date": "2023-01-01", "value": 1150000},
+        {"date": "2022-01-01", "value": 1100000}
+      ],
+      "assessor_market_values": [
+        {"date": "2024-01-01", "value": 1400000},
+        {"date": "2023-01-01", "value": 1350000},
+        {"date": "2022-01-01", "value": 1300000}
+      ]
+    },
+    "market": {
+      "zestimate_current": 1485000,
+      "zestimate_history": [
+        {"date": "2024-09-01", "value": 1485000},
+        {"date": "2024-08-01", "value": 1478000},
+        {"date": "2024-07-01", "value": 1465000},
+        {"date": "2024-06-01", "value": 1450000},
+        {"date": "2024-05-01", "value": 1445000}
+      ],
+      "price_per_sqft": [
+        {"date": "2024-09-01", "value": 521.05},
+        {"date": "2024-08-01", "value": 518.60},
+        {"date": "2024-07-01", "value": 514.04}
+      ],
+      "comparable_sales": [
+        {
+          "address": "1240 Oak Street",
+          "sale_date": "2024-07-15",
+          "sale_price": 1425000,
+          "sqft": 2750,
+          "bedrooms": 4,
+          "bathrooms": 3
+        },
+        {
+          "address": "1228 Maple Avenue",
+          "sale_date": "2024-06-22",
+          "sale_price": 1550000,
+          "sqft": 3100,
+          "bedrooms": 5,
+          "bathrooms": 4
+        }
+      ]
+    },
+    "rental": {
+      "rent_estimate": [
+        {"date": "2024-09-01", "value": 7500},
+        {"date": "2024-08-01", "value": 7400},
+        {"date": "2024-07-01", "value": 7300}
+      ]
+    }
+  },
+
+  "market_data": {
+    "trends": {
+      "days_on_market": [
+        {"date": "2023-06-15", "value": 28},
+        {"date": "2019-03-22", "value": 45}
+      ]
+    }
+  },
+
+  "home_sales": {
+    "sales_history": [
+      {
+        "date": "2023-06-15",
+        "value": 1425000,
+        "transaction_type": "sale",
+        "source": "MLS"
+      },
+      {
+        "date": "2019-03-22",
+        "value": 1150000,
+        "transaction_type": "sale",
+        "source": "public_records"
+      },
+      {
+        "date": "2012-08-10",
+        "value": 875000,
+        "transaction_type": "sale",
+        "source": "public_records"
+      }
+    ]
+  },
+
+  "market_context": {
+    "sale_date": "2023-06-15",
+    "final_sale_price": 1425000,
+    "listing_timeline": [
+      {"date": "2023-05-18", "event": "listed", "price": 1499000},
+      {"date": "2023-05-28", "event": "price_reduced", "price": 1475000},
+      {"date": "2023-06-05", "event": "price_reduced", "price": 1449000},
+      {"date": "2023-06-08", "event": "pending", "price": 1449000},
+      {"date": "2023-06-15", "event": "sold", "price": 1425000}
+    ],
+    "days_on_market": 28,
+    "price_changes": [
+      {"date": "2023-05-28", "old_price": 1499000, "new_price": 1475000, "change_percent": -1.6},
+      {"date": "2023-06-05", "old_price": 1475000, "new_price": 1449000, "change_percent": -1.8}
+    ]
+  },
+
+  "neighborhood_context": {
+    "recent_comparable_sales": [
+      {"address": "1240 Oak Street", "sale_date": "2023-07-22", "sale_price": 1380000, "sqft": 2650},
+      {"address": "1256 Pine Avenue", "sale_date": "2023-06-30", "sale_price": 1525000, "sqft": 3000},
+      {"address": "1221 Elm Drive", "sale_date": "2023-06-10", "sale_price": 1465000, "sqft": 2900},
+      {"address": "1245 Birch Lane", "sale_date": "2023-05-25", "sale_price": 1395000, "sqft": 2700}
+    ],
+    "market_trends": {
+      "median_sale_price_trend": [
+        {"month": "2023-06", "median_price": 1425000},
+        {"month": "2023-05", "median_price": 1410000},
+        {"month": "2023-04", "median_price": 1395000},
+        {"month": "2023-03", "median_price": 1385000},
+        {"month": "2023-02", "median_price": 1375000}
+      ]
+    }
+  },
+
+  "tax_assessment": {
+    "current_assessment": 1200000,
+    "assessment_history": [
+      {"date": "2024-01-01", "value": 1200000},
+      {"date": "2023-01-01", "value": 1150000},
+      {"date": "2022-01-01", "value": 1100000},
+      {"date": "2021-01-01", "value": 1050000}
+    ],
+    "annual_taxes": [
+      {"year": 2024, "amount": 14400},
+      {"year": 2023, "amount": 13800},
+      {"year": 2022, "amount": 13200},
+      {"year": 2021, "amount": 12600}
+    ]
+  }
+}
