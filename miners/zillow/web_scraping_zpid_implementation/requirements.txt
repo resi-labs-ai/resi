@@ -1,0 +1,33 @@
+# Web Scraping Implementation Requirements
+
+# Core web scraping
+selenium==4.15.2
+undetected-chromedriver==3.5.4
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# HTML parsing and extraction
+lxml==4.9.3
+cssselect==1.2.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Async support
+aiohttp==3.9.1
+asyncio-throttle==1.0.2
+
+# Proxy support (optional)
+requests[socks]==2.31.0
+pysocks==1.7.1
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Bittensor dependencies (should match main requirements)
+bittensor>=6.0.0
+pydantic>=2.0.0
+
+# Chrome driver management
+webdriver-manager==4.0.1

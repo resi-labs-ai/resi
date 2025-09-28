@@ -1,4 +1,4 @@
-# The MIT License (MIT)
+    git push --set-upstream origin RE-10# The MIT License (MIT)
 # Copyright © 2025 Resi Labs
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -16,6 +16,7 @@
 # DEALINGS IN THE SOFTWARE.
 
 from collections import defaultdict
+import asyncio
 import copy
 import sys
 import threading
@@ -42,7 +43,7 @@ from upload_utils.s3_uploader import S3PartitionedUploader
 from dynamic_desirability.desirability_retrieval import sync_run_retrieval
 
 from common.data import DataLabel, DataSource, DataEntity
-from common.protocol import OnDemandRequest
+from common.protocol import OnDemandRequest, DataAssignmentRequest
 from common.date_range import DateRange
 from scraping.scraper import ScrapeConfig, ScraperId
 
@@ -139,6 +140,10 @@ class Miner:
                 forward_fn=self.handle_on_demand,
                 blacklist_fn=self.handle_on_demand_blacklist,
                 priority_fn=self.handle_on_demand_priority
+            ).attach(
+                forward_fn=self.handle_data_assignment,
+                blacklist_fn=self.handle_data_assignment_blacklist,
+                priority_fn=self.handle_data_assignment_priority
             )
 
             bt.logging.success(f"Axon created: {self.axon}.")
@@ -555,6 +560,84 @@ class Miner:
                     from scraping.youtube.model import YouTubeContent
                     labels.extend([DataLabel(value=YouTubeContent.create_channel_label(u)) for u in synapse.usernames])
 
+            elif synapse.source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM, DataSource.ZILLOW_SOLD]:
+                # NEW: Multi-source real estate handling including sold listings
+                from miners.shared.miner_factory import get_scraper_for_source
+                
+                # Get appropriate scraper for the platform
+                scraper = get_scraper_for_source(synapse.source)
+                if not scraper:
+                    bt.logging.error(f"No scraper available for source {synapse.source}")
+                    synapse.data = []
+                    return synapse
+                
+                labels = []
+                
+                # Handle zipcode-based requests for sold listings (ZILLOW_SOLD)
+                if synapse.source == DataSource.ZILLOW_SOLD and hasattr(synapse, 'zipcodes') and synapse.zipcodes:
+                    bt.logging.info(f"Processing Zillow sold listings request with {len(synapse.zipcodes)} zipcodes")
+                    labels.extend([DataLabel(value=f"zip:{zipcode}") for zipcode in synapse.zipcodes])
+                
+                # Handle ZPID-based requests (Zillow)
+                elif synapse.source == DataSource.ZILLOW and hasattr(synapse, 'zpids') and synapse.zpids:
+                    bt.logging.info(f"Processing Zillow ZPID-based request with {len(synapse.zpids)} ZPIDs")
+                    labels.extend([DataLabel(value=f"zpid:{zpid}") for zpid in synapse.zpids])
+                
+                # Handle Redfin ID-based requests
+                elif synapse.source == DataSource.REDFIN and hasattr(synapse, 'redfin_ids') and synapse.redfin_ids:
+                    bt.logging.info(f"Processing Redfin ID-based request with {len(synapse.redfin_ids)} IDs")
+                    labels.extend([DataLabel(value=f"redfin_id:{rid}") for rid in synapse.redfin_ids])
+                
+                # Handle address-based requests (Realtor.com, Homes.com)
+                elif synapse.source in [DataSource.REALTOR_COM, DataSource.HOMES_COM] and hasattr(synapse, 'addresses') and synapse.addresses:
+                    bt.logging.info(f"Processing {synapse.source.name} address-based request with {len(synapse.addresses)} addresses")
+                    labels.extend([DataLabel(value=f"address:{addr}") for addr in synapse.addresses])
+                
+                # Handle legacy keyword-based requests (backward compatibility)
+                elif synapse.keywords:
+                    labels.extend([DataLabel(value=k) for k in synapse.keywords])
+                
+                # Handle username-based requests (if applicable)
+                elif synapse.usernames:
+                    labels.extend([DataLabel(value=u) for u in synapse.usernames])
+                
+                # Use the factory-created scraper instead of provider
+                if labels:
+                    try:
+                        # Create date range with utility function
+                        start_dt = (utils.parse_iso_date(synapse.start_date)
+                                    if synapse.start_date else dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1))
+                        end_dt = (utils.parse_iso_date(synapse.end_date)
+                                if synapse.end_date else dt.datetime.now(dt.timezone.utc))
+
+                        # Fallback to default dates if parsing failed
+                        if start_dt is None:
+                            start_dt = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)
+                        if end_dt is None:
+                            end_dt = dt.datetime.now(dt.timezone.utc)
+                        
+                        config = ScrapeConfig(
+                            entity_limit=synapse.limit,
+                            date_range=DateRange(start=start_dt, end=end_dt),
+                            labels=labels
+                        )
+                        
+                        bt.logging.info(f"Scraping with {synapse.source.name} scraper")
+                        entities = await scraper.scrape(config)
+                        
+                        synapse.data = entities[:synapse.limit]
+                        bt.logging.info(f"Returning {len(synapse.data)} entities from {synapse.source.name}")
+                        return synapse
+                        
+                    except Exception as e:
+                        bt.logging.error(f"Error during {synapse.source.name} scraping: {e}")
+                        synapse.data = []
+                        return synapse
+                else:
+                    bt.logging.warning(f"No valid identifiers provided for {synapse.source.name}")
+                    synapse.data = []
+                    return synapse
+
             if not scraper_id:
                 bt.logging.error(f"No scraper ID for source {synapse.source}")
                 synapse.data = []
@@ -801,6 +884,233 @@ class Miner:
                 f" Please register the hotkey using `btcli subnets register` before trying again."
             )
             sys.exit(1)
+
+
+    async def handle_data_assignment(self, synapse: DataAssignmentRequest) -> DataAssignmentRequest:
+        """
+        Handle coordinated data assignment requests from validators.
+        Extends the existing OnDemandRequest pattern for batch property scraping.
+        """
+        bt.logging.info(f"Got data assignment request {synapse.request_id} from {synapse.dendrite.hotkey}")
+
+        try:
+            # Record when we started processing
+            start_time = dt.datetime.now(dt.timezone.utc)
+            synapse.scrape_timestamp = start_time.isoformat()
+
+            # Initialize response data structures
+            synapse.scraped_data = {}
+            synapse.assignment_stats = {
+                'total_properties_assigned': 0,
+                'total_properties_scraped': 0,
+                'failed_properties': 0,
+                'scrape_times': [],
+                'errors': []
+            }
+
+            # Handle different assignment modes
+            if synapse.assignment_mode == "zipcodes":
+                # Process zipcode assignments
+                for source, zipcodes in synapse.zipcode_assignments.items():
+                    if not zipcodes:
+                        continue
+
+                    bt.logging.info(f"Processing {len(zipcodes)} {source} zipcodes")
+                    synapse.assignment_stats['total_properties_assigned'] += len(zipcodes) * (synapse.expected_properties_per_zipcode or 50)
+
+                    # Get appropriate scraper for this source
+                    source_enum = DataSource[source] if source in DataSource.__members__ else None
+                    if not source_enum:
+                        bt.logging.error(f"Unknown data source: {source}")
+                        synapse.assignment_stats['errors'].append(f"Unknown source: {source}")
+                        continue
+
+                    # Scrape all properties in these zipcodes
+                    scraped_entities = await self._scrape_zipcode_batch(source_enum, zipcodes)
+                    synapse.scraped_data[source] = scraped_entities
+                    synapse.assignment_stats['total_properties_scraped'] += len(scraped_entities)
+
+            else:
+                # Process individual property ID assignments (existing logic)
+                for source, property_ids in synapse.assignment_data.items():
+                    if not property_ids:
+                        continue
+
+                    bt.logging.info(f"Processing {len(property_ids)} {source} properties")
+                    synapse.assignment_stats['total_properties_assigned'] += len(property_ids)
+
+                    # Get appropriate scraper for this source
+                    source_enum = DataSource[source] if source in DataSource.__members__ else None
+                    if not source_enum:
+                        bt.logging.error(f"Unknown data source: {source}")
+                        synapse.assignment_stats['errors'].append(f"Unknown source: {source}")
+                        continue
+
+                    scraped_entities = []
+
+                    # Process properties in batches to avoid overwhelming APIs
+                    batch_size = 10
+                    for i in range(0, len(property_ids), batch_size):
+                        batch = property_ids[i:i + batch_size]
+                        batch_entities = await self._scrape_property_batch(source_enum, batch)
+                        scraped_entities.extend(batch_entities)
+
+                    synapse.scraped_data[source] = scraped_entities
+                    synapse.assignment_stats['total_properties_scraped'] += len(scraped_entities)
+
+            # Calculate final statistics
+            total_assigned = synapse.assignment_stats['total_properties_assigned']
+            total_scraped = synapse.assignment_stats['total_properties_scraped']
+            synapse.assignment_stats['failed_properties'] = total_assigned - total_scraped
+
+            # Record completion
+            end_time = dt.datetime.now(dt.timezone.utc)
+            synapse.submission_timestamp = end_time.isoformat()
+            synapse.completion_status = "completed"
+
+            # Calculate total scrape time
+            total_scrape_time = (end_time - start_time).total_seconds()
+            synapse.assignment_stats['total_scrape_time_seconds'] = total_scrape_time
+            synapse.assignment_stats['average_scrape_time_seconds'] = (
+                total_scrape_time / total_scraped if total_scraped > 0 else 0
+            )
+
+            bt.logging.info(f"Assignment {synapse.request_id} completed: {total_scraped}/{total_assigned} properties scraped in {total_scrape_time:.1f}s")
+
+        except Exception as e:
+            bt.logging.error(f"Error processing data assignment {synapse.request_id}: {e}")
+            synapse.completion_status = "failed"
+            synapse.error_details = {
+                "error_type": "processing_error",
+                "error_message": str(e),
+                "retry_recommended": True
+            }
+            synapse.submission_timestamp = dt.datetime.now(dt.timezone.utc).isoformat()
+
+        return synapse
+
+    async def _scrape_property_batch(self, source: DataSource, property_ids: List[str]) -> List[DataEntity]:
+        """Scrape a batch of properties for a specific source"""
+        entities = []
+
+        try:
+            # Get appropriate scraper for the source
+            if source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM, DataSource.ZILLOW_SOLD]:
+                from miners.shared.miner_factory import get_scraper_for_source
+                scraper = get_scraper_for_source(source)
+                
+                if not scraper:
+                    bt.logging.error(f"No scraper available for source {source}")
+                    return entities
+
+                # Create labels for batch scraping
+                labels = []
+                if source == DataSource.ZILLOW:
+                    labels = [DataLabel(value=f"zpid:{prop_id}") for prop_id in property_ids]
+                elif source == DataSource.REDFIN:
+                    labels = [DataLabel(value=f"redfin_id:{prop_id}") for prop_id in property_ids]
+                elif source in [DataSource.REALTOR_COM, DataSource.HOMES_COM]:
+                    labels = [DataLabel(value=f"address:{prop_id}") for prop_id in property_ids]
+
+                if labels:
+                    # Create scrape config
+                    config = ScrapeConfig(
+                        entity_limit=len(property_ids),
+                        date_range=DateRange(
+                            start=dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=1),
+                            end=dt.datetime.now(dt.timezone.utc)
+                        ),
+                        labels=labels
+                    )
+
+                    bt.logging.debug(f"Scraping {len(labels)} {source.name} properties")
+                    batch_entities = await scraper.scrape(config)
+                    entities.extend(batch_entities)
+
+            else:
+                # Handle other sources (X, Reddit, YouTube) if needed
+                bt.logging.warning(f"Batch scraping not implemented for source {source}")
+
+        except Exception as e:
+            bt.logging.error(f"Error scraping batch for {source}: {e}")
+
+        return entities
+
+    async def _scrape_zipcode_batch(self, source: DataSource, zipcodes: List[str]) -> List[DataEntity]:
+        """Scrape all properties in a batch of zipcodes for a specific source"""
+        entities = []
+
+        try:
+            # Get appropriate scraper for the source
+            if source in [DataSource.ZILLOW, DataSource.REDFIN, DataSource.REALTOR_COM, DataSource.HOMES_COM, DataSource.ZILLOW_SOLD]:
+                from miners.shared.miner_factory import get_scraper_for_source
+                scraper = get_scraper_for_source(source)
+                
+                if not scraper:
+                    bt.logging.error(f"No scraper available for source {source}")
+                    return entities
+
+                # Create labels for zipcode scraping
+                labels = []
+                for zipcode in zipcodes:
+                    labels.append(DataLabel(value=f"zip:{zipcode}"))
+
+                if labels:
+                    # Create scrape config for bulk zipcode scraping
+                    config = ScrapeConfig(
+                        entity_limit=len(zipcodes) * 100,  # Allow up to 100 properties per zipcode
+                        date_range=DateRange(
+                            start=dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=1),
+                            end=dt.datetime.now(dt.timezone.utc)
+                        ),
+                        labels=labels
+                    )
+
+                    bt.logging.debug(f"Scraping {len(labels)} {source.name} zipcodes")
+                    
+                    # Scrape in smaller batches to avoid overwhelming APIs
+                    zipcode_batch_size = 5  # Process 5 zipcodes at a time
+                    
+                    for i in range(0, len(labels), zipcode_batch_size):
+                        batch_labels = labels[i:i + zipcode_batch_size]
+                        
+                        # Create config for this sub-batch
+                        batch_config = ScrapeConfig(
+                            entity_limit=len(batch_labels) * 100,
+                            date_range=config.date_range,
+                            labels=batch_labels
+                        )
+                        
+                        try:
+                            batch_entities = await scraper.scrape(batch_config)
+                            entities.extend(batch_entities)
+                            
+                            bt.logging.debug(f"Scraped {len(batch_entities)} entities from {len(batch_labels)} zipcodes")
+                            
+                            # Small delay between batches to be respectful to APIs
+                            await asyncio.sleep(1)
+                            
+                        except Exception as batch_error:
+                            bt.logging.error(f"Error scraping zipcode batch {i//zipcode_batch_size}: {batch_error}")
+                            continue
+
+            else:
+                # Handle other sources if needed
+                bt.logging.warning(f"Zipcode batch scraping not implemented for source {source}")
+
+        except Exception as e:
+            bt.logging.error(f"Error scraping zipcode batch for {source}: {e}")
+
+        bt.logging.info(f"Completed zipcode batch scraping: {len(entities)} entities from {len(zipcodes)} zipcodes")
+        return entities
+
+    async def handle_data_assignment_blacklist(self, synapse: DataAssignmentRequest) -> typing.Tuple[bool, str]:
+        """Blacklist function for data assignment requests"""
+        return self.default_blacklist(synapse)
+
+    async def handle_data_assignment_priority(self, synapse: DataAssignmentRequest) -> float:
+        """Priority function for data assignment requests"""
+        return self.default_priority(synapse)
 
 
 # This is the main function, which runs the miner.

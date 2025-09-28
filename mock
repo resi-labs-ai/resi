@@ -1,0 +1,15 @@
+# Mock bittensor config for testing
+logging:
+  debug: false
+  trace: false
+  record_log: false
+  logging_dir: ~/.bittensor/miners
+wallet:
+  name: default
+  hotkey: default
+  path: ~/.bittensor/wallets
+subtensor:
+  network: finney
+  endpoint: wss://entrypoint-finney.opentensor.ai:443
+axon:
+  port: 8091

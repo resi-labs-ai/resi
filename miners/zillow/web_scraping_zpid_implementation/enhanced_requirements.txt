@@ -1,0 +1,49 @@
+# Enhanced Zillow Web Scraper Requirements
+# Comprehensive data extraction with advanced anti-detection
+
+# Core Web Scraping
+selenium==4.15.2
+undetected-chromedriver==3.5.4
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# HTML and XML Processing
+lxml==4.9.3
+html5lib==1.1
+
+# Data Processing and Validation
+pandas==2.1.4
+numpy==1.24.3
+pydantic>=2.0.0
+
+# JSON and Data Handling
+jsonschema==4.20.0
+python-dateutil==2.8.2
+
+# Async Support
+aiohttp==3.9.1
+asyncio-throttle==1.0.2
+
+# Bittensor Core
+bittensor>=6.0.0
+
+# Additional Utilities
+fake-useragent==1.4.0  # For user agent rotation
+python-dotenv==1.0.0   # For environment configuration
+tenacity==8.2.3        # For retry logic with backoff
+Pillow==10.1.0         # For image processing if needed
+
+# Optional Performance Enhancements
+cchardet==2.1.7        # Fast character encoding detection
+ujson==5.8.0           # Fast JSON parsing
+orjson==3.9.10         # Ultra-fast JSON parsing (alternative)
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+pytest-cov==4.1.0
+
+# Logging and Monitoring
+structlog==23.2.0
+colorama==0.4.6

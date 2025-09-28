@@ -1,0 +1,25 @@
+# API Implementation Requirements (Example)
+
+# HTTP client for API requests
+httpx==0.25.2
+requests==2.31.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Async support
+asyncio==3.4.3
+
+# Bittensor dependencies (should match main requirements)
+bittensor>=6.0.0
+pydantic>=2.0.0
+
+# JSON processing
+orjson==3.9.10
+
+# Environment management
+python-dotenv==1.0.0
+
+# Logging
+structlog==23.2.0
