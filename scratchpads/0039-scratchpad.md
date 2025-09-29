@@ -122,22 +122,40 @@ Task:
 ### **Scaling Analysis & Target Calculations**
 
 **Current Targets:**
-- 5K listings per 4-hour epoch initially  
-- Scale to 10K+ listings per epoch (achievable with proxies)
+- **TARGET_LISTINGS=10000** (configurable env variable: 5K-15K range)
+- Scale dynamically based on miner performance and network capacity
 - 3M total listings in ~1 month (vs 100 days at 5K rate)
+- **Tolerance**: ±10% of target (configurable via TOLERANCE_PERCENT)
 
 **Zipcode Selection Algorithm:**
 ```python
-# Target: 5000 ± 500 listings (±10%)
-# Example: Brooklyn 11211 = ~1000 listings
-# Need: ~5 similar zipcodes per epoch
-# Algorithm: Random selection weighted by expected listing count
+# Configuration Variables (Environment)
+TARGET_LISTINGS = 10000  # Configurable: 5K-15K range
+TOLERANCE_PERCENT = 10   # ±10% tolerance  
+MIN_ZIPCODE_LISTINGS = 200    # Avoid tiny markets
+MAX_ZIPCODE_LISTINGS = 3000   # Avoid oversized markets
+COOLDOWN_HOURS = 24          # Avoid recently assigned zipcodes
+
+def select_zipcodes_for_epoch():
+    target = TARGET_LISTINGS
+    tolerance = target * (TOLERANCE_PERCENT / 100)
+    
+    # Filter eligible zipcodes:
+    # 1. Not assigned in last COOLDOWN_HOURS
+    # 2. Expected listings between MIN and MAX
+    # 3. Has recent data (updated within 30 days)
+    
+    # Random weighted selection to hit target ± tolerance
+    # Weight by: expected_listings * market_importance_factor
+    # market_importance_factor = log(population + property_count)
 ```
 
 **Miner Performance Requirements:**
-- **5K listings in 4 hours** = ~21 listings/minute (very achievable)
-- **10K listings in 4 hours** = ~42 listings/minute (requires good proxies)
-- Miners should handle 2-10 zipcodes per assignment
+- **10K listings in 4 hours** = ~42 listings/minute (achievable with proxies)
+- **15K listings in 4 hours** = ~63 listings/minute (aggressive scaling target)
+- Miners should handle 3-12 zipcodes per assignment (depends on TARGET_LISTINGS)
+- **Proxy Requirements**: Rotating IP pools recommended for 10K+ targets
+- **Concurrency**: 5-10 parallel scraping threads per miner optimal
 
 ### **Communication Architecture Decision**
 
@@ -221,9 +239,16 @@ def validate_miner_submission(miner_data, zipcode_batch):
 ✅ S3 folder structure: `miners/{hotkey}/zipcode={zipcode}/`
 
 **New Requirements:**
-- Add epoch/nonce metadata to uploads
-- Validators need read access to all miner folders
-- Validators upload validated results to their own folders
+- **Epoch Metadata**: Add epoch_id and nonce to S3 upload metadata
+- **Submission Timestamps**: S3 upload timestamp determines submission order
+- **Validator Access**: Validators need read access to all miner S3 folders
+- **Validator Uploads**: Validators upload validated/winning data to own folders
+- **Folder Structure**: 
+  ```
+  miners/{hotkey}/epoch={epoch_id}/zipcode={zipcode}/data.parquet
+  validators/{hotkey}/epoch={epoch_id}/validated_data.parquet
+  validators/{hotkey}/epoch={epoch_id}/validation_report.json
+  ```
 
 ---
 
@@ -319,9 +344,18 @@ Body:
        # Avoid recently assigned zipcodes (within 24 hours)
    ```
 
-4. **Nonce Generation**
-   - Epoch-specific nonce: `hash(epoch_id + secret_key + timestamp)`
-   - Prevents pre-scraping by changing every epoch
+4. **Nonce Generation & Anti-Gaming**
+   ```python
+   # Epoch-specific nonce generation
+   nonce = hmac_sha256(
+       key=SECRET_KEY,
+       message=f"{epoch_id}:{epoch_start_timestamp}:{selected_zipcodes_hash}"
+   )
+   ```
+   - **Purpose**: Prevents miners from pre-scraping popular zipcodes
+   - **Validation**: Miners must include nonce in S3 upload metadata
+   - **Rotation**: New nonce every epoch (4 hours)
+   - **Verification**: Validators check nonce matches epoch assignment
 
 ### **Phase 2: Miner Updates (Week 2)**
 
@@ -332,13 +366,19 @@ Body:
    - Handle API failures with exponential backoff
 
 2. **Scraping Modifications**  
-   - Focus scraping on assigned zipcodes only
-   - Include nonce in S3 upload metadata
-   - Add submission timestamp tracking
+   - **Zipcode Focus**: Only scrape assigned zipcodes for current epoch
+   - **Metadata Inclusion**: Add epoch_id, nonce, submission_timestamp to S3 uploads
+   - **Performance Optimization**: Implement parallel scraping (5-10 threads)
+   - **Proxy Management**: Rotate IP addresses to handle higher volumes
+   - **Error Handling**: Graceful degradation if some zipcodes fail
+   - **Progress Tracking**: Optional status updates to API server
 
-3. **Fallback Mechanism**
-   - Query validators if API server unreachable
-   - Implement validator consensus for assignments
+3. **Fallback Mechanism** (Phase 2.5 - Optional)
+   - **Primary Failure**: If API server unreachable, query multiple validators
+   - **Consensus Logic**: Miners accept assignment if 2+ validators agree
+   - **Cache Duration**: Validators cache latest assignments for 6 hours
+   - **Retry Logic**: Exponential backoff for API server reconnection
+   - **Graceful Degradation**: Continue with cached assignments if needed
 
 ### **Phase 3: Validator Updates (Week 2-3)**
 
@@ -356,9 +396,36 @@ Body:
 3. **Scoring Algorithm**
    ```python
    def score_epoch_submissions(epoch_assignments, miner_submissions):
-       # 1. Rank by submission timestamp (speed score)
-       # 2. Validate data quality for top 6 miners
-       # 3. Assign rewards: 95% to top 3, 5% to others
+       # Phase 1: Basic validation and ranking
+       valid_submissions = []
+       for submission in miner_submissions:
+           if validate_basic_requirements(submission, epoch_assignments):
+               valid_submissions.append(submission)
+       
+       # Phase 2: Rank by submission timestamp (speed)
+       ranked_submissions = sorted(valid_submissions, 
+                                 key=lambda x: x.s3_upload_timestamp)
+       
+       # Phase 3: Deep validation for top performers
+       final_scores = {}
+       for rank, submission in enumerate(ranked_submissions[:6], 1):
+           if rank <= 3:
+               # Full validation for top 3 candidates
+               score = full_validation_score(submission, rank, epoch_assignments)
+           else:
+               # Light validation for positions 4-6
+               score = basic_validation_score(submission, rank)
+           final_scores[submission.miner_hotkey] = score
+       
+       # Phase 4: Assign participation scores to remaining miners
+       participation_score = 0.05 / max(1, len(ranked_submissions) - 6)
+       for submission in ranked_submissions[6:]:
+           if submission.basic_validation_passed:
+               final_scores[submission.miner_hotkey] = participation_score
+           else:
+               final_scores[submission.miner_hotkey] = 0.0  # Penalty for bad data
+       
+       return final_scores
    ```
 
 ### **Phase 4: Testing & Deployment (Week 3-4)**
@@ -381,12 +448,67 @@ Body:
 
 ---
 
-## **Critical Implementation Questions**
+## **Critical Implementation Questions & Solutions**
 
-1. **Zillow Rate Limiting**: How will validators handle Zillow's rate limits during spot-checking?
-2. **Validator Consensus**: What happens if validators get different assignment data from API?
-3. **Miner Failure Recovery**: Should miners be able to "catch up" on missed epochs?
-4. **Geographic Bias**: Should we ensure geographic distribution or allow random clustering?
+### **1. Zillow Rate Limiting During Validation**
+**Problem**: Validators doing spot-checks may hit Zillow rate limits  
+**Solutions**:
+- **Distributed Validation**: Each validator checks different random samples
+- **Rate Limit Pooling**: Validators share rate limit budget via coordination
+- **Cached Validation**: Cache spot-check results for 24 hours to avoid re-checking
+- **Fallback Validation**: Use alternative data sources (Redfin, Realtor.com) for verification
+- **Smart Sampling**: Focus spot-checks on suspicious patterns vs random sampling
+
+### **2. Validator Consensus on API Data**
+**Problem**: What if validators get different assignments from API server?  
+**Solutions**:
+- **Deterministic API**: API server uses deterministic algorithms (same seed = same result)
+- **Consensus Mechanism**: Validators vote on "canonical" assignment if differences detected
+- **Fallback Protocol**: Use most recent consensus assignment if API inconsistent
+- **Health Monitoring**: Alert system if validator assignment consensus < 90%
+
+### **3. Miner Failure Recovery**  
+**Problem**: What if miners miss epoch assignments due to downtime?
+**Solutions**:
+- **No Catch-up**: Missed epochs = zero rewards (encourages uptime)
+- **Grace Period**: 15-minute grace period at epoch start for late joiners
+- **Partial Credit**: Miners can submit partial zipcode results for reduced rewards
+- **Status Tracking**: Optional miner status API to track participation rates
+
+### **4. Geographic Distribution Strategy**
+**Problem**: Random selection might cluster in expensive markets  
+**Solutions**:
+- **Weighted Randomness**: Include geographic diversity factor in selection algorithm
+- **Market Tier Balance**: Ensure mix of premium/standard/emerging markets each epoch  
+- **Regional Quotas**: Soft limits on zipcodes per state/region per epoch
+- **Long-term Tracking**: Monitor coverage over 30-day windows, adjust if needed
+
+### **5. New Implementation Considerations**
+
+#### **A. Validator Coordination**
+**Challenge**: Multiple validators validating same epoch simultaneously  
+**Solution**: 
+```python
+# Deterministic validation assignment
+validator_assignments = hash(epoch_id + validator_hotkey) % total_validators
+assigned_miners = miners[validator_assignments::total_validators]
+```
+
+#### **B. S3 Performance at Scale**  
+**Challenge**: 100+ miners uploading 10K listings simultaneously  
+**Solutions**:
+- **Staggered Uploads**: Miners randomize upload timing within epoch
+- **Compression**: Use parquet with snappy compression
+- **Partitioning**: Upload by zipcode chunks vs single large files
+- **Rate Limiting**: S3 upload rate limits per miner
+
+#### **C. Epoch Transition Reliability**
+**Challenge**: Ensuring seamless 4-hour epoch transitions  
+**Solutions**:
+- **Pre-generation**: Generate next epoch assignments 30 minutes early
+- **Health Checks**: API server health monitoring with automatic failover
+- **Backup Systems**: Secondary API server with synchronized data
+- **Monitoring**: Real-time alerts for missed or delayed epoch transitions
 
 ## **Success Metrics**
 
