@@ -107,6 +107,14 @@ def validate_zillow_content_fields(actual_content: RealEstateContent, entity: Da
         # Decode miner's content from entity
         miner_content = RealEstateContent.from_data_entity(entity)
         
+        # Ensure this is a sold property before validation
+        if miner_content.listing_status and miner_content.listing_status.upper() not in ['SOLD', 'RECENTLY_SOLD']:
+            return ValidationResult(
+                is_valid=False,
+                reason=f"Only sold properties are validated. Property status: {miner_content.listing_status}",
+                content_size_bytes_validated=0,
+            )
+        
         # Validate each field according to its configuration
         for field_name, config in ZillowFieldMapper.FIELD_VALIDATION_CONFIG.items():
             # Skip ignored fields
