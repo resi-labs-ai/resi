@@ -4,11 +4,13 @@ import datetime as dt
 from typing import List, Optional, Union
 import traceback
 import random
+import json
 
 from common.data import DataEntity, DataLabel, DataSource
 from common.date_range import DateRange
 from scraping.scraper import ScrapeConfig, Scraper, ValidationResult
 from scraping.custom.schema import PropertyDataSchema
+from scraping.custom.model import RealEstateContent
 
 # Import the szill library from the moved location
 try:
@@ -197,7 +199,89 @@ class SzillZillowScraper(Scraper):
         """Validate entity content against fresh data"""
         try:
             # Parse the entity's content as PropertyDataSchema
-            entity_content = PropertyDataSchema.from_dict(entity.content if isinstance(entity.content, dict) else eval(entity.content))
+            if isinstance(entity.content, dict):
+                entity_content_dict = entity.content
+            elif isinstance(entity.content, bytes):
+                # Decode bytes to string first, then parse as JSON
+                try:
+                    content_str = entity.content.decode('utf-8')
+                    entity_content_dict = json.loads(content_str)
+                except (UnicodeDecodeError, json.JSONDecodeError) as e:
+                    bt.logging.error(f"Failed to decode/parse bytes content: {str(e)}")
+                    return ValidationResult(
+                        is_valid=False,
+                        reason=f"Invalid bytes content format: {str(e)}",
+                        content_size_bytes_validated=entity.content_size_bytes,
+                    )
+            else:
+                # Handle string content, safely parsing with null handling
+                content_str = str(entity.content)
+                try:
+                    # First try direct JSON parsing
+                    entity_content_dict = json.loads(content_str)
+                except json.JSONDecodeError:
+                    # If JSON fails, try replacing JavaScript null/true/false with Python equivalents
+                    content_str = content_str.replace('null', 'None').replace('true', 'True').replace('false', 'False')
+                    try:
+                        # Try eval with safer null handling
+                        entity_content_dict = eval(content_str)
+                    except (NameError, SyntaxError) as e:
+                        bt.logging.error(f"Failed to parse entity content: {str(e)}")
+                        return ValidationResult(
+                            is_valid=False,
+                            reason=f"Invalid content format: {str(e)}",
+                            content_size_bytes_validated=entity.content_size_bytes,
+                        )
+            
+            entity_content = PropertyDataSchema.from_dict(entity_content_dict)
+            
+            is_sold_property = False
+            sold_indicators = []
+            
+            # Check for RealEstateContent format
+            if not is_sold_property and 'listing_status' in entity_content_dict:
+                listing_status = entity_content_dict.get('listing_status', '').upper()
+                if listing_status in ['SOLD', 'RECENTLY_SOLD']:
+                    is_sold_property = True
+                    sold_indicators.append(f"listing_status: {listing_status}")
+
+            # final_sale_price in market_context
+            if (hasattr(entity_content, 'market_context') and 
+                entity_content.market_context and 
+                hasattr(entity_content.market_context, 'final_sale_price') and 
+                entity_content.market_context.final_sale_price is not None):
+                is_sold_property = True
+                sold_indicators.append(f"final_sale_price: ${entity_content.market_context.final_sale_price}")
+            
+            # sale_date in market_context
+            if (hasattr(entity_content, 'market_context') and 
+                entity_content.market_context and 
+                hasattr(entity_content.market_context, 'sale_date') and 
+                entity_content.market_context.sale_date is not None):
+                is_sold_property = True
+                sold_indicators.append(f"sale_date: {entity_content.market_context.sale_date}")
+            
+            
+            # Check for sales history
+            if (not is_sold_property and 
+                hasattr(entity_content, 'home_sales') and 
+                entity_content.home_sales and 
+                hasattr(entity_content.home_sales, 'sales_history') and 
+                entity_content.home_sales.sales_history):
+                is_sold_property = True
+                sold_indicators.append("sales_history: present")
+            
+            # Only reward sold properties
+            if not is_sold_property:
+                bt.logging.info("Property is not identified as sold. Only sold properties are rewarded.")
+                return ValidationResult(
+                    is_valid=False,
+                    reason="Only sold properties are rewarded. No sold property indicators found.",
+                    content_size_bytes_validated=0,  # No reward for non-sold properties
+                )
+            
+            # Log successful validation
+            bt.logging.info(f"Property validated as SOLD - Indicators: {', '.join(sold_indicators)}")
             
             # Basic validation - check key fields match
             validation_errors = []
