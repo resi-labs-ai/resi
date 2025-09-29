@@ -241,14 +241,20 @@ def validate_miner_submission(miner_data, zipcode_batch):
 **New Requirements:**
 - **Epoch Metadata**: Add epoch_id and nonce to S3 upload metadata
 - **Submission Timestamps**: S3 upload timestamp determines submission order
-- **Validator Access**: Validators need read access to all miner S3 folders
-- **Validator Uploads**: Validators upload validated/winning data to own folders
-- **Folder Structure**: 
+- **Validator Read Access**: Validators need read access to all miner S3 folders
+- **Validator Write Access**: Validators get S3 write credentials to upload winning data
+- **Dual Bucket System**: 
   ```
-  miners/{hotkey}/epoch={epoch_id}/zipcode={zipcode}/data.parquet
-  validators/{hotkey}/epoch={epoch_id}/validated_data.parquet
-  validators/{hotkey}/epoch={epoch_id}/validation_report.json
+  # Miner Data Bucket (existing)
+  s3://resi-miner-data/miners/{hotkey}/epoch={epoch_id}/zipcode={zipcode}/
+  
+  # Validator Results Bucket (new)
+  s3://resi-validated-data/validators/{hotkey}/epoch={epoch_id}/
+  ├── validated_data.parquet          # Top 3 miners' combined winning data
+  ├── validation_report.json          # Detailed scoring and audit info
+  └── epoch_metadata.json             # Epoch assignments and timestamps
   ```
+- **Audit Trail**: Complete history of validation decisions with timestamps
 
 ---
 
@@ -388,10 +394,13 @@ Body:
    - Implement 4-hour offset validation timeline
    - Add configurable spot-check percentage
 
-2. **API Integration**
-   - Fetch previous epoch assignments for validation
-   - Cache assignments for miner fallback queries
-   - Add validator S3 upload capabilities
+2. **API Integration & S3 Upload System**
+   - **Fetch Assignments**: Get previous epoch assignments for validation
+   - **Cache Management**: Cache assignments for miner fallback queries
+   - **S3 Upload Access**: Request validator-specific S3 write credentials from API
+   - **Winning Data Upload**: Upload top 3 miners' data to validator S3 folder
+   - **Validation Reports**: Generate detailed scoring and audit reports
+   - **Metadata Tracking**: Include epoch_id, validation_timestamp, validator_hotkey
 
 3. **Scoring Algorithm**
    ```python
@@ -426,6 +435,46 @@ Body:
                final_scores[submission.miner_hotkey] = 0.0  # Penalty for bad data
        
        return final_scores
+   
+   def upload_validation_results(final_scores, epoch_assignments, validator_hotkey):
+       # Phase 5: Upload winning data and validation results
+       top_3_miners = get_top_3_miners(final_scores)
+       
+       # Combine winning data from top 3 miners
+       validated_data = combine_miner_data(top_3_miners, epoch_assignments)
+       
+       # Create validation report
+       validation_report = {
+           "epoch_id": epoch_assignments.epoch_id,
+           "validation_timestamp": datetime.utcnow().isoformat(),
+           "validator_hotkey": validator_hotkey,
+           "total_miners_evaluated": len(final_scores),
+           "top_3_winners": [
+               {
+                   "rank": rank,
+                   "miner_hotkey": miner.hotkey,
+                   "score": final_scores[miner.hotkey],
+                   "listings_submitted": miner.listing_count,
+                   "zipcodes_completed": miner.zipcode_count,
+                   "validation_issues": miner.validation_issues
+               }
+               for rank, miner in enumerate(top_3_miners, 1)
+           ],
+           "validation_summary": {
+               "total_listings_validated": sum(m.listing_count for m in top_3_miners),
+               "spot_checks_performed": get_spot_check_count(),
+               "validation_duration_seconds": get_validation_duration(),
+               "quality_score_average": get_average_quality_score(top_3_miners)
+           }
+       }
+       
+       # Upload to validator S3 folder
+       s3_uploader = ValidatorS3Uploader(validator_hotkey, api_server_url)
+       s3_uploader.upload_validation_results(
+           validated_data, 
+           validation_report, 
+           epoch_assignments
+       )
    ```
 
 ### **Phase 4: Testing & Deployment (Week 3-4)**
@@ -450,13 +499,13 @@ Body:
 
 ## **Critical Implementation Questions & Solutions**
 
-### **1. Zillow Rate Limiting During Validation**
-**Problem**: Validators doing spot-checks may hit Zillow rate limits  
-**Solutions**:
-- **Distributed Validation**: Each validator checks different random samples
-- **Rate Limit Pooling**: Validators share rate limit budget via coordination
-- **Cached Validation**: Cache spot-check results for 24 hours to avoid re-checking
-- **Fallback Validation**: Use alternative data sources (Redfin, Realtor.com) for verification
+### **1. Scraping-Based Validation System**
+**Approach**: Validators use direct scraping (not APIs) for spot-checking  
+**Implementation**:
+- **Proxy Rotation**: Each validator uses rotating proxy pools for validation scraping
+- **Deterministic Sampling**: All validators check same properties using deterministic seeds
+- **Cached Results**: Cache spot-check results for 24 hours to avoid re-scraping
+- **Distributed Load**: Each validator checks different miners to distribute scraping load
 - **Smart Sampling**: Focus spot-checks on suspicious patterns vs random sampling
 
 ### **2. Validator Consensus on API Data**
@@ -510,9 +559,103 @@ assigned_miners = miners[validator_assignments::total_validators]
 - **Backup Systems**: Secondary API server with synchronized data
 - **Monitoring**: Real-time alerts for missed or delayed epoch transitions
 
+#### **D. Validator S3 Upload Management**
+**Challenge**: Multiple validators uploading results simultaneously  
+**Solutions**:
+- **Isolated Folders**: Each validator uploads to their own S3 prefix
+- **Credential Management**: Time-limited S3 credentials per validator
+- **Upload Verification**: API tracks successful validator uploads
+- **Conflict Resolution**: Deterministic file naming prevents overwrites
+- **Audit Logging**: All validator uploads logged with timestamps
+
+#### **E. Data Consistency & Audit Trail**
+**Challenge**: Ensuring validator consensus on winning data  
+**Solutions**:
+- **Deterministic Validation**: Same inputs always produce same results
+- **Cross-Validation**: Compare validator results for consensus checking
+- **Immutable Records**: S3 uploads create permanent audit trail
+- **Metadata Integrity**: Cryptographic hashes verify data integrity
+- **Historical Analysis**: Track validator agreement rates over time
+
 ## **Success Metrics**
 
 - **Speed**: 90% of miners complete assignments within 4 hours
-- **Quality**: <5% false positive rate in spot-checking  
+- **Quality**: <5% false positive rate in spot-checking via scraping validation
 - **Coverage**: Target listings achieved within ±10% tolerance
 - **Participation**: 80%+ of registered miners submit valid data per epoch
+- **Consensus**: 95%+ validator agreement on top 3 winners per epoch
+- **Reliability**: 99.9% API server uptime with zero missed epoch transitions
+
+---
+
+## **Manual Developer Tasks Checklist**
+
+### **Subnet Owner (You) Tasks**
+1. **S3 Infrastructure Setup**
+   - [ ] Create new `resi-validated-data` S3 bucket
+   - [ ] Configure IAM roles for validator write access
+   - [ ] Set up bucket policies and lifecycle rules
+   - [ ] Test validator S3 upload permissions
+
+2. **Bittensor Network Configuration**
+   - [ ] Update subnet hyperparameters if needed
+   - [ ] Verify validator stake thresholds
+   - [ ] Test hotkey signature verification
+   - [ ] Announce system changes to community
+
+3. **Data Preparation**
+   - [ ] Collect and format zipcode listing count data
+   - [ ] Create zipcode master database with market tiers
+   - [ ] Set initial TARGET_LISTINGS configuration
+   - [ ] Prepare geographic distribution data
+
+### **Validator Code Updates**
+1. **Core Changes**
+   - [ ] Replace MinerScorer with competitive evaluation system
+   - [ ] Implement API client for zipcode assignments
+   - [ ] Add ValidatorS3Uploader class for results upload
+   - [ ] Implement deterministic spot-check sampling
+
+2. **Scraping Validation System**
+   - [ ] Set up proxy rotation for validation scraping
+   - [ ] Implement scraping-based property verification
+   - [ ] Add validation result caching (24 hours)
+   - [ ] Configure validation timeout handling
+
+3. **Monitoring Integration**
+   - [ ] Add validator consensus tracking metrics
+   - [ ] Implement validation performance monitoring
+   - [ ] Set up S3 upload success/failure logging
+   - [ ] Configure alert thresholds
+
+### **Miner Code Updates**
+1. **API Integration**
+   - [ ] Add zipcode assignment API client
+   - [ ] Implement 4-hour polling for new assignments
+   - [ ] Add epoch metadata to S3 uploads
+   - [ ] Handle API server failures gracefully
+
+2. **Performance Optimization**
+   - [ ] Implement parallel scraping (5-10 threads)
+   - [ ] Add proxy rotation for high-volume scraping
+   - [ ] Optimize for early upload (3:30-3:45 target)
+   - [ ] Add progress tracking and status reporting
+
+### **Testing & Deployment**
+1. **Testnet Phase**
+   - [ ] Deploy API server on testnet environment
+   - [ ] Test with 3 validators, 5 miners
+   - [ ] Verify epoch transitions work correctly
+   - [ ] Validate consensus mechanisms
+
+2. **Mainnet Deployment**
+   - [ ] Deploy production API server
+   - [ ] Push validator/miner code updates
+   - [ ] Monitor first few epochs closely
+   - [ ] Adjust TARGET_LISTINGS based on performance
+
+3. **Post-Launch Monitoring**
+   - [ ] Track miner participation rates
+   - [ ] Monitor validator agreement percentages
+   - [ ] Analyze data quality improvements
+   - [ ] Optimize based on performance metrics

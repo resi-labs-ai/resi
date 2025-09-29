@@ -177,6 +177,78 @@ message = f"zipcode:validation:{epoch_id}:{timestamp}"
 - Rate limit: 10 requests per hour per validator
 - Data retention: 7 days minimum, 30 days maximum
 
+### **Endpoint 2.5: Get Validator S3 Upload Access**
+
+```http
+POST /api/v1/s3-access/validator-upload
+```
+
+**Purpose**: Validators need S3 write access to upload validated winning data
+
+**Headers:**
+```
+Authorization: Bearer {signature}
+X-Timestamp: {unix_timestamp}
+X-Hotkey: {validator_bittensor_hotkey}
+```
+
+**Authentication Process:**
+```python
+# Validator-specific signature for S3 upload access
+message = f"s3:validator:upload:{timestamp}"
+signature = validator_hotkey.sign(message.encode()).hex()
+
+# Server verification
+verify_bittensor_signature(validator_hotkey, message, signature)
+verify_validator_status(validator_hotkey, netuid=46, min_stake_threshold)
+```
+
+**Request Body:**
+```json
+{
+  "purpose": "epoch_validation_results",
+  "epoch_id": "2024-03-15-16:00",
+  "estimated_data_size_mb": 25,
+  "retention_days": 90
+}
+```
+
+**Response Format:**
+```json
+{
+  "success": true,
+  "s3_credentials": {
+    "access_key": "AKIA...",
+    "secret_key": "...",
+    "session_token": "...",
+    "bucket": "resi-validated-data",
+    "prefix": "validators/{validator_hotkey}/",
+    "expiry": "2024-03-15T20:00:00Z"
+  },
+  "upload_guidelines": {
+    "max_file_size_mb": 100,
+    "allowed_file_types": ["parquet", "json"],
+    "required_metadata": ["epoch_id", "validation_timestamp", "validator_hotkey"],
+    "folder_structure": "validators/{validator_hotkey}/epoch={epoch_id}/"
+  }
+}
+```
+
+**Validator Upload Folder Structure:**
+```
+s3://resi-validated-data/
+├── validators/
+│   └── {validator_hotkey}/
+│       ├── epoch=2024-03-15-16:00/
+│       │   ├── validated_data.parquet          # Top 3 miners' winning data
+│       │   ├── validation_report.json          # Scoring details
+│       │   └── epoch_metadata.json             # Epoch assignment info
+│       └── epoch=2024-03-15-20:00/
+│           ├── validated_data.parquet
+│           ├── validation_report.json
+│           └── epoch_metadata.json
+```
+
 ### **Endpoint 3: Zipcode Statistics** (New)
 
 ```http
@@ -308,6 +380,45 @@ CREATE TABLE miner_submissions (
 );
 ```
 
+### **Validator Results Tracking**
+```sql
+CREATE TABLE validator_results (
+    epoch_id VARCHAR(20),
+    validator_hotkey VARCHAR(100),
+    validation_timestamp TIMESTAMP NOT NULL,
+    validation_duration_seconds INTEGER,
+    miners_evaluated INTEGER,
+    top_3_miners JSON,  -- [{"hotkey": "...", "rank": 1, "score": 0.95}, ...]
+    total_validated_listings INTEGER,
+    s3_upload_complete BOOLEAN DEFAULT FALSE,
+    s3_upload_path VARCHAR(500),
+    validation_status ENUM('in_progress', 'completed', 'failed'),
+    created_at TIMESTAMP DEFAULT NOW(),
+    PRIMARY KEY (epoch_id, validator_hotkey),
+    INDEX idx_validation_timestamp (validation_timestamp),
+    INDEX idx_validation_status (validation_status)
+);
+```
+
+### **Validation Audit Trail**
+```sql
+CREATE TABLE validation_audit (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    epoch_id VARCHAR(20) NOT NULL,
+    validator_hotkey VARCHAR(100) NOT NULL,
+    miner_hotkey VARCHAR(100) NOT NULL,
+    zipcode VARCHAR(10) NOT NULL,
+    validation_type ENUM('basic', 'spot_check', 'full') NOT NULL,
+    validation_result ENUM('pass', 'fail', 'partial') NOT NULL,
+    score DECIMAL(5,4),
+    listings_checked INTEGER,
+    issues_found JSON,  -- Array of validation issues
+    validation_timestamp TIMESTAMP DEFAULT NOW(),
+    INDEX idx_epoch_validator (epoch_id, validator_hotkey),
+    INDEX idx_epoch_miner (epoch_id, miner_hotkey)
+);
+```
+
 ## Configuration Requirements
 
 ### **Environment Variables**
@@ -327,6 +438,12 @@ MARKET_TIER_WEIGHTS=premium:1.5,standard:1.0,emerging:0.8
 SECRET_KEY=your_secret_key_here    # For nonce generation
 BITTENSOR_NETWORK_URL=wss://...    # For hotkey verification
 NETUID=46                          # Subnet ID
+VALIDATOR_MIN_STAKE=1000          # Minimum stake for validator S3 access
+
+# S3 Configuration
+S3_MINER_BUCKET=resi-miner-data           # Existing miner data bucket
+S3_VALIDATOR_BUCKET=resi-validated-data   # New validator results bucket
+S3_SESSION_DURATION_HOURS=4              # S3 credentials validity
 
 # Rate Limiting
 MINER_RATE_LIMIT=1/minute         # Current assignments
@@ -443,6 +560,8 @@ curl https://api.resilabs.ai/api/v1/health
 ✅ Authenticate all requests with bittensor signatures  
 ✅ Store 7+ days of historical epoch data  
 ✅ Handle 100+ concurrent miners and validators  
+✅ Provide S3 upload access for validators to store winning data  
+✅ Track validation results and audit trail  
 
 ### **Performance Requirements**  
 ✅ < 200ms response time for current assignments  
@@ -489,6 +608,119 @@ curl https://api.resilabs.ai/api/v1/health
 3. **Caching strategy**: Redis vs in-memory vs other?
 4. **Deployment method**: Docker vs direct vs other?
 5. **Monitoring tools**: Prometheus vs DataDog vs other?
+
+---
+
+## Manual Developer Tasks Required
+
+### **Infrastructure Setup Tasks**
+1. **Digital Ocean Server Setup**
+   - Provision 4 CPU, 8GB RAM server
+   - Configure firewall rules (HTTPS only, database access)
+   - Set up domain and SSL certificate
+   - Install Docker/Docker Compose or direct Python environment
+
+2. **Database Setup**
+   - Install and configure PostgreSQL 14+
+   - Create database user with appropriate permissions
+   - Set up connection pooling (pgbouncer recommended)
+   - Configure automated backups
+
+3. **S3 Bucket Configuration**
+   - Create new `resi-validated-data` S3 bucket
+   - Configure IAM roles for validator upload access
+   - Set up bucket policies for read/write permissions
+   - Configure lifecycle policies for data retention
+
+4. **Redis Cache Setup**
+   - Install and configure Redis for rate limiting
+   - Set up Redis persistence and backup
+   - Configure memory limits and eviction policies
+
+### **Security Configuration Tasks**
+1. **API Security**
+   - Generate and securely store SECRET_KEY for nonce generation
+   - Configure HTTPS certificates and redirects
+   - Set up rate limiting rules in Redis
+   - Configure DDoS protection (Cloudflare recommended)
+
+2. **Bittensor Integration**
+   - Configure BITTENSOR_NETWORK_URL connection
+   - Set NETUID=46 and VALIDATOR_MIN_STAKE threshold
+   - Test hotkey signature verification
+   - Validate network registration checks
+
+### **Data Import Tasks**
+1. **Zipcode Database Population**
+   - Import Zillow research data for listing counts
+   - Populate `zipcodes` table with:
+     - Population data
+     - Median home values  
+     - Expected listing counts
+     - Market tier classifications
+   - Set up data refresh procedures
+
+2. **Initial Configuration**
+   - Set TARGET_LISTINGS=10000 (or desired initial value)
+   - Configure TOLERANCE_PERCENT=10
+   - Set MIN_ZIPCODE_LISTINGS=200, MAX_ZIPCODE_LISTINGS=3000
+   - Configure COOLDOWN_HOURS=24
+
+### **Monitoring & Alerting Setup**
+1. **Metrics Collection**
+   - Install Prometheus for metrics collection
+   - Set up Grafana dashboards for visualization
+   - Configure alert rules for critical failures
+   - Set up notification channels (email, Slack, etc.)
+
+2. **Health Monitoring**
+   - Configure endpoint health checks
+   - Set up database connection monitoring  
+   - Monitor epoch transition success rates
+   - Track validator consensus metrics
+
+### **Testing & Validation Tasks**
+1. **Unit Test Setup**
+   - Write tests for zipcode selection algorithm
+   - Test nonce generation and validation
+   - Validate authentication flows
+   - Test rate limiting enforcement
+
+2. **Integration Testing**
+   - Test full epoch creation and assignment flow
+   - Validate bittensor network integration
+   - Test S3 credential generation and access
+   - Verify database consistency across operations
+
+3. **Load Testing**
+   - Test 100+ concurrent miner requests
+   - Validate database performance under load
+   - Test rate limiting effectiveness
+   - Monitor memory usage and performance
+
+### **Documentation Tasks**
+1. **API Documentation**
+   - Generate OpenAPI/Swagger specification
+   - Create integration guides for miners/validators
+   - Write troubleshooting documentation
+   - Document configuration options
+
+2. **Deployment Documentation**
+   - Create deployment runbook
+   - Document backup and recovery procedures
+   - Write monitoring and alerting guides
+   - Create incident response procedures
+
+### **Pre-Launch Checklist**
+- [ ] All database tables created and indexed
+- [ ] S3 buckets configured with proper permissions
+- [ ] API endpoints tested with real bittensor signatures
+- [ ] Rate limiting working correctly
+- [ ] Monitoring and alerting operational
+- [ ] Backup procedures tested
+- [ ] Load testing completed successfully
+- [ ] Security audit completed
+- [ ] Documentation complete and reviewed
 
 ## Support & Documentation
 
