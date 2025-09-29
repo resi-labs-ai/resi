@@ -4,13 +4,13 @@ The Validator is responsible for validating the Miners' property data and scorin
 1. It requests the latest [MinerIndex](../README.md#terminology) from the miner, which contains their property data summary, and stores it in an in-memory database.
 2. It chooses a random (sampled by size) DataEntityBucket from the MinerIndex to sample for validation.
 3. It gets that DataEntityBucket containing property listings from the Miner.
-4. It chooses N property DataEntities from the DataEntityBucket to validate. It then verifies the property data by cross-referencing with Zillow via RapidAPI.
+4. It chooses N property DataEntities from the DataEntityBucket to validate. It then verifies the property data by cross‑referencing with Zillow using the Szill scraper.
 5. It compares the retrieved property data against what the Miner provided and updates the Miner Credibility based on accuracy.
 6. Finally, it updates the Miner's score based on the total property data index scaled by Freshness/Desirability/Geographic Coverage/Credibility.
 
-Once this sequence has been performed for all Miners, the Validator waits a period of time before starting the next loop to ensure it does not evaluate a Miner more often than once per N minutes. This helps ensure the cost of running a Validator is not too high, and also protects the network against high amounts of traffic.
+Once this sequence has been performed for all Miners, the Validator waits a period of time before starting the next loop to ensure it does not evaluate a Miner more often than once per N minutes. This helps ensure the operational cost of running a Validator is not too high, and also protects the network against high amounts of traffic.
 
-The expected cost for property data validation via RapidAPI Zillow is calculated based on: `Number of Miners * validation frequency * samples per validation * 24 hours`. With RapidAPI Zillow pricing typically around $0.001-$0.01 per request depending on your plan, validation costs are generally manageable for serious validator operations.
+The expected cost for property data validation depends on: `Number of Miners * validation frequency * samples per validation * 24 hours`. With scraper-based validation via Szill, costs are driven by compute, bandwidth, and proxy usage rather than third‑party API fees.
 
 # System Requirements
 
@@ -42,39 +42,15 @@ Mainnet validation for production:
 
 ## Prerequisites
 
-### Getting Your RapidAPI Zillow Key (Required)
+### Scraper Requirements (Validator)
 
-Validators need a RapidAPI key for Zillow to verify the property data that miners submit. This is essential for the validation process.
+Validators use the Szill-based Zillow scraper for validation. Ensure your environment meets the following:
 
-**Step 1: Create a RapidAPI Account**
-1. Go to [RapidAPI.com](https://rapidapi.com/) and sign up for a free account
-2. Verify your email address
+- Python dependencies installed via `pip install -e .`
+- Optional: Proxy configuration if needed for reliable scraping
+- Sufficient bandwidth and stable network connectivity
 
-**Step 2: Subscribe to Zillow API**
-1. Navigate to the [Zillow API on RapidAPI](https://rapidapi.com/apimaker/api/zillow-com1/)
-2. Click "Subscribe to Test" or "Pricing" to view available plans
-3. Choose a plan suitable for validation needs:
-   - **Pro Plans Recommended**: Validators need higher request limits for verification
-   - Consider plans with 10,000+ requests/month for active validation
-4. Complete the subscription process
-
-**Step 3: Get Your API Key**
-1. After subscribing, copy your RapidAPI key from the "X-RapidAPI-Key" header
-2. This key will be used to verify miner data accuracy
-
-**Step 4: Configure Your Environment**
-Add these to your `.env` file:
-```
-RAPIDAPI_KEY=YOUR_ACTUAL_API_KEY_HERE
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
-```
-
-**Important for Validators:**
-- Budget for API costs as part of your validation operations
-- Higher-tier plans provide more validation capacity
-- Monitor usage to ensure continuous validation capability
-
-For detailed setup instructions, cost management, and troubleshooting, see the [RapidAPI documentation](rapidapi.md).
+If proxies are used, configure them via environment variables specific to your proxy provider or Szill settings (see comments in code under `vali_utils/scrapers/szill_zillow_scraper.py`).
 
 2. Clone the repo
 
@@ -115,17 +91,15 @@ NETUID=428
 SUBTENSOR_NETWORK=test
 WALLET_NAME=your_testnet_validator_wallet
 WALLET_HOTKEY=your_testnet_validator_hotkey
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 
 # For Mainnet (Subnet 46)
 NETUID=46
 SUBTENSOR_NETWORK=finney
 WALLET_NAME=your_mainnet_validator_wallet
 WALLET_HOTKEY=your_mainnet_validator_hotkey
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 ```
+
+If you are using proxies for validation scraping, add the relevant environment variables required by your proxy provider.
 
 **Step 2: Register Validator (if needed)**
 ```shell
@@ -206,13 +180,20 @@ python ./neurons/validator.py -h
 Your validator `.env` should look like the following after setup for real estate data validation:
 
 ```
-RAPIDAPI_KEY="your_rapidapi_key_here"
-RAPIDAPI_HOST="zillow-com1.p.rapidapi.com"
+# Network
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME="your_wallet"
+WALLET_HOTKEY="your_hotkey"
+
+# Optional proxy settings for Szill scraper
+# PROXY_HOST=...
+# PROXY_PORT=...
+# PROXY_USER=...
+# PROXY_PASS=...
 ```
 
-The RapidAPI key is essential for validators to verify property data accuracy by cross-referencing with Zillow's database during the validation process.
-
-Please see the [RapidAPI documentation](rapidapi.md) for complete setup instructions and cost management guidance.
+The validator uses the Szill-based scraper to validate property data against Zillow.
 
 # Monitoring and Validation
 
@@ -318,18 +299,18 @@ pm2 start python --name prod-validator -- ./neurons/validator.py \
 
 ### Key Validator Metrics to Monitor
 1. **Validation Success Rate**: Percentage of successful miner validations
-2. **RapidAPI Usage**: Monitor API quota consumption
+2. **Scraper Reliability**: Monitor scraper success/timeout rates
 3. **Weight Setting**: Ensure weights are being set properly
 4. **Miner Coverage**: Number of miners successfully validated per cycle
 5. **Network Connectivity**: Connection stability to subtensor
 
 ### Troubleshooting Common Issues
 
-**RapidAPI Quota Exceeded:**
+**Scraper failures/timeouts:**
 ```shell
-# Check your RapidAPI dashboard for usage
-# Consider upgrading your plan for higher limits
-# Monitor validation frequency vs quota consumption
+# Verify network and proxy settings
+# Reduce concurrency if being blocked
+# Increase timeouts where appropriate
 ```
 
 **Network Connection Issues:**
@@ -355,7 +336,7 @@ btcli wallet overview --wallet.name your_validator
 
 ✅ **Regular Validation Cycles**: Consistent miner evaluation and scoring
 ✅ **Successful Weight Setting**: Weights updated on blockchain regularly
-✅ **Stable API Usage**: RapidAPI calls within quota limits
+✅ **Stable Scraper Reliability**: Szill scraper runs within acceptable failure rates
 ✅ **Network Participation**: Active participation in consensus
 ✅ **Clean Logs**: No persistent errors or connection issues
 
@@ -363,28 +344,9 @@ btcli wallet overview --wallet.name your_validator
 
 ### Estimating Validation Costs
 
-**Formula**: `Number of Miners × Validation Frequency × Samples per Validation × API Cost`
+**Formula**: `Number of Miners × Validation Frequency × Samples per Validation`
 
-**Testnet Considerations:**
-- More frequent miner updates (5-minute cycles)
-- Potentially more validation opportunities
-- Lower stakes for cost optimization testing
-
-**Mainnet Considerations:**
-- Standard 2-hour miner update cycles
-- Production-level validation requirements
-- Real economic impact of validation costs
-
-### RapidAPI Plan Recommendations
-
-**Testnet Validators:**
-- Basic to Pro plans (1,000-10,000 requests/month)
-- Good for learning and development
-
-**Mainnet Validators:**
-- Pro plans (10,000+ requests/month recommended)
-- Consider higher tiers for large-scale validation
-- Budget 20-30% buffer for peak validation periods
+Costs are primarily compute, bandwidth, and optional proxy usage. No third‑party API subscription is required.
 
 # Network-Specific Considerations
 
@@ -420,7 +382,7 @@ To switch from testnet to mainnet validation:
 
 3. **Update Monitoring and Alerting**:
    - Adjust for 2-hour validation cycles
-   - Update cost monitoring for production API usage
+   - Monitor scraper reliability and timeouts
    - Implement production-grade monitoring
 
 # Coming Soon

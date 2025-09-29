@@ -9,7 +9,7 @@ from common.protocol import OnDemandRequest
 from common.organic_protocol import OrganicRequest
 from common.constants import X_ON_DEMAND_CONTENT_EXPIRATION_DATE
 from common import constants, utils
-from scraping.provider import ScraperProvider
+from vali_utils.scrapers import ValidatorScraperProvider
 from scraping.x.enhanced_apidojo_scraper import EnhancedApiDojoTwitterScraper
 from scraping.x.on_demand_model import EnhancedXContent
 from scraping.youtube.model import YouTubeContent
@@ -440,7 +440,7 @@ class OrganicQueryProcessor:
                 scraper = EnhancedApiDojoTwitterScraper()
             else:
                 scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[synapse.source.upper()])
-                scraper = ScraperProvider().get(scraper_id) if scraper_id else None
+                scraper = ValidatorScraperProvider().get(scraper_id) if scraper_id else None
             
             if not scraper:
                 bt.logging.warning(f"No scraper available for verification of {synapse.source}")
@@ -916,7 +916,7 @@ class OrganicQueryProcessor:
             else:
                 scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[source.upper()])
                 if scraper_id:
-                    return ScraperProvider().get(scraper_id)
+                    return ValidatorScraperProvider().get(scraper_id)
         except Exception as e:
             bt.logging.error(f"Error getting scraper for {source}: {str(e)}")
         return None

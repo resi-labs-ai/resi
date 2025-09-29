@@ -15,8 +15,8 @@ import bittensor as bt
 
 from common.data import DataEntity
 from scraping.scraper import ValidationResult
-from scraping.zillow.model import RealEstateContent
-from scraping.zillow.field_mapping import ZillowFieldMapper, FieldValidationConfig
+from scraping.custom.model import RealEstateContent
+from scraping.custom.field_mapping import ZillowFieldMapper, FieldValidationConfig
 
 
 def validate_zillow_data_entity_fields(actual_content: RealEstateContent, entity: DataEntity) -> ValidationResult:

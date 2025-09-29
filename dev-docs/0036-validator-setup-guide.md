@@ -21,7 +21,7 @@ I've already created the following resources using your `resilabs-admin` profile
 
 Before starting, ensure you have:
 - AWS Account with appropriate permissions
-- RapidAPI Zillow subscription (required for validation)
+- No external API subscription required (validator uses Szill-based scraper)
 - Bittensor wallet with sufficient TAO for registration and staking
 
 ## Part 1: AWS Account Setup
@@ -75,7 +75,7 @@ Add the following inbound rules:
 ### Step 5: Configure Outbound Rules
 Keep default outbound rules (All traffic to 0.0.0.0/0) - validators need internet access for:
 - Bittensor network communication
-- RapidAPI Zillow requests
+- Outbound HTTP requests for validation scraping
 - Package downloads
 - Git repository access
 
@@ -205,35 +205,33 @@ nano .env
 
 **For Testnet (Subnet 428):**
 ```env
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 NETUID=428
 SUBTENSOR_NETWORK=test
 WALLET_NAME=validator_wallet
 WALLET_HOTKEY=validator_hotkey
+# Optional proxy config if using proxies for validation scraping
+# PROXY_HOST=...
+# PROXY_PORT=...
+# PROXY_USER=...
+# PROXY_PASS=...
 ```
 
 **For Mainnet (Subnet 46):**
 ```env
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 NETUID=46
 SUBTENSOR_NETWORK=finney
 WALLET_NAME=validator_wallet
 WALLET_HOTKEY=validator_hotkey
+# Optional proxy config if using proxies for validation scraping
+# PROXY_HOST=...
+# PROXY_PORT=...
+# PROXY_USER=...
+# PROXY_PASS=...
 ```
 
-## Part 6: RapidAPI Setup
+## Part 6: Validation Scraper Notes
 
-### Step 12: Get RapidAPI Zillow Key
-1. **Sign up at [RapidAPI.com](https://rapidapi.com/)**
-2. **Subscribe to [Zillow API](https://rapidapi.com/apimaker/api/zillow-com1/)**
-3. **Choose a plan:**
-   - **Basic:** 1,000 requests/month (testing only)
-   - **Pro:** 10,000+ requests/month (recommended)
-   - **Ultra:** 100,000+ requests/month (high-volume validators)
-4. **Get API Key** from the X-RapidAPI-Key header
-5. **Update .env file** with your API key
+Validators use a Szill-based scraper to validate property data. Ensure outbound HTTP access is available and consider proxies for reliability if needed.
 
 ## Part 7: Validator Registration and Staking
 
@@ -356,10 +354,10 @@ sudo dpkg-reconfigure unattended-upgrades
    - Verify network connectivity to Bittensor network
    - Ensure correct network parameters (test vs finney)
 
-3. **RapidAPI errors:**
-   - Verify API key is correct in .env file
-   - Check API subscription status and limits
-   - Monitor API usage to avoid rate limits
+3. **Scraper errors/timeouts:**
+   - Verify outbound HTTP access and optional proxy configuration
+   - Reduce concurrency or increase timeouts if blocked
+   - Monitor validator logs for validation failures
 
 4. **High memory usage:**
    - Consider upgrading to larger instance type
@@ -394,7 +392,7 @@ pm2 restart testnet-validator
 - **Tiny metadata indexes**: ~5-8 GB for ALL miners in the network
 - **SQLite database**: Small tables with bucket metadata
 - **No property data**: Real estate data stays on miners and S3
-- **HTTP requests**: Just API calls to RapidAPI (no memory)
+- **HTTP requests**: Validation scraping via Szill (no third‑party API)
 
 **REAL REQUIREMENTS:** 8-16GB RAM, 2-4 CPU cores, 50GB storage
 
@@ -411,7 +409,6 @@ pm2 restart testnet-validator
 ### Other Costs (Same for All Providers):
 - **Storage (50GB)**: ~$4-8/month
 - **Bandwidth**: ~$3-8/month  
-- **RapidAPI Zillow**: ~$25-50/month
 
 ### TOTAL MONTHLY COSTS - REALISTIC:
 - **AWS t3.large**: ~$75-100/month
@@ -429,7 +426,7 @@ The original documentation claimed validators need 32GB RAM because they store "
 ### What Validators ACTUALLY Do:
 1. **Store tiny metadata**: Just bucket IDs, sizes, timestamps (~64 bytes per bucket)
 2. **SQLite in-memory**: Small lookup tables, not actual property data
-3. **HTTP API calls**: Request property data from RapidAPI for validation
+3. **HTTP API calls**: Request property data for validation via scraper
 4. **Compare JSON**: Small JSON objects during validation
 
 ### What Validators DON'T Do:
@@ -530,7 +527,6 @@ Your validator is successfully running when:
 - [ ] `btcli wallet overview` shows validator as registered
 - [ ] Validator appears in subnet metagraph
 - [ ] No errors in PM2 logs for 30+ minutes
-- [ ] RapidAPI requests are working (check logs)
 
 ---
 

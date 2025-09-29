@@ -1,6 +1,11 @@
 # Miner
 
-Miners scrape real estate data from Zillow via RapidAPI and get rewarded based on how much valuable property data they have (see the [Incentive Mechanism](../README.md#incentive-mechanism) for the full details). The incentive mechanism focuses on property data quality, freshness, and coverage across different geographic areas and property types. Miners are scored based on the total amount of unique, valuable property data they collect.
+Miners implement their own scraping solutions to collect SOLD PROPERTY data from the last 3 years (2022-2025) and get rewarded based on data quality (see the [Incentive Mechanism](../README.md#incentive-mechanism) for details). Focus on properties that have SOLD in the last 3 years. Skip active listings or rental properties. The incentive mechanism focuses on data quality, sales history accuracy, and coverage of sold properties.
+
+**⚠️ IMPORTANT:** 
+- Build your own scraping solution
+- Focus on SOLD PROPERTIES from last 3 years (2022-2025)
+- Skip active listings or rental properties
 
 The Miner stores all scraped property data in a local database.
 
@@ -33,39 +38,52 @@ Mainnet for production mining:
 
 ## Prerequisites
 
-### Getting Your RapidAPI Zillow Key (Required)
+### Implementing Your Own Scraper (Required)
 
-Miners need a RapidAPI key for Zillow to access real estate data. This is the primary data source that validators will verify against.
+**Implement your own scraping solution for sold property data.**
 
-**Step 1: Create a RapidAPI Account**
-1. Go to [RapidAPI.com](https://rapidapi.com/) and sign up for a free account
-2. Verify your email address
+#### Getting Started with Custom Scraping
 
-**Step 2: Subscribe to Zillow API**
-1. Navigate to the [Zillow API on RapidAPI](https://rapidapi.com/apimaker/api/zillow-com1/)
-2. Click "Subscribe to Test" or "Pricing" to view available plans
-3. Choose a plan that fits your mining needs:
-   - **Basic Plan**: Usually includes 1,000+ requests/month (good for testing)
-   - **Pro Plans**: Higher request limits for serious mining operations
-4. Complete the subscription process
+**Step 1: Review the Template**
+1. Examine `scraping/custom/example_scraper.py` for guidance
+2. Understand the `Scraper` interface requirements
+3. Study the `PropertyDataSchema` in `scraping/custom/schema.py`
+4. Use `scraping/custom/zipcodes.csv` for location data
 
-**Step 3: Get Your API Key**
-1. After subscribing, you'll see your RapidAPI key in the "X-RapidAPI-Key" header
-2. Copy this key - you'll need it for your `.env` file
+**Step 2: Choose Your Approach**
+- **Web Scraping**: Use libraries like requests, BeautifulSoup, Selenium, or Playwright
+- **Alternative APIs**: Research available data sources
+- **Hybrid Methods**: Combine multiple approaches for better coverage
 
-**Step 4: Configure Your Environment**
-Add these to your `.env` file:
-```
-RAPIDAPI_KEY=YOUR_ACTUAL_API_KEY_HERE
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
-```
+**Step 3: Implement Your Scraper**
+1. Create your custom scraper class extending the `Scraper` interface
+2. Implement the `scrape()` method to collect data
+3. Ensure data format matches the expected `DataEntity` structure
+4. Handle rate limiting, errors, and anti-bot measures
 
-**Important Notes:**
-- Keep your API key secure and never commit it to version control
-- Monitor your API usage to avoid overage charges
-- Higher-tier plans provide better mining opportunities with more requests
+**Step 4: Register Your Scraper**
+1. Add your scraper to your local scraper provider
+2. Update your scraping configuration JSON
+3. Test thoroughly in development environment
 
-For detailed setup instructions see the [RapidAPI documentation](rapidapi.md).
+**Step 5: Deploy and Monitor**
+1. Deploy your miner with the custom scraper
+2. Monitor data collection and quality metrics
+3. Iterate and improve based on validation feedback
+
+#### Technical Requirements
+
+Your scraper must:
+- Implement the `Scraper` interface from `scraping/scraper.py`
+- Use `PropertyDataSchema` from `scraping/custom/schema.py` for consistent data structure
+- Return data in `DataEntity` format with schema-compliant content
+- Handle rate limiting and error scenarios gracefully
+- Provide unique, accurate, and fresh data
+- Follow ethical scraping practices
+
+#### Configuration
+
+Use the configuration at `scraping/config/miner_scraping_config.json` and the `scraping/custom/` directory which contains templates and data files.
 
 2. Clone the repo
 
@@ -106,16 +124,12 @@ NETUID=428
 SUBTENSOR_NETWORK=test
 WALLET_NAME=your_testnet_wallet_name
 WALLET_HOTKEY=your_testnet_hotkey_name
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 
 # For Mainnet (Subnet 46)
 NETUID=46
 SUBTENSOR_NETWORK=finney
 WALLET_NAME=your_mainnet_wallet_name
 WALLET_HOTKEY=your_mainnet_hotkey_name
-RAPIDAPI_KEY=your_rapidapi_key_here
-RAPIDAPI_HOST=zillow-com1.p.rapidapi.com
 ```
 
 **Step 2: Register on Network (if needed)**
@@ -183,14 +197,10 @@ python ./neurons/miner.py -h
 
 The frequency and types of property data your Miner will scrape is configured in the [scraping_config.json](https://github.com/resi-labs-ai/resi/blob/main/scraping/config/scraping_config.json) file. This file defines which property data scrapers your Miner will use. To customize your Miner, you either edit `scraping_config.json` or create your own file and pass its filepath via the `--neuron.scraping_config_file` flag.
 
-By default `scraping_config.json` is set up to use the Zillow RapidAPI scraper for collecting property data.
-
 The configuration focuses on:
 - **Geographic Coverage**: Different zip codes and metropolitan areas
 - **Property Types**: Residential properties, condos, townhomes, etc.
 - **Data Freshness**: Recently listed, sold, or updated properties
-
-If the Zillow RapidAPI configuration is not set up properly in your `.env` file, your miner will log errors and cannot collect property data.
 
 For each scraper, you can define:
 
@@ -205,22 +215,22 @@ Let's walk through an example real estate scraping configuration:
 {
     "scraper_configs": [
         {
-            "scraper_id": "Zillow.rapid",
+            "scraper_id": "Custom.my_zillow_scraper",
             "cadence_seconds": 1800,
             "labels_to_scrape": [
                 {
                     "label_choices": [
-                        "90210",
-                        "10001",
-                        "94102"
+                        "zip:90210",
+                        "zip:10001",
+                        "zip:94102"
                     ],
                     "max_age_hint_minutes": 2880,
                     "max_data_entities": 50
                 },
                 {
                     "label_choices": [
-                        "33101",
-                        "60601"
+                        "zip:33101",
+                        "zip:60601"
                     ],
                     "max_data_entities": 30
                 }
@@ -230,7 +240,7 @@ Let's walk through an example real estate scraping configuration:
 }
 ```
 
-In this example, we configure the Miner to scrape property data using the Zillow RapidAPI scraper. The scraper will run every 30 minutes (1800 seconds). When it runs, it'll perform 2 different scraping operations:
+In this example, we configure the Miner to scrape property data using a custom scraper. The scraper will run every 30 minutes (1800 seconds). When it runs, it'll perform 2 different scraping operations:
 1. The first will scrape at most 50 property listings from high-value zip codes (Beverly Hills, Manhattan, San Francisco). The scraper will focus on properties listed or updated within the last 48 hours (2880 minutes).
 2. The second will scrape at most 30 properties from other major metropolitan areas (Miami, Chicago), prioritizing the most recent listings.
 
@@ -399,14 +409,14 @@ pm2 start python --name prod-miner -- ./neurons/miner.py \
 ## Common Issues
 
 ### Database Not Growing
-- Check RapidAPI key configuration in `.env`
-- Verify RapidAPI subscription is active
+- Verify your custom scraper is configured and running
+- Check your scraping_config.json cadence and labels
 - Monitor logs for scraping errors
 
 ### S3 Upload Failures
 - Verify wallet is registered on the correct subnet
 - Check S3 auth service connectivity: `python tools/check_miner_storage.py`
-- Ensure sufficient API quota for authentication
+- Ensure sufficient network connectivity
 
 ### Network Connection Issues
 - Verify subnet registration: `btcli wallet overview`

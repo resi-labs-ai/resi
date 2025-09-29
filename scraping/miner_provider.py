@@ -10,33 +10,31 @@ from scraping.x.quacker_url_scraper import QuackerUrlScraper
 from scraping.youtube.youtube_custom_scraper import YouTubeTranscriptScraper
 from scraping.youtube.invideoiq_transcript_scraper import YouTubeChannelTranscriptScraper
 
-
-
-DEFAULT_FACTORIES = {
+MINER_SCRAPER_FACTORIES = {
     ScraperId.REDDIT_LITE: RedditLiteScraper,
-    # For backwards compatibility with old configs, remap x.flash to x.apidojo.
     ScraperId.X_FLASH: MicroworldsTwitterScraper,
     ScraperId.REDDIT_CUSTOM: RedditCustomScraper,
     ScraperId.X_MICROWORLDS: MicroworldsTwitterScraper,
     ScraperId.X_APIDOJO: ApiDojoTwitterScraper,
     ScraperId.X_QUACKER: QuackerUrlScraper,
     ScraperId.YOUTUBE_CUSTOM_TRANSCRIPT: YouTubeTranscriptScraper,
-    ScraperId.YOUTUBE_APIFY_TRANSCRIPT : YouTubeChannelTranscriptScraper,
-
+    ScraperId.YOUTUBE_APIFY_TRANSCRIPT: YouTubeChannelTranscriptScraper,
 }
 
 
-class ScraperProvider:
-    """A scraper provider will provide the correct scraper based on the source to be scraped."""
+class MinerScraperProvider:
+    """Scraper provider for miners."""
 
     def __init__(
-        self, factories: Dict[DataSource, Callable[[], Scraper]] = DEFAULT_FACTORIES
+        self, factories: Dict[DataSource, Callable[[], Scraper]] = MINER_SCRAPER_FACTORIES
     ):
         self.factories = factories
 
     def get(self, scraper_id: ScraperId) -> Scraper:
         """Returns a scraper for the given scraper id."""
 
-        assert scraper_id in self.factories, f"Scraper id {scraper_id} not supported."
+        # TODO: Add a check to see if the scraper is supported for miners.
 
-        return self.factories[scraper_id]()
+        assert scraper_id in self.factories, f"Scraper id {scraper_id} not supported for miners."
+
+        return self.factories[scraper_id]() 

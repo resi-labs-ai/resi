@@ -1,6 +1,6 @@
 """
-Field mapping between Zillow API endpoints and validation strategies.
-Handles the difference between Property Extended Search (miners) and Individual Property API (validators).
+Field mapping between API payloads and validation strategies for a custom scraper.
+TODO: Adapt mappings/strategies to match your chosen data source.
 """
 
 from typing import Dict, List, Set, Any, Optional
@@ -19,9 +19,9 @@ class FieldValidationConfig:
 
 
 class ZillowFieldMapper:
-    """Maps fields between different Zillow API endpoints and defines validation strategies"""
+    """Maps fields between common listing APIs and model fields; defines validation strategies"""
     
-    # Fields available in Property Extended Search (what miners use)
+    # Fields commonly available in search endpoints (what miners use)
     MINER_AVAILABLE_FIELDS: Set[str] = {
         'zpid',
         'address', 
@@ -83,7 +83,7 @@ class ZillowFieldMapper:
             field_name='zpid',
             validation_type='exact',
             is_critical=True,
-            description='Zillow Property ID - unique identifier'
+            description='Primary Property ID - unique identifier'
         ),
         'address': FieldValidationConfig(
             field_name='address',
@@ -150,7 +150,7 @@ class ZillowFieldMapper:
         'detail_url': FieldValidationConfig(
             field_name='detail_url',
             validation_type='exact',
-            description='Zillow detail page URL'
+            description='Listing detail page URL'
         ),
         
         # Time-sensitive fields - tolerance allowed
@@ -164,13 +164,13 @@ class ZillowFieldMapper:
             field_name='zestimate',
             validation_type='tolerance',
             tolerance_percent=0.10,  # 10% tolerance
-            description='Zillow estimated value'
+            description='Estimated value'
         ),
         'rent_zestimate': FieldValidationConfig(
             field_name='rent_zestimate',
             validation_type='tolerance',
             tolerance_percent=0.10,  # 10% tolerance
-            description='Zillow estimated rental value'
+            description='Estimated rental value'
         ),
         'days_on_zillow': FieldValidationConfig(
             field_name='days_on_zillow',
@@ -255,7 +255,7 @@ class ZillowFieldMapper:
     
     @classmethod
     def get_miner_available_fields(cls) -> Set[str]:
-        """Get set of fields available to miners from Property Extended Search"""
+        """Get set of fields available to miners from search endpoints"""
         return cls.MINER_AVAILABLE_FIELDS.copy()
     
     @classmethod
@@ -294,7 +294,7 @@ class ZillowFieldMapper:
     def create_miner_compatible_content(cls, full_api_data: Dict[str, Any]) -> Dict[str, Any]:
         """
         Create a RealEstateContent-compatible dict using only fields available to miners.
-        This simulates what a miner would have scraped from Property Extended Search.
+        TODO: Adapt this logic to your actual custom data source.
         """
         compatible_data = {}
         
@@ -303,8 +303,6 @@ class ZillowFieldMapper:
             if api_field in full_api_data:
                 model_field = cls.map_api_field_name(api_field)
                 compatible_data[model_field] = full_api_data[api_field]
-        
-        # Handle special cases
         
         # Extract listing subtype flags
         if 'listingSubType' in full_api_data:
@@ -317,7 +315,7 @@ class ZillowFieldMapper:
         # Set defaults for fields not in search API
         compatible_data.setdefault('country', 'USA')
         compatible_data.setdefault('currency', 'USD')
-        compatible_data.setdefault('data_source', 'zillow_rapidapi')
+        compatible_data.setdefault('data_source', 'custom')
         
         return compatible_data
     

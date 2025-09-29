@@ -35,7 +35,7 @@ from common.protocol import (
 
 from scraping.config.config_reader import ConfigReader
 from scraping.coordinator import ScraperCoordinator
-from scraping.provider import ScraperProvider
+from scraping.miner_provider import MinerScraperProvider
 from storage.miner.sqlite_miner_storage import SqliteMinerStorage
 from neurons.config import NeuronType, check_config, create_config
 from upload_utils.s3_uploader import S3PartitionedUploader
@@ -187,7 +187,7 @@ class Miner:
         bt.logging.success(f"Loaded scraping config: {scraping_config}.")
 
         self.scraping_coordinator = ScraperCoordinator(
-            scraper_provider=ScraperProvider(),
+            scraper_provider=MinerScraperProvider(),
             miner_storage=self.storage,
             config=scraping_config,
         )
@@ -614,10 +614,10 @@ class Miner:
                 # Update response with enhanced data entities
                 synapse.data = enhanced_data_entities[:synapse.limit] if synapse.limit else enhanced_data_entities
             elif synapse.source == DataSource.REDDIT:
-                from scraping.provider import ScraperProvider
+                from scraping.miner_provider import MinerScraperProvider
 
                 # Create a new scraper provider and get the appropriate scraper
-                provider = ScraperProvider()
+                provider = MinerScraperProvider()
                 scraper = provider.get(scraper_id)
 
                 if not scraper:
@@ -632,10 +632,10 @@ class Miner:
                                                       end_datetime=end_dt)
                 synapse.data = data[:synapse.limit] if synapse.limit else data
             elif synapse.source == DataSource.YOUTUBE:
-                from scraping.provider import ScraperProvider
+                from scraping.miner_provider import MinerScraperProvider
 
                 # Create a new scraper provider and get the YouTube scraper
-                provider = ScraperProvider()
+                provider = MinerScraperProvider()
                 scraper = provider.get(scraper_id)
 
                 if not scraper:
