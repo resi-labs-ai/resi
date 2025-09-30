@@ -199,7 +199,7 @@ class ComprehensiveTestingDemo:
             
             from common.protocol import OnDemandRequest
             request = OnDemandRequest(
-                source=DataSource.RAPID_ZILLOW,
+                source=DataSource.SZILL_VALI,
                 keywords=["78041", "property"],
                 limit=10
             )
@@ -467,7 +467,7 @@ class ComprehensiveTestingDemo:
                 entity = DataEntity(
                     uri=f"https://zillow.com/homedetails/{zpid}_zpid/",
                     datetime=datetime.now(timezone.utc),
-                    source=DataSource.RAPID_ZILLOW,
+                    source=DataSource.SZILL_VALI,
                     label=DataLabel(value=f"zip:{zipcode}"),
                     content=content.model_dump_json().encode(),
                     content_size_bytes=len(content.model_dump_json())

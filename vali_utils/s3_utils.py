@@ -19,7 +19,7 @@ import bittensor as bt
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass
 
-from scraping.provider import ScraperProvider
+from vali_utils.scrapers import ValidatorScraperProvider
 from scraping.scraper import ScraperId, ValidationResult
 from scraping.x.model import XContent
 from scraping.reddit.model import RedditContent
@@ -80,7 +80,7 @@ PREFERRED_SCRAPERS = {
     DataSource.X: ScraperId.X_APIDOJO,
     DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
     DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-    DataSource.RAPID_ZILLOW: ScraperId.RAPID_ZILLOW
+    DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
 }
 
 
@@ -94,7 +94,7 @@ class S3Validator:
     """
     
     def __init__(self):
-        self.scraper_provider = ScraperProvider()
+        self.scraper_provider = ValidatorScraperProvider()
     
     async def validate_miner_s3_data(
         self, 

@@ -15,8 +15,8 @@ import bittensor as bt
 
 from common.data import DataEntity
 from scraping.scraper import ValidationResult
-from scraping.zillow.model import RealEstateContent
-from scraping.zillow.field_mapping import ZillowFieldMapper, FieldValidationConfig
+from scraping.custom.model import RealEstateContent
+from scraping.custom.field_mapping import ZillowFieldMapper, FieldValidationConfig
 
 
 def validate_zillow_data_entity_fields(actual_content: RealEstateContent, entity: DataEntity) -> ValidationResult:
@@ -106,6 +106,14 @@ def validate_zillow_content_fields(actual_content: RealEstateContent, entity: Da
     try:
         # Decode miner's content from entity
         miner_content = RealEstateContent.from_data_entity(entity)
+        
+        # Ensure this is a sold property before validation
+        if miner_content.listing_status and miner_content.listing_status.upper() not in ['SOLD', 'RECENTLY_SOLD']:
+            return ValidationResult(
+                is_valid=False,
+                reason=f"Only sold properties are validated. Property status: {miner_content.listing_status}",
+                content_size_bytes_validated=0,
+            )
         
         # Validate each field according to its configuration
         for field_name, config in ZillowFieldMapper.FIELD_VALIDATION_CONFIG.items():

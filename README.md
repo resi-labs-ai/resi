@@ -255,7 +255,7 @@ Subnet 46 (RESI) is a specialized real estate data collection network built by R
 - **✓ S3 API Infrastructure** - Fully operational authentication and storage system
 - **✓ Prospector Incentive System** - Geographic prioritization with 7,572+ US zipcode coverage
 - **✓ Core Mining/Validation Logic** - Complete and production-ready (adapted from Subnet 13)
-- **✓ Zillow RapidAPI Integration** - Primary data source fully implemented and tested
+- **✓ Szill-based Zillow Scraper** - Primary validator data source implemented and tested
 - **✓ Real Data Validation** - Comprehensive testing with 328+ real properties
 - **✓ Field Subset Validation** - Handles API differences between miner and validator data sources
 
@@ -445,7 +445,7 @@ Ready for serious validators and miners:
 ## **System Requirements:**
 - **Miners**: No GPU required, sufficient network bandwidth and disk space
 - **Validators**: 32GB+ RAM recommended, 4+ CPU cores, no GPU required
-- **Both**: Python 3.10+, RapidAPI Zillow subscription
+- **Both**: Python 3.10+ (no external API subscription required)
 
 ## **Quick Start Commands:**
 

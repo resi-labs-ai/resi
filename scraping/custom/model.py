@@ -8,13 +8,14 @@ from scraping import utils
 
 
 class RealEstateContent(BaseModel):
-    """Content model for real estate listings from Zillow RapidAPI"""
+    """Content model for real estate listings collected by a custom scraper"""
     
     class Config:
         extra = "forbid"
 
     # Core identifiers
-    zpid: str = Field(description="Zillow Property ID")
+    # TODO: Replace with your custom primary identifier if not using zpid
+    zpid: str = Field(description="Primary Property ID")
     address: str
     detail_url: str
     
@@ -69,11 +70,11 @@ class RealEstateContent(BaseModel):
     
     # Metadata
     scraped_at: dt.datetime = Field(default_factory=lambda: dt.datetime.now(dt.timezone.utc))
-    data_source: str = "zillow_rapidapi"
+    data_source: str = "custom"
 
     @classmethod
     def from_zillow_api(cls, api_data: Dict[str, Any]) -> "RealEstateContent":
-        """Create RealEstateContent from Zillow API response"""
+        """Create RealEstateContent from a Zillow-like API response (example mapping)."""
         
         # Extract listing subtype flags
         listing_sub_type = api_data.get("listingSubType", {})
@@ -142,8 +143,8 @@ class RealEstateContent(BaseModel):
         
         label = DataLabel(value=label_value)
         
-        # Create URI using Zillow's format
-        uri = f"https://zillow.com{self.detail_url}" if self.detail_url.startswith("/") else self.detail_url
+        # TODO: Create URI using your site's detail URL format
+        uri = self.detail_url
         
         # Serialize content
         content_json = self.model_dump_json()
@@ -152,7 +153,7 @@ class RealEstateContent(BaseModel):
         return DataEntity(
             uri=uri,
             datetime=self.scraped_at,
-            source=DataSource.RAPID_ZILLOW,
+            source=DataSource.SZILL_VALI,
             label=label,
             content=content_bytes,
             content_size_bytes=len(content_bytes)

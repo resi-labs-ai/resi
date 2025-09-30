@@ -20,7 +20,7 @@ from common.data import (
 )
 from common.protocol import GetDataEntityBucket, GetMinerIndex
 from rewards.data_value_calculator import DataValueCalculator
-from scraping.provider import ScraperProvider
+from vali_utils.scrapers import ValidatorScraperProvider
 from scraping.scraper import ScraperId, ValidationResult
 from storage.validator.sqlite_memory_validator_storage import (
     SqliteMemoryValidatorStorage,
@@ -47,7 +47,7 @@ class MinerEvaluator:
         DataSource.X: ScraperId.X_APIDOJO,
         DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
         DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-        DataSource.RAPID_ZILLOW: ScraperId.RAPID_ZILLOW
+        DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
     }
 
     def __init__(self, config: bt.config, uid: int, metagraph_syncer: MetagraphSyncer, s3_reader: ValidatorS3Access):
@@ -68,7 +68,7 @@ class MinerEvaluator:
         self.miner_iterator = MinerIterator(
             utils.get_miner_uids(self.metagraph, self.vpermit_rao_limit)
         )
-        self.scraper_provider = ScraperProvider()
+        self.scraper_provider = ValidatorScraperProvider()
         self.storage = SqliteMemoryValidatorStorage()
         self.s3_storage = S3ValidationStorage(self.config.s3_results_path)
         self.s3_reader = s3_reader
