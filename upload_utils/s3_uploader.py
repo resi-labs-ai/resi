@@ -143,7 +143,7 @@ class S3PartitionedUploader:
                     elif platform == 'youtube':
                         source_int = DataSource.YOUTUBE.value
                     elif platform in ['custom', 'zillow', 'rapid_zillow']:
-                        source_int = DataSource.UNKNOWN_4.value
+                        source_int = DataSource.SZILL_VALI.value
                     else:
                         bt.logging.warning(f"Unsupported platform: {platform}")
                         continue
@@ -342,7 +342,7 @@ class S3PartitionedUploader:
                     'duration_seconds': df['decoded_content'].apply(lambda x: x.get('duration_seconds', 0)),
                     'language': df['decoded_content'].apply(lambda x: x.get('language', 'en'))
                 })
-            elif source == DataSource.UNKNOWN_4.value:
+            elif source == DataSource.SZILL_VALI.value:
                 # Zillow data structure
                 result_df = pd.DataFrame({
                     'uri': df['uri'],

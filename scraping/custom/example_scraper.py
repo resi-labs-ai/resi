@@ -103,7 +103,7 @@ class CustomScraper(Scraper):
         entity = DataEntity(
             uri=uri,
             datetime=dt.datetime.now(dt.timezone.utc),
-            source=DataSource.UNKNOWN_4,
+            source=DataSource.SZILL_VALI,
             label=label,
             content=content,
             content_size_bytes=len(content.encode()),

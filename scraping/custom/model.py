@@ -153,7 +153,7 @@ class RealEstateContent(BaseModel):
         return DataEntity(
             uri=uri,
             datetime=self.scraped_at,
-            source=DataSource.UNKNOWN_4,
+            source=DataSource.SZILL_VALI,
             label=label,
             content=content_bytes,
             content_size_bytes=len(content_bytes)

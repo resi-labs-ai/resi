@@ -64,7 +64,7 @@ class DataSource(IntEnum):
     REDDIT = 1
     X = 2
     YOUTUBE = 3
-    UNKNOWN_4 = 4
+    SZILL_VALI = 4
     UNKNOWN_5 = 5
     UNKNOWN_6 = 6
     UNKNOWN_7 = 7
@@ -75,7 +75,7 @@ class DataSource(IntEnum):
             DataSource.REDDIT: 0.0,         # Disabled for real estate focus
             DataSource.X: 0.0,              # Disabled for real estate focus  
             DataSource.YOUTUBE: 0.0,        # Disabled for real estate focus
-            DataSource.UNKNOWN_4: 1.0,        # SZILL scraper
+            DataSource.SZILL_VALI: 1.0,        # SZILL scraper
             DataSource.UNKNOWN_5: 0.0,        # Future real estate sources
             DataSource.UNKNOWN_6: 0.0,
             DataSource.UNKNOWN_7: 0.0

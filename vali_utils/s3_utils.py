@@ -80,7 +80,7 @@ PREFERRED_SCRAPERS = {
     DataSource.X: ScraperId.X_APIDOJO,
     DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
     DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-    DataSource.UNKNOWN_4: "Szill.zillow"  # Real estate data uses DataSource.UNKNOWN_4 and Szill scraper
+    DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
 }
 
 

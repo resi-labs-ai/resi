@@ -95,7 +95,7 @@ async def demo_miner_simulation(client: MockZillowAPIClient):
                 entity = content.to_data_entity()
                 
                 # Validate miner data structure
-                assert entity.source == DataSource.UNKNOWN_4
+                assert entity.source == DataSource.SZILL_VALI
                 assert content.zpid is not None
                 assert content.address is not None
                 

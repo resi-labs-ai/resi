@@ -47,7 +47,7 @@ class MinerEvaluator:
         DataSource.X: ScraperId.X_APIDOJO,
         DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
         DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-        DataSource.UNKNOWN_4: "Szill.zillow"  # Real estate data uses DataSource.UNKNOWN_4 and Szill scraper
+        DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
     }
 
     def __init__(self, config: bt.config, uid: int, metagraph_syncer: MetagraphSyncer, s3_reader: ValidatorS3Access):
