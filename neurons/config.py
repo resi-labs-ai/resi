@@ -139,6 +139,28 @@ def add_args(neuron_type: NeuronType, parser):
         help="URL of the ResiLabs API server for zipcode assignments",
         default=None,  # Auto-configured based on netuid
     )
+    
+    # Proxy configuration for validators (required for spot-check validation)
+    parser.add_argument(
+        "--proxy_url",
+        type=str,
+        help="HTTP/HTTPS proxy URL for validator spot-check scraping (REQUIRED for production)",
+        default=None,
+    )
+    
+    parser.add_argument(
+        "--proxy_username",
+        type=str,
+        help="Proxy authentication username",
+        default=None,
+    )
+    
+    parser.add_argument(
+        "--proxy_password",
+        type=str,
+        help="Proxy authentication password",
+        default=None,
+    )
 
     if neuron_type == NeuronType.VALIDATOR:
         parser.add_argument(

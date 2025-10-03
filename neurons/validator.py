@@ -179,10 +179,17 @@ class Validator:
         
         if self.zipcode_validation_enabled:
             try:
+                # Validate proxy configuration for production
+                self._validate_proxy_configuration()
+                
                 self.api_client = create_api_client(self.config, self.wallet)
                 self.zipcode_scorer = ZipcodeCompetitiveScorer()
                 self.multi_tier_validator = MultiTierValidator()
                 self.consensus_manager = DeterministicConsensus()
+                
+                # Configure proxy for scraper if provided
+                if hasattr(self.config, 'proxy_url') and self.config.proxy_url:
+                    self._configure_scraper_proxy()
                 
                 bt.logging.success("Zipcode validation system initialized")
                 
@@ -197,6 +204,67 @@ class Validator:
                 bt.logging.error(f"Failed to initialize zipcode validation system: {e}")
                 bt.logging.warning("Continuing without zipcode validation functionality")
                 self.zipcode_validation_enabled = False
+
+    def _validate_proxy_configuration(self):
+        """
+        Validate proxy configuration for production validators
+        
+        Validators need proxies for Tier 3 spot-check validation to avoid IP bans
+        from real estate websites during scraping verification.
+        """
+        # For mainnet (netuid 13), require proxy configuration
+        if self.config.netuid == 13:  # Mainnet
+            if not hasattr(self.config, 'proxy_url') or not self.config.proxy_url:
+                bt.logging.error("❌ PROXY REQUIRED: Mainnet validators must configure proxy for spot-check validation")
+                bt.logging.error("   Add: --proxy_url http://username:password@proxy-server:port")
+                bt.logging.error("   Recommended: Webshare.io Rotating Residential Proxies")
+                bt.logging.error("   Plan: 100GB+ for reliable spot-checking")
+                raise ValueError("Proxy configuration required for mainnet validators")
+            
+            bt.logging.success(f"✅ Proxy configured: {self.config.proxy_url.split('@')[-1] if '@' in self.config.proxy_url else self.config.proxy_url}")
+            
+        # For testnet, proxy is optional but recommended
+        elif self.config.netuid == 428:  # Testnet
+            if hasattr(self.config, 'proxy_url') and self.config.proxy_url:
+                bt.logging.info(f"🔄 Testnet proxy configured: {self.config.proxy_url.split('@')[-1] if '@' in self.config.proxy_url else self.config.proxy_url}")
+            else:
+                bt.logging.warning("⚠️  No proxy configured for testnet - may encounter rate limits during spot-checks")
+                bt.logging.info("   Consider adding: --proxy_url for production-like testing")
+
+    def _configure_scraper_proxy(self):
+        """
+        Configure proxy settings for the validator's scraper components
+        
+        This ensures that Tier 3 spot-check validation uses the proxy
+        to avoid IP bans from real estate websites.
+        """
+        try:
+            import os
+            
+            # Set proxy environment variables for scrapers
+            proxy_url = self.config.proxy_url
+            
+            # Handle proxy with authentication
+            if hasattr(self.config, 'proxy_username') and self.config.proxy_username:
+                if hasattr(self.config, 'proxy_password') and self.config.proxy_password:
+                    # Format: http://username:password@proxy:port
+                    if '://' in proxy_url:
+                        protocol, rest = proxy_url.split('://', 1)
+                        proxy_url = f"{protocol}://{self.config.proxy_username}:{self.config.proxy_password}@{rest}"
+                    else:
+                        proxy_url = f"http://{self.config.proxy_username}:{self.config.proxy_password}@{proxy_url}"
+            
+            # Set environment variables for HTTP requests
+            os.environ['HTTP_PROXY'] = proxy_url
+            os.environ['HTTPS_PROXY'] = proxy_url
+            os.environ['http_proxy'] = proxy_url
+            os.environ['https_proxy'] = proxy_url
+            
+            bt.logging.success("✅ Scraper proxy configuration applied")
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to configure scraper proxy: {e}")
+            bt.logging.warning("Continuing without proxy - may encounter rate limits")
 
     def setup(self):
         """A one-time setup method that must be called before the Validator starts its main loop."""
