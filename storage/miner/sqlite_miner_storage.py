@@ -73,6 +73,28 @@ class SqliteMinerStorage(MinerStorage):
 
     DATA_ENTITY_TABLE_INDEX = """CREATE INDEX IF NOT EXISTS data_entity_bucket_index2
                                 ON DataEntity (timeBucketId, source, label, contentSizeBytes)"""
+    
+    # Epoch-specific table for zipcode mining data
+    EPOCH_DATA_TABLE_CREATE = """CREATE TABLE IF NOT EXISTS EpochZipcodeData (
+                                id                  INTEGER         PRIMARY KEY AUTOINCREMENT,
+                                epoch_id            TEXT            NOT NULL,
+                                zipcode             TEXT            NOT NULL,
+                                miner_hotkey        TEXT            NOT NULL,
+                                submission_time     TIMESTAMP(6)    NOT NULL,
+                                listing_data        TEXT            NOT NULL,
+                                listing_count       INTEGER         NOT NULL,
+                                s3_uploaded         BOOLEAN         DEFAULT FALSE,
+                                s3_upload_time      TIMESTAMP(6)    NULL,
+                                created_at          TIMESTAMP(6)    DEFAULT CURRENT_TIMESTAMP
+                                )"""
+    
+    EPOCH_DATA_TABLE_INDEXES = [
+        """CREATE INDEX IF NOT EXISTS epoch_data_epoch_idx ON EpochZipcodeData (epoch_id)""",
+        """CREATE INDEX IF NOT EXISTS epoch_data_zipcode_idx ON EpochZipcodeData (zipcode)""",
+        """CREATE INDEX IF NOT EXISTS epoch_data_miner_idx ON EpochZipcodeData (miner_hotkey)""",
+        """CREATE INDEX IF NOT EXISTS epoch_data_submission_idx ON EpochZipcodeData (submission_time)""",
+        """CREATE UNIQUE INDEX IF NOT EXISTS epoch_data_unique_idx ON EpochZipcodeData (epoch_id, zipcode, miner_hotkey)"""
+    ]
 
     def __init__(
         self,
@@ -98,6 +120,11 @@ class SqliteMinerStorage(MinerStorage):
 
             # Create the Index (if it does not already exist).
             cursor.execute(SqliteMinerStorage.DATA_ENTITY_TABLE_INDEX)
+            
+            # Create epoch-specific table and indexes
+            cursor.execute(SqliteMinerStorage.EPOCH_DATA_TABLE_CREATE)
+            for index_sql in SqliteMinerStorage.EPOCH_DATA_TABLE_INDEXES:
+                cursor.execute(index_sql)
 
             # Use Write Ahead Logging to avoid blocking reads.
             cursor.execute("pragma journal_mode=wal")
@@ -489,3 +516,232 @@ class SqliteMinerStorage(MinerStorage):
 
             # If we reach the end of the cursor then return all of the data entity buckets.
             return data_entity_buckets
+    
+    # ===== EPOCH-SPECIFIC STORAGE METHODS =====
+    
+    def store_epoch_zipcode_data(self, epoch_id: str, zipcode: str, listings_data: List[Dict], 
+                                miner_hotkey: str) -> bool:
+        """
+        Store epoch-specific zipcode data for competitive mining
+        
+        Args:
+            epoch_id: Current epoch ID
+            zipcode: Target zipcode
+            listings_data: List of scraped listing dictionaries
+            miner_hotkey: Miner's hotkey
+            
+        Returns:
+            True if storage successful
+        """
+        try:
+            import json
+            
+            # Serialize listings data
+            listings_json = json.dumps(listings_data, default=str)
+            submission_time = dt.datetime.now(dt.timezone.utc)
+            
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                # Use INSERT OR REPLACE to handle duplicate submissions
+                cursor.execute("""
+                    INSERT OR REPLACE INTO EpochZipcodeData 
+                    (epoch_id, zipcode, miner_hotkey, submission_time, listing_data, listing_count)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                """, (epoch_id, zipcode, miner_hotkey, submission_time, listings_json, len(listings_data)))
+                
+                connection.commit()
+                
+            bt.logging.info(f"Stored {len(listings_data)} listings for epoch {epoch_id}, zipcode {zipcode}")
+            return True
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to store epoch zipcode data: {e}")
+            return False
+    
+    def get_epoch_data(self, epoch_id: str) -> Dict[str, List[Dict]]:
+        """
+        Retrieve all stored data for a specific epoch, organized by zipcode
+        
+        Args:
+            epoch_id: Epoch ID to retrieve data for
+            
+        Returns:
+            Dict mapping zipcode -> list of listing data
+        """
+        try:
+            import json
+            
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                cursor.execute("""
+                    SELECT zipcode, listing_data, listing_count, submission_time
+                    FROM EpochZipcodeData 
+                    WHERE epoch_id = ?
+                    ORDER BY zipcode, submission_time
+                """, (epoch_id,))
+                
+                epoch_data = {}
+                for row in cursor:
+                    zipcode = row['zipcode']
+                    listings_data = json.loads(row['listing_data'])
+                    
+                    if zipcode not in epoch_data:
+                        epoch_data[zipcode] = []
+                    
+                    epoch_data[zipcode].extend(listings_data)
+                
+                bt.logging.info(f"Retrieved epoch data for {len(epoch_data)} zipcodes in epoch {epoch_id}")
+                return epoch_data
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to retrieve epoch data: {e}")
+            return {}
+    
+    def get_epoch_zipcode_data(self, epoch_id: str, zipcode: str) -> List[Dict]:
+        """
+        Retrieve stored data for a specific epoch and zipcode
+        
+        Args:
+            epoch_id: Epoch ID
+            zipcode: Target zipcode
+            
+        Returns:
+            List of listing dictionaries
+        """
+        try:
+            import json
+            
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                cursor.execute("""
+                    SELECT listing_data FROM EpochZipcodeData 
+                    WHERE epoch_id = ? AND zipcode = ?
+                    ORDER BY submission_time
+                """, (epoch_id, zipcode))
+                
+                all_listings = []
+                for row in cursor:
+                    listings_data = json.loads(row['listing_data'])
+                    all_listings.extend(listings_data)
+                
+                return all_listings
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to retrieve epoch zipcode data: {e}")
+            return []
+    
+    def mark_epoch_data_uploaded(self, epoch_id: str, zipcode: str, miner_hotkey: str) -> bool:
+        """
+        Mark epoch data as uploaded to S3
+        
+        Args:
+            epoch_id: Epoch ID
+            zipcode: Zipcode
+            miner_hotkey: Miner's hotkey
+            
+        Returns:
+            True if update successful
+        """
+        try:
+            upload_time = dt.datetime.now(dt.timezone.utc)
+            
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                cursor.execute("""
+                    UPDATE EpochZipcodeData 
+                    SET s3_uploaded = TRUE, s3_upload_time = ?
+                    WHERE epoch_id = ? AND zipcode = ? AND miner_hotkey = ?
+                """, (upload_time, epoch_id, zipcode, miner_hotkey))
+                
+                connection.commit()
+                
+                if cursor.rowcount > 0:
+                    bt.logging.info(f"Marked epoch data as uploaded: {epoch_id}/{zipcode}")
+                    return True
+                else:
+                    bt.logging.warning(f"No epoch data found to mark as uploaded: {epoch_id}/{zipcode}")
+                    return False
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to mark epoch data as uploaded: {e}")
+            return False
+    
+    def get_pending_s3_uploads(self, epoch_id: str = None) -> List[Dict]:
+        """
+        Get epoch data that hasn't been uploaded to S3 yet
+        
+        Args:
+            epoch_id: Optional epoch ID to filter by
+            
+        Returns:
+            List of pending upload records
+        """
+        try:
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                if epoch_id:
+                    cursor.execute("""
+                        SELECT epoch_id, zipcode, miner_hotkey, listing_count, submission_time
+                        FROM EpochZipcodeData 
+                        WHERE epoch_id = ? AND s3_uploaded = FALSE
+                        ORDER BY submission_time
+                    """, (epoch_id,))
+                else:
+                    cursor.execute("""
+                        SELECT epoch_id, zipcode, miner_hotkey, listing_count, submission_time
+                        FROM EpochZipcodeData 
+                        WHERE s3_uploaded = FALSE
+                        ORDER BY submission_time
+                    """)
+                
+                pending_uploads = []
+                for row in cursor:
+                    pending_uploads.append({
+                        'epoch_id': row['epoch_id'],
+                        'zipcode': row['zipcode'],
+                        'miner_hotkey': row['miner_hotkey'],
+                        'listing_count': row['listing_count'],
+                        'submission_time': row['submission_time']
+                    })
+                
+                return pending_uploads
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to get pending S3 uploads: {e}")
+            return []
+    
+    def cleanup_old_epoch_data(self, days_to_keep: int = 30) -> int:
+        """
+        Clean up old epoch data to manage storage space
+        
+        Args:
+            days_to_keep: Number of days of epoch data to retain
+            
+        Returns:
+            Number of records deleted
+        """
+        try:
+            cutoff_date = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days_to_keep)
+            
+            with contextlib.closing(self._create_connection()) as connection:
+                cursor = connection.cursor()
+                
+                cursor.execute("""
+                    DELETE FROM EpochZipcodeData 
+                    WHERE created_at < ?
+                """, (cutoff_date,))
+                
+                deleted_count = cursor.rowcount
+                connection.commit()
+                
+                bt.logging.info(f"Cleaned up {deleted_count} old epoch data records")
+                return deleted_count
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to cleanup old epoch data: {e}")
+            return 0

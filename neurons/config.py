@@ -124,6 +124,21 @@ def add_args(neuron_type: NeuronType, parser):
         help="URL of the S3 authentication service",
         default="https://s3-auth-api.resilabs.ai"  # ResiLabs S3 Auth Server for Mainnet
     )
+    
+    # Zipcode mining configuration
+    parser.add_argument(
+        "--zipcode_mining_enabled",
+        action="store_true",
+        help="Enable zipcode-based competitive mining",
+        default=False,
+    )
+    
+    parser.add_argument(
+        "--resi_api_url",
+        type=str,
+        help="URL of the ResiLabs API server for zipcode assignments",
+        default=None,  # Auto-configured based on netuid
+    )
 
     if neuron_type == NeuronType.VALIDATOR:
         parser.add_argument(

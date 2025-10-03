@@ -22,6 +22,7 @@ import threading
 import time
 import traceback
 import typing
+import os
 import bittensor as bt
 import datetime as dt
 from common import constants, utils
@@ -48,6 +49,9 @@ from scraping.scraper import ScrapeConfig, ScraperId
 
 from scraping.x.enhanced_apidojo_scraper import EnhancedApiDojoTwitterScraper
 import json
+
+# Import zipcode mining components
+from common.resi_api_client import create_api_client
 
 # Enable logging to the miner TODO move it to some different location
 bt.logging.set_info(True)
@@ -196,6 +200,32 @@ class Miner:
         self.request_lock = threading.RLock()
         self.last_cleared_request_limits = dt.datetime.now()
         self.requests_by_type_by_hotkey = defaultdict(lambda: defaultdict(lambda: 0))
+        
+        # Initialize zipcode mining components
+        self.zipcode_mining_enabled = getattr(self.config, 'zipcode_mining_enabled', False)
+        self.api_client = None
+        self.current_epoch_data = None
+        self.zipcode_mining_thread = None
+        
+        if self.zipcode_mining_enabled and not self.config.offline:
+            try:
+                self.api_client = create_api_client(self.config, self.wallet)
+                bt.logging.success("ResiLabs API client initialized for zipcode mining")
+                
+                # Test API connectivity
+                health = self.api_client.check_health()
+                if health.get('status') == 'ok':
+                    bt.logging.success(f"API server connected: {health.get('service', 'Unknown')}")
+                else:
+                    bt.logging.warning("API server health check failed, but continuing...")
+                    
+            except Exception as e:
+                bt.logging.error(f"Failed to initialize API client: {e}")
+                bt.logging.warning("Continuing without zipcode mining functionality")
+                self.zipcode_mining_enabled = False
+        elif self.zipcode_mining_enabled:
+            bt.logging.warning("Zipcode mining enabled but running in offline mode - disabling")
+            self.zipcode_mining_enabled = False
 
     def refresh_index(self):
         """
@@ -285,6 +315,393 @@ class Miner:
                 time_sleep_val = dt.timedelta(hours=2).total_seconds()
                 bt.logging.info("Using mainnet upload frequency: 2 hours")
             time.sleep(time_sleep_val)
+
+    def run_zipcode_mining_cycle(self):
+        """
+        Main zipcode mining cycle - runs continuously to check for new epochs
+        """
+        if not self.zipcode_mining_enabled or not self.api_client:
+            bt.logging.warning("Zipcode mining not enabled or API client not available")
+            return
+        
+        bt.logging.info("Starting zipcode mining cycle...")
+        
+        while not self.should_exit:
+            try:
+                # Check for current epoch assignments
+                current_epoch = self.api_client.get_current_epoch_info()
+                
+                if not current_epoch:
+                    bt.logging.info("No current epoch available, waiting...")
+                    time.sleep(60)  # Wait 1 minute before checking again
+                    continue
+                
+                epoch_id = current_epoch.get('id')
+                
+                # Check if this is a new epoch we haven't processed
+                if (not self.current_epoch_data or 
+                    self.current_epoch_data.get('epochId') != epoch_id):
+                    
+                    bt.logging.info(f"New epoch detected: {epoch_id}")
+                    
+                    # Get zipcode assignments for this epoch
+                    assignments = self.api_client.get_current_zipcode_assignments()
+                    
+                    if assignments.get('success'):
+                        self.current_epoch_data = assignments
+                        bt.logging.success(f"Received {len(assignments.get('zipcodes', []))} zipcode assignments")
+                        
+                        # Start mining for assigned zipcodes
+                        self.execute_zipcode_mining(assignments)
+                    else:
+                        bt.logging.error("Failed to get zipcode assignments")
+                
+                # Wait before checking for next epoch
+                time.sleep(300)  # Check every 5 minutes
+                
+            except Exception as e:
+                bt.logging.error(f"Error in zipcode mining cycle: {e}")
+                time.sleep(300)  # Wait 5 minutes on error
+    
+    def execute_zipcode_mining(self, epoch_assignments: dict):
+        """
+        Execute mining for assigned zipcodes in current epoch
+        
+        Args:
+            epoch_assignments: Epoch assignment data from API
+        """
+        epoch_id = epoch_assignments['epochId']
+        nonce = epoch_assignments['nonce']
+        zipcodes = epoch_assignments.get('zipcodes', [])
+        deadline = epoch_assignments.get('submissionDeadline')
+        
+        bt.logging.info(f"Starting mining for epoch {epoch_id} with {len(zipcodes)} zipcodes")
+        bt.logging.info(f"Submission deadline: {deadline}")
+        
+        # Update status to IN_PROGRESS
+        try:
+            self.api_client.update_miner_status(
+                epoch_id=epoch_id,
+                nonce=nonce,
+                status="IN_PROGRESS",
+                listings_scraped=0
+            )
+        except Exception as e:
+            bt.logging.warning(f"Failed to update initial status: {e}")
+        
+        # Mine each assigned zipcode
+        completed_zipcodes = []
+        total_listings = 0
+        
+        for zipcode_info in zipcodes:
+            zipcode = zipcode_info['zipcode']
+            expected_listings = zipcode_info['expectedListings']
+            
+            bt.logging.info(f"Mining zipcode {zipcode} (target: {expected_listings} listings)")
+            
+            try:
+                # Execute scraping for this specific zipcode
+                listings_data = self.scrape_zipcode_data(zipcode, expected_listings)
+                
+                if listings_data:
+                    # Store data locally
+                    self.store_zipcode_data(zipcode, listings_data, epoch_id)
+                    
+                    completed_zipcodes.append({
+                        'zipcode': zipcode,
+                        'listingsScraped': len(listings_data),
+                        'completedAt': dt.datetime.utcnow().isoformat() + 'Z'
+                    })
+                    
+                    total_listings += len(listings_data)
+                    
+                    bt.logging.success(f"Completed zipcode {zipcode}: {len(listings_data)} listings")
+                else:
+                    bt.logging.warning(f"No data found for zipcode {zipcode}")
+                
+                # Update progress periodically
+                if len(completed_zipcodes) % 5 == 0:
+                    try:
+                        self.api_client.update_miner_status(
+                            epoch_id=epoch_id,
+                            nonce=nonce,
+                            status="IN_PROGRESS",
+                            listings_scraped=total_listings,
+                            zipcodes_completed=completed_zipcodes
+                        )
+                    except Exception as e:
+                        bt.logging.warning(f"Failed to update progress: {e}")
+                        
+            except Exception as e:
+                bt.logging.error(f"Failed to mine zipcode {zipcode}: {e}")
+                continue
+        
+        # Upload all data to S3
+        bt.logging.info("Uploading epoch data to S3...")
+        s3_success = self.upload_epoch_data_to_s3(epoch_id, completed_zipcodes)
+        
+        # Final status update
+        final_status = "COMPLETED" if s3_success else "FAILED"
+        
+        try:
+            self.api_client.update_miner_status(
+                epoch_id=epoch_id,
+                nonce=nonce,
+                status=final_status,
+                listings_scraped=total_listings,
+                zipcodes_completed=completed_zipcodes,
+                s3_upload_complete=s3_success,
+                s3_upload_timestamp=dt.datetime.utcnow().isoformat() + 'Z' if s3_success else None
+            )
+            
+            bt.logging.success(f"Epoch {epoch_id} mining completed: {final_status}")
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to update final status: {e}")
+    
+    def scrape_zipcode_data(self, zipcode: str, expected_listings: int) -> list:
+        """
+        Scrape real estate data for a specific zipcode
+        
+        This integrates with the existing scraping system to target specific zipcodes
+        
+        Args:
+            zipcode: Target zipcode to scrape
+            expected_listings: Expected number of listings
+            
+        Returns:
+            List of scraped listing data
+        """
+        # This is a placeholder implementation
+        # In production, this would integrate with the existing scraping coordinator
+        # to target the specific zipcode
+        
+        bt.logging.info(f"Scraping data for zipcode {zipcode} (target: {expected_listings})")
+        
+        try:
+            # Get configured zipcode scraper
+            scraper = self.get_zipcode_scraper()
+            
+            if not scraper:
+                bt.logging.error("No zipcode scraper configured")
+                return []
+            
+            # Log scraper info
+            scraper_info = scraper.get_scraper_info()
+            bt.logging.info(f"Using scraper: {scraper_info['name']} v{scraper_info['version']} ({scraper_info['source']})")
+            
+            # Scrape the zipcode
+            listings = scraper.scrape_zipcode(
+                zipcode=zipcode,
+                target_count=expected_listings,
+                timeout=300  # 5 minute timeout
+            )
+            
+            bt.logging.success(f"Scraped {len(listings)} listings for zipcode {zipcode}")
+            return listings
+            
+        except Exception as e:
+            bt.logging.error(f"Error scraping zipcode {zipcode}: {e}")
+            return []
+    
+    def get_zipcode_scraper(self):
+        """
+        Get the configured zipcode scraper instance
+        
+        Miners can override this method to use their own custom scrapers.
+        By default, uses the mock scraper for testing.
+        
+        Returns:
+            ZipcodeScraperInterface implementation
+        """
+        try:
+            # Import scraper classes
+            from scraping.zipcode_mock_scraper import create_mock_scraper
+            from scraping.zipcode_scraper_interface import ZipcodeScraperConfig
+            
+            # Check if custom scraper is configured
+            custom_scraper_class = getattr(self.config, 'custom_zipcode_scraper', None)
+            
+            if custom_scraper_class:
+                bt.logging.info("Using custom zipcode scraper")
+                return custom_scraper_class()
+            else:
+                # Use mock scraper by default
+                bt.logging.info("Using mock zipcode scraper (replace with custom implementation)")
+                
+                # Configure mock scraper
+                config = ZipcodeScraperConfig(
+                    max_requests_per_minute=30,
+                    request_delay_seconds=1.0,
+                    max_retries=3
+                )
+                
+                return create_mock_scraper(config)
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to create zipcode scraper: {e}")
+            return None
+    
+    def store_zipcode_data(self, zipcode: str, listings_data: list, epoch_id: str):
+        """
+        Store zipcode data locally with epoch metadata
+        
+        Args:
+            zipcode: Zipcode for the data
+            listings_data: Scraped listing data
+            epoch_id: Current epoch ID
+        """
+        try:
+            bt.logging.info(f"Storing {len(listings_data)} listings for zipcode {zipcode}")
+            
+            # Add epoch metadata to each listing
+            for listing in listings_data:
+                listing['epoch_id'] = epoch_id
+                listing['zipcode'] = zipcode
+                listing['scraped_for_epoch'] = True
+                listing['submission_timestamp'] = dt.datetime.utcnow().isoformat()
+            
+            # Store in existing storage system using new epoch methods
+            success = self.storage.store_epoch_zipcode_data(
+                epoch_id=epoch_id,
+                zipcode=zipcode,
+                listings_data=listings_data,
+                miner_hotkey=self.wallet.hotkey.ss58_address
+            )
+            
+            if success:
+                bt.logging.success(f"Stored data for zipcode {zipcode} in epoch {epoch_id}")
+            else:
+                bt.logging.error(f"Failed to store data for zipcode {zipcode}")
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to store zipcode data: {e}")
+    
+    def upload_epoch_data_to_s3(self, epoch_id: str, completed_zipcodes: list) -> bool:
+        """
+        Upload epoch mining data to S3 using API credentials
+        
+        Args:
+            epoch_id: Current epoch ID
+            completed_zipcodes: List of completed zipcode data
+            
+        Returns:
+            True if upload successful
+        """
+        if not self.api_client:
+            bt.logging.warning("API client not available for S3 upload")
+            return False
+        
+        try:
+            bt.logging.info(f"Uploading epoch {epoch_id} data to S3...")
+            
+            # Get S3 credentials from ResiLabs API
+            s3_creds = self.api_client.get_s3_upload_credentials()
+            
+            if not s3_creds.get('success'):
+                bt.logging.error("Failed to get S3 upload credentials from API")
+                return False
+            
+            # Get epoch data from storage
+            epoch_data = self.storage.get_epoch_data(epoch_id)
+            
+            if not epoch_data:
+                bt.logging.warning(f"No epoch data found for {epoch_id}")
+                return True  # Not an error if no data to upload
+            
+            # Upload data for each zipcode
+            upload_success = True
+            miner_hotkey = self.wallet.hotkey.ss58_address
+            
+            for zipcode, listings_data in epoch_data.items():
+                try:
+                    # Create epoch-specific data structure
+                    zipcode_upload_data = {
+                        'epoch_id': epoch_id,
+                        'zipcode': zipcode,
+                        'miner_hotkey': miner_hotkey,
+                        'submission_timestamp': dt.datetime.utcnow().isoformat(),
+                        'listing_count': len(listings_data),
+                        'listings': listings_data
+                    }
+                    
+                    # Upload this zipcode's data
+                    zipcode_success = self._upload_zipcode_data_to_s3(
+                        zipcode_upload_data, s3_creds, epoch_id, zipcode
+                    )
+                    
+                    if zipcode_success:
+                        # Mark as uploaded in storage
+                        self.storage.mark_epoch_data_uploaded(epoch_id, zipcode, miner_hotkey)
+                        bt.logging.success(f"Uploaded data for zipcode {zipcode}")
+                    else:
+                        bt.logging.error(f"Failed to upload data for zipcode {zipcode}")
+                        upload_success = False
+                        
+                except Exception as zipcode_error:
+                    bt.logging.error(f"Error uploading zipcode {zipcode}: {zipcode_error}")
+                    upload_success = False
+            
+            if upload_success:
+                bt.logging.success(f"Successfully uploaded all epoch {epoch_id} data to S3")
+            else:
+                bt.logging.error(f"Some uploads failed for epoch {epoch_id}")
+            
+            return upload_success
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to upload epoch data to S3: {e}")
+            return False
+    
+    def _upload_zipcode_data_to_s3(self, zipcode_data: dict, s3_creds: dict, 
+                                  epoch_id: str, zipcode: str) -> bool:
+        """
+        Upload individual zipcode data to S3
+        
+        Args:
+            zipcode_data: Formatted zipcode data
+            s3_creds: S3 credentials from API
+            epoch_id: Epoch ID
+            zipcode: Zipcode
+            
+        Returns:
+            True if upload successful
+        """
+        try:
+            import json
+            import tempfile
+            import pandas as pd
+            
+            # Create temporary file for upload
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as temp_file:
+                json.dump(zipcode_data, temp_file, default=str, indent=2)
+                temp_file_path = temp_file.name
+            
+            try:
+                # Create S3 path following the expected structure
+                # Path: data/hotkey={miner_hotkey}/epoch={epoch_id}/zipcode={zipcode}/data.json
+                timestamp = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
+                s3_path = f"data/hotkey={zipcode_data['miner_hotkey']}/epoch={epoch_id}/zipcode={zipcode}/data_{timestamp}.json"
+                
+                # Use the S3Auth utility for upload
+                from upload_utils.s3_utils import S3Auth
+                s3_auth = S3Auth(self.config.s3_auth_url)  # Use existing auth URL
+                
+                # Upload using the credentials from ResiLabs API
+                upload_success = s3_auth.upload_file_with_path(
+                    temp_file_path, s3_path, s3_creds
+                )
+                
+                return upload_success
+                
+            finally:
+                # Clean up temporary file
+                if os.path.exists(temp_file_path):
+                    os.remove(temp_file_path)
+                    
+        except Exception as e:
+            bt.logging.error(f"Error in zipcode S3 upload: {e}")
+            return False
 
     def run(self):
         """
@@ -377,6 +794,15 @@ class Miner:
                 )
                 self.s3_partitioned_thread.start()
                 bt.logging.success("S3 upload thread started successfully")
+            
+            # Start zipcode mining thread if enabled
+            if self.zipcode_mining_enabled and self.api_client:
+                bt.logging.info("Starting zipcode mining thread...")
+                self.zipcode_mining_thread = threading.Thread(
+                    target=self.run_zipcode_mining_cycle, daemon=True
+                )
+                self.zipcode_mining_thread.start()
+                bt.logging.success("Zipcode mining thread started successfully")
             else:
                 bt.logging.warning("S3 upload thread not started - uploader not available")
 

@@ -39,6 +39,7 @@ import time
 import os
 import wandb
 import subprocess
+import traceback
 from common.metagraph_syncer import MetagraphSyncer
 from neurons.config import NeuronType, check_config, create_config
 from dynamic_desirability.desirability_retrieval import sync_run_retrieval
@@ -61,6 +62,12 @@ from vali_utils.organic_query_processor import OrganicQueryProcessor
 
 from vali_utils import metrics
 
+# Import zipcode validation components
+from common.resi_api_client import create_api_client
+from rewards.zipcode_competitive_scorer import ZipcodeCompetitiveScorer
+from vali_utils.multi_tier_validator import MultiTierValidator
+from vali_utils.deterministic_consensus import DeterministicConsensus
+
 load_dotenv()
 # Temporary solution to getting rid of annoying bittensor trace logs
 original_trace = bt.logging.trace
@@ -81,6 +88,7 @@ warnings.filterwarnings(
 )
 # import datetime after the warning filter
 import datetime as dt
+from datetime import datetime, timezone
 
 bt.logging.set_trace(True)  # TODO remove it in future
 
@@ -160,6 +168,35 @@ class Validator:
 
         # Add counter for evaluation cycles since startup
         self.evaluation_cycles_since_startup = 0
+        
+        # Initialize zipcode validation components
+        self.zipcode_validation_enabled = getattr(self.config, 'zipcode_mining_enabled', False)
+        self.api_client = None
+        self.zipcode_scorer = None
+        self.multi_tier_validator = None
+        self.consensus_manager = None
+        self.current_epoch_data = None
+        
+        if self.zipcode_validation_enabled:
+            try:
+                self.api_client = create_api_client(self.config, self.wallet)
+                self.zipcode_scorer = ZipcodeCompetitiveScorer()
+                self.multi_tier_validator = MultiTierValidator()
+                self.consensus_manager = DeterministicConsensus()
+                
+                bt.logging.success("Zipcode validation system initialized")
+                
+                # Test API connectivity
+                health = self.api_client.check_health()
+                if health.get('status') == 'ok':
+                    bt.logging.success(f"API server connected: {health.get('service', 'Unknown')}")
+                else:
+                    bt.logging.warning("API server health check failed, but continuing...")
+                    
+            except Exception as e:
+                bt.logging.error(f"Failed to initialize zipcode validation system: {e}")
+                bt.logging.warning("Continuing without zipcode validation functionality")
+                self.zipcode_validation_enabled = False
 
     def setup(self):
         """A one-time setup method that must be called before the Validator starts its main loop."""
@@ -733,6 +770,494 @@ class Validator:
             f"Prioritizing {synapse.dendrite.hotkey} with value: {priority}.",
         )
         return priority
+    
+    def run_epoch_validation(self):
+        """
+        Deterministic epoch validation ensuring all validators reach same results
+        
+        This method:
+        1. Waits for epoch completion
+        2. Downloads miner submissions from S3
+        3. Processes each zipcode with multi-tier validation
+        4. Calculates proportional weights
+        5. Verifies consensus with other validators
+        6. Updates Bittensor weights
+        """
+        if not self.zipcode_validation_enabled or not self.api_client:
+            bt.logging.warning("Zipcode validation not enabled")
+            return
+        
+        bt.logging.info("Starting epoch validation cycle...")
+        
+        while not self.should_exit:
+            try:
+                # Wait for epoch to complete
+                current_epoch = self.api_client.get_current_epoch_info()
+                
+                if not current_epoch:
+                    bt.logging.info("No current epoch available, waiting...")
+                    time.sleep(300)  # Wait 5 minutes
+                    continue
+                
+                epoch_id = current_epoch.get('id')
+                epoch_status = current_epoch.get('status')
+                
+                # Check if epoch is completed or near completion
+                if epoch_status == 'ACTIVE':
+                    # Wait for epoch to complete
+                    time_until_end = current_epoch.get('timeUntilEpochEnd', 0)
+                    if time_until_end > 300:  # More than 5 minutes left
+                        bt.logging.info(f"Epoch {epoch_id} still active, waiting {time_until_end}s")
+                        time.sleep(min(300, time_until_end))
+                        continue
+                
+                # Check if this is a new epoch we haven't processed
+                if (not self.current_epoch_data or 
+                    self.current_epoch_data.get('epoch_id') != epoch_id):
+                    
+                    bt.logging.info(f"Processing completed epoch: {epoch_id}")
+                    
+                    # Download epoch submissions by zipcode
+                    zipcode_submissions = self.download_epoch_submissions_by_zipcode(epoch_id)
+                    
+                    if not zipcode_submissions:
+                        bt.logging.warning(f"No submissions found for epoch {epoch_id}")
+                        time.sleep(300)
+                        continue
+                    
+                    # Get epoch nonce for deterministic validation
+                    epoch_nonce = current_epoch.get('nonce', epoch_id)
+                    
+                    # Process each zipcode with multi-tier validation
+                    all_zipcode_results = []
+                    
+                    for zipcode, submissions in zipcode_submissions.items():
+                        bt.logging.info(f"Validating {len(submissions)} submissions for zipcode {zipcode}")
+                        
+                        # Get expected listings for this zipcode
+                        expected_listings = self.get_expected_listings_for_zipcode(zipcode, epoch_id)
+                        
+                        # Validate and rank submissions for this zipcode
+                        zipcode_result = self.zipcode_scorer.validate_and_rank_zipcode_submissions(
+                            zipcode=zipcode,
+                            submissions=submissions,
+                            expected_listings=expected_listings,
+                            epoch_nonce=epoch_nonce
+                        )
+                        
+                        all_zipcode_results.append(zipcode_result)
+                    
+                    # Calculate final proportional weights across all zipcodes
+                    final_scores = self.zipcode_scorer.calculate_epoch_proportional_weights(all_zipcode_results)
+                    
+                    # Calculate consensus hash for verification
+                    consensus_hash = self.consensus_manager.calculate_consensus_hash(final_scores, epoch_nonce)
+                    
+                    # Create validation result with consensus data
+                    validation_result = self.consensus_manager.create_validation_result_with_consensus(
+                        epoch_id=epoch_id,
+                        final_scores=final_scores,
+                        zipcode_results=all_zipcode_results,
+                        epoch_nonce=epoch_nonce
+                    )
+                    validation_result['validator_hotkey'] = self.wallet.hotkey.ss58_address
+                    
+                    # Upload validation results to S3
+                    self.upload_validation_results(validation_result)
+                    
+                    # Verify consensus across validators
+                    consensus_result = self.consensus_manager.verify_consensus_across_validators(
+                        epoch_id, consensus_hash
+                    )
+                    
+                    # Handle consensus verification
+                    if consensus_result['consensus_status'] in ['PERFECT_CONSENSUS', 'MAJORITY_CONSENSUS']:
+                        bt.logging.success(f"Consensus achieved: {consensus_result['consensus_status']}")
+                        
+                        # Update Bittensor weights with final scores
+                        self.update_bittensor_weights_from_zipcode_scores(final_scores['miner_scores'])
+                        
+                        # Store epoch data for next iteration
+                        self.current_epoch_data = {
+                            'epoch_id': epoch_id,
+                            'consensus_hash': consensus_hash,
+                            'final_scores': final_scores
+                        }
+                        
+                    else:
+                        bt.logging.error(f"Consensus failed: {consensus_result['consensus_status']}")
+                        self.consensus_manager.handle_consensus_failure(epoch_id, consensus_result)
+                
+                # Wait before checking for next epoch
+                time.sleep(300)  # Check every 5 minutes
+                
+            except Exception as e:
+                bt.logging.error(f"Error in epoch validation cycle: {e}")
+                bt.logging.error(f"Traceback: {traceback.format_exc()}")
+                time.sleep(300)  # Wait 5 minutes on error
+    
+    def download_epoch_submissions_by_zipcode(self, epoch_id: str) -> dict:
+        """
+        Download and organize miner submissions by zipcode for an epoch
+        
+        Args:
+            epoch_id: Epoch ID to download submissions for
+            
+        Returns:
+            Dict mapping zipcode -> list of miner submissions
+        """
+        try:
+            bt.logging.info(f"Downloading submissions for epoch {epoch_id}")
+            
+            # Get list of active miners from metagraph
+            active_miners = []
+            for uid, hotkey in enumerate(self.evaluator.metagraph.hotkeys):
+                if self.evaluator.metagraph.S[uid] > 0:  # Has stake
+                    active_miners.append(hotkey)
+            
+            bt.logging.info(f"Checking {len(active_miners)} active miners for epoch {epoch_id} submissions")
+            
+            # Download submissions from each miner
+            zipcode_submissions = {}
+            successful_downloads = 0
+            
+            for miner_hotkey in active_miners:
+                try:
+                    miner_submissions = self._download_miner_epoch_data(epoch_id, miner_hotkey)
+                    
+                    if miner_submissions:
+                        successful_downloads += 1
+                        
+                        # Organize by zipcode
+                        for zipcode, submission_data in miner_submissions.items():
+                            if zipcode not in zipcode_submissions:
+                                zipcode_submissions[zipcode] = []
+                            
+                            # Add miner info to submission
+                            submission_data['miner_hotkey'] = miner_hotkey
+                            zipcode_submissions[zipcode].append(submission_data)
+                            
+                        bt.logging.debug(f"Downloaded {len(miner_submissions)} zipcode submissions from {miner_hotkey[:8]}...")
+                    
+                except Exception as miner_error:
+                    bt.logging.debug(f"No epoch data from miner {miner_hotkey[:8]}...: {miner_error}")
+                    continue
+            
+            bt.logging.info(f"Downloaded epoch {epoch_id} data from {successful_downloads} miners across {len(zipcode_submissions)} zipcodes")
+            
+            return zipcode_submissions
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to download epoch submissions: {e}")
+            return {}
+    
+    def _download_miner_epoch_data(self, epoch_id: str, miner_hotkey: str) -> dict:
+        """
+        Download epoch data from a specific miner
+        
+        Args:
+            epoch_id: Epoch ID
+            miner_hotkey: Miner's hotkey
+            
+        Returns:
+            Dict mapping zipcode -> submission data
+        """
+        try:
+            # Use existing ValidatorS3Access to get miner data
+            miner_url = asyncio.run(self.s3_reader.get_miner_specific_access(miner_hotkey))
+            
+            if not miner_url:
+                return {}
+            
+            # Download and parse S3 file list
+            import requests
+            response = requests.get(miner_url, timeout=30)
+            
+            if response.status_code != 200:
+                return {}
+            
+            # Parse S3 XML to find epoch-specific files
+            epoch_files = self._parse_epoch_files_from_s3_xml(response.text, epoch_id, miner_hotkey)
+            
+            if not epoch_files:
+                return {}
+            
+            # Download and parse each epoch file
+            miner_epoch_data = {}
+            
+            for file_info in epoch_files:
+                try:
+                    file_data = self._download_and_parse_epoch_file(file_info)
+                    
+                    if file_data and 'zipcode' in file_data:
+                        zipcode = file_data['zipcode']
+                        miner_epoch_data[zipcode] = file_data
+                        
+                except Exception as file_error:
+                    bt.logging.debug(f"Failed to download epoch file {file_info.get('key', 'unknown')}: {file_error}")
+                    continue
+            
+            return miner_epoch_data
+            
+        except Exception as e:
+            bt.logging.debug(f"Error downloading miner epoch data from {miner_hotkey[:8]}...: {e}")
+            return {}
+    
+    def _parse_epoch_files_from_s3_xml(self, xml_content: str, epoch_id: str, miner_hotkey: str) -> list:
+        """
+        Parse S3 XML response to find epoch-specific files
+        
+        Args:
+            xml_content: S3 XML response
+            epoch_id: Target epoch ID
+            miner_hotkey: Miner's hotkey
+            
+        Returns:
+            List of epoch file info
+        """
+        try:
+            import xml.etree.ElementTree as ET
+            
+            root = ET.fromstring(xml_content)
+            namespace = {'s3': 'http://s3.amazonaws.com/doc/2006-03-01/'}
+            
+            epoch_files = []
+            
+            for content in root.findall('.//s3:Contents', namespace):
+                key_elem = content.find('s3:Key', namespace)
+                size_elem = content.find('s3:Size', namespace)
+                modified_elem = content.find('s3:LastModified', namespace)
+                
+                if key_elem is not None:
+                    key = key_elem.text
+                    
+                    # Look for epoch-specific files
+                    # Expected pattern: data/hotkey={miner_hotkey}/epoch={epoch_id}/zipcode={zipcode}/data_*.json
+                    if (f'epoch={epoch_id}' in key and 
+                        f'hotkey={miner_hotkey}' in key and 
+                        key.endswith('.json')):
+                        
+                        # Extract zipcode from path
+                        zipcode = None
+                        if 'zipcode=' in key:
+                            zipcode_part = key.split('zipcode=')[1].split('/')[0]
+                            zipcode = zipcode_part
+                        
+                        file_info = {
+                            'key': key,
+                            'size': int(size_elem.text) if size_elem is not None else 0,
+                            'last_modified': modified_elem.text if modified_elem is not None else '',
+                            'zipcode': zipcode,
+                            'download_url': f"{miner_url.split('?')[0]}/{key}?{miner_url.split('?')[1]}" if '?' in miner_url else f"{miner_url}/{key}"
+                        }
+                        
+                        epoch_files.append(file_info)
+            
+            return epoch_files
+            
+        except Exception as e:
+            bt.logging.error(f"Error parsing S3 XML for epoch files: {e}")
+            return []
+    
+    def _download_and_parse_epoch_file(self, file_info: dict) -> dict:
+        """
+        Download and parse an individual epoch file
+        
+        Args:
+            file_info: File information from S3
+            
+        Returns:
+            Parsed file data
+        """
+        try:
+            import requests
+            import json
+            
+            # Download the file
+            response = requests.get(file_info['download_url'], timeout=30)
+            
+            if response.status_code != 200:
+                return {}
+            
+            # Parse JSON data
+            file_data = json.loads(response.text)
+            
+            # Validate required fields
+            required_fields = ['epoch_id', 'zipcode', 'miner_hotkey', 'listings']
+            if not all(field in file_data for field in required_fields):
+                bt.logging.warning(f"Epoch file missing required fields: {file_info['key']}")
+                return {}
+            
+            # Add file metadata
+            file_data['file_info'] = {
+                'key': file_info['key'],
+                'size': file_info['size'],
+                'last_modified': file_info['last_modified']
+            }
+            
+            return file_data
+            
+        except Exception as e:
+            bt.logging.error(f"Error downloading epoch file {file_info.get('key', 'unknown')}: {e}")
+            return {}
+    
+    def get_expected_listings_for_zipcode(self, zipcode: str, epoch_id: str) -> int:
+        """
+        Get expected number of listings for a zipcode in an epoch
+        
+        Args:
+            zipcode: Target zipcode
+            epoch_id: Epoch ID
+            
+        Returns:
+            Expected number of listings
+        """
+        try:
+            # First, check if we have cached epoch assignment data
+            if (self.current_epoch_data and 
+                self.current_epoch_data.get('epoch_id') == epoch_id):
+                
+                for zipcode_info in self.current_epoch_data.get('zipcodes', []):
+                    if zipcode_info['zipcode'] == zipcode:
+                        expected = zipcode_info['expectedListings']
+                        bt.logging.debug(f"Found cached expected listings for {zipcode}: {expected}")
+                        return expected
+            
+            # If not cached or different epoch, try to get current assignments from API
+            if self.api_client:
+                try:
+                    assignments = self.api_client.get_current_zipcode_assignments()
+                    
+                    if assignments.get('success') and assignments.get('epochId') == epoch_id:
+                        # Cache the assignments for future use
+                        self.current_epoch_data = {
+                            'epoch_id': epoch_id,
+                            'zipcodes': assignments.get('zipcodes', []),
+                            'nonce': assignments.get('nonce'),
+                            'cached_at': datetime.now(timezone.utc).isoformat()
+                        }
+                        
+                        # Find the specific zipcode
+                        for zipcode_info in assignments.get('zipcodes', []):
+                            if zipcode_info['zipcode'] == zipcode:
+                                expected = zipcode_info['expectedListings']
+                                bt.logging.info(f"Retrieved expected listings for {zipcode}: {expected}")
+                                return expected
+                        
+                        bt.logging.warning(f"Zipcode {zipcode} not found in current epoch assignments")
+                    else:
+                        bt.logging.warning(f"API returned assignments for different epoch or failed")
+                        
+                except Exception as api_error:
+                    bt.logging.error(f"Failed to get zipcode assignments from API: {api_error}")
+            
+            # Fallback: Use historical average or reasonable default based on zipcode
+            default_expected = self._get_default_expected_listings(zipcode)
+            bt.logging.warning(f"Using default expected listings for {zipcode}: {default_expected}")
+            return default_expected
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to get expected listings for {zipcode}: {e}")
+            return 250  # Ultimate fallback
+    
+    def _get_default_expected_listings(self, zipcode: str) -> int:
+        """
+        Get reasonable default expected listings based on zipcode characteristics
+        
+        This could be enhanced with historical data or zipcode population data
+        """
+        try:
+            # For now, use simple heuristics based on zipcode patterns
+            # This could be replaced with actual historical data
+            
+            # Major metropolitan areas (rough approximation)
+            major_metro_patterns = [
+                '100', '101', '102',  # NYC area
+                '900', '901', '902',  # LA area  
+                '606', '607', '608',  # Chicago area
+                '770', '771', '772',  # Atlanta area
+                '191', '192', '193',  # Philadelphia area
+            ]
+            
+            zipcode_prefix = zipcode[:3] if len(zipcode) >= 3 else zipcode
+            
+            if any(zipcode.startswith(pattern) for pattern in major_metro_patterns):
+                return 400  # Higher expected for major metros
+            elif zipcode_prefix in ['750', '751', '752', '753']:  # Texas
+                return 350
+            elif zipcode_prefix in ['330', '331', '332']:  # Florida
+                return 300
+            else:
+                return 250  # Standard default
+                
+        except Exception as e:
+            bt.logging.error(f"Error in default expected listings calculation: {e}")
+            return 250
+    
+    def upload_validation_results(self, validation_result: dict):
+        """
+        Upload validation results to S3 for consensus verification
+        
+        Args:
+            validation_result: Complete validation result with consensus data
+        """
+        try:
+            epoch_id = validation_result['epoch_id']
+            bt.logging.info(f"Uploading validation results for epoch {epoch_id}")
+            
+            # Get S3 credentials for validator upload
+            s3_creds = self.api_client.get_validator_s3_credentials(
+                epoch_id=epoch_id,
+                purpose="epoch_validation_results"
+            )
+            
+            if not s3_creds.get('success'):
+                bt.logging.error("Failed to get validator S3 credentials")
+                return False
+            
+            # TODO: Upload validation results using existing S3 infrastructure
+            # This would use the existing ValidatorS3Access but for result uploads
+            
+            bt.logging.info("Validation result upload not yet implemented")
+            return True
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to upload validation results: {e}")
+            return False
+    
+    def update_bittensor_weights_from_zipcode_scores(self, miner_scores: dict):
+        """
+        Update Bittensor weights based on zipcode competitive scores
+        
+        Args:
+            miner_scores: Dict mapping miner hotkey -> normalized score
+        """
+        try:
+            bt.logging.info(f"Updating Bittensor weights for {len(miner_scores)} miners")
+            
+            # Convert miner scores to weight tensor
+            metagraph = self.evaluator.metagraph
+            weights = torch.zeros(len(metagraph.hotkeys))
+            
+            for hotkey, score in miner_scores.items():
+                try:
+                    uid = metagraph.hotkeys.index(hotkey)
+                    weights[uid] = score
+                except ValueError:
+                    bt.logging.warning(f"Miner {hotkey[:8]} not found in metagraph")
+                    continue
+            
+            # Normalize weights to sum to 1.0
+            if weights.sum() > 0:
+                weights = weights / weights.sum()
+            
+            bt.logging.info(f"Setting weights for {(weights > 0).sum()} miners")
+            
+            # Use existing weight setting mechanism
+            self.set_weights(weights)
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to update Bittensor weights: {e}")
 
 
 def main():
