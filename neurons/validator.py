@@ -169,8 +169,8 @@ class Validator:
         # Add counter for evaluation cycles since startup
         self.evaluation_cycles_since_startup = 0
         
-        # Initialize zipcode validation components
-        self.zipcode_validation_enabled = getattr(self.config, 'zipcode_mining_enabled', False)
+        # Initialize zipcode validation components (enabled by default)
+        self.zipcode_validation_enabled = not getattr(self.config, 'disable_zipcode_mining', False)
         self.api_client = None
         self.zipcode_scorer = None
         self.multi_tier_validator = None

@@ -125,11 +125,11 @@ def add_args(neuron_type: NeuronType, parser):
         default="https://s3-auth-api.resilabs.ai"  # ResiLabs S3 Auth Server for Mainnet
     )
     
-    # Zipcode mining configuration
+    # Zipcode mining configuration (enabled by default)
     parser.add_argument(
-        "--zipcode_mining_enabled",
+        "--disable_zipcode_mining",
         action="store_true",
-        help="Enable zipcode-based competitive mining",
+        help="Disable zipcode-based competitive mining (legacy mode)",
         default=False,
     )
     

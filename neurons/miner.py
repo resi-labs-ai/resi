@@ -201,8 +201,8 @@ class Miner:
         self.last_cleared_request_limits = dt.datetime.now()
         self.requests_by_type_by_hotkey = defaultdict(lambda: defaultdict(lambda: 0))
         
-        # Initialize zipcode mining components
-        self.zipcode_mining_enabled = getattr(self.config, 'zipcode_mining_enabled', False)
+        # Initialize zipcode mining components (enabled by default)
+        self.zipcode_mining_enabled = not getattr(self.config, 'disable_zipcode_mining', False)
         self.api_client = None
         self.current_epoch_data = None
         self.zipcode_mining_thread = None

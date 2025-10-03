@@ -173,7 +173,13 @@ class ZipcodeCompetitiveScorer:
                 'miner_scores': {},
                 'zipcode_weights': {},
                 'total_participants': 0,
-                'total_winners': 0
+                'total_winners': 0,
+                'total_epoch_listings': 0,
+                'reward_distribution_summary': {
+                    'winners_total_reward': 0,
+                    'participants_total_reward': 0,
+                    'total_miners_rewarded': 0
+                }
             }
         
         zipcode_weights = {}

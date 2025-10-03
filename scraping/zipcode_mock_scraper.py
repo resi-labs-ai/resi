@@ -9,7 +9,7 @@ Miners should replace this with their own real scraper implementations.
 
 import random
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict
 import bittensor as bt
 
@@ -91,10 +91,10 @@ class MockZipcodeScraper(ZipcodeScraperInterface):
     def _generate_mock_listing(self, zipcode: str, index: int) -> Dict:
         """Generate a single mock listing"""
         
-        # Generate realistic property details
-        bedrooms = random.choice([1, 2, 3, 4, 5, None])
-        bathrooms = random.choice([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, None])
-        sqft = random.randint(800, 4000) if random.random() > 0.1 else None
+        # Generate realistic property details (ensure high completeness for testing)
+        bedrooms = random.choice([1, 2, 3, 4, 5]) if random.random() > 0.05 else None  # 95% complete
+        bathrooms = random.choice([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]) if random.random() > 0.05 else None  # 95% complete
+        sqft = random.randint(800, 4000) if random.random() > 0.05 else None  # 95% complete
         
         # Generate price based on property characteristics
         base_price = 200000
@@ -106,9 +106,10 @@ class MockZipcodeScraper(ZipcodeScraperInterface):
         # Add some randomness
         price = int(base_price * random.uniform(0.7, 1.8))
         
-        # Generate dates
-        listing_date = datetime.now() - timedelta(days=random.randint(1, 180))
-        days_on_market = (datetime.now() - listing_date).days
+        # Generate dates (use timezone-aware datetimes for consistency validation)
+        now = datetime.now(timezone.utc)
+        listing_date = now - timedelta(days=random.randint(1, 180))
+        days_on_market = (now - listing_date).days
         
         # Generate address
         house_number = random.randint(100, 9999)
@@ -132,7 +133,7 @@ class MockZipcodeScraper(ZipcodeScraperInterface):
             'listing_status': random.choice(self.listing_statuses),
             'days_on_market': days_on_market,
             'source_url': f"https://mock-realestate-site.com/property/{zpid}",
-            'scraped_timestamp': datetime.now().isoformat(),
+            'scraped_timestamp': now.isoformat(),
             'zipcode': zipcode,
             
             # Optional fields that validators might check
