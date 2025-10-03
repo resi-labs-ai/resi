@@ -226,24 +226,165 @@ This document provides a complete implementation plan for migrating from the cur
 
 ### **Week 3: Zipcode-Based Scoring System**
 
-#### **Day 15-17: New Scoring Algorithm Implementation**
-- [ ] **Per-Zipcode Competitive Scoring**
+#### **Day 15-17: New Per-Zipcode Competitive Scoring Algorithm**
+- [ ] **Multi-Tier Validation & Ranking System**
   ```python
-  # File: rewards/zipcode_scorer.py
+  # File: rewards/zipcode_competitive_scorer.py
   class ZipcodeCompetitiveScorer:
       def __init__(self):
           self.reward_distribution = {
               "first_place": 0.55,   # 55% to top miner per zipcode
               "second_place": 0.30,  # 30% to second miner per zipcode  
               "third_place": 0.10,   # 10% to third miner per zipcode
-              "participation": 0.05  # 5% distributed among others
+              "participation": 0.05  # 5% distributed among all other valid participants
           }
           
-      def score_zipcode_submissions(self, zipcode: str, submissions: List[Dict]) -> Dict:
-          """Score all miners for a specific zipcode"""
+      def validate_and_rank_zipcode_submissions(self, zipcode: str, submissions: List[Dict], 
+                                               expected_listings: int, epoch_nonce: str) -> Dict:
+          """Multi-tier validation and ranking for a specific zipcode"""
           
-      def calculate_epoch_scores(self, epoch_data: Dict) -> Dict:
-          """Calculate final scores across all zipcodes in epoch"""
+          # Step 1: Sort by submission time (earliest first)
+          sorted_submissions = sorted(submissions, key=lambda x: x['submission_timestamp'])
+          
+          # Step 2: Multi-tier validation to find top 3 winners
+          winners = []
+          all_participants = []
+          
+          for submission in sorted_submissions:
+              # Tier 1: Quantity & Timeliness Check
+              tier1_result = self.multi_tier_validator.tier1_quantity_validation(
+                  submission, expected_listings
+              )
+              
+              if not tier1_result['passes_quantity']:
+                  continue  # Skip to next submission
+              
+              # Tier 2: Data Quality & Completeness Check  
+              tier2_result = self.multi_tier_validator.tier2_data_quality_validation(
+                  submission['listings']
+              )
+              
+              if not tier2_result['passes_quality']:
+                  continue  # Skip to next submission
+                  
+              # Tier 3: Deterministic Spot Check (most expensive, do last)
+              tier3_result = self.multi_tier_validator.tier3_deterministic_spot_check(
+                  submission, epoch_nonce
+              )
+              
+              if tier3_result['passes_spot_check']:
+                  # This miner passes all tiers - add to winners if we need more
+                  if len(winners) < 3:
+                      winners.append({
+                          'miner_hotkey': submission['miner_hotkey'],
+                          'submission_time': submission['submission_timestamp'],
+                          'listing_count': len(submission['listings']),
+                          'rank': len(winners) + 1,
+                          'tier1_result': tier1_result,
+                          'tier2_result': tier2_result,
+                          'tier3_result': tier3_result
+                      })
+              else:
+                  # Failed spot check - add to participants (for 5% distribution)
+                  all_participants.append({
+                      'miner_hotkey': submission['miner_hotkey'],
+                      'failed_at': 'tier3_spot_check',
+                      'tier3_result': tier3_result
+                  })
+          
+          # Step 3: Calculate zipcode-specific rewards
+          zipcode_rewards = {}
+          total_listings_in_zipcode = sum(w['listing_count'] for w in winners)
+          
+          for i, winner in enumerate(winners):
+              if i == 0:  # 1st place
+                  zipcode_rewards[winner['miner_hotkey']] = {
+                      'rank': 1,
+                      'reward_percentage': self.reward_distribution['first_place'],
+                      'listing_count': winner['listing_count']
+                  }
+              elif i == 1:  # 2nd place  
+                  zipcode_rewards[winner['miner_hotkey']] = {
+                      'rank': 2,
+                      'reward_percentage': self.reward_distribution['second_place'],
+                      'listing_count': winner['listing_count']
+                  }
+              elif i == 2:  # 3rd place
+                  zipcode_rewards[winner['miner_hotkey']] = {
+                      'rank': 3,
+                      'reward_percentage': self.reward_distribution['third_place'],
+                      'listing_count': winner['listing_count']
+                  }
+          
+          return {
+              'zipcode': zipcode,
+              'expected_listings': expected_listings,
+              'winners': winners,
+              'participants': all_participants,
+              'zipcode_rewards': zipcode_rewards,
+              'total_listings_found': total_listings_in_zipcode
+          }
+  
+      def calculate_epoch_proportional_weights(self, all_zipcode_results: List[Dict]) -> Dict:
+          """Calculate final proportional weights across all zipcodes in epoch"""
+          
+          # Step 1: Calculate zipcode weights based on listing counts
+          total_epoch_listings = sum(
+              result['total_listings_found'] for result in all_zipcode_results
+          )
+          
+          zipcode_weights = {}
+          for result in all_zipcode_results:
+              zipcode_weights[result['zipcode']] = (
+                  result['total_listings_found'] / total_epoch_listings
+              )
+          
+          # Step 2: Calculate miner scores weighted by zipcode size
+          miner_scores = {}
+          all_participants = set()
+          
+          for result in all_zipcode_results:
+              zipcode_weight = zipcode_weights[result['zipcode']]
+              
+              # Add winners with their weighted rewards
+              for miner_hotkey, reward_info in result['zipcode_rewards'].items():
+                  if miner_hotkey not in miner_scores:
+                      miner_scores[miner_hotkey] = 0.0
+                  
+                  # Weight the reward by zipcode size
+                  weighted_reward = reward_info['reward_percentage'] * zipcode_weight
+                  miner_scores[miner_hotkey] += weighted_reward
+              
+              # Collect all participants for 5% distribution
+              for participant in result['participants']:
+                  all_participants.add(participant['miner_hotkey'])
+          
+          # Step 3: Distribute remaining 5% among all participants
+          remaining_percentage = self.reward_distribution['participation']
+          if all_participants:
+              participation_reward_per_miner = remaining_percentage / len(all_participants)
+              
+              for participant_hotkey in all_participants:
+                  if participant_hotkey not in miner_scores:
+                      miner_scores[participant_hotkey] = 0.0
+                  miner_scores[participant_hotkey] += participation_reward_per_miner
+          
+          # Step 4: Normalize scores to sum to 1.0
+          total_score = sum(miner_scores.values())
+          if total_score > 0:
+              normalized_scores = {
+                  hotkey: score / total_score 
+                  for hotkey, score in miner_scores.items()
+              }
+          else:
+              normalized_scores = {}
+          
+          return {
+              'miner_scores': normalized_scores,
+              'zipcode_weights': zipcode_weights,
+              'total_participants': len(all_participants),
+              'total_winners': sum(len(r['winners']) for r in all_zipcode_results)
+          }
   ```
 
 - [ ] **Enhanced Validation Components**
@@ -260,37 +401,253 @@ This document provides a complete implementation plan for migrating from the cur
           }
   ```
 
-#### **Day 18-19: Honeypot Detection System**
-- [ ] **Honeypot Validation Logic**
+#### **Day 18-19: Multi-Tier Validation System**
+- [ ] **Tier 1: Quantity & Timeliness Validation**
   ```python
-  # File: vali_utils/honeypot_detector.py
-  class HoneypotDetector:
-      def detect_synthetic_data(self, listings: List[Dict], zipcode: str) -> List[str]:
-          """Detect fake/synthetic listings in honeypot zipcodes"""
+  # File: vali_utils/multi_tier_validator.py
+  class MultiTierValidator:
+      def __init__(self):
+          self.quantity_tolerance = 0.15  # ±15% tolerance for listing count
           
-      def validate_geographic_consistency(self, listings: List[Dict], zipcode: str) -> bool:
-          """Ensure listings are within zipcode boundaries"""
+      def tier1_quantity_validation(self, submission: Dict, expected_count: int) -> Dict:
+          """Validate listing count and submission timing"""
+          actual_count = len(submission['listings'])
+          min_expected = int(expected_count * (1 - self.quantity_tolerance))
+          max_expected = int(expected_count * (1 + self.quantity_tolerance))
           
-      def check_temporal_consistency(self, listings: List[Dict]) -> List[str]:
-          """Detect impossible dates/prices in listings"""
+          return {
+              "passes_quantity": min_expected <= actual_count <= max_expected,
+              "actual_count": actual_count,
+              "expected_range": (min_expected, max_expected),
+              "submission_time": submission['submission_timestamp'],
+              "timeliness_score": self.calculate_timeliness_score(submission)
+          }
   ```
 
-#### **Day 20-21: Validator Consensus Mechanism**
-- [ ] **Multi-Validator Consensus**
+- [ ] **Tier 2: Data Quality & Completeness Validation**
   ```python
-  # File: vali_utils/validator_consensus.py
-  class ValidatorConsensus:
-      def __init__(self, min_validators: int = 3):
-          self.min_validators = min_validators
+  def tier2_data_quality_validation(self, listings: List[Dict]) -> Dict:
+      """Validate data completeness and field quality"""
+      required_fields = ['address', 'price', 'bedrooms', 'bathrooms', 'sqft', 
+                        'listing_date', 'property_type', 'mls_id', 'source_url']
+      
+      quality_metrics = {
+          "field_completeness": 0.0,
+          "reasonable_values": 0.0,
+          "data_consistency": 0.0,
+          "duplicate_rate": 0.0
+      }
+      
+      # Check field completeness
+      complete_listings = 0
+      for listing in listings:
+          if all(field in listing and listing[field] is not None for field in required_fields):
+              complete_listings += 1
+      
+      quality_metrics["field_completeness"] = complete_listings / len(listings)
+      
+      # Check for reasonable values
+      quality_metrics["reasonable_values"] = self.validate_reasonable_values(listings)
+      
+      # Check data consistency
+      quality_metrics["data_consistency"] = self.validate_data_consistency(listings)
+      
+      # Check duplicate rate
+      quality_metrics["duplicate_rate"] = self.calculate_duplicate_rate(listings)
+      
+      # Must pass all quality thresholds
+      passes_quality = (
+          quality_metrics["field_completeness"] >= 0.90 and  # 90% complete fields
+          quality_metrics["reasonable_values"] >= 0.95 and   # 95% reasonable values
+          quality_metrics["data_consistency"] >= 0.90 and    # 90% consistent data
+          quality_metrics["duplicate_rate"] <= 0.05          # <5% duplicates
+      )
+      
+      return {
+          "passes_quality": passes_quality,
+          "quality_metrics": quality_metrics
+      }
+  ```
+
+- [ ] **Tier 3: Deterministic Spot Check System**
+  ```python
+  def tier3_deterministic_spot_check(self, submission: Dict, epoch_nonce: str) -> Dict:
+      """Perform deterministic spot checks using epoch nonce + miner data"""
+      miner_hotkey = submission['miner_hotkey']
+      submission_time = submission['submission_timestamp']
+      listings = submission['listings']
+      
+      # Create deterministic seed that all validators will generate the same way
+      seed_string = f"{epoch_nonce}:{miner_hotkey}:{submission_time}:{len(listings)}"
+      seed = int(hashlib.sha256(seed_string.encode()).hexdigest()[:8], 16)
+      
+      # Use seed to select same listings across all validators
+      random.seed(seed)
+      sample_size = min(10, max(3, len(listings) // 10))  # 10% sample, min 3, max 10
+      selected_indices = sorted(random.sample(range(len(listings)), sample_size))
+      
+      spot_check_results = []
+      for idx in selected_indices:
+          listing = listings[idx]
+          verification_result = self.verify_listing_with_scraper(listing)
+          spot_check_results.append({
+              "listing_index": idx,
+              "listing_id": listing.get('mls_id', listing.get('uri', f"listing_{idx}")),
+              "verification_passed": verification_result['exists_and_accurate'],
+              "verification_details": verification_result
+          })
+      
+      passed_checks = sum(1 for result in spot_check_results if result['verification_passed'])
+      spot_check_pass_rate = passed_checks / len(spot_check_results)
+      
+      return {
+          "passes_spot_check": spot_check_pass_rate >= 0.80,  # 80% must pass
+          "spot_check_pass_rate": spot_check_pass_rate,
+          "spot_check_results": spot_check_results,
+          "deterministic_seed": seed,
+          "selected_indices": selected_indices
+      }
+  ```
+
+#### **Day 20-21: Deterministic Consensus Mechanism**
+- [ ] **Deterministic Validator Consensus System**
+  ```python
+  # File: vali_utils/deterministic_consensus.py
+  class DeterministicConsensus:
+      def __init__(self, consensus_threshold: float = 0.90):
+          self.consensus_threshold = consensus_threshold  # 90% validators must agree
           
-      def collect_validator_scores(self, epoch_id: str) -> Dict:
-          """Collect scores from all validators"""
+      def verify_consensus_across_validators(self, epoch_id: str) -> Dict:
+          """Verify that all validators reached the same deterministic results"""
           
-      def calculate_consensus_scores(self, validator_scores: Dict) -> Dict:
-          """Calculate final consensus scores"""
+          # Collect consensus hashes from all validators
+          validator_hashes = self.collect_validator_consensus_hashes(epoch_id)
           
-      def detect_validator_outliers(self, scores: Dict) -> List[str]:
-          """Identify validators with significantly different scores"""
+          # Check if validators agree (same consensus hash)
+          unique_hashes = set(validator_hashes.values())
+          
+          if len(unique_hashes) == 1:
+              # Perfect consensus - all validators agree
+              consensus_status = "PERFECT_CONSENSUS"
+              consensus_rate = 1.0
+          else:
+              # Calculate consensus rate
+              hash_counts = {}
+              for validator_hash in validator_hashes.values():
+                  hash_counts[validator_hash] = hash_counts.get(validator_hash, 0) + 1
+              
+              # Find majority hash
+              majority_hash = max(hash_counts.keys(), key=lambda h: hash_counts[h])
+              majority_count = hash_counts[majority_hash]
+              consensus_rate = majority_count / len(validator_hashes)
+              
+              if consensus_rate >= self.consensus_threshold:
+                  consensus_status = "MAJORITY_CONSENSUS"
+              else:
+                  consensus_status = "CONSENSUS_FAILED"
+          
+          return {
+              'consensus_status': consensus_status,
+              'consensus_rate': consensus_rate,
+              'validator_hashes': validator_hashes,
+              'majority_hash': majority_hash if len(unique_hashes) > 1 else list(unique_hashes)[0],
+              'outlier_validators': self.identify_outlier_validators(validator_hashes, majority_hash)
+          }
+          
+      def identify_outlier_validators(self, validator_hashes: Dict, majority_hash: str) -> List[str]:
+          """Identify validators that didn't reach consensus"""
+          outliers = []
+          for validator_hotkey, consensus_hash in validator_hashes.items():
+              if consensus_hash != majority_hash:
+                  outliers.append(validator_hotkey)
+          return outliers
+          
+      def handle_consensus_failure(self, epoch_id: str, consensus_result: Dict):
+          """Handle cases where validators don't reach consensus"""
+          if consensus_result['consensus_status'] == 'CONSENSUS_FAILED':
+              bt.logging.error(f"Consensus failed for epoch {epoch_id}")
+              bt.logging.error(f"Consensus rate: {consensus_result['consensus_rate']:.2%}")
+              bt.logging.error(f"Outlier validators: {consensus_result['outlier_validators']}")
+              
+              # Implement fallback strategies:
+              # 1. Extend validation window for re-validation
+              # 2. Use majority consensus if above minimum threshold
+              # 3. Flag epoch for manual review
+              # 4. Implement validator penalties for outliers
+              
+              raise ConsensusFailureException(
+                  f"Validator consensus failed for epoch {epoch_id}. "
+                  f"Only {consensus_result['consensus_rate']:.2%} agreement achieved."
+              )
+  
+  class ConsensusFailureException(Exception):
+      """Raised when validators cannot reach consensus on epoch results"""
+      pass
+  ```
+
+- [ ] **Anti-Gaming & Fraud Detection**
+  ```python
+  # File: vali_utils/anti_gaming_detector.py
+  class AntiGamingDetector:
+      def __init__(self):
+          self.synthetic_data_patterns = [
+              "impossible_price_patterns",
+              "duplicate_addresses_across_zipcodes", 
+              "temporal_inconsistencies",
+              "geographic_impossibilities"
+          ]
+          
+      def detect_synthetic_data(self, listings: List[Dict], zipcode: str) -> Dict:
+          """Comprehensive synthetic data detection"""
+          
+          detection_results = {
+              'is_synthetic': False,
+              'confidence': 0.0,
+              'detected_patterns': [],
+              'suspicious_listings': []
+          }
+          
+          # Pattern 1: Impossible price patterns
+          price_anomalies = self.detect_price_anomalies(listings, zipcode)
+          if price_anomalies['anomaly_rate'] > 0.1:  # >10% anomalous prices
+              detection_results['detected_patterns'].append('price_anomalies')
+              detection_results['suspicious_listings'].extend(price_anomalies['anomalous_listings'])
+          
+          # Pattern 2: Geographic inconsistencies
+          geo_inconsistencies = self.detect_geographic_inconsistencies(listings, zipcode)
+          if geo_inconsistencies['inconsistency_rate'] > 0.05:  # >5% outside zipcode
+              detection_results['detected_patterns'].append('geographic_inconsistencies')
+              detection_results['suspicious_listings'].extend(geo_inconsistencies['inconsistent_listings'])
+          
+          # Pattern 3: Temporal impossibilities
+          temporal_issues = self.detect_temporal_inconsistencies(listings)
+          if temporal_issues['issue_rate'] > 0.05:  # >5% temporal issues
+              detection_results['detected_patterns'].append('temporal_inconsistencies')
+              detection_results['suspicious_listings'].extend(temporal_issues['problematic_listings'])
+          
+          # Pattern 4: Duplicate detection across miners
+          duplicate_rate = self.detect_cross_miner_duplicates(listings)
+          if duplicate_rate > 0.1:  # >10% duplicates
+              detection_results['detected_patterns'].append('cross_miner_duplicates')
+          
+          # Calculate overall synthetic confidence
+          pattern_count = len(detection_results['detected_patterns'])
+          if pattern_count >= 2:
+              detection_results['is_synthetic'] = True
+              detection_results['confidence'] = min(0.95, 0.3 + (pattern_count * 0.2))
+          
+          return detection_results
+          
+      def detect_honeypot_submissions(self, listings: List[Dict], honeypot_zipcodes: List[str]) -> bool:
+          """Detect if miner submitted data for honeypot zipcodes"""
+          submitted_zipcodes = set(listing.get('zipcode') for listing in listings)
+          honeypot_submissions = submitted_zipcodes.intersection(set(honeypot_zipcodes))
+          
+          if honeypot_submissions:
+              bt.logging.warning(f"Miner submitted data for honeypot zipcodes: {honeypot_submissions}")
+              return True
+          
+          return False
   ```
 
 ### **Week 4: Integration & System Coordination**
@@ -336,57 +693,229 @@ This document provides a complete implementation plan for migrating from the cur
           """Prepare metadata file for epoch submission"""
   ```
 
-#### **Day 25-26: Validator Integration Completion**
-- [ ] **Complete Validator Workflow**
+#### **Day 25-26: Deterministic Validator Workflow Implementation**
+- [ ] **Complete Deterministic Validator Workflow**
   ```python
-  # File: neurons/validator.py - Major modifications
+  # File: neurons/validator.py - Major modifications for deterministic consensus
   class Validator:
       def __init__(self, ...):
           self.resi_client = ResiValidatorClient(self.config.resi_api_url, self.wallet)
           self.zipcode_scorer = ZipcodeCompetitiveScorer()
-          self.consensus_manager = ValidatorConsensus()
+          self.multi_tier_validator = MultiTierValidator()
+          self.consensus_manager = DeterministicConsensus()
           
       def run_epoch_validation(self):
-          """Complete epoch validation cycle"""
+          """Deterministic epoch validation ensuring all validators reach same results"""
           try:
-              # 1. Wait for epoch completion
+              # 1. Wait for epoch completion and get epoch data
               current_epoch = self.wait_for_epoch_completion()
+              epoch_nonce = current_epoch['nonce']  # Critical for deterministic validation
               
-              # 2. Download all miner submissions
-              submissions = self.download_epoch_submissions(current_epoch['id'])
+              bt.logging.info(f"Starting validation for epoch {current_epoch['id']} with nonce {epoch_nonce}")
               
-              # 3. Validate each submission
-              validation_results = self.validate_all_submissions(submissions)
+              # 2. Download all miner submissions organized by zipcode
+              submissions_by_zipcode = self.download_epoch_submissions_by_zipcode(current_epoch['id'])
               
-              # 4. Calculate zipcode-based scores
-              scores = self.zipcode_scorer.calculate_epoch_scores(validation_results)
+              # 3. Process each zipcode deterministically
+              all_zipcode_results = []
               
-              # 5. Upload validator results
-              self.upload_validation_results(current_epoch['id'], scores)
+              for zipcode, submissions in submissions_by_zipcode.items():
+                  bt.logging.info(f"Validating {len(submissions)} submissions for zipcode {zipcode}")
+                  
+                  # Get expected listings for this zipcode from epoch data
+                  expected_listings = self.get_expected_listings_for_zipcode(zipcode, current_epoch)
+                  
+                  # Deterministic multi-tier validation and ranking
+                  zipcode_result = self.zipcode_scorer.validate_and_rank_zipcode_submissions(
+                      zipcode=zipcode,
+                      submissions=submissions,
+                      expected_listings=expected_listings,
+                      epoch_nonce=epoch_nonce  # Ensures all validators use same random seed
+                  )
+                  
+                  all_zipcode_results.append(zipcode_result)
+                  
+                  # Log results for transparency
+                  winners = zipcode_result['winners']
+                  bt.logging.info(f"Zipcode {zipcode} winners: {[w['miner_hotkey'][:8] + '...' for w in winners]}")
               
-              # 6. Update Bittensor weights
-              self.update_bittensor_weights(scores)
+              # 4. Calculate final proportional weights across all zipcodes
+              final_scores = self.zipcode_scorer.calculate_epoch_proportional_weights(all_zipcode_results)
+              
+              # 5. Verify deterministic consensus (all validators should get same results)
+              consensus_hash = self.calculate_consensus_hash(final_scores, epoch_nonce)
+              bt.logging.info(f"Validation consensus hash: {consensus_hash}")
+              
+              # 6. Upload validator results with consensus verification
+              self.upload_validation_results_with_consensus(
+                  epoch_id=current_epoch['id'],
+                  scores=final_scores,
+                  zipcode_results=all_zipcode_results,
+                  consensus_hash=consensus_hash
+              )
+              
+              # 7. Update Bittensor weights based on final scores
+              self.update_bittensor_weights(final_scores['miner_scores'])
+              
+              bt.logging.success(f"Epoch {current_epoch['id']} validation completed successfully")
               
           except Exception as e:
               bt.logging.error(f"Epoch validation failed: {e}")
+              # Implement fallback or retry logic
+              
+      def calculate_consensus_hash(self, final_scores: Dict, epoch_nonce: str) -> str:
+          """Calculate deterministic hash to verify all validators reach same conclusion"""
+          # Create deterministic string representation of results
+          sorted_scores = sorted(final_scores['miner_scores'].items())
+          consensus_data = {
+              'epoch_nonce': epoch_nonce,
+              'miner_scores': sorted_scores,
+              'total_participants': final_scores['total_participants'],
+              'total_winners': final_scores['total_winners']
+          }
+          
+          consensus_string = json.dumps(consensus_data, sort_keys=True)
+          return hashlib.sha256(consensus_string.encode()).hexdigest()
+          
+      def download_epoch_submissions_by_zipcode(self, epoch_id: str) -> Dict[str, List[Dict]]:
+          """Download and organize all miner submissions by zipcode"""
+          all_submissions = self.resi_client.get_epoch_submissions(epoch_id)
+          
+          submissions_by_zipcode = {}
+          for submission in all_submissions:
+              # Download miner's S3 data
+              miner_data = self.resi_client.download_miner_data(
+                  submission['miner_hotkey'], 
+                  epoch_id
+              )
+              
+              # Organize by zipcode (miners may submit data for multiple zipcodes)
+              for zipcode, listings in miner_data['listings_by_zipcode'].items():
+                  if zipcode not in submissions_by_zipcode:
+                      submissions_by_zipcode[zipcode] = []
+                  
+                  submissions_by_zipcode[zipcode].append({
+                      'miner_hotkey': submission['miner_hotkey'],
+                      'submission_timestamp': submission['submission_time'],
+                      'listings': listings,
+                      'metadata': miner_data['metadata']
+                  })
+          
+          return submissions_by_zipcode
   ```
 
-#### **Day 27-28: System Integration Testing**
-- [ ] **Integration Test Suite**
+#### **Day 27-28: Deterministic Consensus Testing**
+- [ ] **Deterministic Consensus Validation Test Suite**
   ```python
-  # File: tests/integration/test_zipcode_system.py
-  class TestZipcodeSystem:
-      def test_complete_epoch_cycle(self):
-          """Test full epoch cycle from assignment to scoring"""
+  # File: tests/integration/test_deterministic_consensus.py
+  class TestDeterministicConsensus:
+      def test_deterministic_spot_check_selection(self):
+          """Verify all validators select same listings for spot checking"""
+          epoch_nonce = "test_nonce_12345"
+          miner_hotkey = "5H2WNbNfkRmHWJGdEUzZyVd7jZuP3BkwNDYgZQF8a1BcKwGx"
+          submission_time = "2025-10-01T17:30:00.000Z"
           
-      def test_miner_api_integration(self):
-          """Test miner API client functionality"""
+          # Create test submission
+          test_submission = {
+              'miner_hotkey': miner_hotkey,
+              'submission_timestamp': submission_time,
+              'listings': self.create_test_listings(100)  # 100 test listings
+          }
           
-      def test_validator_consensus(self):
-          """Test validator consensus mechanism"""
+          # Run spot check selection on multiple validator instances
+          validator1 = MultiTierValidator()
+          validator2 = MultiTierValidator()
+          validator3 = MultiTierValidator()
           
-      def test_honeypot_detection(self):
-          """Test honeypot validation system"""
+          result1 = validator1.tier3_deterministic_spot_check(test_submission, epoch_nonce)
+          result2 = validator2.tier3_deterministic_spot_check(test_submission, epoch_nonce)
+          result3 = validator3.tier3_deterministic_spot_check(test_submission, epoch_nonce)
+          
+          # Verify all validators selected same listings
+          assert result1['selected_indices'] == result2['selected_indices'] == result3['selected_indices']
+          assert result1['deterministic_seed'] == result2['deterministic_seed'] == result3['deterministic_seed']
+          
+      def test_consensus_hash_consistency(self):
+          """Verify all validators generate same consensus hash"""
+          # Create identical final scores
+          final_scores = {
+              'miner_scores': {
+                  'miner1': 0.35,
+                  'miner2': 0.25, 
+                  'miner3': 0.20,
+                  'miner4': 0.15,
+                  'miner5': 0.05
+              },
+              'total_participants': 10,
+              'total_winners': 5
+          }
+          
+          epoch_nonce = "consensus_test_nonce"
+          
+          # Multiple validator instances should generate same hash
+          validator1 = Validator(...)
+          validator2 = Validator(...)
+          validator3 = Validator(...)
+          
+          hash1 = validator1.calculate_consensus_hash(final_scores, epoch_nonce)
+          hash2 = validator2.calculate_consensus_hash(final_scores, epoch_nonce)
+          hash3 = validator3.calculate_consensus_hash(final_scores, epoch_nonce)
+          
+          assert hash1 == hash2 == hash3
+          
+      def test_multi_tier_validation_consistency(self):
+          """Test that multi-tier validation produces consistent results"""
+          # Create test submissions for a zipcode
+          zipcode = "90210"
+          expected_listings = 250
+          epoch_nonce = "validation_test_nonce"
+          
+          test_submissions = self.create_test_submissions_for_zipcode(zipcode, 10)  # 10 miners
+          
+          # Run validation on multiple validator instances
+          scorer1 = ZipcodeCompetitiveScorer()
+          scorer2 = ZipcodeCompetitiveScorer()
+          
+          result1 = scorer1.validate_and_rank_zipcode_submissions(
+              zipcode, test_submissions, expected_listings, epoch_nonce
+          )
+          result2 = scorer2.validate_and_rank_zipcode_submissions(
+              zipcode, test_submissions, expected_listings, epoch_nonce
+          )
+          
+          # Verify identical results
+          assert result1['winners'] == result2['winners']
+          assert result1['zipcode_rewards'] == result2['zipcode_rewards']
+          
+      def test_proportional_weight_calculation(self):
+          """Test that proportional weight calculation is deterministic"""
+          # Create test results for multiple zipcodes
+          zipcode_results = self.create_test_zipcode_results()
+          
+          scorer1 = ZipcodeCompetitiveScorer()
+          scorer2 = ZipcodeCompetitiveScorer()
+          
+          weights1 = scorer1.calculate_epoch_proportional_weights(zipcode_results)
+          weights2 = scorer2.calculate_epoch_proportional_weights(zipcode_results)
+          
+          # Verify identical weight calculations
+          assert weights1['miner_scores'] == weights2['miner_scores']
+          assert weights1['zipcode_weights'] == weights2['zipcode_weights']
+          
+      def test_anti_gaming_detection_consistency(self):
+          """Test that anti-gaming detection is consistent across validators"""
+          test_listings = self.create_synthetic_test_listings()  # Known synthetic data
+          zipcode = "12345"
+          
+          detector1 = AntiGamingDetector()
+          detector2 = AntiGamingDetector()
+          
+          result1 = detector1.detect_synthetic_data(test_listings, zipcode)
+          result2 = detector2.detect_synthetic_data(test_listings, zipcode)
+          
+          # Both should detect synthetic data consistently
+          assert result1['is_synthetic'] == result2['is_synthetic'] == True
+          assert result1['detected_patterns'] == result2['detected_patterns']
   ```
 
 ---
@@ -611,21 +1140,34 @@ This document provides a complete implementation plan for migrating from the cur
 ### **System Performance Metrics**
 - [ ] **API Performance**: <200ms average response time, >99.9% uptime
 - [ ] **Epoch Success Rate**: >95% successful epoch completions
-- [ ] **Validator Consensus**: >90% agreement on miner rankings
+- [ ] **Deterministic Consensus**: >95% validator consensus on identical results
 - [ ] **Miner Participation**: >70% of registered miners participating per epoch
-- [ ] **Anti-Gaming Effectiveness**: 100% honeypot detection rate
+- [ ] **Anti-Gaming Effectiveness**: 100% synthetic data detection rate
+
+### **Deterministic Validation Requirements**
+- [ ] **Consensus Hash Agreement**: >95% of validators generate identical consensus hashes
+- [ ] **Spot Check Consistency**: 100% of validators select identical listings for verification
+- [ ] **Multi-Tier Validation**: Consistent tier 1, 2, and 3 validation results across validators
+- [ ] **Proportional Weight Accuracy**: Identical weight calculations across all validators
+- [ ] **Ranking Consistency**: Same top 3 winners per zipcode across all validators
 
 ### **Business Logic Validation**
-- [ ] **Reward Distribution**: Top 3 miners per zipcode receive 55%, 30%, 10%
-- [ ] **Competition Effectiveness**: Clear performance differentiation between miners
-- [ ] **Data Quality**: Improved data accuracy and completeness vs legacy system
-- [ ] **Gaming Prevention**: Zero successful gaming attempts detected
+- [ ] **Per-Zipcode Reward Distribution**: 
+  - [ ] 1st place miner gets 55% of zipcode weight
+  - [ ] 2nd place miner gets 30% of zipcode weight  
+  - [ ] 3rd place miner gets 10% of zipcode weight
+  - [ ] Remaining 5% distributed among all other participants
+- [ ] **Proportional Weighting**: Zipcode rewards weighted by listing count vs total epoch listings
+- [ ] **Multi-Tier Validation**: Only miners passing all 3 tiers can win zipcode rewards
+- [ ] **Submission Timing**: Earlier submissions validated first (time-based priority)
+- [ ] **Gaming Prevention**: Zero tolerance for synthetic data or honeypot submissions
 
-### **Technical Stability**
-- [ ] **Zero Data Loss**: All miner submissions preserved and validated
-- [ ] **System Resilience**: Graceful handling of partial failures
-- [ ] **Scalability**: Support for 250+ concurrent miners
-- [ ] **Security**: All authentication and anti-gaming measures effective
+### **Technical Stability & Consensus**
+- [ ] **Deterministic Results**: All validators reach identical conclusions for every epoch
+- [ ] **Zero Data Loss**: All miner submissions preserved and validated consistently
+- [ ] **System Resilience**: Graceful handling of validator consensus failures
+- [ ] **Scalability**: Support for 250+ concurrent miners with deterministic validation
+- [ ] **Security**: Cryptographically secure deterministic seed generation
 
 ---
 
@@ -702,14 +1244,37 @@ This document provides a complete implementation plan for migrating from the cur
 
 The migration will be considered successful when:
 
-- [ ] **100% System Replacement**: Complete migration from burn code to zipcode system
+### **Core System Requirements**
+- [ ] **100% System Replacement**: Complete migration from burn code to deterministic zipcode system
 - [ ] **Stable Operation**: 1 week of stable production operation (42 complete epochs)
 - [ ] **Performance Targets**: All performance benchmarks met consistently
-- [ ] **Validator Consensus**: >90% validator agreement on miner rankings
-- [ ] **Miner Adoption**: >70% miner participation in zipcode-based mining
-- [ ] **Anti-Gaming Effectiveness**: 100% detection rate for synthetic/gaming attempts
 - [ ] **Zero Critical Issues**: No data loss, corruption, or system failures
-- [ ] **Reward Accuracy**: Correct implementation of 55%/30%/10%/5% distribution
+
+### **Deterministic Consensus Requirements** 
+- [ ] **Perfect Validator Consensus**: >95% of validators generate identical consensus hashes per epoch
+- [ ] **Deterministic Spot Checking**: 100% of validators select identical listings for verification
+- [ ] **Consistent Multi-Tier Validation**: All validators reach same tier 1, 2, 3 results
+- [ ] **Identical Weight Calculations**: All validators compute same proportional weights
+- [ ] **Same Winner Selection**: All validators identify same top 3 miners per zipcode
+
+### **Business Logic Implementation**
+- [ ] **Per-Zipcode Competition**: Successful implementation of competitive mining per zipcode
+- [ ] **Multi-Tier Validation**: Only miners passing all 3 tiers (quantity, quality, spot-check) can win
+- [ ] **Time-Based Priority**: Earlier submissions validated first for fair competition
+- [ ] **Proportional Rewards**: Correct weighting by zipcode size (listing count)
+- [ ] **Reward Distribution**: Accurate 55%/30%/10%/5% distribution implementation
+
+### **Anti-Gaming & Security**
+- [ ] **Synthetic Data Detection**: 100% detection rate for fake/synthetic listings
+- [ ] **Honeypot Effectiveness**: Zero successful honeypot gaming attempts
+- [ ] **Deterministic Security**: Cryptographically secure seed generation prevents gaming
+- [ ] **Cross-Miner Validation**: Effective detection of duplicate data across miners
+
+### **Operational Excellence**
+- [ ] **Miner Adoption**: >70% miner participation in zipcode-based mining
+- [ ] **Validator Reliability**: >95% validator uptime and consensus participation
+- [ ] **System Scalability**: Support for 250+ concurrent miners with deterministic validation
+- [ ] **Data Integrity**: All miner submissions preserved and validated consistently
 
 **Timeline**: 8-10 weeks from start to stable production operation
 **Resources Required**: Development team, infrastructure, comprehensive testing
