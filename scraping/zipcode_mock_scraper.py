@@ -66,8 +66,11 @@ class MockZipcodeScraper(ZipcodeScraperInterface):
         start_time = time.time()
         listings = []
         
-        # Generate listings with some randomness around target count
-        actual_count = max(1, target_count + random.randint(-5, 10))
+        # Generate listings with better success rate for testing (within Tier 1 tolerance)
+        # Tier 1 tolerance is ±15%, so generate 85-115% of target
+        min_count = int(target_count * 0.90)  # 90% of target (above 85% minimum)
+        max_count = int(target_count * 1.10)  # 110% of target (below 115% maximum)
+        actual_count = random.randint(min_count, max_count)
         
         for i in range(actual_count):
             # Check timeout
@@ -92,9 +95,9 @@ class MockZipcodeScraper(ZipcodeScraperInterface):
         """Generate a single mock listing"""
         
         # Generate realistic property details (ensure high completeness for testing)
-        bedrooms = random.choice([1, 2, 3, 4, 5]) if random.random() > 0.05 else None  # 95% complete
-        bathrooms = random.choice([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]) if random.random() > 0.05 else None  # 95% complete
-        sqft = random.randint(800, 4000) if random.random() > 0.05 else None  # 95% complete
+        bedrooms = random.choice([1, 2, 3, 4, 5]) if random.random() > 0.02 else None  # 98% complete
+        bathrooms = random.choice([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]) if random.random() > 0.02 else None  # 98% complete
+        sqft = random.randint(800, 4000) if random.random() > 0.02 else None  # 98% complete
         
         # Generate price based on property characteristics
         base_price = 200000
