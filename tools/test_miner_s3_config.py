@@ -43,8 +43,8 @@ def test_miner_s3_config(wallet_name, hotkey_name):
         
         # Auto-configure S3 auth URL like miner does
         if config.netuid == 428:
-            if not hasattr(config, 's3_auth_url') or config.s3_auth_url == "https://s3-auth-api.resilabs.ai":
-                config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+            if not hasattr(config, 's3_auth_url') or config.s3_auth_url == "https://api.resilabs.ai":
+                config.s3_auth_url = "https://api-staging.resilabs.ai"
                 print(f"✅ Auto-configured testnet S3 auth URL: {config.s3_auth_url}")
         
         # Load wallet and subtensor

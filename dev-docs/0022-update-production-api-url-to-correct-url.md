@@ -14,8 +14,8 @@ NameResolutionError: Failed to resolve 'sn46-s3-auth.resilabs.ai' ([Errno -2] Na
 The validator is configured for **Subnet 46 (mainnet)** but using the **wrong S3 auth URL**:
 
 - **Current Configuration**: `https://sn46-s3-auth.resilabs.ai` (from `neurons/config.py:125`)
-- **Expected for Subnet 46**: `https://s3-auth-api.resilabs.ai` (mainnet)
-- **Expected for Subnet 428**: `https://s3-auth-api-testnet.resilabs.ai` (testnet)
+- **Expected for Subnet 46**: `https://api.resilabs.ai` (mainnet)
+- **Expected for Subnet 428**: `https://api-staging.resilabs.ai` (testnet)
 
 ### 2. **Environment Configuration** ✅
 The `.env` file shows the validator is running on **testnet (Subnet 428)**:
@@ -28,7 +28,7 @@ The miner has auto-configuration logic that works correctly:
 # In neurons/miner.py:76-84
 if self.config.netuid == 428:  # Testnet
     if self.config.s3_auth_url == "https://sn46-s3-auth.resilabs.ai":  # Default mainnet URL
-        self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+        self.config.s3_auth_url = "https://api-staging.resilabs.ai"
 ```
 
 **However, the validator does NOT have this auto-configuration logic!**
@@ -42,8 +42,8 @@ The hostname `sn46-s3-auth.resilabs.ai` appears to be:
 ## Evidence from Codebase
 
 ### Working S3 URLs (Found in codebase):
-- `https://s3-auth-api-testnet.resilabs.ai` (testnet - 27 references)
-- `https://s3-auth-api.resilabs.ai` (mainnet - 27 references)
+- `https://api-staging.resilabs.ai` (testnet - 27 references)
+- `https://api.resilabs.ai` (mainnet - 27 references)
 
 ### Problematic URL (Only in config default):
 - `https://sn46-s3-auth.resilabs.ai` (only 4 references, all in config defaults)
@@ -67,20 +67,20 @@ Add the same auto-configuration logic to the validator that exists in the miner:
 # In neurons/validator.py __init__ method
 if self.config.netuid == 428:  # Testnet
     if self.config.s3_auth_url == "https://sn46-s3-auth.resilabs.ai":
-        self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+        self.config.s3_auth_url = "https://api-staging.resilabs.ai"
         bt.logging.info(f"Auto-configured testnet S3 auth URL: {self.config.s3_auth_url}")
 ```
 
 ### Option 2: Override via Command Line
 Run validator with explicit S3 URL:
 ```bash
-python neurons/validator.py --s3_auth_url https://s3-auth-api-testnet.resilabs.ai --netuid 428
+python neurons/validator.py --s3_auth_url https://api-staging.resilabs.ai --netuid 428
 ```
 
 ### Option 3: Update Environment File
 Add to `.env`:
 ```
-S3_AUTH_URL=https://s3-auth-api-testnet.resilabs.ai
+S3_AUTH_URL=https://api-staging.resilabs.ai
 ```
 
 ## Additional Issues Found

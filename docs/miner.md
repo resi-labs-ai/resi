@@ -277,8 +277,8 @@ Miners automatically upload data to S3 for public dataset access:
 
 ### S3 Authentication
 The miner automatically configures the correct S3 authentication endpoint:
-- **Testnet**: `https://s3-auth-api-testnet.resilabs.ai`
-- **Mainnet**: `https://s3-auth-api.resilabs.ai`
+- **Testnet**: `https://api-staging.resilabs.ai`
+- **Mainnet**: `https://api.resilabs.ai`
 
 No manual S3 configuration is required - the system detects your subnet and configures appropriately.
 
@@ -319,7 +319,7 @@ When your miner is working correctly, you'll see:
 
 **Testnet Configuration:**
 ```
-Auto-configured testnet S3 auth URL: https://s3-auth-api-testnet.resilabs.ai
+Auto-configured testnet S3 auth URL: https://api-staging.resilabs.ai
 Using testnet upload frequency: 5 minutes
 Starting S3 partitioned upload for DD data
 S3 partitioned upload completed successfully
@@ -327,7 +327,7 @@ S3 partitioned upload completed successfully
 
 **Mainnet Configuration:**
 ```
-Auto-configured mainnet S3 auth URL: https://s3-auth-api.resilabs.ai
+Auto-configured mainnet S3 auth URL: https://api.resilabs.ai
 Using mainnet upload frequency: 2 hours
 Starting S3 partitioned upload for DD data
 S3 partitioned upload completed successfully

@@ -68,11 +68,11 @@ class S3ParquetAnalyzer:
         
         # Configure S3 auth URL based on network (for validator mode)
         if netuid == 428:  # Testnet
-            self.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+            self.s3_auth_url = "https://api-staging.resilabs.ai"
             self.network_name = "testnet"
             self.default_bucket = s3_bucket or "resi-testnet-data"
         else:  # Mainnet
-            self.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+            self.s3_auth_url = "https://api.resilabs.ai"
             self.network_name = "mainnet"
             self.default_bucket = s3_bucket or "resi-mainnet-data"
         

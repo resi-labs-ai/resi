@@ -122,7 +122,7 @@ def add_args(neuron_type: NeuronType, parser):
         "--s3_auth_url",
         type=str,
         help="URL of the S3 authentication service",
-        default="https://s3-auth-api.resilabs.ai"  # ResiLabs S3 Auth Server for Mainnet
+        default="https://api.resilabs.ai"  # ResiLabs S3 Auth Server for Mainnet
     )
     
     # Zipcode mining configuration (enabled by default)

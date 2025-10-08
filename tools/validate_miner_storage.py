@@ -36,11 +36,11 @@ class MinerStorageValidator:
         
         # Determine expected S3 auth URL based on subnet
         if config.netuid == 428:  # Testnet
-            self.expected_s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+            self.expected_s3_auth_url = "https://api-staging.resilabs.ai"
             self.expected_upload_frequency = 5  # minutes
             self.network_type = "Testnet"
         else:  # Mainnet
-            self.expected_s3_auth_url = "https://s3-auth-api.resilabs.ai"
+            self.expected_s3_auth_url = "https://api.resilabs.ai"
             self.expected_upload_frequency = 120  # minutes (2 hours)
             self.network_type = "Mainnet"
     
@@ -352,9 +352,9 @@ def main():
             if args.s3_auth_url:
                 self.s3_auth_url = args.s3_auth_url
             elif args.netuid == 428:  # Testnet
-                self.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+                self.s3_auth_url = "https://api-staging.resilabs.ai"
             else:  # Mainnet
-                self.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+                self.s3_auth_url = "https://api.resilabs.ai"
     
     class MockNeuronConfig:
         def __init__(self):

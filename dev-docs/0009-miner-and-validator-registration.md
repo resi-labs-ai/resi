@@ -17,7 +17,7 @@
 ### 3. S3 Access & Upload Issues ❌ MULTIPLE PROBLEMS
 
 #### S3 Configuration:
-- **Auth URL**: Auto-configured to `https://s3-auth-api-testnet.resilabs.ai` ✅
+- **Auth URL**: Auto-configured to `https://api-staging.resilabs.ai` ✅
 - **Upload Frequency**: Every 5 minutes (testnet mode) ✅
 - **Initial Delay**: 5 minutes before first upload ✅
 

@@ -194,7 +194,7 @@ LIMIT 20;
 
 **Results:**
 - ✅ **Miner Storage**: 2,844 total records, 21.91 MB database
-- ✅ **S3 Configuration**: Correct auth URL (https://s3-auth-api-testnet.resilabs.ai)
+- ✅ **S3 Configuration**: Correct auth URL (https://api-staging.resilabs.ai)
 - ✅ **Upload State**: 2,769 records uploaded, last upload 2025-09-10T16:45:54
 - ✅ **Data Coverage**: Mining 19+ unique zipcodes with good distribution
 - ✅ **Service Status**: S3 auth service reachable (status: degraded but functional)

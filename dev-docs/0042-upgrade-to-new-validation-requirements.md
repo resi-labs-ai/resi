@@ -1130,10 +1130,10 @@ S3_BUCKET=4000-resilabs-prod-bittensor-sn46-datacollection
 ```python
 # From neurons/miner.py and neurons/validator.py
 if self.config.netuid == 428:  # Testnet
-    if self.config.s3_auth_url == "https://s3-auth-api.resilabs.ai":
-        self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+    if self.config.s3_auth_url == "https://api.resilabs.ai":
+        self.config.s3_auth_url = "https://api-staging.resilabs.ai"
 else:  # Mainnet
-    self.config.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+    self.config.s3_auth_url = "https://api.resilabs.ai"
 ```
 
 **3. Command-Line Configuration:**
@@ -1222,7 +1222,7 @@ METRICS_API_KEY=your_custom_metrics_key
 **1. Testnet Environment (Subnet 428):**
 - **Purpose**: Full integration testing without TAO costs
 - **Features**: 5-minute S3 uploads, auto-configured endpoints
-- **S3 Auth**: `https://s3-auth-api-testnet.resilabs.ai`
+- **S3 Auth**: `https://api-staging.resilabs.ai`
 - **Bootstrap**: `python bootstrap_testnet_428.py`
 
 **2. Mock Infrastructure:**

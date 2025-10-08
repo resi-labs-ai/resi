@@ -120,12 +120,12 @@ class Validator:
 
         # Auto-configure S3 auth URL based on subnet
         if self.config.netuid == 428:  # Testnet
-            if self.config.s3_auth_url == "https://s3-auth-api.resilabs.ai":  # Default mainnet URL
-                self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+            if self.config.s3_auth_url == "https://api.resilabs.ai":  # Default mainnet URL
+                self.config.s3_auth_url = "https://api-staging.resilabs.ai"
                 bt.logging.info(f"Auto-configured testnet S3 auth URL: {self.config.s3_auth_url}")
         else:  # Mainnet or other subnets
             if not hasattr(self.config, 's3_auth_url') or not self.config.s3_auth_url:
-                self.config.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+                self.config.s3_auth_url = "https://api.resilabs.ai"
                 bt.logging.info(f"Auto-configured mainnet S3 auth URL: {self.config.s3_auth_url}")
 
         bt.logging.info(self.config)

@@ -70,11 +70,11 @@ def check_s3_config(netuid=None):
     
     # Determine expected URLs
     if netuid == 428:
-        expected_url = "https://s3-auth-api-testnet.resilabs.ai"
+        expected_url = "https://api-staging.resilabs.ai"
         upload_freq = "5 minutes"
         network = "Testnet"
     else:
-        expected_url = "https://s3-auth-api.resilabs.ai"
+        expected_url = "https://api.resilabs.ai"
         upload_freq = "2 hours"
         network = "Mainnet"
     

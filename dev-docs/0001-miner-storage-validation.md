@@ -77,12 +77,12 @@ else:  # Mainnet
 ```python
 # Auto-configure S3 auth URL based on subnet
 if self.config.netuid == 428:  # Testnet
-    if self.config.s3_auth_url == "https://s3-auth-api.resilabs.ai":  # Default mainnet URL
-        self.config.s3_auth_url = "https://s3-auth-api-testnet.resilabs.ai"
+    if self.config.s3_auth_url == "https://api.resilabs.ai":  # Default mainnet URL
+        self.config.s3_auth_url = "https://api-staging.resilabs.ai"
         bt.logging.info(f"Auto-configured testnet S3 auth URL: {self.config.s3_auth_url}")
 else:  # Mainnet or other subnets
     if not hasattr(self.config, 's3_auth_url') or not self.config.s3_auth_url:
-        self.config.s3_auth_url = "https://s3-auth-api.resilabs.ai"
+        self.config.s3_auth_url = "https://api.resilabs.ai"
         bt.logging.info(f"Auto-configured mainnet S3 auth URL: {self.config.s3_auth_url}")
 ```
 
@@ -90,13 +90,13 @@ else:  # Mainnet or other subnets
 
 ### **Testnet (Subnet 428)**
 - ⏰ **Upload Frequency**: Every 5 minutes
-- 🔗 **S3 Auth URL**: `https://s3-auth-api-testnet.resilabs.ai`
+- 🔗 **S3 Auth URL**: `https://api-staging.resilabs.ai`
 - 💾 **Local Storage**: `SqliteMinerStorage.sqlite`
 - 📁 **S3 Structure**: `hotkey={hotkey}/job_id={job_id}/data_*.parquet`
 
 ### **Mainnet (Subnet 46)**
 - ⏰ **Upload Frequency**: Every 2 hours
-- 🔗 **S3 Auth URL**: `https://s3-auth-api.resilabs.ai`
+- 🔗 **S3 Auth URL**: `https://api.resilabs.ai`
 - 💾 **Local Storage**: `SqliteMinerStorage.sqlite`
 - 📁 **S3 Structure**: `hotkey={hotkey}/job_id={job_id}/data_*.parquet`
 
@@ -154,7 +154,7 @@ ls -la SqliteMinerStorage.sqlite*
 ### ❌ **S3 Auth Failures**
 ```bash
 # Test S3 auth endpoint manually
-curl -X GET "https://s3-auth-api-testnet.resilabs.ai/healthcheck"
+curl -X GET "https://api-staging.resilabs.ai/healthcheck"
 
 # Check wallet registration
 btcli wallet overview --wallet.name your_wallet --subtensor.network test
@@ -207,12 +207,12 @@ bucket-name/
 ## 🔗 **API Endpoints Reference**
 
 ### **Testnet S3 Auth API**
-- **Base URL**: `https://s3-auth-api-testnet.resilabs.ai`
+- **Base URL**: `https://api-staging.resilabs.ai`
 - **Health**: `GET /healthcheck`
 - **Miner Access**: `POST /get-folder-access`
 
 ### **Mainnet S3 Auth API**
-- **Base URL**: `https://s3-auth-api.resilabs.ai`
+- **Base URL**: `https://api.resilabs.ai`
 - **Health**: `GET /healthcheck`
 - **Miner Access**: `POST /get-folder-access`
 

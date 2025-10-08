@@ -49,7 +49,7 @@ elif platform in ['zillow', 'rapid_zillow']:
 **S3 Uploader Configuration**:
 - `--use_uploader` flag (enabled by default)
 - Separate state files per miner: `--miner_upload_state_file upload_utils/state_file_minerX.json`
-- Testnet S3 auth URL: `https://s3-auth-api-testnet.resilabs.ai`
+- Testnet S3 auth URL: `https://api-staging.resilabs.ai`
 
 ### 2. **Miner Launch Command Template**
 
@@ -104,7 +104,7 @@ s3_uploader = S3PartitionedUploader(
     db_path='SqliteMinerStorage.sqlite',
     subtensor=subtensor,
     wallet=wallet,
-    s3_auth_url='https://s3-auth-api-testnet.resilabs.ai',
+    s3_auth_url='https://api-staging.resilabs.ai',
     state_file='upload_utils/state_file.json'
 )
 
@@ -148,8 +148,8 @@ grep -i "s3.*success\|upload.*success" ~/.bittensor/miners/*/hotkey*/netuid*/Non
 ### Issue 3: S3 authentication failures
 **Cause**: Wrong S3 auth URL or wallet issues
 **Solution**: 
-- Testnet: `https://s3-auth-api-testnet.resilabs.ai`
-- Mainnet: `https://s3-auth-api.resilabs.ai`
+- Testnet: `https://api-staging.resilabs.ai`
+- Mainnet: `https://api.resilabs.ai`
 
 ### Issue 4: S3 upload thread not starting
 **Cause**: S3 uploader not initialized or `use_uploader` disabled
