@@ -509,15 +509,17 @@ class Miner:
         Get the configured zipcode scraper instance
         
         Miners can override this method to use their own custom scrapers.
-        By default, uses the mock scraper for testing.
+        By default, uses RapidAPI Zillow scraper (functional but expensive).
         
         Returns:
             ZipcodeScraperInterface implementation
         """
         try:
             # Import scraper classes
+            from scraping.zillow_rapidapi_zipcode_scraper import create_rapidapi_zillow_scraper
             from scraping.zipcode_mock_scraper import create_mock_scraper
             from scraping.zipcode_scraper_interface import ZipcodeScraperConfig
+            import os
             
             # Check if custom scraper is configured
             custom_scraper_class = getattr(self.config, 'custom_zipcode_scraper', None)
@@ -525,9 +527,29 @@ class Miner:
             if custom_scraper_class:
                 bt.logging.info("Using custom zipcode scraper")
                 return custom_scraper_class()
+            
+            # Try to use RapidAPI Zillow scraper if API key is available
+            rapidapi_key = getattr(self.config, 'rapidapi_zillow_key', None) or os.getenv('RAPIDAPI_ZILLOW_KEY')
+            
+            if rapidapi_key:
+                bt.logging.info("Using RapidAPI Zillow scraper (WARNING: This incurs API costs)")
+                bt.logging.warning("RapidAPI costs: ~$0.015 per call, $0.50-2.00 per epoch")
+                bt.logging.warning("For cost efficiency, replace with custom scraper implementation")
+                
+                # Configure RapidAPI scraper with conservative settings
+                config = ZipcodeScraperConfig(
+                    max_requests_per_minute=20,  # Stay within rate limits
+                    request_delay_seconds=3.0,   # Conservative delay
+                    max_retries=2
+                )
+                
+                return create_rapidapi_zillow_scraper(rapidapi_key, config, "RecentlySold")
             else:
-                # Use mock scraper by default
-                bt.logging.info("Using mock zipcode scraper (replace with custom implementation)")
+                # Fallback to mock scraper with warning
+                bt.logging.warning("No RapidAPI key found (set RAPIDAPI_ZILLOW_KEY env var)")
+                bt.logging.warning("Using mock scraper - replace with real implementation for production")
+                bt.logging.info("To use RapidAPI: export RAPIDAPI_ZILLOW_KEY=your_key")
+                bt.logging.info("To use custom scraper: implement ZipcodeScraperInterface")
                 
                 # Configure mock scraper
                 config = ZipcodeScraperConfig(

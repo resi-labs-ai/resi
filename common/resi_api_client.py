@@ -271,10 +271,10 @@ def create_api_client(config, wallet) -> ResiLabsAPIClient:
     """
     # Auto-configure API URL based on network
     if hasattr(config, 'netuid') and config.netuid == 428:  # Testnet
-        api_base_url = "http://localhost:3000"  # Development/testing
-        bt.logging.info("Using testnet API endpoint")
+        api_base_url = "https://api-staging.resilabs.ai"  # Staging API
+        bt.logging.info("Using testnet staging API endpoint")
     else:  # Mainnet
-        api_base_url = "https://api.resilabs.com"
+        api_base_url = "https://api.resilabs.ai"
         bt.logging.info("Using production API endpoint")
     
     # Override with config if provided
