@@ -25,11 +25,12 @@ except ImportError as e:
 class SzillZillowScraper(Scraper):
     """Scraper using the szill library with sequential processing to avoid Zillow blocking."""
 
-    def __init__(self, proxy_url: Optional[str] = None):
+    def __init__(self, proxy_url: Optional[str] = None, use_scrapingbee: bool = False):
         if not SZILL_AVAILABLE:
             raise ImportError("Szill library not available.")
         
         self.proxy_url = proxy_url
+        self.use_scrapingbee = use_scrapingbee
         # Configuration for sequential processing with short delays
         self.min_delay_seconds = 1   # Minimum delay between requests
         self.max_delay_seconds = 5   # Maximum delay between requests
@@ -172,7 +173,7 @@ class SzillZillowScraper(Scraper):
             loop = asyncio.get_event_loop()
             data = await loop.run_in_executor(
                 None, 
-                lambda: get_from_home_id(property_id, self.proxy_url)
+                lambda: get_from_home_id(property_id, self.proxy_url, self.use_scrapingbee)
             )
             
             return data

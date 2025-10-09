@@ -148,6 +148,14 @@ def add_args(neuron_type: NeuronType, parser):
         default=None,
     )
     
+    # ScrapingBee configuration for validators
+    parser.add_argument(
+        "--use_scrapingbee",
+        action="store_true", 
+        help="Use ScrapingBee API for scraping instead of direct requests (requires SCRAPINGBEE_API_KEY env var)",
+        default=False,
+    )
+    
     parser.add_argument(
         "--proxy_username",
         type=str,

@@ -1,6 +1,7 @@
 from typing import Any
 from curl_cffi import requests
 from .parse import parse_body_home
+from .utils import get_scrapingbee_response
 
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
@@ -19,33 +20,46 @@ headers = {
 }
 
 def get_from_home_id(
-    property_id: int, proxy_url: str | None = None
+    property_id: int, proxy_url: str | None = None, use_scrapingbee: bool = False
 ) -> dict[str, Any]:
     """Scrape data for property based on property ID from zillow
 
     Args:
         property_id (int): ID for any property from zillow
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
 
     Returns:
         dict[str, Any]: parsed property information
     """
     home_url = f"https://www.zillow.com/homedetails/any-title/{property_id}_zpid/"
-    data = get_from_home_url(home_url, proxy_url)
+    data = get_from_home_url(home_url, proxy_url, use_scrapingbee)
     return data
 
-def get_from_home_url(home_url: str, proxy_url: str | None = None) -> dict[str, Any]:
+def get_from_home_url(home_url: str, proxy_url: str | None = None, use_scrapingbee: bool = False) -> dict[str, Any]:
     """Scrape given URL and parse home detail
 
     Args:
         home_url (str): URL for the property
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
 
     Returns:
         dict[str, Any]: parsed property information
     """
-    proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
-    response = requests.get(url=home_url, headers=headers, proxies=proxies, impersonate="chrome124")
-    response.raise_for_status()
-    data = parse_body_home(response.content)
+    if use_scrapingbee:
+        # Use ScrapingBee API
+        scrapingbee_response = get_scrapingbee_response(home_url, stealth_proxy=True, premium_proxy=False)
+        if not scrapingbee_response['success']:
+            raise Exception(f"ScrapingBee request failed: {scrapingbee_response.get('error', 'Unknown error')}")
+        
+        response_content = scrapingbee_response['content']
+    else:
+        # Use traditional proxy method
+        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        response = requests.get(url=home_url, headers=headers, proxies=proxies, impersonate="chrome124")
+        response.raise_for_status()
+        response_content = response.content
+    
+    data = parse_body_home(response_content)
     return data

@@ -35,11 +35,19 @@ class ValidatorScraperProvider:
 
     def __init__(
         self, 
-        factories: Dict[str, Callable[[], Scraper]] = None
+        factories: Dict[str, Callable[[], Scraper]] = None,
+        proxy_url: str = None,
+        use_scrapingbee: bool = False
     ):
         self.factories = factories or VALIDATOR_SCRAPER_FACTORIES.copy()
+        self.proxy_url = proxy_url
+        self.use_scrapingbee = use_scrapingbee
         
-        self.factories[ValidatorScraperId.SZILL_ZILLOW] = SzillZillowScraper
+        # Create factory function that passes configuration
+        self.factories[ValidatorScraperId.SZILL_ZILLOW] = lambda: SzillZillowScraper(
+            proxy_url=self.proxy_url,
+            use_scrapingbee=self.use_scrapingbee
+        )
 
     def get(self, scraper_id: str) -> Scraper:
         """Returns a scraper for the given scraper id."""

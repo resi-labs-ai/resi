@@ -229,9 +229,100 @@ WALLET_HOTKEY=validator_hotkey
 # PROXY_PASS=...
 ```
 
-## Part 6: Validation Scraper Notes
+## Part 6: Proxy Configuration for Validators
 
-Validators use a Szill-based scraper to validate property data. Ensure outbound HTTP access is available and consider proxies for reliability if needed.
+### **⚠️ CRITICAL for Mainnet**: Proxy Setup Required
+
+Validators perform spot-check validation by scraping real estate websites. To avoid IP bans and ensure reliable operation, proxy configuration is **MANDATORY** for mainnet validators.
+
+### Option 1: ScrapingBee API (Recommended)
+
+ScrapingBee provides professional web scraping with automatic proxy rotation and anti-detection.
+
+#### **Step 12a: Setup ScrapingBee**
+
+1. **Get ScrapingBee Account:**
+   - Visit [ScrapingBee.com](https://www.scrapingbee.com/)
+   - Sign up and choose a plan
+
+2. **Configure API Key:**
+   ```bash
+   # Add to .env file
+   echo "SCRAPINGBEE_API_KEY=your_api_key_here" >> .env
+   
+   # Or set as environment variable
+   export SCRAPINGBEE_API_KEY="your_api_key_here"
+   ```
+
+3. **Test Configuration:**
+   ```bash
+   # Test ScrapingBee connectivity
+   python -c "
+   import os
+   from scrapingbee import ScrapingBeeClient
+   client = ScrapingBeeClient(api_key=os.getenv('SCRAPINGBEE_API_KEY'))
+   response = client.get('https://httpbin.org/ip')
+   print(f'Status: {response.status_code}')
+   print(f'IP: {response.json()[\"origin\"]}')
+   "
+   ```
+
+### Option 2: Traditional HTTP Proxy
+
+For validators who prefer traditional proxy services:
+
+#### **Step 12b: Setup Traditional Proxy**
+
+1. **Choose Proxy Provider:**
+   - **Webshare.io**: Residential proxies, 100GB plan recommended ($75/month)
+   - **Bright Data**: Enterprise-grade, higher cost but excellent reliability
+
+2. **Configure Proxy:**
+   ```bash
+   # Add to .env file or use command line arguments
+   echo "PROXY_URL=http://username:password@proxy.webshare.io:80" >> .env
+   ```
+
+3. **Test Proxy:**
+   ```bash
+   # Test proxy connectivity
+   curl --proxy "http://username:password@proxy.webshare.io:80" https://httpbin.org/ip
+   ```
+
+### Validation Configuration
+
+Update your environment configuration based on your proxy choice:
+
+**For ScrapingBee (.env file):**
+```env
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME=validator_wallet
+WALLET_HOTKEY=validator_hotkey
+SCRAPINGBEE_API_KEY=your_scrapingbee_api_key_here
+```
+
+**For Traditional Proxy (.env file):**
+```env
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME=validator_wallet
+WALLET_HOTKEY=validator_hotkey
+PROXY_URL=http://username:password@proxy-server:port
+```
+
+### Hybrid Configuration (Advanced)
+
+You can use both ScrapingBee and traditional proxy for maximum reliability:
+
+```env
+NETUID=46
+SUBTENSOR_NETWORK=finney
+WALLET_NAME=validator_wallet
+WALLET_HOTKEY=validator_hotkey
+SCRAPINGBEE_API_KEY=your_scrapingbee_api_key_here
+PROXY_URL=http://username:password@backup-proxy:port
+```
 
 ## Part 7: Validator Registration and Staking
 
@@ -259,26 +350,56 @@ btcli stake add --wallet.name validator_wallet --wallet.hotkey validator_hotkey 
 
 **For Testnet:**
 ```bash
-# Start validator with PM2
+# Option A: With ScrapingBee
 pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --netuid 428 \
     --subtensor.network test \
     --wallet.name validator_wallet \
     --wallet.hotkey validator_hotkey \
+    --use_scrapingbee \
+    --logging.debug \
+    --max_targets 10
+
+# Option B: With Traditional Proxy
+pm2 start python --name testnet-validator -- ./neurons/validator.py \
+    --netuid 428 \
+    --subtensor.network test \
+    --wallet.name validator_wallet \
+    --wallet.hotkey validator_hotkey \
+    --proxy_url "http://username:password@proxy:port" \
     --logging.debug \
     --max_targets 10
 ```
 
-**For Mainnet (with auto-updates):**
+**For Mainnet:**
 ```bash
-# Start with auto-updater (recommended)
-pm2 start --name mainnet-vali-updater --interpreter python scripts/start_validator.py -- \
-    --pm2_name mainnet-vali \
+# Option A: With ScrapingBee (Recommended)
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --netuid 46 \
     --subtensor.network finney \
     --wallet.name validator_wallet \
-    --wallet.hotkey validator_hotkey
+    --wallet.hotkey validator_hotkey \
+    --use_scrapingbee
+
+# Option B: With Traditional Proxy
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name validator_wallet \
+    --wallet.hotkey validator_hotkey \
+    --proxy_url "http://username:password@proxy:port"
+
+# Option C: Hybrid Configuration (Maximum Reliability)
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name validator_wallet \
+    --wallet.hotkey validator_hotkey \
+    --use_scrapingbee \
+    --proxy_url "http://username:password@backup-proxy:port"
 ```
+
+**⚠️ Important**: Mainnet validators **MUST** use either `--use_scrapingbee` or `--proxy_url` (or both). Running without proxy configuration will result in startup failure.
 
 ### Step 16: Configure PM2 Startup
 ```bash

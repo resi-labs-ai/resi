@@ -438,9 +438,30 @@ Ready for serious validators and miners:
 
 ### **For Validators:**
 - **[Complete Validator Setup Guide](docs/validator.md)** - Full validation setup
+- **[Proxy Configuration Guide](docs/PROXY_CONFIGURATION.md)** - **REQUIRED for Mainnet**: Proxy setup for reliable validation
 - **Real Estate Data Validation** - Specialized property data verification
 - **Cross-validation Logic** - Compare results with other validators
 - **Performance Monitoring** - Track validation success rates and API usage
+
+### **Proxy Configuration for Validators:**
+Validators require proxy services to avoid IP blocking during data validation:
+
+**Option 1: ScrapingBee API (Recommended)**
+```bash
+# Set API key in environment
+export SCRAPINGBEE_API_KEY="your_api_key_here"
+
+# Run validator with ScrapingBee
+python neurons/validator.py --netuid 46 --use_scrapingbee
+```
+
+**Option 2: Traditional HTTP Proxy**
+```bash
+# Run validator with proxy
+python neurons/validator.py --netuid 46 --proxy_url "http://user:pass@proxy:port"
+```
+
+**⚠️ Mainnet Requirement**: Proxy configuration is mandatory for mainnet validators to ensure reliable spot-check validation.
 
 ## **System Requirements:**
 - **Miners**: No GPU required, sufficient network bandwidth and disk space

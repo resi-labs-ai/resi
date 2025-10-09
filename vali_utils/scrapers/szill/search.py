@@ -1,6 +1,7 @@
 from typing import Any, List
 from curl_cffi import requests
 import json
+from .utils import get_scrapingbee_response
 
 
 def for_sale(
@@ -18,6 +19,7 @@ def for_sale(
     sw_long: float,
     zoom_value: int,
     proxy_url: str | None = None,
+    use_scrapingbee: bool = False,
 ) -> dict[str, Any]:
     """get results of the listing that are for sale, you will get a dictionary with the keywords
     mapResults and listResults, use mapResults which contains all the listings from all paginations
@@ -34,6 +36,7 @@ def for_sale(
         sw_long (float): sw longitude value
         sw_long (float): sw longitude value
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
 
     Returns:
         dict[str, Any]: listing of properties in JSON format
@@ -42,7 +45,7 @@ def for_sale(
 		"sortSelection":  {"value": "globalrelevanceex"},
 		"isAllHomes":  {"value": True},
 	}
-    return search(pagination,search_value,min_beds,max_beds,min_bathrooms,max_bathrooms,min_price,max_price,ne_lat,ne_long,sw_lat,sw_long,zoom_value,rent,proxy_url)
+    return search(pagination,search_value,min_beds,max_beds,min_bathrooms,max_bathrooms,min_price,max_price,ne_lat,ne_long,sw_lat,sw_long,zoom_value,rent,proxy_url,use_scrapingbee)
 
 def for_rent(
     pagination: int,
@@ -61,6 +64,7 @@ def for_rent(
     sw_long: float,
     zoom_value: int,
     proxy_url: str | None = None,
+    use_scrapingbee: bool = False,
 ) -> dict[str, Any]:
     """get results of the listing that are for rent, you will get a dictionary with the keywords
     mapResults and listResults, use mapResults which contains all the listings from all paginations
@@ -77,6 +81,7 @@ def for_rent(
         sw_long (float): sw longitude value
         sw_long (float): sw longitude value
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
 
     Returns:
         dict[str, Any]: listing of properties in JSON format
@@ -96,7 +101,7 @@ def for_rent(
         rent["isRoomForRent"] = {"value": True}
     if not is_entire_place:    
         rent["isEntirePlaceForRent"] = {"value": False}
-    return search(pagination,search_value,min_beds,max_beds,min_bathrooms,max_bathrooms,min_price,max_price,ne_lat,ne_long,sw_lat,sw_long,zoom_value,rent,proxy_url)
+    return search(pagination,search_value,min_beds,max_beds,min_bathrooms,max_bathrooms,min_price,max_price,ne_lat,ne_long,sw_lat,sw_long,zoom_value,rent,proxy_url,use_scrapingbee)
 
 def sold(
     pagination: int,
@@ -163,6 +168,7 @@ def search(
     zoom_value: int,
     filter_state: dict[str, Any],
     proxy_url: str | None = None,
+    use_scrapingbee: bool = False,
 ) -> dict[str, Any]:
     """get results of the listing of the given page number
 
@@ -175,6 +181,7 @@ def search(
         sw_long (float): sw longitude value
         filter_state (dict[str, Any]): input data for making the search
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
 
     Returns:
         dict[str, Any]: listing of properties in JSON format
@@ -246,13 +253,41 @@ def search(
             price["max"] = max_price
         inputData["searchQueryState"]["filterState"]["price"] = price
 
-    proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
-    response = requests.put(
-        url="https://www.zillow.com/async-create-search-page-state",
-        json=inputData,
-        headers=headers,
-        proxies=proxies,  
-        impersonate="chrome124",
-    )
+    if use_scrapingbee:
+        # Use ScrapingBee API for the search request
+        import requests as regular_requests
+        
+        # Note: ScrapingBee doesn't support PUT requests directly through their get() method
+        # We need to use their raw API with custom headers and method
+        scrapingbee_response = get_scrapingbee_response(
+            "https://www.zillow.com/async-create-search-page-state", 
+            headers=headers
+        )
+        
+        if not scrapingbee_response['success']:
+            raise Exception(f"ScrapingBee request failed: {scrapingbee_response.get('error', 'Unknown error')}")
+        
+        # For PUT requests with JSON data, we need to use a different approach with ScrapingBee
+        # Since ScrapingBee's standard API doesn't support PUT with JSON directly,
+        # we'll fall back to regular requests in this case or implement custom logic
+        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        response = requests.put(
+            url="https://www.zillow.com/async-create-search-page-state",
+            json=inputData,
+            headers=headers,
+            proxies=proxies,  
+            impersonate="chrome124",
+        )
+    else:
+        # Use traditional proxy method
+        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        response = requests.put(
+            url="https://www.zillow.com/async-create-search-page-state",
+            json=inputData,
+            headers=headers,
+            proxies=proxies,  
+            impersonate="chrome124",
+        )
+    
     data = response.json()
     return data.get("cat1", {}).get("searchResults", {})

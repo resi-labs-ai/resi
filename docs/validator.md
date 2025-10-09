@@ -47,7 +47,29 @@ Mainnet validation for production:
 Validators use the Szill-based Zillow scraper for validation. Ensure your environment meets the following:
 
 - Python dependencies installed via `pip install -e .`
-- Optional: Proxy configuration if needed for reliable scraping
+- **REQUIRED for Mainnet**: Proxy configuration to avoid IP blocking during validation
+- **Recommended**: ScrapingBee API for reliable, professional scraping
+
+#### Proxy Configuration (REQUIRED for Production)
+
+Choose one of the following proxy options:
+
+**Option 1: ScrapingBee API (Recommended)**
+```bash
+# Set environment variable
+export SCRAPINGBEE_API_KEY="your_api_key_here"
+
+# Run validator with ScrapingBee
+python neurons/validator.py --netuid 13 --use_scrapingbee
+```
+
+**Option 2: Traditional HTTP Proxy**
+```bash
+# Run validator with traditional proxy
+python neurons/validator.py --netuid 13 --proxy_url "http://user:pass@proxy:port"
+```
+
+**📖 Complete Proxy Setup Guide**: See [PROXY_CONFIGURATION.md](./PROXY_CONFIGURATION.md) for detailed configuration instructions.
 - Sufficient bandwidth and stable network connectivity
 
 If proxies are used, configure them via environment variables specific to your proxy provider or Szill settings (see comments in code under `vali_utils/scrapers/szill_zillow_scraper.py`).

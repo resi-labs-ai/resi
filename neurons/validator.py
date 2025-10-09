@@ -191,6 +191,10 @@ class Validator:
                 if hasattr(self.config, 'proxy_url') and self.config.proxy_url:
                     self._configure_scraper_proxy()
                 
+                # Configure ScrapingBee if enabled
+                if hasattr(self.config, 'use_scrapingbee') and self.config.use_scrapingbee:
+                    self._configure_scrapingbee()
+                
                 bt.logging.success("Zipcode validation system initialized")
                 
                 # Test API connectivity
@@ -265,6 +269,35 @@ class Validator:
         except Exception as e:
             bt.logging.error(f"Failed to configure scraper proxy: {e}")
             bt.logging.warning("Continuing without proxy - may encounter rate limits")
+
+    def _configure_scrapingbee(self):
+        """
+        Configure ScrapingBee API settings for the validator's scraper components
+        
+        This ensures that scrapers can use ScrapingBee API for better success rates
+        and to avoid IP bans from real estate websites.
+        """
+        try:
+            import os
+            from dotenv import load_dotenv
+            
+            load_dotenv()
+            
+            # Check if ScrapingBee API key is available
+            api_key = os.getenv("SCRAPINGBEE_API_KEY")
+            if not api_key:
+                bt.logging.error("❌ SCRAPINGBEE_API_KEY not found in environment variables")
+                bt.logging.error("   Add SCRAPINGBEE_API_KEY to your .env file or environment")
+                bt.logging.error("   Get your API key from: https://www.scrapingbee.com/")
+                raise ValueError("ScrapingBee API key required when --use_scrapingbee is enabled")
+            
+            bt.logging.success("✅ ScrapingBee API configured successfully")
+            bt.logging.info("   Using ScrapingBee for validator scraping operations")
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to configure ScrapingBee: {e}")
+            bt.logging.warning("Disabling ScrapingBee - falling back to proxy/direct requests")
+            self.config.use_scrapingbee = False
 
     def setup(self):
         """A one-time setup method that must be called before the Validator starts its main loop."""
