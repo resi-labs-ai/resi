@@ -36,20 +36,6 @@
 - **Rapid Data Collection**: We're playing catchup and need comprehensive data coverage across the entire country
 - **True Decentralization**: Removes dependency on single data source or provider
 
-## **TIMELINE: CRITICAL DATES**
-
-### **Monday**: Validator Code Ready
-- Updated validator code available on GitHub
-- Testnet validator (428) running for miner testing
-- Miners can test custom scrapers against new validation system
-
-### **Wednesday**: Production Switch
-- Mainnet validators (46) switch from burn code to new validation system
-- All miners must have compliant custom scrapers ready
-- No grace period - system goes live immediately
-
-## **FOR MINERS: REQUIREMENTS**
-
 ### **Required Actions**
 1. **Build Custom Data Collection System**
    - Use ANY accessible data source (Zillow, Redfin, county records, MLS, public records, etc.)
@@ -419,7 +405,7 @@ Resi Labs's potential is extensive, as anybody can use it to build datasets on w
 
 # Get Started
 
-## **Network Options:**
+### **Network Options:**
 - **Testnet (Subnet 428)**: Perfect for testing new custom scrapers
 - **Mainnet (Subnet 46)**: Production environment with real TAO rewards
 
@@ -427,98 +413,26 @@ Ready for serious validators and miners:
 - 2-hour S3 upload cycles for production efficiency
 - Full economic participation in the network
 
-## **Complete Setup Documentation:**
-
 ### **For Miners:**
-- **[Legacy Miner Setup Guide](docs/miner.md)** - **DEPRECATED**: Old version reference only
+- **[Miner Guide](docs/miner.md)** - **DEPRECATED**: Old version reference only
 - **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
 - **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
 - **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
 - **Custom Scraper Development** - REQUIRED: Build your own data collection system
 
 ### **For Validators:**
-- **[Complete Validator Setup Guide](docs/validator.md)** - Full validation setup
+- **[Validator Guide](docs/validator.md)** - Full validation setup
 - **[Proxy Configuration Guide](docs/PROXY_CONFIGURATION.md)** - **REQUIRED for Mainnet**: Proxy setup for reliable validation
 - **Real Estate Data Validation** - Specialized property data verification
 - **Cross-validation Logic** - Compare results with other validators
 - **Performance Monitoring** - Track validation success rates and API usage
 
-### **Proxy Configuration for Validators:**
-Validators require proxy services to avoid IP blocking during data validation:
-
-**Option 1: ScrapingBee API (Recommended)**
-```bash
-# Set API key in environment
-export SCRAPINGBEE_API_KEY="your_api_key_here"
-
-# Run validator with ScrapingBee
-python neurons/validator.py --netuid 46 --use_scrapingbee
-```
-
-**Option 2: Traditional HTTP Proxy**
-```bash
-# Run validator with proxy
-python neurons/validator.py --netuid 46 --proxy_url "http://user:pass@proxy:port"
-```
-
-**⚠️ Mainnet Requirement**: Proxy configuration is mandatory for mainnet validators to ensure reliable spot-check validation.
-
-## **System Requirements:**
-- **Miners**: No GPU required, sufficient network bandwidth and disk space
-- **Validators**: 32GB+ RAM recommended, 4+ CPU cores, no GPU required
-- **Both**: Python 3.10+ (no external API subscription required)
-
-## **Quick Start Commands:**
-
-**WARNING: LEGACY Testnet Miner (DEPRECATED):**
-```bash
-# WARNING: This will NOT work with current system
-pm2 start python --name testnet-miner -- ./neurons/miner.py \
-    --netuid 428 --subtensor.network test \
-    --wallet.name your_wallet --wallet.hotkey your_hotkey \
-    --use_uploader --logging.debug
-```
-
-**Testnet Validator (UNCHANGED):**
-```bash
-pm2 start python --name testnet-validator -- ./neurons/validator.py \
-    --netuid 428 --subtensor.network test \
-    --wallet.name your_wallet --wallet.hotkey your_hotkey \
-    --max_targets 10 --logging.debug
-```
-
-**NEW: Custom Miner Development Required**
-- Miners must build their own data collection system
-- Follow schema in `docs/miner-realestate-data-structure.json` (on `miner-todo` branch)
-- Maintain S3 upload functionality from existing miner code
-- Focus on sold properties from last 3 years (2022-2025)
-- **Be prepared**: Validators will request ALL sold listings for specific zipcodes
-
-## **Optional: S3 Connectivity Test**
-Verify your setup with our connectivity test:
-1. **Testing Guide:** [MINER_VALIDATOR_TESTING_GUIDE.md](https://github.com/resi-labs-ai/resi-labs-api/blob/main/MINER_VALIDATOR_TESTING_GUIDE.md)
-2. **Direct Test Script:** [test_mainnet_s3_auth.py](https://github.com/resi-labs-ai/resi-labs-api/blob/main/api-test/test_mainnet_s3_auth.py)
-
 ## **Advanced Configuration:**
-- **[Validator Preferences Guide](./docs/validator_preferences_guide.md)** - Submit custom data preferences and influence network priorities
 - **[PM2 Startup Guide](./docs/pm2_startup_guide.md)** - Complete PM2 process management reference
 - **[Testing Guide](./docs/testing_guide.md)** - Run comprehensive test suites locally
 - **[Dynamic Desirability](./docs/dynamic_desirability.md)** - Understand geographic prioritization system
 
 ---
-
-## **Ready for Production: Join the Network Today**
-
-**RESI Subnet 46 is now fully operational with:**
-- **✓ Complete validator implementations**
-- **✓ Real-world data validation with 100% success rates**
-- **✓ Production-ready S3 infrastructure**
-- **✓ Comprehensive testing and monitoring**
-- **✓ Full documentation and support**
-
-**Start earning TAO rewards by contributing to the world's largest open real estate database!**
-
-Choose **Testnet (428)** to learn the system risk-free, or jump directly to **Mainnet (46)** for production rewards.
 
 # Upcoming Features
 
@@ -542,6 +456,5 @@ Choose **Testnet (428)** to learn the system risk-free, or jump directly to **Ma
 
 **Miner Index**: A summary of how much and what types of data a Miner has. Specifically, it's a list of DataEntityBuckets.
 
-# Feedback
-
-We welcome feedback!
+## Contact and Support
+Feel free to reach out for any questions or support in the [RESI Subnet Channel](https://discord.com/channels/799672011265015819/1397618038894759956) in the Official Bittensor Discord Server
