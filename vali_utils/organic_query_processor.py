@@ -114,13 +114,15 @@ class OrganicQueryProcessor:
 
     def _select_miners(self) -> List[int]:
         """Select diverse set of miners for querying"""
-        # TESTING: Select only UID XX for testing purposes
         miner_uids = utils.get_miner_uids(self.metagraph, self.evaluator.vpermit_rao_limit)
-        if 14 in miner_uids:
-            bt.logging.info("TESTING: Selected UID 18 only for testing")
-            return [14]
         
-        # Fallback to original logic if UID 18 not available
+        # TESTING: Select only UID XX for testing purposes
+        # Testing: Custom UID
+        # if <uid_for_testing> in miner_uids:
+        #     bt.logging.info("TESTING: Selected UID XX only for testing")
+        #     return [<uid_for_testing>]
+        
+        # Fallback to original logic if UID XX not available
         miner_scores = [(uid, float(self.metagraph.I[uid])) for uid in miner_uids]
         miner_scores.sort(key=lambda x: x[1], reverse=True)
         

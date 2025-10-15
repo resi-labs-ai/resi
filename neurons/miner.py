@@ -107,7 +107,6 @@ class Miner:
             bt.logging.info(f"Metagraph: {self.metagraph}.")
 
             # Each miner gets a unique identity (UID) in the network for differentiation.
-            # TODO: Stop doing meaningful work in the constructor to make neurons more testable.
             if self.wallet.hotkey.ss58_address in self.metagraph.hotkeys:
                 self.uid = self.metagraph.hotkeys.index(self.wallet.hotkey.ss58_address)
                 bt.logging.info(
@@ -472,9 +471,6 @@ class Miner:
         Returns:
             List of scraped listing data
         """
-        # This is a placeholder implementation
-        # In production, this would integrate with the existing scraping coordinator
-        # to target the specific zipcode
         
         bt.logging.info(f"Scraping data for zipcode {zipcode} (target: {expected_listings})")
         
@@ -1251,7 +1247,6 @@ class Miner:
             sys.exit(1)
 
 
-# This is the main function, which runs the miner.
 if __name__ == "__main__":
     with Miner() as miner:
         while True:

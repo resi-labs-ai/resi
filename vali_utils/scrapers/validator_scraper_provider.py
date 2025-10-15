@@ -12,7 +12,7 @@ from scraping.youtube.invideoiq_transcript_scraper import YouTubeChannelTranscri
 
 from vali_utils.scrapers.szill_zillow_scraper import SzillZillowScraper
 
-# Validator scraper factories include both RapidAPI and Szill options
+# Validator scraper factories include Reddit, X, YouTube, and Szill Zillow options
 VALIDATOR_SCRAPER_FACTORIES = {
     ScraperId.REDDIT_LITE: RedditLiteScraper,
     # For backwards compatibility with old configs, remap x.flash to x.apidojo.
@@ -37,16 +37,21 @@ class ValidatorScraperProvider:
         self, 
         factories: Dict[str, Callable[[], Scraper]] = None,
         proxy_url: str = None,
-        use_scrapingbee: bool = False
+        use_scrapingbee: bool = False,
+        max_concurrent: int = 1
     ):
         self.factories = factories or VALIDATOR_SCRAPER_FACTORIES.copy()
         self.proxy_url = proxy_url
         self.use_scrapingbee = use_scrapingbee
+        self.max_concurrent = max_concurrent
         
         # Create factory function that passes configuration
+        # Reduce concurrent requests to 1 for better success rate with Zillow
+        safe_concurrent = min(self.max_concurrent, 1)
         self.factories[ValidatorScraperId.SZILL_ZILLOW] = lambda: SzillZillowScraper(
             proxy_url=self.proxy_url,
-            use_scrapingbee=self.use_scrapingbee
+            use_scrapingbee=self.use_scrapingbee,
+            max_concurrent=safe_concurrent
         )
 
     def get(self, scraper_id: str) -> Scraper:

@@ -65,8 +65,7 @@ class EnhancedApiDojoTwitterScraper(ApiDojoTwitterScraper):
                 if not data:
                     bt.logging.debug("Skipping empty entry")
                     continue
-                    
-                # Debug the structure of the data
+
                 if 'media' in data:
                     if isinstance(data['media'], list) and data['media']:
                         if isinstance(data['media'][0], str):

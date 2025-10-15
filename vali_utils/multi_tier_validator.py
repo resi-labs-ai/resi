@@ -295,7 +295,6 @@ class MultiTierValidator:
                 submission_dt = datetime.fromtimestamp(submission_time, tz=timezone.utc)
             
             # Earlier submissions get higher scores (0.5 to 1.0 range)
-            # This is a placeholder - actual implementation would depend on epoch timing
             return 1.0  # For now, return max score
             
         except Exception as e:
@@ -531,17 +530,30 @@ class MultiTierValidator:
     def _convert_listing_to_data_entity(self, listing: Dict) -> Optional[DataEntity]:
         """Convert a listing dict to DataEntity format for scraper validation"""
         try:
+            # Get property type with fallback to SINGLE_FAMILY (most common)
+            property_type = listing.get('property_type')
+            if not property_type or property_type == 'UNKNOWN':
+                # Try to infer from other fields or default to SINGLE_FAMILY
+                property_type = 'SINGLE_FAMILY'
+                bt.logging.debug(f"Property type missing for zpid {listing.get('zpid')}, defaulting to SINGLE_FAMILY")
+            
+            # Get listing status with fallback
+            listing_status = listing.get('listing_status')
+            if not listing_status or listing_status == 'UNKNOWN':
+                listing_status = 'FOR_SALE'
+                bt.logging.debug(f"Listing status missing for zpid {listing.get('zpid')}, defaulting to FOR_SALE")
+            
             # Create RealEstateContent from listing data
             real_estate_content = RealEstateContent(
                 zpid=listing.get('zpid') or listing.get('mls_id', ''),
                 address=listing.get('address', ''),
                 detail_url=listing.get('source_url', ''),
-                property_type=listing.get('property_type', 'UNKNOWN'),
+                property_type=property_type,
                 bedrooms=listing.get('bedrooms'),
                 bathrooms=listing.get('bathrooms'),
                 living_area=listing.get('sqft'),
                 price=listing.get('price'),
-                listing_status=listing.get('listing_status', 'UNKNOWN'),
+                listing_status=listing_status,
                 days_on_zillow=listing.get('days_on_market'),
                 data_source="miner_submission"
             )

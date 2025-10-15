@@ -1,54 +1,43 @@
-# Proxy Configuration Guide for RESI Validators
+# Proxy Configuration for RESI Validators
 
-This guide explains how to configure proxy services for RESI validators to ensure reliable data validation and avoid IP blocking during spot-check validation.
+This guide covers the available proxy configuration options for RESI validators.
 
+## Traditional Proxy Configuration
 
-## Option 1: Traditional Proxy Configuration
+Configure a traditional proxy service for your validator:
 
-**Note:** Option 2 Recommedended
-### Configuration
-
-Add proxy configuration to your validator startup command:
+### Command Line Configuration
 
 ```bash
-# Basic proxy configuration
 python neurons/validator.py \
-    --netuid 13 \
+    --netuid 46 \
     --subtensor.network finney \
     --wallet.name your_wallet \
     --wallet.hotkey your_hotkey \
     --proxy_url "http://username:password@proxy-server:port"
 ```
 
-### Environment Variables (Alternative)
-
-You can also set proxy configuration via environment variables:
+### Environment Variables
 
 ```bash
-# Set in your .env file or shell
 export HTTP_PROXY="http://username:password@proxy-server:port"
 export HTTPS_PROXY="http://username:password@proxy-server:port"
 
-# Then run validator normally
-python neurons/validator.py --netuid 13 --subtensor.network finney --wallet.name your_wallet --wallet.hotkey your_hotkey
+python neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_wallet \
+    --wallet.hotkey your_hotkey
 ```
 
-## Option 2: ScrapingBee Configuration (Recommended)
+## ScrapingBee Configuration
 
-ScrapingBee is a premium web scraping API that handles proxy rotation, CAPTCHA solving, and browser fingerprinting automatically.
+ScrapingBee provides automatic proxy rotation, CAPTCHA solving, and browser fingerprinting.
 
 ### Setup Steps
 
-#### 1. Get ScrapingBee API Key
-
-1. Visit [ScrapingBee.com](https://www.scrapingbee.com/)
-2. Sign up for an account
-3. Choose a plan - Use free trial for testing
-4. Get your API key from the dashboard
-
-#### 2. Configure Environment Variables
-
-Add your ScrapingBee API key to your environment:
+1. Get your API key from [ScrapingBee.com](https://www.scrapingbee.com/)
+2. Configure the API key:
 
 ```bash
 # Add to .env file
@@ -58,10 +47,9 @@ echo "SCRAPINGBEE_API_KEY=your_api_key_here" >> .env
 export SCRAPINGBEE_API_KEY="your_api_key_here"
 ```
 
-#### 3. Enable ScrapingBee in Validator
+3. Enable ScrapingBee:
 
 ```bash
-# Enable ScrapingBee for your validator
 python neurons/validator.py \
     --netuid 46 \
     --subtensor.network finney \
@@ -70,10 +58,9 @@ python neurons/validator.py \
     --use_scrapingbee
 ```
 
-#### 4. Verify Configuration
+### Verification
 
-When the validator starts, you should see:
-
+On startup, you should see:
 ```
 ✅ ScrapingBee API configured successfully
    Using ScrapingBee for validator scraping operations

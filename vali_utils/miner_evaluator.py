@@ -68,7 +68,17 @@ class MinerEvaluator:
         self.miner_iterator = MinerIterator(
             utils.get_miner_uids(self.metagraph, self.vpermit_rao_limit)
         )
-        self.scraper_provider = ValidatorScraperProvider()
+        
+        # Configure scraper provider with proxy and ScrapingBee settings from config
+        proxy_url = getattr(self.config, 'proxy_url', None)
+        use_scrapingbee = getattr(self.config, 'use_scrapingbee', False)
+        
+        bt.logging.info(f"Initializing scraper provider - proxy: {bool(proxy_url)}, scrapingbee: {use_scrapingbee}")
+        self.scraper_provider = ValidatorScraperProvider(
+            proxy_url=proxy_url,
+            use_scrapingbee=use_scrapingbee
+        )
+        
         self.storage = SqliteMemoryValidatorStorage()
         self.s3_storage = S3ValidationStorage(self.config.s3_results_path)
         self.s3_reader = s3_reader
@@ -468,22 +478,36 @@ class MinerEvaluator:
                 responses, GetMinerIndex
             )
             if not response:
-                bt.logging.info(
-                    f"{hotkey}: Miner failed to respond with an index. Using last known index if present."
-                )
+                stored_index = self.storage.read_miner_index(hotkey)
+                if stored_index:
+                    bt.logging.info(
+                        f"{hotkey}: Miner failed to respond with an index. Using last known index."
+                    )
+                else:
+                    bt.logging.warning(
+                        f"{hotkey}: Miner failed to respond with an index and has no stored index. "
+                        f"Check if miner is properly configured and running."
+                    )
                 # Miner failed to update the index. Use the latest index, if present.
-                return self.storage.read_miner_index(hotkey)
+                return stored_index
 
             # Validate the index.
             miner_index = None
             try:
                 miner_index = vali_utils.get_miner_index_from_response(response)
             except ValueError as e:
-                bt.logging.info(
-                    f"{hotkey}: Miner returned an invalid index. Reason: {e}. Using last known index if present."
-                )
+                stored_index = self.storage.read_miner_index(hotkey)
+                if stored_index:
+                    bt.logging.warning(
+                        f"{hotkey}: Miner returned an invalid index. Reason: {e}. Using last known index."
+                    )
+                else:
+                    bt.logging.error(
+                        f"{hotkey}: Miner returned an invalid index and has no stored index. Reason: {e}. "
+                        f"Miner may need to be restarted or reconfigured."
+                    )
                 # Miner returned an invalid index. Use the latest index, if present.
-                return self.storage.read_miner_index(hotkey)
+                return stored_index
 
             assert miner_index is not None, "Miner index should not be None."
 

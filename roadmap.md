@@ -1,2 +1,0 @@
-# Upgrades
-1. Note from 9/12/25 - miners to scrape all data for property, will require them to call the property api for the zpid on each property which will increase api usage by 41x (1x list + 41x detail api calls).  Will need to update validator logic when that time comes to check for all fields.  Will need to tell miners in advance that that change is happening.  Lets start simple now and then upgrade to dive deeper.  Discovery vs details/ enrichment could be different processes.

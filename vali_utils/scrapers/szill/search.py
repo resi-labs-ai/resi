@@ -2,6 +2,7 @@ from typing import Any, List
 from curl_cffi import requests
 import json
 from .utils import get_scrapingbee_response
+from .parse import parse_html_response
 
 
 def for_sale(
@@ -291,3 +292,84 @@ def search(
     
     data = response.json()
     return data.get("cat1", {}).get("searchResults", {})
+
+
+def sold_html(
+    zipcode: str,
+    proxy_url: str | None = None,
+    use_scrapingbee: bool = False,
+) -> List[dict[str, Any]]:
+    """Get sold properties by parsing HTML (alternative to API method)
+    
+    This function scrapes sold properties directly from HTML listing pages
+    instead of using the API. Useful as a fallback when API is blocked.
+    
+    Args:
+        zipcode: US zipcode to search (e.g., "90210")
+        proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
+        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
+    
+    Returns:
+        List[dict[str, Any]]: List of property dictionaries with zpid, address, price, etc.
+    """
+    headers = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'accept-language': 'en-US,en;q=0.9',
+        'accept-encoding': 'gzip, deflate, br',
+        'dnt': '1',
+        'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'none',
+        'sec-fetch-user': '?1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+        'cache-control': 'max-age=0',
+        'referer': 'https://www.google.com/'
+    }
+    
+    # Try multiple URL patterns for sold properties
+    urls_to_try = [
+        f"https://www.zillow.com/homes/recently_sold/{zipcode}_rb/",
+        f"https://www.zillow.com/{zipcode}/sold/",
+        f"https://www.zillow.com/homes/sold/{zipcode}/"
+    ]
+    
+    for url in urls_to_try:
+        try:
+            if use_scrapingbee:
+                # Use ScrapingBee for HTML scraping
+                scrapingbee_response = get_scrapingbee_response(url, stealth_proxy=True, premium_proxy=False)
+                if not scrapingbee_response['success']:
+                    continue
+                html_content = scrapingbee_response['content'].decode('utf-8') if isinstance(scrapingbee_response['content'], bytes) else scrapingbee_response['content']
+            else:
+                # Use traditional proxy method
+                proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+                response = requests.get(
+                    url=url,
+                    headers=headers,
+                    proxies=proxies,
+                    impersonate="chrome124",
+                    timeout=30
+                )
+                
+                if response.status_code != 200:
+                    continue
+                    
+                html_content = response.text
+            
+            # Parse HTML to extract listings
+            listings = parse_html_response(html_content, zipcode)
+            
+            if listings:
+                return listings
+                
+        except Exception as e:
+            # Try next URL if this one fails
+            continue
+    
+    # Return empty list if all attempts failed
+    return []

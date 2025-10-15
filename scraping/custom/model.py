@@ -79,16 +79,35 @@ class RealEstateContent(BaseModel):
         # Extract listing subtype flags
         listing_sub_type = api_data.get("listingSubType", {})
         
+        # Handle different field names for property type (homeType vs propertyType)
+        property_type = api_data.get("propertyType") or api_data.get("homeType")
+        if not property_type:
+            # Default to SINGLE_FAMILY if not provided (most common type)
+            property_type = "SINGLE_FAMILY"
+        
+        # Handle different field names for listing status (homeStatus vs listingStatus)
+        listing_status = api_data.get("listingStatus") or api_data.get("homeStatus")
+        if not listing_status:
+            # Default to FOR_SALE if not provided
+            listing_status = "FOR_SALE"
+        
+        # Handle address field (can be nested or flat)
+        address = api_data.get("address")
+        if isinstance(address, dict):
+            address = address.get("streetAddress", "")
+        elif not address:
+            address = api_data.get("streetAddress", "")
+        
         return cls(
             zpid=str(api_data.get("zpid", "")),
-            address=api_data.get("address", ""),
-            detail_url=api_data.get("detailUrl", ""),
-            property_type=api_data.get("propertyType", "UNKNOWN"),
+            address=str(address),
+            detail_url=api_data.get("detailUrl", api_data.get("hdpUrl", "")),
+            property_type=property_type,
             bedrooms=api_data.get("bedrooms"),
             bathrooms=api_data.get("bathrooms"),
             living_area=api_data.get("livingArea"),
-            lot_area_value=api_data.get("lotAreaValue"),
-            lot_area_unit=api_data.get("lotAreaUnit"),
+            lot_area_value=api_data.get("lotAreaValue") or api_data.get("lotSize"),
+            lot_area_unit=api_data.get("lotAreaUnit", "sqft"),
             price=api_data.get("price"),
             zestimate=api_data.get("zestimate"),
             rent_zestimate=api_data.get("rentZestimate"),
@@ -98,7 +117,7 @@ class RealEstateContent(BaseModel):
             longitude=api_data.get("longitude"),
             country=api_data.get("country", "USA"),
             currency=api_data.get("currency", "USD"),
-            listing_status=api_data.get("listingStatus", "UNKNOWN"),
+            listing_status=listing_status,
             days_on_zillow=api_data.get("daysOnZillow"),
             coming_soon_on_market_date=api_data.get("comingSoonOnMarketDate"),
             img_src=api_data.get("imgSrc"),

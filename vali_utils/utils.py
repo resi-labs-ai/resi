@@ -1,6 +1,7 @@
 import bittensor as bt
 import hashlib
 import random
+import re
 import time
 from typing import List, Optional, Tuple, Type, Union
 import datetime as dt
@@ -19,15 +20,12 @@ from scraping.x import utils as x_utils
 from random import Random
 
 def choose_data_entity_bucket_to_query(index: ScorableMinerIndex) -> DataEntityBucket:
-    """Securely pick one DataEntityBucket to validate.
-    Uses a seed based on system time.
-    """
+    """Choose a DataEntityBucket to validate using time-based randomization."""
     total_size = sum(
-        scorable_bucket.scorable_bytes 
+        scorable_bucket.scorable_bytes
         for scorable_bucket in index.scorable_data_entity_buckets
     )
-    
-    # Use nanosecond precision timestamp as seed
+
     seed = time.time_ns()
     rng = Random(seed)
     chosen_byte = rng.uniform(0, total_size)
@@ -42,26 +40,20 @@ def choose_data_entity_bucket_to_query(index: ScorableMinerIndex) -> DataEntityB
     ), "Failed to choose a DataEntityBucket to query... which should never happen"
 
 def choose_entities_to_verify(entities: List[DataEntity]) -> List[DataEntity]:
-    """Given a list of DataEntities from a DataEntityBucket, chooses a random set of entities to verify."""
-
-    # For now, we just sample 5 entities, based on size. Ensure we choose different entities.
-    # In future, consider sampling every N bytes.
+    """Choose a random set of entities to verify."""
     chosen_entities = []
     total_size = sum(entity.content_size_bytes for entity in entities)
 
-    # Ensure we don't try to choose more entities than exist to choose from.
     num_entities_to_choose = min(5, len(entities))
     for _ in range(num_entities_to_choose):
         chosen_byte = random.uniform(0, total_size)
         iterated_bytes = 0
         for entity in entities:
             if entity in chosen_entities:
-                # Ensure we skip over already chosen entities if we see them again.
                 continue
 
             if iterated_bytes + entity.content_size_bytes >= chosen_byte:
                 chosen_entities.append(entity)
-                # Adjust total_size to account for the entity we already selected.
                 total_size -= entity.content_size_bytes
                 break
 
@@ -73,13 +65,7 @@ def choose_entities_to_verify(entities: List[DataEntity]) -> List[DataEntity]:
 def are_entities_valid(
     entities: List[DataEntity], data_entity_bucket: DataEntityBucket
 ) -> Tuple[bool, str]:
-    """Performs basic validation on all entities in a DataEntityBucket.
-
-    Returns a tuple of (is_valid, reason) where is_valid is True if the entities are valid,
-    and reason is a string describing why they are not valid.
-    """
-
-    # Check the entity size, labels, source, and timestamp.
+    """Validate entities in a DataEntityBucket."""
     actual_size = 0
     claimed_size = 0
     expected_datetime_range: DateRange = TimeBucket.to_date_range(
@@ -101,7 +87,6 @@ def are_entities_valid(
             )
 
         tz_datetime = entity.datetime
-        # If the data entity does not specify any timezone information then use UTC for validation checks.
         if tz_datetime.tzinfo is None:
             tz_datetime = tz_datetime.replace(tzinfo=dt.timezone.utc)
 
@@ -114,42 +99,83 @@ def are_entities_valid(
     if actual_size < claimed_size or actual_size < data_entity_bucket.size_bytes:
         return (
             False,
-            f"Size not as expected. Actual={actual_size}. Claimed={claimed_size}. Expected={data_entity_bucket.size_bytes}",
+            f"Size mismatch. Actual={actual_size}. Claimed={claimed_size}. Expected={data_entity_bucket.size_bytes}",
         )
 
     return (True, "")
 
 
 def _normalize_uri(uri: str) -> str:
-    """Normalizes a URI (independent of DataSource) for equality comparison."""
-    # For now, we only normalize twitter URIs. Other DataSources don't require any normalization.
-    # Note: This will leave the URI untouched if it is not a twitter URI.
+    """Normalize a URI for equality comparison."""
     return x_utils.normalize_url(uri)
 
 
+def normalize_address(address: str) -> str:
+    """Normalize property addresses for comparison."""
+    if not address:
+        return ""
+
+    normalized = address.lower().strip()
+
+    # Remove common city variations that might differ between sources
+    city_suffixes = [
+        r',\s*manhattan\s*,?\s*ny\s*\d{5}',
+        r',\s*new\s+york\s*,?\s*ny\s*\d{5}',
+        r',\s*brooklyn\s*,?\s*ny\s*\d{5}',
+        r',\s*queens\s*,?\s*ny\s*\d{5}',
+        r',\s*bronx\s*,?\s*ny\s*\d{5}',
+        r',\s*staten\s+island\s*,?\s*ny\s*\d{5}',
+    ]
+
+    for suffix in city_suffixes:
+        normalized = re.sub(suffix, '', normalized, flags=re.IGNORECASE)
+
+    # Standardize apartment/unit formats
+    normalized = re.sub(r'\s+apt\s+', ' APT ', normalized)
+    normalized = re.sub(r'\s+#', ' #', normalized)
+    normalized = re.sub(r'\s+unit\s+', ' UNIT ', normalized)
+
+    normalized = re.sub(r'\s+', ' ', normalized).strip()
+
+    return normalized
+
+
+def normalize_property_type(property_type: str) -> Optional[str]:
+    """Normalize property types for comparison."""
+    if not property_type or property_type.upper() == 'UNKNOWN':
+        return None
+
+    type_mapping = {
+        'CONDO': 'CONDO',
+        'CONDOMINIUM': 'CONDO',
+        'TOWNHOUSE': 'TOWNHOUSE',
+        'TOWNHOME': 'TOWNHOUSE',
+        'SINGLE_FAMILY': 'SINGLE_FAMILY',
+        'SINGLE FAMILY': 'SINGLE_FAMILY',
+        'MULTI_FAMILY': 'MULTI_FAMILY',
+        'MULTI FAMILY': 'MULTI_FAMILY',
+        'APARTMENT': 'APARTMENT',
+        'CO_OP': 'CO_OP',
+        'CO-OP': 'CO_OP',
+        'DUPLEX': 'DUPLEX',
+        'TRIPLEX': 'TRIPLEX',
+    }
+
+    return type_mapping.get(property_type.upper(), property_type.upper())
+
+
 def are_entities_unique(entities: List[DataEntity]) -> bool:
-    """Checks that all entities in a DataEntityBucket are unique.
-
-    This is currently done by comparing hashes of only the content as the entire scrape response is serialized into
-    the content of each DataEntity.
-
-    Returns a tuple of (is_unique, reason) where is_unique is True if the entities are unique,
-    and reason is a string describing why they are not unique.
-    """
-
-    # Create a set to store the hash of each entity content.
+    """Check that all entities in a DataEntityBucket are unique."""
     entity_content_hash_set = set()
     uris = set()
 
     for entity in entities:
         entity_content_hash = hashlib.sha1(entity.content).hexdigest()
         normalized_uri = _normalize_uri(entity.uri)
-        # Check that the hash and URI have not been seen before
         if entity_content_hash in entity_content_hash_set or normalized_uri in uris:
             return False
-        else:
-            entity_content_hash_set.add(entity_content_hash)
-            uris.add(normalized_uri)
+        entity_content_hash_set.add(entity_content_hash)
+        uris.add(normalized_uri)
 
     return True
 
@@ -157,10 +183,7 @@ def are_entities_unique(entities: List[DataEntity]) -> bool:
 def get_single_successful_response(
     responses: List[bt.Synapse], expected_class: Type
 ) -> Optional[bt.Synapse]:
-    """Helper function to extract the single response from a list of responses, if the response is valid.
-
-    return: (response, is_valid): The response if it's valid, else None.
-    """
+    """Extract a single successful response from a list."""
     if (
         responses
         and isinstance(responses, list)
@@ -173,7 +196,7 @@ def get_single_successful_response(
 
 
 def get_miner_index_from_response(response: GetMinerIndex) -> CompressedMinerIndex:
-    """Gets a MinerIndex from a GetMinerIndex response."""
+    """Extract MinerIndex from a GetMinerIndex response."""
     assert response.is_success
 
     if not response.compressed_index_serialized:

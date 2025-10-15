@@ -1,4 +1,15 @@
-# The MIT L# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+# The MIT License (MIT)
+# Copyright © 2025 Resi Labs
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+# documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+# the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+# and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+# the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 # THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 # THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
@@ -10,27 +21,6 @@ import sys
 import os
 # Add the project root to Python path for imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-# The MIT License (MIT)
-# Copyright © 2025 Resi Labs
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-# documentation files (the “Software”), to deal in the Software without restriction, including without limitation
-# the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
-# and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in all copies or substantial portions of
-# the Software.
-
-# THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
-# THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-# THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-# OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-# DEALINGS IN THE SOFTWARE.
-
-import copy
-import json
-import sys
 import torch
 import numpy as np
 import asyncio
@@ -69,28 +59,25 @@ from vali_utils.multi_tier_validator import MultiTierValidator
 from vali_utils.deterministic_consensus import DeterministicConsensus
 
 load_dotenv()
-# Temporary solution to getting rid of annoying bittensor trace logs
+# Filter annoying bittensor trace logs
 original_trace = bt.logging.trace
-
 
 def filtered_trace(message, *args, **kwargs):
     if "Unexpected header key encountered" not in message:
         original_trace(message, *args, **kwargs)
 
+bt.logging.trace = filtered_trace
 
-bt.logging.trace = filtered_trace 
-
-# Filter out the specific deprecation warning from datetime.utcnow()
+# Filter deprecation warning and import datetime
 warnings.filterwarnings(
     "ignore",
     category=DeprecationWarning,
     message="datetime.datetime.utcnow() is deprecated"
 )
-# import datetime after the warning filter
 import datetime as dt
 from datetime import datetime, timezone
 
-bt.logging.set_trace(True)  # TODO remove it in future
+bt.logging.set_trace(True)
 
 
 class Validator:
@@ -213,27 +200,36 @@ class Validator:
         """
         Validate proxy configuration for production validators
         
-        Validators need proxies for Tier 3 spot-check validation to avoid IP bans
+        Validators can use proxies for Tier 3 spot-check validation to avoid IP bans
         from real estate websites during scraping verification.
         """
-        # For mainnet (netuid 13), require proxy configuration
-        if self.config.netuid == 13:  # Mainnet
-            if not hasattr(self.config, 'proxy_url') or not self.config.proxy_url:
-                bt.logging.error("❌ PROXY REQUIRED: Mainnet validators must configure proxy for spot-check validation")
-                bt.logging.error("   Add: --proxy_url http://username:password@proxy-server:port")
-                bt.logging.error("   Recommended: Webshare.io Rotating Residential Proxies")
-                bt.logging.error("   Plan: 100GB+ for reliable spot-checking")
-                raise ValueError("Proxy configuration required for mainnet validators")
+        # Check if proxy is configured
+        has_proxy = hasattr(self.config, 'proxy_url') and self.config.proxy_url
+        has_scrapingbee = hasattr(self.config, 'use_scrapingbee') and self.config.use_scrapingbee
+        
+        # For mainnet (netuid 46), strongly recommend proxy or ScrapingBee
+        if self.config.netuid == 46:  # Mainnet
+            if not has_proxy and not has_scrapingbee:
+                bt.logging.warning("⚠️  NO PROXY CONFIGURED: Scraping without proxy may result in IP bans and rate limits")
+                bt.logging.warning("   Recommended options:")
+                bt.logging.warning("   1. Add proxy: --proxy_url http://username:password@proxy-server:port")
+                bt.logging.warning("   2. Use ScrapingBee: --use_scrapingbee (requires SCRAPINGBEE_API_KEY env var)")
+                bt.logging.warning("   Recommended proxy: Webshare.io Rotating Residential Proxies (100GB+ plan)")
+                bt.logging.warning("   Continuing without proxy - spot-check validation may be unreliable")
+            elif has_scrapingbee:
+                bt.logging.success(f"✅ ScrapingBee configured for scraping")
+            elif has_proxy:
+                bt.logging.success(f"✅ Proxy configured: {self.config.proxy_url.split('@')[-1] if '@' in self.config.proxy_url else self.config.proxy_url}")
             
-            bt.logging.success(f"✅ Proxy configured: {self.config.proxy_url.split('@')[-1] if '@' in self.config.proxy_url else self.config.proxy_url}")
-            
-        # For testnet, proxy is optional but recommended
+        # For testnet, proxy is optional
         elif self.config.netuid == 428:  # Testnet
-            if hasattr(self.config, 'proxy_url') and self.config.proxy_url:
+            if has_scrapingbee:
+                bt.logging.info(f"🔄 Testnet ScrapingBee configured")
+            elif has_proxy:
                 bt.logging.info(f"🔄 Testnet proxy configured: {self.config.proxy_url.split('@')[-1] if '@' in self.config.proxy_url else self.config.proxy_url}")
             else:
-                bt.logging.warning("⚠️  No proxy configured for testnet - may encounter rate limits during spot-checks")
-                bt.logging.info("   Consider adding: --proxy_url for production-like testing")
+                bt.logging.info("ℹ️  No proxy configured for testnet - direct scraping will be attempted")
+                bt.logging.info("   Consider adding: --proxy_url or --use_scrapingbee for production-like testing")
 
     def _configure_scraper_proxy(self):
         """
@@ -325,7 +321,6 @@ class Validator:
         # Getting latest dynamic lookup
         self.get_updated_lookup()
 
-        # TODO: Configure this to expose access to data to neurons on certain subnets.
         # Serve axon to enable external connections.
         if not self.config.neuron.axon_off:
             self.serve_axon()

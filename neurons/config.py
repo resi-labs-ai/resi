@@ -37,7 +37,7 @@ def check_config(config: bt.config):
 
     full_path = os.path.expanduser(
         "{}/{}/{}/netuid{}/{}".format(
-            config.logging.logging_dir,  # TODO: change from ~/.bittensor/miners to ~/.bittensor/neurons
+            config.logging.logging_dir,
             config.wallet.name,
             config.wallet.hotkey,
             config.netuid,
@@ -140,11 +140,11 @@ def add_args(neuron_type: NeuronType, parser):
         default=None,  # Auto-configured based on netuid
     )
     
-    # Proxy configuration for validators (required for spot-check validation)
+    # Proxy configuration for validators (optional but recommended for spot-check validation)
     parser.add_argument(
         "--proxy_url",
         type=str,
-        help="HTTP/HTTPS proxy URL for validator spot-check scraping (REQUIRED for production)",
+        help="HTTP/HTTPS proxy URL for validator spot-check scraping (Optional but recommended to avoid IP bans)",
         default=None,
     )
     
@@ -352,7 +352,7 @@ def create_config(neuron_type: NeuronType):
     if not hasattr(config, 'vpermit_rao_limit') or config.vpermit_rao_limit == 10_000:
         # Only override if using the default value
         network = getattr(config.subtensor, 'network', 'finney')
-        netuid = getattr(config, 'netuid', 13)
+        netuid = getattr(config, 'netuid', 46)
         config.vpermit_rao_limit = get_vpermit_rao_limit_default(netuid, network)
 
     return config
