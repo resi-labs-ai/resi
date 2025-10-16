@@ -12,7 +12,6 @@ Miners collect real estate data and serve it to validators for verification. The
 The Miner stores all scraped property data in a local SQLite database and serves data to validators via Bittensor protocol.
 
 ### Miner Requirements:
-To run a miner on this subnet, you will need the following specifications: 
 - **CPU**: 2 cores
 - **RAM**: 4 GB
 - **Storage**: 250 GB free space
@@ -20,7 +19,6 @@ To run a miner on this subnet, you will need the following specifications:
 
 
 ### Prerequisites:
-
 1. **Python >= 3.10** and virtual environment setup
 2. **Bittensor wallet** with registered hotkey
 3. **Custom scraper implementation** (see scraping/custom/ for examples)
