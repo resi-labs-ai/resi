@@ -15,14 +15,7 @@
 
 ---
 
-# **CRITICAL: MINER REQUIREMENTS**
 
-## **What Miners Must Do:**
-- **Custom Scrapers Required**: Miners must build and maintain their own data collection systems
-- **New Data Schema**: Comprehensive property data structure focused on sold properties from last 3 years (2022-2025)
-- **Any Data Source Welcome**: Use Zillow, Redfin, county assessors, MLS, public records, or any accessible source but do note what validators will be rewarding
-- **Performance-Based Rewards**: Evaluation based on data completeness, quality, AND submission quantity
-- **Zero Tolerance Policy**: No synthetic data or duplicates accepted
 
 ## **What Stays the Same:**
 - **✓ S3 Infrastructure**: Existing upload and authentication process unchanged
