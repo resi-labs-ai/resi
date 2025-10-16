@@ -1,4 +1,5 @@
 # Miner
+## Overview
 
 Miners collect real estate data and serve it to validators for verification. The miner implements scraping solutions to collect property data and serves this data through Bittensor's axon protocol to validators for scoring and validation.
 
@@ -10,59 +11,44 @@ Miners collect real estate data and serve it to validators for verification. The
 
 The Miner stores all scraped property data in a local SQLite database and serves data to validators via Bittensor protocol.
 
-# System Requirements
+### Miner Requirements:
+To run a miner on this subnet, you will need the following specifications: 
+- **CPU**: 2 cores
+- **RAM**: 4 GB
+- **Storage**: 250 GB free space
+- **Network**: Stable internet connection with sufficient bandwidth
 
-Miners do not require a GPU and should be able to run on a low-tier machine, as long as it has sufficient network bandwidth and disk space. Must have python >= 3.10.
 
-# Getting Started
-
-## Network Selection
-
-### Testnet (Subnet 428) - Recommended for Testing
-Testnet is perfect for:
-- Testing your setup without real TAO costs
-- Learning how the system works
-- Validating your configuration
-- Development and debugging
-
-**Key Features:**
-- **Faster S3 Uploads**: Every 5 minutes (vs 2 hours on mainnet)
-- **Auto-configured endpoints**: Automatically uses testnet S3 auth service
-- **Lower stakes**: Test environment with no financial risk
-
-### Mainnet (Subnet 46) - Production Environment
-Mainnet for production mining:
-- Real TAO rewards based on data quality
-- Production-grade requirements
-- Standard 2-hour S3 upload frequency
-- Full network participation
-
-## Prerequisites
+### Prerequisites:
 
 1. **Python >= 3.10** and virtual environment setup
 2. **Bittensor wallet** with registered hotkey
 3. **Custom scraper implementation** (see scraping/custom/ for examples)
 4. **Network registration** on chosen subnet
 
-### Installation
+
+## Installation
 
 ```shell
+# Clone the repository
+git clone https://github.com/resi-labs-ai/resi.git
+cd resi
+
 # Setup virtual environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -e .
-
-# Verify installation
-python -c "import bittensor as bt; print('Bittensor installed successfully')"
 ```
+
 
 ## Running the Miner
 
 ### Manual Setup
 
-**Step 1: Register on Network (if needed)**
+**Step 1: Register Miner (if needed).**
+*For installation of btcli, [use this guide](https://github.com/opentensor/bittensor/blob/master/README.md#install-bittensor-sdk)*
 ```shell
 # Testnet registration
 btcli subnet register --netuid 428 --subtensor.network test \
@@ -72,10 +58,16 @@ btcli subnet register --netuid 428 --subtensor.network test \
 btcli subnet register --netuid 46 --subtensor.network finney \
     --wallet.name your_mainnet_wallet --wallet.hotkey your_mainnet_hotkey
 ```
+**Step 2: Configure Environment Variables**
 
-**Step 2: Start Mining**
+Configure your `.env` file (example `.env` provided)
 
-Use [pm2](https://pm2.keymetrics.io/) to manage the Miner process for automatic restarts.
+**Step 3: Install pm2 (if not already installed)**
+```bash
+npm install -g pm2
+```
+
+**Step 4: Start Mining**
 
 **Testnet Mining:**
 ```shell
@@ -98,8 +90,8 @@ pm2 start python --name mainnet-miner -- ./neurons/miner.py \
     --wallet.hotkey your_mainnet_hotkey \
     --logging.debug
 ```
-
-# Configuring the Miner
+---
+## Configuring the Miner
 
 ## Available Flags
 
@@ -146,11 +138,10 @@ Example configuration structure:
 
 All scraped data is stored locally in a SQLite database and optionally uploaded to S3 for public access.
 
-# Monitoring and Management
+---
+## Monitoring and Management
 
 ## Basic Monitoring
-
-### Check Miner Status
 ```shell
 # Check PM2 process status
 pm2 status
@@ -196,3 +187,29 @@ python tools/check_miner_storage.py --help
 - Confirm firewall allows Bittensor ports
 - Check internet connectivity
 - Verify wallet has sufficient balance for transactions
+
+---
+## Network Information
+
+### Testnet (Subnet 428) - Recommended for Testing
+Testnet is perfect for:
+- Testing your setup without real TAO costs
+- Learning how the system works
+- Validating your configuration
+- Development and debugging
+
+**Key Features:**
+- **Faster S3 Uploads**: Every 5 minutes (vs 2 hours on mainnet)
+- **Auto-configured endpoints**: Automatically uses testnet S3 auth service
+- **Lower stakes**: Test environment with no financial risk
+
+### Mainnet (Subnet 46) - Production Environment
+Mainnet for production mining:
+- Real TAO rewards based on data quality
+- Production-grade requirements
+- Standard 2-hour S3 upload frequency
+- Full network participation
+
+### Monitoring Miner Earnings
+To monitor miner earnings, you can use either: [https://taostats.io](https://taostats.io/subnets/46/) or [https://taomarketcap.com](https://taomarketcap.com/subnets/46/miners)
+
