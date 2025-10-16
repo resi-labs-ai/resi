@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Get Started](#get-started) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators) • [Documentation](#complete-setup-documentation)
+[Subnet Overview](#get-started) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators)
 
 </div>
 
@@ -379,42 +379,9 @@ The DataDesirabilityLookup and Prospector weightings will evolve over time, but 
 
 Data that's stored by many Miners is less valuable than data stored by only a few. The value of a piece of data is decreases proportional to the number of Miners storing it.
 
-## Miner Credibility
+### **For Miners:** {#for-miners-requirements}
+If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
 
-Validators remain suspicious of Miners and so they periodically check a sample of data from each Miner's MinerIndex, to verify the data correctness. The Validator uses these checks to track a Miner's credibility, which it then uses to scale a Miner's score. The scaling is done in such a way that it is **always** worse for a Miner to misrepresent what types and how much data it has.
-
-# Resi Labs Dashboard
-
-As you can see from the above, Resi Labs rewards diversity of data (storing 200 copies of the same data isn't exactly beneficial!)
-
-To help understand the current data on the Subnet, the Resi Labs team hosts a dashboard [Coming Soon](https://sn46-dashboard.ResiLabs.ai/), showing the amount of each type of data (by DataEntityBucketId) on the Subnet. Miners are strongly encouraged to use this dashboard to customize their [Miner Configuration](./docs/miner.md#configuring-the-miner), to maximize their rewards.
-
-# Use Cases
-
-subnet 46, Resi Labs, has a range of use-cases:
-
-- Low-cost data-scraping that undercuts centralized and decentralized alternatives.
-- Aid in market research in any industry by collecting social media results on pressing topics.
-- Help boost the accuracy of predictive tools by injecting them with freshly scraped social media data.
-- Understand global online sentiment on any topic, to help inform businesses on their goals.
-- Track sports analytics on social media (used by Subnet 44, Score).
-- Forecast performance of assets (used by Subnet 64, Chutes, via Squad.ai).
-
-Resi Labs's potential is extensive, as anybody can use it to build datasets on whatever topics are meaningful to them. By tapping into Bittensor's miner and validator communities, people can access data scraping and analysis at a fast and affordable rate.
-
-
-# Get Started
-
-### **Network Options:**
-- **Testnet (Subnet 428)**: Perfect for testing new custom scrapers
-- **Mainnet (Subnet 46)**: Production environment with real TAO rewards
-
-Ready for serious validators and miners:
-- 2-hour S3 upload cycles for production efficiency
-- Full economic participation in the network
-
-### **For Miners:**
-- **[Miner Guide](docs/miner.md)** - **DEPRECATED**: Old version reference only
 - **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
 - **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
 - **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
@@ -426,20 +393,14 @@ Ready for serious validators and miners:
 - **Real Estate Data Validation** - Specialized property data verification
 - **Cross-validation Logic** - Compare results with other validators
 - **Performance Monitoring** - Track validation success rates and API usage
+---
+## Resi Labs Dashboard
 
-## **Advanced Configuration:**
-- **[PM2 Startup Guide](./docs/pm2_startup_guide.md)** - Complete PM2 process management reference
-- **[Testing Guide](./docs/testing_guide.md)** - Run comprehensive test suites locally
-- **[Dynamic Desirability](./docs/dynamic_desirability.md)** - Understand geographic prioritization system
+As you can see above, Resi Labs rewards diversity of data (storing 200 copies of the same data isn't exactly beneficial!)
+
+To help understand the current data on the Subnet, the Resi Labs team plans to host a dashboard [(Coming Soon)](https://sn46-dashboard.ResiLabs.ai/), showing the amount of each type of data (by DataEntityBucketId) on the Subnet. Miners will be strongly encouraged to use this dashboard to customize their [Miner Configuration](./docs/miner.md#configuring-the-miner), to maximize their rewards.
 
 ---
-
-# Upcoming Features
-
-1. Private storage
-2. More datasources feel free to add by yourself in [this repo](https://github.com/macrocosm-os/scrapers)! 
-3. Youtube multilanguage support
-
 # Terminology
 
 **DataEntity:** A single "item" of data collected by a Miner. Each DataEntity has a URI, that the Validators can use to retrieve the item from its DataSource.
