@@ -85,36 +85,28 @@ This creates a **real-time national database** that serves as the foundational i
 - **No Official Support**: ResiLabs will not provide scraper development assistance
 - **Validation Method**: Validators access Zillow directly to cross-check submissions for verification
 
-### **Legal Concerns (if any):**
-For those that may be concerned with the practice of scraping data please be assured that we have consulted with our legal team regarding the validity of this practice. The standing case law points to scraping of openly accessible data on the internet as **LEGAL**. In the event of manipulating logins or paywalls, this is where liability is a cause for concern. 
-
-The landmark [hiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn) case (2019) established that scraping publicly available data is legal under U.S. law. While scraping may violate Terms of Service and result in IP blocking, it cannot result in legal action against users for collecting public information not behind paywalls or login requirements.
-
 ---
 ### Three-Repository Architecture
 
 Our implementation consists of three specialized repositories:
 
-1. **[resi](https://github.com/resi-labs-ai/resi)** *(This repo)*
+1. **[resi](https://github.com/resi-labs-ai/resi)** *(this repo)* - **Core Logic**
    - Core miner and validator logic adapted for real estate data
    - Property-specific validation mechanisms
    - Real estate market-focused incentive structures
 
-2. **[resi-labs-api](https://github.com/resi-labs-ai/resi-labs-api)**
+2. **[resi-labs-api](https://github.com/resi-labs-ai/resi-labs-api)** - **S3 API Server**: Handles authentication and AWS storage access
+
    - S3 authentication server for miners and validators
    - AWS access token distribution system
    - API endpoints for data access and validation
 
-3. **[prospector](https://github.com/resi-labs-ai/prospector)**
+3. **[prospector](https://github.com/resi-labs-ai/prospector)** - **Prospector System**: JSON-based incentive weighting for geographic prioritization
+
    - JSON-based incentive weighting system (Real Estate Dynamic Desirability)
    - Geographic prioritization with 7,572+ US zipcode coverage
    - Zipcode-based market prioritization weighted by market size and value
 
-**Key adaptations for real estate:**
-- Specialized data sources (Zillow, county assessors, MLS feeds, public records)
-- Geographic incentive weighting through Prospector system
-- Property-specific validation mechanisms
-- Zipcode-based market prioritization for maximum market impact
 
 ## Production Status
 - **✓ S3 API Infrastructure** - Fully operational authentication and storage system
@@ -123,12 +115,6 @@ Our implementation consists of three specialized repositories:
 - **✓ Szill-based Zillow Scraper** - Primary validator data source implemented and tested
 - **✓ Real Data Validation** - Comprehensive testing with 328+ real properties
 - **✓ Field Subset Validation** - Handles API differences between miner and validator data sources
-
-## Architecture Overview
-RESI operates through a **three-repository system**:
-- **Core Logic** (this repo): Miners and validators adapted for real estate data
-- **S3 API Server**: Handles authentication and AWS storage access
-- **Prospector System**: JSON-based incentive weighting for geographic prioritization
 
 ## Scale & Vision
 RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
@@ -251,6 +237,12 @@ To help understand the current data on the Subnet, the Resi Labs team plans to h
 **Subnet 46 (RESI) is built upon the proven architecture of [Subnet 13: Data Universe](https://github.com/macrocosm-os/data-universe) by Macrocosmos.com.**
 
 We extend our sincere gratitude to the Macrocosmos team, particularly [Arrmlet](https://github.com/Arrmlet) and [ewekazoo](https://github.com/ewekazoo), for creating the robust, scalable data collection and validation framework that serves as our foundation. Their pioneering work on decentralized data collection, consensus mechanisms, and anti-gaming protections has enabled us to focus on real estate specialization rather than rebuilding core infrastructure.
+
+---
+### **Legal Disclaimer:**
+For those that may be concerned with the practice of scraping data please be assured that we have consulted with our legal team regarding the validity of this practice. The standing case law points to scraping of openly accessible data on the internet as **LEGAL**. In the event of manipulating logins or paywalls, this is where liability is a cause for concern. 
+
+The landmark [hiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn) case (2019) established that scraping publicly available data is legal under U.S. law. While scraping may violate Terms of Service and result in IP blocking, it cannot result in legal action against users for collecting public information not behind paywalls or login requirements.
 
 ---
 ## Contact and Support
