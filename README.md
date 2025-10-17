@@ -41,24 +41,11 @@ We're opening Pandora's box on real estate data by enabling miners to collect fr
 
 This creates a **real-time national database** that serves as the foundational infrastructure for highly profitable and scalable real estate solutions across all sectors. Unlike corporate data silos that price out innovation, our decentralized approach enables AI applications impossible for any single company to build.
 
----
 **The Vision**: Start with 150M+ properties in the USA, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
 
+---
 ## Scale & Vision
 RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
-
----
-## **What Stays the Same:**
-- **✓ S3 Infrastructure**: Existing upload and authentication process unchanged
-  - We are exploring the use of Hippius by SN75 as an S3 replacement, but this will not affect incentive mechanism
-- **✓ Validator System**: Same validation logic with new data verification methods
-
-## **Why This Approach:**
-- **Scalability & Cost Optimization**: Validators access Zillow directly for validation while reducing operational costs
-- **Innovation Incentive**: Rewards miners who develop creative, efficient data collection methods  
-- **Data Diversity**: Multiple sources create more robust, comprehensive property database - miners free to use ANY accessible source
-- **Rapid Data Collection**: We're playing catchup and need comprehensive data coverage across the entire country
-- **True Decentralization**: Removes dependency on single data source or provider
 
 ---
 ### Three-Repository Architecture
@@ -81,20 +68,6 @@ Our implementation consists of three specialized repositories:
    - JSON-based incentive weighting system (Real Estate Dynamic Desirability)
    - Geographic prioritization with 7,572+ US zipcode coverage
    - Zipcode-based market prioritization weighted by market size and value
-
-## **What Makes RESI Production-Ready:**
-
-### **Complete System Integration**
-- **Real Data Validation**: Tested with 328+ actual Zillow properties
-- **Field Subset Validation**: Handles API differences between miner and validator data sources  
-- **100% Success Rate**: Comprehensive testing suite validates all components
-- **S3 Upload Performance**: 6,000+ files/sec upload capability
-
-### **Production Infrastructure**
-- **Automated S3 Configuration**: Auto-detects testnet vs mainnet endpoints
-- **Robust Error Handling**: Graceful degradation under failure conditions
-- **Performance Monitoring**: Built-in metrics and validation success tracking
-- **Complete PM2 Integration**: Production-ready process management
 
 ---
 ### **For Miners:**
