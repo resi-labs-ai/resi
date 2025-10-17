@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Subnet Overview](#Overview) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators)
+[Subnet Overview](#Overview) • [For Miners](#for-miners) • [For Validators](#for-validators)
 
 </div>
 
@@ -17,12 +17,6 @@
 # Overview
 
 Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
-
----
-## Introduction
-As a miner on ResiLabs Subnets, you play a crucial role in handling various types of data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data, and the expectations regarding prohibited content and acceptable use of ResiLabs subnet code.
-We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in ResiLabs seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
-Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. ResiLabs is available to provide informal guidance if required (see contact information below).
 
 ---
 ## **What Stays the Same:**
