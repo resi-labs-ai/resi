@@ -19,35 +19,6 @@
 Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
 
 ---
-## The Problem: Price Barriers, Data Fragmentation, and Restrictive Terms Lock Out Innovation
-
-Real estate data is the lifeblood of a $45 trillion industry, yet it's trapped behind three critical barriers:
-
-**1. Prohibitive Pricing**: Base-level access to comprehensive real estate databases come with unjustifiable costs to the tune of $250K+ per year per customer.
-
-**2. Data Fragmentation**: Critical property information is scattered across thousands of county assessors, MLS systems, and tens of proprietary databases, requiring separate expensive contracts for each source.
-
-**3. Restrictive Terms**: Data providers use licensing terms that prevent AI companies like ChatGPT, Claude, and Grok from training on this data, protecting monopolistic moats while stifling innovation.
-
-The result? Small businesses, researchers, and developers are completely priced out, while even well-funded AI companies can't access the data needed to build transformative real estate intelligence applications.
-
-## Our Solution: Open Source, Real-Time, Decentralized Intelligence
-
-**RESI creates the first open, real-time, national real estate database powered by decentralized intelligence.**
-
-*The Thesis: By creating an ecosystem that continuously learns from miner scraping, user data inputs, and behavior, products on RESI will ultimately build collective real estate super intelligence that drastically outperforms all closed systems.*
-
-We're opening Pandora's box on real estate data by enabling miners to collect from any accessible source - Zillow, county assessors, thousands of public records, and even consumer behavior - then making it accessible through modern APIs with field-level confidence tracking and temporal decay algorithms.
-
-This creates a **real-time national database** that serves as the foundational infrastructure for highly profitable and scalable real estate solutions across all sectors. Unlike corporate data silos that price out innovation, our decentralized approach enables AI applications impossible for any single company to build.
-
-**The Vision**: Start with 150M+ properties in the USA, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
-
----
-## Scale & Vision
-RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
-
----
 ### Three-Repository Architecture
 
 Our implementation consists of three specialized repositories:
