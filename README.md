@@ -205,7 +205,6 @@ Unlike existing solutions, RESI:
 - **Enterprise partnerships**: White-label solutions for large organizations
 - **Training marketplace**: Miners offer specialized AI training services using RESI data
 
----
 ### **For Miners:**
 If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
 
