@@ -56,35 +56,6 @@ This creates a **real-time national database** that serves as the foundational i
 - **Rapid Data Collection**: We're playing catchup and need comprehensive data coverage across the entire country
 - **True Decentralization**: Removes dependency on single data source or provider
 
-### **Required Actions**
-1. **Build Custom Data Collection System**
-   - Use ANY accessible data source (Zillow, Redfin, county records, MLS, public records, etc.)
-   - Focus on properties sold in last 3 years (2022-2025)
-   - Implement comprehensive property data schema
-
-2. **Schema Compliance**
-   - Required fields MUST be present for validation property matching
-   - Follow structure in `docs/miner-realestate-data-structure.json`
-   - See complete example: `docs/example-complete-property-data.json`
-
-3. **Modify Existing Miner Code**
-   - Keep S3 upload functionality intact
-   - Replace data collection logic with your custom implementation
-   - Maintain same authentication and storage processes
-
-### **Evaluation Criteria**
-- **Data Completeness**: Number of schema fields populated
-- **Data Quality**: Accuracy verified when validators cross-check against Zillow
-- **Submission Quantify**: Faster data collection rewarded
-- **Comprehensive Coverage**: Priority on pulling data from everywhere - we're playing catchup across the entire country
-- **Zipcode Coverage**: Miners will be requested to collect ALL sold listings for specific zipcodes
-- **No Tolerance**: Synthetic data or duplicates result in penalties
-
-### **Support & Resources**
-- **Community Support**: Available in Bittensor Discord channel and RESI Discord
-- **No Official Support**: ResiLabs will not provide scraper development assistance
-- **Validation Method**: Validators access Zillow directly to cross-check submissions for verification
-
 ---
 ### Three-Repository Architecture
 
@@ -131,6 +102,30 @@ If you're a miner looking to contribute to our subnet, please refer to the [Mine
 - **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
 - **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
 - **Custom Scraper Development** - REQUIRED: Build your own data collection system
+
+### **Required Actions**
+1. **Build Custom Data Collection System**
+   - Use ANY accessible data source (Zillow, Redfin, county records, MLS, public records, etc.)
+   - Focus on properties sold in last 3 years (2022-2025)
+   - Implement comprehensive property data schema
+
+2. **Schema Compliance**
+   - Required fields MUST be present for validation property matching
+   - Follow structure in `docs/miner-realestate-data-structure.json`
+   - See complete example: `docs/example-complete-property-data.json`
+
+3. **Modify Existing Miner Code**
+   - Keep S3 upload functionality intact
+   - Replace data collection logic with your custom implementation
+   - Maintain same authentication and storage processes
+
+### **Evaluation Criteria**
+- **Data Completeness**: Number of schema fields populated
+- **Data Quality**: Accuracy verified when validators cross-check against Zillow
+- **Submission Quantify**: Faster data collection rewarded
+- **Comprehensive Coverage**: Priority on pulling data from everywhere - we're playing catchup across the entire country
+- **Zipcode Coverage**: Miners will be requested to collect ALL sold listings for specific zipcodes
+- **No Tolerance**: Synthetic data or duplicates result in penalties
 
 ### **For Validators:**
 - **[Validator Guide](docs/validator.md)** - Full validation setup
