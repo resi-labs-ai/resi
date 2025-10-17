@@ -107,15 +107,6 @@ Our implementation consists of three specialized repositories:
    - Geographic prioritization with 7,572+ US zipcode coverage
    - Zipcode-based market prioritization weighted by market size and value
 
-
-## Production Status
-- **✓ S3 API Infrastructure** - Fully operational authentication and storage system
-- **✓ Prospector Incentive System** - Geographic prioritization with 7,572+ US zipcode coverage
-- **✓ Core Mining/Validation Logic** - Complete and production-ready (adapted from Subnet 13)
-- **✓ Szill-based Zillow Scraper** - Primary validator data source implemented and tested
-- **✓ Real Data Validation** - Comprehensive testing with 328+ real properties
-- **✓ Field Subset Validation** - Handles API differences between miner and validator data sources
-
 ## Scale & Vision
 RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
 
@@ -132,12 +123,6 @@ RESI now supports **150+ Million US properties** across miners and validators, w
 - **Robust Error Handling**: Graceful degradation under failure conditions
 - **Performance Monitoring**: Built-in metrics and validation success tracking
 - **Complete PM2 Integration**: Production-ready process management
-
-### **Developer Experience**
-- **Comprehensive Documentation**: Complete setup guides with all required flags
-- **Real-World Testing**: Integration tests using actual property data
-- **Troubleshooting Guides**: Common issues and solutions documented
-- **Multiple Network Support**: Seamless testnet-to-mainnet migration
 
 ### **For Miners:**
 If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
