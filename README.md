@@ -9,14 +9,22 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Subnet Overview](#get-started) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators)
+[Subnet Overview](#Overview) • [For Miners](#for-miners-requirements) • [For Validators](#for-validators)
 
 </div>
 
 ---
+# Overview
 
+Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
 
+---
+## Introduction
+As a miner on ResiLabs Subnets, you play a crucial role in handling various types of data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data, and the expectations regarding prohibited content and acceptable use of ResiLabs subnet code.
+We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in ResiLabs seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
+Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. ResiLabs is available to provide informal guidance if required (see contact information below).
 
+---
 ## **What Stays the Same:**
 - **✓ S3 Infrastructure**: Existing upload and authentication process unchanged
   - We are exploring the use of Hippius by SN75 as an S3 replacement, but this will not affect incentive mechanism
@@ -63,16 +71,7 @@ For those that may be concerned with the practice of scraping data please be ass
 
 The landmark [hiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn) case (2019) established that scraping publicly available data is legal under U.S. law. While scraping may violate Terms of Service and result in IP blocking, it cannot result in legal action against users for collecting public information not behind paywalls or login requirements.
 
-**Happy scraping, let's fill up this database!**
-
 ---
-
-## Attribution & Technical Foundation
-
-**Subnet 46 (RESI) is built upon the proven architecture of [Subnet 13: Data Universe](https://github.com/macrocosm-os/data-universe) by Macrocosmos.com.**
-
-We extend our sincere gratitude to the Macrocosmos team, particularly [Arrmlet](https://github.com/Arrmlet) and [ewekazoo](https://github.com/ewekazoo), for creating the robust, scalable data collection and validation framework that serves as our foundation. Their pioneering work on decentralized data collection, consensus mechanisms, and anti-gaming protections has enabled us to focus on real estate specialization rather than rebuilding core infrastructure.
-
 ### Three-Repository Architecture
 
 Our implementation consists of three specialized repositories:
@@ -125,26 +124,6 @@ This creates a **real-time national database** that serves as the foundational i
 **The Vision**: Start with 150M+ properties in the USA, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
 
 ---
-
-# MUST READ: Miner Data Compliance Policy
-
-By participating as a miner on Subnet 46, you are agreeing to adhere to our [Miner Policy](docs/miner_policy.md) below. 
-<details>
-  <summary>
-    ResiLabs Miner Data Compliance Policy
-  </summary>
-
----
-
-*Version 1.0, March 2025*
-
----
-
-## Introduction
-As a miner on ResiLabs Subnets, you play a crucial role in handling various types of data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data, and the expectations regarding prohibited content and acceptable use of ResiLabs subnet code.
-We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in ResiLabs seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
-Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. ResiLabs is available to provide informal guidance if required (see contact information below).
-
 ## 1. Your Responsibilities Under UK GDPR
 While ResiLabs does not directly collect or process data, and seeks to avoid incentivising any collection or interaction with personal data, as a miner, you may be subject to GDPR obligations if your activities result in the inadvertent or accidental collection of personal data. We recommend that you put in place appropriate policies and procedures to accommodate this eventuality and set out below a summary of key responsibilities:
 1. Lawful Basis for Processing
@@ -225,10 +204,6 @@ ResiLabs is committed to supporting miners in understanding and meeting their GD
     - ResiLabs may share training materials and resources from time to time to help miners enhance their understanding of GDPR compliance.
 
 </details>
-
-# Introduction
-
-Subnet 46 (RESI) is a specialized real estate data collection network built by ResiLabs.ai. We're creating the world's largest open real estate database by adapting Subnet 13's proven decentralized data architecture for property-specific intelligence.
 
 ## Production Status
 - **✓ S3 API Infrastructure** - Fully operational authentication and storage system
@@ -372,7 +347,7 @@ The DataDesirabilityLookup and Prospector weightings will evolve over time, but 
 
 Data that's stored by many Miners is less valuable than data stored by only a few. The value of a piece of data is decreases proportional to the number of Miners storing it.
 
-### **For Miners:** {#for-miners-requirements}
+### **For Miners:**
 If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
 
 - **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
@@ -410,5 +385,13 @@ To help understand the current data on the Subnet, the Resi Labs team plans to h
 
 **Miner Index**: A summary of how much and what types of data a Miner has. Specifically, it's a list of DataEntityBuckets.
 
+---
+## Attribution & Technical Foundation
+
+**Subnet 46 (RESI) is built upon the proven architecture of [Subnet 13: Data Universe](https://github.com/macrocosm-os/data-universe) by Macrocosmos.com.**
+
+We extend our sincere gratitude to the Macrocosmos team, particularly [Arrmlet](https://github.com/Arrmlet) and [ewekazoo](https://github.com/ewekazoo), for creating the robust, scalable data collection and validation framework that serves as our foundation. Their pioneering work on decentralized data collection, consensus mechanisms, and anti-gaming protections has enabled us to focus on real estate specialization rather than rebuilding core infrastructure.
+
+---
 ## Contact and Support
 Feel free to reach out for any questions or support in the [RESI Subnet Channel](https://discord.com/channels/799672011265015819/1397618038894759956) in the Official Bittensor Discord Server

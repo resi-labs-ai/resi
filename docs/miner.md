@@ -211,3 +211,17 @@ Mainnet for production mining:
 ### Monitoring Miner Earnings
 To monitor miner earnings, you can use either: [https://taostats.io](https://taostats.io/subnets/46/) or [https://taomarketcap.com](https://taomarketcap.com/subnets/46/miners)
 
+---
+## IMPORTANT: Miner Data Compliance Policy
+
+By participating as a miner on Subnet 46, you are agreeing to adhere to our [Miner Policy](docs/miner_policy.md) below. 
+<details>
+  <summary>
+    ResiLabs Miner Data Compliance Policy
+  </summary>
+
+---
+
+*Version 1.0, March 2025*
+
+---
