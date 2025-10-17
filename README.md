@@ -41,7 +41,11 @@ We're opening Pandora's box on real estate data by enabling miners to collect fr
 
 This creates a **real-time national database** that serves as the foundational infrastructure for highly profitable and scalable real estate solutions across all sectors. Unlike corporate data silos that price out innovation, our decentralized approach enables AI applications impossible for any single company to build.
 
+---
 **The Vision**: Start with 150M+ properties in the USA, then scale globally to create the world's most comprehensive open real estate intelligence network that powers the next generation of PropTech innovation.
+
+## Scale & Vision
+RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
 
 ---
 ## **What Stays the Same:**
@@ -78,9 +82,6 @@ Our implementation consists of three specialized repositories:
    - Geographic prioritization with 7,572+ US zipcode coverage
    - Zipcode-based market prioritization weighted by market size and value
 
-## Scale & Vision
-RESI now supports **150+ Million US properties** across miners and validators, with production-ready infrastructure requiring only ~10GB validator storage. The decentralized architecture ensures no single entity controls the data - it's distributed across miners and queryable through validators, creating the foundation for a truly open real estate intelligence network.
-
 ## **What Makes RESI Production-Ready:**
 
 ### **Complete System Integration**
@@ -95,6 +96,7 @@ RESI now supports **150+ Million US properties** across miners and validators, w
 - **Performance Monitoring**: Built-in metrics and validation success tracking
 - **Complete PM2 Integration**: Production-ready process management
 
+---
 ### **For Miners:**
 If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
 
@@ -127,6 +129,7 @@ If you're a miner looking to contribute to our subnet, please refer to the [Mine
 - **Zipcode Coverage**: Miners will be requested to collect ALL sold listings for specific zipcodes
 - **No Tolerance**: Synthetic data or duplicates result in penalties
 
+---
 ### **For Validators:**
 - **[Validator Guide](docs/validator.md)** - Full validation setup
 - **[Proxy Configuration Guide](docs/PROXY_CONFIGURATION.md)** - **REQUIRED for Mainnet**: Proxy setup for reliable validation
