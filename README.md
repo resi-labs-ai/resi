@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Bittensor](https://img.shields.io/badge/Powered%20by-Bittensor-purple.svg)](https://bittensor.com)
 
-[Subnet Overview](#Overview) • [For Miners](#for-miners) • [For Validators](#for-validators)
+[Subnet Overview](#overview) • [For Miners](#for-miners) • [For Validators](#for-validators)
 
 </div>
 
@@ -153,6 +153,22 @@ RESI now supports **150+ Million US properties** across miners and validators, w
 - **Troubleshooting Guides**: Common issues and solutions documented
 - **Multiple Network Support**: Seamless testnet-to-mainnet migration
 
+### **For Miners:**
+If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
+
+- **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
+- **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
+- **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
+- **Custom Scraper Development** - REQUIRED: Build your own data collection system
+
+### **For Validators:**
+- **[Validator Guide](docs/validator.md)** - Full validation setup
+- **[Proxy Configuration Guide](docs/PROXY_CONFIGURATION.md)** - **REQUIRED for Mainnet**: Proxy setup for reliable validation
+- **Real Estate Data Validation** - Specialized property data verification
+- **Cross-validation Logic** - Compare results with other validators
+- **Performance Monitoring** - Track validation success rates and API usage
+
+---
 # Product Roadmap
 
 ResiLabs will launch its own products built with subnet 46:
@@ -205,20 +221,6 @@ Unlike existing solutions, RESI:
 - **Enterprise partnerships**: White-label solutions for large organizations
 - **Training marketplace**: Miners offer specialized AI training services using RESI data
 
-### **For Miners:**
-If you're a miner looking to contribute to our subnet, please refer to the [Miner Setup Guide](docs/miner.md) to get you started
-
-- **[New Data Schema Requirements](docs/miner-realestate-data-structure.json)** - REQUIRED: Property data structure (on `miner-todo` branch)
-- **[Complete Data Example](docs/example-complete-property-data.json)** - REQUIRED: Full schema example (on `miner-todo` branch)
-- **✓ S3 Upload Configuration** - UNCHANGED: Same cloud storage authentication
-- **Custom Scraper Development** - REQUIRED: Build your own data collection system
-
-### **For Validators:**
-- **[Validator Guide](docs/validator.md)** - Full validation setup
-- **[Proxy Configuration Guide](docs/PROXY_CONFIGURATION.md)** - **REQUIRED for Mainnet**: Proxy setup for reliable validation
-- **Real Estate Data Validation** - Specialized property data verification
-- **Cross-validation Logic** - Compare results with other validators
-- **Performance Monitoring** - Track validation success rates and API usage
 ---
 ## Resi Labs Dashboard
 
