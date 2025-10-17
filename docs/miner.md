@@ -213,14 +213,8 @@ Mainnet for production mining:
 To monitor miner earnings, you can use either: [https://taostats.io](https://taostats.io/subnets/46/) or [https://taomarketcap.com](https://taomarketcap.com/subnets/46/miners)
 
 ---
-<a name="compliance1"></a>
-## IMPORTANT: Miner Data Compliance Policy
-
-As a miner on ResiLabs Subnets, you play a crucial role in handling various types of data. This summary outlines your potential obligations under the UK General Data Protection Regulation (UK GDPR) should you inadvertently collect personal data, and the expectations regarding prohibited content and acceptable use of ResiLabs subnet code.
-We expect any participant (however they may define themselves or their involvement) in our subnet ecosystems to adhere to the guidelines set out in this policy. Deliberate and consistent violation of these guidelines may result in ResiLabs seeking to limit your ability to participate, support for your participation and/or your incentive rewards.
-Miners and all other participants are responsible for their own legal and regulatory compliance procedures and are encouraged to seek advice if in any doubt as to how to proceed. ResiLabs is available to provide informal guidance if required (see contact information below).
-
-By participating as a miner on Subnet 46, you are agreeing to adhere to our [Miner Policy](docs/miner_policy.md) below. 
+## Compliance & Miner Policy
+By participating as a miner on Subnet 46, you are agreeing to adhere to our [Miner Policy](miner_policy.md) below. 
 <details>
   <summary>
     ResiLabs Miner Data Compliance Policy
