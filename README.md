@@ -189,14 +189,6 @@ ResiLabs is committed to supporting miners in understanding and meeting their GD
     - Practical answers to common GDPR compliance questions:
     - [GDPR FAQs from the European Data Protection Board](https://edpb.europa.eu/our-work-tools/our-documents/faqs_en)
 
-## **Support from ResiLabs**
-1. Regular Updates and Communication
-    - ResiLabs will provide updates on GDPR-related requirements and best practices through periodic communications.
-2. Consultation Support
-    - If miners have specific questions or require clarification on GDPR obligations, ResiLabs offers a support channel to address these concerns: compliance@ResiLabs.ai
-3. Training Materials
-    - ResiLabs may share training materials and resources from time to time to help miners enhance their understanding of GDPR compliance.
-
 </details>
 
 ## Production Status
