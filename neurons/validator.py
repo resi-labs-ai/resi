@@ -745,12 +745,41 @@ class Validator:
         # Replace any NaN values with 0.
         raw_weights = torch.nn.functional.normalize(scores, p=1, dim=0)
 
+        # Calculate what 75% of total weight would be
+        total_weight = raw_weights.sum().item()
+        burn_weight_portion = 0.75 * total_weight  # 75% goes to burn
+
+        # Create new weights array with burn entry
+        final_weights = torch.zeros(len(raw_weights) + 1, dtype=torch.float32)
+
+        # Set burn weight (75% of total)
+        final_weights[0] = burn_weight_portion
+
+        # Set miner weights (25% of original weights, proportionally distributed)
+        remaining_weight = total_weight - burn_weight_portion
+        if remaining_weight > 0:
+            # Scale down miner weights proportionally to fill remaining 25%
+            miner_weights = raw_weights * (remaining_weight / raw_weights.sum().item())
+            final_weights[1:] = miner_weights
+
+        # Create corresponding UIDs array with burn UID first
+        uids_np = np.array(self.metagraph.uids, dtype=np.int64)
+        final_uids = np.concatenate([[238], uids_np])
+
+        bt.logging.info(f"Burn applied: 75% of total weight ({burn_weight_portion".4f"}) redirected to UID 238")
+
+        # Extend credibilities to match (burn entry has no credibility)
+        extended_credibilities = torch.cat([torch.tensor([0.0]), credibilities.squeeze()])
+
+        # Use final weights instead of raw_weights for processing
+        raw_weights = final_weights
+
         # Process the raw weights to final_weights via subtensor limitations.
         (
             processed_weight_uids,
             processed_weights,
         ) = bt.utils.weight_utils.process_weights_for_netuid(
-            uids=torch.tensor(self.metagraph.uids, dtype=torch.int64).to("cpu"),
+            uids=torch.tensor(final_uids, dtype=torch.int64).to("cpu"),
             weights=raw_weights.detach().cpu().numpy().astype(np.float32),
             netuid=self.config.netuid,
             subtensor=self.subtensor,
@@ -770,12 +799,23 @@ class Validator:
             uids_and_weights, key=lambda x: x[1], reverse=True
         )
         for uid, weight in sorted_uids_and_weights:
-            table.add_row(
-                str(uid),
-                str(round(weight, 4)),
-                str(int(scores[uid].item())),
-                str(round(credibilities[uid].item(), 4)),
-            )
+            # Handle burn UID (238) specially in display
+            if uid == 238:
+                table.add_row(
+                    str(uid) + " (BURN)",
+                    str(round(weight, 4)),
+                    "BURN",
+                    "N/A",
+                )
+            else:
+                # Display original score for miner UIDs
+                original_score = scores[uid].item() if uid < len(scores) else 0
+                table.add_row(
+                    str(uid),
+                    str(round(weight, 4)),
+                    str(int(original_score)),
+                    str(round(extended_credibilities[uid + 1].item(), 4)),
+                )
         console = Console()
         console.print(table)
 
