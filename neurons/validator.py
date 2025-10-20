@@ -766,7 +766,7 @@ class Validator:
         uids_np = np.array(self.metagraph.uids, dtype=np.int64)
         final_uids = np.concatenate([[238], uids_np])
 
-        bt.logging.info(f"Burn applied: 75% of total weight ({burn_weight_portion".4f"}) redirected to UID 238")
+        bt.logging.info(f"Burn applied: 75% of total weight ({burn_weight_portion:.4f}) redirected to UID 238")
 
         # Extend credibilities to match (burn entry has no credibility)
         extended_credibilities = torch.cat([torch.tensor([0.0]), credibilities.squeeze()])
@@ -1351,16 +1351,112 @@ class Validator:
                 bt.logging.error("Failed to get validator S3 credentials")
                 return False
             
-            # TODO: Upload validation results using existing S3 infrastructure
-            # This would use the existing ValidatorS3Access but for result uploads
-            
-            bt.logging.info("Validation result upload not yet implemented")
-            return True
+            # Upload validation results to S3 using validator S3 credentials
+            upload_success = self._upload_validation_results_to_s3(validation_result, s3_creds)
+
+            if upload_success:
+                bt.logging.success(f"Successfully uploaded validation results for epoch {epoch_id}")
+                return True
+            else:
+                bt.logging.error(f"Failed to upload validation results for epoch {epoch_id}")
+                return False
             
         except Exception as e:
             bt.logging.error(f"Failed to upload validation results: {e}")
             return False
-    
+
+    def _upload_validation_results_to_s3(self, validation_result: dict, s3_creds: dict) -> bool:
+        """
+        Upload validation results to S3 using the provided credentials
+
+        Args:
+            validation_result: Complete validation result with consensus data
+            s3_creds: S3 credentials from API client
+
+        Returns:
+            bool: True if upload successful, False otherwise
+        """
+        try:
+            # Create temporary file with validation results
+            import tempfile
+
+            # Create a filename for the validation results
+            epoch_id = validation_result['epoch_id']
+            validator_hotkey = validation_result['validator_hotkey']
+            timestamp = int(time.time())
+
+            # Create filename: validation_results_epoch_{epoch_id}_{validator_hotkey[:8]}_{timestamp}.json
+            filename = f"validation_results_epoch_{epoch_id}_{validator_hotkey[:8]}_{timestamp}.json"
+            s3_key = f"validator_results/{filename}"
+
+            # Create temporary file
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as temp_file:
+                json.dump(validation_result, temp_file, indent=2, default=str)
+                temp_file_path = temp_file.name
+
+            try:
+                # Upload using S3 credentials
+                upload_success = self._perform_s3_upload(temp_file_path, s3_key, s3_creds)
+
+                if upload_success:
+                    bt.logging.success(f"Validation results uploaded to S3: {s3_key}")
+                    return True
+                else:
+                    bt.logging.error(f"Failed to upload validation results to S3: {s3_key}")
+                    return False
+
+            finally:
+                # Clean up temporary file
+                if os.path.exists(temp_file_path):
+                    os.remove(temp_file_path)
+
+        except Exception as e:
+            bt.logging.error(f"Error uploading validation results to S3: {e}")
+            return False
+
+    def _perform_s3_upload(self, file_path: str, s3_key: str, s3_creds: dict) -> bool:
+        """
+        Perform the actual S3 upload using the provided credentials
+
+        Args:
+            file_path: Local file path to upload
+            s3_key: S3 object key (path in bucket)
+            s3_creds: S3 credentials with url and fields
+
+        Returns:
+            bool: True if upload successful
+        """
+        try:
+            # Check if credentials have the expected format
+            if 'url' not in s3_creds or 'fields' not in s3_creds:
+                bt.logging.error(f"Invalid S3 credentials format: missing 'url' or 'fields'")
+                return False
+
+            # Prepare form data
+            post_data = dict(s3_creds['fields'])
+            post_data['key'] = s3_key
+
+            # Upload file
+            with open(file_path, 'rb') as f:
+                files = {'file': f}
+                response = requests.post(
+                    s3_creds['url'],
+                    data=post_data,
+                    files=files,
+                    timeout=60  # Longer timeout for potentially large files
+                )
+
+            if response.status_code == 204:
+                bt.logging.success(f"S3 upload successful: {s3_key}")
+                return True
+            else:
+                bt.logging.error(f"S3 upload failed: {response.status_code} - {response.text}")
+                return False
+
+        except Exception as e:
+            bt.logging.error(f"S3 upload exception for {file_path}: {e}")
+            return False
+
     def update_bittensor_weights_from_zipcode_scores(self, miner_scores: dict):
         """
         Update Bittensor weights based on zipcode competitive scores
