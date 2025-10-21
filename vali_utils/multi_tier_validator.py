@@ -67,12 +67,11 @@ class MultiTierValidator:
         actual_count = len(listings)
         submission_time = submission.get('submission_timestamp')
         
-        # Calculate acceptable range
+        # Calculate minimum acceptable count
         min_expected = int(expected_count * (1 - self.quantity_tolerance))
-        max_expected = int(expected_count * (1 + self.quantity_tolerance))
         
-        # Check quantity
-        passes_quantity = min_expected <= actual_count <= max_expected
+        # Check quantity (only minimum threshold, no maximum)
+        passes_quantity = actual_count >= min_expected
         
         # Calculate timeliness score (earlier submissions get higher scores)
         timeliness_score = self._calculate_timeliness_score(submission_time)
@@ -81,7 +80,7 @@ class MultiTierValidator:
             'passes_quantity': passes_quantity,
             'actual_count': actual_count,
             'expected_count': expected_count,
-            'expected_range': (min_expected, max_expected),
+            'min_expected': min_expected,
             'quantity_ratio': actual_count / expected_count if expected_count > 0 else 0,
             'submission_time': submission_time,
             'timeliness_score': timeliness_score,
