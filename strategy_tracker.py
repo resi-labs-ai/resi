@@ -50,7 +50,7 @@ def check_database_activity():
             stat = os.stat(db_file)
             activity[db_file] = {
                 'size': stat.st_size,
-                'modified': datetime.fromtimestamp(stat.st_mtime).isoformat()
+                'modified': datetime.fromtimestamp(stat.st_mtime).strftime('%Y-%m-%d %H:%M:%S') 
             }
     return activity
 

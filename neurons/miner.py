@@ -577,7 +577,7 @@ class Miner:
                 listing['epoch_id'] = epoch_id
                 listing['zipcode'] = zipcode
                 listing['scraped_for_epoch'] = True
-                listing['submission_timestamp'] = dt.datetime.utcnow().isoformat()
+                listing['submission_timestamp'] = dt.datetime.now(dt.timezone.utc).isoformat()
             
             # Store in existing storage system using new epoch methods
             success = self.storage.store_epoch_zipcode_data(
@@ -638,7 +638,7 @@ class Miner:
                         'epoch_id': epoch_id,
                         'zipcode': zipcode,
                         'miner_hotkey': miner_hotkey,
-                        'submission_timestamp': dt.datetime.utcnow().isoformat(),
+                        'submission_timestamp': dt.datetime.now(dt.timezone.utc).isoformat(),
                         'listing_count': len(listings_data),
                         'listings': listings_data
                     }
