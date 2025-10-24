@@ -20,23 +20,33 @@ from random import Random
 
 def choose_data_entity_bucket_to_query(index: ScorableMinerIndex) -> DataEntityBucket:
     """Choose a DataEntityBucket to validate using time-based randomization."""
+    # Handle edge case: no buckets available
+    if not index.scorable_data_entity_buckets:
+        raise ValueError("No scorable data entity buckets available to query")
+    
     total_size = sum(
         scorable_bucket.scorable_bytes
         for scorable_bucket in index.scorable_data_entity_buckets
     )
+    
+    # Handle edge case: all buckets have 0 bytes
+    if total_size == 0:
+        raise ValueError("All scorable data entity buckets have 0 bytes")
 
     seed = time.time_ns()
     rng = Random(seed)
     chosen_byte = rng.uniform(0, total_size)
+    # Clamp to slightly less than total_size to guarantee a bucket is found
+    chosen_byte = min(chosen_byte, total_size * 0.999999)
     
     iterated_bytes = 0
     for scorable_bucket in index.scorable_data_entity_buckets:
-        if iterated_bytes + scorable_bucket.scorable_bytes >= chosen_byte:
-            return scorable_bucket.to_data_entity_bucket()
         iterated_bytes += scorable_bucket.scorable_bytes
-    assert (
-        False
-    ), "Failed to choose a DataEntityBucket to query... which should never happen"
+        if iterated_bytes > chosen_byte:
+            return scorable_bucket.to_data_entity_bucket()
+    
+    # This should never happen with the clamped chosen_byte
+    raise RuntimeError("Failed to choose a DataEntityBucket despite having valid buckets")
 
 def choose_entities_to_verify(entities: List[DataEntity]) -> List[DataEntity]:
     """Choose a random set of entities to verify."""

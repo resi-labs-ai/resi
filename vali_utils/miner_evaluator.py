@@ -151,6 +151,29 @@ class MinerEvaluator:
             bt.logging.info(f"{hotkey}: Skipping S3 validation (last validated {current_block - s3_validation_info['block']} blocks ago)")
         ##########
 
+        # Check if the miner has any scorable buckets to query
+        if not index.scorable_data_entity_buckets or sum(
+            scorable_bucket.scorable_bytes
+            for scorable_bucket in index.scorable_data_entity_buckets
+        ) == 0:
+            bt.logging.info(
+                f"{hotkey}: Miner has no scorable buckets. Counting as a failed validation."
+            )
+            self.scorer.on_miner_evaluated(
+                uid,
+                None,
+                [
+                    ValidationResult(
+                        is_valid=False,
+                        reason="No scorable data entity buckets.",
+                        content_size_bytes_validated=0,
+                    )
+                ]
+            )
+
+            metrics.MINER_EVALUATOR_EVAL_MINER_DURATION.labels(hotkey=self.wallet.hotkey.ss58_address, miner_hotkey=hotkey, status='no scorable buckets').observe(time.perf_counter() - t_start)
+            return
+
         # From that index, find a data entity bucket to sample and get it from the miner.
         chosen_data_entity_bucket: DataEntityBucket = (
             vali_utils.choose_data_entity_bucket_to_query(index)
