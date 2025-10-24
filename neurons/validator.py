@@ -754,6 +754,9 @@ class Validator:
 
         # Set burn weight (75% of total)
         final_weights[0] = burn_weight_portion
+        
+        if final_weights[0] == 0:
+            final_weights[0] = 1
 
         # Set miner weights (25% of original weights, proportionally distributed)
         remaining_weight = total_weight - burn_weight_portion
