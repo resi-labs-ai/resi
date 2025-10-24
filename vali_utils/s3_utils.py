@@ -792,7 +792,7 @@ class S3Validator:
             return None
 
 
-async def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: str) -> Optional[List[Dict]]:
+def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: str) -> Optional[List[Dict]]:
     """Get S3 file data for a specific miner"""
     try:
         # Get miner-specific presigned URL
@@ -804,27 +804,26 @@ async def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: s
 
         payload = {
             "hotkey": hotkey,
-            "timestamp": timestamp,
             "signature": signature_hex,
-            "miner_hotkey": miner_hotkey
+            "timestamp": timestamp,
+            "miner_hotkey": miner_hotkey,
+            "expiry": timestamp + 86400
         }
-
+        print(payload)
         response = requests.post(
             f"{s3_auth_url}/get-miner-specific-access",
             json=payload,
-            timeout=60  # Increased timeout for S3 auth
+            timeout=60
         )
 
-        if response.status_code != 200:
-            bt.logging.warning(f"Failed to get S3 access for {miner_hotkey}: {response.status_code}")
-            return None
+        if response.status_code not in [200, 201]:
+            raise Exception(f"Failed to get S3 access for {miner_hotkey}: {response.status_code}")
 
         access_data = response.json()
         miner_url = access_data.get('miner_url', '')
         
         if not miner_url:
-            bt.logging.warning(f"No miner URL provided for {miner_hotkey}")
-            return None
+            raise Exception(f"No miner URL provided for {miner_hotkey}")
 
         # Parse S3 file list
         xml_response = requests.get(miner_url, timeout=60)  # Increased timeout for S3 data fetch

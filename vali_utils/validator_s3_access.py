@@ -83,9 +83,11 @@ class ValidatorS3Access:
 
             # Create request payload
             payload = {
+                "coldkey": coldkey,
                 "hotkey": hotkey,
                 "timestamp": timestamp,
-                "signature": signature_hex
+                "signature": signature_hex,
+                "expiry": timestamp + 86400
             }
 
             self._debug_print(f"Sending request to: {self.s3_auth_url}/get-validator-access")
@@ -132,7 +134,8 @@ class ValidatorS3Access:
                 "hotkey": hotkey,
                 "timestamp": timestamp,
                 "signature": signature_hex,
-                "miner_hotkey": miner_hotkey
+                "miner_hotkey": miner_hotkey,
+                "expiry": timestamp + 86400
             }
 
             self._debug_print(f"Getting miner-specific access for {miner_hotkey}")
