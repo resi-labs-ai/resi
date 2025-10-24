@@ -1,10 +1,11 @@
 import asyncio
 import bittensor as bt
 import datetime as dt
-from typing import List, Optional, Union
+from typing import List, Optional, Union, Tuple
 import traceback
 import random
 import json
+import re
 
 from common.data import DataEntity, DataLabel, DataSource
 from common.date_range import DateRange
@@ -30,7 +31,7 @@ class SzillZillowScraper(Scraper):
         self, 
         proxy_url: Optional[str] = None, 
         use_scrapingbee: bool = False,
-        max_concurrent: int = 5
+        max_concurrent: int = 3
     ):
         if not SZILL_AVAILABLE:
             raise ImportError("Szill library not available.")
@@ -184,6 +185,80 @@ class SzillZillowScraper(Scraper):
                 reason=f"Validation error: {str(e)}",
                 content_size_bytes_validated=entity.content_size_bytes,
             )
+
+    def _addresses_match(self, entity_address: str, fresh_address: str) -> bool:
+        """Compare two addresses using lenient matching that allows for missing components."""
+        try:
+            # Normalize both addresses first
+            normalized_entity = normalize_address(entity_address)
+            normalized_fresh = normalize_address(fresh_address)
+
+            # If exact match after normalization, they're good
+            if normalized_entity == normalized_fresh:
+                return True
+
+            # Extract street address (number + street name) using regex
+            def extract_street_address(address: str) -> Optional[str]:
+                # Match patterns like "123 Main St" or "123 main street" at the beginning of the address
+                # Also handle cases with directions and abbreviations
+                match = re.match(r'^(\d+\s+[^,]+)', address.strip())
+                return match.group(1).strip().lower() if match else None
+
+            def extract_house_number_and_street(address: str) -> Tuple[Optional[str], Optional[str]]:
+                """Extract house number and street name separately."""
+                # Match house number (first sequence of digits)
+                house_match = re.match(r'^(\d+)', address.strip())
+                house_number = house_match.group(1) if house_match else None
+
+                # Find street name (everything after house number until first comma)
+                street_part = re.sub(r'^\d+\s*', '', address.strip())
+                street_name = street_part.split(',')[0].strip() if street_part else None
+
+                return house_number, street_name
+
+            entity_street = extract_street_address(normalized_entity)
+            fresh_street = extract_street_address(normalized_fresh)
+
+            # If we can't extract street addresses, fall back to exact comparison
+            if not entity_street or not fresh_street:
+                return normalized_entity == normalized_fresh
+
+            # If street addresses match exactly, consider it a match
+            # This allows for missing city/state/zip components
+            if entity_street == fresh_street:
+                return True
+
+            # Check if one address contains the core street address of the other
+            # This handles cases where one address is more complete than the other
+            if entity_street in normalized_fresh or fresh_street in normalized_entity:
+                return True
+
+            # More sophisticated comparison: extract house number and street separately
+            entity_house, entity_street_name = extract_house_number_and_street(normalized_entity)
+            fresh_house, fresh_street_name = extract_house_number_and_street(normalized_fresh)
+
+            # If house numbers match and street names are very similar (allowing for abbreviations)
+            if entity_house and fresh_house and entity_house == fresh_house:
+                if entity_street_name and fresh_street_name:
+                    # Check if street names are similar after removing common abbreviations
+                    entity_street_clean = re.sub(r'\b(st|ave|blvd|dr|rd|ln|pl|way|cir|ct|ter|trl)\b', '', entity_street_name.lower())
+                    fresh_street_clean = re.sub(r'\b(st|ave|blvd|dr|rd|ln|pl|way|cir|ct|ter|trl)\b', '', fresh_street_name.lower())
+
+                    # Remove extra spaces and compare
+                    entity_street_clean = re.sub(r'\s+', ' ', entity_street_clean).strip()
+                    fresh_street_clean = re.sub(r'\s+', ' ', fresh_street_clean).strip()
+
+                    # If the core street names match (allowing for some differences)
+                    if (entity_street_clean == fresh_street_clean or
+                        entity_street_clean in fresh_street_clean or
+                        fresh_street_clean in entity_street_clean):
+                        return True
+
+            return False
+
+        except Exception as e:
+            bt.logging.warning(f"Error in address matching: {str(e)}. Falling back to exact comparison.")
+            return normalize_address(entity_address) == normalize_address(fresh_address)
 
     def _extract_zpid_from_uri(self, uri: str) -> Optional[str]:
         """Extract zpid from Zillow URI"""
@@ -413,19 +488,20 @@ class SzillZillowScraper(Scraper):
             # Address validation (allow some flexibility)
             # Handle both PropertyDataSchema format and RealEstateContent format
             entity_address = None
-            if (hasattr(entity_content, 'property') and entity_content.property and 
+            if (hasattr(entity_content, 'property') and entity_content.property and
                 hasattr(entity_content.property, 'location') and entity_content.property.location):
                 entity_address = entity_content.property.location.addresses
-            
+
             # If address is None, try to get it from the root level (RealEstateContent format)
             if entity_address is None and 'address' in entity_content_dict:
                 entity_address = entity_content_dict.get('address')
-            
+
             fresh_address = fresh_content.property.location.addresses
             if entity_address and fresh_address:
-                normalized_entity_address = normalize_address(entity_address)
-                normalized_fresh_address = normalize_address(fresh_address)
-                if normalized_entity_address != normalized_fresh_address:
+                # Use more lenient address comparison
+                if not self._addresses_match(entity_address, fresh_address):
+                    normalized_entity_address = normalize_address(entity_address)
+                    normalized_fresh_address = normalize_address(fresh_address)
                     validation_errors.append(f"address mismatch: {entity_address} vs {fresh_address} (normalized: {normalized_entity_address} vs {normalized_fresh_address})")
             
             # Property type validation

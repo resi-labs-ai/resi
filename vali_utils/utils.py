@@ -135,7 +135,35 @@ def normalize_address(address: str) -> str:
     normalized = re.sub(r'\s+#', ' #', normalized)
     normalized = re.sub(r'\s+unit\s+', ' UNIT ', normalized)
 
+    # Standardize common abbreviations
+    normalized = re.sub(r'\s+street\s+', ' ST ', normalized)
+    normalized = re.sub(r'\s+avenue\s+', ' AVE ', normalized)
+    normalized = re.sub(r'\s+boulevard\s+', ' BLVD ', normalized)
+    normalized = re.sub(r'\s+drive\s+', ' DR ', normalized)
+    normalized = re.sub(r'\s+road\s+', ' RD ', normalized)
+    normalized = re.sub(r'\s+lane\s+', ' LN ', normalized)
+    normalized = re.sub(r'\s+place\s+', ' PL ', normalized)
+    normalized = re.sub(r'\s+way\s+', ' WAY ', normalized)
+    normalized = re.sub(r'\s+circle\s+', ' CIR ', normalized)
+    normalized = re.sub(r'\s+court\s+', ' CT ', normalized)
+    normalized = re.sub(r'\s+terrace\s+', ' TER ', normalized)
+    normalized = re.sub(r'\s+trail\s+', ' TRL ', normalized)
+
+    # Standardize directions
+    normalized = re.sub(r'\s+north\s+', ' N ', normalized)
+    normalized = re.sub(r'\s+south\s+', ' S ', normalized)
+    normalized = re.sub(r'\s+east\s+', ' E ', normalized)
+    normalized = re.sub(r'\s+west\s+', ' W ', normalized)
+    normalized = re.sub(r'\s+northeast\s+', ' NE ', normalized)
+    normalized = re.sub(r'\s+northwest\s+', ' NW ', normalized)
+    normalized = re.sub(r'\s+southeast\s+', ' SE ', normalized)
+    normalized = re.sub(r'\s+southwest\s+', ' SW ', normalized)
+
+    # Remove extra whitespace and clean up
     normalized = re.sub(r'\s+', ' ', normalized).strip()
+
+    # Remove trailing commas and periods
+    normalized = re.sub(r'[,.]+$', '', normalized)
 
     return normalized
 
