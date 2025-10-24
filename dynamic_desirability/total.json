@@ -1,28 +1,50 @@
 [
     {
-        "id": "zillow_tier4_rural_forsale",
-        "weight": 1.2,
+        "id": "zillow_tier1_premium_sold",
+        "weight": 3.0,
         "params": {
             "keyword": null,
             "platform": "rapid_zillow",
-            "label": "status:forsale",
+            "label": "status:sold",
             "post_start_datetime": null,
             "post_end_datetime": null
         }
     },
     {
-        "id": "zillow_tier4_rural_forrent",
+        "id": "zillow_tier2_major_sold",
+        "weight": 2.0,
+        "params": {
+            "keyword": null,
+            "platform": "rapid_zillow",
+            "label": "status:sold",
+            "post_start_datetime": null,
+            "post_end_datetime": null
+        }
+    },
+    {
+        "id": "zillow_tier3_standard_sold",
+        "weight": 1.5,
+        "params": {
+            "keyword": null,
+            "platform": "rapid_zillow",
+            "label": "status:sold",
+            "post_start_datetime": null,
+            "post_end_datetime": null
+        }
+    },
+    {
+        "id": "zillow_tier4_rural_sold",
         "weight": 1.0,
         "params": {
             "keyword": null,
             "platform": "rapid_zillow",
-            "label": "status:forrent",
+            "label": "status:sold",
             "post_start_datetime": null,
             "post_end_datetime": null
         }
     },
     {
-        "id": "zillow_premium_zip_77494",
+        "id": "zillow_premium_zip_77494_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -33,7 +55,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_08701",
+        "id": "zillow_premium_zip_08701_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -44,7 +66,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_77449",
+        "id": "zillow_premium_zip_77449_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -55,7 +77,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_77084",
+        "id": "zillow_premium_zip_77084_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -66,7 +88,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_79936",
+        "id": "zillow_premium_zip_79936_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -77,7 +99,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_11385",
+        "id": "zillow_premium_zip_11385_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -88,7 +110,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_78660",
+        "id": "zillow_premium_zip_78660_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -99,7 +121,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_11208",
+        "id": "zillow_premium_zip_11208_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -110,7 +132,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_90011",
+        "id": "zillow_premium_zip_90011_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,
@@ -121,7 +143,7 @@
         }
     },
     {
-        "id": "zillow_premium_zip_77433",
+        "id": "zillow_premium_zip_77433_sold",
         "weight": 4.0,
         "params": {
             "keyword": null,

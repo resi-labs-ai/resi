@@ -17,7 +17,7 @@ class ZipcodeLoader:
         if csv_path is None:
             # Default path relative to this file
             script_dir = Path(__file__).parent.parent
-            csv_path = script_dir / "zillow" / "zipcodes.csv"
+            csv_path = script_dir / "custom" / "zipcodes.csv"
         
         self.csv_path = Path(csv_path)
         self.zipcodes_data = []
@@ -85,7 +85,7 @@ class ZipcodeLoader:
         return state_groups
     
     def create_dynamic_desirability_jobs(self) -> List[Dict[str, Any]]:
-        """Create dynamic desirability jobs with tiered weights"""
+        """Create dynamic desirability jobs with tiered weights for SOLD properties"""
         jobs = []
         tiers = self.get_tiered_zipcodes()
         
@@ -99,46 +99,33 @@ class ZipcodeLoader:
         
         job_id = 0
         
-        # Create jobs for each tier and status combination
+        # Create jobs for each tier - SOLD properties only
         for tier_name, zipcodes in tiers.items():
             if not zipcodes:  # Skip empty tiers
                 continue
                 
             weight = tier_weights[tier_name]
             
-            # For Sale listings
+            # SOLD listings (historical sales data for price trends)
             jobs.append({
-                "id": f"zillow_{tier_name}_forsale",
-                "weight": weight * 1.2,  # Slightly higher weight for sale listings
-                "params": {
-                    "keyword": None,
-                    "platform": "rapid_zillow",
-                    "label": "status:forsale",
-                    "post_start_datetime": None,
-                    "post_end_datetime": None
-                }
-            })
-            
-            # For Rent listings
-            jobs.append({
-                "id": f"zillow_{tier_name}_forrent", 
+                "id": f"zillow_{tier_name}_sold",
                 "weight": weight,
                 "params": {
                     "keyword": None,
                     "platform": "rapid_zillow",
-                    "label": "status:forrent",
+                    "label": "status:sold",
                     "post_start_datetime": None,
                     "post_end_datetime": None
                 }
             })
             
-            job_id += 2
+            job_id += 1
         
-        # Add specific high-value zipcode jobs for top 50 markets
+        # Add specific high-value zipcode jobs for top 50 markets (SOLD properties)
         top_zipcodes = [zc for zc in self.zipcodes_data if zc['size_rank'] <= 50]
         for zc in top_zipcodes[:10]:  # Top 10 markets get individual jobs
             jobs.append({
-                "id": f"zillow_premium_zip_{zc['zipcode']}",
+                "id": f"zillow_premium_zip_{zc['zipcode']}_sold",
                 "weight": 4.0,  # Maximum weight for top individual markets
                 "params": {
                     "keyword": None,
@@ -152,16 +139,16 @@ class ZipcodeLoader:
         return jobs
     
     def create_scraping_config(self, api_plan: str = "basic") -> Dict[str, Any]:
-        """Create complete scraping configuration with all zipcodes
+        """Create complete scraping configuration with all zipcodes - SOLD properties only
         
         Args:
             api_plan: "basic" (13K calls/month) or "premium" (198K calls/month)
         """
         all_zipcodes = self.get_all_zipcode_labels()
         
-        # Property types and statuses
+        # Property types and statuses - SOLD properties only for price trends oracle
         property_types = ["type:houses", "type:condos", "type:apartments", "type:townhomes"]
-        listing_statuses = ["status:forsale", "status:forrent"]
+        listing_statuses = ["status:sold"]
         
         # Combine all labels
         all_labels = all_zipcodes + property_types + listing_statuses
