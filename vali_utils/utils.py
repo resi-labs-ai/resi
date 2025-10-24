@@ -15,7 +15,6 @@ from common.data import (
 from common.data_v2 import ScorableMinerIndex
 from common.date_range import DateRange
 from common.protocol import GetMinerIndex
-from scraping.x import utils as x_utils
 
 from random import Random
 
@@ -107,7 +106,8 @@ def are_entities_valid(
 
 def _normalize_uri(uri: str) -> str:
     """Normalize a URI for equality comparison."""
-    return x_utils.normalize_url(uri)
+    # RESI only handles real estate data - simple URL normalization
+    return uri
 
 
 def normalize_address(address: str) -> str:

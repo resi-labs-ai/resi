@@ -21,10 +21,8 @@ from dataclasses import dataclass
 
 from vali_utils.scrapers import ValidatorScraperProvider
 from scraping.scraper import ScraperId, ValidationResult
-from scraping.x.model import XContent
-from scraping.reddit.model import RedditContent
-from scraping.youtube.model import YouTubeContent
 from common.data import DataEntity, DataSource
+
 
 
 @dataclass
@@ -77,10 +75,7 @@ class S3ValidationResultDetailed:
 
 # Mapping of scrapers to use based on the data source to validate
 PREFERRED_SCRAPERS = {
-    DataSource.X: ScraperId.X_APIDOJO,
-    DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
-    DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-    DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
+    DataSource.SZILL_VALI: "Szill.zillow"
 }
 
 
@@ -176,18 +171,22 @@ class S3Validator:
         """Get job folders for the specified miner"""
         try:
             hotkey = wallet.hotkey.ss58_address
+            coldkey = wallet.get_coldkeypub().ss58_address
             timestamp = int(time.time())
-            commitment = f"s3:validator:folders:{hotkey}:{timestamp}"
+            commitment = f"s3:validator:folders:{miner_hotkey}:{hotkey}:{timestamp}"
             signature = wallet.hotkey.sign(commitment.encode())
             
             payload = {
+                "coldkey": coldkey,
                 "hotkey": hotkey,
                 "timestamp": timestamp,
-                "signature": signature.hex()
+                "signature": signature.hex(),
+                "miner_hotkey": miner_hotkey,
+                "expiry": timestamp + 86400
             }
             
             response = requests.post(
-                f"{s3_auth_url}/get-folder-presigned-urls",
+                f"{s3_auth_url}/get-miner-specific-access",
                 json=payload,
                 timeout=180
             )
@@ -338,7 +337,11 @@ class S3Validator:
             files = job_data['files']
             expected_job = expected_jobs.get(job_id, {})
             platform = expected_job.get('params', {}).get('platform', 'unknown').lower()
-            
+
+            # Skip unsupported platforms
+            if platform in ['x', 'twitter', 'reddit', 'youtube']:
+                continue
+
             if files and len(all_entities) < 15:  # Get extra to ensure we have enough
                 sample_file = random.choice(files)
                 file_keys = [sample_file['key']]
@@ -508,25 +511,30 @@ class S3Validator:
     ) -> List[ValidationResult]:
         """Validate entities using appropriate scraper"""
         try:
-            # Map platform to data source and get scraper using provider
+            # Map platform to data source
             data_source = None
-            if platform in ['x', 'twitter']:
-                data_source = DataSource.X
-            elif platform == 'reddit':
-                data_source = DataSource.REDDIT
-            elif platform == 'youtube':
-                data_source = DataSource.YOUTUBE
-            else:
+            if platform in ['x', 'twitter', 'reddit', 'youtube']:
+                # Skip unsupported platforms
                 return [ValidationResult(
                     is_valid=False,
-                    reason=f"Unknown platform: {platform}",
+                    reason=f"Platform not supported",
                     content_size_bytes_validated=0
                 ) for _ in entities]
-            
-            # Get scraper using provider (like in miner_evaluator)
+            else:
+                # For supported platforms, check if available
+                if platform in ['custom', 'zillow', 'rapid_zillow']:
+                    data_source = DataSource.SZILL_VALI
+                else:
+                    return [ValidationResult(
+                        is_valid=False,
+                        reason=f"Unsupported platform: {platform}",
+                        content_size_bytes_validated=0
+                    ) for _ in entities]
+
+            # Get scraper using provider
             scraper = self.scraper_provider.get(PREFERRED_SCRAPERS[data_source])
             return await scraper.validate(entities)
-            
+
         except Exception as e:
             return [ValidationResult(
                 is_valid=False,
@@ -611,31 +619,67 @@ class S3Validator:
     async def _get_file_presigned_urls(
         self, wallet, s3_auth_url: str, miner_hotkey: str, file_keys: List[str]
     ) -> Optional[Dict]:
-        """Get presigned URLs for specific files"""
+        """Get presigned URLs for specific files using miner-level access"""
         try:
             hotkey = wallet.hotkey.ss58_address
+            coldkey = wallet.get_coldkeypub().ss58_address
             timestamp = int(time.time())
-            commitment = f"s3:validator:files:{miner_hotkey}:{hotkey}:{timestamp}"
+            commitment = f"s3:validator:miner:{miner_hotkey}:{timestamp}"
             signature = wallet.hotkey.sign(commitment.encode())
             
             payload = {
+                "coldkey": coldkey,
                 "hotkey": hotkey,
                 "timestamp": timestamp,
                 "signature": signature.hex(),
                 "miner_hotkey": miner_hotkey,
-                "file_keys": file_keys,
-                "expiry_hours": 1
+                "expiry": timestamp + 86400
             }
             
             response = requests.post(
-                f"{s3_auth_url}/get-file-presigned-urls",
+                f"{s3_auth_url}/get-miner-specific-access",
                 json=payload,
                 timeout=60
             )
             
-            return response.json().get('file_urls', {}) if response.status_code == 200 else None
+            if response.status_code not in [200, 201]:
+                return None
             
-        except Exception:
+            access_data = response.json()
+            miner_url = access_data.get('miner_url', '')
+            
+            if not miner_url:
+                return None
+            
+            # Parse the base URL and query parameters from miner_url
+            # The miner_url is a presigned URL that we can use as base for individual files
+            base_url = miner_url.split('?')[0] if '?' in miner_url else miner_url
+            query_params = miner_url.split('?')[1] if '?' in miner_url else ''
+            
+            # Remove any trailing slashes and list/prefix parameters from base URL
+            base_url = base_url.rstrip('/')
+            
+            # Construct file URLs for each requested file key
+            file_urls = {}
+            for file_key in file_keys:
+                # Remove leading slash from file_key if present
+                clean_key = file_key.lstrip('/')
+                
+                # Construct the full file URL with the same credentials
+                if query_params:
+                    file_url = f"{base_url}/{clean_key}?{query_params}"
+                else:
+                    file_url = f"{base_url}/{clean_key}"
+                
+                file_urls[file_key] = {
+                    'presigned_url': file_url,
+                    'key': file_key
+                }
+            
+            return file_urls
+            
+        except Exception as e:
+            bt.logging.error(f"Error getting file presigned URLs: {str(e)}")
             return None
     
     def _get_uri_value(self, row) -> str:
@@ -653,163 +697,35 @@ class S3Validator:
     def _create_data_entity_from_row(self, row, platform: str) -> Optional[DataEntity]:
         """Create DataEntity from parquet row based on platform"""
         try:
-            if platform in ['x', 'twitter']:
-                return self._create_twitter_data_entity(row)
-            elif platform == 'reddit':
-                return self._create_reddit_data_entity(row)
-            elif platform == 'youtube':
-                return self._create_youtube_data_entity(row)
+            # Skip unsupported platforms
+            if platform in ['x', 'twitter', 'reddit', 'youtube']:
+                return None
             else:
                 return None
         except Exception:
             return None
-    
-    def _create_twitter_data_entity(self, row) -> Optional[DataEntity]:
-        """Create Twitter DataEntity from parquet row"""
-        try:
-            # Get required fields
-            username = row.get('username', '')
-            text = row.get('text', '')
-            url = row.get('url', row.get('uri', ''))
-            
-            if not all([username, text, url]):
-                return None
-            
-            # Get datetime from row or use current time
-            datetime_val = row.get('datetime', row.get('timestamp', ''))
-            if datetime_val and pd.notna(datetime_val):
-                try:
-                    timestamp = pd.to_datetime(datetime_val)
-                    if timestamp.tzinfo is None:
-                        timestamp = timestamp.replace(tzinfo=dt.timezone.utc)
-                except Exception:
-                    timestamp = dt.datetime.now(dt.timezone.utc)
-            else:
-                timestamp = dt.datetime.now(dt.timezone.utc)
-            
-            # Create XContent object
-            x_content = XContent(
-                username=str(username),
-                text=str(text),
-                url=str(url),
-                timestamp=timestamp,
-                tweet_hashtags=row.get('tweet_hashtags', []) if pd.notna(row.get('tweet_hashtags')) else [],
-                user_id=str(row.get('user_id', '')),
-                user_display_name=str(row.get('user_display_name', username)),
-                user_verified=bool(row.get('user_verified', False)),
-                tweet_id=str(row.get('tweet_id', '')),
-                is_reply=bool(row.get('is_reply', False)),
-                is_quote=bool(row.get('is_quote', False)),
-                conversation_id=str(row.get('conversation_id', '')),
-                in_reply_to_user_id=str(row.get('in_reply_to_user_id', ''))
-            )
-            
-            return XContent.to_data_entity(x_content)
-        except Exception:
-            return None
-    
-    def _create_reddit_data_entity(self, row) -> Optional[DataEntity]:
-        """Create Reddit DataEntity from parquet row"""
-        try:
-            # Get required fields
-            username = row.get('username', '')
-            body = row.get('body', row.get('text', ''))
-            url = row.get('url', row.get('uri', ''))
-            reddit_id = row.get('id', '')
-            
-            if not all([username, body, url, reddit_id]):
-                return None
-            
-            # Get datetime from row or use current time
-            datetime_val = row.get('datetime', row.get('createdAt', ''))
-            if datetime_val and pd.notna(datetime_val):
-                try:
-                    created_at = pd.to_datetime(datetime_val)
-                    if created_at.tzinfo is None:
-                        created_at = created_at.replace(tzinfo=dt.timezone.utc)
-                except Exception:
-                    created_at = dt.datetime.now(dt.timezone.utc)
-            else:
-                created_at = dt.datetime.now(dt.timezone.utc)
-            
-            # Obfuscate timestamp to minute for Reddit validation
-            created_at = created_at.replace(second=0, microsecond=0)
-            
-            # Create RedditContent object
-            reddit_content = RedditContent(
-                id=str(reddit_id),
-                username=str(username),
-                body=str(body),
-                url=str(url),
-                communityName=str(row.get('communityName', '')),
-                createdAt=created_at,
-                dataType=str(row.get('dataType', 'post')),
-                parentId=str(row.get('parentId')) if row.get('parentId') and pd.notna(row.get('parentId')) else None
-            )
-            
-            return RedditContent.to_data_entity(reddit_content)
-        except Exception:
-            return None
-    
-    def _create_youtube_data_entity(self, row) -> Optional[DataEntity]:
-        """Create YouTube DataEntity from parquet row"""
-        try:
-            # Get required fields
-            video_id = row.get('video_id', '')
-            title = row.get('title', '')
-            channel_name = row.get('channel_name', '')
-            url = row.get('url', row.get('uri', ''))
-            
-            if not all([video_id, title, channel_name, url]):
-                return None
-            
-            # Get datetime from row or use current time
-            datetime_val = row.get('upload_date', row.get('datetime', ''))
-            if datetime_val and pd.notna(datetime_val):
-                try:
-                    upload_date = pd.to_datetime(datetime_val)
-                    if upload_date.tzinfo is None:
-                        upload_date = upload_date.replace(tzinfo=dt.timezone.utc)
-                except Exception:
-                    upload_date = dt.datetime.now(dt.timezone.utc)
-            else:
-                upload_date = dt.datetime.now(dt.timezone.utc)
-            
-            # Create YouTubeContent object
-            youtube_content = YouTubeContent(
-                video_id=str(video_id),
-                title=str(title),
-                channel_name=str(channel_name),
-                upload_date=upload_date,
-                transcript=row.get('transcript', []) if pd.notna(row.get('transcript')) else [],
-                url=str(url),
-                duration_seconds=int(row.get('duration_seconds', 0)) if pd.notna(row.get('duration_seconds')) else 0,
-                language=str(row.get('language', 'en'))
-            )
-            
-            return YouTubeContent.to_data_entity(youtube_content)
-        except Exception:
-            return None
-
 
 def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: str) -> Optional[List[Dict]]:
     """Get S3 file data for a specific miner"""
     try:
         # Get miner-specific presigned URL
         hotkey = wallet.hotkey.ss58_address
+        coldkey = wallet.get_coldkeypub().ss58_address
         timestamp = int(time.time())
         commitment = f"s3:validator:miner:{miner_hotkey}:{timestamp}"
         signature = wallet.hotkey.sign(commitment.encode())
         signature_hex = signature.hex()
 
         payload = {
-            "hotkey": hotkey,
-            "signature": signature_hex,
+            "coldkey": coldkey,
+            "hotkey": hotkey,   
             "timestamp": timestamp,
+            "signature": signature_hex,
             "miner_hotkey": miner_hotkey,
             "expiry": timestamp + 86400
-        }
-        print(payload)
+        }   
+        bt.logging.info(f"Getting S3 access for {miner_hotkey}")
+        bt.logging.info(f"Payload: {payload}")
         response = requests.post(
             f"{s3_auth_url}/get-miner-specific-access",
             json=payload,

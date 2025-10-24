@@ -11,15 +11,6 @@ from storage.miner.miner_storage import MinerStorage
 class ScraperId(str, Enum):
     """The id for each of the scrapers."""
 
-    REDDIT_LITE = "Reddit.lite"
-    X_FLASH = "X.flash"
-    REDDIT_CUSTOM = "Reddit.custom"
-    X_MICROWORLDS = "X.microworlds"
-    X_APIDOJO = "X.apidojo"
-    X_QUACKER = "X.quacker"
-    YOUTUBE_CUSTOM_TRANSCRIPT = "YouTube.custom.transcript"
-    YOUTUBE_APIFY_TRANSCRIPT = "YouTube.apify.transcript"
-
 
 class ValidationResult(StrictBaseModel):
     """Data class to contain the result of a scraping validation."""

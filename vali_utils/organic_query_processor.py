@@ -10,9 +10,6 @@ from common.organic_protocol import OrganicRequest
 from common.constants import X_ON_DEMAND_CONTENT_EXPIRATION_DATE
 from common import constants, utils
 from vali_utils.scrapers import ValidatorScraperProvider
-from scraping.x.enhanced_apidojo_scraper import EnhancedApiDojoTwitterScraper
-from scraping.x.on_demand_model import EnhancedXContent
-from scraping.youtube.model import YouTubeContent
 from scraping.scraper import ScrapeConfig
 from common.date_range import DateRange
 import datetime as dt
@@ -118,9 +115,9 @@ class OrganicQueryProcessor:
         
         # TESTING: Select only UID XX for testing purposes
         # Testing: Custom UID
-        # if <uid_for_testing> in miner_uids:
-        #     bt.logging.info("TESTING: Selected UID XX only for testing")
-        #     return [<uid_for_testing>]
+        # if 25 or 22 in miner_uids:
+        #     bt.logging.info("TESTING: Selected UID 25 or 22 for testing")
+        #     return [25, 22]
         
         # Fallback to original logic if UID XX not available
         miner_scores = [(uid, float(self.metagraph.I[uid])) for uid in miner_uids]
@@ -175,6 +172,7 @@ class OrganicQueryProcessor:
         
         async with bt.dendrite(wallet=self.wallet) as dendrite:
             axons = [self.metagraph.axons[uid] for uid in selected_miners]
+            bt.logging.info(f"Axons: {axons}")
             responses = await dendrite.forward(
                 axons=axons,
                 synapse=on_demand_synapse,
@@ -443,56 +441,39 @@ class OrganicQueryProcessor:
     async def _perform_verification_rescrape(self, synapse: OrganicRequest) -> Optional[List]:
         """Perform verification rescrape using the same logic as miners"""
         try:
+            # Skip unsupported sources
+            if synapse.source.upper() in ['X', 'REDDIT', 'YOUTUBE']:
+                bt.logging.info(f"Verification - skipping")
+                return []
+
             # Initialize scraper based on source
-            if synapse.source.upper() == 'X':
-                scraper = EnhancedApiDojoTwitterScraper()
-            else:
-                scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[synapse.source.upper()])
-                scraper = ValidatorScraperProvider().get(scraper_id) if scraper_id else None
-            
+            scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[synapse.source.upper()])
+            scraper = ValidatorScraperProvider().get(scraper_id) if scraper_id else None
+
             if not scraper:
                 bt.logging.warning(f"No scraper available for verification of {synapse.source}")
                 return None
-            
+
             # Create verification config (limited scope)
             labels = []
             if synapse.keywords:
                 labels.extend([DataLabel(value=k) for k in synapse.keywords])
             if synapse.usernames:
-                labels.extend([DataLabel(value=f"@{u.strip('@')}" if not u.startswith('@') else u) for u in synapse.usernames])
-            
+                labels.extend([DataLabel(value=u) for u in synapse.usernames])
+
             start_date = utils.parse_iso_date(synapse.start_date) if synapse.start_date else dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)
             end_date = utils.parse_iso_date(synapse.end_date) if synapse.end_date else dt.datetime.now(dt.timezone.utc)
-            
+
             verify_config = ScrapeConfig(
-                entity_limit=synapse.limit,  
+                entity_limit=synapse.limit,
                 date_range=DateRange(start=start_date, end=end_date),
                 labels=labels,
             )
-            
-            # Perform scraping based on source
-            if synapse.source.upper() == 'X':
-                await scraper.scrape(verify_config)
-                enhanced_content = scraper.get_enhanced_content()
-                # Convert EnhancedXContent to DataEntities
-                verification_data = [EnhancedXContent.to_enhanced_data_entity(content=content) for content in enhanced_content]
-            elif synapse.source.upper() == 'REDDIT':
-                verification_data = await scraper.on_demand_scrape(usernames=synapse.usernames,
-                                                                   subreddit=synapse.keywords[0] if synapse.keywords else None,
-                                                                   keywords=synapse.keywords[1:] if len(synapse.keywords) > 1 else None,
-                                                                   start_datetime=start_date,
-                                                                   end_datetime=end_date)
-            elif synapse.source.upper() == 'YOUTUBE':
-                yt_label = DataLabel(value=YouTubeContent.create_channel_label(synapse.usernames[0]))
-                verify_config = ScrapeConfig(
-                    entity_limit=synapse.limit,  
-                    date_range=DateRange(start=start_date, end=end_date),
-                    labels=[yt_label],
-                )
-                verification_data = await scraper.scrape(verify_config)
-            
-            return verification_data if verification_data else None
-            
+
+            # Perform scraping for real estate data
+            verification_data = await scraper.scrape(verify_config)
+            return verification_data
+
         except Exception as e:
             bt.logging.error(f"Error during verification rescrape: {str(e)}")
             return None
@@ -686,96 +667,32 @@ class OrganicQueryProcessor:
             return False
     
 
-    def _validate_x_metadata_completeness(self, x_content: EnhancedXContent) -> bool:
-        """
-        Validate that X content has all required tweet metadata fields present.
-        
-        Args:
-            x_content: The EnhancedXContent object to validate
-            
-        Returns:
-            bool: True if all required metadata is present, False otherwise
-        """
-        try:
-            # All tweet metadata fields are required for organic responses
-            required_fields = [
-                ('tweet_id', 'Tweet ID'),
-                ('like_count', 'Like count'),
-                ('retweet_count', 'Retweet count'),
-                ('reply_count', 'Reply count'),
-                ('quote_count', 'Quote count'),
-                ('is_retweet', 'Is retweet flag'),
-                ('is_reply', 'Is reply flag'),
-                ('is_quote', 'Is quote flag')
-            ]
-            
-            missing_fields = []
-            
-            # Check all required fields
-            for field_name, display_name in required_fields:
-                field_value = getattr(x_content, field_name, None)
-                if field_value is None:
-                    missing_fields.append(display_name)
-            
-            # Fail validation if any required fields are missing
-            if missing_fields:
-                bt.logging.info(f"Tweet {x_content.url} missing required metadata: {missing_fields}")
-                return False
-            
-            # ensure numeric fields are actually numeric
-            numeric_fields = ['like_count', 'retweet_count', 'reply_count', 'quote_count']
-            for field_name in numeric_fields:
-                field_value = getattr(x_content, field_name, None)
-                if field_value is not None and not isinstance(field_value, (int, float)):
-                    try:
-                        # Try to convert to int
-                        int(field_value)
-                    except (ValueError, TypeError):
-                        bt.logging.info(f"Tweet {x_content.url} has invalid {field_name}: {field_value} (not numeric)")
-                        return False
-            
-            # ensure boolean fields are actually boolean
-            boolean_fields = ['is_retweet', 'is_reply', 'is_quote']
-            for field_name in boolean_fields:
-                field_value = getattr(x_content, field_name, None)
-                if field_value is not None and not isinstance(field_value, bool):
-                    bt.logging.info(f"Tweet {x_content.url} has invalid {field_name}: {field_value} (not boolean)")
-                    return False
-            
-            return True
-            
-        except Exception as e:
-            bt.logging.error(f"Error validating X metadata completeness: {str(e)}")
-            return False
     
 
     async def _validate_entity(self, synapse: OrganicRequest, entity: DataEntity, post_id: str) -> bool:
         """
         Three-phase validation:
-        1. Request field validation 
-        2. Metadata completeness validation 
-        3. Scraper validation 
+        1. Request field validation
+        2. Metadata completeness validation
+        3. Scraper validation
         """
         try:
             entity_for_validation = entity
 
-            # Phase 1: Request field validation 
+            # Phase 1: Request field validation
             if not self._validate_request_fields(synapse, entity):
                 bt.logging.error(f"Post {post_id} failed request field validation")
                 return False
-            
-            # Phase 2: Metadata completeness validation (X only)
-            if synapse.source.upper() == 'X':
-                x_content = EnhancedXContent.from_data_entity(entity)
-                if not self._validate_x_metadata_completeness(x_content=x_content):
-                    bt.logging.error(f"Post {post_id} failed metadata completeness validation")
-                    return False
-                entity_for_validation = EnhancedXContent.to_data_entity(content=x_content)
-            
+
+            # Phase 2: Metadata completeness validation
+            if synapse.source.upper() in ['X', 'REDDIT', 'YOUTUBE']:
+                bt.logging.info(f"Metadata validation - skipping")
+                entity_for_validation = entity
+
             # Phase 3: Scraper validation (only if previous validation passes)
             scraper_result = await self._validate_with_scraper(synapse, entity_for_validation, post_id)
             return scraper_result
-            
+
         except Exception as e:
             bt.logging.error(f"Validation error for {post_id}: {str(e)}")
             return False
@@ -786,107 +703,16 @@ class OrganicQueryProcessor:
         Validates whether the returned content fields match the request fields.
         """
         try:
-            if synapse.source.upper() == 'X':
-                return self._validate_x_request_fields(synapse, x_entity=entity)
-            elif synapse.source.upper() == 'REDDIT':
-                return self._validate_reddit_request_fields(synapse, reddit_entity=entity)
-            elif synapse.source.upper() == 'YOUTUBE':
-                return self._validate_youtube_request_fields(synapse, youtube_entity=entity)
+            # Skip unsupported sources
+            if synapse.source.upper() in ['X', 'REDDIT', 'YOUTUBE']:
+                bt.logging.info(f"Request field validation - skipping")
+                return True
+
+            # For supported data sources
+            return True
         except Exception as e:
             bt.logging.error(f"Error in request field validation: {str(e)}")
             return False
-    
-
-    def _validate_x_request_fields(self, synapse: OrganicRequest, x_entity: DataEntity) -> bool:
-        """X request field validation with the X DataEntity"""
-        x_content_dict = json.loads(x_entity.content.decode('utf-8'))
-        # Username validation
-        if synapse.usernames:
-            requested_usernames = [u.strip('@').lower() for u in synapse.usernames]
-            user_dict = x_content_dict.get("user", {})
-            post_username = user_dict.get("username", "").strip('@').lower()
-            if not post_username or post_username not in requested_usernames:
-                bt.logging.debug(f"Username mismatch: {post_username} not in: {requested_usernames}")
-                return False
-        
-        # Keyword validation
-        if synapse.keywords:
-            post_text = x_content_dict.get("text")
-            now = dt.datetime.now(dt.timezone.utc)
-            if now <= X_ON_DEMAND_CONTENT_EXPIRATION_DATE:
-                if not post_text:
-                    bt.logging.debug("'text' field not found, using 'content' as fallback. This fallback will expire Aug 25 2025.")
-                    post_text = x_content_dict.get("content", "")
-                
-            post_text = post_text.lower()
-            if not post_text or not all(keyword.lower() in post_text for keyword in synapse.keywords):
-                bt.logging.debug(f"Not all keywords ({synapse.keywords}) found in post: {post_text}")
-                return False
-        
-        # Time range validation
-        if not self._validate_time_range(synapse, x_entity.datetime):
-            return False
-        
-        return True
-    
-
-    def _validate_reddit_request_fields(self, synapse: OrganicRequest, reddit_entity: DataEntity) -> bool:
-        """Reddit request field validation with the Reddit DataEntity"""
-        reddit_content_dict = json.loads(reddit_entity.content.decode('utf-8'))
-        # Username validation
-        if synapse.usernames:
-            requested_usernames = [u.lower() for u in synapse.usernames]
-            post_username = reddit_content_dict.get("username")
-            if not post_username or post_username.lower() not in requested_usernames:
-                bt.logging.debug(f"Reddit username mismatch: {post_username} not in: {requested_usernames}")
-                return False
-        
-        # Keywords validation (subreddit or content)
-        if synapse.keywords:
-            post_community = reddit_content_dict.get("communityName")
-            if post_community:
-                post_community = post_community.lower().removeprefix('r/')
-                subreddit_match = any(keyword.lower().removeprefix('r/') == post_community 
-                                    for keyword in synapse.keywords)
-            else:
-                subreddit_match = False
-            
-            body_text = reddit_content_dict.get("body") or ""
-            title_text = reddit_content_dict.get("title") or ""
-            content_text = (body_text + ' ' + title_text).lower().strip()
-            
-            keyword_in_content = all(keyword.lower() in content_text for keyword in synapse.keywords) if content_text else False
-            
-            if not (subreddit_match or keyword_in_content):
-                bt.logging.debug(f"Reddit keyword mismatch in subreddit: '{post_community}' and content: '{content_text}'")
-                return False
-        
-        # Time range validation using non-obfuscated datetime
-        if not self._validate_time_range(synapse, reddit_entity.datetime):
-            return False
-        
-        return True
-    
-
-    def _validate_youtube_request_fields(self, synapse: OrganicRequest, youtube_entity: DataEntity) -> bool:
-        """YouTube request field validation with the Youtube DataEntity"""
-        youtube_content_dict = json.loads(youtube_entity.content.decode('utf-8'))
-
-        # Username validation
-        if synapse.usernames:
-            requested_channels = [u.strip('@').lower() for u in synapse.usernames]
-            requested_channel = requested_channels[0]   # take only the first requested channel
-            channel_name = youtube_content_dict.get("channel_name")
-            if not channel_name or channel_name.lower() != requested_channel.lower():
-                bt.logging.debug(f"Channel mismatch: {channel_name} is not the requested channel: {requested_channel}")
-                return False
-            
-        # Time range validation
-        if not self._validate_time_range(synapse, youtube_entity.datetime):
-            return False
-        
-        return True
-
 
     async def _validate_with_scraper(self, synapse: OrganicRequest, data_entity: DataEntity, post_id: str) -> bool:
         """
@@ -919,12 +745,15 @@ class OrganicQueryProcessor:
     def _get_scraper(self, source: str):
         """Get appropriate scraper for the data source"""
         try:
-            if source.upper() == 'X':
-                return EnhancedApiDojoTwitterScraper()
-            else:
-                scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[source.upper()])
-                if scraper_id:
-                    return ValidatorScraperProvider().get(scraper_id)
+            # Skip unsupported sources
+            if source.upper() in ['X', 'REDDIT', 'YOUTUBE']:
+                bt.logging.info(f"Scrapers not supported - returning None")
+                return None
+
+            # For supported data sources
+            scraper_id = self.evaluator.PREFERRED_SCRAPERS.get(DataSource[source.upper()])
+            if scraper_id:
+                return ValidatorScraperProvider().get(scraper_id)
         except Exception as e:
             bt.logging.error(f"Error getting scraper for {source}: {str(e)}")
         return None

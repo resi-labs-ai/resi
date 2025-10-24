@@ -122,6 +122,7 @@ class ValidatorS3Access:
     async def get_miner_specific_access(self, miner_hotkey: str) -> str:
         """Get presigned URL for specific miner's data"""
         try:
+            coldkey = self.wallet.get_coldkeypub().ss58_address
             hotkey = self.wallet.hotkey.ss58_address
             timestamp = int(time.time())
 
@@ -131,6 +132,7 @@ class ValidatorS3Access:
             signature_hex = signature.hex()
 
             payload = {
+                "coldkey": coldkey,
                 "hotkey": hotkey,
                 "timestamp": timestamp,
                 "signature": signature_hex,

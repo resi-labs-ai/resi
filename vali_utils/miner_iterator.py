@@ -84,9 +84,9 @@ class MinerIterator:
             
             # TESTING: Force include UID XX for testing purposes
             # Testing: Custom UID
-            # if <uid_for_testing> in self.miner_uids:
-            #     bt.logging.info("TESTING: Forcing UID XX to be included in synchronized evaluation batch")
-            #     return [<uid_for_testing>]
+            # if 25 or 22 in self.miner_uids:
+            #     bt.logging.info("TESTING: Forcing UID 25 or 22 to be included in synchronized evaluation batch")
+            #     return [25, 22]
             
             # Calculate which cycle we're in (changes every 4 hours = 1200 blocks)
             blocks_per_cycle = 1200  # 4 hours = 1200 blocks

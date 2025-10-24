@@ -102,7 +102,7 @@ class ResiLabsAPIClient:
             s3_upload_timestamp: When S3 upload completed
         """
         timestamp = self._get_timestamp()
-        commitment = f"miner:status:{self.hotkey.ss58_address}:{epoch_id}:{timestamp}"
+        commitment = f"zipcode:status:{epoch_id}:{timestamp}"
         signature = self._generate_signature(commitment)
         
         data = {

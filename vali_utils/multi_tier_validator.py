@@ -70,6 +70,9 @@ class MultiTierValidator:
         # Calculate minimum acceptable count
         min_expected = int(expected_count * (1 - self.quantity_tolerance))
         
+        # TODO: Remove this before pushing to mainnet
+        # min_expected = 2
+        
         # Check quantity (only minimum threshold, no maximum)
         passes_quantity = actual_count >= min_expected
         

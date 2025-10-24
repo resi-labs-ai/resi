@@ -136,16 +136,10 @@ class S3PartitionedUploader:
                     weight = item.get('weight', 1.0)
 
                     # Map platform to source integer
-                    if platform == 'reddit':
-                        source_int = DataSource.REDDIT.value
-                    elif platform in ['x', 'twitter']:
-                        source_int = DataSource.X.value
-                    elif platform == 'youtube':
-                        source_int = DataSource.YOUTUBE.value
-                    elif platform in ['custom', 'zillow', 'rapid_zillow']:
+                    if platform in ['custom', 'zillow', 'rapid_zillow']:
                         source_int = DataSource.SZILL_VALI.value
                     else:
-                        bt.logging.warning(f"Unsupported platform: {platform}")
+                        bt.logging.warning(f"Platform not supported: {platform} - skipping")
                         continue
 
                     # Store job configuration by job_id
@@ -190,23 +184,15 @@ class S3PartitionedUploader:
         normalized_label = label.lower().strip()
 
         # Build label conditions based on source
-        if source == DataSource.REDDIT.value:
-            # For Reddit: check both with and without r/ prefix
+        if source == DataSource.SZILL_VALI.value:
+            # Simple label matching
             label_conditions = [
                 f"LOWER(label) = '{normalized_label}'",
-                f"LOWER(label) = 'r/{normalized_label.removeprefix('r/')}'",
-            ]
-        elif source == DataSource.YOUTUBE.value:
-            # For YouTube: check channel labels with #ytc_c_ prefix
-            label_conditions = [
-                f"LOWER(label) = '{normalized_label}'",
-                f"LOWER(label) = '#ytc_c_{normalized_label.removeprefix('#ytc_c_')}'",
             ]
         else:
-            # For X: check hashtags with and without #
+            # For other sources
             label_conditions = [
                 f"LOWER(label) = '{normalized_label}'",
-                f"LOWER(label) = '#{normalized_label.removeprefix('#')}'",
             ]
 
         label_condition_sql = " OR ".join(label_conditions)
@@ -236,15 +222,16 @@ class S3PartitionedUploader:
         # Normalize keyword
         normalized_keyword = keyword.lower().strip()
 
-        # Build content search conditions - focus on main text fields
-        if source == DataSource.REDDIT.value:
-            # Search Reddit body field specifically
+        # Build content search conditions
+        if source == DataSource.SZILL_VALI.value:
+            # Search real estate content fields
             content_conditions = [
-                f"LOWER(JSON_EXTRACT(content, '$.body')) LIKE '%{normalized_keyword}%'",
-                f"LOWER(JSON_EXTRACT(content, '$.title')) LIKE '%{normalized_keyword}%'"
+                f"LOWER(JSON_EXTRACT(content, '$.text')) LIKE '%{normalized_keyword}%'",
+                f"LOWER(JSON_EXTRACT(content, '$.description')) LIKE '%{normalized_keyword}%'",
+                f"LOWER(JSON_EXTRACT(content, '$.address')) LIKE '%{normalized_keyword}%'"
             ]
         else:
-            # Search X text field specifically
+            # For other sources, use generic search
             content_conditions = [
                 f"LOWER(JSON_EXTRACT(content, '$.text')) LIKE '%{normalized_keyword}%'"
             ]
@@ -311,39 +298,8 @@ class S3PartitionedUploader:
             df['decoded_content'] = df['content'].apply(decode_content)
 
             # Extract fields based on source type
-            if source == DataSource.REDDIT.value:
-                # Reddit data structure
-                result_df = pd.DataFrame({
-                    'uri': df['uri'],
-                    'datetime': df['datetime'],
-                    'label': df['label'],
-                    'id': df['decoded_content'].apply(lambda x: x.get('id')),
-                    'username': df['decoded_content'].apply(lambda x: x.get('username')),
-                    'communityName': df['decoded_content'].apply(lambda x: x.get('communityName')),
-                    'body': df['decoded_content'].apply(lambda x: x.get('body')),
-                    'title': df['decoded_content'].apply(lambda x: x.get('title')),
-                    'createdAt': df['decoded_content'].apply(lambda x: x.get('createdAt')),
-                    'dataType': df['decoded_content'].apply(lambda x: x.get('dataType')),
-                    'parentId': df['decoded_content'].apply(lambda x: x.get('parentId')),
-                    'url': df['decoded_content'].apply(lambda x: x.get('url'))
-                })
-            elif source == DataSource.YOUTUBE.value:
-                # YouTube data structure
-                result_df = pd.DataFrame({
-                    'uri': df['uri'],
-                    'datetime': df['datetime'],
-                    'label': df['label'],
-                    'video_id': df['decoded_content'].apply(lambda x: x.get('video_id')),
-                    'title': df['decoded_content'].apply(lambda x: x.get('title')),
-                    'channel_name': df['decoded_content'].apply(lambda x: x.get('channel_name')),
-                    'upload_date': df['decoded_content'].apply(lambda x: x.get('upload_date')),
-                    'transcript': df['decoded_content'].apply(lambda x: x.get('transcript', [])),
-                    'url': df['decoded_content'].apply(lambda x: x.get('url')),
-                    'duration_seconds': df['decoded_content'].apply(lambda x: x.get('duration_seconds', 0)),
-                    'language': df['decoded_content'].apply(lambda x: x.get('language', 'en'))
-                })
-            elif source == DataSource.SZILL_VALI.value:
-                # Zillow data structure
+            if source == DataSource.SZILL_VALI.value:
+                # Real estate data structure
                 result_df = pd.DataFrame({
                     'uri': df['uri'],
                     'datetime': df['datetime'],
@@ -365,25 +321,11 @@ class S3PartitionedUploader:
                     'longitude': df['decoded_content'].apply(lambda x: x.get('longitude'))
                 })
             else:
-                # X/Twitter data structure (fallback)
+                # For other sources, use basic fields
                 result_df = pd.DataFrame({
                     'uri': df['uri'],
                     'datetime': df['datetime'],
-                    'label': df['label'],
-                    'username': df['decoded_content'].apply(lambda x: x.get('username')),
-                    'text': df['decoded_content'].apply(lambda x: x.get('text')),
-                    'tweet_hashtags': df['decoded_content'].apply(lambda x: x.get('tweet_hashtags', [])),
-                    'timestamp': df['decoded_content'].apply(lambda x: x.get('timestamp')),
-                    'url': df['decoded_content'].apply(lambda x: x.get('url')),
-                    'media': df['decoded_content'].apply(lambda x: x.get('media')),
-                    'user_id': df['decoded_content'].apply(lambda x: x.get('user_id')),
-                    'user_display_name': df['decoded_content'].apply(lambda x: x.get('user_display_name')),
-                    'user_verified': df['decoded_content'].apply(lambda x: x.get('user_verified')),
-                    'tweet_id': df['decoded_content'].apply(lambda x: x.get('tweet_id')),
-                    'is_reply': df['decoded_content'].apply(lambda x: x.get('is_reply')),
-                    'is_quote': df['decoded_content'].apply(lambda x: x.get('is_quote')),
-                    'conversation_id': df['decoded_content'].apply(lambda x: x.get('conversation_id')),
-                    'in_reply_to_user_id': df['decoded_content'].apply(lambda x: x.get('in_reply_to_user_id'))
+                    'label': df['label']
                 })
 
             return result_df

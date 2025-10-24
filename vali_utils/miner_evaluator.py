@@ -42,12 +42,9 @@ class MinerEvaluator:
 
     SCORER_FILENAME = "scorer.pickle"
 
-    # Mapping of scrapers to use based on the data source to validate.
+    # Mapping of scrapers to use based on the data source to validate
     PREFERRED_SCRAPERS = {
-        DataSource.X: ScraperId.X_APIDOJO,
-        DataSource.REDDIT: ScraperId.REDDIT_CUSTOM,
-        DataSource.YOUTUBE: ScraperId.YOUTUBE_APIFY_TRANSCRIPT,
-        DataSource.SZILL_VALI: "Szill.zillow"  # Real estate data uses DataSource.SZILL_VALI and Szill scraper
+        DataSource.SZILL_VALI: "Szill.zillow"
     }
 
     def __init__(self, config: bt.config, uid: int, metagraph_syncer: MetagraphSyncer, s3_reader: ValidatorS3Access):
@@ -144,8 +141,14 @@ class MinerEvaluator:
         s3_validation_info = self.s3_storage.get_validation_info(hotkey)
         s3_validation_result = None
 
+        bt.logging.info(f"{hotkey}: Checking if S3 validation needed. Current block: {current_block}, S3 validation info: {s3_validation_info}")
+        
         if s3_validation_info is None or (current_block - s3_validation_info['block']) > 1200:  # 4 hrs (aligned with regular validation)
+            bt.logging.info(f"{hotkey}: Triggering S3 validation (validation_info: {s3_validation_info}, block diff: {(current_block - s3_validation_info['block']) if s3_validation_info else 'N/A'})")
             s3_validation_result = await self._perform_s3_validation(hotkey, current_block)
+            bt.logging.info(f"{hotkey}: S3 validation completed. Result: {s3_validation_result}")
+        else:
+            bt.logging.info(f"{hotkey}: Skipping S3 validation (last validated {current_block - s3_validation_info['block']} blocks ago)")
         ##########
 
         # From that index, find a data entity bucket to sample and get it from the miner.
@@ -254,10 +257,16 @@ class MinerEvaluator:
             f"{hotkey}: Basic validation on Bucket ID: {chosen_data_entity_bucket.id} passed. Validating uris: {entity_uris}."
         )
 
-        scraper = self.scraper_provider.get(
-            MinerEvaluator.PREFERRED_SCRAPERS[chosen_data_entity_bucket.id.source]
-        )
-        validation_results = await scraper.validate(entities_to_validate)
+        # Skip unsupported data sources
+        data_source = chosen_data_entity_bucket.id.source
+        if data_source in [DataSource.X, DataSource.REDDIT, DataSource.YOUTUBE]:
+            bt.logging.info(f"Data source validation - skipping")
+            validation_results = [ValidationResult(is_valid=False, reason=f"Data source not supported", content_size_bytes_validated=0) for _ in entities_to_validate]
+        else:
+            scraper = self.scraper_provider.get(
+                MinerEvaluator.PREFERRED_SCRAPERS[data_source]
+            )
+            validation_results = await scraper.validate(entities_to_validate)
 
         bt.logging.success(
             f"{hotkey}: Data validation on selected entities finished with results: {validation_results}"
@@ -379,6 +388,7 @@ class MinerEvaluator:
         if not due_update:
             # Calculate time until next 4-hour cycle
             blocks_per_cycle = 1200  # 4 hours
+            # blocks_per_cycle = 360
             blocks_until_next_cycle = blocks_per_cycle - (current_block % blocks_per_cycle)
             seconds_until_next_cycle = blocks_until_next_cycle * 12  # 12 seconds per block
             

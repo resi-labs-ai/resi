@@ -13,7 +13,6 @@ from common import constants
 from common.data import DataLabel, DataSource
 from common.utils import get_validator_data, is_validator, time_bucket_id_from_datetime, parse_iso_date
 from rewards.data import DataSourceDesirability, DataDesirabilityLookup, Job, JobMatcher
-from scraping.youtube.model import YouTubeContent
 from dynamic_desirability.constants import (REPO_URL,
                                             PREFERENCES_FOLDER,
                                             DEFAULT_JSON_PATH,
@@ -118,9 +117,9 @@ def calculate_total_weights(validator_data: Dict[str, Dict[str, Any]], default_j
                 bt.logging.warning(f"Skipping malformed default job: {job}")
                 continue
             
-            # Apply channel label conversion for YouTube jobs
+            # Apply label conversion
             job_params = _apply_channel_label_conversion(job["params"])
-                
+
             job_key = create_job_key(job_params)
             # Store the ID from default jobs (or generate one if missing)
             job_ids[job_key] = job.get("id", f"default_{len(job_ids)}")
@@ -177,8 +176,8 @@ def calculate_total_weights(validator_data: Dict[str, Dict[str, Any]], default_j
                 continue
                 
             job_weight = job.get("weight", 1.0)
-            
-            # Apply channel label conversion for YouTube jobs
+
+            # Apply label conversion
             job_params = _apply_channel_label_conversion(job["params"])
             
             job_key = create_job_key(job_params)
@@ -284,12 +283,11 @@ def datetime_to_timebucket(datetime_str: Optional[str]) -> Optional[int]:
         return None
 
 def _apply_channel_label_conversion(job_params: Dict[str, Any]) -> Dict[str, Any]:
-    """Apply channel label conversion for YouTube jobs."""
+    """Apply label conversion."""
     converted_params = job_params.copy()
-    if converted_params.get("platform") == "youtube" and converted_params.get("label"):
-        raw_label = converted_params["label"]
-        converted_params["raw_label"] = raw_label
-        converted_params["label"] = YouTubeContent.create_channel_label(raw_label)
+    # Skip unsupported platforms
+    if converted_params.get("platform") in ["youtube", "twitter", "reddit"]:
+        return converted_params
     return converted_params
 
 def get_hotkey_json_submission(subtensor: bt.subtensor, netuid: int, metagraph: bt.metagraph, hotkey: str):

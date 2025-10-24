@@ -1,25 +1,8 @@
-import threading
 from typing import Callable, Dict
 from common.data import DataSource
-from scraping.reddit.reddit_lite_scraper import RedditLiteScraper
-from scraping.reddit.reddit_custom_scraper import RedditCustomScraper
 from scraping.scraper import Scraper, ScraperId
-from scraping.x.microworlds_scraper import MicroworldsTwitterScraper
-from scraping.x.apidojo_scraper import ApiDojoTwitterScraper
-from scraping.x.quacker_url_scraper import QuackerUrlScraper
-from scraping.youtube.youtube_custom_scraper import YouTubeTranscriptScraper
-from scraping.youtube.invideoiq_transcript_scraper import YouTubeChannelTranscriptScraper
 
-MINER_SCRAPER_FACTORIES = {
-    ScraperId.REDDIT_LITE: RedditLiteScraper,
-    ScraperId.X_FLASH: MicroworldsTwitterScraper,
-    ScraperId.REDDIT_CUSTOM: RedditCustomScraper,
-    ScraperId.X_MICROWORLDS: MicroworldsTwitterScraper,
-    ScraperId.X_APIDOJO: ApiDojoTwitterScraper,
-    ScraperId.X_QUACKER: QuackerUrlScraper,
-    ScraperId.YOUTUBE_CUSTOM_TRANSCRIPT: YouTubeTranscriptScraper,
-    ScraperId.YOUTUBE_APIFY_TRANSCRIPT: YouTubeChannelTranscriptScraper,
-}
+MINER_SCRAPER_FACTORIES = {}
 
 
 class MinerScraperProvider:

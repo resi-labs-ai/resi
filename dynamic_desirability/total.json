@@ -1,38 +1,5 @@
 [
     {
-        "id": "zillow_tier1_premium_sold",
-        "weight": 3.0,
-        "params": {
-            "keyword": null,
-            "platform": "rapid_zillow",
-            "label": "status:sold",
-            "post_start_datetime": null,
-            "post_end_datetime": null
-        }
-    },
-    {
-        "id": "zillow_tier2_major_sold",
-        "weight": 2.0,
-        "params": {
-            "keyword": null,
-            "platform": "rapid_zillow",
-            "label": "status:sold",
-            "post_start_datetime": null,
-            "post_end_datetime": null
-        }
-    },
-    {
-        "id": "zillow_tier3_standard_sold",
-        "weight": 1.5,
-        "params": {
-            "keyword": null,
-            "platform": "rapid_zillow",
-            "label": "status:sold",
-            "post_start_datetime": null,
-            "post_end_datetime": null
-        }
-    },
-    {
         "id": "zillow_tier4_rural_sold",
         "weight": 1.0,
         "params": {
