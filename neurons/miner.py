@@ -616,7 +616,7 @@ class Miner:
             # Get S3 credentials from ResiLabs API
             s3_creds = self.api_client.get_s3_upload_credentials()
             
-            if not s3_creds.get('success'):
+            if not s3_creds.get('url'):
                 bt.logging.error("Failed to get S3 upload credentials from API")
                 return False
             
