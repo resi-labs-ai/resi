@@ -1,4 +1,8 @@
+<div style="color:#456AD9;" align="center">
+
 # RESI - Real Estate Super Intelligence
+
+</div>
 
 <div align="center">
 
