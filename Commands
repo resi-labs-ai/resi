@@ -1,1 +1,0 @@
-python neurons/validator.py --netuid 428 --subtensor.network test --use_scrapingbee --wallet.name miner --wallet.hotkey default --logging.debug
