@@ -1,6 +1,7 @@
-<div style="color:#456AD9;" align="center">
+<div align="center">
 
-# RESI - Real Estate Super Intelligence
+# <img src="assets/resi-logo.png" alt="RESI Logo" width="23"> RESI - Real Estate Super Intelligence
+
 
 </div>
 
