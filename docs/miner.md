@@ -163,54 +163,7 @@ btcli wallet overview --wallet.name your_wallet --subtensor.network finney # Mai
 # Restart miner if needed
 pm2 restart testnet-miner  # or mainnet-miner
 pm2 stop testnet-miner     # or mainnet-miner
-
-# Check available storage tools
-python tools/check_miner_storage.py --help
 ```
-
-## Troubleshooting
-
-### Common Issues
-
-**Miner Not Starting:**
-- Verify wallet and hotkey exist and are registered
-- Check subnet connectivity: `btcli subnet list`
-- Ensure virtual environment is activated
-
-**Database Issues:**
-- Check available disk space
-- Verify database file permissions
-- Monitor for SQLite corruption
-
-**Network Issues:**
-- Confirm firewall allows Bittensor ports
-- Check internet connectivity
-- Verify wallet has sufficient balance for transactions
-
----
-## Network Information
-
-### Testnet (Subnet 428) - Recommended for Testing
-Testnet is perfect for:
-- Testing your setup without real TAO costs
-- Learning how the system works
-- Validating your configuration
-- Development and debugging
-
-**Key Features:**
-- **Faster S3 Uploads**: Every 5 minutes (vs 2 hours on mainnet)
-- **Auto-configured endpoints**: Automatically uses testnet S3 auth service
-- **Lower stakes**: Test environment with no financial risk
-
-### Mainnet (Subnet 46) - Production Environment
-Mainnet for production mining:
-- Real TAO rewards based on data quality
-- Production-grade requirements
-- Standard 2-hour S3 upload frequency
-- Full network participation
-
-### Monitoring Miner Earnings
-To monitor miner earnings, you can use either: [https://taostats.io](https://taostats.io/subnets/46/) or [https://taomarketcap.com](https://taomarketcap.com/subnets/46/miners)
 
 ---
 ## Compliance & Miner Policy
@@ -225,3 +178,4 @@ By participating as a miner on Subnet 46, you are agreeing to adhere to our [Min
 *Version 1.0, March 2025*
 
 ---
+</details>

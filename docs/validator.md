@@ -64,8 +64,7 @@ pm2 start python --name testnet-validator -- ./neurons/validator.py \
     --subtensor.network test \
     --wallet.name your_testnet_validator_wallet \
     --wallet.hotkey your_testnet_validator_hotkey \
-    --logging.debug \
-    --max_targets 10
+    --logging.debug
 ```
 
 **Running on mainnet:**
@@ -76,12 +75,12 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
-    --max_targets 256 \
-    --logging.debug
+    --logging.debug \
+    --use_scrapingbee
 ```
 
-**With Proxy Support (Recommended for Production):**
-See [Proxy Configuration Guide](PROXY_CONFIGURATION.md) for setup details.
+**With Proxy Support (Recommended for Mainnet):**
+See [Proxy Configuration Guide](proxy_configuration.md) for setup details.
 ```shell
 # Mainnet validator with ScrapingBee proxy
 pm2 start python --name mainnet-validator -- ./neurons/validator.py \
@@ -89,8 +88,7 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
-    --use_scrapingbee \
-    --max_targets 256
+    --use_scrapingbee
 ```
 
 **With Traditional Proxy:**
@@ -101,8 +99,7 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
-    --proxy_url "http://username:password@proxy-server:port" \
-    --max_targets 256
+    --proxy_url "http://username:password@proxy-server:port"
 ```
 
 ## Configuring the Validator
@@ -110,8 +107,8 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
 The Validator supports the following key configuration flags:
 
 ### Required Flags:
-- `--netuid`: 428 (testnet) or 46 (mainnet)
-- `--subtensor.network`: "test" (testnet) or "finney" (mainnet)
+- `--netuid`:  46 (mainnet) or 428 (testnet)
+- `--subtensor.network`: "finney" (mainnet) or "test" (testnet)
 - `--wallet.name`: Your validator wallet name
 - `--wallet.hotkey`: Your validator hotkey name
 

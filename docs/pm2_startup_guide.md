@@ -132,14 +132,6 @@ HTTPS_PROXY=http://username:password@proxy-server:port
 SCRAPINGBEE_API_KEY=your_api_key_here
 ```
 
-## Troubleshooting
-
-### Common Issues
-- Ensure your virtual environment is activated before starting PM2 processes
-- Verify file permissions for neurons scripts and log directories
-- Validate wallet registration: `btcli wallet overview --subtensor.network finney --wallet.name your_wallet`
-- Check blockchain network connectivity and subnet availability
-
 ### Process Recovery
 ```bash
 # Resurrect processes after reboot
