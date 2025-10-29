@@ -53,7 +53,7 @@ def choose_entities_to_verify(entities: List[DataEntity]) -> List[DataEntity]:
     chosen_entities = []
     total_size = sum(entity.content_size_bytes for entity in entities)
 
-    num_entities_to_choose = min(5, len(entities))
+    num_entities_to_choose = min(2, len(entities))  # Reduced from 5 to 1 to minimize scraping
     for _ in range(num_entities_to_choose):
         chosen_byte = random.uniform(0, total_size)
         iterated_bytes = 0

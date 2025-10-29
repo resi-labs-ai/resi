@@ -328,7 +328,7 @@ class MinerEvaluator:
             
             s3_validation_result = await validate_s3_miner_data(
                 self.wallet, s3_auth_url, hotkey, 
-                use_enhanced_validation=True, config=self.config
+                use_enhanced_validation=False, config=self.config
             )
             
             # Log results
