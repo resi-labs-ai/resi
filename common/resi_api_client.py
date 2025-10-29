@@ -6,7 +6,7 @@ Handles zipcode assignments, miner status updates, and S3 credentials
 import requests
 import time
 import json
-from datetime import datetime as dt
+from datetime import datetime as dt, timezone
 from typing import Dict, Any, Optional, List
 import bittensor as bt
 
@@ -124,7 +124,7 @@ class ResiLabsAPIClient:
         if s3_upload_complete and s3_upload_timestamp:
             data['s3UploadTimestamp'] = s3_upload_timestamp
         elif s3_upload_complete:
-            data['s3UploadTimestamp'] = dt.datetime.now(dt.timezone.utc).isoformat()
+            data['s3UploadTimestamp'] = dt.now(timezone.utc).isoformat()
         
         bt.logging.info(f"Updating miner status to {status} for epoch {epoch_id}")
         

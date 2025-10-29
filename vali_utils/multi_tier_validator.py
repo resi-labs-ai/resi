@@ -48,8 +48,8 @@ class MultiTierValidator:
         
         # Tier 3 Configuration
         self.spot_check_pass_rate = 0.80   # 80% of spot checks must pass
-        self.min_spot_check_samples = 3    # Minimum samples to check
-        self.max_spot_check_samples = 10   # Maximum samples to check
+        self.min_spot_check_samples = 2    # Minimum samples to check (reduced for API efficiency)
+        self.max_spot_check_samples = 2    # Maximum samples to check (2 scrapes per miner)
         self.spot_check_percentage = 0.10  # 10% of listings to spot check
     
     def tier1_quantity_validation(self, submission: Dict, expected_count: int) -> Dict[str, Any]:
