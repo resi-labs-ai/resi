@@ -139,7 +139,6 @@ def get_from_home_url_with_html_fallback(home_url: str, proxy_url: str | None = 
         response_content = brightdata_response['content']
         
         # BrightData returns JSON directly
-        import json
         try:
             brightdata_json = json.loads(response_content)
             data = filter_property_data(brightdata_json)
