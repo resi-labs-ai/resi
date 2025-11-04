@@ -1,4 +1,5 @@
 import asyncio
+import ast
 import bittensor as bt
 import datetime as dt
 from typing import List, Optional, Union, Tuple
@@ -395,9 +396,9 @@ class SzillZillowScraper(Scraper):
                     # If JSON fails, try replacing JavaScript null/true/false with Python equivalents
                     content_str = content_str.replace('null', 'None').replace('true', 'True').replace('false', 'False')
                     try:
-                        # Try eval with safer null handling
-                        entity_content_dict = eval(content_str)
-                    except (NameError, SyntaxError) as e:
+                        # Use ast.literal_eval for safe parsing of Python literals only
+                        entity_content_dict = ast.literal_eval(content_str)
+                    except (ValueError, SyntaxError) as e:
                         bt.logging.error(f"Failed to parse entity content: {str(e)}")
                         return ValidationResult(
                             is_valid=False,
