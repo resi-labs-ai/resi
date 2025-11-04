@@ -156,6 +156,14 @@ def add_args(neuron_type: NeuronType, parser):
         default=False,
     )
     
+    # BrightData configuration for validators
+    parser.add_argument(
+        "--use_brightdata",
+        action="store_true", 
+        help="Use BrightData API for scraping (requires BRIGHTDATA_API_KEY env var)",
+        default=False,
+    )
+    
     parser.add_argument(
         "--proxy_username",
         type=str,

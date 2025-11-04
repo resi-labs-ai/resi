@@ -30,6 +30,50 @@ python neurons/validator.py \
     --wallet.hotkey your_hotkey
 ```
 
+## Brightdata Configuration
+
+BrightData provides a dedicated API for scraping Zillow property data with automatic proxy rotation and data normalization.
+
+### Setup Steps
+
+1. Get your API key from [BrightData.com](https://brightdata.com/)
+2. Navigate to your dashboard and access your Zillow dataset scraper
+3. Copy your API key (Bearer token)
+4. Configure the API key:
+
+```bash
+# Add to .env file
+echo "BRIGHTDATA_API_KEY=your_api_key_here" >> .env
+
+# Or export directly
+export BRIGHTDATA_API_KEY="your_api_key_here"
+```
+
+5. Enable BrightData:
+
+```bash
+python neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_wallet \
+    --wallet.hotkey your_hotkey \
+    --use_brightdata \
+    --logging.debug
+```
+
+### Verification
+
+On startup, you should see:
+```
+✅ BrightData API configured successfully
+   Using BrightData for validator scraping operations
+```
+
+### Notes
+
+- BrightData requests can take 30-120 seconds (normal behavior)
+- API charges per successful scrape
+
 ## ScrapingBee Configuration
 
 ScrapingBee provides automatic proxy rotation, CAPTCHA solving, and browser fingerprinting.

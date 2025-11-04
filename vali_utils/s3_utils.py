@@ -705,7 +705,7 @@ class S3Validator:
         except Exception:
             return None
 
-def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: str) -> Optional[List[Dict]]:
+async def get_miner_s3_validation_data(wallet, s3_auth_url: str, miner_hotkey: str) -> Optional[List[Dict]]:
     """Get S3 file data for a specific miner"""
     try:
         # Get miner-specific presigned URL

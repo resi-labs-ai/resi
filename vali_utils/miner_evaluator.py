@@ -66,14 +66,16 @@ class MinerEvaluator:
             utils.get_miner_uids(self.metagraph, self.vpermit_rao_limit)
         )
         
-        # Configure scraper provider with proxy and ScrapingBee settings from config
+        # Configure scraper provider with proxy, ScrapingBee, and BrightData settings from config
         proxy_url = getattr(self.config, 'proxy_url', None)
         use_scrapingbee = getattr(self.config, 'use_scrapingbee', False)
+        use_brightdata = getattr(self.config, 'use_brightdata', False)
         
-        bt.logging.info(f"Initializing scraper provider - proxy: {bool(proxy_url)}, scrapingbee: {use_scrapingbee}")
+        bt.logging.info(f"Initializing scraper provider - proxy: {bool(proxy_url)}, scrapingbee: {use_scrapingbee}, brightdata: {use_brightdata}")
         self.scraper_provider = ValidatorScraperProvider(
             proxy_url=proxy_url,
-            use_scrapingbee=use_scrapingbee
+            use_scrapingbee=use_scrapingbee,
+            use_brightdata=use_brightdata
         )
         
         self.storage = SqliteMemoryValidatorStorage()

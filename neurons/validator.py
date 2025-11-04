@@ -182,6 +182,10 @@ class Validator:
                 if hasattr(self.config, 'use_scrapingbee') and self.config.use_scrapingbee:
                     self._configure_scrapingbee()
                 
+                # Configure BrightData if enabled
+                if hasattr(self.config, 'use_brightdata') and self.config.use_brightdata:
+                    self._configure_brightdata()
+                
                 bt.logging.success("Zipcode validation system initialized")
                 
                 # Test API connectivity
@@ -294,6 +298,32 @@ class Validator:
             bt.logging.error(f"Failed to configure ScrapingBee: {e}")
             bt.logging.warning("Disabling ScrapingBee - falling back to proxy/direct requests")
             self.config.use_scrapingbee = False
+
+    def _configure_brightdata(self):
+        """
+        Configure BrightData API settings for the validator's scraper components
+        """
+        try:
+            import os
+            from dotenv import load_dotenv
+            
+            load_dotenv()
+            
+            # Check if BrightData API key is available
+            api_key = os.getenv("BRIGHTDATA_API_KEY")
+            if not api_key:
+                bt.logging.error("❌ BRIGHTDATA_API_KEY not found in environment variables")
+                bt.logging.error("   Add BRIGHTDATA_API_KEY to your .env file or environment")
+                bt.logging.error("   Get your API key from: https://brightdata.com/")
+                raise ValueError("BrightData API key required when --use_brightdata is enabled")
+            
+            bt.logging.success("✅ BrightData API configured successfully")
+            bt.logging.info("   Using BrightData for validator scraping operations")
+            
+        except Exception as e:
+            bt.logging.error(f"Failed to configure BrightData: {e}")
+            bt.logging.warning("Disabling BrightData - falling back to proxy/direct requests")
+            self.config.use_brightdata = False
 
     def setup(self):
         """A one-time setup method that must be called before the Validator starts its main loop."""
