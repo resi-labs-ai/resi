@@ -277,12 +277,7 @@ class RapidAPIZillowZipcodeScraper(ZipcodeScraperInterface):
             # Generate source URL
             detail_url = prop.get('detailUrl') or prop.get('hdpUrl', '')
             if detail_url:
-                if detail_url.startswith('http'):
-                    # Already has full URL
-                    source_url = detail_url
-                else:
-                    # Relative path, prepend domain
-                    source_url = f"https://www.zillow.com{detail_url}"
+                source_url = detail_url if detail_url.startswith('http') else f"https://www.zillow.com{detail_url}"
             else:
                 # No detail_url provided, construct default
                 source_url = f"https://www.zillow.com/homedetails/{zpid}_zpid/"
