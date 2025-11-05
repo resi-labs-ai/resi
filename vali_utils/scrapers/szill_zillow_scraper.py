@@ -32,6 +32,7 @@ class SzillZillowScraper(Scraper):
         self, 
         proxy_url: Optional[str] = None, 
         use_scrapingbee: bool = False,
+        use_brightdata: bool = False,
         max_concurrent: int = 3
     ):
         if not SZILL_AVAILABLE:
@@ -39,6 +40,7 @@ class SzillZillowScraper(Scraper):
         
         self.proxy_url = proxy_url
         self.use_scrapingbee = use_scrapingbee
+        self.use_brightdata = use_brightdata
         self.max_concurrent = max_concurrent
         
         # Configuration for concurrent processing
@@ -53,7 +55,7 @@ class SzillZillowScraper(Scraper):
         
         bt.logging.info(
             f"Szill Zillow scraper initialized with {max_concurrent} concurrent requests, "
-            f"ScrapingBee: {use_scrapingbee}, Proxy: {bool(proxy_url)}"
+            f"ScrapingBee: {use_scrapingbee}, BrightData: {use_brightdata}, Proxy: {bool(proxy_url)}"
         )
 
     async def scrape(self, scrape_config: ScrapeConfig) -> List[DataEntity]:
@@ -302,7 +304,7 @@ class SzillZillowScraper(Scraper):
                     loop = asyncio.get_event_loop()
                     data = await loop.run_in_executor(
                         None, 
-                        lambda: get_from_home_id(property_id, self.proxy_url, self.use_scrapingbee)
+                        lambda: get_from_home_id(property_id, self.proxy_url, self.use_scrapingbee, self.use_brightdata)
                     )
                     
                     if data:
@@ -314,17 +316,16 @@ class SzillZillowScraper(Scraper):
                     last_error = e
                     error_msg = str(e).lower()
                     
-                    # Check if it's a ScrapingBee error that we can fallback from
-                    if self.use_scrapingbee and self.enable_fallback and attempt == 0:
-                        if 'scrapingbee' in error_msg or 'headers' in error_msg or 'connection' in error_msg:
+                    if (self.use_scrapingbee or self.use_brightdata) and self.enable_fallback and attempt == 0:
+                        if 'scrapingbee' in error_msg or 'brightdata' in error_msg or 'headers' in error_msg or 'connection' in error_msg:
                             if self.proxy_url:
-                                bt.logging.warning(f"ScrapingBee failed for {zpid}: {str(e)}. Attempting fallback to proxy method.")
-                                # Try with traditional proxy on next attempt
+                                service_name = "ScrapingBee" if self.use_scrapingbee else "BrightData"
+                                bt.logging.warning(f"{service_name} failed for {zpid}: {str(e)}. Attempting fallback to proxy method.")
                                 try:
                                     loop = asyncio.get_event_loop()
                                     data = await loop.run_in_executor(
                                         None, 
-                                        lambda: get_from_home_id(property_id, self.proxy_url, use_scrapingbee=False)
+                                        lambda: get_from_home_id(property_id, self.proxy_url, use_scrapingbee=False, use_brightdata=False)
                                     )
                                     if data:
                                         bt.logging.info(f"Successfully fetched property {zpid} using fallback proxy method")
@@ -333,7 +334,8 @@ class SzillZillowScraper(Scraper):
                                     bt.logging.warning(f"Fallback proxy also failed: {str(fallback_error)}")
                                     last_error = fallback_error
                             else:
-                                bt.logging.warning(f"ScrapingBee failed for {zpid}: {str(e)}. No proxy_url configured for fallback. Consider adding --proxy_url option.")
+                                service_name = "ScrapingBee" if self.use_scrapingbee else "BrightData"
+                                bt.logging.warning(f"{service_name} failed for {zpid}: {str(e)}.")
                     
                     # Log retry attempt
                     if attempt < self.max_retries:

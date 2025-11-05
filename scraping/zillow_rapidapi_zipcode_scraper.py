@@ -221,8 +221,13 @@ class RapidAPIZillowZipcodeScraper(ZipcodeScraperInterface):
                 state = address_obj.get('state', '')
                 zip_code = address_obj.get('zipcode', zipcode)
                 address = f"{street}, {city}, {state} {zip_code}".strip(', ')
+                
+                # Validate we got a real address, not just city/state
+                if not street or street.strip() == '':
+                    return None  # Skip properties without proper street address
             else:
-                address = str(address_obj) if address_obj else f"Property in {zipcode}"
+                # If address is not a proper dict, skip this property
+                return None
             
             # Property details with safe extraction
             bedrooms = prop.get('bedrooms')
@@ -271,9 +276,10 @@ class RapidAPIZillowZipcodeScraper(ZipcodeScraperInterface):
             
             # Generate source URL
             detail_url = prop.get('detailUrl') or prop.get('hdpUrl', '')
-            if detail_url and not detail_url.startswith('http'):
-                source_url = f"https://www.zillow.com{detail_url}"
+            if detail_url:
+                source_url = detail_url if detail_url.startswith('http') else f"https://www.zillow.com{detail_url}"
             else:
+                # No detail_url provided, construct default
                 source_url = f"https://www.zillow.com/homedetails/{zpid}_zpid/"
             
             # Create listing dictionary with all required fields

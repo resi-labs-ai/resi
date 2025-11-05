@@ -82,37 +82,32 @@ class MinerIterator:
             
             total_miners = len(self.miner_uids)
             
+            # Debug: Log available miner UIDs
+            bt.logging.info(f"Available miner UIDs: {self.miner_uids} (total: {total_miners})")
+            
             # TESTING: Force include UID XX for testing purposes
-            # Testing: Custom UID
-            # if 25 or 22 in self.miner_uids:
-            #     bt.logging.info("TESTING: Forcing UID 25 or 22 to be included in synchronized evaluation batch")
-            #     return [25, 22]
+            # bt.logging.info("TESTING: UID XX is included in synchronized evaluation batch")
+            # return [XX]
+            
+            # For small networks (< 100 miners), evaluate all miners in a single cycle
+            if total_miners <= batch_size:
+                bt.logging.info(f"Small network detected ({total_miners} miners). Evaluating all miners in single cycle.")
+                return self.miner_uids
             
             # Calculate which cycle we're in (changes every 4 hours = 1200 blocks)
             blocks_per_cycle = 1200  # 4 hours = 1200 blocks
-            cycle_number = (current_block // blocks_per_cycle) % 3  # 3 cycles to cover all miners
+            # Dynamically determine number of cycles needed
+            num_cycles = max(1, (total_miners + batch_size - 1) // batch_size)  # Ceiling division
+            cycle_number = (current_block // blocks_per_cycle) % num_cycles
             
-            bt.logging.info(f"Synchronized evaluation: block {current_block}, cycle {cycle_number}")
+            bt.logging.info(f"Synchronized evaluation: block {current_block}, cycle {cycle_number}/{num_cycles-1}, total_miners={total_miners}")
             
-            # Optimized batch selection for better API utilization
-            if cycle_number == 0:
-                # Cycle 1: First 100 miners
-                batch_end = min(100, total_miners)
-                selected_uids = self.miner_uids[0:batch_end]
-                bt.logging.info(f"Cycle 0: Evaluating miners 0-{batch_end-1} ({len(selected_uids)} miners)")
-                
-            elif cycle_number == 1:
-                # Cycle 2: Next 100 miners
-                batch_start = min(100, total_miners)
-                batch_end = min(200, total_miners)
-                selected_uids = self.miner_uids[batch_start:batch_end] if batch_start < total_miners else []
-                bt.logging.info(f"Cycle 1: Evaluating miners {batch_start}-{batch_end-1} ({len(selected_uids)} miners)")
-                
-            else:
-                # Cycle 3: Remaining miners (typically 51 miners for 251 total)
-                batch_start = min(200, total_miners)
-                selected_uids = self.miner_uids[batch_start:] if batch_start < total_miners else []
-                bt.logging.info(f"Cycle 2: Evaluating miners {batch_start}-{total_miners-1} ({len(selected_uids)} miners)")
+            # Calculate batch for this cycle
+            batch_start = cycle_number * batch_size
+            batch_end = min(batch_start + batch_size, total_miners)
+            
+            selected_uids = self.miner_uids[batch_start:batch_end]
+            bt.logging.info(f"Cycle {cycle_number}: Evaluating miners {batch_start}-{batch_end-1} ({len(selected_uids)} miners)")
             
             return selected_uids
 

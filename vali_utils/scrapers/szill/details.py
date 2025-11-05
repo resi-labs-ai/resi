@@ -1,19 +1,41 @@
 from typing import Any
 from curl_cffi import requests
-from .parse import parse_body_home
-from .utils import get_scrapingbee_response
+from .parse import parse_body_home, filter_property_data
+from .utils import get_scrapingbee_response, get_brightdata_response
+import json
 
 def get_from_home_id(
-    property_id: int, proxy_url: str | None = None, use_scrapingbee: bool = False
+    property_id: int, proxy_url: str | None = None, use_scrapingbee: bool = False, use_brightdata: bool = False
 ) -> dict[str, Any]:
     """Scrape data for property based on property ID from zillow"""
     home_url = f"https://www.zillow.com/homedetails/any-title/{property_id}_zpid/"
-    data = get_from_home_url(home_url, proxy_url, use_scrapingbee)
+    data = get_from_home_url(home_url, proxy_url, use_scrapingbee, use_brightdata)
     return data
 
-def get_from_home_url(home_url: str, proxy_url: str | None = None, use_scrapingbee: bool = False) -> dict[str, Any]:
+def get_from_home_url(home_url: str, proxy_url: str | None = None, use_scrapingbee: bool = False, use_brightdata: bool = False) -> dict[str, Any]:
     """Scrape given URL and parse home detail"""
-    if use_scrapingbee:
+    if use_brightdata:
+        brightdata_response = get_brightdata_response(home_url)
+        if not brightdata_response['success']:
+            error_detail = brightdata_response.get('error', 'Unknown error')
+            if 'timeout' in str(error_detail).lower():
+                raise Exception(f"BrightData request failed: Request timeout")
+            elif 'api key' in str(error_detail).lower() or 'authorization' in str(error_detail).lower():
+                raise Exception(f"BrightData request failed: Invalid or missing API key")
+            else:
+                raise Exception(f"BrightData request failed: {error_detail}")
+
+        response_content = brightdata_response['content']
+        
+        # BrightData returns JSON directly
+        try:
+            brightdata_json = json.loads(response_content)
+            data = filter_property_data(brightdata_json)
+            return data
+        except (json.JSONDecodeError, Exception) as e:
+            # If JSON parsing fails, return None
+            return None
+    elif use_scrapingbee:
         scrapingbee_response = get_scrapingbee_response(home_url, stealth_proxy=True, premium_proxy=False)
         if not scrapingbee_response['success']:
             error_detail = scrapingbee_response.get('error', 'Unknown error')
@@ -86,7 +108,7 @@ def get_from_home_url(home_url: str, proxy_url: str | None = None, use_scrapingb
     return data
 
 
-def get_from_home_url_with_html_fallback(home_url: str, proxy_url: str | None = None, use_scrapingbee: bool = False) -> dict[str, Any]:
+def get_from_home_url_with_html_fallback(home_url: str, proxy_url: str | None = None, use_scrapingbee: bool = False, use_brightdata: bool = False) -> dict[str, Any]:
     """Scrape given URL with enhanced HTML element extraction as fallback
     
     This function demonstrates the enhanced parsing capabilities that can extract
@@ -95,12 +117,36 @@ def get_from_home_url_with_html_fallback(home_url: str, proxy_url: str | None = 
     Args:
         home_url (str): URL for the property
         proxy_url (str | None, optional): proxy URL for masking the request. Defaults to None.
-        use_scrapingbee (bool): Use ScrapingBee API instead of direct requests. Defaults to False.
+        use_scrapingbee (bool): Use ScrapingBee API. Defaults to False.
+        use_brightdata (bool): Use BrightData API. Defaults to False.
 
     Returns:
         dict[str, Any]: parsed property information with enhanced extraction
     """
-    if use_scrapingbee:
+    if use_brightdata:
+        # Use BrightData API
+        brightdata_response = get_brightdata_response(home_url)
+        if not brightdata_response['success']:
+            error_detail = brightdata_response.get('error', 'Unknown error')
+            # Provide more helpful error messages for common issues
+            if 'timeout' in str(error_detail).lower():
+                raise Exception(f"BrightData request failed: Request timeout")
+            elif 'api key' in str(error_detail).lower() or 'authorization' in str(error_detail).lower():
+                raise Exception(f"BrightData request failed: Invalid or missing API key")
+            else:
+                raise Exception(f"BrightData request failed: {error_detail}")
+        
+        response_content = brightdata_response['content']
+        
+        # BrightData returns JSON directly
+        try:
+            brightdata_json = json.loads(response_content)
+            data = filter_property_data(brightdata_json)
+            return data
+        except (json.JSONDecodeError, Exception) as e:
+            # If JSON parsing fails, return None
+            return None
+    elif use_scrapingbee:
         # Use ScrapingBee API
         scrapingbee_response = get_scrapingbee_response(home_url, stealth_proxy=True, premium_proxy=False)
         if not scrapingbee_response['success']:
