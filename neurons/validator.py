@@ -664,31 +664,45 @@ class Validator:
             return False
 
         with self.lock:
-            # After a restart, we want to wait two evaluation cycles
-            # Check if we've completed at least two evaluation cycles since startup
-            if not self.evaluation_cycles_since_startup:
-                self.evaluation_cycles_since_startup = 0
-                bt.logging.info("Initializing evaluation cycles counter for delayed weight setting")
-
-            #  if we've completed fewer than the allotted number of evaluation cycles, don't set weights
-            if self.evaluation_cycles_since_startup < constants.EVALUATION_ON_STARTUP:
-
-                bt.logging.info(
-                    f"Skipping weight setting - completed {self.evaluation_cycles_since_startup}/15 evaluation cycles since startup")
-                return False
-
-            # Check if an epoch has passed since last weight setting
             current_block = self.block
-            epoch_length = self.config.neuron.epoch_length
+            blocks_per_weight_cycle = 3600  # Set weights every 3600 blocks (12 hours)
+            
+            # Calculate blocks since last weight setting
             blocks_since_last_weights = current_block - self.last_weights_set_block
             
-            # Log current status for debugging
-            bt.logging.debug(f"Weight setting check: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
-            
-            # If we haven't set weights yet, or if an epoch has passed
-            if self.last_weights_set_block == 0 or blocks_since_last_weights >= epoch_length:
-                bt.logging.info(f"Epoch boundary reached: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
+            if self.last_weights_set_block == 0:
+                epoch_length = self.config.neuron.epoch_length
+                min_blocks_required = max(epoch_length, blocks_per_weight_cycle)
+                if blocks_since_last_weights < min_blocks_required:
+                    bt.logging.debug(
+                        f"First weight setting: waiting for {min_blocks_required} blocks "
+                        f"(epoch_length={epoch_length}, blocks_per_weight_cycle={blocks_per_weight_cycle}), "
+                        f"current={blocks_since_last_weights}"
+                    )
+                    return False
+                bt.logging.info(
+                    f"First weight setting: current_block={current_block}, "
+                    f"blocks_since_start={blocks_since_last_weights}, "
+                    f"min_blocks_required={min_blocks_required}"
+                )
                 return True
+            
+            # Check if 3600 blocks have passed since last weight setting
+            if blocks_since_last_weights >= blocks_per_weight_cycle:
+                bt.logging.info(
+                    f"3600-block cycle reached: current_block={current_block}, "
+                    f"last_weights_set_block={self.last_weights_set_block}, "
+                    f"blocks_since_last_weights={blocks_since_last_weights}"
+                )
+                return True
+            
+            # Log current status for debugging
+            bt.logging.debug(
+                f"Weight setting check: current_block={current_block}, "
+                f"last_weights_set_block={self.last_weights_set_block}, "
+                f"blocks_since_last_weights={blocks_since_last_weights}, "
+                f"blocks_per_weight_cycle={blocks_per_weight_cycle}"
+            )
             
             return False
 
