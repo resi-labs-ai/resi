@@ -1160,7 +1160,7 @@ class Validator:
                 return {}
             
             # Parse S3 XML to find epoch-specific files
-            epoch_files = self._parse_epoch_files_from_s3_xml(response.text, epoch_id, miner_hotkey)
+            epoch_files = self._parse_epoch_files_from_s3_xml(response.text, epoch_id, miner_hotkey, miner_url)
             
             if not epoch_files:
                 return {}
@@ -1186,7 +1186,7 @@ class Validator:
             bt.logging.debug(f"Error downloading miner epoch data from {miner_hotkey[:8]}...: {e}")
             return {}
     
-    def _parse_epoch_files_from_s3_xml(self, xml_content: str, epoch_id: str, miner_hotkey: str) -> list:
+    def _parse_epoch_files_from_s3_xml(self, xml_content: str, epoch_id: str, miner_hotkey: str, miner_url: str) -> list:
         """
         Parse S3 XML response to find epoch-specific files
         
@@ -1194,6 +1194,7 @@ class Validator:
             xml_content: S3 XML response
             epoch_id: Target epoch ID
             miner_hotkey: Miner's hotkey
+            miner_url: Base URL for downloading miner files
             
         Returns:
             List of epoch file info
