@@ -691,7 +691,7 @@ class Validator:
             # Check if 3600 blocks have passed since last weight setting
             if blocks_since_last_weights >= blocks_per_weight_cycle:
                 bt.logging.info(
-                    f"3600-block cycle reached: current_block={current_block}, "
+                    f"{blocks_per_weight_cycle}-block cycle reached: current_block={current_block}, "
                     f"last_weights_set_block={self.last_weights_set_block}, "
                     f"blocks_since_last_weights={blocks_since_last_weights}"
                 )
