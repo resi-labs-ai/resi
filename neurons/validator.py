@@ -814,7 +814,7 @@ class Validator:
         uids_np = np.array(self.metagraph.uids, dtype=np.int64)
         final_uids = np.concatenate([[238], uids_np])
 
-        # set sel.uid weight to 0 if not already
+        # set self.uid weight to 0 if not already
         if self.uid < len(self.metagraph.uids) and self.uid + 1 < len(final_weights):
             if final_weights[self.uid + 1] != 0:
                 final_weights[self.uid + 1] = 0
