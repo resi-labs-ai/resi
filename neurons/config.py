@@ -251,6 +251,13 @@ def add_args(neuron_type: NeuronType, parser):
             default=256,
         )
 
+        parser.add_argument(
+            "--auto-update",
+            action="store_true",
+            help="Enable automatic updates. Checks for updates every 3 hours and restarts the PM2 process when updates are available.",
+            default=False,
+        )
+
     elif neuron_type == NeuronType.MINER:
         parser.add_argument(
             "--neuron.database_name",

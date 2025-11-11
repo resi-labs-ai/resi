@@ -57,6 +57,7 @@ from common.resi_api_client import create_api_client
 from rewards.zipcode_competitive_scorer import ZipcodeCompetitiveScorer
 from vali_utils.multi_tier_validator import MultiTierValidator
 from vali_utils.deterministic_consensus import DeterministicConsensus
+from common.auto_updater import AutoUpdater
 
 load_dotenv()
 # Filter annoying bittensor trace logs
@@ -665,7 +666,7 @@ class Validator:
 
         with self.lock:
             current_block = self.block
-            blocks_per_weight_cycle = 3600  # Set weights every 3600 blocks (12 hours)
+            blocks_per_weight_cycle = 1200  # Set weights every 1200 blocks (4 hours)
             
             # Calculate blocks since last weight setting
             blocks_since_last_weights = current_block - self.last_weights_set_block
@@ -812,6 +813,11 @@ class Validator:
         # Create corresponding UIDs array with burn UID first
         uids_np = np.array(self.metagraph.uids, dtype=np.int64)
         final_uids = np.concatenate([[238], uids_np])
+
+        # set sel.uid weight to 0 if not already
+        if self.uid < len(self.metagraph.uids) and self.uid + 1 < len(final_weights):
+            if final_weights[self.uid + 1] != 0:
+                final_weights[self.uid + 1] = 0
 
         bt.logging.info(f"Burn applied: 75% of total weight ({burn_weight_portion:.4f}) redirected to UID 238")
 
@@ -1567,21 +1573,34 @@ def main():
         config=config, uid=uid, metagraph_syncer=metagraph_syncer, s3_reader=s3_reader
     )
 
-    with Validator(
-        metagraph_syncer=metagraph_syncer,
-        evaluator=evaluator,
-        uid=uid,
-        config=config,
-        subtensor=subtensor,
-    ) as validator:
-        while True:
-            if not validator.is_healthy():
-                bt.logging.error("Validator is unhealthy. Restarting.")
-                # Sys.exit() may not shutdown the process because it'll wait for other threads
-                # to complete. Use os._exit() instead.
-                os._exit(1)
-            bt.logging.trace("Validator running...", time.time())
-            time.sleep(60)
+    # Initialize auto-updater if enabled
+    auto_updater = None
+    # argparse converts --auto-update to auto_update in the config
+    if getattr(config, 'auto_update', False):
+        auto_updater = AutoUpdater(config, check_interval_hours=3.0)
+        auto_updater.start()
+        bt.logging.info("Auto-updater enabled. Will check for updates every 3 hours.")
+
+    try:
+        with Validator(
+            metagraph_syncer=metagraph_syncer,
+            evaluator=evaluator,
+            uid=uid,
+            config=config,
+            subtensor=subtensor,
+        ) as validator:
+            while True:
+                if not validator.is_healthy():
+                    bt.logging.error("Validator is unhealthy. Restarting.")
+                    # Sys.exit() may not shutdown the process because it'll wait for other threads
+                    # to complete. Use os._exit() instead.
+                    os._exit(1)
+                bt.logging.trace("Validator running...", time.time())
+                time.sleep(60)
+    finally:
+        # Stop auto-updater when validator exits
+        if auto_updater:
+            auto_updater.stop()
 
 
 # The main function parses the configuration and runs the validator.
