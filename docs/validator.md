@@ -69,7 +69,7 @@ pm2 start python --name testnet-validator -- ./neurons/validator.py \
 
 **Running on mainnet:**
 ```shell
-# Start mainnet validator
+# Start mainnet validator with scrapingbee
 pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --netuid 46 \
     --subtensor.network finney \
@@ -77,18 +77,37 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --wallet.hotkey your_mainnet_validator_hotkey \
     --logging.debug \
     --use_scrapingbee
-```
 
-**With Proxy Support (Recommended for Mainnet):**
-See [Proxy Configuration Guide](proxy_configuration.md) for setup details.
-```shell
-# Mainnet validator with ScrapingBee proxy
+# Running with auto-updater enabled
 pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --netuid 46 \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
-    --use_scrapingbee
+    --logging.debug \
+    --use_scrapingbee \
+    --auto-update
+```
+
+```bash
+# Start mainnet validator with brightdata
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey \
+    --logging.debug \
+    --use_brightdata
+
+# Running with auto-updater enabled
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey \
+    --logging.debug \
+    --use_brightdata \
+    --auto-update
 ```
 
 **With Traditional Proxy:**
@@ -100,6 +119,15 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
     --proxy_url "http://username:password@proxy-server:port"
+
+# With auto-update enabled
+pm2 start python --name mainnet-validator -- ./neurons/validator.py \
+    --netuid 46 \
+    --subtensor.network finney \
+    --wallet.name your_mainnet_validator_wallet \
+    --wallet.hotkey your_mainnet_validator_hotkey \
+    --proxy_url "http://username:password@proxy-server:port" \
+    --auto-update
 ```
 
 ## Configuring the Validator

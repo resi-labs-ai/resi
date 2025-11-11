@@ -57,6 +57,7 @@ from common.resi_api_client import create_api_client
 from rewards.zipcode_competitive_scorer import ZipcodeCompetitiveScorer
 from vali_utils.multi_tier_validator import MultiTierValidator
 from vali_utils.deterministic_consensus import DeterministicConsensus
+from common.auto_updater import AutoUpdater
 
 load_dotenv()
 # Filter annoying bittensor trace logs
@@ -664,31 +665,45 @@ class Validator:
             return False
 
         with self.lock:
-            # After a restart, we want to wait two evaluation cycles
-            # Check if we've completed at least two evaluation cycles since startup
-            if not self.evaluation_cycles_since_startup:
-                self.evaluation_cycles_since_startup = 0
-                bt.logging.info("Initializing evaluation cycles counter for delayed weight setting")
-
-            #  if we've completed fewer than the allotted number of evaluation cycles, don't set weights
-            if self.evaluation_cycles_since_startup < constants.EVALUATION_ON_STARTUP:
-
-                bt.logging.info(
-                    f"Skipping weight setting - completed {self.evaluation_cycles_since_startup}/15 evaluation cycles since startup")
-                return False
-
-            # Check if an epoch has passed since last weight setting
             current_block = self.block
-            epoch_length = self.config.neuron.epoch_length
+            blocks_per_weight_cycle = 1200  # Set weights every 1200 blocks (4 hours)
+            
+            # Calculate blocks since last weight setting
             blocks_since_last_weights = current_block - self.last_weights_set_block
             
-            # Log current status for debugging
-            bt.logging.debug(f"Weight setting check: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
-            
-            # If we haven't set weights yet, or if an epoch has passed
-            if self.last_weights_set_block == 0 or blocks_since_last_weights >= epoch_length:
-                bt.logging.info(f"Epoch boundary reached: current_block={current_block}, last_weights_set_block={self.last_weights_set_block}, blocks_since_last_weights={blocks_since_last_weights}, epoch_length={epoch_length}")
+            if self.last_weights_set_block == 0:
+                epoch_length = self.config.neuron.epoch_length
+                min_blocks_required = max(epoch_length, blocks_per_weight_cycle)
+                if blocks_since_last_weights < min_blocks_required:
+                    bt.logging.debug(
+                        f"First weight setting: waiting for {min_blocks_required} blocks "
+                        f"(epoch_length={epoch_length}, blocks_per_weight_cycle={blocks_per_weight_cycle}), "
+                        f"current={blocks_since_last_weights}"
+                    )
+                    return False
+                bt.logging.info(
+                    f"First weight setting: current_block={current_block}, "
+                    f"blocks_since_start={blocks_since_last_weights}, "
+                    f"min_blocks_required={min_blocks_required}"
+                )
                 return True
+            
+            # Check if 3600 blocks have passed since last weight setting
+            if blocks_since_last_weights >= blocks_per_weight_cycle:
+                bt.logging.info(
+                    f"{blocks_per_weight_cycle}-block cycle reached: current_block={current_block}, "
+                    f"last_weights_set_block={self.last_weights_set_block}, "
+                    f"blocks_since_last_weights={blocks_since_last_weights}"
+                )
+                return True
+            
+            # Log current status for debugging
+            bt.logging.debug(
+                f"Weight setting check: current_block={current_block}, "
+                f"last_weights_set_block={self.last_weights_set_block}, "
+                f"blocks_since_last_weights={blocks_since_last_weights}, "
+                f"blocks_per_weight_cycle={blocks_per_weight_cycle}"
+            )
             
             return False
 
@@ -798,6 +813,11 @@ class Validator:
         # Create corresponding UIDs array with burn UID first
         uids_np = np.array(self.metagraph.uids, dtype=np.int64)
         final_uids = np.concatenate([[238], uids_np])
+
+        # set self.uid weight to 0 if not already
+        if self.uid < len(self.metagraph.uids) and self.uid + 1 < len(final_weights):
+            if final_weights[self.uid + 1] != 0:
+                final_weights[self.uid + 1] = 0
 
         bt.logging.info(f"Burn applied: 75% of total weight ({burn_weight_portion:.4f}) redirected to UID 238")
 
@@ -1146,7 +1166,7 @@ class Validator:
                 return {}
             
             # Parse S3 XML to find epoch-specific files
-            epoch_files = self._parse_epoch_files_from_s3_xml(response.text, epoch_id, miner_hotkey)
+            epoch_files = self._parse_epoch_files_from_s3_xml(response.text, epoch_id, miner_hotkey, miner_url)
             
             if not epoch_files:
                 return {}
@@ -1172,7 +1192,7 @@ class Validator:
             bt.logging.debug(f"Error downloading miner epoch data from {miner_hotkey[:8]}...: {e}")
             return {}
     
-    def _parse_epoch_files_from_s3_xml(self, xml_content: str, epoch_id: str, miner_hotkey: str) -> list:
+    def _parse_epoch_files_from_s3_xml(self, xml_content: str, epoch_id: str, miner_hotkey: str, miner_url: str) -> list:
         """
         Parse S3 XML response to find epoch-specific files
         
@@ -1180,6 +1200,7 @@ class Validator:
             xml_content: S3 XML response
             epoch_id: Target epoch ID
             miner_hotkey: Miner's hotkey
+            miner_url: Base URL for downloading miner files
             
         Returns:
             List of epoch file info
@@ -1552,21 +1573,34 @@ def main():
         config=config, uid=uid, metagraph_syncer=metagraph_syncer, s3_reader=s3_reader
     )
 
-    with Validator(
-        metagraph_syncer=metagraph_syncer,
-        evaluator=evaluator,
-        uid=uid,
-        config=config,
-        subtensor=subtensor,
-    ) as validator:
-        while True:
-            if not validator.is_healthy():
-                bt.logging.error("Validator is unhealthy. Restarting.")
-                # Sys.exit() may not shutdown the process because it'll wait for other threads
-                # to complete. Use os._exit() instead.
-                os._exit(1)
-            bt.logging.trace("Validator running...", time.time())
-            time.sleep(60)
+    # Initialize auto-updater if enabled
+    auto_updater = None
+    # argparse converts --auto-update to auto_update in the config
+    if getattr(config, 'auto_update', False):
+        auto_updater = AutoUpdater(config, check_interval_hours=3.0)
+        auto_updater.start()
+        bt.logging.info("Auto-updater enabled. Will check for updates every 3 hours.")
+
+    try:
+        with Validator(
+            metagraph_syncer=metagraph_syncer,
+            evaluator=evaluator,
+            uid=uid,
+            config=config,
+            subtensor=subtensor,
+        ) as validator:
+            while True:
+                if not validator.is_healthy():
+                    bt.logging.error("Validator is unhealthy. Restarting.")
+                    # Sys.exit() may not shutdown the process because it'll wait for other threads
+                    # to complete. Use os._exit() instead.
+                    os._exit(1)
+                bt.logging.trace("Validator running...", time.time())
+                time.sleep(60)
+    finally:
+        # Stop auto-updater when validator exits
+        if auto_updater:
+            auto_updater.stop()
 
 
 # The main function parses the configuration and runs the validator.

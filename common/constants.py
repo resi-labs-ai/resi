@@ -48,5 +48,3 @@ X_ON_DEMAND_CONTENT_EXPIRATION_DATE = dt.datetime(2025, 8, 25, tzinfo=dt.timezon
 
 # Date after which YouTube content timestamps must be obfuscated to the minute
 YOUTUBE_TIMESTAMP_OBFUSCATION_REQUIRED_DATE = dt.datetime(2025, 9, 5, tzinfo=dt.timezone.utc) # September 5, 2025 UTC (one week from August 29, 2025)
-
-EVALUATION_ON_STARTUP = 15
