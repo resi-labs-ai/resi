@@ -126,7 +126,7 @@ pm2 start python --name mainnet-validator -- ./neurons/validator.py \
     --subtensor.network finney \
     --wallet.name your_mainnet_validator_wallet \
     --wallet.hotkey your_mainnet_validator_hotkey \
-    --proxy_url "http://username:password@proxy-server:port"
+    --proxy_url "http://username:password@proxy-server:port" \
     --auto-update
 ```
 
