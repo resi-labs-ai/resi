@@ -691,7 +691,7 @@ class Validator:
             # Check if 3600 blocks have passed since last weight setting
             if blocks_since_last_weights >= blocks_per_weight_cycle:
                 bt.logging.info(
-                    f"{blocks_per_weight_cycle}-block cycle reached: current_block={current_block}, "
+                    f"3600-block cycle reached: current_block={current_block}, "
                     f"last_weights_set_block={self.last_weights_set_block}, "
                     f"blocks_since_last_weights={blocks_since_last_weights}"
                 )
@@ -770,13 +770,16 @@ class Validator:
         thread.start()
         bt.logging.info("API monitoring started")
 
-    def set_weights(self, scores):
+    def set_weights(self, scores=None):
         """
         Sets the validator weights to the metagraph hotkeys based on the scores it has received from the miners. The weights determine the trust and incentive level the validator assigns to miner nodes on the network.
         """
         bt.logging.info("Attempting to set weights.")
 
         scorer = self.evaluator.get_scorer()
+        if scores is None:
+            bt.logging.info("Scores is none so using scorer.get_scores()")
+            scores = scorer.get_scores()
         # scores = scorer.get_scores()
         credibilities = scorer.get_credibilities()
 
@@ -788,31 +791,33 @@ class Validator:
 
         # Get miner UIDs only
         miner_uids = utils.get_miner_uids(self.metagraph, self.config.vpermit_rao_limit)
-        
+
         # Calculate the average reward for each uid across non-zero values.
         # Replace any NaN values with 0.
         raw_weights = torch.nn.functional.normalize(scores, p=1, dim=0)
-        
+
+
         # Extract weights for miners only
         miner_weights = raw_weights[miner_uids]
-        
-        # Calculate what 75% of total weight would be
+
+        # Calculate what 90% of total weight would be
         total_weight = miner_weights.sum().item()
-        burn_weight_portion = 0.75 * total_weight  # 75% goes to burn
+        burn_weight_portion = 0.90 * total_weight  # 90% goes to burn
 
         # Create new weights array with burn entry
         final_weights = torch.zeros(len(miner_weights) + 1, dtype=torch.float32)
 
-        # Set burn weight (75% of total)
+        # Set burn weight (90% of total)
         final_weights[0] = burn_weight_portion
-        
+
         if final_weights[0] == 0:
             final_weights[0] = 1
 
-        # Set miner weights (25% of original weights, proportionally distributed)
+        # Set miner weights (10% of original weights, proportionally distributed)
         remaining_weight = total_weight - burn_weight_portion
         if remaining_weight > 0:
-            # Scale down miner weights proportionally to fill remaining 25%
+            # Scale down miner weights proportionally to fill remaining 10%
+            # miner_weights = raw_weights * (remaining_weight / raw_weights.sum().item())
             scaled_miner_weights = miner_weights * (remaining_weight / miner_weights.sum().item())
             final_weights[1:] = scaled_miner_weights
 
@@ -858,14 +863,14 @@ class Validator:
         sorted_uids_and_weights = sorted(
             uids_and_weights, key=lambda x: x[1], reverse=True
         )
-        
+
         # Add edge case handling: ensure final_uids and extended_credibilities have matching lengths
         if len(final_uids) != len(extended_credibilities):
             bt.logging.warning(f"Mismatch between final_uids length ({len(final_uids)}) and extended_credibilities length ({len(extended_credibilities)})")
-            
+
         # Create UID-to-index mapping for O(1) credibility lookups
         uid_to_index = {uid: idx for idx, uid in enumerate(final_uids.tolist())}
-        
+
         for uid, weight in sorted_uids_and_weights:
             # Handle burn UID (238) specially in display
             if uid == 238:
@@ -882,7 +887,7 @@ class Validator:
                 else:
                     bt.logging.warning(f"UID {uid} not found in scores tensor (length: {len(scores)})")
                     original_score = 0
-                
+
                 # Display credibility with error handling
                 try:
                     credibility_value = extended_credibilities[uid_to_index[uid]].item()
@@ -1540,28 +1545,30 @@ class Validator:
     def update_bittensor_weights_from_zipcode_scores(self, miner_scores: dict):
         """
         Update Bittensor weights based on zipcode competitive scores
-        
+
         Args:
-            miner_scores: Dict mapping miner hotkey -> normalized score
+            miner_scores: Dict mapping miner hotkey -> score
         """
         try:
             bt.logging.info(f"Updating Bittensor weights for {len(miner_scores)} miners")
-            
+
             # Convert miner scores to weight tensor
             metagraph = self.evaluator.metagraph
-            filtered_scores = torch.zeros(len(metagraph.hotkeys))
-            
+            weights = torch.zeros(len(metagraph.hotkeys))
+
             for hotkey, score in miner_scores.items():
                 try:
                     uid = metagraph.hotkeys.index(hotkey)
-                    filtered_scores[uid] = score
+                    weights[uid] = score
                 except ValueError:
                     bt.logging.warning(f"Miner {hotkey[:8]} not found in metagraph")
                     continue
-            
+ 
+            bt.logging.info(f"Setting weights for {(weights > 0).sum()} miners")
+
             # Use existing weight setting mechanism
-            self.set_weights(filtered_scores)
-            
+            self.set_weights(weights)
+
         except Exception as e:
             bt.logging.error(f"Failed to update Bittensor weights: {e}")
 
