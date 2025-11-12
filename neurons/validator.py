@@ -882,10 +882,10 @@ bt.logging.info(f"Burn applied: 90% of total weight ({burn_weight_portion:.4f}) 
                 )
             else:
                 # Display original score for miner UIDs with defensive check
-                if uid < len(scores):
+                if uid in miner_uids:
                     original_score = scores[uid].item()
                 else:
-                    bt.logging.warning(f"UID {uid} not found in scores tensor (length: {len(scores)})")
+                    bt.logging.warning(f"UID {uid} is not a miner UID; displaying score as 0")
                     original_score = 0
 
                 # Display credibility with error handling
