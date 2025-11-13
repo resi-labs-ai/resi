@@ -829,8 +829,6 @@ class Validator:
             index = miner_uids.index(self.uid) + 1
             final_weights[index] = 0
 
-bt.logging.info(f"Burn applied: 90% of total weight ({burn_weight_portion:.4f}) redirected to UID 238")
-
         miner_credibilities = credibilities.squeeze()[miner_uids]
         # Extend credibilities to match (burn entry has no credibility)
         extended_credibilities = torch.cat([torch.tensor([0.0]), miner_credibilities])
