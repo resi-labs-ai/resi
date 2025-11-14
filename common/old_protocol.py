@@ -59,7 +59,7 @@ class GetDataEntityBucket(bt.Synapse):
         default=None,
     )
 
-    # Required request output, filled by recieving axon.
+    # Required request output, filled by receiving axon.
     data_entities: List[DataEntity] = pydantic.Field(
         title="data_entities",
         description="All of the data that makes up the requested DataEntityBucket.",
