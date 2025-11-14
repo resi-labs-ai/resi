@@ -29,7 +29,7 @@ class TimeBucket(StrictBaseModel):
     model_config = ConfigDict(frozen=True)
 
     id: PositiveInt = Field(
-        description="Monotonically increasing value idenitifying the given time bucket"
+        description="Monotonically increasing value identifying the given time bucket"
     )
 
     def __hash__(self) -> int:
