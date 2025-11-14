@@ -6,7 +6,7 @@ From the original data structures we learned:
 1. Pydantic adds a huge overhead for performance, particularly when creating > 1M objects
 2. Object nesting has notable performance overhead
 
-Hence, with the V2 models, we make trade-off the nicer coding symantics in exchange for better performance.
+Hence, with the V2 models, we make trade-off the nicer coding semantics in exchange for better performance.
 
 If a class needs to be included as a Field in a pydantic BaseModel, it should be a dataclass (which adds a small overhead),
 because pydantic know how to serialize dataclasses, as long as all fields are themselves JSON serializable. 
