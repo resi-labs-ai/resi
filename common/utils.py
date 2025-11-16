@@ -40,7 +40,7 @@ def datetime_from_hours_since_epoch(hours: int) -> dt.datetime:
 def is_miner(uid: int, metagraph: bt.metagraph, vpermit_rao_limit: int) -> bool:
     """Checks if a UID on the subnet is a miner."""
     # Assume everyone who isn't a validator is a miner.
-    # This explicilty disallows validator/miner hybrids.
+    # This explicitly disallows validator/miner hybrids.
     # 1) Blacklist known bad coldkeys.
 
     # if metagraph.coldkeys[uid] in [
