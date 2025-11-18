@@ -42,7 +42,7 @@ import warnings
 import requests
 from dotenv import load_dotenv
 import bittensor as bt
-from typing import Tuple
+from typing import Tuple, Optional, Dict, Any, Set
 from common.organic_protocol import OrganicRequest
 from common import constants
 from common import utils
@@ -55,7 +55,6 @@ from vali_utils import metrics
 # Import zipcode validation components
 from common.resi_api_client import create_api_client
 from rewards.zipcode_competitive_scorer import ZipcodeCompetitiveScorer
-from vali_utils.multi_tier_validator import MultiTierValidator
 from vali_utils.deterministic_consensus import DeterministicConsensus
 from common.auto_updater import AutoUpdater
 
@@ -172,8 +171,10 @@ class Validator:
                 
                 self.api_client = create_api_client(self.config, self.wallet)
                 self.zipcode_scorer = ZipcodeCompetitiveScorer()
-                self.multi_tier_validator = MultiTierValidator()
                 self.consensus_manager = DeterministicConsensus()
+                
+                # Inject MinerEvaluator into ZipcodeCompetitiveScorer for consistent validation
+                self.zipcode_scorer.set_miner_evaluator(self.evaluator)
                 
                 # Configure proxy for scraper if provided
                 if hasattr(self.config, 'proxy_url') and self.config.proxy_url:
@@ -195,6 +196,23 @@ class Validator:
                     bt.logging.success(f"API server connected: {health.get('service', 'Unknown')}")
                 else:
                     bt.logging.warning("API server health check failed, but continuing...")
+                
+                # Initialize epoch cache for historical epoch validation
+                self.epoch_cache = {}  # epoch_id -> epoch data
+                self.epoch_cache_file = os.path.join(self.config.neuron.full_path, "epoch_cache.json")
+                self.epoch_monitor_thread = None
+                
+                # Load cached epochs from disk
+                self._load_epoch_cache()
+                
+                # Start epoch monitoring thread
+                self.epoch_monitor_thread = threading.Thread(
+                    target=self._monitor_and_cache_epochs,
+                    daemon=True,
+                    name="EpochMonitor"
+                )
+                self.epoch_monitor_thread.start()
+                bt.logging.info("Epoch monitoring thread started")
                     
             except Exception as e:
                 bt.logging.error(f"Failed to initialize zipcode validation system: {e}")
@@ -480,6 +498,9 @@ class Validator:
     
                 # Update to the latest desirability list after each evaluation.
                 self.get_updated_lookup()
+                
+                # Update epoch cache status (check if we have current epoch data)
+                self._check_epoch_cache_status()
     
                 self.step += 1
     
@@ -666,42 +687,46 @@ class Validator:
 
         with self.lock:
             current_block = self.block
-            blocks_per_weight_cycle = 1200  # Set weights every 1200 blocks (4 hours)
+            blocks_per_cycle = 1200  # Each cycle is 1200 blocks (4 hours)
             
-            # Calculate blocks since last weight setting
-            blocks_since_last_weights = current_block - self.last_weights_set_block
+            # Calculate which cycle we're currently in (same math as miner selection)
+            total_miners = len(self.evaluator.miner_iterator.miner_uids)
+            batch_size = 100
+            num_cycles = max(1, (total_miners + batch_size - 1) // batch_size) if total_miners > batch_size else 1
+            current_cycle = (current_block // blocks_per_cycle) % num_cycles
             
             if self.last_weights_set_block == 0:
-                epoch_length = self.config.neuron.epoch_length
-                min_blocks_required = max(epoch_length, blocks_per_weight_cycle)
-                if blocks_since_last_weights < min_blocks_required:
+                # First weight setting: wait for at least one cycle
+                blocks_since_start = current_block
+                min_blocks_required = max(self.config.neuron.epoch_length, blocks_per_cycle)
+                if blocks_since_start < min_blocks_required:
                     bt.logging.debug(
-                        f"First weight setting: waiting for {min_blocks_required} blocks "
-                        f"(epoch_length={epoch_length}, blocks_per_weight_cycle={blocks_per_weight_cycle}), "
-                        f"current={blocks_since_last_weights}"
+                        f"First weight setting: waiting for {min_blocks_required} blocks, "
+                        f"current={blocks_since_start}, cycle={current_cycle}/{num_cycles-1}"
                     )
                     return False
                 bt.logging.info(
                     f"First weight setting: current_block={current_block}, "
-                    f"blocks_since_start={blocks_since_last_weights}, "
-                    f"min_blocks_required={min_blocks_required}"
+                    f"cycle={current_cycle}/{num_cycles-1}"
                 )
                 return True
             
-            if blocks_since_last_weights >= blocks_per_weight_cycle:
+            # Calculate which cycle we were in when weights were last set
+            last_cycle = (self.last_weights_set_block // blocks_per_cycle) % num_cycles
+            
+            # Set weights whenever we enter a new cycle
+            if current_cycle != last_cycle:
                 bt.logging.info(
-                    f"{blocks_per_weight_cycle}-block cycle reached: current_block={current_block}, "
-                    f"last_weights_set_block={self.last_weights_set_block}, "
-                    f"blocks_since_last_weights={blocks_since_last_weights}"
+                    f"New cycle detected: setting weights at block {current_block}, "
+                    f"cycle changed from {last_cycle} to {current_cycle} (total cycles: {num_cycles})"
                 )
                 return True
             
             # Log current status for debugging
             bt.logging.debug(
                 f"Weight setting check: current_block={current_block}, "
-                f"last_weights_set_block={self.last_weights_set_block}, "
-                f"blocks_since_last_weights={blocks_since_last_weights}, "
-                f"blocks_per_weight_cycle={blocks_per_weight_cycle}"
+                f"cycle={current_cycle}/{num_cycles-1}, last_cycle={last_cycle}, "
+                f"last_weights_set_block={self.last_weights_set_block}"
             )
             
             return False
@@ -799,14 +824,14 @@ class Validator:
         # Extract weights for miners only
         miner_weights = raw_weights[miner_uids]
 
-        # Calculate what 100% of total weight would be
+        # Calculate what 90% of total weight would be
         total_weight = miner_weights.sum().item()
-        burn_weight_portion = 1.00 * total_weight  # 100% goes to burn
+        burn_weight_portion = 0.90 * total_weight  # 90% goes to burn
 
         # Create new weights array with burn entry
         final_weights = torch.zeros(len(miner_weights) + 1, dtype=torch.float32)
 
-        # Set burn weight (100% of total)
+        # Set burn weight (90% of total)
         final_weights[0] = burn_weight_portion
 
         if final_weights[0] == 0:
@@ -988,6 +1013,340 @@ class Validator:
         )
         return priority
     
+    # Epoch Cache Management 
+    def _load_epoch_cache(self):
+        """Load epoch cache from disk for persistence across restarts"""
+        try:
+            if os.path.exists(self.epoch_cache_file):
+                with open(self.epoch_cache_file, 'r') as f:
+                    self.epoch_cache = json.load(f)
+                bt.logging.info(f"Loaded epoch cache with {len(self.epoch_cache)} epochs")
+            else:
+                self.epoch_cache = {}
+                bt.logging.info("No existing epoch cache found, starting fresh")
+        except Exception as e:
+            bt.logging.error(f"Failed to load epoch cache: {e}")
+            self.epoch_cache = {}
+    
+    def _save_epoch_cache(self):
+        """Save epoch cache to disk"""
+        try:
+            with open(self.epoch_cache_file, 'w') as f:
+                json.dump(self.epoch_cache, f, indent=2)
+            bt.logging.debug(f"Saved epoch cache with {len(self.epoch_cache)} epochs")
+        except Exception as e:
+            bt.logging.error(f"Failed to save epoch cache: {e}")
+    
+    def _check_epoch_cache_status(self):
+        """
+        Check epoch cache status in the main loop (non-blocking).
+        
+        This provides a quick status check to ensure the background epoch monitoring
+        thread is working properly and we have current epoch data cached.
+        
+        Called once per main validation loop iteration.
+        """
+        if not self.zipcode_validation_enabled or not self.api_client:
+            return
+        
+        try:
+            # Quick check: Do we have any epochs cached?
+            if not self.epoch_cache:
+                bt.logging.warning("⚠️  Epoch cache is empty! Background thread may need time to initialize.")
+                return
+            
+            # Get most recent epoch from cache
+            most_recent_epoch = max(
+                self.epoch_cache.items(),
+                key=lambda x: x[1].get('cached_at', ''),
+                default=None
+            )
+            
+            if most_recent_epoch:
+                epoch_id, epoch_data = most_recent_epoch
+                cached_at_str = epoch_data.get('cached_at', '')
+                
+                if cached_at_str:
+                    cached_at = dt.datetime.fromisoformat(cached_at_str)
+                    age_minutes = (dt.datetime.now(dt.timezone.utc) - cached_at).total_seconds() / 60
+                    
+                    # Warn if most recent cache is older than 30 minutes
+                    if age_minutes > 30:
+                        bt.logging.warning(
+                            f"⚠️  Most recent epoch cache is {age_minutes:.1f} minutes old. "
+                            f"Background thread may be stalled."
+                        )
+                    else:
+                        bt.logging.debug(
+                            f"✓ Epoch cache healthy: {len(self.epoch_cache)} epochs cached, "
+                            f"most recent: {epoch_id} ({age_minutes:.1f}m old)"
+                        )
+                        
+        except Exception as e:
+            bt.logging.debug(f"Error checking epoch cache status: {e}")
+    
+    def _monitor_and_cache_epochs(self):
+        """
+        Background thread to continuously monitor and cache current epoch data.
+        
+        This ensures we have epoch assignments available even after the epoch ends,
+        which is critical for validating completed epochs (since API only returns current epoch).
+        
+        Process:
+        1. Check every 5 minutes for new epochs
+        2. Cache epoch assignments immediately when detected
+        3. Refresh existing epoch cache every hour (while epoch is still current)
+        4. Prune old epochs to keep cache size manageable
+        5. Persist to disk for restart resilience
+        
+        This allows validators to validate miners even after epoch transitions,
+        using the cached zipcode assignments and expected listing counts.
+        """
+        bt.logging.info("🔄 Epoch monitoring thread started - will cache epochs for historical validation")
+        
+        consecutive_failures = 0
+        max_failures = 5
+        
+        while not self.should_exit:
+            try:
+                if not self.api_client:
+                    bt.logging.debug("Epoch monitor: API client not initialized, waiting...")
+                    time.sleep(60)
+                    continue
+                
+                # Get current epoch info from API
+                current_epoch = self.api_client.get_current_epoch_info()
+                
+                if not current_epoch:
+                    consecutive_failures += 1
+                    if consecutive_failures >= max_failures:
+                        bt.logging.error(
+                            f"⚠️  Epoch monitoring: Failed to fetch epoch info {consecutive_failures} times. "
+                            f"API may be down or network issues."
+                        )
+                    time.sleep(60)
+                    continue
+                
+                # Reset failure counter on success
+                consecutive_failures = 0
+                
+                epoch_id = current_epoch.get('id')
+                
+                if not epoch_id:
+                    bt.logging.warning("Epoch monitoring: Current epoch has no ID")
+                    time.sleep(300)
+                    continue
+                
+                # Check if this is a new epoch we haven't cached yet
+                if epoch_id not in self.epoch_cache:
+                    bt.logging.info(f"🆕 New epoch detected: {epoch_id}, caching assignments...")
+                    
+                    try:
+                        # Fetch zipcode assignments for current epoch
+                        assignments = self.api_client.get_current_zipcode_assignments()
+                        
+                        if assignments and assignments.get('success'):
+                            # Extract zipcode information
+                            zipcodes_list = assignments.get('zipcodes', [])
+                            assignments_list = assignments.get('assignments', [])
+                            
+                            # Cache the complete epoch data
+                            self.epoch_cache[epoch_id] = {
+                                'epoch_id': epoch_id,
+                                'zipcodes': zipcodes_list,
+                                'assignments': assignments_list,
+                                'nonce': assignments.get('nonce'),
+                                'start_time': current_epoch.get('startTime'),
+                                'end_time': current_epoch.get('endTime'),
+                                'cached_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+                                'status': current_epoch.get('status', 'ACTIVE')
+                            }
+                            
+                            # Save to disk immediately for persistence
+                            self._save_epoch_cache()
+                            
+                            num_zipcodes = len(zipcodes_list)
+                            num_assignments = len(assignments_list)
+                            
+                            # Calculate total expected listings
+                            total_expected = sum(
+                                sum(z.get('expectedListings', 0) for z in assignment.get('zipcodes', []))
+                                for assignment in assignments_list
+                            )
+                            
+                            bt.logging.success(
+                                f"✅ Cached epoch {epoch_id}: {num_zipcodes} zipcodes, "
+                                f"{num_assignments} miner assignments, "
+                                f"{total_expected} total expected listings"
+                            )
+                            
+                        else:
+                            bt.logging.warning(f"Failed to fetch assignments for epoch {epoch_id}")
+                            
+                    except Exception as e:
+                        bt.logging.error(f"Failed to cache epoch {epoch_id}: {e}")
+                        bt.logging.debug(traceback.format_exc())
+                
+                # Periodically refresh existing cache (every hour while epoch is current)
+                elif epoch_id in self.epoch_cache:
+                    cached_at_str = self.epoch_cache[epoch_id].get('cached_at')
+                    if cached_at_str:
+                        try:
+                            cached_at = dt.datetime.fromisoformat(cached_at_str)
+                            age_seconds = (dt.datetime.now(dt.timezone.utc) - cached_at).total_seconds()
+                            
+                            # Refresh if older than 1 hour and epoch is still active
+                            if age_seconds > 3600:
+                                bt.logging.debug(f"Refreshing cache for current epoch {epoch_id}")
+                                try:
+                                    assignments = self.api_client.get_current_zipcode_assignments()
+                                    if assignments and assignments.get('success'):
+                                        # Update cache with latest data
+                                        self.epoch_cache[epoch_id].update({
+                                            'zipcodes': assignments.get('zipcodes', []),
+                                            'assignments': assignments.get('assignments', []),
+                                            'cached_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+                                            'status': current_epoch.get('status', 'ACTIVE')
+                                        })
+                                        self._save_epoch_cache()
+                                        bt.logging.debug(f"✓ Refreshed epoch {epoch_id} cache")
+                                except Exception as e:
+                                    bt.logging.debug(f"Failed to refresh epoch {epoch_id}: {e}")
+                        except Exception as e:
+                            bt.logging.debug(f"Error parsing cached_at timestamp: {e}")
+                
+                # Prune old epochs (keep last 180 epochs = 30 days for 4-hour epochs)
+                self._prune_old_epochs(max_epochs=180)
+                
+                # Report cache statistics periodically (every 10 iterations = ~50 minutes)
+                if len(self.epoch_cache) > 0 and int(time.time()) % 3000 < 300:
+                    bt.logging.info(
+                        f"📊 Epoch cache stats: {len(self.epoch_cache)} epochs cached, "
+                        f"current epoch: {epoch_id}"
+                    )
+                
+                # Sleep for 5 minutes before next check
+                time.sleep(300)
+                
+            except Exception as e:
+                bt.logging.error(f"Error in epoch monitoring thread: {e}")
+                bt.logging.debug(traceback.format_exc())
+                consecutive_failures += 1
+                time.sleep(60)  # Shorter retry on error
+    
+    def _prune_old_epochs(self, max_epochs: int = 180):
+        """
+        Remove old epochs from cache to prevent unbounded growth.
+        Keeps the most recent max_epochs.
+        
+        Args:
+            max_epochs: Maximum number of epochs to keep (default 180 = 30 days for 4-hour epochs)
+        """
+        if len(self.epoch_cache) <= max_epochs:
+            return
+        
+        try:
+            # Sort epochs by cached_at timestamp
+            sorted_epochs = sorted(
+                self.epoch_cache.items(),
+                key=lambda x: x[1].get('cached_at', ''),
+                reverse=True
+            )
+            
+            # Keep only the most recent max_epochs
+            epochs_to_keep = dict(sorted_epochs[:max_epochs])
+            epochs_to_remove = len(self.epoch_cache) - len(epochs_to_keep)
+            
+            if epochs_to_remove > 0:
+                self.epoch_cache = epochs_to_keep
+                self._save_epoch_cache()
+                bt.logging.info(f"Pruned {epochs_to_remove} old epochs from cache")
+                
+        except Exception as e:
+            bt.logging.error(f"Failed to prune epoch cache: {e}")
+    
+    def get_epoch_data(self, epoch_id: str) -> Optional[Dict[str, Any]]:
+        """
+        Get complete epoch data for a specific epoch (current or historical).
+        
+        This method uses the epoch cache maintained by the background monitoring thread,
+        allowing validators to access epoch assignments even after the epoch has ended.
+        
+        Args:
+            epoch_id: Epoch ID to fetch
+            
+        Returns:
+            Complete epoch data dict or None if unavailable
+        """
+        # Try cache first
+        if epoch_id in self.epoch_cache:
+            bt.logging.debug(f"Retrieved epoch {epoch_id} from cache")
+            return self.epoch_cache[epoch_id]
+        
+        # If not in cache, try to fetch if it's the current epoch
+        # This handles the case where validator just started and cache is building
+        try:
+            if not self.api_client:
+                bt.logging.warning("API client not initialized, cannot fetch epoch data")
+                return None
+                
+            current_epoch = self.api_client.get_current_epoch_info()
+            if current_epoch and current_epoch.get('id') == epoch_id:
+                bt.logging.info(f"Epoch {epoch_id} is current, fetching and caching...")
+                assignments = self.api_client.get_current_zipcode_assignments()
+                
+                if assignments and assignments.get('success'):
+                    # Add to cache
+                    epoch_data = {
+                        'epoch_id': epoch_id,
+                        'zipcodes': assignments.get('zipcodes', []),
+                        'assignments': assignments.get('assignments', []),
+                        'nonce': assignments.get('nonce'),
+                        'start_time': current_epoch.get('startTime'),
+                        'end_time': current_epoch.get('endTime'),
+                        'cached_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+                        'status': current_epoch.get('status', 'ACTIVE')
+                    }
+                    
+                    self.epoch_cache[epoch_id] = epoch_data
+                    self._save_epoch_cache()
+                    
+                    bt.logging.success(f"Cached on-demand epoch {epoch_id}")
+                    return epoch_data
+                    
+        except Exception as e:
+            bt.logging.warning(f"Failed to fetch epoch {epoch_id}: {e}")
+        
+        # Not in cache and couldn't fetch
+        bt.logging.warning(f"No cached data available for epoch {epoch_id}")
+        return None
+    
+    def _get_epoch_zipcodes(self, epoch_id: str) -> Optional[Set[str]]:
+        """
+        Get zipcodes for a specific epoch (current or historical).
+        
+        Args:
+            epoch_id: Epoch ID to fetch
+            
+        Returns:
+            Set of zipcodes for that epoch, or None if unavailable
+        """
+        # Use get_epoch_data to retrieve from cache
+        epoch_data = self.get_epoch_data(epoch_id)
+        
+        if not epoch_data:
+            return None
+        
+        # Extract all unique zipcodes from assignments
+        zipcodes = set()
+        for assignment in epoch_data.get('assignments', []):
+            for zipcode_info in assignment.get('zipcodes', []):
+                zipcodes.add(zipcode_info['zipcode'])
+        
+        bt.logging.debug(f"Retrieved {len(zipcodes)} zipcodes from cache for epoch {epoch_id}")
+        return zipcodes
+    
+    # Epoch Validation 
     def run_epoch_validation(self):
         """
         Deterministic epoch validation ensuring all validators reach same results
@@ -1055,11 +1414,13 @@ class Validator:
                         expected_listings = self.get_expected_listings_for_zipcode(zipcode, epoch_id)
                         
                         # Validate and rank submissions for this zipcode
-                        zipcode_result = self.zipcode_scorer.validate_and_rank_zipcode_submissions(
-                            zipcode=zipcode,
-                            submissions=submissions,
-                            expected_listings=expected_listings,
-                            epoch_nonce=epoch_nonce
+                        zipcode_result = asyncio.run(
+                            self.zipcode_scorer.validate_and_rank_zipcode_submissions(
+                                zipcode=zipcode,
+                                submissions=submissions,
+                                expected_listings=expected_listings,
+                                epoch_nonce=epoch_nonce
+                            )
                         )
                         
                         all_zipcode_results.append(zipcode_result)
@@ -1321,7 +1682,8 @@ class Validator:
     
     def get_expected_listings_for_zipcode(self, zipcode: str, epoch_id: str) -> int:
         """
-        Get expected number of listings for a zipcode in an epoch
+        Get expected number of listings for a zipcode in an epoch.
+        Uses epoch cache for historical epochs.
         
         Args:
             zipcode: Target zipcode
@@ -1331,31 +1693,35 @@ class Validator:
             Expected number of listings
         """
         try:
-            # First, check if we have cached epoch assignment data
-            if (self.current_epoch_data and 
-                self.current_epoch_data.get('epoch_id') == epoch_id):
-                
-                for zipcode_info in self.current_epoch_data.get('zipcodes', []):
-                    if zipcode_info['zipcode'] == zipcode:
-                        expected = zipcode_info['expectedListings']
-                        bt.logging.debug(f"Found cached expected listings for {zipcode}: {expected}")
-                        return expected
+            # Check epoch cache first (works for both current and historical epochs)
+            if epoch_id in self.epoch_cache:
+                for assignment in self.epoch_cache[epoch_id].get('assignments', []):
+                    for zipcode_info in assignment.get('zipcodes', []):
+                        if zipcode_info['zipcode'] == zipcode:
+                            expected = zipcode_info.get('expectedListings')
+                            bt.logging.debug(f"Found cached expected listings for {zipcode} in epoch {epoch_id}: {expected}")
+                            return expected
             
-            # If not cached or different epoch, try to get current assignments from API
+            # If not in cache, try to fetch if it's the current epoch
             if self.api_client:
                 try:
-                    assignments = self.api_client.get_current_zipcode_assignments()
-                    
-                    if assignments.get('success') and assignments.get('epochId') == epoch_id:
-                        # Cache the assignments for future use
-                        self.current_epoch_data = {
-                            'epoch_id': epoch_id,
-                            'zipcodes': assignments.get('zipcodes', []),
-                            'nonce': assignments.get('nonce'),
-                            'cached_at': datetime.now(timezone.utc).isoformat()
-                        }
+                    current_epoch = self.api_client.get_current_epoch_info()
+                    if current_epoch and current_epoch.get('id') == epoch_id:
+                        assignments = self.api_client.get_current_zipcode_assignments()
                         
-                        # Find the specific zipcode
+                        if assignments.get('success'):
+                            # Cache it immediately
+                            if epoch_id not in self.epoch_cache:
+                                self.epoch_cache[epoch_id] = {
+                                    'epoch_id': epoch_id,
+                                    'zipcodes': assignments.get('zipcodes', []),
+                                    'assignments': assignments.get('assignments', []),
+                                    'nonce': assignments.get('nonce'),
+                                    'cached_at': dt.datetime.now(dt.timezone.utc).isoformat()
+                                }
+                                self._save_epoch_cache()
+                            
+                            # Find the specific zipcode
                         for zipcode_info in assignments.get('zipcodes', []):
                             if zipcode_info['zipcode'] == zipcode:
                                 expected = zipcode_info['expectedListings']

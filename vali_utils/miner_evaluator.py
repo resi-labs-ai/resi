@@ -36,6 +36,12 @@ from vali_utils.s3_utils import validate_s3_miner_data, get_s3_validation_summar
 
 from rewards.miner_scorer import MinerScorer
 
+# Import multi-tier validation components
+from scraping.custom.model import RealEstateContent
+import json
+import re
+from typing import Optional, Set, Dict, Any
+
 
 class MinerEvaluator:
     """MinerEvaluator is responsible for evaluating miners and updating their scores."""
@@ -57,6 +63,10 @@ class MinerEvaluator:
         )
         self.vpermit_rao_limit = self.config.vpermit_rao_limit
         self.wallet = bt.wallet(config=self.config)
+        # Initialize epoch zipcode tracking for Tier 2 validation
+        self.current_epoch_zipcodes: Optional[Set[str]] = None
+        self.current_epoch_data: Optional[Dict[str, Any]] = None  # Full epoch data with expected listings
+        self.last_epoch_update = None
 
         # Set up initial scoring weights for validation
         self.scorer = MinerScorer(self.metagraph.n, DataValueCalculator())
@@ -271,7 +281,66 @@ class MinerEvaluator:
             metrics.MINER_EVALUATOR_EVAL_MINER_DURATION.labels(hotkey=self.wallet.hotkey.ss58_address, miner_hotkey=hotkey, status='duplicate entities').observe(time.perf_counter() - t_start)
             return
 
-        # Basic validation and uniqueness passed. Now sample some entities for data correctness.
+        # MULTI-TIER VALIDATION 
+        bt.logging.info(f"{hotkey}: Starting multi-tier validation on {len(data_entities)} entities")
+        
+        # TIER 1: Quantity Validation
+        # Get expected listings from zipcode server API (±15% tolerance)
+        expected_listings = self._get_expected_total_listings(hotkey)
+        if expected_listings:
+            bt.logging.debug(f"{hotkey}: Expected {expected_listings} listings from epoch assignments")
+        else:
+            bt.logging.debug(f"{hotkey}: No epoch assignment found, using fallback validation")
+        
+        tier1_passes, tier1_reason, tier1_metrics = self._apply_tier1_quantity_validation(
+            data_entities, 
+            expected_count=expected_listings
+        )
+        bt.logging.info(f"{hotkey}: Tier 1 - {tier1_reason}")
+        
+        if not tier1_passes:
+            bt.logging.warning(f"{hotkey}: Failed Tier 1 (Quantity) validation")
+            self.scorer.on_miner_evaluated(
+                uid, 
+                index,
+                [ValidationResult(
+                    is_valid=False,
+                    reason=f"Multi-tier validation failed at Tier 1: {tier1_reason}",
+                    content_size_bytes_validated=0
+                )]
+            )
+            metrics.MINER_EVALUATOR_EVAL_MINER_DURATION.labels(
+                hotkey=self.wallet.hotkey.ss58_address, 
+                miner_hotkey=hotkey, 
+                status='tier1_failed'
+            ).observe(time.perf_counter() - t_start)
+            return
+        
+        # TIER 2: Quality Validation
+        tier2_passes, tier2_reason, tier2_metrics = self._apply_tier2_quality_validation(data_entities)
+        bt.logging.info(f"{hotkey}: Tier 2 - {tier2_reason}")
+        
+        if not tier2_passes:
+            bt.logging.warning(f"{hotkey}: Failed Tier 2 (Quality) validation")
+            # Apply reduced score for partial completion
+            self.scorer.on_miner_evaluated(
+                uid,
+                index,
+                [ValidationResult(
+                    is_valid=False,
+                    reason=f"Multi-tier validation failed at Tier 2: {tier2_reason}",
+                    content_size_bytes_validated=chosen_data_entity_bucket.size_bytes // 2  # Partial credit
+                )]
+            )
+            metrics.MINER_EVALUATOR_EVAL_MINER_DURATION.labels(
+                hotkey=self.wallet.hotkey.ss58_address,
+                miner_hotkey=hotkey,
+                status='tier2_failed'
+            ).observe(time.perf_counter() - t_start)
+            return
+        
+        # TIER 3: Spot-check Validation (data correctness)
+        # Sample some entities for data correctness verification
         entities_to_validate: List[DataEntity] = vali_utils.choose_entities_to_verify(
             data_entities
         )
@@ -279,24 +348,41 @@ class MinerEvaluator:
         entity_uris = [entity.uri for entity in entities_to_validate]
 
         bt.logging.info(
-            f"{hotkey}: Basic validation on Bucket ID: {chosen_data_entity_bucket.id} passed. Validating uris: {entity_uris}."
+            f"{hotkey}: Tier 3 - Spot-checking {len(entities_to_validate)} entities: {entity_uris}"
         )
 
         # Skip unsupported data sources
         data_source = chosen_data_entity_bucket.id.source
         if data_source in [DataSource.X, DataSource.REDDIT, DataSource.YOUTUBE]:
-            bt.logging.info(f"Data source validation - skipping")
-            validation_results = [ValidationResult(is_valid=False, reason=f"Data source not supported", content_size_bytes_validated=0) for _ in entities_to_validate]
+            bt.logging.info(f"{hotkey}: Data source not supported - skipping")
+            validation_results = [ValidationResult(
+                is_valid=False, 
+                reason=f"Data source not supported", 
+                content_size_bytes_validated=0
+            ) for _ in entities_to_validate]
         else:
             scraper = self.scraper_provider.get(
                 MinerEvaluator.PREFERRED_SCRAPERS[data_source]
             )
             validation_results = await scraper.validate(entities_to_validate)
 
+        # Apply Tier 3 validation
+        tier3_passes, tier3_reason, tier3_metrics = self._apply_tier3_spot_check_validation(
+            entities_to_validate,
+            validation_results
+        )
+        bt.logging.info(f"{hotkey}: Tier 3 - {tier3_reason}")
+        
+        # Log comprehensive multi-tier results
         bt.logging.success(
-            f"{hotkey}: Data validation on selected entities finished with results: {validation_results}"
+            f"{hotkey}: Multi-tier validation complete - "
+            f"Tier1: PASS, "
+            f"Tier2: PASS, "
+            f"Tier3: {'PASS' if tier3_passes else 'FAIL'}"
         )
 
+        # Update scorer with validation results
+        # Even if Tier 3 fails, miner gets partial credit for passing Tier 1 & 2
         self.scorer.on_miner_evaluated(uid, index, validation_results)
 
         metrics.MINER_EVALUATOR_EVAL_MINER_DURATION.labels(hotkey=self.wallet.hotkey.ss58_address, miner_hotkey=hotkey, status='ok').observe(time.perf_counter() - t_start)
@@ -607,3 +693,363 @@ class MinerEvaluator:
 
     def exit(self):
         self.should_exit = True
+    
+    def _get_current_epoch_zipcodes(self) -> Optional[Set[str]]:
+        """
+        Fetch current epoch's assigned zipcodes from ResiLabs API.
+        Caches result to avoid excessive API calls.
+        
+        Returns:
+            Set of valid zipcodes for current epoch, or None if API unavailable
+        """
+        try:
+            # Import API client if available
+            from common.resi_api_client import create_api_client
+            import datetime as dt
+            
+            # Check if we need to refresh (cache for 5 minutes)
+            if (self.current_epoch_zipcodes is not None and 
+                self.last_epoch_update is not None and
+                (dt.datetime.now() - self.last_epoch_update).total_seconds() < 300):
+                return self.current_epoch_zipcodes
+            
+            # Create API client and fetch current epoch info
+            api_client = create_api_client(self.config, self.wallet)
+            current_epoch = api_client.get_current_epoch_info()
+            
+            if not current_epoch:
+                bt.logging.debug("No current epoch available from API")
+                return None
+            
+            # Get all zipcodes assigned in this epoch (to all miners)
+            epoch_id = current_epoch.get('id')
+            zipcodes_data = api_client.get_epoch_zipcodes(epoch_id)
+            
+            if zipcodes_data and zipcodes_data.get('success'):
+                # Extract all unique zipcodes and store full data
+                all_zipcodes = set()
+                for assignment in zipcodes_data.get('assignments', []):
+                    for zipcode_info in assignment.get('zipcodes', []):
+                        all_zipcodes.add(zipcode_info['zipcode'])
+                
+                self.current_epoch_zipcodes = all_zipcodes
+                self.current_epoch_data = zipcodes_data  # Store full data including expectedListings
+                self.last_epoch_update = dt.datetime.now()
+                
+                bt.logging.debug(f"Loaded {len(all_zipcodes)} zipcodes for epoch {epoch_id}")
+                return all_zipcodes
+            else:
+                bt.logging.debug("Failed to fetch epoch zipcodes from API")
+                return None
+                
+        except Exception as e:
+            bt.logging.debug(f"Error fetching epoch zipcodes: {e}")
+            return None
+    
+    def _get_expected_total_listings(self, miner_hotkey: str) -> Optional[int]:
+        """
+        Get the total expected listings for a specific miner based on current epoch assignments.
+        
+        Args:
+            miner_hotkey: The hotkey of the miner being evaluated
+            
+        Returns:
+            Total expected listings across all assigned zipcodes, or None if unavailable
+        """
+        try:
+            # Ensure we have current epoch data
+            if self.current_epoch_data is None:
+                # Try to fetch it
+                self._get_current_epoch_zipcodes()
+                
+            if self.current_epoch_data is None:
+                return None
+            
+            # Find the assignment for this specific miner
+            total_expected = 0
+            found_miner = False
+            
+            for assignment in self.current_epoch_data.get('assignments', []):
+                # Check if this assignment is for the miner we're evaluating
+                assigned_hotkey = assignment.get('minerHotkey') or assignment.get('hotkey')
+                if assigned_hotkey == miner_hotkey:
+                    found_miner = True
+                    # Sum up expected listings from all assigned zipcodes
+                    for zipcode_info in assignment.get('zipcodes', []):
+                        expected = zipcode_info.get('expectedListings', 0)
+                        total_expected += expected
+                    break
+            
+            if found_miner:
+                bt.logging.debug(f"Found expected listings for {miner_hotkey[:8]}: {total_expected}")
+                return total_expected
+            else:
+                bt.logging.debug(f"No epoch assignment found for miner {miner_hotkey[:8]}")
+                return None
+                
+        except Exception as e:
+            bt.logging.debug(f"Error getting expected listings for {miner_hotkey[:8]}: {e}")
+            return None
+    
+    # Multi-Tier Validation Methods
+    
+    def _apply_tier1_quantity_validation(self, entities: List[DataEntity], expected_count: Optional[int] = None) -> Tuple[bool, str, dict]:
+        """
+        Tier 1: Quantity validation - ensure miner has appropriate data quantity
+        Validates against ±15% of expected count from zipcode server.
+        
+        Args:
+            entities: List of data entities from miner
+            expected_count: Expected listing count from zipcode server (None = use fallback)
+            
+        Returns:
+            Tuple of (passes, reason, metrics)
+        """
+        actual_count = len(entities)
+        
+        # If we have expected count from API, use ±15% range
+        if expected_count is not None and expected_count > 0:
+            expected_min = int(expected_count * 0.85)  # -15%
+            expected_max = int(expected_count * 1.15)  # +15%
+            
+            # Ensure minimum is at least 1
+            expected_min = max(1, expected_min)
+            
+            passes_min = actual_count >= expected_min
+            passes_max = actual_count <= expected_max
+            passes = passes_min and passes_max
+            
+            metrics_data = {
+                'actual_count': actual_count,
+                'expected_count': expected_count,
+                'expected_min': expected_min,
+                'expected_max': expected_max,
+                'passes_min': passes_min,
+                'passes_max': passes_max,
+                'tier': 1,
+                'has_api_data': True
+            }
+            
+            # Build reason message
+            if not passes_min and not passes_max:
+                reason = f"Quantity check: {actual_count} entities (expected: {expected_count} ±15% = {expected_min}-{expected_max}) - FAIL"
+            elif not passes_min:
+                reason = f"Quantity check: {actual_count} entities below min {expected_min} (expected: {expected_count} -15%) - FAIL"
+            elif not passes_max:
+                reason = f"Quantity check: {actual_count} entities exceeds max {expected_max} (expected: {expected_count} +15%) - FAIL"
+            else:
+                reason = f"Quantity check: {actual_count} entities (expected: {expected_count} ±15% = {expected_min}-{expected_max}) - PASS"
+        
+        else:
+            # Fallback: Use simple minimum check if no API data
+            expected_min = 1
+            passes = actual_count >= expected_min
+            
+            metrics_data = {
+                'actual_count': actual_count,
+                'expected_count': None,
+                'expected_min': expected_min,
+                'expected_max': None,
+                'passes_min': passes,
+                'passes_max': True,
+                'tier': 1,
+                'has_api_data': False
+            }
+            
+            reason = f"Quantity check: {actual_count} entities (min: {expected_min}, no API data) - {'PASS' if passes else 'FAIL'}"
+        
+        return passes, reason, metrics_data
+    
+    def _apply_tier2_quality_validation(self, entities: List[DataEntity]) -> Tuple[bool, str, dict]:
+        """
+        Tier 2: Data quality validation - field completeness, reasonable values, and epoch zipcode compliance
+        
+        Args:
+            entities: List of data entities
+            
+        Returns:
+            Tuple of (passes, reason, metrics)
+        """
+        if not entities:
+            return False, "No entities to validate", {'tier': 2}
+        
+        # Parse real estate data from entities
+        listings = []
+        parse_failures = 0
+        
+        for entity in entities:
+            try:
+                content_str = entity.content.decode('utf-8')
+                listing_data = json.loads(content_str)
+                listings.append(listing_data)
+            except Exception as e:
+                parse_failures += 1
+                bt.logging.debug(f"Failed to parse entity: {e}")
+        
+        if not listings:
+            return False, "Failed to parse any entities", {'tier': 2, 'parse_failures': parse_failures}
+        
+        # Required fields for real estate listings
+        required_fields = [
+            'zpid', 'address', 'price', 'property_type', 'listing_status'
+        ]
+        
+        # Get current epoch zipcodes for compliance validation
+        current_epoch_zipcodes = self._get_current_epoch_zipcodes()
+        
+        # Quality metrics
+        complete_count = 0
+        reasonable_count = 0
+        epoch_compliant_count = 0
+        
+        for listing in listings:
+            # Check field completeness
+            has_all_fields = all(
+                field in listing and listing[field] is not None 
+                for field in required_fields
+            )
+            
+            if has_all_fields:
+                complete_count += 1
+                
+                # Check reasonable values
+                is_reasonable = True
+                
+                # Validate price range
+                price = listing.get('price')
+                if price:
+                    try:
+                        price_val = int(price)
+                        if not (10000 <= price_val <= 50000000):  # $10K to $50M
+                            is_reasonable = False
+                    except (ValueError, TypeError):
+                        is_reasonable = False
+                
+                # Validate bedrooms
+                bedrooms = listing.get('bedrooms')
+                if bedrooms is not None:
+                    try:
+                        bed_val = int(bedrooms)
+                        if not (0 <= bed_val <= 20):
+                            is_reasonable = False
+                    except (ValueError, TypeError):
+                        is_reasonable = False
+                
+                # Validate bathrooms
+                bathrooms = listing.get('bathrooms')
+                if bathrooms is not None:
+                    try:
+                        bath_val = float(bathrooms)
+                        if not (0 <= bath_val <= 20):
+                            is_reasonable = False
+                    except (ValueError, TypeError):
+                        is_reasonable = False
+                
+                if is_reasonable:
+                    reasonable_count += 1
+            
+            # Check epoch zipcode compliance (if epoch zipcodes available)
+            if current_epoch_zipcodes is not None:
+                # Extract zipcode from listing
+                listing_zipcode = listing.get('zipcode')
+                if not listing_zipcode:
+                    # Try to extract from address
+                    address = listing.get('address', '')
+                    zipcode_match = re.search(r'\b\d{5}\b', address)
+                    if zipcode_match:
+                        listing_zipcode = zipcode_match.group(0)
+                
+                # Check if zipcode is in current epoch's assigned zipcodes
+                if listing_zipcode and listing_zipcode in current_epoch_zipcodes:
+                    epoch_compliant_count += 1
+        
+        # Calculate quality scores
+        completeness_rate = complete_count / len(listings)
+        reasonable_rate = reasonable_count / len(listings) if complete_count > 0 else 0
+        epoch_compliance_rate = epoch_compliant_count / len(listings) if current_epoch_zipcodes else 1.0
+        
+        # Thresholds
+        completeness_threshold = 0.70  # 70% must have all required fields
+        reasonable_threshold = 0.80    # 80% of complete listings must have reasonable values
+        epoch_compliance_threshold = 0.60  # 60% of listings must be from current epoch zipcodes (if available)
+        
+        # Base quality checks (always required)
+        passes_basic = (completeness_rate >= completeness_threshold and 
+                       reasonable_rate >= reasonable_threshold)
+        
+        # Epoch compliance check (if epoch zipcodes available)
+        passes_epoch = True
+        if current_epoch_zipcodes is not None:
+            passes_epoch = epoch_compliance_rate >= epoch_compliance_threshold
+        
+        passes = passes_basic and passes_epoch
+        
+        metrics_data = {
+            'tier': 2,
+            'total_listings': len(listings),
+            'complete_count': complete_count,
+            'reasonable_count': reasonable_count,
+            'epoch_compliant_count': epoch_compliant_count,
+            'completeness_rate': completeness_rate,
+            'reasonable_rate': reasonable_rate,
+            'epoch_compliance_rate': epoch_compliance_rate,
+            'parse_failures': parse_failures,
+            'epoch_check_enabled': current_epoch_zipcodes is not None,
+            'current_epoch_zipcode_count': len(current_epoch_zipcodes) if current_epoch_zipcodes else 0
+        }
+        
+        # Build reason message
+        if current_epoch_zipcodes is not None:
+            reason = (f"Quality: {completeness_rate:.1%} complete, "
+                     f"{reasonable_rate:.1%} reasonable, "
+                     f"{epoch_compliance_rate:.1%} epoch-compliant "
+                     f"({'PASS' if passes else 'FAIL'})")
+        else:
+            reason = (f"Quality: {completeness_rate:.1%} complete, "
+                     f"{reasonable_rate:.1%} reasonable "
+                     f"({'PASS' if passes else 'FAIL'}, epoch check N/A)")
+        
+        return passes, reason, metrics_data
+    
+    def _apply_tier3_spot_check_validation(
+        self, 
+        entities: List[DataEntity], 
+        validation_results: List[ValidationResult]
+    ) -> Tuple[bool, str, dict]:
+        """
+        Tier 3: Spot-check validation - verify accuracy against real sources
+        
+        Args:
+            entities: List of data entities
+            validation_results: Results from scraper validation
+            
+        Returns:
+            Tuple of (passes, reason, metrics)
+        """
+        if not validation_results:
+            return False, "No validation results", {'tier': 3}
+        
+        # Calculate pass rate
+        valid_count = sum(1 for result in validation_results if result.is_valid)
+        pass_rate = valid_count / len(validation_results)
+        
+        # Threshold: 60% of spot checks must pass (relaxed from 80% for real-world conditions)
+        spot_check_threshold = 0.60
+        passes = pass_rate >= spot_check_threshold
+        
+        # Calculate total bytes validated
+        total_bytes = sum(result.content_size_bytes_validated for result in validation_results)
+        
+        metrics_data = {
+            'tier': 3,
+            'total_checks': len(validation_results),
+            'valid_count': valid_count,
+            'pass_rate': pass_rate,
+            'total_bytes_validated': total_bytes,
+            'threshold': spot_check_threshold
+        }
+        
+        reason = (f"Spot-check: {valid_count}/{len(validation_results)} passed "
+                 f"({pass_rate:.1%}, threshold: {spot_check_threshold:.0%})")
+        
+        return passes, reason, metrics_data

@@ -1,5 +1,6 @@
 import bittensor as bt
 import hashlib
+import json
 import random
 import re
 import time
@@ -202,18 +203,104 @@ def normalize_property_type(property_type: str) -> Optional[str]:
     return type_mapping.get(property_type.upper(), property_type.upper())
 
 
+def _extract_zpid_from_uri(uri: str) -> Optional[str]:
+    """
+    Extract zpid from URI.
+    Supports multiple URI formats used by Zillow scrapers.
+    """
+    try:
+        # Format 1: szill://244790245 (zpid directly after protocol)
+        if uri.startswith("szill://"):
+            zpid = uri.replace("szill://", "").strip("/").split("/")[0]
+            if zpid.isdigit():
+                return zpid
+        
+        # Format 2: URL with _zpid suffix (e.g., /12345_zpid/)
+        if "_zpid" in uri:
+            return uri.split("_zpid")[0].split("/")[-1]
+        
+        # Format 3: URL with zpid query parameter (e.g., ?zpid=12345)
+        if "zpid=" in uri:
+            return uri.split("zpid=")[1].split("&")[0]
+        
+        # Format 4: Extract numeric ID from path (zpids are typically 8-9 digits)
+        parts = uri.replace("://", "/").split("/")
+        for part in parts:
+            if part.isdigit() and len(part) >= 6:
+                return part
+        
+        return None
+    except Exception:
+        return None
+
+
 def are_entities_unique(entities: List[DataEntity]) -> bool:
-    """Check that all entities in a DataEntityBucket are unique."""
+    """
+    Check that all entities in a DataEntityBucket are unique.
+    
+    Uses four independent checks:
+    1. Content hash - Detects exact content duplicates
+    2. URI - Detects same listing URLs
+    3. zpid - Detects same property with modified data
+    4. URI-zpid consistency - Detects fake zpid (content vs URI mismatch)
+    
+    Returns False if ANY check detects a duplicate or data inconsistency.
+    """
     entity_content_hash_set = set()
     uris = set()
+    zpids = set()
 
     for entity in entities:
+        # Check 1: Full content hash (existing)
         entity_content_hash = hashlib.sha1(entity.content).hexdigest()
+        
+        # Check 2: Normalized URI (existing)
         normalized_uri = _normalize_uri(entity.uri)
-        if entity_content_hash in entity_content_hash_set or normalized_uri in uris:
+        
+        # Check 3 & 4: Extract zpid and verify consistency
+        zpid = None
+        try:
+            # Parse JSON content
+            content_str = entity.content.decode('utf-8')
+            content_dict = json.loads(content_str)
+            
+            # Extract zpid from content (property identifier)
+            zpid = content_dict.get('zpid')
+            
+            # Convert to string for consistent comparison
+            if zpid is not None:
+                zpid = str(zpid)
+                
+                # Check 4: Verify zpid in content matches zpid in URI
+                uri_zpid = _extract_zpid_from_uri(entity.uri)
+                if uri_zpid and zpid != uri_zpid:
+                    bt.logging.warning(
+                        f"zpid mismatch detected - Content zpid: '{zpid}', URI zpid: '{uri_zpid}'. "
+                        f"This indicates data manipulation or fake zpid."
+                    )
+                    return False  # Inconsistent data = invalid!
+                
+        except (json.JSONDecodeError, UnicodeDecodeError, AttributeError):
+            # If parsing fails, zpid check is skipped (falls back to other checks)
+            # This handles non-JSON content or malformed data gracefully
+            pass
+        
+        # Duplicate detection: Check all three conditions
+        is_hash_duplicate = entity_content_hash in entity_content_hash_set
+        is_uri_duplicate = normalized_uri in uris
+        is_zpid_duplicate = zpid and zpid in zpids
+        
+        if is_hash_duplicate or is_uri_duplicate or is_zpid_duplicate:
+            # Enhanced logging for debugging
+            if is_zpid_duplicate:
+                bt.logging.debug(f"Duplicate zpid detected: {zpid}")
             return False
+        
+        # Add to tracking sets
         entity_content_hash_set.add(entity_content_hash)
         uris.add(normalized_uri)
+        if zpid:
+            zpids.add(zpid)
 
     return True
 
