@@ -197,22 +197,7 @@ class Validator:
                 else:
                     bt.logging.warning("API server health check failed, but continuing...")
                 
-                # Initialize epoch cache for historical epoch validation
-                self.epoch_cache = {}  # epoch_id -> epoch data
-                self.epoch_cache_file = os.path.join(self.config.neuron.full_path, "epoch_cache.json")
-                self.epoch_monitor_thread = None
-                
-                # Load cached epochs from disk
-                self._load_epoch_cache()
-                
-                # Start epoch monitoring thread
-                self.epoch_monitor_thread = threading.Thread(
-                    target=self._monitor_and_cache_epochs,
-                    daemon=True,
-                    name="EpochMonitor"
-                )
-                self.epoch_monitor_thread.start()
-                bt.logging.info("Epoch monitoring thread started")
+                bt.logging.info("Zipcode validation system ready")
                     
             except Exception as e:
                 bt.logging.error(f"Failed to initialize zipcode validation system: {e}")
@@ -498,9 +483,6 @@ class Validator:
     
                 # Update to the latest desirability list after each evaluation.
                 self.get_updated_lookup()
-                
-                # Update epoch cache status (check if we have current epoch data)
-                self._check_epoch_cache_status()
     
                 self.step += 1
     
@@ -1683,57 +1665,40 @@ class Validator:
     def get_expected_listings_for_zipcode(self, zipcode: str, epoch_id: str) -> int:
         """
         Get expected number of listings for a zipcode in an epoch.
-        Uses epoch cache for historical epochs.
+        Fetches directly from API using epoch ID.
         
         Args:
             zipcode: Target zipcode
-            epoch_id: Epoch ID
+            epoch_id: Epoch ID in format "YYYY-MM-DDTHH-00-00"
             
         Returns:
             Expected number of listings
         """
         try:
-            # Check epoch cache first (works for both current and historical epochs)
-            if epoch_id in self.epoch_cache:
-                for assignment in self.epoch_cache[epoch_id].get('assignments', []):
-                    for zipcode_info in assignment.get('zipcodes', []):
-                        if zipcode_info['zipcode'] == zipcode:
-                            expected = zipcode_info.get('expectedListings')
-                            bt.logging.debug(f"Found cached expected listings for {zipcode} in epoch {epoch_id}: {expected}")
-                            return expected
+            if not self.api_client:
+                bt.logging.warning("API client not initialized")
+                return self._get_default_expected_listings(zipcode)
             
-            # If not in cache, try to fetch if it's the current epoch
-            if self.api_client:
-                try:
-                    current_epoch = self.api_client.get_current_epoch_info()
-                    if current_epoch and current_epoch.get('id') == epoch_id:
-                        assignments = self.api_client.get_current_zipcode_assignments()
-                        
-                        if assignments.get('success'):
-                            # Cache it immediately
-                            if epoch_id not in self.epoch_cache:
-                                self.epoch_cache[epoch_id] = {
-                                    'epoch_id': epoch_id,
-                                    'zipcodes': assignments.get('zipcodes', []),
-                                    'assignments': assignments.get('assignments', []),
-                                    'nonce': assignments.get('nonce'),
-                                    'cached_at': dt.datetime.now(dt.timezone.utc).isoformat()
-                                }
-                                self._save_epoch_cache()
-                            
-                            # Find the specific zipcode
-                        for zipcode_info in assignments.get('zipcodes', []):
-                            if zipcode_info['zipcode'] == zipcode:
-                                expected = zipcode_info['expectedListings']
-                                bt.logging.info(f"Retrieved expected listings for {zipcode}: {expected}")
-                                return expected
-                        
-                        bt.logging.warning(f"Zipcode {zipcode} not found in current epoch assignments")
-                    else:
-                        bt.logging.warning(f"API returned assignments for different epoch or failed")
-                        
-                except Exception as api_error:
-                    bt.logging.error(f"Failed to get zipcode assignments from API: {api_error}")
+            # Fetch epoch assignments directly from API
+            epoch_data = self.api_client.get_epoch_assignments(epoch_id)
+            
+            if not epoch_data or not epoch_data.get('success'):
+                bt.logging.warning(f"Failed to fetch assignments for epoch {epoch_id}")
+                return self._get_default_expected_listings(zipcode)
+            
+            # Find the specific zipcode in the zipcodes list
+            zipcodes_list = epoch_data.get('zipcodes', [])
+            for zipcode_info in zipcodes_list:
+                if zipcode_info.get('zipcode') == zipcode:
+                    expected = zipcode_info.get('expectedListings', 0)
+                    bt.logging.debug(f"Found expected listings for {zipcode} in epoch {epoch_id}: {expected}")
+                    return expected
+            
+            bt.logging.warning(f"Zipcode {zipcode} not found in epoch {epoch_id} assignments")
+            return self._get_default_expected_listings(zipcode)
+                
+        except Exception as e:
+            bt.logging.error(f"Error getting expected listings for {zipcode} in epoch {epoch_id}: {e}")
             
             # Fallback: Use historical average or reasonable default based on zipcode
             default_expected = self._get_default_expected_listings(zipcode)

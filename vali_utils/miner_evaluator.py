@@ -63,10 +63,6 @@ class MinerEvaluator:
         )
         self.vpermit_rao_limit = self.config.vpermit_rao_limit
         self.wallet = bt.wallet(config=self.config)
-        # Initialize epoch zipcode tracking for Tier 2 validation
-        self.current_epoch_zipcodes: Optional[Set[str]] = None
-        self.current_epoch_data: Optional[Dict[str, Any]] = None  # Full epoch data with expected listings
-        self.last_epoch_update = None
 
         # Set up initial scoring weights for validation
         self.scorer = MinerScorer(self.metagraph.n, DataValueCalculator())
@@ -285,10 +281,10 @@ class MinerEvaluator:
         bt.logging.info(f"{hotkey}: Starting multi-tier validation on {len(data_entities)} entities")
         
         # TIER 1: Quantity Validation
-        # Get expected listings from zipcode server API (±15% tolerance)
-        expected_listings = self._get_expected_total_listings(hotkey)
+        # Get expected listings from the most recently completed epoch (±15% tolerance)
+        expected_listings = self._get_expected_total_listings()
         if expected_listings:
-            bt.logging.debug(f"{hotkey}: Expected {expected_listings} listings from epoch assignments")
+            bt.logging.debug(f"{hotkey}: Expected {expected_listings} listings from completed epoch")
         else:
             bt.logging.debug(f"{hotkey}: No epoch assignment found, using fallback validation")
         
@@ -694,101 +690,73 @@ class MinerEvaluator:
     def exit(self):
         self.should_exit = True
     
-    def _get_current_epoch_zipcodes(self) -> Optional[Set[str]]:
+    def _get_previous_epoch_id(self, epoch_duration_hours: int = 4) -> str:
         """
-        Fetch current epoch's assigned zipcodes from ResiLabs API.
-        Caches result to avoid excessive API calls.
-        
-        Returns:
-            Set of valid zipcodes for current epoch, or None if API unavailable
-        """
-        try:
-            # Import API client if available
-            from common.resi_api_client import create_api_client
-            import datetime as dt
-            
-            # Check if we need to refresh (cache for 5 minutes)
-            if (self.current_epoch_zipcodes is not None and 
-                self.last_epoch_update is not None and
-                (dt.datetime.now() - self.last_epoch_update).total_seconds() < 300):
-                return self.current_epoch_zipcodes
-            
-            # Create API client and fetch current epoch info
-            api_client = create_api_client(self.config, self.wallet)
-            current_epoch = api_client.get_current_epoch_info()
-            
-            if not current_epoch:
-                bt.logging.debug("No current epoch available from API")
-                return None
-            
-            # Get all zipcodes assigned in this epoch (to all miners)
-            epoch_id = current_epoch.get('id')
-            zipcodes_data = api_client.get_epoch_zipcodes(epoch_id)
-            
-            if zipcodes_data and zipcodes_data.get('success'):
-                # Extract all unique zipcodes and store full data
-                all_zipcodes = set()
-                for assignment in zipcodes_data.get('assignments', []):
-                    for zipcode_info in assignment.get('zipcodes', []):
-                        all_zipcodes.add(zipcode_info['zipcode'])
-                
-                self.current_epoch_zipcodes = all_zipcodes
-                self.current_epoch_data = zipcodes_data  # Store full data including expectedListings
-                self.last_epoch_update = dt.datetime.now()
-                
-                bt.logging.debug(f"Loaded {len(all_zipcodes)} zipcodes for epoch {epoch_id}")
-                return all_zipcodes
-            else:
-                bt.logging.debug("Failed to fetch epoch zipcodes from API")
-                return None
-                
-        except Exception as e:
-            bt.logging.debug(f"Error fetching epoch zipcodes: {e}")
-            return None
-    
-    def _get_expected_total_listings(self, miner_hotkey: str) -> Optional[int]:
-        """
-        Get the total expected listings for a specific miner based on current epoch assignments.
+        Calculate the most recently completed epoch ID.
+        Validators always validate completed epochs, never the active one.
         
         Args:
-            miner_hotkey: The hotkey of the miner being evaluated
+            epoch_duration_hours: Duration of each epoch in hours (default: 4)
             
         Returns:
-            Total expected listings across all assigned zipcodes, or None if unavailable
+            Previous (completed) epoch ID in format "YYYY-MM-DDTHH-00-00"
+        """
+        import datetime as dt
+        
+        now_utc = dt.datetime.now(dt.timezone.utc)
+        previous_time = now_utc - dt.timedelta(hours=epoch_duration_hours)
+        
+        epoch_start_hour = (previous_time.hour // epoch_duration_hours) * epoch_duration_hours
+        epoch_start = previous_time.replace(hour=epoch_start_hour, minute=0, second=0, microsecond=0)
+        
+        epoch_id = epoch_start.strftime("%Y-%m-%dT%H-00-00")
+        return epoch_id
+    
+    def _get_expected_total_listings(self) -> Optional[int]:
+        """
+        Get the total expected listings for the most recently completed epoch.
+        Validators always validate completed epochs to ensure miners had time to scrape.
+        All miners compete on the same set of zipcodes in each epoch.
+        
+        Returns:
+            Total expected listings, or None if unavailable
         """
         try:
-            # Ensure we have current epoch data
-            if self.current_epoch_data is None:
-                # Try to fetch it
-                self._get_current_epoch_zipcodes()
-                
-            if self.current_epoch_data is None:
+            from common.resi_api_client import create_api_client
+            api_client = create_api_client(self.config, self.wallet)
+            
+            # Get the most recently completed epoch
+            epoch_id = self._get_previous_epoch_id()
+            
+            # Fetch epoch assignments from API
+            epoch_data = api_client.get_epoch_assignments(epoch_id)
+            
+            if not epoch_data or not epoch_data.get('success'):
+                bt.logging.debug(f"Failed to fetch assignments for completed epoch {epoch_id}")
                 return None
             
-            # Find the assignment for this specific miner
-            total_expected = 0
-            found_miner = False
+            # Sum up expected listings across all zipcodes
+            zipcodes_list = epoch_data.get('zipcodes', [])
+            if not zipcodes_list:
+                bt.logging.debug(f"No zipcodes found for epoch {epoch_id}")
+                return None
             
-            for assignment in self.current_epoch_data.get('assignments', []):
-                # Check if this assignment is for the miner we're evaluating
-                assigned_hotkey = assignment.get('minerHotkey') or assignment.get('hotkey')
-                if assigned_hotkey == miner_hotkey:
-                    found_miner = True
-                    # Sum up expected listings from all assigned zipcodes
-                    for zipcode_info in assignment.get('zipcodes', []):
-                        expected = zipcode_info.get('expectedListings', 0)
-                        total_expected += expected
-                    break
+            total_expected = sum(
+                z.get('expectedListings', 0) for z in zipcodes_list
+            )
             
-            if found_miner:
-                bt.logging.debug(f"Found expected listings for {miner_hotkey[:8]}: {total_expected}")
+            if total_expected > 0:
+                bt.logging.debug(
+                    f"Validating against completed epoch {epoch_id}: Expected {total_expected} "
+                    f"total listings across {len(zipcodes_list)} zipcodes"
+                )
                 return total_expected
             else:
-                bt.logging.debug(f"No epoch assignment found for miner {miner_hotkey[:8]}")
+                bt.logging.debug(f"Epoch {epoch_id}: 0 expected listings")
                 return None
                 
         except Exception as e:
-            bt.logging.debug(f"Error getting expected listings for {miner_hotkey[:8]}: {e}")
+            bt.logging.debug(f"Error getting expected listings: {e}")
             return None
     
     # Multi-Tier Validation Methods
