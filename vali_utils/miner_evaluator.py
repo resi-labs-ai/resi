@@ -281,8 +281,8 @@ class MinerEvaluator:
         bt.logging.info(f"{hotkey}: Starting multi-tier validation on {len(data_entities)} entities")
         
         # TIER 1: Quantity Validation
-        # Get expected listings from the most recently completed epoch (±15% tolerance)
-        expected_listings = self._get_expected_total_listings()
+        # Get expected listings AND zipcodes from the most recently completed epoch
+        expected_listings, epoch_zipcodes = self._get_expected_listings_and_zipcodes()
         if expected_listings:
             bt.logging.debug(f"{hotkey}: Expected {expected_listings} listings from completed epoch")
         else:
@@ -313,7 +313,11 @@ class MinerEvaluator:
             return
         
         # TIER 2: Quality Validation
-        tier2_passes, tier2_reason, tier2_metrics = self._apply_tier2_quality_validation(data_entities)
+        # Pass epoch_zipcodes from Tier 1 
+        tier2_passes, tier2_reason, tier2_metrics = self._apply_tier2_quality_validation(
+            data_entities,
+            epoch_zipcodes=epoch_zipcodes
+        )
         bt.logging.info(f"{hotkey}: Tier 2 - {tier2_reason}")
         
         if not tier2_passes:
@@ -759,6 +763,59 @@ class MinerEvaluator:
             bt.logging.debug(f"Error getting expected listings: {e}")
             return None
     
+    def _get_expected_listings_and_zipcodes(self) -> Tuple[Optional[int], Optional[Set[str]]]:
+        """
+        Get both the total expected listings AND zipcode set for the most recently completed epoch.
+        Fetches data once to avoid duplicate API calls between Tier 1 and Tier 2 validation.
+        
+        Returns:
+            Tuple of (total_expected_listings, zipcode_set) where either can be None if unavailable
+        """
+        try:
+            from common.resi_api_client import create_api_client
+            api_client = create_api_client(self.config, self.wallet)
+            
+            # Get the most recently completed epoch
+            epoch_id = self._get_previous_epoch_id()
+            
+            # Fetch epoch assignments from API
+            epoch_data = api_client.get_epoch_assignments(epoch_id)
+            
+            if not epoch_data or not epoch_data.get('success'):
+                bt.logging.debug(f"Failed to fetch assignments for completed epoch {epoch_id}")
+                return None, None
+            
+            # Extract zipcodes list
+            zipcodes_list = epoch_data.get('zipcodes', [])
+            if not zipcodes_list:
+                bt.logging.debug(f"No zipcodes found for epoch {epoch_id}")
+                return None, None
+            
+            # Calculate total expected listings
+            total_expected = sum(
+                z.get('expectedListings', 0) for z in zipcodes_list
+            )
+            
+            # Extract zipcode set
+            zipcode_set = set()
+            for z in zipcodes_list:
+                zipcode = z.get('zipcode') or z.get('code') or z.get('zip')
+                if zipcode:
+                    zipcode_set.add(str(zipcode))
+            
+            if total_expected > 0:
+                bt.logging.debug(
+                    f"Validating against completed epoch {epoch_id}: Expected {total_expected} "
+                    f"total listings across {len(zipcodes_list)} zipcodes ({len(zipcode_set)} unique zipcodes)"
+                )
+            
+            return (total_expected if total_expected > 0 else None, 
+                    zipcode_set if zipcode_set else None)
+                
+        except Exception as e:
+            bt.logging.debug(f"Error getting epoch data: {e}")
+            return None, None
+    
     # Multi-Tier Validation Methods
     
     def _apply_tier1_quantity_validation(self, entities: List[DataEntity], expected_count: Optional[int] = None) -> Tuple[bool, str, dict]:
@@ -828,12 +885,13 @@ class MinerEvaluator:
         
         return passes, reason, metrics_data
     
-    def _apply_tier2_quality_validation(self, entities: List[DataEntity]) -> Tuple[bool, str, dict]:
+    def _apply_tier2_quality_validation(self, entities: List[DataEntity], epoch_zipcodes: Optional[Set[str]] = None) -> Tuple[bool, str, dict]:
         """
         Tier 2: Data quality validation - field completeness, reasonable values, and epoch zipcode compliance
         
         Args:
             entities: List of data entities
+            epoch_zipcodes: Optional set of zipcodes from completed epoch (passed from Tier 1 to avoid duplicate API calls)
             
         Returns:
             Tuple of (passes, reason, metrics)
@@ -862,8 +920,8 @@ class MinerEvaluator:
             'zpid', 'address', 'price', 'property_type', 'listing_status'
         ]
         
-        # Get current epoch zipcodes for compliance validation
-        current_epoch_zipcodes = self._get_current_epoch_zipcodes()
+        # Use epoch zipcodes passed from Tier 1 
+        current_epoch_zipcodes = epoch_zipcodes
         
         # Quality metrics
         complete_count = 0
