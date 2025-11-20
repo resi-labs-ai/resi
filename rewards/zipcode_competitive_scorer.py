@@ -5,7 +5,8 @@ Implements per-zipcode competition with 55%/30%/10%/5% reward distribution
 
 from typing import Dict, List, Any, Optional, Set
 import bittensor as bt
-from vali_utils.multi_tier_validator import MultiTierValidator
+import json
+import asyncio
 
 
 class ZipcodeCompetitiveScorer:
@@ -19,7 +20,7 @@ class ZipcodeCompetitiveScorer:
     - All other participants: 5% (distributed equally)
     """
     
-    def __init__(self):
+    def __init__(self, miner_evaluator=None):
         self.reward_distribution = {
             'first_place': 0.55,   # 55% to top miner per zipcode
             'second_place': 0.30,  # 30% to second miner per zipcode  
@@ -27,9 +28,15 @@ class ZipcodeCompetitiveScorer:
             'participation': 0.05  # 5% distributed among all other valid participants
         }
         
-        self.multi_tier_validator = MultiTierValidator()
+        # Reference to MinerEvaluator for validation (injected after initialization)
+        self.miner_evaluator = miner_evaluator
     
-    def validate_and_rank_zipcode_submissions(self, zipcode: str, submissions: List[Dict], 
+    def set_miner_evaluator(self, miner_evaluator):
+        """Inject the MinerEvaluator instance for validation"""
+        self.miner_evaluator = miner_evaluator
+        bt.logging.info("MinerEvaluator injected into ZipcodeCompetitiveScorer")
+    
+    async def validate_and_rank_zipcode_submissions(self, zipcode: str, submissions: List[Dict], 
                                              expected_listings: int, epoch_nonce: str) -> Dict[str, Any]:
         """
         Multi-tier validation and ranking for a specific zipcode
@@ -48,6 +55,23 @@ class ZipcodeCompetitiveScorer:
         Returns:
             Dict with winners, participants, and reward allocation
         """
+        if not self.miner_evaluator:
+            bt.logging.error("MinerEvaluator not injected into ZipcodeCompetitiveScorer!")
+            return {
+                'zipcode': zipcode,
+                'expected_listings': expected_listings,
+                'winners': [],
+                'participants': [],
+                'zipcode_rewards': {},
+                'total_listings_found': 0,
+                'total_submissions_processed': 0,
+                'validation_summary': {
+                    'winners_found': 0,
+                    'participants_found': 0,
+                    'total_validated': 0
+                }
+            }
+        
         bt.logging.info(f"Validating {len(submissions)} submissions for zipcode {zipcode}")
         
         # Step 1: Sort by submission time (earliest first for competitive advantage)
@@ -62,24 +86,26 @@ class ZipcodeCompetitiveScorer:
             
             bt.logging.debug(f"Validating submission from {miner_hotkey[:8]}... for zipcode {zipcode}")
             
-            # Perform complete 3-tier validation
-            validation_result = self.multi_tier_validator.validate_submission_complete(
-                submission, expected_listings, epoch_nonce
+            # Use MinerEvaluator's validation methods
+            validation_result = await self._validate_submission_with_evaluator(
+                submission, expected_listings
             )
             
             if validation_result['passes_all_tiers']:
                 # This miner passes all tiers - add to winners if we need more
                 if len(winners) < 3:
                     winner_rank = len(winners) + 1
+                    listings = submission.get('listings', [])
                     winners.append({
                         'miner_hotkey': miner_hotkey,
                         'submission_time': submission['submission_timestamp'],
-                        'listing_count': len(submission['listings']),
+                        'listing_count': len(listings),
                         'rank': winner_rank,
-                        'validation_result': validation_result
+                        'validation_result': validation_result,
+                        'listings': listings 
                     })
                     
-                    bt.logging.success(f"Winner #{winner_rank} for zipcode {zipcode}: {miner_hotkey[:8]}...")
+                    bt.logging.success(f"Winner #{winner_rank} for zipcode {zipcode}: {miner_hotkey[:8]}... ({len(listings)} listings)")
                     
                     # Stop validation once we have 3 winners (efficiency optimization)
                     if len(winners) == 3:
@@ -95,7 +121,7 @@ class ZipcodeCompetitiveScorer:
                         'miner_hotkey': miner_hotkey,
                         'failed_at_tier': failed_at_tier,
                         'submission_time': submission['submission_timestamp'],
-                        'listing_count': len(submission['listings']),
+                        'listing_count': len(submission.get('listings', [])),
                         'validation_result': validation_result
                     })
                     
@@ -143,6 +169,153 @@ class ZipcodeCompetitiveScorer:
                        f"{total_listings_in_zipcode} total listings")
         
         return result
+    
+    async def _validate_submission_with_evaluator(self, submission: Dict, expected_listings: int) -> Dict[str, Any]:
+        """
+        Validate a submission using MinerEvaluator's validation methods
+        
+        This ensures consistency across real-time and epoch-end validation:
+        - Same Tier 1 logic (API-driven ±15%)
+        - Same Tier 2 logic (quality + epoch compliance)
+        - Same Tier 3 logic (spot-check validation with scraper)
+        - Same duplicate detection (zpid, URI-zpid consistency)
+        
+        Args:
+            submission: Miner submission data with 'listings' field
+            expected_listings: Expected number of listings
+            
+        Returns:
+            Dict with validation results
+        """
+        from common.data import DataEntity, DataSource
+        from vali_utils import utils as vali_utils
+        
+        # Convert submission listings to DataEntity format
+        entities = []
+        for listing in submission.get('listings', []):
+            try:
+                # Create DataEntity from listing
+                content = json.dumps(listing).encode('utf-8')
+                entity = DataEntity(
+                    uri=listing.get('source_url', f"submission://{listing.get('zpid', 'unknown')}"),
+                    datetime=listing.get('scraped_timestamp'),
+                    source=DataSource.SZILL_VALI,
+                    content=content,
+                    content_size_bytes=len(content)
+                )
+                entities.append(entity)
+            except Exception as e:
+                bt.logging.debug(f"Failed to convert listing to DataEntity: {e}")
+                continue
+        
+        if not entities:
+            return {
+                'passes_all_tiers': False,
+                'failed_at_tier': 1,
+                'tier1': {'passes': False, 'reason': 'No valid entities'},
+                'tier2': None,
+                'tier3': None
+            }
+        
+        # Check for duplicates using the same 4-layer check as real-time validation
+        from vali_utils import utils as vali_utils
+        unique = vali_utils.are_entities_unique(entities)
+        if not unique:
+            bt.logging.info(f"Submission failed duplicate check (zpid or URI-zpid consistency)")
+            return {
+                'passes_all_tiers': False,
+                'failed_at_tier': 0,  # Pre-tier failure
+                'tier1': {'passes': False, 'reason': 'Duplicate entities found'},
+                'tier2': None,
+                'tier3': None
+            }
+        
+        # Tier 1: Quantity validation (same as real-time)
+        tier1_passes, tier1_reason, tier1_metrics = self.miner_evaluator._apply_tier1_quantity_validation(
+            entities, expected_count=expected_listings
+        )
+        
+        if not tier1_passes:
+            return {
+                'passes_all_tiers': False,
+                'failed_at_tier': 1,
+                'tier1': {'passes': False, 'reason': tier1_reason, 'metrics': tier1_metrics},
+                'tier2': None,
+                'tier3': None
+            }
+        
+        # Tier 2: Quality & Epoch Compliance validation (same as real-time)
+        tier2_passes, tier2_reason, tier2_metrics = self.miner_evaluator._apply_tier2_quality_validation(entities)
+        
+        if not tier2_passes:
+            return {
+                'passes_all_tiers': False,
+                'failed_at_tier': 2,
+                'tier1': {'passes': True, 'reason': tier1_reason, 'metrics': tier1_metrics},
+                'tier2': {'passes': False, 'reason': tier2_reason, 'metrics': tier2_metrics},
+                'tier3': None
+            }
+        
+        # Tier 3: Spot-check validation (same as real-time)
+        # Randomly select 2 entities for accuracy verification
+        entities_to_validate = vali_utils.choose_entities_to_verify(entities)
+        
+        bt.logging.debug(f"Tier 3: Selected {len(entities_to_validate)} entities for spot-check validation")
+        
+        if not entities_to_validate:
+            return {
+                'passes_all_tiers': False,
+                'failed_at_tier': 3,
+                'tier1': {'passes': True, 'reason': tier1_reason, 'metrics': tier1_metrics},
+                'tier2': {'passes': True, 'reason': tier2_reason, 'metrics': tier2_metrics},
+                'tier3': {'passes': False, 'reason': 'No entities selected for spot-check', 'metrics': {}}
+            }
+        
+        # Get data source from entities
+        data_source = entities[0].source if entities else DataSource.SZILL_VALI
+        
+        # Validate entities using scraper
+        from common.validation_result import ValidationResult
+        
+        # Skip unsupported data sources
+        if data_source in [DataSource.X, DataSource.REDDIT, DataSource.YOUTUBE]:
+            bt.logging.debug(f"Data source {data_source} not supported for Tier 3 - marking as pass")
+            validation_results = [ValidationResult(
+                is_valid=True, 
+                reason=f"Data source not supported - skipping validation", 
+                content_size_bytes_validated=0
+            ) for _ in entities_to_validate]
+        else:
+            # Use the scraper provider from miner_evaluator
+            try:
+                scraper = self.miner_evaluator.scraper_provider.get(
+                    self.miner_evaluator.PREFERRED_SCRAPERS[data_source]
+                )
+                validation_results = await scraper.validate(entities_to_validate)
+            except Exception as e:
+                bt.logging.error(f"Scraper validation failed: {e}")
+                # Mark as failed validation
+                validation_results = [ValidationResult(
+                    is_valid=False,
+                    reason=f"Scraper error: {str(e)}",
+                    content_size_bytes_validated=0
+                ) for _ in entities_to_validate]
+        
+        # Apply Tier 3 validation
+        tier3_passes, tier3_reason, tier3_metrics = self.miner_evaluator._apply_tier3_spot_check_validation(
+            entities_to_validate,
+            validation_results
+        )
+        
+        bt.logging.debug(f"Tier 3 result: {tier3_reason}")
+        
+        return {
+            'passes_all_tiers': tier3_passes,
+            'failed_at_tier': None if tier3_passes else 3,
+            'tier1': {'passes': True, 'reason': tier1_reason, 'metrics': tier1_metrics},
+            'tier2': {'passes': True, 'reason': tier2_reason, 'metrics': tier2_metrics},
+            'tier3': {'passes': tier3_passes, 'reason': tier3_reason, 'metrics': tier3_metrics}
+        }
     
     def calculate_epoch_proportional_weights(self, all_zipcode_results: List[Dict]) -> Dict[str, Any]:
         """

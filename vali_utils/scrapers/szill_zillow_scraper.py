@@ -494,12 +494,21 @@ class SzillZillowScraper(Scraper):
             if (hasattr(entity_content, 'property') and entity_content.property and
                 hasattr(entity_content.property, 'location') and entity_content.property.location):
                 entity_address = entity_content.property.location.addresses
+                # Handle case where addresses might be a dict
+                if isinstance(entity_address, dict):
+                    entity_address = entity_address.get('streetAddress') or entity_address.get('street_address')
 
             # If address is None, try to get it from the root level (RealEstateContent format)
             if entity_address is None and 'address' in entity_content_dict:
                 entity_address = entity_content_dict.get('address')
+                if isinstance(entity_address, dict):
+                    entity_address = entity_address.get('streetAddress') or entity_address.get('street_address')
 
             fresh_address = fresh_content.property.location.addresses
+            # Handle case where addresses might be a dict
+            if isinstance(fresh_address, dict):
+                fresh_address = fresh_address.get('streetAddress') or fresh_address.get('street_address')
+
             if entity_address and fresh_address:
                 # Use more lenient address comparison
                 if not self._addresses_match(entity_address, fresh_address):

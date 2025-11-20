@@ -202,6 +202,35 @@ class ResiLabsAPIClient:
         
         return result
     
+    def get_epoch_assignments(self, epoch_id: str) -> Dict[str, Any]:
+        """
+        Get zipcode assignments for a specific epoch (validator use)
+        
+        Args:
+            epoch_id: The epoch ID in format "YYYY-MM-DDTHH-00-00"
+        
+        Returns:
+            Dict containing epoch zipcode assignments and expected listings
+        """
+        timestamp = self._get_timestamp()
+        commitment = f"zipcode:validation:{epoch_id}:{timestamp}"
+        signature = self._generate_signature(commitment)
+        
+        params = {
+            'hotkey': str(self.hotkey.ss58_address),
+            'signature': signature,
+            'timestamp': timestamp
+        }
+        
+        bt.logging.debug(f"Requesting epoch {epoch_id} assignments...")
+        
+        result = self._make_request('GET', f'/api/v1/zipcode-assignments/epoch/{epoch_id}', params=params)
+        
+        if result.get('success'):
+            bt.logging.debug(f"Retrieved assignments for epoch {epoch_id}")
+        
+        return result
+    
     # ===== SYSTEM ENDPOINTS =====
     
     def get_system_statistics(self) -> Dict[str, Any]:
