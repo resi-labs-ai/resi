@@ -92,6 +92,12 @@ class MinerEvaluator:
         self.is_running: bool = False
         self.lock = threading.RLock()
         self.is_setup = False
+        
+        # Epoch winner tracking
+        self.epoch_baseline_scores = {}
+        self.epoch_miners_evaluated = set()
+        self.epoch_start_block = None
+        self.epoch_complete = False
 
     def get_scorer(self) -> MinerScorer:
         """Returns the scorer used by the evaluator."""
@@ -471,6 +477,22 @@ class MinerEvaluator:
 
         current_block = int(metagraph.block.item())
         
+        # Initialize epoch tracking
+        if self.epoch_start_block is None:
+            self.epoch_start_block = current_block
+            
+            # Capture baseline scores at epoch start
+            with self.scorer.lock:
+                self.epoch_baseline_scores = self.scorer.scores.clone()
+            
+            self.epoch_miners_evaluated = set()
+            total_miners = len(self.miner_iterator.miner_uids)
+            
+            bt.logging.info(
+                f"🔄 Starting epoch at block {current_block} | "
+                f"baseline_captured={total_miners} miners"
+            )
+        
         # Get synchronized batch of miners to evaluate (100 miners per cycle)
         uids_to_eval = self.miner_iterator.get_synchronized_evaluation_batch(current_block)
         
@@ -478,9 +500,11 @@ class MinerEvaluator:
             bt.logging.info("No miners to evaluate in current synchronized batch.")
             return 3600  # Wait 1 hour before checking again
         
+        # Log progress
+        total_miners = len(self.miner_iterator.miner_uids)
         bt.logging.success(
             f"🔄 SYNCHRONIZED EVALUATION: Running validation on {len(uids_to_eval)} miners "
-            f"at block {current_block}. All validators evaluating same batch!"
+            f"at block {current_block}. Progress: {len(self.epoch_miners_evaluated)}/{total_miners}"
         )
 
         # Check if we need to wait for the evaluation period
@@ -535,13 +559,22 @@ class MinerEvaluator:
         duration = time.perf_counter() - t_start
         metrics.MINER_EVALUATOR_EVAL_BATCH_DURATION.labels(hotkey=self.wallet.hotkey.ss58_address).observe(duration)
 
-        bt.logging.success(
-            f"✅ Completed synchronized evaluation of {len(uids_to_eval)} miners in {duration:.1f}s. "
-            f"Next evaluation in ~4 hours."
-        )
+        # Track evaluated miners for epoch completion
+        self.epoch_miners_evaluated.update(uids_to_eval)
+        
+        # Check if epoch is complete
+        total_miners = len(self.miner_iterator.miner_uids)
+        if len(self.epoch_miners_evaluated) >= total_miners:
+            bt.logging.success(f"🎯 Epoch complete! Evaluated {len(self.epoch_miners_evaluated)}/{total_miners} miners")
+            self.epoch_complete = True
+        else:
+            bt.logging.success(
+                f"✅ Completed synchronized evaluation of {len(uids_to_eval)} miners in {duration:.1f}s. "
+                f"Progress: {len(self.epoch_miners_evaluated)}/{total_miners}"
+            )
 
         # Run the next evaluation batch immediately.
-        return 0
+        return 0 if self.epoch_complete else 3600
 
     def save_state(self):
         """Saves the state of the validator to a file."""
@@ -578,6 +611,134 @@ class MinerEvaluator:
 
             # Resize the scorer in case the loaded state is old and missing newly added neurons.
             self.scorer.resize(len(self.metagraph.hotkeys))
+
+    async def collect_epoch_winner_data(self) -> Optional[Dict]:
+        """
+        Identify the single winner for this epoch and collect their data from S3.
+        
+        Winner = Miner with highest epoch score delta
+        
+        Returns:
+            Validation result with winner's complete data, or None if no winners
+        """
+        try:
+            bt.logging.info("🏆 Identifying epoch winner...")
+            
+            # Calculate epoch score deltas for all evaluated miners
+            epoch_scores = {}
+            
+            with self.scorer.lock:
+                current_scores = self.scorer.scores.clone()
+            
+            # Calculate scores for all evaluated miners
+            for uid in self.epoch_miners_evaluated:
+                baseline_score = float(self.epoch_baseline_scores[uid])
+                current_score = float(current_scores[uid])
+                epoch_score_delta = current_score - baseline_score
+                
+                bt.logging.debug(
+                    f"UID {uid}: baseline={baseline_score:.2f}, "
+                    f"current={current_score:.2f}, delta={epoch_score_delta:.2f}"
+                )
+                
+                # Use current absolute score to pick winner
+                epoch_scores[uid] = current_score
+            
+            if not epoch_scores:
+                bt.logging.warning(
+                    f"No miners evaluated this epoch."
+                )
+                return None
+            
+            # Find winner (highest current score)
+            winner_uid = max(epoch_scores.items(), key=lambda x: x[1])[0]
+            winner_current_score = epoch_scores[winner_uid]
+            winner_hotkey = self.metagraph.hotkeys[winner_uid]
+            
+            bt.logging.info(f"🥇 Epoch Winner: UID {winner_uid} ({winner_hotkey[:8]}...) | score={winner_current_score:.2f}")
+            
+            # Store S3 reference to winner's data
+            current_block = int(self.metagraph.block)
+            
+            # Use timestamp-based epoch ID
+            epoch_id = self._get_previous_epoch_id(epoch_duration_hours=4)
+            
+            bt.logging.debug(
+                f"Epoch block range: start={self.epoch_start_block}, "
+                f"end={current_block}, duration={current_block - self.epoch_start_block} blocks | "
+                f"epoch_id={epoch_id}"
+            )
+            
+            # Determine S3 bucket
+            if self.config.netuid == 428:  # Testnet
+                s3_bucket = 'api-staging-miner'
+            else:  # Mainnet
+                s3_bucket = '4000-resilabs-prod-bittensor-sn46-datacollection'
+            
+            # Create S3 data reference for the winner
+            s3_data_reference = {
+                's3_bucket': s3_bucket,
+                's3_path': f"data/hotkey={winner_hotkey}/epoch={epoch_id}/",
+                'access_method': 'Use S3 auth API with miner hotkey to get presigned URLs',
+                's3_auth_url': self.config.s3_auth_url,
+                'miner_hotkey': winner_hotkey,
+                'network': 'testnet' if self.config.netuid == 428 else 'mainnet',
+                'note': 'Data stored by miner in epoch-based structure: data/hotkey={miner}/epoch={epoch_id}/zipcode={zipcode}/data_*.json'
+            }
+            
+            bt.logging.info(f"Winner's data location: s3://{s3_bucket}/{s3_data_reference['s3_path']}")
+            
+            # Create validation result with S3 reference
+            validation_result = {
+                'epoch_id': epoch_id,
+                'validator_hotkey': self.wallet.hotkey.ss58_address,
+                'block_range': {
+                    'start_block': self.epoch_start_block,
+                    'end_block': current_block,
+                    'total_blocks': current_block - self.epoch_start_block
+                },
+                'timestamp': dt.datetime.utcnow().isoformat(),
+                'winner': {
+                    'uid': winner_uid,
+                    'hotkey': winner_hotkey,
+                    'current_score': winner_current_score,
+                    'cumulative_score': float(current_scores[winner_uid]),
+                    'credibility': float(self.scorer.miner_credibility[winner_uid]),
+                    's3_data_reference': s3_data_reference
+                },
+                'epoch_summary': {
+                    'total_miners_evaluated': len(self.epoch_miners_evaluated),
+                    'miners_evaluated': len(epoch_scores),
+                    'winner_current_score': winner_current_score,
+                    'runner_up_score': sorted(epoch_scores.values(), reverse=True)[1] if len(epoch_scores) > 1 else 0
+                },
+                'validation_metadata': {
+                    'validation_type': 'epoch_winner',
+                    'includes_winning_listings': False,
+                    'data_storage_method': 's3_reference',
+                    'note': 'Winner data stored in miner S3',
+                    'retention_days': 180
+                }
+            }
+            
+            bt.logging.success(
+                f"🎉 Epoch winner: UID {winner_uid} | "
+                f"score={winner_current_score:.2f} | "
+                f"data_path={s3_data_reference['s3_path']}"
+            )
+            
+            # Reset for next epoch
+            self.epoch_baseline_scores = {}
+            self.epoch_miners_evaluated = set()
+            self.epoch_start_block = None
+            self.epoch_complete = False
+            
+            return validation_result
+            
+        except Exception as e:
+            bt.logging.error(f"Error collecting epoch winner data: {e}")
+            bt.logging.error(f"Traceback: {traceback.format_exc()}")
+            return None
 
     async def _update_and_get_miner_index(
         self, hotkey: str, uid: int, miner_axon: bt.AxonInfo

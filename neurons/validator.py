@@ -473,6 +473,21 @@ class Validator:
                     self.evaluator.run_next_eval_batch()
                 )
                 self._on_eval_batch_complete()
+                
+                # Check if epoch is complete
+                if hasattr(self.evaluator, 'epoch_complete') and self.evaluator.epoch_complete:
+                    bt.logging.info("🎯 Epoch complete! Collecting winner data...")
+                    
+                    # Collect epoch winner data
+                    validation_result = self.loop.run_until_complete(
+                        self.evaluator.collect_epoch_winner_data()
+                    )
+                    
+                    if validation_result:
+                        # Upload winner data to S3
+                        self.loop.run_until_complete(
+                            self.upload_epoch_winner_to_s3(validation_result)
+                        )
     
                 # Maybe set weights.
                 if self.should_set_weights():
@@ -1754,10 +1769,18 @@ class Validator:
             epoch_id = validation_result['epoch_id']
             bt.logging.info(f"Uploading validation results for epoch {epoch_id}")
             
+            # Calculate estimated size based on winning listings
+            total_listings = validation_result.get('validation_metadata', {}).get('total_winning_listings_included', 0)
+            estimated_size_mb = max(1, int((total_listings * 5) / 1024))  # At least 1MB
+            
+            bt.logging.info(f"Estimated upload size: {estimated_size_mb}MB for {total_listings} winning listings")
+            
             # Get S3 credentials for validator upload
             s3_creds = self.api_client.get_validator_s3_credentials(
                 epoch_id=epoch_id,
-                purpose="epoch_validation_results"
+                purpose="epoch_validation_results_with_listings",
+                estimated_size_mb=estimated_size_mb,
+                retention_days=180
             )
             
             if not s3_creds.get('success'):
@@ -1768,7 +1791,7 @@ class Validator:
             upload_success = self._upload_validation_results_to_s3(validation_result, s3_creds)
 
             if upload_success:
-                bt.logging.success(f"Successfully uploaded validation results for epoch {epoch_id}")
+                bt.logging.success(f"Successfully uploaded validation results with {total_listings} winning listings for epoch {epoch_id}")
                 return True
             else:
                 bt.logging.error(f"Failed to upload validation results for epoch {epoch_id}")
@@ -1808,8 +1831,15 @@ class Validator:
                 temp_file_path = temp_file.name
 
             try:
+                # Extract actual S3 credentials from API response (API returns 'uploadUrl' not 'url')
+                upload_url = s3_creds.get('uploadUrl') or s3_creds.get('url')
+                s3_upload_creds = {
+                    'url': upload_url,
+                    'fields': s3_creds.get('fields')
+                }
+                
                 # Upload using S3 credentials
-                upload_success = self._perform_s3_upload(temp_file_path, s3_key, s3_creds)
+                upload_success = self._perform_s3_upload(temp_file_path, s3_key, s3_upload_creds)
 
                 if upload_success:
                     bt.logging.success(f"Validation results uploaded to S3: {s3_key}")
@@ -1847,7 +1877,11 @@ class Validator:
 
             # Prepare form data
             post_data = dict(s3_creds['fields'])
-            post_data['key'] = s3_key
+            
+            if 'key' in post_data and '${filename}' in post_data['key']:
+                post_data['key'] = post_data['key'].replace('${filename}', s3_key)
+            else:
+                post_data['key'] = s3_key
 
             # Upload file
             with open(file_path, 'rb') as f:
@@ -1868,6 +1902,94 @@ class Validator:
 
         except Exception as e:
             bt.logging.error(f"S3 upload exception for {file_path}: {e}")
+            return False
+
+    async def upload_epoch_winner_to_s3(self, validation_result: dict):
+        """
+        Upload epoch winner data to S3.
+        
+        Args:
+            validation_result: Single winner with their complete data
+        """
+        try:
+            epoch_id = validation_result['epoch_id']
+            winner = validation_result['winner']
+            s3_data_ref = winner.get('s3_data_reference', {})
+            
+            bt.logging.info(
+                f"📤 Uploading epoch winner metadata | "
+                f"epoch={epoch_id} | "
+                f"UID={winner['uid']} | "
+                f"score={winner.get('current_score', winner.get('epoch_score', 0)):.2f} | "
+                f"s3_path={s3_data_ref.get('s3_path', 'N/A')}"
+            )
+            
+            # Get S3 credentials
+            s3_creds = self.api_client.get_validator_s3_credentials(
+                epoch_id=epoch_id,
+                purpose="epoch_winner_metadata",
+                estimated_size_mb=1,
+                retention_days=180
+            )
+            
+            if not s3_creds.get('success'):
+                bt.logging.error("Failed to get S3 credentials")
+                return False
+            
+            # Check if we got valid credentials
+            upload_url = s3_creds.get('uploadUrl') or s3_creds.get('url')
+            fields = s3_creds.get('fields')
+            
+            if not upload_url or not fields:
+                bt.logging.info("Validator S3 upload not configured - epoch winner recorded locally")
+                bt.logging.success(
+                    f"✅ Epoch winner recorded | "
+                    f"UID={winner['uid']} | "
+                    f"score={winner.get('current_score', winner.get('epoch_score', 0)):.2f} | "
+                    f"s3_ref={s3_data_ref.get('s3_path', 'N/A')[:60]}..."
+                )
+                bt.logging.debug(f"Winner metadata: {validation_result}")
+                return True
+            
+            # Create temporary file
+            import tempfile
+            timestamp = int(time.time())
+            validator_hotkey_short = self.wallet.hotkey.ss58_address[:8]
+            filename = f"epoch_winner_{epoch_id}_{validator_hotkey_short}_{timestamp}.json"
+            s3_key = filename
+            
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as temp_file:
+                json.dump(validation_result, temp_file, indent=2, default=str)
+                temp_file_path = temp_file.name
+            
+            try:
+                # Extract actual S3 credentials from API response
+                s3_upload_creds = {
+                    'url': upload_url,
+                    'fields': fields
+                }
+                
+                # Upload
+                upload_success = self._perform_s3_upload(temp_file_path, s3_key, s3_upload_creds)
+                
+                if upload_success:
+                    bt.logging.success(
+                        f"✅ Uploaded epoch winner metadata | "
+                        f"UID={winner['uid']} | "
+                        f"s3_ref={s3_data_ref.get('s3_path', 'N/A')} | "
+                        f"s3_key={s3_key}"
+                    )
+                    return True
+                else:
+                    bt.logging.warning(f"⚠️ Failed to upload epoch winner metadata to S3, but winner recorded")
+                    return True
+                    
+            finally:
+                if os.path.exists(temp_file_path):
+                    os.remove(temp_file_path)
+            
+        except Exception as e:
+            bt.logging.error(f"Error uploading epoch winner data: {e}")
             return False
 
     def update_bittensor_weights_from_zipcode_scores(self, miner_scores: dict):

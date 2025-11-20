@@ -95,15 +95,17 @@ class ZipcodeCompetitiveScorer:
                 # This miner passes all tiers - add to winners if we need more
                 if len(winners) < 3:
                     winner_rank = len(winners) + 1
+                    listings = submission.get('listings', [])
                     winners.append({
                         'miner_hotkey': miner_hotkey,
                         'submission_time': submission['submission_timestamp'],
-                        'listing_count': len(submission.get('listings', [])),
+                        'listing_count': len(listings),
                         'rank': winner_rank,
-                        'validation_result': validation_result
+                        'validation_result': validation_result,
+                        'listings': listings 
                     })
                     
-                    bt.logging.success(f"Winner #{winner_rank} for zipcode {zipcode}: {miner_hotkey[:8]}...")
+                    bt.logging.success(f"Winner #{winner_rank} for zipcode {zipcode}: {miner_hotkey[:8]}... ({len(listings)} listings)")
                     
                     # Stop validation once we have 3 winners (efficiency optimization)
                     if len(winners) == 3:

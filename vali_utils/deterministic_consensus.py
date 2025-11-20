@@ -393,6 +393,12 @@ class DeterministicConsensus:
         # Calculate consensus hash
         consensus_hash = self.calculate_consensus_hash(final_scores, epoch_nonce)
         
+        # Calculate total winning listings included
+        total_winning_listings = 0
+        for zipcode_result in zipcode_results:
+            for winner in zipcode_result.get('winners', []):
+                total_winning_listings += len(winner.get('listings', []))
+        
         # Create comprehensive validation result
         validation_result = {
             'epoch_id': epoch_id,
@@ -406,11 +412,14 @@ class DeterministicConsensus:
                 'total_zipcodes_validated': len(zipcode_results),
                 'total_miners_scored': len(final_scores['miner_scores']),
                 'total_epoch_listings': final_scores['total_epoch_listings'],
-                'consensus_algorithm_version': '1.0'
+                'consensus_algorithm_version': '1.0',
+                'includes_winning_listings': True,
+                'total_winning_listings_included': total_winning_listings
             }
         }
         
         bt.logging.info(f"Created validation result with consensus hash: {consensus_hash}")
+        bt.logging.info(f"Validation result includes {total_winning_listings} winning listings")
         
         return validation_result
     
