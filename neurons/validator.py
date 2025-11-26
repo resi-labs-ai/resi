@@ -821,21 +821,24 @@ class Validator:
         # Extract weights for miners only
         miner_weights = raw_weights[miner_uids]
 
-        # Calculate what 90% of total weight would be
+        # Calculate what 100% of total weight would be
         total_weight = miner_weights.sum().item()
-        burn_weight_portion = 0.90 * total_weight  # 90% goes to burn
+        burn_weight_portion = 1 * total_weight  # 100% goes to burn
 
         # Create new weights array with burn entry
         final_weights = torch.zeros(len(miner_weights) + 1, dtype=torch.float32)
 
-        # Set burn weight (90% of total)
-        final_weights[0] = burn_weight_portion
+        # Set burn weight (100% of total)
+        # final_weights[0] = burn_weight_portion
+        # 100% goes to burn
+        final_weights[0] = 1
 
-        if final_weights[0] == 0:
-            final_weights[0] = 1
+        # if final_weights[0] == 0:
+        #     final_weights[0] = 1
 
         # Set miner weights (10% of original weights, proportionally distributed)
-        remaining_weight = total_weight - burn_weight_portion
+        # remaining_weight = total_weight - burn_weight_portion
+        remaining_weight = 0
         if remaining_weight > 0:
             # Scale down miner weights proportionally to fill remaining 10%
             # miner_weights = raw_weights * (remaining_weight / raw_weights.sum().item())
