@@ -178,4 +178,4 @@ The landmark [hiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ_Labs_v._Li
 
 ---
 ## Contact and Support
-Feel free to reach out for any questions or support in the [RESI Subnet Channel](https://discord.com/channels/799672011265015819/1397618038894759956) in the Official Bittensor Discord Server
+Feel free to reach out for any questions or support in the [RESI Subnet Channel](https://discord.com/channels/799672011265015819/1397618038894759956) in the Official Bittensor Discord Server.  Find us on [X/Twitter](https://x.com/resilabsai)
