@@ -1,6 +1,13 @@
+> [!CAUTION]
+> ## This repository is no longer maintained.
+> **Development has moved to [resi-models](https://github.com/resi-labs-ai/resi-models).**
+> Please refer to the new repository for the latest code, issues, and documentation.
+
+---
+
 <div align="center">
 
-# <img src="assets/resi-logo.png" alt="RESI Logo" width="23"> RESI - Real Estate Super Intelligence
+# <img src="assets/resi-logo.png" alt="RESI Logo" width="23"> RESI - Real Estate Super Intelligence *(Archived)*
 
 
 </div>
